@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:04:2011 12:14
+date: 06:05:2011 15:57
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta6
 default-namespace: default_namespace
@@ -5233,6 +5233,13 @@ def: "Any process which modulates the physical craving for water over short term
 is_a: NBO:0000234 ! thirst motivation behavior
 created_by: George Gkoutos
 creation_date: 2011-04-21T09:06:40Z
+
+[Term]
+id: NBO:0000641
+name: discrimination learning
+is_a: NBO:0000171 ! associative learning behavior
+created_by: George Gkoutos
+creation_date: 2011-05-06T03:56:31Z
 
 [Typedef]
 id: inheres_in

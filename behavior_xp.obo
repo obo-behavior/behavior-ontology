@@ -1,0 +1,231 @@
+date: 27:07:2007 00:13
+saved-by: George Gkoutos
+default-namespace: mammalian_behaviour_xp
+ontology: mbo-logical-definitions
+
+[Term]
+id: NBO:0000030 ! hyperactivity
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0000013 ! locomotory behaviour
+
+[Term]
+id: NBO:0000031 ! hypoactivity
+intersection_of: PATO:0000761 ! hypoactive
+intersection_of: inheres_in NBO:0000013 ! locomotory behaviour
+
+[Term]
+id: NBO:0000541 ! dipsosis
+intersection_of: PATO:0000381 ! decreased frequency
+intersection_of: qualifier PATO:0001863 ! chronic
+intersection_of: inheres_in NBO:0000064 ! drinking behaviour
+
+[Term]
+id: NBO:0000542 ! polydipsia
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0000130 ! liquid consumation
+
+[Term]
+id: NBO:0000543 ! hyperdipsia
+intersection_of: PATO:0000380 ! increased frequency
+intersection_of: qualifier PATO:0001333 ! temporally extended
+intersection_of: inheres_in NBO:0000064 ! drinking behaviour
+
+[Term]
+id: NBO:0000544 ! aphagia
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: inheres_in NBO:0000063 ! eating behaviour
+
+[Term]
+id: NBO:0000590 ! ataxia
+intersection_of: PATO:0000770 ! uncoordinated
+intersection_of: inheres_in GO:0050881 ! musculoskeletal movement
+
+[Term]
+id: NBO:0000011 ! social behaviour
+equivalent_to: GO:0035176 ! social behavior
+
+[Term]
+id: NBO:0000028 ! akinesia
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: inheres_in NBO:0000403 ! voluntary movement behaviour
+
+[Term]
+id: NBO:0000029 ! bradykinesia
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0000403 ! voluntary movement behaviour
+
+[Term]
+id: NBO:0000030! hyperactivity
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0000338 ! kinesthetic behaviour
+
+[Term]
+id: NBO:0000031 ! hypoactivity
+intersection_of: PATO:0000911 ! decreased rate
+intersection_of: inheres_in NBO:0000338 ! kinesthetic behaviour
+
+[Term]
+id: NBO:0000171 ! associative learning behaviour
+equivalent_to: GO:0008306 ! associative learning
+
+[Term]
+id: NBO:0000022 ! learning behaviour
+equivalent_to: GO:0007612 ! learning
+
+[Term]
+id: NBO:0000006 ! learning and/or memory behaviour
+equivalent_to: GO:0007611 ! learning or memory
+
+[Term]
+id: NBO:0000177 ! non-associative learning
+equivalent_to: GO:0046958 ! nonassociative learning
+
+[Term]
+id: NBO:0000015 ! aggressive behavior
+equivalent_to: GO:0002118 ! aggressive behavior
+
+[Term]
+id: NBO:0000178 ! habituation
+equivalent_to: GO:0046959 ! habituation
+
+[Term]
+id: NBO:0000179 ! sensitization
+equivalent_to: GO:0046960 ! sensitization
+
+[Term]
+id: NBO:0000038 ! excretion
+equivalent_to: GO:0007588 ! excretion
+
+[Term]
+id: NBO:0000040 ! urination
+equivalent_to: GO:0060073 ! micturition
+
+[Term]
+id: NBO:0000054 ! suckling behavior
+equivalent_to: GO:0001967 ! suckling behavior
+
+[Term]
+id: NBO:0000037 ! vocalization behaviour
+equivalent_to: GO:0071625 ! vocalization behaviour
+
+[Term]
+id: NBO:0000578 ! righting reflex
+equivalent_to: GO:0060013 ! righting reflex
+
+[Term]
+id: NBO:0000079 ! feeding behavior
+equivalent_to: GO:0007631 ! feeding behavior
+
+[Term]
+id: NBO:0000056 ! walking behaviour
+equivalent_to: GO:0007628 ! adult walking behavior
+
+[Term]
+id: NBO:0000064 ! drinking behaviour
+equivalent_to: GO:0042756 ! drinking behaviour
+
+[Term]
+id: NBO:0000063 ! eating behaviour
+equivalent_to: GO:0042755 ! eating behavior
+
+[Term]
+id: NBO:0000315 ! optokinetic behavior
+equivalent_to: GOß:0007634 ! optokinetic behavior
+
+[Term]
+id: NBO:0000618 ! crying behaviour
+equivalent_to: GO:0060273 ! crying behaviour
+
+[Term]
+id: NBO:0000011 ! social behavior
+equivalent_to: GO:0035176 ! social behavior
+
+[Term]
+id: NBO:0000089 ! attacking predator behaviour
+equivalent_to: GO:0002120 ! predatory aggressive behavior
+
+[Term]
+id: NBO:0000633 ! territorial aggressive behavior
+equivalent_to: GO:0002124 ! predatory aggressive behavior
+
+[Term]
+id: NBO:0000536 ! circadian regulation of heart rate
+equivalent_to: GO:0003053 ! circadian regulation of heart rate
+
+[Term]
+id: NBO:0000538 ! circadian temperature homeostasis
+equivalent_to: GO:0060086 ! circadian temperature homeostasis
+
+[Term]
+id: NBO:0000166 ! circadian rhythm
+equivalent_to: GO:0007623 ! circadian rhythm
+
+[Term]
+id: NBO:0000077 ! courtship behavior
+equivalent_to: GO:0007619 ! courtship behavior
+
+[Term]
+id: NBO:0000637 ! male courtship behavior
+equivalent_to: GO:0007619 ! male courtship behavior
+
+[Term]
+id: NBO:0008049 ! female courtship behavior
+equivalent_to: GO:0007619 ! female courtship behavior
+
+[Term]
+id: NBO:0000237 ! hunger regulation
+equivalent_to: GO:0032098 ! regulation of appetite
+
+[Term]
+id: NBO:0000312 ! sleep regulation
+equivalent_to: GO:0045187 ! regulation of circadian sleep/wake cycle, sleep
+
+[Term]
+id: NBO:0008050 ! reproductive behavior
+equivalent_to: GO:0019098 ! reproductive behavior
+
+[Term]
+id: NBO:0000634 ! irritable aggressive behavior
+intersection_of: NBO:0000015 ! aggressive behaviour
+intersection_of: caused_by NBO:0000128 ! irritability
+
+[Term]
+id: NBO:0000302 ! maternal aggressive behavior
+equivalent_to: GO:0002125 ! maternal aggressive behavior
+
+[Term]
+id: NBO:0000606! forgetfulness
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0000304 ! memory loss behaviour
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

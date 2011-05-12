@@ -36,6 +36,16 @@ intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: inheres_in NBO:0000063 ! eating behaviour
 
 [Term]
+id: NBO:0000546 ! polyphagia
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0000134 ! food consumption
+
+[Term]
+id: NBO:0000547 ! anhedonia
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: inheres_in NBO:0000230 ! pleasure
+
+[Term]
 id: NBO:0000590 ! ataxia
 intersection_of: PATO:0000770 ! uncoordinated
 intersection_of: inheres_in GO:0050881 ! musculoskeletal movement

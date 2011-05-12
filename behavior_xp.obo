@@ -55,6 +55,10 @@ id: NBO:0000011 ! social behaviour
 equivalent_to: GO:0035176 ! social behavior
 
 [Term]
+id: NBO:0000027 ! grooming behaviour
+equivalent_to: GO:0007625 ! grooming behavior
+
+[Term]
 id: NBO:0000028 ! akinesia
 intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: inheres_in NBO:0000403 ! voluntary movement behaviour

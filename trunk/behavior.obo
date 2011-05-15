@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 06:05:2011 15:57
+date: 15:05:2011 09:33
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta6
 default-namespace: default_namespace
@@ -3261,7 +3261,7 @@ creation_date: 2011-04-06T04:07:37Z
 id: NBO:0000407
 name: extensor digitorum reflex
 def: "A reflex that elicits involuntary contraction of the extensor digitorum muscle." [NBO:GVG]
-synonym: "BER" EXACT []
+synonym: "BER" BROAD []
 synonym: "Braunecker-Effenberg reflex" EXACT []
 is_a: NBO:0000404 ! stretch reflex
 created_by: George Gkoutos

@@ -4,16 +4,6 @@ default-namespace: mammalian_behaviour_xp
 ontology: mbo-logical-definitions
 
 [Term]
-id: NBO:0000030 ! hyperactivity
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in NBO:0000013 ! locomotory behaviour
-
-[Term]
-id: NBO:0000031 ! hypoactivity
-intersection_of: PATO:0000761 ! hypoactive
-intersection_of: inheres_in NBO:0000013 ! locomotory behaviour
-
-[Term]
 id: NBO:0000541 ! dipsosis
 intersection_of: PATO:0000381 ! decreased frequency
 intersection_of: qualifier PATO:0001863 ! chronic
@@ -48,7 +38,7 @@ intersection_of: inheres_in NBO:0000230 ! pleasure
 [Term]
 id: NBO:0000590 ! ataxia
 intersection_of: PATO:0000770 ! uncoordinated
-intersection_of: inheres_in GO:0050881 ! musculoskeletal movement
+intersection_of: inheres_in NBO:0000403 ! voluntary movement behaviour
 
 [Term]
 id: NBO:0000011 ! social behaviour
@@ -151,10 +141,6 @@ id: NBO:0000618 ! crying behaviour
 equivalent_to: GO:0060273 ! crying behaviour
 
 [Term]
-id: NBO:0000011 ! social behavior
-equivalent_to: GO:0035176 ! social behavior
-
-[Term]
 id: NBO:0000089 ! attacking predator behaviour
 equivalent_to: GO:0002120 ! predatory aggressive behavior
 
@@ -180,11 +166,11 @@ equivalent_to: GO:0007619 ! courtship behavior
 
 [Term]
 id: NBO:0000637 ! male courtship behavior
-equivalent_to: GO:0007619 ! male courtship behavior
+equivalent_to: GO:0008049 ! male courtship behavior
 
 [Term]
 id: NBO:0008049 ! female courtship behavior
-equivalent_to: GO:0007619 ! female courtship behavior
+equivalent_to: GO:0008050 ! female courtship behavior
 
 [Term]
 id: NBO:0000237 ! hunger regulation
@@ -195,7 +181,7 @@ id: NBO:0000312 ! sleep regulation
 equivalent_to: GO:0045187 ! regulation of circadian sleep/wake cycle, sleep
 
 [Term]
-id: NBO:0008050 ! reproductive behavior
+id: NBO:0000010 ! reproductive behavior
 equivalent_to: GO:0019098 ! reproductive behavior
 
 [Term]
@@ -211,6 +197,150 @@ equivalent_to: GO:0002125 ! maternal aggressive behavior
 id: NBO:0000606! forgetfulness
 intersection_of: PATO:0000912 ! increased rate
 intersection_of: inheres_in NBO:0000304 ! memory loss behaviour
+
+[Term]
+id: NBO:0000379 ! negative gravitactic behavior
+equivalent_to: GO:0048060 ! negative gravitaxis
+
+[Term]
+id: NBO:0000173 ! visual learning behavior
+equivalent_to: GO:0008542 ! visual learning
+
+[Term]
+id: NBO:0000314 ! visual behavior
+equivalent_to: GO:0007632 ! visual behavior
+
+[Term]
+id: NBO:0000024 ! sleeping behavior
+equivalent_to: GO:0030431 ! sleep
+
+[Term]
+id: NBO:0000316 ! auditory behavior
+equivalent_to: GO:0031223 ! auditory behavior
+
+[Term]
+id: NBO:0000378 ! gravitactic behavior
+equivalent_to: GO:0042332 ! gravitaxis
+
+[Term]
+id: NBO:0000013 ! locomotory behavior
+equivalent_to: GO:0007626 ! locomotory behavior
+
+[Term]
+id: NBO:0000014 ! mating behavior
+equivalent_to: GO:0007617 ! mating behavior
+
+[Term]
+id: NBO:0000170 ! memory behavior
+equivalent_to: GO:0007613 ! memory
+
+[Term]
+id: NBO:0000212 ! operant conditioning behavior
+equivalent_to: GO:0035106 ! operant conditioning
+
+[Term]
+id: NBO:0000150 ! maternal behavior
+equivalent_to: GO:0042711 ! maternal behavior
+
+[Term]
+id: NBO:0000380 ! positive gravitactic behavior
+equivalent_to: GO:0048061 ! positive gravitaxis
+
+[Term]
+id: NBO:0000211 ! conditioned taste aversion
+equivalent_to: GO:0001661 ! conditioned taste aversion
+
+[Term]
+id: NBO:0000008 ! rhythmic behavior
+equivalent_to: GO:0007622 ! rhythmic behavior
+
+[Term]
+id: NBO:0000367 ! flight behavior
+equivalent_to: GO:0007629 ! flight behavior
+
+[Term]
+id: NBO:0000377 ! chemotactic behavior
+equivalent_to: GO:0006935 ! chemotaxis
+
+[Term]
+id: NBO:0000176 ! vocal learning
+equivalent_to: GO:0042297 ! vocal learning
+
+[Term]
+id: NBO:0000383 ! phototactic behavior
+equivalent_to: GO:0042331 ! phototaxis
+
+[Term]
+id: NBO:0000180 ! short-term memory
+equivalent_to: GO:0007614 ! short-term memory
+
+[Term]
+id: NBO:0000044 ! parental behavior
+equivalent_to: GO:0060746 ! parental behavior
+
+[Term]
+id: NBO:0000181 ! long-term memory
+equivalent_to: GO:0007616 ! long-term memory
+
+[Term]
+id: NBO:0000184 ! medium term memory
+equivalent_to: GO:0072375 ! medium-term memory
+
+[Term]
+id: NBO:0000172 ! olfactory learning behavior
+equivalent_to: GO:0008355 ! olfactory learning
+
+[Term]
+id: NBO:0000326 ! thermosensory behavior
+equivalent_to: GO:0040040 ! thermosensory behavior
+
+[Term]
+id: NBO:0000084 ! circadian behavior
+equivalent_to: GO:0048512 ! circadian behavior
+
+[Term]
+id: NBO:0000375 ! taxis
+equivalent_to: GO:0042330 ! taxis
+
+[Term]
+id: NBO:0000000 ! behavior
+equivalent_to: GO:0007610 ! behavior
+
+[Term]
+id: NBO:0000322 ! chemosensory behavior
+equivalent_to: GO:0007635 ! chemosensory behavior
+
+[Term]
+id: NBO:0000382 ! energy taxis
+equivalent_to: GO:0009453 ! energy taxis
+
+[Term]
+id: NBO:0000100 ! exploration behavior
+equivalent_to: GO:0035640 ! exploration behavior
+
+[Term]
+id: NBO:0000323 ! olfactory behavior
+equivalent_to: GO:0042048 ! olfactory behavior
+
+[Term]
+id: NBO:0000381 ! thigmotaxis
+equivalent_to: GO:0001966 ! thigmotaxis
+
+[Term]
+id: NBO:0000374 ! kinesis
+equivalent_to: GO:0042465 ! kinesis
+
+[Term]
+id: NBO:0000151 ! paternal behavior
+equivalent_to: GO:0042712 ! paternal behavior
+
+[Term]
+id: NBO:0000078 ! post-mating behavior
+equivalent_to: GO:0045297 ! post-mating behavior
+
+[Term]
+id: NBO:0000384 ! thermotaxis
+equivalent_to: GO:0043052 ! thermotaxis
 
 
 

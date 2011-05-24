@@ -1,7 +1,7 @@
 date: 27:07:2007 00:13
 saved-by: George Gkoutos
-default-namespace: mammalian_behaviour_xp
-ontology: mbo-logical-definitions
+default-namespace: behavior_ontology_xp
+ontology: nbo-logical-definitions
 
 [Term]
 id: NBO:0000541 ! dipsosis

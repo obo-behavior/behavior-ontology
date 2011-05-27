@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:05:2011 09:33
+date: 27:05:2011 19:27
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta6
 default-namespace: behavior_ontology
@@ -42,7 +42,7 @@ id: NBO:0000005
 name: pathological reflexive behavior
 def: "Pathological behaviour related to involuntary movement in response to a stimulus." [NBO:GVG]
 synonym: "pathological reflexive behaviour" EXACT []
-is_a: NBO:0000568 ! pathological kinesthetic behavior
+is_a: NBO:0000643 ! pathological involuntary movement behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T11:57:02Z
 
@@ -74,7 +74,7 @@ id: NBO:0000009
 name: pathological locomotory behavior
 def: "Pathological behavior associated with the specific movement from place to place of an organism." [NBO:GVG]
 synonym: "pathological locomotory behaviour" EXACT []
-is_a: NBO:0000568 ! pathological kinesthetic behavior
+is_a: NBO:0000644 ! pathological voluntary movement behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T12:58:40Z
 
@@ -203,6 +203,7 @@ creation_date: 2011-04-14T01:03:39Z
 [Term]
 id: NBO:0000025
 name: seizures
+def: "An uncontrolled, paroxysmal neuronal discharge in any part of the brain; it may cause physical or mental symptoms and may be convulsive or nonconvulsive" [NBO:GVG]
 is_a: NBO:0000012 ! seizures/epilepsy
 created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
@@ -244,7 +245,7 @@ creation_date: 2011-04-14T01:03:39Z
 id: NBO:0000030
 name: hyperactivity
 def: "A kinesthetic behavior which relatively increased." [NBO:GVG]
-is_a: NBO:0000568 ! pathological kinesthetic behavior
+is_a: NBO:0000644 ! pathological voluntary movement behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T01:09:28Z
 
@@ -252,7 +253,7 @@ creation_date: 2011-04-14T01:09:28Z
 id: NBO:0000031
 name: hypoactivity
 def: "A kinesthetic behavior which relatively increased." [NBO:GVG]
-is_a: NBO:0000568 ! pathological kinesthetic behavior
+is_a: NBO:0000644 ! pathological voluntary movement behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T01:09:41Z
 
@@ -1820,7 +1821,7 @@ id: NBO:0000229
 name: pathological vestibular behavior
 def: "Pathological behavior related to the awareness of body balance and movement." [NBO:GVG]
 synonym: "pathological vestibular behaviour" EXACT []
-is_a: NBO:0000243 ! pathological behavior
+is_a: NBO:0000656 ! pathological somatic sensation related behavior
 created_by: George Gkoutos
 creation_date: 2011-04-04T06:34:21Z
 
@@ -2452,6 +2453,7 @@ creation_date: 2011-04-04T09:55:36Z
 [Term]
 id: NBO:0000308
 name: sensation behavior
+def: "Behavior related any of the five senses -- vision, touch, smell, taste, and hearing." [NBO:GVG]
 is_a: NBO:0000313 ! physiological behavior
 created_by: George Gkoutos
 creation_date: 2011-04-04T10:00:45Z
@@ -2500,6 +2502,10 @@ creation_date: 2011-04-05T09:53:10Z
 [Term]
 id: NBO:0000314
 name: visual behavior
+def: "Behavior related to the actions or reactions of an organism in response to a visual stimulus." [GO:0007632]
+synonym: "behavioral response to visual stimulus" EXACT []
+synonym: "behavioural response to visual stimulus" EXACT []
+synonym: "visual behaviour" EXACT []
 is_a: NBO:0000308 ! sensation behavior
 created_by: George Gkoutos
 creation_date: 2011-04-05T10:36:24Z
@@ -2507,6 +2513,7 @@ creation_date: 2011-04-05T10:36:24Z
 [Term]
 id: NBO:0000315
 name: optokinetic behavior
+def: "Behavior related to the actions or reactions of an organism pertaining to movement of the eyes and of objects in the visual field, as in nystagmus." [GO:0007634]
 is_a: NBO:0000314 ! visual behavior
 created_by: George Gkoutos
 creation_date: 2011-04-05T10:37:02Z
@@ -2560,6 +2567,7 @@ creation_date: 2011-04-05T10:44:55Z
 [Term]
 id: NBO:0000322
 name: chemosensory behavior
+def: "Behavior related to the sensation of chemicals." [NBO:GVG]
 is_a: NBO:0000308 ! sensation behavior
 created_by: George Gkoutos
 creation_date: 2011-04-05T10:48:17Z
@@ -2567,6 +2575,7 @@ creation_date: 2011-04-05T10:48:17Z
 [Term]
 id: NBO:0000323
 name: olfactory behavior
+def: "Behavior related to the sensation of odors." [NBO:GVG]
 is_a: NBO:0000322 ! chemosensory behavior
 created_by: George Gkoutos
 creation_date: 2011-04-05T10:48:52Z
@@ -2679,7 +2688,7 @@ creation_date: 2011-04-05T02:06:22Z
 id: NBO:0000338
 name: kinesthetic behavior
 def: "Behavior related to the movement of the body's muscles, tendons, and joints." [NBO:GVG]
-is_a: NBO:0000308 ! sensation behavior
+is_a: NBO:0000313 ! physiological behavior
 created_by: George Gkoutos
 creation_date: 2011-04-05T02:08:47Z
 
@@ -4620,7 +4629,7 @@ name: stereotypic behavior
 def: "A pathological behavior associated with repetitive or ritualistic movement, posture, or utterance." [wikipedia:Stereotypy]
 synonym: "stereotypic behaviour" EXACT []
 synonym: "stereotypy" EXACT []
-is_a: NBO:0000568 ! pathological kinesthetic behavior
+is_a: NBO:0000644 ! pathological voluntary movement behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T08:28:29Z
 
@@ -4636,7 +4645,7 @@ creation_date: 2011-04-14T08:31:34Z
 id: NBO:0000569
 name: fatigue
 def: "Exhibiting abnormal exhaustion due to mental or physical exertion." [NBO:GVG]
-is_a: NBO:0000568 ! pathological kinesthetic behavior
+is_a: NBO:0000644 ! pathological voluntary movement behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T08:32:15Z
 
@@ -4799,7 +4808,7 @@ creation_date: 2011-04-14T11:09:10Z
 id: NBO:0000588
 name: spasm
 def: "A sudden, involuntary contraction of a muscle or group of muscles." [NBO:GVG]
-is_a: NBO:0000568 ! pathological kinesthetic behavior
+is_a: NBO:0000643 ! pathological involuntary movement behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T11:10:55Z
 
@@ -4810,7 +4819,7 @@ def: "An involuntary rhythmical, oscillatory movement of a body part." [NBO:GVG]
 synonym: "quivering" EXACT []
 synonym: "shivering" EXACT []
 synonym: "trembling" EXACT []
-is_a: NBO:0000568 ! pathological kinesthetic behavior
+is_a: NBO:0000643 ! pathological involuntary movement behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T11:13:39Z
 
@@ -4975,6 +4984,7 @@ name: visual hallucination
 def: "A form of hallucination that involves perceiving images without visual stimulus." [NBO:GVG]
 synonym: "paracusia" EXACT []
 is_a: NBO:0000608 ! hallucination
+is_a: NBO:0000659 ! pathological visual behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T03:54:02Z
 
@@ -4983,6 +4993,7 @@ id: NBO:0000610
 name: auditory hallucination
 def: "A form of hallucination that involves perceiving sounds without auditory stimulus." [wikipedia:Auditory_hallucination]
 is_a: NBO:0000608 ! hallucination
+is_a: NBO:0000658 ! pathological auditory behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T03:56:24Z
 
@@ -4992,6 +5003,7 @@ name: olfactory hallucination
 def: "A form of hallucination that involves perceiving odors without odor stimulus." [NBO:GVG]
 synonym: "phantosmia " EXACT []
 is_a: NBO:0000608 ! hallucination
+is_a: NBO:0000661 ! pathological olfactory behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T03:58:15Z
 
@@ -5240,6 +5252,456 @@ name: discrimination learning
 is_a: NBO:0000171 ! associative learning behavior
 created_by: George Gkoutos
 creation_date: 2011-05-06T03:56:31Z
+
+[Term]
+id: NBO:0000642
+name: epilepsy
+def: "Two or more unprovoked recurrent seizures." [NBO:GVG]
+is_a: NBO:0000012 ! seizures/epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-27T11:42:33Z
+
+[Term]
+id: NBO:0000643
+name: pathological involuntary movement behavior
+def: "Pathological behavior related to movements that occur independent of planning." [NBO:GVG]
+is_a: NBO:0000568 ! pathological kinesthetic behavior
+created_by: George Gkoutos
+creation_date: 2011-05-27T11:56:52Z
+
+[Term]
+id: NBO:0000644
+name: pathological voluntary movement behavior
+def: "Pathological behavior related to movements executed with intent." [NBO:GVG]
+is_a: NBO:0000568 ! pathological kinesthetic behavior
+created_by: George Gkoutos
+creation_date: 2011-05-27T11:57:12Z
+
+[Term]
+id: NBO:0000645
+name: convulsion
+def: "A rapid and repeated body muscle contract that results in an uncontrolled shaking of the body." [NBO:GVG]
+synonym: "fit" RELATED []
+is_a: NBO:0000643 ! pathological involuntary movement behavior
+created_by: George Gkoutos
+creation_date: 2011-05-27T11:59:40Z
+
+[Term]
+id: NBO:0000646
+name: partial seizure
+def: "A seizure which affect only a part of the brain at onset." [wikipedia:http\://en.wikipedia.org/wiki/Focal_seizures]
+comment: Partial seizures begin with an electrical discharge in one limited area of the brain.
+synonym: "focal seizure" EXACT []
+synonym: "localized seizure" EXACT []
+is_a: NBO:0000025 ! seizures
+created_by: George Gkoutos
+creation_date: 2011-05-27T12:49:09Z
+
+[Term]
+id: NBO:0000647
+name: simple partial seizure
+def: "A partial seizure which affect only a small region of the brain, often the temporal lobes and/or hippocampi." [wikipedia:http\://en.wikipedia.org/wiki/Simple_partial_seizure]
+comment: Depending on the area of cerebral cortex involved, symptoms may be motor, cognitive, sensory, autonomic, or affective. Consciousness is not impaired.
+is_a: NBO:0000646 ! partial seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T12:51:40Z
+
+[Term]
+id: NBO:0000648
+name: complex partial seizure
+def: "A seizure that is associated with bilateral cerebral hemisphere involvement and causes impairment of awareness or responsiveness, i.e. loss of consciousness." [wikipedia:http\://en.wikipedia.org/wiki/Complex_partial_seizures]
+synonym: "psychomotor seizures" EXACT []
+synonym: "temporal lobe seizure" EXACT []
+is_a: NBO:0000646 ! partial seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T12:59:01Z
+
+[Term]
+id: NBO:0000649
+name: consciousness
+is_a: NBO:0000065 ! consciousness
+created_by: George Gkoutos
+creation_date: 2011-05-27T01:51:38Z
+
+[Term]
+id: NBO:0000650
+name: temporal lobe epilepsy
+def: "A type of focal epilepsy characterized by recurrent seizures." [NBO:http\://en.wikipedia.org/wiki/Temporal_lobe_epilepsy]
+synonym: "psychomotor epilepsy" EXACT []
+is_a: NBO:0000642 ! epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-27T02:42:59Z
+
+[Term]
+id: NBO:0000651
+name: simple partial seizure with motor signs
+def: "A simple partial seizure affecting the kinesthetic behavior." [NBO:GVG]
+synonym: "motor seizure" EXACT []
+is_a: NBO:0000647 ! simple partial seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T02:50:59Z
+
+[Term]
+id: NBO:0000652
+name: simple partial seizure with sensory symptoms
+def: "A simple partial seizure affecting any of the five senses -- vision, touch, smell, taste, and hearing." [NBO:GVG]
+comment: Some simple partial seizures consist of a sensory experience. The person may see lights, hear a buzzing sound, or feel tingling or numbness in a part of the body.
+synonym: "Jacksonian sensory seizures" EXACT []
+synonym: "sensory seizure" EXACT []
+is_a: NBO:0000647 ! simple partial seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T02:51:16Z
+
+[Term]
+id: NBO:0000653
+name: simple partial seizure with autonomic symptoms or signs
+def: "A simple partial seizure affecting the part of the nervous system that automatically controls bodily functions." [NBO:GVG]
+comment: These seizures are accompanied by autonomic symptoms or signs, such as abdominal discomfort or nausea which may rise into the throat (epigastric rising), stomach pain, the rumbling sounds of gas moving in the intestines (borborygmi), belching, flatulence and vomiting. Other symptoms may include pallor, flushing, sweating, hair standing on end (piloerection), dilation of the pupils, alterations in heart rate and respiration, and urination. A few people may experience sexual arousal, penile erection, and orgasm.
+synonym: "abdominal epilepsy" EXACT []
+synonym: "autonomic seizure" EXACT []
+is_a: NBO:0000647 ! simple partial seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T02:51:31Z
+
+[Term]
+id: NBO:0000654
+name: simple partial seizure with psychic symptoms
+def: "A simple partial seizure affecting the emotional behavior." [NBO:GVG]
+comment: Simple partial seizures which arise in or near the temporal lobes often take the form of an odd experience. One may see or hear things that are not there. One feels emotions, often fear, but sometimes sadness, anger, or joy. There may be a bad smell or a bad taste, a funny feeling in the pit of the stomach or a choking sensation.
+synonym: "psychic seizure" EXACT []
+synonym: "simple partial seizures of temporal lobe origin" EXACT []
+synonym: "temporal lobe auras" EXACT []
+is_a: NBO:0000647 ! simple partial seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T02:51:48Z
+
+[Term]
+id: NBO:0000655
+name: pathological sensation behavior
+def: "Pathological behavior related any of the five senses -- vision, touch, smell, taste, and hearing." [NBO:GVG]
+is_a: NBO:0000243 ! pathological behavior
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:06:17Z
+
+[Term]
+id: NBO:0000656
+name: pathological somatic sensation related behavior
+def: "Pathological behavior related to the sensations arising from the skin and from the muscles, tendons, and joints." [NBO:GVG]
+is_a: NBO:0000655 ! pathological sensation behavior
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:20:39Z
+
+[Term]
+id: NBO:0000657
+name: pathological cutaneous sensation behavior
+is_a: NBO:0000656 ! pathological somatic sensation related behavior
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:21:20Z
+
+[Term]
+id: NBO:0000658
+name: pathological auditory behavior
+def: "Pathological behavior related to the actions or reactions of an organism in response to a sound." [NBO:GVG]
+is_a: NBO:0000655 ! pathological sensation behavior
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:22:16Z
+
+[Term]
+id: NBO:0000659
+name: pathological visual behavior
+def: "Pathological behavior related to the actions or reactions of an organism in response to a visual stimulus." [NBO:GVG]
+is_a: NBO:0000655 ! pathological sensation behavior
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:22:59Z
+
+[Term]
+id: NBO:0000660
+name: pathological chemosensory behavior
+def: "Pathological behavior related to the sensation of chemicals." [NBO:GVG]
+is_a: NBO:0000655 ! pathological sensation behavior
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:26:33Z
+
+[Term]
+id: NBO:0000661
+name: pathological olfactory behavior
+def: "Pathological behavior related to the sensation of odors." [NBO:GVG]
+is_a: NBO:0000660 ! pathological chemosensory behavior
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:28:54Z
+
+[Term]
+id: NBO:0000662
+name: generalized seizure
+def: "A seizure which affect the whole of the brain at onset." [NBO:GVG]
+comment: Primary generalized seizures begin with a widespread electrical discharge that involves both sides of the brain at once.
+synonym: "primarily generalized seizure" EXACT []
+is_a: NBO:0000025 ! seizures
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:46:46Z
+
+[Term]
+id: NBO:0000663
+name: partial seizures evolving to secondarily generalized seizures
+is_a: NBO:0000646 ! partial seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:49:54Z
+
+[Term]
+id: NBO:0000664
+name: simple partial seizures evolving to generalized seizures
+is_a: NBO:0000663 ! partial seizures evolving to secondarily generalized seizures
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:50:07Z
+
+[Term]
+id: NBO:0000665
+name: complex partial seizures evolving to generalized seizures
+is_a: NBO:0000663 ! partial seizures evolving to secondarily generalized seizures
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:50:26Z
+
+[Term]
+id: NBO:0000666
+name: simple partial seizures evolving to complex partial seizures evolving to generalized seizures.
+is_a: NBO:0000663 ! partial seizures evolving to secondarily generalized seizures
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:50:49Z
+
+[Term]
+id: NBO:0000667
+name: simple partial onset, followed by impairment of consciousness
+is_a: NBO:0000648 ! complex partial seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:51:50Z
+
+[Term]
+id: NBO:0000668
+name: with impairment of consciousness at onset
+is_a: NBO:0000648 ! complex partial seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:52:02Z
+
+[Term]
+id: NBO:0000669
+name: absence seizures
+def: "An absence seizure is a brief (usually less that 20 seconds), generalized epileptic seizure of sudden onset and termination." [wikipedia:http\://en.wikipedia.org/wiki/Absence_seizure]
+synonym: "petit mal seizure" EXACT []
+is_a: NBO:0000662 ! generalized seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:54:48Z
+
+[Term]
+id: NBO:0000670
+name: atonic seizure
+def: "A type of generalized seizure that consist of a brief lapse in muscle tone that are caused by temporary alterations in brain function." [wikipedia:http\://en.wikipedia.org/wiki/Atonic_seizure]
+synonym: " akinetic seizure" EXACT []
+synonym: "drop attack" EXACT []
+synonym: "drop seizure" EXACT []
+is_a: NBO:0000662 ! generalized seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T03:57:35Z
+
+[Term]
+id: NBO:0000671
+name: myoclonic seizure
+def: "A type of seizure that is characterised by a very brief symmetric alternating contraction and relaxation of a muscle or a group of muscles." [NBO:GVG]
+comment: Symmetric jerking of the extremities.
+is_a: NBO:0000662 ! generalized seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T04:52:23Z
+
+[Term]
+id: NBO:0000672
+name: clonic seizure
+def: "A type of seizure that is characterised by rhythmic symmetric alternating contraction and relaxation of a muscle or a group of muscles." [NBO:GVG]
+comment: Rapid, repetitive motor activity.
+is_a: NBO:0000662 ! generalized seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T04:54:59Z
+
+[Term]
+id: NBO:0000673
+name: juvenile myoclonic epilepsy
+def: "A type of epilepsy characterised by myoclonic seizures usually involving the neck, shoulders, and upper arms." [NBO:GVG]
+synonym: "Janz syndrome" EXACT []
+is_a: NBO:0000688 ! myoclonic epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-27T04:55:32Z
+
+[Term]
+id: NBO:0000674
+name: Lennox-Gastaut syndrome
+def: "A type of epilepsy characterised by multiple different types of seizures, particularly including tonic (stiffening) and atonic (drop) types of seizures." [NBO:GVG]
+is_a: NBO:0000642 ! epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-27T04:56:28Z
+
+[Term]
+id: NBO:0000675
+name: progressive myoclonic epilepsy
+def: "A type of epilepsy characterised by a combination of myoclonic seizures and tonic-clonic seizures." [NBO:GVG]
+is_a: NBO:0000642 ! epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-27T04:57:20Z
+
+[Term]
+id: NBO:0000676
+name: tonic clonic seizure
+def: "A type of generalized seizure characterised by a combination of tonic stiffening (extensions) followed by clonic flexion motions." [NBO:GVG]
+comment: The seizures are divided into two phases, the tonic phase and the clonic phase, hence the name of the seizure, though a tonic clonic seizure will often be preceded by an aura.
+synonym: "gran mal seizure" EXACT []
+synonym: "grand mal seizure" EXACT []
+is_a: NBO:0000662 ! generalized seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:03:11Z
+
+[Term]
+id: NBO:0000677
+name: tonic seizure
+def: "A type of seizure characterised by muscle rigidity." [NBO:GVG]
+is_a: NBO:0000662 ! generalized seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:09:15Z
+
+[Term]
+id: NBO:0000678
+name: febrile seizure
+def: "A type of non-epileptic seizure associated with a significant rise in body temperature." [wikpedia:http\://en.wikipedia.org/wiki/Febrile_seizure]
+synonym: "febrile convulsion" EXACT []
+synonym: "fever fit" EXACT []
+is_a: NBO:0000686 ! non-epileptic seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:13:26Z
+
+[Term]
+id: NBO:0000679
+name: simple febrile seizure
+def: "A febrile seizure that lasts less than 15 minutes , does not recur in 24 hours, and involves the entire body." [wikipedia:http\://en.wikipedia.org/wiki/Febrile_seizure]
+is_a: NBO:0000678 ! febrile seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:16:07Z
+
+[Term]
+id: NBO:0000680
+name: complex febrile seizure
+def: "A febrile seizure characterized by longer duration, recurrence, or focus on only part of the body." [wikipedia:http\://en.wikipedia.org/wiki/Febrile_seizure]
+is_a: NBO:0000678 ! febrile seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:19:54Z
+
+[Term]
+id: NBO:0000681
+name: benign rolandic epilepsy
+def: "Benign rolandic epilepsy is characterized by either simple partial seizures involving the mouth and face or generalized tonic-clonic seizures." [wikipedia:http\://en.wikipedia.org/wiki/Rolandic_epilepsy]
+synonym: "benign (childhood) epilepsy with centrotemporal (EEG) spikes" EXACT []
+is_a: NBO:0000642 ! epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:24:49Z
+
+[Term]
+id: NBO:0000682
+name: medial temporal lobe epilepsy
+def: "A temporal lobe epilepsy arises in the hippocampus, parahippocampal gyrus and amygdala which are located in the inner aspect of the temporal lobe." [wikipedia:http\://en.wikipedia.org/wiki/Temporal_lobe_epilepsy]
+synonym: "MTLE" EXACT []
+is_a: NBO:0000650 ! temporal lobe epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:30:25Z
+
+[Term]
+id: NBO:0000683
+name: lateral temporal lobe epilepsy
+def: "A temporal lobe epilepsy arises in the neocortex on the outer surface of the temporal lobe of the brain." [wikipedia:http\://en.wikipedia.org/wiki/Temporal_lobe_epilepsy]
+synonym: "LTLE" RELATED []
+is_a: NBO:0000650 ! temporal lobe epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:31:27Z
+
+[Term]
+id: NBO:0000684
+name: childhood absence epilepsy
+synonym: "pyknolepsy" EXACT []
+is_a: NBO:0000642 ! epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:32:59Z
+
+[Term]
+id: NBO:0000685
+name: continuous seizure
+is_a: NBO:0000025 ! seizures
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:39:40Z
+
+[Term]
+id: NBO:0000686
+name: non-epileptic seizure
+def: "Paroxysmal events that mimic an epileptic seizure but do not involve abnormal, rhythmic discharges of cortical neurons." [wikipedia:http\://en.wikipedia.org/wiki/Non-epileptic_seizure]
+is_a: NBO:0000012 ! seizures/epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:47:13Z
+
+[Term]
+id: NBO:0000687
+name: psychogenic non-epileptic seizure
+def: "A type of non-epileptic seizure that superficially resembles an epileptic seizure, but without the characteristic electrical discharges associated with epilepsy." [wikipedia:http\://en.wikipedia.org/wiki/Psychogenic_non-epileptic_seizures]
+synonym: "non-epileptic attack disorder" EXACT []
+synonym: "PNES" RELATED []
+is_a: NBO:0000686 ! non-epileptic seizure
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:50:08Z
+
+[Term]
+id: NBO:0000688
+name: myoclonic epilepsy
+def: "A type of epilepsy that is characterised by myoclonic seizures." [NBOqqGVG:<new dbxref>]
+is_a: NBO:0000642 ! epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:53:42Z
+
+[Term]
+id: NBO:0000689
+name: progressive myoclonic epilepsy
+def: "A myoclonic epilepsy characterised by a combination of myoclonic and tonic-clonic seizures." [wikipedia:http\://en.wikipedia.org/wiki/Progressive_myoclonic_epilepsy]
+is_a: NBO:0000688 ! myoclonic epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:55:29Z
+
+[Term]
+id: NBO:0000690
+name: status epilepticus
+def: "Continuous unremitting seizure lasting longer than 30 minutes or recurrent seizures without regaining consciousness between seizures for greater than 30 minutes." [wikipedia:http\://en.wikipedia.org/wiki/Status_epilepticus]
+is_a: NBO:0000642 ! epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-27T05:59:47Z
+
+[Term]
+id: NBO:0000691
+name: non-convulsive status epilepticus
+is_a: NBO:0000690 ! status epilepticus
+created_by: George Gkoutos
+creation_date: 2011-05-27T06:42:06Z
+
+[Term]
+id: NBO:0000692
+name: convulsive status epilepticus
+is_a: NBO:0000690 ! status epilepticus
+created_by: George Gkoutos
+creation_date: 2011-05-27T06:42:29Z
+
+[Term]
+id: NBO:0000693
+name: complex partial status epilepticus
+def: "A convulsive status epilepticus characterized by seizures involving long-lasting stupor, staring and unresponsiveness." [wikipedia:http\://en.wikipedia.org/wiki/Complex_partial_status_epilepticus]
+is_a: NBO:0000691 ! non-convulsive status epilepticus
+created_by: George Gkoutos
+creation_date: 2011-05-27T07:20:21Z
+
+[Term]
+id: NBO:0000694
+name: absence status epilepticus
+is_a: NBO:0000691 ! non-convulsive status epilepticus
+created_by: George Gkoutos
+creation_date: 2011-05-27T07:21:27Z
 
 [Typedef]
 id: inheres_in

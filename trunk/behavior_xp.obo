@@ -342,25 +342,77 @@ equivalent_to: GO:0045297 ! post-mating behavior
 id: NBO:0000384 ! thermotaxis
 equivalent_to: GO:0043052 ! thermotaxis
 
+[Term]
+id: NBO:0000648 ! complex partial seizure
+intersection_of: NBO:0000646 ! partial seizure
+intersection_of: occurs_in UBERON:0002813 ! right cerebral hemisphere
+intersection_of: occurs_in UBERON:0002812 ! left cerebral hemisphere
+intersection_of: results_in _:unconsious
 
+[Term]
+id: _:unconsious
+is_anonymous: true
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards NBO:0000065 ! consciousness
 
+[Term]
+id: NBO:0000647 ! simple partial seizure
+intersection_of: NBO:0000646 ! partial seizure
+intersection_of: occurs_in  _:temporal_lobe_or_hippocampus
+intersection_of: not_results_in _:unconsious
 
+[Term]
+id: _:temporal_lobe_or_hippocampus
+is_anonymous: true
+union_of: UBERON:0001871 ! temporal lobe
+union_of: UBERON:0001954 ! hippocampus
 
+[Term]
+id: NBO:0000651 ! simple partial seizure with motor signs
+intersection_of: NBO:0000647 ! simple partial seizure
+intersection_of: results_in NBO:0000568 ! pathological kinesthetic behavior
 
+[Term]
+id: NBO:0000652 ! simple partial seizure with sensory symptoms
+intersection_of: NBO:0000647 ! simple partial seizure
+intersection_of: results_in NBO:0000655 ! pathological sensation behavior
 
+[Term]
+id: NBO:0000654 ! simple partial seizure with psychic symptoms
+intersection_of: NBO:0000647 ! simple partial seizure
+intersection_of: results_in NBO:0000601 ! pathological emotional behavior
 
+[Term]
+id: NBO:0000670 ! atonic seizure
+intersection_of: NBO:0000662 ! generalized seizure
+intersection_of: results_in _:decreased_muscle_tonicity
 
+[Term]
+id: _:decreased_muscle_tonicity
+is_anonymous: true
+intersection_of: PATO:0001619 ! decreased tonicity
+intersection_of: inheres_in UBERON:0001630 ! muscle organ
 
+[Typedef]
+id: towards
+name: towards
+xref: BFO:0000070
 
+[Typedef]
+id: results_in
+name: results_in
 
+[Typedef]
+id: not_results_in
+name: not_results_in
 
+[Typedef]
+id: occurs_in
+name: occurs_in
 
-
-
-
-
-
-
+[Typedef]
+id: inheres_in
+name: inheres_in
 
 
 

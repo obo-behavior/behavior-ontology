@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 28:05:2011 21:49
+date: 29:05:2011 00:35
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta6
 default-namespace: behavior_ontology
@@ -5780,7 +5780,7 @@ creation_date: 2011-05-28T11:59:31Z
 
 [Term]
 id: NBO:0000703
-name:  secondary generalized seizure
+name: secondary generalized seizure
 def: "A generalized seizure that was initiated as a partial seizure." [NBO:GVG]
 is_a: NBO:0000662 ! generalized seizure
 created_by: George Gkoutos
@@ -5790,7 +5790,7 @@ creation_date: 2011-05-28T12:08:24Z
 id: NBO:0000704
 name: rapid secondary generalization
 def: "A generalized seizure that was initiated as a partial seizure but very rapidly spread to both hemispheres." [NBO:GVG]
-is_a: NBO:0000703 !  secondary generalized seizure
+is_a: NBO:0000703 ! secondary generalized seizure
 created_by: George Gkoutos
 creation_date: 2011-05-28T12:11:05Z
 
@@ -5813,7 +5813,7 @@ creation_date: 2011-05-28T12:15:48Z
 
 [Term]
 id: NBO:0000707
-name:  gestural automatism
+name: gestural automatism
 def: "An automatism characterised by involuntary movement of the limbs or body such as  fumbling, picking and rubbing." [NBO:GVG]
 is_a: NBO:0000705 ! automatism
 created_by: George Gkoutos
@@ -6046,9 +6046,9 @@ creation_date: 2011-05-28T08:04:53Z
 
 [Term]
 id: NBO:0000736
-name:  secondary generalized tonic clonic seizure
+name: secondary generalized tonic clonic seizure
 def: "A generalized tonic clonic seizure that was initiated as a partial seizure." [NBO:GVG]
-is_a: NBO:0000703 !  secondary generalized seizure
+is_a: NBO:0000703 ! secondary generalized seizure
 created_by: George Gkoutos
 creation_date: 2011-05-28T08:28:12Z
 
@@ -6059,6 +6059,24 @@ def: "A type of seizure induced by exposure to a light stimulus." [NBO:GVG]
 is_a: NBO:0000686 ! provoked seizure
 created_by: George Gkoutos
 creation_date: 2011-05-28T08:34:10Z
+
+[Term]
+id: NBO:0000738
+name: gelastic epilepsy
+def: "A type of epilepsy that is characterised a sudden burst of energy, usually in the form of laughing." [NBO:GVG]
+synonym: "gelastic seizure" EXACT []
+is_a: NBO:0000642 ! epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-28T11:12:42Z
+
+[Term]
+id: NBO:0000739
+name: dacrystic epilepsy
+def: "A type of epilepsy that is characterised a sudden paroxysmal crying." [NBO:<new dbxref>, NBO:GVG]
+synonym: "dacrystic seizure" EXACT []
+is_a: NBO:0000642 ! epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-28T11:18:45Z
 
 [Typedef]
 id: inheres_in

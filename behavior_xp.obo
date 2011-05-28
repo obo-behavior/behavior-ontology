@@ -393,6 +393,112 @@ is_anonymous: true
 intersection_of: PATO:0001619 ! decreased tonicity
 intersection_of: inheres_in UBERON:0001630 ! muscle organ
 
+[Term]
+id: NBO:0000709 ! drug induced non-epileptic seizure
+intersection_of: NBO:0000686 ! provoked seizure
+intersection_of: caused_by CHEBI:23888 ! drug
+
+[Term]
+id: NBO:0000715 ! amphetamine overdose induced non-epileptic seizure
+intersection_of: NBO:0000710 ! drug overdose induced non-epileptic seizure
+intersection_of: caused_by CHEBI:2679 ! amphetamine
+
+[Term]
+id: NBO:0000713 ! cocaine overdose induced non-epileptic seizure
+intersection_of: NBO:0000710 ! drug overdose induced non-epileptic seizure
+intersection_of: caused_by CHEBI:27958 ! cocaine
+
+[Term]
+id: NBO:0000714 ! isoniazide overdose induced non-epileptic seizure
+intersection_of: NBO:0000710 ! drug overdose induced non-epileptic seizure
+intersection_of: caused_by CHEBI:6030 ! isoniazide
+
+[Term]
+id: NBO:0000716 ! antidepressant overdose induced non-epileptic seizure
+intersection_of: NBO:0000710 ! drug overdose induced non-epileptic seizure
+intersection_of: caused_by CHEBI:35469 ! antidepressant
+
+[Term]
+id: NBO:0000717 ! theophylline overdose induced non-epileptic seizure
+intersection_of: NBO:0000710 ! drug overdose induced non-epileptic seizure
+intersection_of: caused_by CHEBI:28177 ! theophylline
+
+[Term]
+id: NBO:0000718 ! penicillin overdose induced non-epileptic seizure
+intersection_of: NBO:0000710 ! drug overdose induced non-epileptic seizure
+intersection_of: caused_by CHEBI:17334 ! penicillin
+
+[Term]
+id: NBO:0000719 ! alcohol withdrawal induced non-epileptic seizure
+intersection_of: NBO:0000711 ! drug withdrawal induced non-epileptic seizure
+intersection_of: caused_by CHEBI:30879 ! alcohol
+
+[Term]
+id: NBO:0000720 ! benzodiazepine withdrawal induced non-epileptic seizure
+intersection_of: NBO:0000711 ! drug withdrawal induced non-epileptic seizure
+intersection_of: caused_by CHEBI:22720 ! benzodiazepine
+
+[Term]
+id: NBO:0000721 ! barbiturates withdrawal induced non-epileptic seizure
+intersection_of: NBO:0000711 ! drug withdrawal induced non-epileptic seizure
+intersection_of: caused_by CHEBI:22693 ! barbiturates
+
+[Term]
+id: NBO:0000722 ! heroin withdrawal induced non-epileptic seizure
+intersection_of: NBO:0000711 ! drug withdrawal induced non-epileptic seizure
+intersection_of: caused_by CHEBI:27808 ! heroin
+
+[Term]
+id: NBO:0000712 ! hypoglycemia induced non-epileptic seizure
+intersection_of: NBO:0000686 ! provoked seizure
+intersection_of: caused_by  _:hypoglycemia
+
+[Term]
+id: _:hypoglycemia
+is_anonymous: true
+intersection_of: PATO:0001162 ! increased concentration
+intersection_of: inheres_in FMA:9670 ! Portion of blood
+intersection_of: towards CHEBI:17234 ! glucose
+
+[Term]
+id: NBO:0000735 ! hypocalcemia induced seizure
+intersection_of: NBO:0000686 ! provoked seizure
+intersection_of: caused_by  _:hypocalcemia
+
+[Term]
+id: _:hypocalcemia
+is_anonymous: true
+intersection_of: PATO:0001162 ! increased concentration
+intersection_of: inheres_in FMA:9670 ! Portion of blood
+intersection_of: towards CHEBI:22984 ! calcium
+
+[Term]
+id: NBO:0000723 ! hypomagnesemia induced non-epileptic seizure
+intersection_of: NBO:0000686 ! provoked seizure
+intersection_of: caused_by  _:hypomagnesemia
+
+[Term]
+id: _:hypomagnesemia
+is_anonymous: true
+intersection_of: PATO:0001162 ! increased concentration
+intersection_of: inheres_in FMA:9670 ! Portion of blood
+intersection_of: towards CHEBI:25107 ! magnesium
+
+[Term]
+id: NBO:0000730 ! auditory kindling induced seizure
+intersection_of: NBO:0000727 ! kindling induced seizure
+intersection_of: caused_by NBO:0000725 ! auditory stimulation induced seizure
+
+[Term]
+id: NBO:0000729 ! chemical kindling induced seizure
+intersection_of: NBO:0000727 ! kindling induced seizure
+intersection_of: caused_by NBO:0000709 ! drug induced seizure
+
+[Term]
+id: NBO:0000728 ! auditory kindling induced seizure
+intersection_of: NBO:0000727 ! kindling induced seizure
+intersection_of: caused_by NBO:0000724 ! electrical stimulation induced seizure
+
 [Typedef]
 id: towards
 name: towards
@@ -414,6 +520,13 @@ name: occurs_in
 id: inheres_in
 name: inheres_in
 
+[Typedef]
+id: caused_by
+name: caused_by
+
+[Typedef]
+id: qualifier
+name: qualifier
 
 
 

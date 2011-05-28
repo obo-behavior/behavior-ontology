@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:05:2011 19:27
+date: 28:05:2011 20:43
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta6
 default-namespace: behavior_ontology
@@ -204,6 +204,8 @@ creation_date: 2011-04-14T01:03:39Z
 id: NBO:0000025
 name: seizures
 def: "An uncontrolled, paroxysmal neuronal discharge in any part of the brain; it may cause physical or mental symptoms and may be convulsive or nonconvulsive" [NBO:GVG]
+synonym: "epileptic seizure" EXACT []
+synonym: "unprovoked seizure" RELATED []
 is_a: NBO:0000012 ! seizures/epilepsy
 created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
@@ -5257,6 +5259,7 @@ creation_date: 2011-05-06T03:56:31Z
 id: NBO:0000642
 name: epilepsy
 def: "Two or more unprovoked recurrent seizures." [NBO:GVG]
+synonym: "unprovoked seizure" RELATED []
 is_a: NBO:0000012 ! seizures/epilepsy
 created_by: George Gkoutos
 creation_date: 2011-05-27T11:42:33Z
@@ -5300,7 +5303,7 @@ creation_date: 2011-05-27T12:49:09Z
 [Term]
 id: NBO:0000647
 name: simple partial seizure
-def: "A partial seizure which affect only a small region of the brain, often the temporal lobes and/or hippocampi." [wikipedia:http\://en.wikipedia.org/wiki/Simple_partial_seizure]
+def: "A partial seizure which affect only a small region of the brain, often the temporal lobes and/or hippocampi whilst consciousness is unaffected." [wikipedia:http\://en.wikipedia.org/wiki/Simple_partial_seizure]
 comment: Depending on the area of cerebral cortex involved, symptoms may be motor, cognitive, sensory, autonomic, or affective. Consciousness is not impaired.
 is_a: NBO:0000646 ! partial seizure
 created_by: George Gkoutos
@@ -5310,7 +5313,7 @@ creation_date: 2011-05-27T12:51:40Z
 id: NBO:0000648
 name: complex partial seizure
 def: "A seizure that is associated with bilateral cerebral hemisphere involvement and causes impairment of awareness or responsiveness, i.e. loss of consciousness." [wikipedia:http\://en.wikipedia.org/wiki/Complex_partial_seizures]
-synonym: "psychomotor seizures" EXACT []
+synonym: "psychomotor seizure" EXACT []
 synonym: "temporal lobe seizure" EXACT []
 is_a: NBO:0000646 ! partial seizure
 created_by: George Gkoutos
@@ -5336,6 +5339,7 @@ creation_date: 2011-05-27T02:42:59Z
 id: NBO:0000651
 name: simple partial seizure with motor signs
 def: "A simple partial seizure affecting the kinesthetic behavior." [NBO:GVG]
+synonym: "focal clonic seizure" EXACT []
 synonym: "motor seizure" EXACT []
 is_a: NBO:0000647 ! simple partial seizure
 created_by: George Gkoutos
@@ -5346,7 +5350,7 @@ id: NBO:0000652
 name: simple partial seizure with sensory symptoms
 def: "A simple partial seizure affecting any of the five senses -- vision, touch, smell, taste, and hearing." [NBO:GVG]
 comment: Some simple partial seizures consist of a sensory experience. The person may see lights, hear a buzzing sound, or feel tingling or numbness in a part of the body.
-synonym: "Jacksonian sensory seizures" EXACT []
+synonym: "Jacksonian sensory seizure" EXACT []
 synonym: "sensory seizure" EXACT []
 is_a: NBO:0000647 ! simple partial seizure
 created_by: George Gkoutos
@@ -5442,29 +5446,29 @@ creation_date: 2011-05-27T03:46:46Z
 
 [Term]
 id: NBO:0000663
-name: partial seizures evolving to secondarily generalized seizures
+name: partial seizure evolving to secondarily generalized seizure
 is_a: NBO:0000646 ! partial seizure
 created_by: George Gkoutos
 creation_date: 2011-05-27T03:49:54Z
 
 [Term]
 id: NBO:0000664
-name: simple partial seizures evolving to generalized seizures
-is_a: NBO:0000663 ! partial seizures evolving to secondarily generalized seizures
+name: simple partial seizure evolving to generalized seizure
+is_a: NBO:0000663 ! partial seizure evolving to secondarily generalized seizure
 created_by: George Gkoutos
 creation_date: 2011-05-27T03:50:07Z
 
 [Term]
 id: NBO:0000665
-name: complex partial seizures evolving to generalized seizures
-is_a: NBO:0000663 ! partial seizures evolving to secondarily generalized seizures
+name: complex partial seizure evolving to generalized seizure
+is_a: NBO:0000663 ! partial seizure evolving to secondarily generalized seizure
 created_by: George Gkoutos
 creation_date: 2011-05-27T03:50:26Z
 
 [Term]
 id: NBO:0000666
-name: simple partial seizures evolving to complex partial seizures evolving to generalized seizures.
-is_a: NBO:0000663 ! partial seizures evolving to secondarily generalized seizures
+name: simple partial seizure evolving to complex partial seizure evolving to generalized seizure
+is_a: NBO:0000663 ! partial seizure evolving to secondarily generalized seizure
 created_by: George Gkoutos
 creation_date: 2011-05-27T03:50:49Z
 
@@ -5507,6 +5511,7 @@ id: NBO:0000671
 name: myoclonic seizure
 def: "A type of seizure that is characterised by a very brief symmetric alternating contraction and relaxation of a muscle or a group of muscles." [NBO:GVG]
 comment: Symmetric jerking of the extremities.
+synonym: "myoclonus" EXACT []
 is_a: NBO:0000662 ! generalized seizure
 created_by: George Gkoutos
 creation_date: 2011-05-27T04:52:23Z
@@ -5539,11 +5544,13 @@ creation_date: 2011-05-27T04:56:28Z
 
 [Term]
 id: NBO:0000675
-name: progressive myoclonic epilepsy
-def: "A type of epilepsy characterised by a combination of myoclonic seizures and tonic-clonic seizures." [NBO:GVG]
-is_a: NBO:0000642 ! epilepsy
+name: reflex seizure
+def: "A type of seizure generated by sudden sensor stimulation caused by the environment." [NBO:GVG]
+synonym: "environmental epilepsy" EXACT []
+synonym: "reflex epilepsy" EXACT []
+is_a: NBO:0000686 ! provoked seizure
 created_by: George Gkoutos
-creation_date: 2011-05-27T04:57:20Z
+creation_date: 2011-05-28T11:07:41Z
 
 [Term]
 id: NBO:0000676
@@ -5567,10 +5574,10 @@ creation_date: 2011-05-27T05:09:15Z
 [Term]
 id: NBO:0000678
 name: febrile seizure
-def: "A type of non-epileptic seizure associated with a significant rise in body temperature." [wikpedia:http\://en.wikipedia.org/wiki/Febrile_seizure]
+def: "A type of seizure associated with a significant rise in body temperature." [wikpedia:http\://en.wikipedia.org/wiki/Febrile_seizure]
 synonym: "febrile convulsion" EXACT []
 synonym: "fever fit" EXACT []
-is_a: NBO:0000686 ! non-epileptic seizure
+is_a: NBO:0000686 ! provoked seizure
 created_by: George Gkoutos
 creation_date: 2011-05-27T05:13:26Z
 
@@ -5634,8 +5641,9 @@ creation_date: 2011-05-27T05:39:40Z
 
 [Term]
 id: NBO:0000686
-name: non-epileptic seizure
+name: provoked seizure
 def: "Paroxysmal events that mimic an epileptic seizure but do not involve abnormal, rhythmic discharges of cortical neurons." [wikipedia:http\://en.wikipedia.org/wiki/Non-epileptic_seizure]
+synonym: "non-epileptic seizure" RELATED []
 is_a: NBO:0000012 ! seizures/epilepsy
 created_by: George Gkoutos
 creation_date: 2011-05-27T05:47:13Z
@@ -5643,17 +5651,17 @@ creation_date: 2011-05-27T05:47:13Z
 [Term]
 id: NBO:0000687
 name: psychogenic non-epileptic seizure
-def: "A type of non-epileptic seizure that superficially resembles an epileptic seizure, but without the characteristic electrical discharges associated with epilepsy." [wikipedia:http\://en.wikipedia.org/wiki/Psychogenic_non-epileptic_seizures]
+def: "A type of seizure of psychological origin that superficially resembles an epileptic seizure, but without the characteristic electrical discharges associated with epilepsy." [wikipedia:http\://en.wikipedia.org/wiki/Psychogenic_non-epileptic_seizures]
 synonym: "non-epileptic attack disorder" EXACT []
 synonym: "PNES" RELATED []
-is_a: NBO:0000686 ! non-epileptic seizure
+is_a: NBO:0000686 ! provoked seizure
 created_by: George Gkoutos
 creation_date: 2011-05-27T05:50:08Z
 
 [Term]
 id: NBO:0000688
 name: myoclonic epilepsy
-def: "A type of epilepsy that is characterised by myoclonic seizures." [NBOqqGVG:<new dbxref>]
+def: "A type of epilepsy that is characterised by myoclonic seizures." [NBO:GVG]
 is_a: NBO:0000642 ! epilepsy
 created_by: George Gkoutos
 creation_date: 2011-05-27T05:53:42Z
@@ -5683,7 +5691,7 @@ creation_date: 2011-05-27T06:42:06Z
 
 [Term]
 id: NBO:0000692
-name: convulsive status epilepticus
+name: generalised convulsive status epilepticus
 is_a: NBO:0000690 ! status epilepticus
 created_by: George Gkoutos
 creation_date: 2011-05-27T06:42:29Z
@@ -5702,6 +5710,355 @@ name: absence status epilepticus
 is_a: NBO:0000691 ! non-convulsive status epilepticus
 created_by: George Gkoutos
 creation_date: 2011-05-27T07:21:27Z
+
+[Term]
+id: NBO:0000695
+name: subtle status epilepticus
+def: "Subtle  status epilepticus consists of electrical seizure activity in the brain that endures when the associated motor responses are fragmentary or even absent." [web:http\://emedicine.medscape.com/article/1164462-overview]
+is_a: NBO:0000690 ! status epilepticus
+created_by: George Gkoutos
+creation_date: 2011-05-28T10:08:42Z
+
+[Term]
+id: NBO:0000696
+name: simple partial status epilepticus
+def: "Simple partial SE consists of seizures that are localized to a discrete area of cerebral cortex and produce no alteration in consciousness." [web:http\://emedicine.medscape.com/article/1164462-overview]
+is_a: NBO:0000690 ! status epilepticus
+created_by: George Gkoutos
+creation_date: 2011-05-28T10:10:13Z
+
+[Term]
+id: NBO:0000697
+name: frontal lobe epilepsy
+def: "A type of epilepsy characterized by brief, recurring seizures that arise in the frontal lobes of the brain, often while the patient is sleeping." [wikipedia:http\://en.wikipedia.org/wiki/Frontal_lobe_epilepsy]
+is_a: NBO:0000642 ! epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-28T10:14:48Z
+
+[Term]
+id: NBO:0000698
+name: nocturnal epilepsy
+def: "A type of epilepsy characterised by seizure, usually tonic clonic, that occur only during sleep." [NBO:GVG]
+is_a: NBO:0000642 ! epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-28T10:17:46Z
+
+[Term]
+id: NBO:0000699
+name: photosensitive seizure
+def: "A type of reflex seizure caused by visual stimuli that form patterns in time or space, such as flashing lights, bold, regular patterns, or regular moving patterns." [wikipedia:http\://en.wikipedia.org/wiki/Photosensitive_epilepsy]
+synonym: "photosensitive epilepsy" EXACT []
+is_a: NBO:0000675 ! reflex seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T11:11:25Z
+
+[Term]
+id: NBO:0000700
+name: audiogenic seizure
+alt_id: NBO:0000725
+def: "A type of seizure induced by exposure to an auditory stimulus." [NBO:GVG]
+synonym: "auditory stimulation induced seizure" EXACT []
+is_a: NBO:0000675 ! reflex seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T11:12:23Z
+
+[Term]
+id: NBO:0000701
+name: typical absence seizure
+def: "An absence seizure induced by hyperventilation." [NBO:GVG]
+is_a: NBO:0000669 ! absence seizures
+created_by: George Gkoutos
+creation_date: 2011-05-28T11:59:14Z
+
+[Term]
+id: NBO:0000702
+name: atypical absence seizure
+def: "An absence seizure not induced by hyperventilation." [NBO:GVG]
+is_a: NBO:0000669 ! absence seizures
+created_by: George Gkoutos
+creation_date: 2011-05-28T11:59:31Z
+
+[Term]
+id: NBO:0000703
+name:  secondary generalized seizure
+def: "A generalized seizure that was initiated as a partial seizure." [NBO:GVG]
+is_a: NBO:0000662 ! generalized seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T12:08:24Z
+
+[Term]
+id: NBO:0000704
+name: rapid secondary generalization
+def: "A generalized seizure that was initiated as a partial seizure but very rapidly spread to both hemispheres." [NBO:GVG]
+is_a: NBO:0000703 !  secondary generalized seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T12:11:05Z
+
+[Term]
+id: NBO:0000705
+name: automatism
+def: "Purposeless repetitive motor activities that often occur during a seizure." [NBO:GVG]
+comment: Automatisms may occur during complex partial or absence seizures.
+is_a: NBO:0000643 ! pathological involuntary movement behavior
+created_by: George Gkoutos
+creation_date: 2011-05-28T12:14:35Z
+
+[Term]
+id: NBO:0000706
+name: oral automatism
+def: "An automatism characterised by involuntary oral activity such as lip smacking and swallowing." [NBO:GVG]
+is_a: NBO:0000705 ! automatism
+created_by: George Gkoutos
+creation_date: 2011-05-28T12:15:48Z
+
+[Term]
+id: NBO:0000707
+name:  gestural automatism
+def: "An automatism characterised by involuntary movement of the limbs or body such as  fumbling, picking and rubbing." [NBO:GVG]
+is_a: NBO:0000705 ! automatism
+created_by: George Gkoutos
+creation_date: 2011-05-28T12:17:42Z
+
+[Term]
+id: NBO:0000708
+name: complex motor automatism
+def: "An automatism characterised by stereotyped series of motor actions usually involving the limbs bilaterally such as swimming \nmovements, kicking movements and bicycling movements." [NBO:GVG]
+is_a: NBO:0000705 ! automatism
+created_by: George Gkoutos
+creation_date: 2011-05-28T12:20:03Z
+
+[Term]
+id: NBO:0000709
+name: drug induced seizure
+def: "A type of seizure induced by the administration of a drug." [NBO:GVG]
+is_a: NBO:0000686 ! provoked seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T12:32:11Z
+
+[Term]
+id: NBO:0000710
+name: drug overdose induced seizure
+def: "A type of seizure induced by accidental or intentional ingestion or application of a drug in quantities greater than recommended." [NBO:GVG]
+is_a: NBO:0000709 ! drug induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T12:34:37Z
+
+[Term]
+id: NBO:0000711
+name: drug withdrawal induced seizure
+def: "A type of seizure induced by termination of drug administration." [NBO:GVG]
+is_a: NBO:0000709 ! drug induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T12:35:22Z
+
+[Term]
+id: NBO:0000712
+name: hypoglycemia induced seizure
+def: "A type of seizure induced by lower than normal level of blood glucose levels." [GVG:NBO]
+is_a: NBO:0000686 ! provoked seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T12:35:56Z
+
+[Term]
+id: NBO:0000713
+name: cocaine overdose induced seizure
+def: "A type of seizure induced by the administration of cocaine." [NBO:GVG]
+is_a: NBO:0000710 ! drug overdose induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T12:36:15Z
+
+[Term]
+id: NBO:0000714
+name: isoniazide overdose induced seizure
+def: "A type of seizure induced by the administration of isoniazide." [NBO:GVG]
+is_a: NBO:0000710 ! drug overdose induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T12:36:46Z
+
+[Term]
+id: NBO:0000715
+name: amphetamine overdose induced seizure
+def: "A type of seizure induced by the administration of amphetamine." [NBO:GVG]
+is_a: NBO:0000710 ! drug overdose induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T12:37:01Z
+
+[Term]
+id: NBO:0000716
+name: antidepressant overdose induced seizure
+def: "A type of seizure induced by the administration of antidepressant." [NBO:GVG]
+is_a: NBO:0000710 ! drug overdose induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T01:14:12Z
+
+[Term]
+id: NBO:0000717
+name: theophylline overdose induced seizure
+def: "A type of seizure induced by the administration of theophylline." [NBO:GVG]
+is_a: NBO:0000710 ! drug overdose induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T01:15:33Z
+
+[Term]
+id: NBO:0000718
+name: penicillin overdose induced seizure
+def: "A type of seizure induced by the administration of penicillin." [NBO:GVG]
+is_a: NBO:0000710 ! drug overdose induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T01:16:56Z
+
+[Term]
+id: NBO:0000719
+name: alcohol withdrawal induced seizure
+def: "A type of seizure induced by termination of alcohol administration." [NBO:GVG]
+is_a: NBO:0000711 ! drug withdrawal induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T01:19:06Z
+
+[Term]
+id: NBO:0000720
+name: benzodiazepine withdrawal induced seizure
+def: "A type of seizure induced by termination of benzodiazepine administration." [NBO:GVG]
+is_a: NBO:0000711 ! drug withdrawal induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T01:22:57Z
+
+[Term]
+id: NBO:0000721
+name: barbiturates withdrawal induced seizure
+def: "A type of seizure induced by termination of barbiturates administration." [NBO:GVG]
+is_a: NBO:0000711 ! drug withdrawal induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T01:24:25Z
+
+[Term]
+id: NBO:0000722
+name: heroin withdrawal induced seizure
+def: "A type of seizure induced by termination of heroin administration." [NBO:GVG]
+is_a: NBO:0000711 ! drug withdrawal induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T01:26:05Z
+
+[Term]
+id: NBO:0000723
+name: hypomagnesemia induced seizure
+def: "A type of seizure induced by lower than normal level of blood magnesium levels." [NBO:GVG]
+is_a: NBO:0000686 ! provoked seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T01:34:40Z
+
+[Term]
+id: NBO:0000724
+name: electrical stimulation induced seizure
+def: "A type of seizure induced by exposure to an electrical stimulus." [NBO:GVG]
+is_a: NBO:0000686 ! provoked seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T01:42:36Z
+
+[Term]
+id: NBO:0000726
+name: trauma induced seizure
+def: "A type of seizure induced by the administration of a brain trauma." [NBO:GVG]
+is_a: NBO:0000686 ! provoked seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T03:39:02Z
+
+[Term]
+id: NBO:0000727
+name: kindling induced seizure
+def: "A type of seizure induced by kindling, a repeated administration of seizure invoking stimulus which eventually results changes in the brain." [NBO:GVG]
+is_a: NBO:0000686 ! provoked seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T03:46:52Z
+
+[Term]
+id: NBO:0000728
+name: electrical kindling induced seizure
+def: "A type of seizure induced by kindling, a repeated administration of electrical stimulus which eventually results changes in the brain." [NBO:GVG]
+is_a: NBO:0000727 ! kindling induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T03:50:30Z
+
+[Term]
+id: NBO:0000729
+name: chemical kindling induced seizure
+def: "A type of seizure induced by kindling, a repeated administration of chemical stimulus which eventually results changes in the brain." [NBO:GVG]
+is_a: NBO:0000727 ! kindling induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T03:51:25Z
+
+[Term]
+id: NBO:0000730
+name: auditory kindling induced seizure
+def: "A type of seizure induced by kindling, a repeated administration of auditory stimulus which eventually results changes in the brain." [NBO:GVG]
+is_a: NBO:0000727 ! kindling induced seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T03:52:15Z
+
+[Term]
+id: NBO:0000731
+name: hemiclonic seizure
+def: "A simple partial seizure affecting the kinesthetic behavior of one side of the body." [NBO:GVG]
+synonym: "unilateral clonic seizure" EXACT []
+is_a: NBO:0000651 ! simple partial seizure with motor signs
+created_by: George Gkoutos
+creation_date: 2011-05-28T05:51:10Z
+
+[Term]
+id: NBO:0000732
+name: left side clonic seizure
+def: "A simple partial seizure affecting the kinesthetic behavior of left side of the body." [NBO:GVG]
+is_a: NBO:0000731 ! hemiclonic seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T06:01:58Z
+
+[Term]
+id: NBO:0000733
+name: right side clonic seizure
+def: "A simple partial seizure affecting the kinesthetic behavior of right side of the body." [NBO:GVG]
+is_a: NBO:0000731 ! hemiclonic seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T06:03:17Z
+
+[Term]
+id: NBO:0000734
+name: infantile spasm
+def: "A type of epileptic seizures occurring in infants and characterised by clusters of myoclonic spasms." [NBO:GVG]
+synonym: "Generalized Flexion Epilepsy" RELATED []
+synonym: "Infantile Epileptic Encephalopathy" RELATED []
+synonym: "Infantile Myoclonic Encephalopathy" RELATED []
+synonym: "jackknife convulsions" EXACT []
+synonym: "Massive Myoclonia" RELATED []
+synonym: "Salaam spasms" RELATED []
+synonym: "West syndrome" RELATED []
+is_a: NBO:0000588 ! spasm
+is_a: NBO:0000642 ! epilepsy
+created_by: George Gkoutos
+creation_date: 2011-05-28T06:47:31Z
+
+[Term]
+id: NBO:0000735
+name: hypocalcemia induced seizure
+def: "A type of seizure induced by lower than normal level of blood calcium levels." [NBO:GVG]
+is_a: NBO:0000686 ! provoked seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T08:04:53Z
+
+[Term]
+id: NBO:0000736
+name:  secondary generalized tonic clonic seizure
+def: "A generalized tonic clonic seizure that was initiated as a partial seizure." [NBO:GVG]
+is_a: NBO:0000703 !  secondary generalized seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T08:28:12Z
+
+[Term]
+id: NBO:0000737
+name: photostimulation induced seizure
+def: "A type of seizure induced by exposure to a light stimulus." [NBO:GVG]
+is_a: NBO:0000686 ! provoked seizure
+created_by: George Gkoutos
+creation_date: 2011-05-28T08:34:10Z
 
 [Typedef]
 id: inheres_in

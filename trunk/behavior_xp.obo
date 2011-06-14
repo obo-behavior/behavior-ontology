@@ -454,6 +454,12 @@ intersection_of: NBO:0000686 ! provoked seizure
 intersection_of: caused_by  _:hypoglycemia
 
 [Term]
+id: NBO:0000096 ! agoraphobia
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in NBO:0000094 ! fear towards situation/environment
+
+[Term]
 id: _:hypoglycemia
 is_anonymous: true
 intersection_of: PATO:0001162 ! increased concentration

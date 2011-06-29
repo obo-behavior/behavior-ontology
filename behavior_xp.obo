@@ -41,14 +41,6 @@ intersection_of: PATO:0000770 ! uncoordinated
 intersection_of: inheres_in NBO:0000403 ! voluntary movement behaviour
 
 [Term]
-id: NBO:0000011 ! social behaviour
-equivalent_to: GO:0035176 ! social behavior
-
-[Term]
-id: NBO:0000027 ! grooming behaviour
-equivalent_to: GO:0007625 ! grooming behavior
-
-[Term]
 id: NBO:0000028 ! akinesia
 intersection_of: PATO:0001558 ! lacking processual parts
 intersection_of: inheres_in NBO:0000403 ! voluntary movement behaviour
@@ -67,6 +59,89 @@ intersection_of: inheres_in NBO:0000338 ! kinesthetic behaviour
 id: NBO:0000031 ! hypoactivity
 intersection_of: PATO:0000911 ! decreased rate
 intersection_of: inheres_in NBO:0000338 ! kinesthetic behaviour
+
+[Term]
+id: NBO:0000606! forgetfulness
+intersection_of: PATO:0000912 ! increased rate
+intersection_of: inheres_in NBO:0000304 ! memory loss behaviour
+
+[Term]
+id: _:unconsious
+is_anonymous: true
+intersection_of: PATO:0001558 ! lacking processual parts
+intersection_of: towards NBO:0000065 ! consciousness
+
+[Term]
+id: _:decreased_muscle_tonicity
+is_anonymous: true
+intersection_of: PATO:0001619 ! decreased tonicity
+intersection_of: inheres_in UBERON:0001630 ! muscle organ
+
+[Term]
+id: NBO:0000096 ! agoraphobia
+intersection_of: PATO:0000001 ! quality
+intersection_of: qualifier PATO:0000460 ! abnormal
+intersection_of: inheres_in NBO:0000094 ! fear towards situation/environment
+
+[Term]
+id: _:hypoglycemia
+is_anonymous: true
+intersection_of: PATO:0001162 ! increased concentration
+intersection_of: inheres_in FMA:9670 ! Portion of blood
+intersection_of: towards CHEBI:17234 ! glucose
+
+[Term]
+id: _:hypocalcemia
+is_anonymous: true
+intersection_of: PATO:0001162 ! increased concentration
+intersection_of: inheres_in FMA:9670 ! Portion of blood
+intersection_of: towards CHEBI:22984 ! calcium
+
+[Term]
+id: _:hypomagnesemia
+is_anonymous: true
+intersection_of: PATO:0001162 ! increased concentration
+intersection_of: inheres_in FMA:9670 ! Portion of blood
+intersection_of: towards CHEBI:25107 ! magnesium
+
+[Typedef]
+id: towards
+name: towards
+xref: BFO:0000070
+
+[Typedef]
+id: results_in
+name: results_in
+
+[Typedef]
+id: not_results_in
+name: not_results_in
+
+[Typedef]
+id: occurs_in
+name: occurs_in
+
+[Typedef]
+id: inheres_in
+name: inheres_in
+
+[Typedef]
+id: caused_by
+name: caused_by
+
+[Typedef]
+id: qualifier
+name: qualifier
+
+!!!! GO cross products
+
+[Term]
+id: NBO:0000011 ! social behaviour
+equivalent_to: GO:0035176 ! social behavior
+
+[Term]
+id: NBO:0000027 ! grooming behaviour
+equivalent_to: GO:0007625 ! grooming behavior
 
 [Term]
 id: NBO:0000171 ! associative learning behaviour
@@ -134,7 +209,7 @@ equivalent_to: GO:0042755 ! eating behavior
 
 [Term]
 id: NBO:0000315 ! optokinetic behavior
-equivalent_to: GOß:0007634 ! optokinetic behavior
+equivalent_to: GO:0007634 ! optokinetic behavior
 
 [Term]
 id: NBO:0000618 ! crying behaviour
@@ -185,18 +260,8 @@ id: NBO:0000010 ! reproductive behavior
 equivalent_to: GO:0019098 ! reproductive behavior
 
 [Term]
-id: NBO:0000634 ! irritable aggressive behavior
-intersection_of: NBO:0000015 ! aggressive behaviour
-intersection_of: caused_by NBO:0000128 ! irritability
-
-[Term]
 id: NBO:0000302 ! maternal aggressive behavior
 equivalent_to: GO:0002125 ! maternal aggressive behavior
-
-[Term]
-id: NBO:0000606! forgetfulness
-intersection_of: PATO:0000912 ! increased rate
-intersection_of: inheres_in NBO:0000304 ! memory loss behaviour
 
 [Term]
 id: NBO:0000379 ! negative gravitactic behavior
@@ -350,12 +415,6 @@ intersection_of: occurs_in UBERON:0002812 ! left cerebral hemisphere
 intersection_of: results_in _:unconsious
 
 [Term]
-id: _:unconsious
-is_anonymous: true
-intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: towards NBO:0000065 ! consciousness
-
-[Term]
 id: NBO:0000647 ! simple partial seizure
 intersection_of: NBO:0000646 ! partial seizure
 intersection_of: occurs_in  _:temporal_lobe_or_hippocampus
@@ -386,12 +445,6 @@ intersection_of: results_in NBO:0000601 ! pathological emotional behavior
 id: NBO:0000670 ! atonic seizure
 intersection_of: NBO:0000662 ! generalized seizure
 intersection_of: results_in _:decreased_muscle_tonicity
-
-[Term]
-id: _:decreased_muscle_tonicity
-is_anonymous: true
-intersection_of: PATO:0001619 ! decreased tonicity
-intersection_of: inheres_in UBERON:0001630 ! muscle organ
 
 [Term]
 id: NBO:0000709 ! drug induced non-epileptic seizure
@@ -454,41 +507,14 @@ intersection_of: NBO:0000686 ! provoked seizure
 intersection_of: caused_by  _:hypoglycemia
 
 [Term]
-id: NBO:0000096 ! agoraphobia
-intersection_of: PATO:0000001 ! quality
-intersection_of: qualifier PATO:0000460 ! abnormal
-intersection_of: inheres_in NBO:0000094 ! fear towards situation/environment
-
-[Term]
-id: _:hypoglycemia
-is_anonymous: true
-intersection_of: PATO:0001162 ! increased concentration
-intersection_of: inheres_in FMA:9670 ! Portion of blood
-intersection_of: towards CHEBI:17234 ! glucose
-
-[Term]
 id: NBO:0000735 ! hypocalcemia induced seizure
 intersection_of: NBO:0000686 ! provoked seizure
 intersection_of: caused_by  _:hypocalcemia
 
 [Term]
-id: _:hypocalcemia
-is_anonymous: true
-intersection_of: PATO:0001162 ! increased concentration
-intersection_of: inheres_in FMA:9670 ! Portion of blood
-intersection_of: towards CHEBI:22984 ! calcium
-
-[Term]
 id: NBO:0000723 ! hypomagnesemia induced non-epileptic seizure
 intersection_of: NBO:0000686 ! provoked seizure
 intersection_of: caused_by  _:hypomagnesemia
-
-[Term]
-id: _:hypomagnesemia
-is_anonymous: true
-intersection_of: PATO:0001162 ! increased concentration
-intersection_of: inheres_in FMA:9670 ! Portion of blood
-intersection_of: towards CHEBI:25107 ! magnesium
 
 [Term]
 id: NBO:0000730 ! auditory kindling induced seizure
@@ -504,43 +530,4 @@ intersection_of: caused_by NBO:0000709 ! drug induced seizure
 id: NBO:0000728 ! auditory kindling induced seizure
 intersection_of: NBO:0000727 ! kindling induced seizure
 intersection_of: caused_by NBO:0000724 ! electrical stimulation induced seizure
-
-[Typedef]
-id: towards
-name: towards
-xref: BFO:0000070
-
-[Typedef]
-id: results_in
-name: results_in
-
-[Typedef]
-id: not_results_in
-name: not_results_in
-
-[Typedef]
-id: occurs_in
-name: occurs_in
-
-[Typedef]
-id: inheres_in
-name: inheres_in
-
-[Typedef]
-id: caused_by
-name: caused_by
-
-[Typedef]
-id: qualifier
-name: qualifier
-
-
-
-
-
-
-
-
-
-
 

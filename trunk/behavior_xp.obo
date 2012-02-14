@@ -244,7 +244,7 @@ id: NBO:0000637 ! male courtship behavior
 equivalent_to: GO:0008049 ! male courtship behavior
 
 [Term]
-id: NBO:0008049 ! female courtship behavior
+id: NBO:0000638 ! female courtship behavior
 equivalent_to: GO:0008050 ! female courtship behavior
 
 [Term]

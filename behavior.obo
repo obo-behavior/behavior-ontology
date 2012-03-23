@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 1.1.2746
-date: 22:03:2012 09:57
+date: 23:03:2012 10:22
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -53,6 +53,9 @@ namespace-id-rule: * NBO:$sequence(7,0,9999999)$
 idspace: NIF_GrossAnatomy http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-GrossAnatomy.owl#
 idspace: Wikipedia http://en.wikipedia.org/wiki/
 remark: cvs version: $Revision: 1.2746 $
+ontology: pato
+ontology: pato
+ontology: pato
 ontology: pato
 ontology: pato
 ontology: pato
@@ -197,6 +200,90 @@ treat-xrefs-as-reverse-genus-differentia: XAO part_of NCBITaxon:8353
 treat-xrefs-as-reverse-genus-differentia: ZFA part_of NCBITaxon:7954
 treat-xrefs-as-reverse-genus-differentia: ncithesaurus part_of NCBITaxon:40674
 ontology: uberon
+treat-xrefs-as-equivalent: CARO
+treat-xrefs-as-equivalent: GO
+treat-xrefs-as-equivalent: BSPO
+treat-xrefs-as-equivalent: NIF_GrossAnatomy
+treat-xrefs-as-equivalent: BILA
+treat-xrefs-as-equivalent: OG
+treat-xrefs-as-equivalent: VAO
+treat-xrefs-as-has-subclass: EMAPA
+treat-xrefs-as-has-subclass: EHDAA
+treat-xrefs-as-has-subclass: EHDAA2
+treat-xrefs-as-has-subclass: OGES
+treat-xrefs-as-has-subclass: EV
+treat-xrefs-as-reverse-genus-differentia: AAO part_of NCBITaxon:8292
+treat-xrefs-as-reverse-genus-differentia: FBbt part_of NCBITaxon:7227
+treat-xrefs-as-reverse-genus-differentia: FMA part_of NCBITaxon:9606
+treat-xrefs-as-reverse-genus-differentia: HAO part_of NCBITaxon:7399
+treat-xrefs-as-reverse-genus-differentia: MA part_of NCBITaxon:10088
+treat-xrefs-as-reverse-genus-differentia: MFO part_of NCBITaxon:8089
+treat-xrefs-as-reverse-genus-differentia: SPD part_of NCBITaxon:6893
+treat-xrefs-as-reverse-genus-differentia: TGMA part_of NCBITaxon:44484
+treat-xrefs-as-reverse-genus-differentia: TADS part_of NCBITaxon:6939
+treat-xrefs-as-reverse-genus-differentia: TAO part_of NCBITaxon:32443
+treat-xrefs-as-reverse-genus-differentia: WBbt part_of NCBITaxon:6237
+treat-xrefs-as-reverse-genus-differentia: XAO part_of NCBITaxon:8353
+treat-xrefs-as-reverse-genus-differentia: ZFA part_of NCBITaxon:7954
+treat-xrefs-as-reverse-genus-differentia: ncithesaurus part_of NCBITaxon:40674
+ontology: uberon
+ontology: go
+treat-xrefs-as-equivalent: CARO
+treat-xrefs-as-equivalent: GO
+treat-xrefs-as-equivalent: BSPO
+treat-xrefs-as-equivalent: NIF_GrossAnatomy
+treat-xrefs-as-equivalent: BILA
+treat-xrefs-as-equivalent: OG
+treat-xrefs-as-equivalent: VAO
+treat-xrefs-as-has-subclass: EMAPA
+treat-xrefs-as-has-subclass: EHDAA
+treat-xrefs-as-has-subclass: EHDAA2
+treat-xrefs-as-has-subclass: OGES
+treat-xrefs-as-has-subclass: EV
+treat-xrefs-as-reverse-genus-differentia: AAO part_of NCBITaxon:8292
+treat-xrefs-as-reverse-genus-differentia: FBbt part_of NCBITaxon:7227
+treat-xrefs-as-reverse-genus-differentia: FMA part_of NCBITaxon:9606
+treat-xrefs-as-reverse-genus-differentia: HAO part_of NCBITaxon:7399
+treat-xrefs-as-reverse-genus-differentia: MA part_of NCBITaxon:10088
+treat-xrefs-as-reverse-genus-differentia: MFO part_of NCBITaxon:8089
+treat-xrefs-as-reverse-genus-differentia: SPD part_of NCBITaxon:6893
+treat-xrefs-as-reverse-genus-differentia: TGMA part_of NCBITaxon:44484
+treat-xrefs-as-reverse-genus-differentia: TADS part_of NCBITaxon:6939
+treat-xrefs-as-reverse-genus-differentia: TAO part_of NCBITaxon:32443
+treat-xrefs-as-reverse-genus-differentia: WBbt part_of NCBITaxon:6237
+treat-xrefs-as-reverse-genus-differentia: XAO part_of NCBITaxon:8353
+treat-xrefs-as-reverse-genus-differentia: ZFA part_of NCBITaxon:7954
+treat-xrefs-as-reverse-genus-differentia: ncithesaurus part_of NCBITaxon:40674
+ontology: uberon
+ontology: go
+treat-xrefs-as-equivalent: CARO
+treat-xrefs-as-equivalent: GO
+treat-xrefs-as-equivalent: BSPO
+treat-xrefs-as-equivalent: NIF_GrossAnatomy
+treat-xrefs-as-equivalent: BILA
+treat-xrefs-as-equivalent: OG
+treat-xrefs-as-equivalent: VAO
+treat-xrefs-as-has-subclass: EMAPA
+treat-xrefs-as-has-subclass: EHDAA
+treat-xrefs-as-has-subclass: EHDAA2
+treat-xrefs-as-has-subclass: OGES
+treat-xrefs-as-has-subclass: EV
+treat-xrefs-as-reverse-genus-differentia: AAO part_of NCBITaxon:8292
+treat-xrefs-as-reverse-genus-differentia: FBbt part_of NCBITaxon:7227
+treat-xrefs-as-reverse-genus-differentia: FMA part_of NCBITaxon:9606
+treat-xrefs-as-reverse-genus-differentia: HAO part_of NCBITaxon:7399
+treat-xrefs-as-reverse-genus-differentia: MA part_of NCBITaxon:10088
+treat-xrefs-as-reverse-genus-differentia: MFO part_of NCBITaxon:8089
+treat-xrefs-as-reverse-genus-differentia: SPD part_of NCBITaxon:6893
+treat-xrefs-as-reverse-genus-differentia: TGMA part_of NCBITaxon:44484
+treat-xrefs-as-reverse-genus-differentia: TADS part_of NCBITaxon:6939
+treat-xrefs-as-reverse-genus-differentia: TAO part_of NCBITaxon:32443
+treat-xrefs-as-reverse-genus-differentia: WBbt part_of NCBITaxon:6237
+treat-xrefs-as-reverse-genus-differentia: XAO part_of NCBITaxon:8353
+treat-xrefs-as-reverse-genus-differentia: ZFA part_of NCBITaxon:7954
+treat-xrefs-as-reverse-genus-differentia: ncithesaurus part_of NCBITaxon:40674
+ontology: uberon
+ontology: go
 treat-xrefs-as-equivalent: CARO
 treat-xrefs-as-equivalent: GO
 treat-xrefs-as-equivalent: BSPO
@@ -569,7 +656,7 @@ namespace: behavior_ontology
 def: "The elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds." [wikipedia:Excretion]
 is_a: NBO:0000035 ! emission behavior
 intersection_of: NBO:0000035 ! emission behavior
-intersection_of: inheres_in GO:0007588 ! excretion
+intersection_of: is_about GO:0007588 ! excretion
 created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 
@@ -580,7 +667,7 @@ namespace: behavior_ontology
 def: "The expulsion of feces from the rectum." [wikipedia:defecation]
 is_a: NBO:0000038 ! behavioral control of excretion
 intersection_of: NBO:0000038 ! behavioral control of excretion
-intersection_of: is_about PATO:0000270 ! defecation
+intersection_of: is_about GO:0030421 ! defecation
 created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 
@@ -823,8 +910,6 @@ name: asleep
 namespace: behavior_ontology
 def: "Behavior related to reduced or absent consciousness, relatively suspended sensory activity, and inactivity of nearly all voluntary muscles." [wikipedia:Asleep]
 is_a: NBO:0000419 ! sleeping behavior phenotype
-intersection_of: PATO:0001558 ! lacking processual parts
-intersection_of: towards NBO:0000024 ! sleeping behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T01:20:02Z
 
@@ -1485,7 +1570,6 @@ id: NBO:0000138
 name: liquid aversion
 namespace: behavior_ontology
 is_a: NBO:0000133 ! liquid preference/aversion
-intersection_of: PATO:0000771 ! aversion
 created_by: George Gkoutos
 creation_date: 2011-03-31T12:55:32Z
 
@@ -1667,7 +1751,7 @@ synonym: " paradoxical sleep" EXACT []
 synonym: "REM sleep" EXACT []
 is_a: NBO:0000024 ! sleeping behavior
 intersection_of: NBO:0000024 ! sleeping behavior
-intersection_of: is_about GO:0042748 ! circadian sleep/wake cycle, non-REM sleep
+intersection_of: is_about GO:0042747 ! circadian sleep/wake cycle, REM sleep
 created_by: George Gkoutos
 creation_date: 2011-03-31T03:00:57Z
 
@@ -1677,7 +1761,7 @@ name: sleep duration
 namespace: behavior_ontology
 is_a: NBO:0000419 ! sleeping behavior phenotype
 intersection_of: PATO:0001309 ! duration quality of a process
-intersection_of: inheres_in NBO:0000024 ! sleeping behavior
+intersection_of: inheres_in GO:0030431 ! sleep
 created_by: George Gkoutos
 creation_date: 2011-03-31T03:09:27Z
 
@@ -1690,7 +1774,7 @@ comment: These stages are characterized by a slowing of brain waves and other ph
 synonym: "NREM sleep behavior" EXACT []
 is_a: NBO:0000024 ! sleeping behavior
 intersection_of: NBO:0000024 ! sleeping behavior
-intersection_of: is_about GO:0042747 ! circadian sleep/wake cycle, REM sleep
+intersection_of: is_about GO:0042748 ! circadian sleep/wake cycle, non-REM sleep
 created_by: George Gkoutos
 creation_date: 2011-03-31T03:12:44Z
 
@@ -2254,8 +2338,9 @@ id: NBO:0000221
 name: conditioned emotional response
 namespace: behavior_ontology
 is_a: NBO:0000208 ! classical conditioning
-intersection_of: NBO:0000208 ! classical conditioning
-intersection_of: is_about NBO:0000003 ! emotional behavior
+is_a: NBO:0000778 ! emotional conditioning
+intersection_of: NBO:0000171 ! associative learning behavior
+intersection_of: caused_by NBO:0000778 ! emotional conditioning
 created_by: George Gkoutos
 creation_date: 2011-04-04T03:36:48Z
 
@@ -3053,7 +3138,6 @@ comment: Example: moving head to watch passing object.
 synonym: "behavior involving perception" EXACT []
 synonym: "perception behavior" EXACT []
 is_a: NBO:0000607 ! cognitive behavior
-intersection_of: NBO:0000608 ! hallucination
 created_by: George Gkoutos
 creation_date: 2011-04-04T10:00:45Z
 
@@ -7611,34 +7695,13 @@ intersection_of: inheres_in GO:0071625 ! vocalization behavior
 created_by: gkoutos
 creation_date: 2012-03-20T05:34:04Z
 
-[Typedef]
-id: by_means
-name: by means of
+[Term]
+id: NBO:0000778
+name: emotional conditioning
+namespace: behavior_ontology
+is_a: NBO:0000208 ! classical conditioning
+intersection_of: NBO:0000208 ! classical conditioning
+intersection_of: is_about NBO:0000003 ! emotional behavior
 created_by: gkoutos
-creation_date: 2012-03-16T05:08:08Z
+creation_date: 2012-03-23T10:05:56Z
 
-[Typedef]
-id: has_participant
-name: has_participant
-xref: RO:
-
-[Typedef]
-id: is_about
-name: is about
-created_by: gkoutos
-creation_date: 2012-03-16T05:07:37Z
-
-[Typedef]
-id: qualifier
-name: qualifier
-comment: placeholder relation to indicate normality/abnormality.
-
-[Typedef]
-id: inheres_in
-name: inheres_in
-namespace: quality
-
-
-[Typedef]
-id: results_in
-name: results_in

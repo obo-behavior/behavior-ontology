@@ -16,14 +16,14 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      ontologyIRI="http://purl.obolibrary.org/obo/">
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://purl.obolibrary.org/obo/go.owl</Import>
-    <Import>http://purl.obolibrary.org/obo/pato.owl</Import>
     <Import>http://purl.obolibrary.org/obo/uberon.owl</Import>
+    <Import>http://purl.obolibrary.org/obo/pato</Import>
     <Declaration>
         <Class IRI="NBO_0000001"/>
     </Declaration>
@@ -2317,6 +2317,24 @@
         <Class IRI="NBO_0000778"/>
     </Declaration>
     <Declaration>
+        <Class IRI="NBO_0000851"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NBO_0000886"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NBO_0000929"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NBO_0000961"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="NBO_0000993"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="NBO_0000861"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="http_//purl.org/obo/owl:is_about"/>
     </Declaration>
     <Declaration>
@@ -3089,41 +3107,81 @@
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="NBO_0000541"/>
-        <ObjectIntersectionOf>
-            <Class IRI="PATO_0000381"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http_//purl.org/obo/owl:inheres_in"/>
-                <Class IRI="NBO_0000064"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http_//purl.org/obo/owl:qualifier"/>
-                <Class IRI="PATO_0001863"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="BFO_0000056"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="RO_0002211"/>
+                    <Class IRI="NBO_0000064"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="uberon#has_quality"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="PATO_0000380"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="towards"/>
+                            <Class IRI="NBO_0000064"/>
+                        </ObjectSomeValuesFrom>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="http_//purl.org/obo/owl:qualifier"/>
+                            <Class IRI="PATO_0001863"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="NBO_0000542"/>
-        <ObjectIntersectionOf>
-            <Class IRI="PATO_0000912"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http_//purl.org/obo/owl:inheres_in"/>
-                <Class IRI="NBO_0000130"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="BFO_0000056"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="NBO_0000861"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="PATO_0000145"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="http_//purl.org/obo/owl:qualifier"/>
+                            <Class IRI="PATO_0001333"/>
+                        </ObjectSomeValuesFrom>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="uberon#has_quality"/>
+                            <Class IRI="PATO_0001563"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="RO_0002211"/>
+                    <Class IRI="NBO_0000064"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="NBO_0000543"/>
-        <ObjectIntersectionOf>
-            <Class IRI="PATO_0000380"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http_//purl.org/obo/owl:inheres_in"/>
-                <Class IRI="NBO_0000064"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http_//purl.org/obo/owl:qualifier"/>
-                <Class IRI="PATO_0001333"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="BFO_0000056"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="RO_0002211"/>
+                    <Class IRI="NBO_0000064"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="uberon#has_quality"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="PATO_0000380"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="towards"/>
+                            <Class IRI="NBO_0000064"/>
+                        </ObjectSomeValuesFrom>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="http_//purl.org/obo/owl:qualifier"/>
+                            <Class IRI="PATO_0001333"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="NBO_0000544"/>
@@ -3337,13 +3395,16 @@
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="NBO_0000661"/>
-        <ObjectIntersectionOf>
-            <Class IRI="PATO_0000001"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="http_//purl.org/obo/owl:inheres_in"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="BFO_0000056"/>
+            <ObjectIntersectionOf>
                 <Class IRI="NBO_0000323"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="uberon#has_quality"/>
+                    <Class IRI="PATO_0000001"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="NBO_0000746"/>
@@ -3624,6 +3685,113 @@
                 <Class IRI="NBO_0000003"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="NBO_0000851"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="BFO_0000056"/>
+            <ObjectIntersectionOf>
+                <Class IRI="NBO_0000064"/>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="NBO_0000861"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="PATO_0000145"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="uberon#has_quality"/>
+                            <Class IRI="PATO_0001563"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="NBO_0000886"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="BFO_0000056"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="NBO_0000861"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="PATO_0000145"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="uberon#has_quality"/>
+                            <Class IRI="PATO_0001563"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="RO_0002211"/>
+                    <Class IRI="NBO_0000064"/>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="NBO_0000929"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="BFO_0000056"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="RO_0002211"/>
+                    <Class IRI="NBO_0000064"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="uberon#has_quality"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="PATO_0000044"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="towards"/>
+                            <Class IRI="NBO_0000064"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="NBO_0000961"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="BFO_0000056"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="RO_0002211"/>
+                    <Class IRI="NBO_0000064"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="uberon#has_quality"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="PATO_0000380"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="towards"/>
+                            <Class IRI="NBO_0000064"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="NBO_0000993"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="BFO_0000056"/>
+            <ObjectIntersectionOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="RO_0002211"/>
+                    <Class IRI="NBO_0000064"/>
+                </ObjectSomeValuesFrom>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="uberon#has_quality"/>
+                    <ObjectIntersectionOf>
+                        <Class IRI="PATO_0000381"/>
+                        <ObjectSomeValuesFrom>
+                            <ObjectProperty IRI="towards"/>
+                            <Class IRI="NBO_0000064"/>
+                        </ObjectSomeValuesFrom>
+                    </ObjectIntersectionOf>
+                </ObjectSomeValuesFrom>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <SubClassOf>
         <Class IRI="NBO_0000001"/>
@@ -6828,6 +6996,26 @@
         <Class IRI="NBO_0000778"/>
         <Class IRI="NBO_0000208"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NBO_0000851"/>
+        <Class IRI="NBO_0000540"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NBO_0000886"/>
+        <Class IRI="NBO_0000540"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NBO_0000929"/>
+        <Class IRI="NBO_0000540"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NBO_0000961"/>
+        <Class IRI="NBO_0000929"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="NBO_0000993"/>
+        <Class IRI="NBO_0000929"/>
+    </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty IRI="created_by"/>
         <IRI>NBO_0000001</IRI>
@@ -6890,7 +7078,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000003</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related to the complex psychophysiological experience of an individual&#39;s state of mind as interacting with biochemical (internal) and environmental (external) influences.&quot; [wikipedia:Emotions]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related to the complex psychophysiological experience of an individual&apos;s state of mind as interacting with biochemical (internal) and environmental (external) influences.&quot; [wikipedia:Emotions]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -7560,7 +7748,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000027</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related to the cleaning or maintainance of one&#39;s body or appearance.&quot; [NBO:GVG]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related to the cleaning or maintainance of one&apos;s body or appearance.&quot; [NBO:GVG]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -10960,7 +11148,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000155</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related to the parent&#39;s tendency to collect stray offspring and return them to a defined location.&quot; [NBO:GVG]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related to the parent&apos;s tendency to collect stray offspring and return them to a defined location.&quot; [NBO:GVG]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -11317,7 +11505,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000170</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related with the ability of an organism&#39;s ability to store, retain, and recall information and experiences.&quot; [NBO:GVG]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related with the ability of an organism&apos;s ability to store, retain, and recall information and experiences.&quot; [NBO:GVG]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -12004,7 +12192,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000195</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A type of memory for particular events within one&#39;s own life.&quot; [NBO:GVG]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A type of memory for particular events within one&apos;s own life.&quot; [NBO:GVG]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -12454,7 +12642,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000212</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Operant conditioning is the use of a behavior&#39;s antecedent and/or its consequence to influence the occurrence and form of behavior.&quot; [wikipedia:Operant_conditioning]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Operant conditioning is the use of a behavior&apos;s antecedent and/or its consequence to influence the occurrence and form of behavior.&quot; [wikipedia:Operant_conditioning]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -14905,7 +15093,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000306</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related with the ability of an organism&#39;s ability to store information and experiences.&quot; [NBO:GVG]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related with the ability of an organism&apos;s ability to store information and experiences.&quot; [NBO:GVG]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -14939,7 +15127,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000307</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related with the ability of an organism&#39;s ability to recall information and experiences.&quot; [NBO:GVG]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related with the ability of an organism&apos;s ability to recall information and experiences.&quot; [NBO:GVG]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -15820,7 +16008,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000338</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related to the movement of the body&#39;s muscles, tendons, and joints.&quot; [NBO:GVG]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related to the movement of the body&apos;s muscles, tendons, and joints.&quot; [NBO:GVG]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -17588,7 +17776,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000399</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A reflex elicited by the placement of an object in the infant&#39;s hand and strokes their palm, causing its fingers to close and grasp it.&quot; [wikipedia:Primitive_reflexes]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A reflex elicited by the placement of an object in the infant&apos;s hand and strokes their palm, causing its fingers to close and grasp it.&quot; [wikipedia:Primitive_reflexes]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -17663,7 +17851,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000402</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A reflex that causes the infant to attempt to &#39;walk&#39; by placing one foot in front of the other when the soles of their feet touch a flat surface.&quot; [wikipedia:Primitive_reflexes]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A reflex that causes the infant to attempt to &apos;walk&apos; by placing one foot in front of the other when the soles of their feet touch a flat surface.&quot; [wikipedia:Primitive_reflexes]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -19194,7 +19382,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000450</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related to the activity in which individuals in a group clean or maintain one another&#39;s body or appearance.&quot; [wikipedia:Social_grooming]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Behavior related to the activity in which individuals in a group clean or maintain one another&apos;s body or appearance.&quot; [wikipedia:Social_grooming]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -19956,7 +20144,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000479</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A dyssomnia characterized by an irresistible urge to move one&#39;s body to stop uncomfortable or odd sensations.&quot; [wikipedia:Restless_legs_syndrome]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A dyssomnia characterized by an irresistible urge to move one&apos;s body to stop uncomfortable or odd sensations.&quot; [wikipedia:Restless_legs_syndrome]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -20033,7 +20221,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000481</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A dyssomnia characterized by a mistakenly perception of one&#39;s sleep as wakefulness.&quot; [wikipedia:Sleep_state_misperception]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A dyssomnia characterized by a mistakenly perception of one&apos;s sleep as wakefulness.&quot; [wikipedia:Sleep_state_misperception]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -20358,7 +20546,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000491</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A circadian rhythm sleep disorder which the affected individual&#39;s sleep occurs later and later each day, with the period of peak alertness also continuously moving around the clock from day to day.&quot; [wikipedia:Circadian_rhythm_sleep_disorder]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A circadian rhythm sleep disorder which the affected individual&apos;s sleep occurs later and later each day, with the period of peak alertness also continuously moving around the clock from day to day.&quot; [wikipedia:Circadian_rhythm_sleep_disorder]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -21933,7 +22121,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000543</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A pathological drinking behavior characterised by an excessive desire to drink.&quot; [NBO:GVG]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A pathological drinking behavior characterised by an excessive relative temporal desire to drink.&quot; [NBO:GVG]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -22247,7 +22435,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000556</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A type of memory responsible for recording information about one&#39;s environment and its spatial orientation.&quot; [wikipedia:Spatial_memory]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A type of memory responsible for recording information about one&apos;s environment and its spatial orientation.&quot; [wikipedia:Spatial_memory]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -22272,7 +22460,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000557</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A type of memory that allows one to temporarily store and manage information about one&#39;s environment and its spatial orientation.&quot; [wikipedia:Spatial_memory]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A type of memory that allows one to temporarily store and manage information about one&apos;s environment and its spatial orientation.&quot; [wikipedia:Spatial_memory]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -22578,7 +22766,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000568</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Observable characteristic of behavior related to the movement of the body&#39;s muscles, tendons, and joints.&quot; [NBO:GVG]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Observable characteristic of behavior related to the movement of the body&apos;s muscles, tendons, and joints.&quot; [NBO:GVG]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -22757,7 +22945,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000575</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A reflex that elucidates goose bumps (bumps on a person&#39;s skin at the base of body hairs) which may involuntarily develop when a person is cold or experiences strong emotions such as fear, awe, admiration or sexual arousal&quot; [wikipedia:Goose_bumps]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A reflex that elucidates goose bumps (bumps on a person&apos;s skin at the base of body hairs) which may involuntarily develop when a person is cold or experiences strong emotions such as fear, awe, admiration or sexual arousal&quot; [wikipedia:Goose_bumps]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -22814,7 +23002,7 @@
         </Annotation>
         <AnnotationProperty IRI="synonym"/>
         <IRI>NBO_0000576</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Preyer&#39;s reflex</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Preyer&apos;s reflex</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -23483,7 +23671,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000599</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A type of memory that allows one to store and manage information about one&#39;s environment and its spatial orientation lasting hours to months.&quot; [NBO:GVG]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;A type of memory that allows one to store and manage information about one&apos;s environment and its spatial orientation lasting hours to months.&quot; [NBO:GVG]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -23533,7 +23721,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000601</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Observable characteristic of behavior related to the complex psychophysiological experience of an individual&#39;s state of mind as interacting with biochemical (internal) and environmental (external) influences.&quot; [NBO:GVG]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Observable characteristic of behavior related to the complex psychophysiological experience of an individual&apos;s state of mind as interacting with biochemical (internal) and environmental (external) influences.&quot; [NBO:GVG]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -23676,7 +23864,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000606</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Loss of information already encoded and stored in an individual&#39;s long term memory.&quot; [wikipedia:Forgetting]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Loss of information already encoded and stored in an individual&apos;s long term memory.&quot; [wikipedia:Forgetting]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -27583,7 +27771,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>NBO_0000742</IRI>
-        <Literal datatypeIRI="&xsd;string">autoaggresssive behavior</Literal>
+        <Literal datatypeIRI="&xsd;string">autoaggressive behavior</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="created_by"/>
@@ -28158,7 +28346,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="def"/>
         <IRI>NBO_0000767</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Observable characteristic of behaviour related to the ability of an organism&#39;s ability to store, retain, and recall information and experiences.&quot; [NBO:GVG]</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&quot;Observable characteristic of behaviour related to the ability of an organism&apos;s ability to store, retain, and recall information and experiences.&quot; [NBO:GVG]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="namespace"/>
@@ -28425,9 +28613,39 @@
         <IRI>NBO_0000778</IRI>
         <Literal datatypeIRI="&xsd;string">emotional conditioning</Literal>
     </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>NBO_0000851</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">increased amount of liquid in a single drinking act</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>NBO_0000861</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has-input</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>NBO_0000886</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">increased amount of liquid in drinking regulation </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>NBO_0000929</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">frequency of drinking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>NBO_0000961</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">increased frequency of drinking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>NBO_0000993</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">decreased frequency of drinking</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 3.2.3.22702) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.2.5.1928) http://owlapi.sourceforge.net -->
 

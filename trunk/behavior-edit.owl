@@ -6,11 +6,12 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/>
+Ontology(<http://purl.obolibrary.org/obo/behavior.owl>
 Import(<http://purl.obolibrary.org/obo/go.owl>)
 Import(<http://purl.obolibrary.org/obo/pato.owl>)
 Import(<http://purl.obolibrary.org/obo/uberon.owl>)
 
+EquivalentClasses(<http://purl.obolibrary.org/obo/GO_0007601> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means> <http://purl.obolibrary.org/obo/UBERON_0002104>) <http://purl.obolibrary.org/obo/GO_0050953>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000001>))
 AnnotationAssertion(<http://purl.obolibrary.org/obo/created_by> <http://purl.obolibrary.org/obo/NBO_0000001> "George Gkoutos")
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/synonymtype> "EXACT"^^xsd:string) <http://purl.obolibrary.org/obo/synonym> <http://purl.obolibrary.org/obo/NBO_0000001> "stationary movement")
@@ -313,7 +314,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/namespace> <http://purl.obol
 AnnotationAssertion(<http://purl.obolibrary.org/obo/created_by> <http://purl.obolibrary.org/obo/NBO_0000042> "George Gkoutos")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0000042> "behavioral control of lacrimation"^^xsd:string)
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/synonymtype> "EXACT"^^xsd:string) <http://purl.obolibrary.org/obo/synonym> <http://purl.obolibrary.org/obo/NBO_0000042> "tear secretion")
-EquivalentClasses(<http://purl.obolibrary.org/obo/NBO_0000042> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about> <http://purl.obolibrary.org/obo/GO_0070075>) <http://purl.obolibrary.org/obo/NBO_0000041>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/NBO_0000042> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NBO_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means> <http://purl.obolibrary.org/obo/UBERON_0001817>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about> <http://purl.obolibrary.org/obo/GO_0070075>)))
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000042> <http://purl.obolibrary.org/obo/NBO_0000041>)
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000043>))
 AnnotationAssertion(<http://purl.obolibrary.org/obo/created_by> <http://purl.obolibrary.org/obo/NBO_0000043> "George Gkoutos")

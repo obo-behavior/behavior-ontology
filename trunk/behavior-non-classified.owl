@@ -13,7 +13,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/behavior/2012-05-02/behavior.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/behavior/2012-05-02/behavior-non-classified.owl"/>
     </owl:Ontology>
     
 
@@ -128,31 +128,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/GO_0002118 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0002118">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051705"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0007588 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007588">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003008"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0007589 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007589">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0046903"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050878"/>
-    </rdf:Description>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0007601 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007601">
@@ -167,266 +142,6 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050953"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002104"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0007605 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007605">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050954"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0007606 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007606">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0007608 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007608">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007606"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0007618 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007618">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022414"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0051704"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0007622 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007622">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048511"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0007623 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007623">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048511"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0009414 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0009414">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0006950"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009415"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0019232 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019232">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019230"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0019233 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019233">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0030421 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030421">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007588"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0030431 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030431">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032501"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0040011 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0040011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0042747 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042747">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022410"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0042748 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042748">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0022410"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0050881 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050881">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050879"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0050882 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050882">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050881"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0050884 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050884">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050905"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0050909 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050909">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007606"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0050953 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050953">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0050955 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050955">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050951"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0050957 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050957">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007600"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0050965 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050965">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050961"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0050966 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050966">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050974"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0050967 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050967">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050963"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0050968 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050968">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050907"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0050975 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0050975">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050954"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0060004 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0060004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009605"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0060073 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0060073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003014"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007588"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0060361 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0060361">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0040011"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0070075 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0070075">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007589"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0071625 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0071625">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
     </rdf:Description>
     
 
@@ -569,12 +284,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000644"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000013"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-14T12:58:40Z</obo:creation_date>
         <obo:synonym>pathological locomotory behaviour</obo:synonym>
         <obo:def>&quot;Observable characteristic of behavior associated with the specific movement from place to place of an organism.&quot; [NBO:GVG]</obo:def>
@@ -659,12 +368,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000002"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0040011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:xref>GO:0008344</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;Behavior associated with the specific movement from place to place of an organism.&quot; [GO:0007626]</obo:def>
@@ -850,12 +553,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000008"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030431"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-14T01:03:39Z</obo:creation_date>
@@ -1082,12 +779,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000035"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007588"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-14T01:03:39Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -1112,12 +803,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000038"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030421"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;The expulsion of feces from the rectum.&quot; [wikipedia:defecation]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -1146,18 +831,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000038"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001256"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060073"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>micturition</obo:synonym>
@@ -1189,12 +862,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000035"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007589"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-14T01:03:39Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -1222,18 +889,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000041"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0070075"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001817"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>tear secretion</obo:synonym>
         <obo:creation_date>2011-04-14T01:03:39Z</obo:creation_date>
@@ -1844,14 +1499,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007622"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000008"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007623"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;Behavior related to any biological process in an organism that recurs with a regularity of approximately 24 hours.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -2836,13 +2484,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000756"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007618"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-03-31T02:16:59Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -2866,13 +2507,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000756"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000773"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007618"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-03-31T02:17:22Z</obo:creation_date>
         <obo:synonym>mate choice</obo:synonym>
@@ -3064,12 +2698,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000024"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042747"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:synonym>REM sleep</obo:synonym>
         <obo:creation_date>2011-03-31T03:00:57Z</obo:creation_date>
         <obo:synonym> paradoxical sleep</obo:synonym>
@@ -3107,13 +2735,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000419"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001309"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030431"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-03-31T03:09:27Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -3137,12 +2758,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000024"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042748"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-03-31T03:12:44Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:comment>These stages are characterized by a slowing of brain waves and other physiological functions.</obo:comment>
@@ -3175,13 +2790,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000754"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001309"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000159"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-03-31T03:15:38Z</obo:creation_date>
         <obo:def>&quot;Duration of REM sleep.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -3206,13 +2814,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000754"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000159"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-03-31T03:15:49Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -3236,13 +2837,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000753"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001309"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000161"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;Duration of REM sleep.&quot; [NBO:GVG]</obo:def>
@@ -3267,13 +2861,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000753"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000161"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-03-31T03:16:10Z</obo:creation_date>
@@ -3387,12 +2974,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000641"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000323"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-01T01:54:09Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -3416,12 +2997,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000641"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000314"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-01T01:54:15Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -3474,12 +3049,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000746"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-01T01:57:20Z</obo:creation_date>
@@ -3503,12 +3072,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;A behavioral process whose outcome is a relatively long-lasting adaptive behavioral change whereby an organism modifies innate vocalizations to imitate or create new sounds.&quot; [GO:0042297]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-01T01:58:41Z</obo:creation_date>
@@ -4008,13 +3571,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000778"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
         <obo:creation_date>2011-04-03T08:58:27Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -4147,13 +3704,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000220"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000745"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-03T09:11:44Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -4216,12 +3767,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society.&quot; [wikipedia:Social_conditioning]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -4245,13 +3790,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000778"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000778"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-04T03:36:48Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -4336,12 +3876,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000749"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-04T03:55:46Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -4365,12 +3899,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000747"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-04T03:57:01Z</obo:creation_date>
@@ -4394,12 +3922,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000656"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000317"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;Observable characteristic of behavior related to the awareness of body balance and movement.&quot; [NBO:GVG]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>pathological vestibular behaviour</obo:synonym>
@@ -4502,12 +4024,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000233"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0009414"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;Behavior related to the deprivation of water.&quot; [NBO:GVG]</obo:def>
@@ -5051,13 +4567,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000607"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-04T09:01:18Z</obo:creation_date>
@@ -5118,13 +4627,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;Observable characteristic of behavior associated with the intake of food or liquids.&quot; [NBO:GVG]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -5216,12 +4718,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000741"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000037"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;A behavioral interaction between organisms in which one organism exhibits aggression using vocal or verbal means.&quot; [NBO:GVG]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-04T09:07:58Z</obo:creation_date>
@@ -5851,25 +5347,13 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000751"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007601"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002104"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <obo:synonym>behavioural response to visual stimulus</obo:synonym>
+        <obo:def>&quot;Behavior related to the actions or reactions of an organism in response to a visual stimulus.&quot; [GO:0007632]</obo:def>
         <obo:synonym>behavioral response to visual stimulus</obo:synonym>
         <obo:creation_date>2011-04-05T10:36:24Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:synonym>visual behaviour</obo:synonym>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:synonym>behavioural response to visual stimulus</obo:synonym>
-        <obo:def>&quot;Behavior related to the actions or reactions of an organism in response to a visual stimulus.&quot; [GO:0007632]</obo:def>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
@@ -5925,18 +5409,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000751"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002105"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007605"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-05T10:38:17Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -5968,12 +5440,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000327"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004681"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;Behavior related to the awareness of body balance and movement.&quot; [MBP:GVG]</obo:def>
@@ -6029,12 +5495,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000317"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050957"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-05T10:44:34Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -6058,12 +5518,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000317"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019232"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-05T10:44:55Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -6091,18 +5545,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000751"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005726"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;Behavior related to the sensation of chemicals.&quot; [NBO:GVG]</obo:def>
@@ -6131,18 +5573,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000322"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005725"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0007608"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-05T10:48:52Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -6171,18 +5601,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000322"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001033"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050909"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>gustatory behavior</obo:synonym>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -6214,12 +5632,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000330"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050955"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-05T11:00:51Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -6265,12 +5677,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000326"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001305"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;Behavior related to the detection of high environmental temperature.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -6295,12 +5701,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000326"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001306"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;Behavior related to the detection of low environmental temperature.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2011-04-05T11:09:56Z</obo:creation_date>
@@ -6325,12 +5725,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000327"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002097"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-05T11:11:48Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -6354,12 +5748,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000330"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019233"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-05T11:13:27Z</obo:creation_date>
         <obo:synonym>pain</obo:synonym>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -6397,12 +5785,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000330"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050975"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-05T11:36:23Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -6426,12 +5808,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000331"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050968"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-05T12:38:39Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>chemical nociception behaviour</obo:synonym>
@@ -6462,12 +5838,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000331"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050966"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:synonym>mechanical nociception behaviour</obo:synonym>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -6498,12 +5868,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000331"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050965"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-05T12:41:15Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -6553,12 +5917,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000330"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001025"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-05T02:06:22Z</obo:creation_date>
@@ -6582,12 +5940,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050881"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;Behavior related to the movement of the body&#39;s muscles, tendons, and joints.&quot; [NBO:GVG]</obo:def>
@@ -6842,12 +6194,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000317"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050884"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-06T09:30:15Z</obo:creation_date>
@@ -6872,12 +6218,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000355"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:has_participant"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000309"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;Intentionally or habitually assumed arrangement of the body.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-06T09:30:45Z</obo:creation_date>
@@ -6902,12 +6242,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000355"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:has_participant"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002101"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-06T09:31:06Z</obo:creation_date>
@@ -7057,19 +6391,13 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000366"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060361"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:synonym>flying</obo:synonym>
         <obo:alt_id>NBO:0000072</obo:alt_id>
-        <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:xref>GO:0007629</obo:xref>
         <obo:creation_date>2011-04-06T11:45:51Z</obo:creation_date>
         <obo:def>&quot;Behavior related to the self-propelled movement of an organism from one location to another through the air, usually by means of active wing movement.&quot; [NBO:GVG]</obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
@@ -7446,13 +6774,8 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000388"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0060004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:synonym>reflex behaviour</obo:synonym>
         <obo:creation_date>2011-04-06T02:36:55Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -7719,12 +7042,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050882"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-06T03:32:28Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -8069,12 +7386,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000473"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000024"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;Observable characteristic of behavior related to the readily reversible state of reduced awareness and metabolic activity that occurs periodically in many animals.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2011-04-07T01:19:38Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -8794,13 +8105,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000225"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000746"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;The perception of familiar objects as approximately the same size regardless of their distance from the observer.&quot; [Jrank:http\://science.jrank.org/pages/5094/Perception.html]</obo:def>
         <obo:creation_date>2011-04-08T01:15:31Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -8825,12 +8129,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000225"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-08T01:16:53Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -8855,13 +8153,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000225"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000465"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000052"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-08T01:18:00Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -8886,12 +8177,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019232"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;Perception relating to the process of inferring the speed and direction of elements in a scene based on visual, vestibular and proprioceptive inputs.&quot; [wikipedia:Motion_perception]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -8916,12 +8201,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000052"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;Perception related to the identification of objects and their distinction from each other.&quot; [:http\://science.jrank.org/pages/5094/Perception.html]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-08T01:25:53Z</obo:creation_date>
@@ -8946,12 +8225,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000746"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001595"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;Behavior involving an active reception and coordination of information relating to depth received through the sensory systems in order to perceive the three-dimensionality of the world and objects within it.&quot; [:erceiving the three-dimensionality of the world and objects  Read more\: Perception - Perceptual Systems\, Historical Background\, Innate And Learned - Classical perceptual phenomena\, Broad theoretical approaches\, Current research/future developments http\://science.jrank.org/pages/5094/Perception.html#ixzz1It3oOobp]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-08T01:29:05Z</obo:creation_date>
@@ -8976,12 +8249,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000746"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000040"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-08T01:31:08Z</obo:creation_date>
         <obo:def>&quot;Perception of the distance of an object.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -9072,13 +8339,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000008"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-08T02:18:40Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -9102,12 +8362,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000473"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000084"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-08T02:19:42Z</obo:creation_date>
         <obo:synonym>pathological circadian behaviour</obo:synonym>
@@ -9880,19 +9134,12 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000256"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002361"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:towards"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000085"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:synonym>depressive disorder not otherwise specified</obo:synonym>
         <obo:creation_date>2011-04-09T12:28:31Z</obo:creation_date>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>DD-NOS</obo:synonym>
         <obo:alt_id>NBO:0000523</obo:alt_id>
+        <obo:synonym>depressive disorder not otherwise specified</obo:synonym>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
@@ -10300,12 +9547,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000270"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000063"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-10T10:39:39Z</obo:creation_date>
         <obo:def>&quot;Observable characteristic of feeding behavior that relates to easting.&quot; [NBO:GVG]</obo:def>
         <obo:synonym>eating disorder </obo:synonym>
@@ -10337,12 +9578,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000270"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;Observable characteristic of feeding behavior that relates to feeding.&quot; [NBO:GVG]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>pathological drinking behaviour</obo:synonym>
@@ -10402,7 +9637,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000961"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000540"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;A pathological drinking behavior characterised by an excessive desire to drink.&quot; [NBO:GVG]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -10448,7 +9683,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000886"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000540"/>
         <obo:creation_date>2011-04-10T10:41:10Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;A pathological drinking behavior characterised by large intake of fluids by mouth, usually due to excessive thirst that is relatively prolonged.&quot; [NBO:GVG]</obo:def>
@@ -10494,7 +9729,7 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000961"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000540"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;A pathological drinking behavior characterised by an excessive relative temporal desire to drink.&quot; [NBO:GVG]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -10519,13 +9754,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000539"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001558"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:towards"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000063"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;A pathological feeding behavior characterised by failure to eat.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2011-04-10T10:41:10Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -10562,13 +9790,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000539"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000912"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000134"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;A pathological drinking behavior characterised by an abnormally large intake of food by mouth, usually due to excessive hunger that is relatively prolonged.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2011-04-10T10:41:10Z</obo:creation_date>
@@ -10600,14 +9821,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000522"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001558"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002304"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:towards"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000230"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-10T10:41:10Z</obo:creation_date>
         <obo:def>&quot;Lack of ability to enjoy a sense of pleasure.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -10847,13 +10060,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:synonym>pathological social behaviour</obo:synonym>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-14T08:24:37Z</obo:creation_date>
@@ -10936,13 +10142,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-14T08:31:34Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;Observable characteristic of behavior related to the movement of the body&#39;s muscles, tendons, and joints.&quot; [NBO:GVG]</obo:def>
@@ -11344,13 +10543,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000591"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000770"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:towards"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000403"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;Inability to coordinate voluntary muscular movements.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2011-04-14T11:25:59Z</obo:creation_date>
@@ -11375,12 +10567,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000229"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000339"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-14T11:32:30Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -11522,13 +10708,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;Observable characteristic of behavior related to the complex psychophysiological experience of an individual&#39;s state of mind as interacting with biochemical (internal) and environmental (external) influences.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -11619,19 +10798,12 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000266"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002361"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:towards"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000304"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:synonym>pathological forgetting</obo:synonym>
-        <obo:synonym>retention loss</obo:synonym>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;Loss of information already encoded and stored in an individual&#39;s long term memory.&quot; [wikipedia:Forgetting]</obo:def>
         <obo:creation_date>2011-04-14T03:42:46Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:synonym>pathological forgetting</obo:synonym>
+        <obo:synonym>retention loss</obo:synonym>
+        <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
@@ -11690,12 +10862,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000608"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002104"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;A form of hallucination that involves perceiving images without visual stimulus.&quot; [NBO:GVG]</obo:def>
         <obo:synonym>paracusia</obo:synonym>
@@ -11727,12 +10893,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000608"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002105"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-04-14T03:56:24Z</obo:creation_date>
         <obo:def>&quot;A form of hallucination that involves perceiving sounds without auditory stimulus.&quot; [wikipedia:Auditory_hallucination]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -11757,12 +10917,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000608"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0005725"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;A form of hallucination that involves perceiving odors without odor stimulus.&quot; [NBO:GVG]</obo:def>
@@ -12120,14 +11274,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0002118"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000741"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:by_means"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000128"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-19T02:05:35Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -12289,12 +11436,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000568"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000388"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-05-27T11:56:52Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -12319,12 +11460,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000568"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000403"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;Observable characteristic of behavior related to movements executed with intent.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2011-05-27T11:57:12Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -12588,12 +11723,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000266"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;Observable characteristic of behavior related any of the five senses -- vision, touch, smell, taste, and hearing.&quot; [NBO:GVG]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -12618,12 +11747,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000655"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000327"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-05-27T03:20:39Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;A phenotype manifested by a behavior related to the sensations arising from the skin and from the muscles, tendons, and joints.&quot; [NBO:GVG]</obo:def>
@@ -12648,12 +11771,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000656"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000330"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2011-05-27T03:21:20Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -12677,12 +11794,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000655"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000316"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;Observable characteristic of behavior related to the actions or reactions of an organism in response to a sound.&quot; [NBO:GVG]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-05-27T03:22:16Z</obo:creation_date>
@@ -12707,12 +11818,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000655"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000314"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-05-27T03:22:59Z</obo:creation_date>
         <obo:def>&quot;A phenotype manifested by a behavior related to the actions or reactions of an organism in response to a visual stimulus.&quot; [NBO:GVG]</obo:def>
@@ -12737,12 +11842,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000655"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000322"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-05-27T03:26:33Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -14093,12 +13192,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000117"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:creation_date>2012-03-16T05:57:42Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -14182,12 +13275,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000331"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050967"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2012-03-17T03:59:12Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>gkoutos</obo:created_by>
@@ -14211,12 +13298,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000419"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000161"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2012-03-19T10:59:20Z</obo:creation_date>
         <obo:created_by>gkoutos</obo:created_by>
@@ -14241,12 +13322,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000419"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042747"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;Observable characteristic of behavior related to the stage in the circadian sleep cycle during which dreams occur and the body undergoes marked changes including rapid eye movement, loss of reflexes, and increased pulse rate and brain activity.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2012-03-19T11:08:01Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -14271,13 +13346,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2012-03-19T02:08:56Z</obo:creation_date>
@@ -14302,12 +13370,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000755"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2012-03-19T02:10:16Z</obo:creation_date>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:def>&quot;Observable characteristic of behavior related to the interactions between organisms for the purpose of mating.&quot; [NBO:GVG]</obo:def>
@@ -14332,12 +13394,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000755"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000078"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:creation_date>2012-03-19T02:10:27Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -14362,12 +13418,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000755"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000034"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2012-03-19T02:10:54Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;Observable characteristic of behavior related to the activity which primary purpose is the sexual reproduction.&quot; [NBO:GVG]</obo:def>
@@ -14392,12 +13442,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000756"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000077"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2012-03-19T02:13:54Z</obo:creation_date>
         <obo:def>&quot;Observable characteristic related to the behavioral interactions between organisms for the purpose of attracting sexual partners.&quot; [NBO:GVG]</obo:def>
@@ -14422,12 +13466,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000759"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000638"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;Observable characteristic of behavior related to the actions or reactions of a female, for the purpose of attracting a sexual partner.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2012-03-19T02:16:31Z</obo:creation_date>
@@ -14452,12 +13490,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000759"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000637"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2012-03-19T02:16:49Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>gkoutos</obo:created_by>
@@ -14482,12 +13514,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000758"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:def>&quot;Observable characteristic of behavior related to the act of sexual union between male and female, involving the transfer of sperm.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -14512,12 +13538,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000758"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000549"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2012-03-19T02:22:53Z</obo:creation_date>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:def>&quot;Observable characteristic of behavior related to the female activity which primary purpose is the sexual reproduction.&quot; [NBO:GVG]</obo:def>
@@ -14542,12 +13562,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000758"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000548"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2012-03-19T02:23:03Z</obo:creation_date>
         <obo:created_by>gkoutos</obo:created_by>
@@ -14572,12 +13586,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000266"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:creation_date>2012-03-19T02:33:56Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -14602,12 +13610,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000765"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000022"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;Observable characteristic of behaviour associated with any process in an organism in which a relatively long-lasting adaptive behavioral change occurs as the result of experience.&quot; [NBO:GVG]</obo:def>
@@ -14632,12 +13634,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000765"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000170"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;Observable characteristic of behaviour related to the ability of an organism&#39;s ability to store, retain, and recall information and experiences.&quot; [NBO:GVG]</obo:def>
@@ -14662,13 +13658,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000035"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2012-03-19T03:46:31Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>gkoutos</obo:created_by>
@@ -14692,12 +13681,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000768"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000038"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:def>&quot;Observable characteristic of behaviour related to the elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds.&quot; [NBO:GVG]</obo:def>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -14722,12 +13705,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000769"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000039"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2012-03-19T03:47:09Z</obo:creation_date>
         <obo:def>&quot;Observable characteristic of behaviour related to the expulsion of feces from the rectum.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -14752,12 +13729,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000769"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000040"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2012-03-19T03:48:16Z</obo:creation_date>
@@ -14782,12 +13753,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000768"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000036"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2012-03-20T05:24:59Z</obo:creation_date>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -14811,12 +13776,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000768"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000041"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:creation_date>2012-03-20T05:25:03Z</obo:creation_date>
@@ -14840,12 +13799,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000773"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000042"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2012-03-20T05:28:58Z</obo:creation_date>
         <obo:def>&quot;Observable characteristic of behaviour related to the regulated release of the aqueous layer of the tear film from the lacrimal glands.&quot; [NBO:GVG]</obo:def>
@@ -14869,14 +13822,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000601"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000772"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000618"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;Observable characteristic of behaviour in which an organism sheds tears, often accompanied by non-verbal vocalizations and in response to external or internal stimuli.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2012-03-20T05:30:38Z</obo:creation_date>
@@ -14901,12 +13847,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000772"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000776"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:creation_date>2012-03-20T05:32:31Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;Observable characteristic of behaviour associated with signals made by the mobbing species while harassing a predator.&quot; [NBO:GVG]</obo:def>
@@ -14931,12 +13871,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000772"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0071625"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2012-03-20T05:34:04Z</obo:creation_date>
@@ -14961,12 +13895,6 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:is_about"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:creation_date>2012-03-23T10:05:56Z</obo:creation_date>
@@ -15158,264 +14086,6 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000929"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000014 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001300"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000040 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000044 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000052 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000117 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000380 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000380">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000912"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000381 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000381">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000911"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000770 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000770">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000188"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000773 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000773">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000189"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0000912 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000912">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002304"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001025 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001018"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001305 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001305">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000146"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002305"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001306 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001306">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000146"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002303"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001309 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001309">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002062"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001333 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001333">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002324"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001558 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001558">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001564"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001563 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001563">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002305"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001595 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001595">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001708"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0001863 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001863">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001309"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/PATO_0002361 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002361">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002305"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0002360"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0000309 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000309">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000060"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001033 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001256 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001256">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000060"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000077"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006554"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0001817 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001817">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002365"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004859"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002097 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002097">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002101 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002101">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0004708"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002104 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002104">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001032"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0002105 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002105">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001032"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0004681 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0004681">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001032"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005725 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005725">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001032"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0005726 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005726">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001032"/>
-    </rdf:Description>
     
 
 

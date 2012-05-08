@@ -7368,7 +7368,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic 
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000772 ! behavioral control of production of sound phenotype
 intersection_of: PATO:0000001
-intersection_of: owl:inheres:in NBO:0000776 ! mobbing calling phenotype
+intersection_of: owl:inheres:in NBO:0000632 ! mobbing calling
 
 [Term]
 id: NBO:0000777

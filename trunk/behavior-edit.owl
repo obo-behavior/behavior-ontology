@@ -5725,7 +5725,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/namespace> <http://purl.obol
 AnnotationAssertion(<http://purl.obolibrary.org/obo/def> <http://purl.obolibrary.org/obo/NBO_0000776> "\"Observable characteristic of behaviour associated with signals made by the mobbing species while harassing a predator.\" [NBO:GVG]")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0000776> "mobbing calling phenotype"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/creation_date> <http://purl.obolibrary.org/obo/NBO_0000776> "2012-03-20T05:32:31Z")
-EquivalentClasses(<http://purl.obolibrary.org/obo/NBO_0000776> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in> <http://purl.obolibrary.org/obo/NBO_0000776>) <http://purl.obolibrary.org/obo/PATO_0000001>))
+EquivalentClasses(<http://purl.obolibrary.org/obo/NBO_0000776> ObjectIntersectionOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:inheres_in> <http://purl.obolibrary.org/obo/NBO_0000632>) <http://purl.obolibrary.org/obo/PATO_0000001>))
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000776> <http://purl.obolibrary.org/obo/NBO_0000772>)
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000777>))
 AnnotationAssertion(<http://purl.obolibrary.org/obo/def> <http://purl.obolibrary.org/obo/NBO_0000777> "\"Observable characteristic of behaviour in which an organism produces sounds by a mechanism involving its respiratory system.\" [NBO:GVG]")

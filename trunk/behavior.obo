@@ -7659,10 +7659,11 @@ property_value: created:by "gkoutos" xsd:string
 property_value: creation:date 2012-03-20T05:32:31Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behaviour associated with signals made by the mobbing species while harassing a predator.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+is_a: NBO:0000601 ! emotional behavior phenotype
 is_a: NBO:0000772 ! behavioral control of production of sound phenotype
 intersection_of: PATO:0000001
-intersection_of: owl:inheres:in NBO:0000776 ! mobbing calling phenotype
-relationship: owl:inheres:in NBO:0000776 ! mobbing calling phenotype
+intersection_of: owl:inheres:in NBO:0000632 ! mobbing calling
+relationship: owl:inheres:in NBO:0000632 ! mobbing calling
 
 [Term]
 id: NBO:0000777
@@ -7775,6 +7776,7 @@ is_a: PATO:0002062
 
 [Term]
 id: PATO:0001333
+is_a: PATO:0002304
 is_a: PATO:0002324
 
 [Term]

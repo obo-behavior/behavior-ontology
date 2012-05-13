@@ -1,7 +1,7 @@
 format-version: 1.2
-import: http://purl.obolibrary.org/obo/go.owl
-import: http://purl.obolibrary.org/obo/pato.owl
-import: http://purl.obolibrary.org/obo/uberon.owl
+import: http://purl.obolibrary.org/obo/go.obo
+import: http://purl.obolibrary.org/obo/pato.obo
+import: http://purl.obolibrary.org/obo/uberon.obo
 ontology: behavior
 
 [Term]

@@ -1,15 +1,17 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/behavior.owl#"
      xml:base="http://purl.obolibrary.org/obo/behavior.owl"
+     xmlns:pato="http://purl.obolibrary.org/obo/pato#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:behavior="http://purl.obolibrary.org/obo/behavior.owl/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl2="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/behavior.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/behavior/2012-05-08/behavior-simple.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/behavior/2012-05-14/behavior-simple.owl"/>
     </owl:Ontology>
     
 
@@ -22,6 +24,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#note"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/synonymtype"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/def"/>
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#remark"/>
@@ -30,8 +33,8 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/namespace"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/xref"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/is_obsolete"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/created_by"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/synonym"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/created_by"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/creation_date"/>
     
 
@@ -93,6 +96,18 @@
     <!-- http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:towards -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:towards"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato#inheres_in -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato#towards -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/pato#towards"/>
     
 
 
@@ -301,6 +316,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000012">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">seizures/epilepsy</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
+        <obo:xref>HP:0001250</obo:xref>
+        <obo:xref>MP:0002064</obo:xref>
         <obo:creation_date>2011-04-14T01:03:39Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -358,6 +375,12 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>aggression</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>agonism</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
@@ -365,12 +388,6 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>aggressive behaviour</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>aggression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -592,8 +609,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000030">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperactivity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000644"/>
+        <obo:xref>HP:0000752</obo:xref>
         <obo:def>&quot;A kinesthetic behavior which relatively increased.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>MP:0001399</obo:xref>
         <obo:creation_date>2011-04-14T01:09:28Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
@@ -606,6 +625,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypoactivity</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000644"/>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>MP:0001402</obo:xref>
         <obo:creation_date>2011-04-14T01:09:41Z</obo:creation_date>
         <obo:def>&quot;A kinesthetic behavior which relatively decreased.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -619,8 +639,10 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paralysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000009"/>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>HP:0003470</obo:xref>
         <obo:def>&quot;Loss of power of voluntary movement in a muscle through injury or disease of its nerve supply.&quot; [JAX:&lt;new dbxref&gt;]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>MP:0000753</obo:xref>
         <obo:creation_date>2011-04-14T01:18:37Z</obo:creation_date>
     </owl:Class>
     
@@ -636,6 +658,7 @@
         <obo:comment>Carpoptosis is most often caused by a lesion of the radial nerve.</obo:comment>
         <obo:def>&quot;Paralysis of the extensors of the wrist and fingers.&quot; [JAX:&lt;new dbxref&gt;]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>MP:0005162</obo:xref>
     </owl:Class>
     
 
@@ -928,13 +951,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>nursing behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>suckling behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000054"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>suckling behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>nursing behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000054"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -1015,6 +1038,7 @@
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;Loss of power of voluntary movement in muscles of the forelimb through injury or disease of it or its nerve supply.&quot; [JAX:]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>MP:0000756</obo:xref>
     </owl:Class>
     
 
@@ -1042,8 +1066,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000063">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eating behavior</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of eating behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002436"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-14T01:20:02Z</obo:creation_date>
         <obo:def>&quot;A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of food.&quot; [NBO:GVG]</obo:def>
@@ -1062,8 +1086,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000064">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drinking behavior</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regulation of drinking behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002436"/>
         <obo:def>&quot;A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of liquids.&quot; [NBO:GVG]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>drinking behaviour</obo:synonym>
@@ -1235,13 +1259,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>exercise</owl:annotatedTarget>
+        <owl:annotatedTarget>motor development playing behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000076"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>motor development playing behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>exercise</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000076"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -1302,7 +1326,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000079">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feeding behavior</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001845"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:xref>GO:0007631</obo:xref>
@@ -1457,13 +1481,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>predatory aggressive behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>predatory aggression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000089"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>predatory aggression</owl:annotatedTarget>
+        <owl:annotatedTarget>predatory aggressive behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000089"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -1568,6 +1592,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agoraphobia behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000094"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000246"/>
+        <obo:xref>HP:0000756</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;A phobia characterised by fear of open spaces.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2011-03-31T10:18:39Z</obo:creation_date>
@@ -2159,7 +2184,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000130">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid consumption</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
         <obo:def>&quot;A drinking behavior associated with the intake of liquid.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2011-03-31T12:40:37Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -2199,6 +2224,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000133">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid preference/aversion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000540"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002660"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:creation_date>2011-03-31T12:41:50Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -2210,7 +2241,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000134">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food consumption</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000063"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
         <obo:def>&quot;A drinking behavior associated with the intake of food.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-03-31T12:42:46Z</obo:creation_date>
@@ -2249,7 +2280,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000137">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid preference</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000133"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002660"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:creation_date>2011-03-31T12:55:09Z</obo:creation_date>
+        <obo:def>&quot;Predilection to ingest a liquid over other substances.&quot; [NBOC:GVG]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
@@ -2261,7 +2299,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000138">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liquid aversion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000133"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002660"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:def>&quot;Purposeful avoidance of a liquid due to dislike.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2011-03-31T12:55:32Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
@@ -2273,9 +2318,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000139">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alcohol aversion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000138"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002702"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-03-31T12:55:46Z</obo:creation_date>
+        <obo:def>&quot;Purposeful avoidance of alcohol due to dislike.&quot; [NBO:GVG]</obo:def>
     </owl:Class>
     
 
@@ -2285,7 +2337,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000140">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alcohol preference</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000137"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002702"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;Predilection to ingest alcohol over other substances.&quot; [NBOC:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-03-31T12:56:38Z</obo:creation_date>
     </owl:Class>
@@ -2321,6 +2380,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000143">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">saccharin preference</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000141"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002794"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:creation_date>2011-03-31T12:59:56Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -2333,6 +2398,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000144">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating frequency</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000756"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000034"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002603"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-03-31T02:16:59Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -2345,6 +2422,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000145">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mating preference</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000756"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002948"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-03-31T02:17:22Z</obo:creation_date>
         <obo:synonym>mate choice</obo:synonym>
@@ -2848,13 +2931,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>unconditional response</owl:annotatedTarget>
+        <owl:annotatedTarget>nonassociative learning</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000177"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>nonassociative learning</owl:annotatedTarget>
+        <owl:annotatedTarget>unconditional response</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000177"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -3017,13 +3100,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>procedural memory</owl:annotatedTarget>
+        <owl:annotatedTarget>implicit memory</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000188"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>implicit memory</owl:annotatedTarget>
+        <owl:annotatedTarget>procedural memory</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000188"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -3374,14 +3457,14 @@
         <obo:synonym>instrumental learning</obo:synonym>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>instrumental learning</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>instrumental conditioning</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000212"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>instrumental conditioning</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>instrumental learning</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000212"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -3707,12 +3790,6 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget> behavioral homeostasis</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000233"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>maintenance behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000233"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
@@ -3720,6 +3797,12 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>perception of need</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000233"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget> behavioral homeostasis</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000233"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -3851,6 +3934,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000243">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral phenotype</rdfs:label>
+        <obo:xref>HP:0000708</obo:xref>
         <obo:def>&quot;An observable characteristic of the behavior of an organism.&quot; [NBO:RH]</obo:def>
         <obo:creation_date>2011-04-04T08:51:24Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -3947,6 +4031,7 @@
         <obo:synonym>OCD</obo:synonym>
         <obo:creation_date>2011-04-04T08:52:42Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>HP:0000722</obo:xref>
         <obo:def>&quot;A pathological anxiety primarily characterized by repetitive obsessions (distressing, persistent, and intrusive thoughts or images) and compulsions (urges to perform specific acts or rituals).&quot; [wikipedia:Obsessive%E2%80%93compulsive_disorder]</obo:def>
     </owl:Class>
     <owl:Axiom>
@@ -4013,12 +4098,6 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>health anxiety</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000251"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>health phobia</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000251"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
@@ -4026,6 +4105,12 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>hypochondria</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000251"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>health anxiety</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000251"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -4108,7 +4193,7 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>MDD</owl:annotatedTarget>
+        <owl:annotatedTarget>clinical depression </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -4120,13 +4205,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>clinical depression</owl:annotatedTarget>
+        <owl:annotatedTarget>MDD</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>clinical depression </owl:annotatedTarget>
+        <owl:annotatedTarget>clinical depression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -4148,13 +4233,14 @@
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;A mood disorder formerly characterised by alternating periods of mania and depression (and in some cases rapid cycling, mixed states, and psychotic symptoms).&quot; [wikipedia:Bipolar_disorder]</obo:def>
         <obo:synonym>manic depression</obo:synonym>
+        <obo:xref>NBO:0000258</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:synonym>BD</obo:synonym>
         <obo:creation_date>2011-04-04T08:55:45Z</obo:creation_date>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>manic depression</owl:annotatedTarget>
+        <owl:annotatedTarget>bipolar affective disorder</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000258"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -4166,7 +4252,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>bipolar affective disorder</owl:annotatedTarget>
+        <owl:annotatedTarget>manic depression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000258"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -4181,6 +4267,7 @@
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-04T08:56:39Z</obo:creation_date>
+        <obo:xref>HP:0000709</obo:xref>
     </owl:Class>
     
 
@@ -4251,6 +4338,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personality disorder</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>HP:0000751</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:comment>(http://www.cliffsnotes.com/study_guide/Classifying-Psychological-Disorders.topicArticleId-25438,articleId-25396.html).</obo:comment>
         <obo:creation_date>2011-04-04T08:59:01Z</obo:creation_date>
@@ -4294,6 +4382,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000268">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dementia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000266"/>
+        <obo:xref>HP:0000726</obo:xref>
         <obo:creation_date>2011-04-04T09:01:50Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -4439,6 +4528,12 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>&lt;new synonym&gt;</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000277"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
         <owl:annotatedTarget>prejudice</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000277"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
@@ -4446,12 +4541,6 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>discrimination</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000277"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>&lt;new synonym&gt;</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000277"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -4920,13 +5009,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>perception behavior</owl:annotatedTarget>
+        <owl:annotatedTarget>behavior involving perception</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>behavior involving perception</owl:annotatedTarget>
+        <owl:annotatedTarget>perception behavior</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -5034,13 +5123,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>visual behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>behavioural response to visual stimulus</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000314"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>behavioural response to visual stimulus</owl:annotatedTarget>
+        <owl:annotatedTarget>visual behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000314"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -5159,9 +5248,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000322">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemosensory behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000751"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001632"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:def>&quot;Behavior related to the sensation of chemicals.&quot; [NBO:GVG]</obo:def>
+        <obo:def>&quot;Behavior as a result of the sensation of chemicals.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2011-04-05T10:48:17Z</obo:creation_date>
     </owl:Class>
     
@@ -5539,13 +5629,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>whole body coordination</owl:annotatedTarget>
+        <owl:annotatedTarget>large muscle coordination</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000347"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>large muscle coordination</owl:annotatedTarget>
+        <owl:annotatedTarget>whole body coordination</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000347"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6019,13 +6109,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>negative gravitaxis</owl:annotatedTarget>
+        <owl:annotatedTarget>negative geotactic behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000379"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>negative geotactic behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>negative gravitaxis</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000379"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6220,13 +6310,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>infantile reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>newborn reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000390"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>newborn reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>infantile reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000390"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6575,6 +6665,12 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>Achilles tendon reflex</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000410"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
         <owl:annotatedTarget>ankle reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000410"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
@@ -6582,12 +6678,6 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
         <owl:annotatedTarget> triceps surae reflex</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000410"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>Achilles tendon reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000410"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6707,13 +6797,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>oculovestibular reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>VOR</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000416"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>VOR</owl:annotatedTarget>
+        <owl:annotatedTarget>oculovestibular reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000416"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6790,6 +6880,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000420">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bruxism</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000499"/>
+        <obo:xref>HP:0003763</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>teeth grinding</obo:synonym>
         <obo:def>&quot;A NREM parasomnia characterised by Involuntarily grinding of teeth while sleeping.&quot; [MBP:GVG]</obo:def>
@@ -6798,14 +6889,14 @@
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>&lt;new synonym&gt;</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>teeth grinding</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000420"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>teeth grinding</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>&lt;new synonym&gt;</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000420"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6866,6 +6957,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000476"/>
         <obo:def>&quot;A dyssomnia characterised by excessive daytime sleepiness (EDS) in which a person experiences extreme fatigue and possibly falls asleep at inappropriate times.&quot; [wikipedia:Narcolepsy]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>MP:0005279</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-07T01:24:10Z</obo:creation_date>
     </owl:Class>
@@ -6886,13 +6978,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>Pavor nocturnus</owl:annotatedTarget>
+        <owl:annotatedTarget>night terror</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000424"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>night terror</owl:annotatedTarget>
+        <owl:annotatedTarget>Pavor nocturnus</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000424"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6933,13 +7025,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>anal reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>perineal reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000426"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>perineal reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>anal reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000426"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -7088,13 +7180,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>auditory reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>stapedius reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000435"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>stapedius reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>auditory reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000435"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -7214,13 +7306,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>sneeze</owl:annotatedTarget>
+        <owl:annotatedTarget>sneezing</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000442"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>sneezing</owl:annotatedTarget>
+        <owl:annotatedTarget>sneeze</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000442"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -7350,7 +7442,7 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>self-grooming</owl:annotatedTarget>
+        <owl:annotatedTarget>preening</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000451"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -7362,7 +7454,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>preening</owl:annotatedTarget>
+        <owl:annotatedTarget>self-grooming</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000451"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -7733,14 +7825,14 @@
         <obo:def>&quot;A dyssomnia where the patient moves limbs involuntarily during sleep, and has symptoms or problems related to the movement.&quot; [wikipedia:Periodic_limb_movement_disorder]</obo:def>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>PLMD</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>nocturnal myoclonus</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000478"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>nocturnal myoclonus</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>PLMD</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000478"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -7812,24 +7904,6 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>SSM</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>sleep hypochondriasis</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget> pseudo-insomnia</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>paradoxical insomnia</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
@@ -7843,6 +7917,24 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>subjective sleepiness</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget> pseudo-insomnia</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>sleep hypochondriasis</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>SSM</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -8011,25 +8103,7 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>circadian rhythm sleep disorder, free running type</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>circadian rhythm sleep disorder, nonentrained type</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>non-24-hour circadian rhythm disorder </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>non-24-hour sleep-wake disorder</owl:annotatedTarget>
+        <owl:annotatedTarget>hypernychthemeral syndrome</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -8047,7 +8121,25 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>hypernychthemeral syndrome</owl:annotatedTarget>
+        <owl:annotatedTarget>circadian rhythm sleep disorder, nonentrained type</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>non-24-hour sleep-wake disorder</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>non-24-hour circadian rhythm disorder </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>circadian rhythm sleep disorder, free running type</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -8436,6 +8528,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:creation_date>2011-04-09T12:28:31Z</obo:creation_date>
+        <obo:xref>HP:0000716</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>DD-NOS</obo:synonym>
@@ -8444,13 +8537,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>depressive disorder not otherwise specified</owl:annotatedTarget>
+        <owl:annotatedTarget>DD-NOS</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000515"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>DD-NOS</owl:annotatedTarget>
+        <owl:annotatedTarget>depressive disorder not otherwise specified</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000515"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -8537,13 +8630,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>postnatal depression</owl:annotatedTarget>
+        <owl:annotatedTarget>PDD</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000520"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>PDD</owl:annotatedTarget>
+        <owl:annotatedTarget>postnatal depression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000520"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -8564,13 +8657,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>winter depression</owl:annotatedTarget>
+        <owl:annotatedTarget>winter blues</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000521"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>winter blues</owl:annotatedTarget>
+        <owl:annotatedTarget>winter depression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000521"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -8896,10 +8989,26 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000541">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dipsosis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000961"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;A pathological drinking behavior characterised by an excessive desire to drink.&quot; [NBO:GVG]</obo:def>
+        <obo:xref>MP:0002119</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-10T10:41:10Z</obo:creation_date>
+        <oboInOwl:note>&#39;participates in&#39; some 
+(&#39;regulation of drinking behavior&#39; and (has_quality some 
+(&#39;increased frequency&#39; and towards some &#39;liquid consumption&#39; and owl:qualifier some chronic)))</oboInOwl:note>
     </owl:Class>
     
 
@@ -8908,10 +9017,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000542">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polydipsia</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000886"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000540"/>
+        <obo:xref>MP:0001426</obo:xref>
         <obo:creation_date>2011-04-10T10:41:10Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;A pathological drinking behavior characterised by large intake of fluids by mouth, usually due to excessive thirst that is relatively prolonged.&quot; [NBO:GVG]</obo:def>
+        <oboInOwl:note>&#39;participates in&#39; some (
+&#39;regulation of drinking behavior&#39; and regulates some 
+  (&#39;liquid consumption&#39; and has-input some (&#39;liquid substance&#39; and has_quality some &#39;increased mass&#39;)) 
+and 
+owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
+        <obo:xref>HP:0001959</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
@@ -8922,8 +9038,24 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000543">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperdipsia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000961"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <oboInOwl:note>&#39;participates in&#39; some 
+(&#39;regulation of drinking behavior&#39; and (has_quality some 
+(&#39;increased frequency&#39; and (towards some &#39;liquid consumption&#39;) and (owl:qualifier some &#39;temporally extended&#39;))))</oboInOwl:note>
         <obo:def>&quot;A pathological drinking behavior characterised by an excessive relative temporal desire to drink.&quot; [NBO:GVG]</obo:def>
+        <obo:xref>MP:0005111</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-10T10:41:10Z</obo:creation_date>
     </owl:Class>
@@ -8942,6 +9074,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:def>&quot;A pathological feeding behavior characterised by failure to eat.&quot; [NBO:GVG]</obo:def>
+        <obo:xref>MP:0001438</obo:xref>
         <obo:creation_date>2011-04-10T10:41:10Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -8976,6 +9109,8 @@
         <obo:def>&quot;A pathological drinking behavior characterised by an abnormally large intake of food by mouth, usually due to excessive hunger that is relatively prolonged.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2011-04-10T10:41:10Z</obo:creation_date>
         <obo:synonym>hyperphagia</obo:synonym>
+        <obo:xref>MP:0001433</obo:xref>
+        <obo:xref>HP:0000724</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     <owl:Axiom>
@@ -9001,6 +9136,7 @@
         <obo:creation_date>2011-04-10T10:41:10Z</obo:creation_date>
         <obo:def>&quot;Lack of ability to enjoy a sense of pleasure.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>MP:0009710</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
@@ -9215,6 +9351,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000595"/>
         <obo:creation_date>2011-04-14T08:14:28Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>MP:0002822</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;A pathological behavior characterized by muscular rigidity and fixation of posture regardless of external stimuli, as well as decreased sensitivity to pain.&quot; [wikipedia:Catalepsy]</obo:def>
     </owl:Class>
@@ -9252,6 +9389,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000565">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social withdrawal</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000564"/>
+        <obo:xref>MP:0001361</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-14T08:24:50Z</obo:creation_date>
@@ -9277,6 +9415,8 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stereotypic behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000644"/>
         <obo:creation_date>2011-04-14T08:28:29Z</obo:creation_date>
+        <obo:xref>MP:0001408</obo:xref>
+        <obo:xref>HP:0000733</obo:xref>
         <obo:synonym>stereotypy</obo:synonym>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;A pathological behavior associated with repetitive or ritualistic movement, posture, or utterance.&quot; [wikipedia:Stereotypy]</obo:def>
@@ -9326,6 +9466,7 @@
         <obo:def>&quot;Exhibiting abnormal exhaustion due to mental or physical exertion.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2011-04-14T08:32:15Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>MP:0002899</obo:xref>
     </owl:Class>
     
 
@@ -9369,6 +9510,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">senility</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000266"/>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>MP:0002571</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-14T09:01:45Z</obo:creation_date>
         <obo:def>&quot;A degenerative state of the brain resulting in impairment of memory, judgment, attention span, problem solving skills, the inability to perform previously learned skills that cannot be attributed to deficits of motor or sensory function, and a global loss of cognitive abilities.&quot; [MeSH:National Library of Medicine_Medical Subject Headings]</obo:def>
@@ -9383,6 +9525,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000515"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-14T09:04:45Z</obo:creation_date>
+        <obo:xref>MP:0002573</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
@@ -9508,13 +9651,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>cervicospinal reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>TNR</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000580"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>TNR</owl:annotatedTarget>
+        <owl:annotatedTarget>cervicospinal reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000580"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -9589,12 +9732,6 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>hindlimb extension reflex</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000584"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>limb clasping</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000584"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
@@ -9602,6 +9739,12 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>limb grasping</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000584"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>hindlimb extension reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000584"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -9617,6 +9760,7 @@
         <obo:def>&quot;A form of tetanic spasm in which the head and feet are drawn forward and the spine arches backward.&quot; [JAX:]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-14T11:05:57Z</obo:creation_date>
+        <obo:xref>MP:0009354</obo:xref>
     </owl:Class>
     
 
@@ -9626,6 +9770,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000586">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">opisthotonus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000587"/>
+        <obo:xref>MP:0002880</obo:xref>
+        <obo:xref>HP:0002179</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-14T11:08:01Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -9665,20 +9811,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000589">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tremor</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000643"/>
-        <obo:def>&quot;An involuntary rhythmical, oscillatory movement of a body part.&quot; [NBO:GVG]</obo:def>
-        <obo:creation_date>2011-04-14T11:13:39Z</obo:creation_date>
+        <obo:xref>HP:0001337</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:synonym>quivering</obo:synonym>
+        <obo:def>&quot;An involuntary rhythmical, oscillatory movement of a body part.&quot; [NBO:GVG]</obo:def>
+        <obo:creation_date>2011-04-14T11:13:39Z</obo:creation_date>
+        <obo:xref>MP:0000745</obo:xref>
         <obo:synonym>shivering</obo:synonym>
         <obo:synonym>trembling</obo:synonym>
     </owl:Class>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>trembling</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000589"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>shivering</owl:annotatedTarget>
@@ -9688,6 +9830,12 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>quivering</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000589"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>trembling</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000589"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -9708,7 +9856,9 @@
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;Inability to coordinate voluntary muscular movements.&quot; [NBO:GVG]</obo:def>
         <obo:creation_date>2011-04-14T11:25:59Z</obo:creation_date>
+        <obo:xref>HP:0001251</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>MP:0001393</obo:xref>
     </owl:Class>
     
 
@@ -9738,6 +9888,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dysmetria</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000591"/>
         <obo:def>&quot;Lack of coordination of movement typified by the undershoot or overshoot of intended position with the hand, arm, leg, or eye.&quot; [wikipedia:Dysmetria]</obo:def>
+        <obo:xref>MP:0003314</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-14T11:33:13Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -9789,6 +9940,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000596">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">titubation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000595"/>
+        <obo:xref>MP:0009514</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;Posture distinguished by a faltering gait while walking and/or a swaying motion of the trunk or head while resting.&quot; [JAX:&lt;new dbxref&gt;]</obo:def>
@@ -9803,6 +9955,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hindlimb paralysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000032"/>
         <obo:creation_date>2011-04-14T01:20:30Z</obo:creation_date>
+        <obo:xref>MP:0000755</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;Loss of power of voluntary movement in the muscles of the hindlimb through injury or disease of it or its nerve supply.&quot; [JAX:]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -9815,8 +9968,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000598">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dystonia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000009"/>
+        <obo:xref>HP:0001332</obo:xref>
         <obo:def>&quot;A locomotory disorder in which sustained muscle contractions cause twisting and repetitive movements or abnormal postures.&quot; [wikipedia:Dystonia]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>MP:0005323</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-14T01:24:20Z</obo:creation_date>
     </owl:Class>
@@ -9873,6 +10028,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000602">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">apathy</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000601"/>
+        <obo:xref>HP:0000741</obo:xref>
         <obo:creation_date>2011-04-14T03:07:51Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;Exhibiting indifference, or suppression of emotions such as concern, excitement, motivation and passion.&quot; [wikipedia:Indifference_(emotion)]</obo:def>
@@ -9882,13 +10038,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>impassivity</owl:annotatedTarget>
+        <owl:annotatedTarget>perfunctoriness</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000602"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>perfunctoriness</owl:annotatedTarget>
+        <owl:annotatedTarget>impassivity</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000602"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -9901,6 +10057,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delusion</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000266"/>
         <obo:creation_date>2011-04-14T03:20:48Z</obo:creation_date>
+        <obo:xref>HP:0000746</obo:xref>
         <obo:def>&quot;A belief that is either mistaken or not substantiated that is held with vehemence.&quot; [wikipedia:Delusion]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -9950,17 +10107,18 @@
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>pathological forgetting</obo:synonym>
         <obo:synonym>retention loss</obo:synonym>
+        <obo:xref>HP:0000747</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>retention loss</owl:annotatedTarget>
+        <owl:annotatedTarget>pathological forgetting</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000606"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>pathological forgetting</owl:annotatedTarget>
+        <owl:annotatedTarget>retention loss</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000606"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -9985,6 +10143,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000608">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hallucination</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
+        <obo:xref>HP:0000738</obo:xref>
         <obo:creation_date>2011-04-14T03:52:31Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -10001,6 +10160,7 @@
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;A form of hallucination that involves perceiving images without visual stimulus.&quot; [NBO:GVG]</obo:def>
         <obo:synonym>paracusia</obo:synonym>
+        <obo:xref>HP:0008765</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-14T03:54:02Z</obo:creation_date>
     </owl:Class>
@@ -10019,6 +10179,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory hallucination</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000608"/>
         <obo:creation_date>2011-04-14T03:56:24Z</obo:creation_date>
+        <obo:xref>HP:0002367</obo:xref>
         <obo:def>&quot;A form of hallucination that involves perceiving sounds without auditory stimulus.&quot; [wikipedia:Auditory_hallucination]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -10080,13 +10241,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>nonverbal communication behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>non-verbal communication behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000613"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>non-verbal communication behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>nonverbal communication behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000613"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -10196,6 +10357,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000621">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">selective mutism</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000564"/>
+        <obo:xref>HP:0002300</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-04-14T05:06:03Z</obo:creation_date>
@@ -10212,6 +10374,7 @@
         <obo:creation_date>2011-04-14T05:18:30Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>HP:0008758</obo:xref>
         <obo:def>&quot;Stereotypic behavior associated with repetitive or ritualistic movement.&quot; [NBO:GVG]</obo:def>
     </owl:Class>
     
@@ -10226,6 +10389,7 @@
         <obo:creation_date>2011-04-14T05:20:29Z</obo:creation_date>
         <obo:def>&quot;Stereotypic behavior characterised by a tendency to repeat vocalizations.&quot; [NBO:GVG]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>HP:0010529</obo:xref>
     </owl:Class>
     
 
@@ -10360,13 +10524,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>territorial aggression</owl:annotatedTarget>
+        <owl:annotatedTarget>territorial aggressive behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000633"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>territorial aggressive behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>territorial aggression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000633"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -10517,6 +10681,7 @@
         <obo:creation_date>2011-05-27T11:42:33Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>HP:0001275</obo:xref>
         <obo:synonym>unprovoked seizure</obo:synonym>
         <obo:def>&quot;Two or more unprovoked recurrent seizures.&quot; [NBO:GVG]</obo:def>
     </owl:Class>
@@ -10593,6 +10758,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">partial seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000025"/>
         <obo:def>&quot;A seizure which affect only a part of the brain at onset.&quot; [wikipedia:http\://en.wikipedia.org/wiki/Focal_seizures]</obo:def>
+        <obo:xref>HP:0007359</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:comment>Partial seizures begin with an electrical discharge in one limited area of the brain.</obo:comment>
         <obo:synonym>focal seizure</obo:synonym>
@@ -10602,13 +10768,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>localized seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>focal seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000646"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>focal seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>localized seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000646"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -10621,6 +10787,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple partial seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000646"/>
         <obo:comment>Depending on the area of cerebral cortex involved, symptoms may be motor, cognitive, sensory, autonomic, or affective. Consciousness is not impaired.</obo:comment>
+        <obo:xref>HP:0002349</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;A partial seizure which affect only a small region of the brain, often the temporal lobes and/or hippocampi whilst consciousness is unaffected.&quot; [wikipedia:http\://en.wikipedia.org/wiki/Simple_partial_seizure]</obo:def>
         <obo:creation_date>2011-05-27T12:51:40Z</obo:creation_date>
@@ -10635,21 +10802,23 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complex partial seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000646"/>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>MP:0002195</obo:xref>
         <obo:creation_date>2011-05-27T12:59:01Z</obo:creation_date>
         <obo:def>&quot;A seizure that is associated with bilateral cerebral hemisphere involvement and causes impairment of awareness or responsiveness, i.e. loss of consciousness.&quot; [wikipedia:http\://en.wikipedia.org/wiki/Complex_partial_seizures]</obo:def>
         <obo:synonym>psychomotor seizure</obo:synonym>
+        <obo:xref>HP:0002384</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:synonym>temporal lobe seizure</obo:synonym>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>psychomotor seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>temporal lobe seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000648"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>temporal lobe seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>psychomotor seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000648"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -10693,6 +10862,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000651">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">simple partial seizure with motor signs</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000647"/>
+        <obo:xref>HP:0002266</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;A simple partial seizure affecting the kinesthetic behavior.&quot; [NBO:GVG]</obo:def>
@@ -10702,13 +10872,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>motor seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>focal clonic seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000651"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>focal clonic seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>motor seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000651"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -10730,13 +10900,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>Jacksonian sensory seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>sensory seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000652"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>sensory seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>Jacksonian sensory seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000652"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -10758,13 +10928,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>autonomic seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>abdominal epilepsy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000653"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>abdominal epilepsy</owl:annotatedTarget>
+        <owl:annotatedTarget>autonomic seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000653"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -10938,6 +11108,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">generalized seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000025"/>
         <obo:comment>Primary generalized seizures begin with a widespread electrical discharge that involves both sides of the brain at once.</obo:comment>
+        <obo:xref>HP:0002197</obo:xref>
         <obo:def>&quot;A seizure which affect the whole of the brain at onset.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:synonym>primarily generalized seizure</obo:synonym>
@@ -10960,6 +11131,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000646"/>
         <obo:creation_date>2011-05-27T03:49:54Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>HP:0007334</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
@@ -11032,7 +11204,9 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000662"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;An absence seizure is a brief (usually less that 20 seconds), generalized epileptic seizure of sudden onset and termination.&quot; [wikipedia:http\://en.wikipedia.org/wiki/Absence_seizure]</obo:def>
+        <obo:xref>HP:0002121</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>MP:0003216</obo:xref>
         <obo:creation_date>2011-05-27T03:54:48Z</obo:creation_date>
         <obo:synonym>petit mal seizure</obo:synonym>
     </owl:Class>
@@ -11051,6 +11225,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atonic seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000662"/>
         <obo:synonym>drop seizure</obo:synonym>
+        <obo:xref>HP:0010819</obo:xref>
         <obo:creation_date>2011-05-27T03:57:35Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -11060,13 +11235,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>drop seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>drop attack</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000670"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>drop attack</owl:annotatedTarget>
+        <owl:annotatedTarget>drop seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000670"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -11084,12 +11259,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000671">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myoclonic seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000662"/>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:comment>Symmetric jerking of the extremities.</obo:comment>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-05-27T04:52:23Z</obo:creation_date>
+        <obo:xref>MP:0000243</obo:xref>
         <obo:def>&quot;A type of seizure that is characterised by a very brief symmetric alternating contraction and relaxation of a muscle or a group of muscles.&quot; [NBO:GVG]</obo:def>
         <obo:synonym>myoclonus</obo:synonym>
+        <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>HP:0002123</obo:xref>
+        <obo:xref>HP:0001336</obo:xref>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
@@ -11107,6 +11285,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000662"/>
         <obo:def>&quot;A type of seizure that is characterised by rhythmic symmetric alternating contraction and relaxation of a muscle or a group of muscles.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>MP:0003996</obo:xref>
         <obo:comment>Rapid, repetitive motor activity.</obo:comment>
         <obo:creation_date>2011-05-27T04:54:59Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -11157,6 +11336,7 @@
         <obo:creation_date>2011-05-28T11:07:41Z</obo:creation_date>
         <obo:def>&quot;A type of seizure generated by sudden sensor stimulation caused by the environment.&quot; [NBO:GVG]</obo:def>
         <obo:synonym>reflex epilepsy</obo:synonym>
+        <obo:xref>MP:0009358</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
@@ -11180,11 +11360,13 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tonic clonic seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000662"/>
         <obo:creation_date>2011-05-27T05:03:11Z</obo:creation_date>
-        <obo:synonym>gran mal seizure</obo:synonym>
         <obo:def>&quot;A type of generalized seizure characterised by a combination of tonic stiffening (extensions) followed by clonic flexion motions.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>MP:0003997</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>HP:0002069</obo:xref>
         <obo:synonym>grand mal seizure</obo:synonym>
+        <obo:synonym>gran mal seizure</obo:synonym>
         <obo:comment>The seizures are divided into two phases, the tonic phase and the clonic phase, hence the name of the seizure, though a tonic clonic seizure will often be preceded by an aura.</obo:comment>
     </owl:Class>
     <owl:Axiom>
@@ -11208,6 +11390,8 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tonic seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000662"/>
         <obo:creation_date>2011-05-27T05:09:15Z</obo:creation_date>
+        <obo:xref>MP:0002826</obo:xref>
+        <obo:xref>HP:0010818</obo:xref>
         <obo:def>&quot;A type of seizure characterised by muscle rigidity.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -11220,6 +11404,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000678">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">febrile seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000686"/>
+        <obo:xref>HP:0002373</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>febrile convulsion</obo:synonym>
         <obo:synonym>fever fit</obo:synonym>
@@ -11229,13 +11414,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>febrile convulsion</owl:annotatedTarget>
+        <owl:annotatedTarget>fever fit</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000678"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>fever fit</owl:annotatedTarget>
+        <owl:annotatedTarget>febrile convulsion</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000678"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -11440,6 +11625,7 @@
         <obo:def>&quot;Continuous unremitting seizure lasting longer than 30 minutes or recurrent seizures without regaining consciousness between seizures for greater than 30 minutes.&quot; [wikipedia:http\://en.wikipedia.org/wiki/Status_epilepticus]</obo:def>
         <obo:creation_date>2011-05-27T05:59:47Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>HP:0002133</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
@@ -11573,6 +11759,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000675"/>
         <obo:alt_id>NBO:0000725</obo:alt_id>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>MP:0001496</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>auditory stimulation induced seizure</obo:synonym>
         <obo:def>&quot;A type of seizure induced by exposure to an auditory stimulus.&quot; [NBO:GVG]</obo:def>
@@ -11609,6 +11796,7 @@
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;An absence seizure not induced by hyperventilation.&quot; [NBO:GVG]</obo:def>
+        <obo:xref>HP:0007270</obo:xref>
     </owl:Class>
     
 
@@ -11620,6 +11808,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000662"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;A generalized seizure that was initiated as a partial seizure.&quot; [NBO:GVG]</obo:def>
+        <obo:xref>HP:0002434</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:creation_date>2011-05-28T12:08:24Z</obo:creation_date>
     </owl:Class>
@@ -11737,6 +11926,7 @@
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypoglycemia induced seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000686"/>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>HP:0002173</obo:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;A type of seizure induced by lower than normal level of blood glucose levels.&quot; [GVG:NBO]</obo:def>
         <obo:creation_date>2011-05-28T12:35:56Z</obo:creation_date>
@@ -11973,6 +12163,7 @@
         <obo:creation_date>2011-05-28T05:51:10Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:def>&quot;A simple partial seizure affecting the kinesthetic behavior of one side of the body.&quot; [NBO:GVG]</obo:def>
+        <obo:xref>HP:0006813</obo:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>unilateral clonic seizure</obo:synonym>
     </owl:Class>
@@ -12020,15 +12211,23 @@
         <obo:synonym>West syndrome</obo:synonym>
         <obo:creation_date>2011-05-28T06:47:31Z</obo:creation_date>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:synonym>Infantile Epileptic Encephalopathy</obo:synonym>
         <obo:synonym>Generalized Flexion Epilepsy</obo:synonym>
+        <obo:synonym>Infantile Epileptic Encephalopathy</obo:synonym>
+        <obo:xref>HP:0011097</obo:xref>
         <obo:synonym>Massive Myoclonia</obo:synonym>
         <obo:synonym>Salaam spasms</obo:synonym>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:synonym>Infantile Myoclonic Encephalopathy</obo:synonym>
         <obo:synonym>jackknife convulsions</obo:synonym>
+        <obo:xref>HP:0002391</obo:xref>
         <obo:def>&quot;A type of epileptic seizures occurring in infants and characterised by clusters of myoclonic spasms.&quot; [NBO:GVG]</obo:def>
     </owl:Class>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>Infantile Epileptic Encephalopathy</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000734"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
         <owl:annotatedTarget>West syndrome</owl:annotatedTarget>
@@ -12043,6 +12242,12 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>Infantile Myoclonic Encephalopathy</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000734"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
         <owl:annotatedTarget>Massive Myoclonia</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000734"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
@@ -12050,18 +12255,6 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>jackknife convulsions</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000734"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>Infantile Myoclonic Encephalopathy</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000734"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>Infantile Epileptic Encephalopathy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000734"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -12082,6 +12275,7 @@
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:def>&quot;A type of seizure induced by lower than normal level of blood calcium levels.&quot; [NBO:GVG]</obo:def>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>HP:0002199</obo:xref>
         <obo:creation_date>2011-05-28T08:04:53Z</obo:creation_date>
     </owl:Class>
     
@@ -12094,6 +12288,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000703"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>HP:0002602</obo:xref>
         <obo:creation_date>2011-05-28T08:28:12Z</obo:creation_date>
         <obo:def>&quot;A generalized tonic clonic seizure that was initiated as a partial seizure.&quot; [NBO:GVG]</obo:def>
     </owl:Class>
@@ -12108,6 +12303,7 @@
         <obo:def>&quot;A type of seizure induced by exposure to a light stimulus.&quot; [NBO:GVG]</obo:def>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:xref>HP:0001327</obo:xref>
         <obo:creation_date>2011-05-28T08:34:10Z</obo:creation_date>
     </owl:Class>
     
@@ -12123,6 +12319,7 @@
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-05-28T11:12:42Z</obo:creation_date>
+        <obo:xref>HP:0010821</obo:xref>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
@@ -12142,6 +12339,7 @@
         <obo:def>&quot;A type of epilepsy that is characterised a sudden paroxysmal crying.&quot; [NBO:&lt;new dbxref&gt;, NBO:GVG]</obo:def>
         <obo:creation_date>2011-05-28T11:18:45Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>HP:0010820</obo:xref>
         <obo:synonym>dacrystic seizure</obo:synonym>
     </owl:Class>
     <owl:Axiom>
@@ -12816,6 +13014,21 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000929">
         <rdfs:label xml:lang="en">frequency of drinking</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000540"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:note>&#39;participates in&#39; some 
+(&#39;regulation of drinking behavior&#39; and (has_quality some 
+(frequency and (towards some &#39;liquid consumption&#39;))))</oboInOwl:note>
     </owl:Class>
     
 
@@ -12825,6 +13038,18 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000961">
         <rdfs:label xml:lang="en">increased frequency of drinking</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000929"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -12834,6 +13059,523 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000993">
         <rdfs:label xml:lang="en">decreased frequency of drinking</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000929"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0001536 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001536">
+        <rdfs:label xml:lang="en">behavioral response to radiation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;Behavior as a result of an electromagnetic radiation stimulus.&quot; [NBO:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0001571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001571">
+        <rdfs:label xml:lang="en">behavioral response to light</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001536"/>
+        <obo:def>&quot;Behavior as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light.&quot; [NBO:GVG]</obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0001632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001632">
+        <rdfs:label xml:lang="en">behavioral response to chemical stimulus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000308"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;Behavior as a result of a chemical stimulus.&quot; [NBO:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0001679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001679">
+        <rdfs:label xml:lang="en">behavioral response to xenobiotics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001632"/>
+        <obo:def>&quot;Behavior as a result of a xenobiotic compound (compound foreign to living organisms) stimulus.&quot; [NBOC:GVG]</obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0001728 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001728">
+        <rdfs:label xml:lang="en">behavioral response to addictive substance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001679"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;Behavior as a result of sensitivity to an addictive substance intake.&quot; [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0001763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001763">
+        <rdfs:label xml:lang="en">behavioral response to alcohol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:def>&quot;Behavior as a result of sensitivity to cocaine alcohol.&quot; [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0001786 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001786">
+        <rdfs:label xml:lang="en">regulation of behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <obo:def>&quot;Any process that modulates the frequency, rate or extent of behavior, the specific actions or reactions of an organism in response to external or internal stimuli.&quot; [GO:0050795]</obo:def>
+        <obo:xref>GO:0050795 </obo:xref>
+        <obo:created_by>George Gkoutos</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0001824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001824">
+        <rdfs:label xml:lang="en">regulation of alcohol consumption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;Any process that modulates the frequency, rate or extent of alcohol consumption, the specific actions or reactions of an organism in response to external or internal stimuli.&quot; [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0001845 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001845">
+        <rdfs:label xml:lang="en">consumption behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;Behavior related to the intake of substances.&quot; [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0001884 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001884">
+        <rdfs:label xml:lang="en">consumption of addictive an substance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001845"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;Behavior related to the intake of addictive substances.&quot; [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0001915 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001915">
+        <rdfs:label xml:lang="en">cocaine consumption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001884"/>
+        <obo:def>&quot;Behavior related to the intake of cocaine.&quot; [NBOC:GVG]</obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0001952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001952">
+        <rdfs:label xml:lang="en">morphine consumption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001884"/>
+        <obo:def>&quot;Behavior related to the intake of morphine.&quot; [NBOC:GVG]</obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0001987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0001987">
+        <rdfs:label xml:lang="en">behavioral response to cocaine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0001915"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:xref>GO:0048148</obo:xref>
+        <obo:def>&quot;Behavior as a result of sensitivity to cocaine intake.&quot; [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0002021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002021">
+        <rdfs:label xml:lang="en">behavioral response to morphine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0001952"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:def>&quot;Behavior as a result of sensitivity to morphine&quot; [NBOC:GVG]</obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0002065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002065">
+        <rdfs:label xml:lang="en">behavioral response to nicotine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0002086"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>GO:0035095</obo:xref>
+        <obo:def>&quot;Behavior as a result of sensitivity to nicotine intake.&quot; [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0002086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002086">
+        <rdfs:label xml:lang="en">nicotine consumption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001884"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;Behavior related to the intake of nicotine.&quot; [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0002132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002132">
+        <rdfs:label xml:lang="en">regulation of cocaine consumption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002234"/>
+        <obo:def>&quot;Any process that modulates the frequency, rate or extent of cocaine consumption, the specific actions or reactions of an organism in response to external or internal stimuli.&quot; [NBOC:GVG]</obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0002169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002169">
+        <rdfs:label xml:lang="en">regulation of consumption behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001786"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;Any process that modulates the frequency, rate or extent of consumption behavior, the specific actions or reactions of an organism in response to external or internal stimuli.&quot; [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0002234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002234">
+        <rdfs:label xml:lang="en">regulation of consumption of an addictive substance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002169"/>
+        <obo:def>&quot;Any process that modulates the frequency, rate or extent of consumption of an addictive substance, the specific actions or reactions of an organism in response to external or internal stimuli.&quot; [NBOC:GVG]</obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0002273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002273">
+        <rdfs:label xml:lang="en">regulation of nicotine consumption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002234"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;Any process that modulates the frequency, rate or extent of nicotine consumption, the specific actions or reactions of an organism in response to external or internal stimuli.&quot; [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0002308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002308">
+        <rdfs:label xml:lang="en">regulation of morphine consumption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002234"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;Any process that modulates the frequency, rate or extent of morphine consumption, the specific actions or reactions of an organism in response to external or internal stimuli.&quot; [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0002362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002362">
+        <rdfs:label xml:lang="en">behavioral response to anesthetic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
+        <obo:def>&quot;Behavior as a result of sensitivity to an anasthetic intake.&quot; [NBOC:GVG]</obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002379">
+        <rdfs:label xml:lang="en">nursing behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000152"/>
+        <obo:def>&quot;Maternal behavior related to the nursing offspring.&quot; [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002436">
+        <rdfs:label xml:lang="en">regulation of feeding behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002169"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;Any process that modulates the frequency, rate or extent of consumption of food or liquid&quot; [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002468">
+        <rdfs:label xml:lang="en">regulation of water consumption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
+        <obo:def>&quot;Any process that modulates the frequency, rate or extent of water consumption, the specific actions or reactions of an organism in response to external or internal stimuli.&quot; [NBOC:GVG]</obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002511 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002511">
+        <rdfs:label xml:lang="en">regulation of saccharin consumption</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000063"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;Any process that modulates the frequency, rate or extent of saccharin consumption, the specific actions or reactions of an organism in response to external or internal stimuli.&quot; [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002519 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002519">
+        <rdfs:label xml:lang="en">adipsia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000540"/>
+        <obo:def>&quot;A pathological drinking behavior characterised by a lack of desire to drink.&quot; [NBO:GVG]</obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:xref>MP:0001428</obo:xref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002569">
+        <rdfs:label xml:lang="en">stress-induced hypothermia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
+        <obo:created_by>&quot;Increase in core body termperature in response to stress or anticipatory anxiety.&quot; [NBOC:GVG]</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002603">
+        <rdfs:label xml:lang="en">regulation of sexual activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001786"/>
+        <obo:created_by>&quot;Any process that modulates the frequency, rate or extent of sexual activity, the specific actions or reactions of an organism in response to external or internal stimuli.&quot; [NBOC:GVG]</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002660">
+        <rdfs:label xml:lang="en">regulation of drinking preference behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;A regulation of drinking behavior process associated with the preference over the type of liquids that are consumed. &quot; [NBO:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002702 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002702">
+        <rdfs:label xml:lang="en">regulation of alcohol preference behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002660"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;A regulation of drinking behavior process associated with the preference over alchohol consumption. &quot; [NBO:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002743">
+        <rdfs:label xml:lang="en">regulation of eating preference behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000063"/>
+        <obo:def>&quot;A regulation of drinking behavior process associated with the preference over the type of food that is consumed. &quot; [NBO:GVG]</obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002794 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002794">
+        <rdfs:label xml:lang="en">regulation of saccharin preference behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002743"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;A regulation of drinking behavior process associated with the preference over saccharing consumption. &quot; [NBO:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002869 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002869">
+        <rdfs:label xml:lang="en">regulation of addictive substance consumption preference</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002234"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;A regulation of consumption of an addictive sustance behavior process associated with the preference over the type of addictive sustance that is consumed. &quot; [NBO:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002916 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002916">
+        <rdfs:label xml:lang="en">regulation of cocaine consumption preference</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002869"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;A regulation of consumption of an addictive sustance behavior process associated with the preference over cocaine consumption. &quot; [NBO:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002948">
+        <rdfs:label xml:lang="en">regulation of mating preference</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002603"/>
+        <obo:def>&quot;A regulation of sexual activity process associated with the preference over a males or females.&quot; [NBO:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002950 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002950">
+        <rdfs:label xml:lang="en">angular vestibuloocular reflex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000416"/>
+        <obo:xref>GO:0060006 </obo:xref>
+        <obo:def>A vestibular reflex by which a response to an angular acceleration stimulus begins with an afferent nerve impulse from a receptor in the semi-circular canal and ends with the compensatory action of eye muscles. Signaling never reaches a level of consciousness. [GOC:dph]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002952">
+        <rdfs:label xml:lang="en">linear vestibuloocular reflex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000416"/>
+        <obo:def>A vestibular reflex by which a response to a linear acceleration stimulus begins with an afferent nerve impulse from a receptor in the otolith and ends with the compensatory action of eye muscles. [GOC:dph]</obo:def>
+        <obo:xref>GO:0060007</obo:xref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0002986 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002986">
+        <rdfs:label xml:lang="en">withdrawal response</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
+        <obo:def>Behavior response to addictive substance resulting from the discontinuation of an addictive substance. [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0003047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0003047">
+        <rdfs:label xml:lang="en">regulation of behavioral response to chemical stimulus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001786"/>
+        <obo:def>&quot;Any process that modulates the frequency, rate or extent of behavioral response to chemiucal stimulus.&quot; [NBOC:GVG] </obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0003104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0003104">
+        <rdfs:label xml:lang="en">regulation of behavioral response to addictive substance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0003047"/>
+        <obo:def>&quot;Any process that modulates the frequency, rate or extent of behavioral response to chemiucal stimulus.&quot; [NBOC:GVG] </obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0003142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0003142">
+        <rdfs:label xml:lang="en">regulation of withdrawal response</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0003104"/>
+        <obo:def>&quot;Any process that modulates the frequency, rate or extent of witdrawal response.&quot; [NBOC:GVG] </obo:def>
+        <obo:created_by>George Gkoutos</obo:created_by>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0003161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0003161">
+        <rdfs:label xml:lang="en">addiction response</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002234"/>
+        <obo:def>Behavior response to an addictive substance resulting from dependence of that addictive substance as well as unctronllable cravings of that substance. [NBOC:GVG]</obo:def>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/behavior.owl/NBO_0003194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/behavior.owl/NBO_0003194">
+        <rdfs:label xml:lang="en">regulation of addiction response</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0003104"/>
+        <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:def>&quot;Any process that modulates the frequency, rate or extent of witdrawal response.&quot; [NBOC:GVG] </obo:def>
     </owl:Class>
     
 
@@ -12847,7 +13589,7 @@
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/behavior.owl">
-        <oboInOwl:remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-05-08</oboInOwl:remark>
+        <oboInOwl:remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-05-14</oboInOwl:remark>
     </rdf:Description>
 </rdf:RDF>
 

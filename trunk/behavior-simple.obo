@@ -103,6 +103,8 @@ name: seizures/epilepsy
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:03:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0001250 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0002064 xsd:string
 is_a: NBO:0000243 ! behavioral phenotype
 
 [Term]
@@ -267,6 +269,8 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:09:28Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A kinesthetic behavior which relatively increased.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0000752 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0001399 xsd:string
 is_a: NBO:0000644 ! voluntary movement behavior phenotype
 
 [Term]
@@ -276,6 +280,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:09:41Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A kinesthetic behavior which relatively decreased.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0001402 xsd:string
 is_a: NBO:0000644 ! voluntary movement behavior phenotype
 
 [Term]
@@ -285,6 +290,8 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:18:37Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Loss of power of voluntary movement in a muscle through injury or disease of its nerve supply.\" [JAX:<new dbxref>]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0003470 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0000753 xsd:string
 is_a: NBO:0000009 ! locomotory behavior phenotype
 
 [Term]
@@ -295,6 +302,7 @@ property_value: creation:date 2011-04-14T01:19:09Z xsd:string
 property_value: http://purl.obolibrary.org/obo/comment "Carpoptosis is most often caused by a lesion of the radial nerve." xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Paralysis of the extensors of the wrist and fingers.\" [JAX:<new dbxref>]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0005162 xsd:string
 is_a: NBO:0000032 ! paralysis
 
 [Term]
@@ -526,6 +534,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:20:02Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Loss of power of voluntary movement in muscles of the forelimb through injury or disease of it or its nerve supply.\" [JAX:]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0000756 xsd:string
 is_a: NBO:0000032 ! paralysis
 
 [Term]
@@ -540,23 +549,23 @@ is_a: NBO:0000027 ! grooming behavior
 
 [Term]
 id: NBO:0000063
-name: eating behavior
+name: regulation of eating behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:20:02Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of food.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "eating behaviour" xsd:string
-is_a: NBO:0000079 ! feeding behavior
+is_a: NBO:0002436 ! regulation of feeding behavior
 
 [Term]
 id: NBO:0000064
-name: drinking behavior
+name: regulation of drinking behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:20:02Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of liquids.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "drinking behaviour" xsd:string
-is_a: NBO:0000079 ! feeding behavior
+is_a: NBO:0002436 ! regulation of feeding behavior
 
 [Term]
 id: NBO:0000065
@@ -692,7 +701,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A type of behavior associa
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "feeding behaviour" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref GO:0007631 xsd:string
-is_a: NBO:0000313 ! behavior process
+is_a: NBO:0001845 ! consumption behavior
 
 [Term]
 id: NBO:0000080
@@ -842,6 +851,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T10:18:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A phobia characterised by fear of open spaces.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0000756 xsd:string
 is_a: NBO:0000094 ! fear behavior towards situation/environment
 is_a: NBO:0000246 ! phobia
 
@@ -1173,7 +1183,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T12:40:37Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A drinking behavior associated with the intake of liquid.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
-is_a: NBO:0000064 ! drinking behavior
+is_a: NBO:0000079 ! feeding behavior
 
 [Term]
 id: NBO:0000131
@@ -1200,6 +1210,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T12:41:50Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000540 ! drinking behavior phenotype
+relationship: inheres_in NBO:0002660 ! regulation of drinking preference behavior
 
 [Term]
 id: NBO:0000134
@@ -1208,7 +1219,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T12:42:46Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A drinking behavior associated with the intake of food.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
-is_a: NBO:0000063 ! eating behavior
+is_a: NBO:0000079 ! feeding behavior
 
 [Term]
 id: NBO:0000135
@@ -1232,32 +1243,40 @@ id: NBO:0000137
 name: liquid preference
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T12:55:09Z xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Predilection to ingest a liquid over other substances.\" [NBOC:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000133 ! liquid preference/aversion
+relationship: inheres_in NBO:0002660 ! regulation of drinking preference behavior
 
 [Term]
 id: NBO:0000138
 name: liquid aversion
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T12:55:32Z xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Purposeful avoidance of a liquid due to dislike.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000133 ! liquid preference/aversion
+relationship: inheres_in NBO:0002660 ! regulation of drinking preference behavior
 
 [Term]
 id: NBO:0000139
 name: alcohol aversion
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T12:55:46Z xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Purposeful avoidance of alcohol due to dislike.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000138 ! liquid aversion
+relationship: inheres_in NBO:0002702 ! regulation of alcohol preference behavior
 
 [Term]
 id: NBO:0000140
 name: alcohol preference
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T12:56:38Z xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Predilection to ingest alcohol over other substances.\" [NBOC:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000137 ! liquid preference
+relationship: inheres_in NBO:0002702 ! regulation of alcohol preference behavior
 
 [Term]
 id: NBO:0000141
@@ -1282,6 +1301,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T12:59:56Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000141 ! food preference
+relationship: inheres_in NBO:0002794 ! regulation of saccharin preference behavior
 
 [Term]
 id: NBO:0000144
@@ -1290,6 +1310,8 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T02:16:59Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000756 ! mating behavior phenotype
+relationship: inheres_in NBO:0002603 ! regulation of sexual activity
+relationship: towards NBO:0000034 ! sexual activity
 
 [Term]
 id: NBO:0000145
@@ -1299,6 +1321,7 @@ property_value: creation:date 2011-03-31T02:17:22Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "mate choice" xsd:string
 is_a: NBO:0000756 ! mating behavior phenotype
+relationship: inheres_in NBO:0002948 ! regulation of mating preference
 
 [Term]
 id: NBO:0000146
@@ -2181,6 +2204,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-04T08:51:24Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"An observable characteristic of the behavior of an organism.\" [NBO:RH]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0000708 xsd:string
 
 [Term]
 id: NBO:0000244
@@ -2229,6 +2253,7 @@ property_value: creation:date 2011-04-04T08:52:42Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A pathological anxiety primarily characterized by repetitive obsessions (distressing, persistent, and intrusive thoughts or images) and compulsions (urges to perform specific acts or rituals).\" [wikipedia:Obsessive%E2%80%93compulsive_disorder]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "OCD" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0000722 xsd:string
 is_a: NBO:0000244 ! pathological anxiety
 
 [Term]
@@ -2326,6 +2351,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym "BD" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "bipolar affective disorder" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "manic depression" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref NBO:0000258 xsd:string
 is_a: NBO:0000256 ! mood disorder
 
 [Term]
@@ -2334,6 +2360,7 @@ name: psychotic disorder
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-04T08:56:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0000709 xsd:string
 is_a: NBO:0000243 ! behavioral phenotype
 
 [Term]
@@ -2383,6 +2410,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-04T08:59:01Z xsd:string
 property_value: http://purl.obolibrary.org/obo/comment (http://www.cliffsnotes.com/study_guide/Classifying-Psychological-Disorders.topicArticleId-25438,articleId-25396.html). xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0000751 xsd:string
 is_a: NBO:0000243 ! behavioral phenotype
 
 [Term]
@@ -2409,6 +2437,7 @@ name: dementia
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-04T09:01:50Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0000726 xsd:string
 is_a: NBO:0000266 ! cognitive behavior phenotype
 
 [Term]
@@ -2903,9 +2932,10 @@ id: NBO:0000322
 name: chemosensory behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-05T10:48:17Z xsd:string
-property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the sensation of chemicals.\" [NBO:GVG]" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of the sensation of chemicals.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000751 ! perception behavior by means
+is_a: NBO:0001632 ! behavioral response to chemical stimulus
 
 [Term]
 id: NBO:0000323
@@ -3825,6 +3855,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A NREM parasomnia characte
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "<new synonym>" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "teeth grinding" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0003763 xsd:string
 is_a: NBO:0000499 ! NREM parasomnia
 
 [Term]
@@ -3855,6 +3886,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-07T01:24:10Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A dyssomnia characterised by excessive daytime sleepiness (EDS) in which a person experiences extreme fatigue and possibly falls asleep at inappropriate times.\" [wikipedia:Narcolepsy]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0005279 xsd:string
 is_a: NBO:0000476 ! intrinsic sleep disorder
 
 [Term]
@@ -4730,6 +4762,7 @@ property_value: creation:date 2011-04-09T12:28:31Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "DD-NOS" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "depressive disorder not otherwise specified" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0000716 xsd:string
 is_a: NBO:0000256 ! mood disorder
 relationship: http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:towards NBO:0000085 ! depression behavior
 
@@ -4951,7 +4984,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic 
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "eating disorder " xsd:string
 is_a: NBO:0000270 ! feeding behavior phenotype
-relationship: owl:inheres:in NBO:0000063 ! eating behavior
+relationship: owl:inheres:in NBO:0000063 ! regulation of eating behavior
 
 [Term]
 id: NBO:0000540
@@ -4963,7 +4996,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym "drinking disorder" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "pathological drinking behaviour" xsd:string
 is_a: NBO:0000270 ! feeding behavior phenotype
-relationship: owl:inheres:in NBO:0000064 ! drinking behavior
+relationship: owl:inheres:in NBO:0000064 ! regulation of drinking behavior
 
 [Term]
 id: NBO:0000541
@@ -4972,7 +5005,11 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-10T10:41:10Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A pathological drinking behavior characterised by an excessive desire to drink.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0002119 xsd:string
+property_value: "note" "'participates in' some \n('regulation of drinking behavior' and (has_quality some \n('increased frequency' and towards some 'liquid consumption' and owl:qualifier some chronic)))"
 is_a: NBO:0000961 ! increased frequency of drinking
+relationship: inheres_in NBO:0000064 ! regulation of drinking behavior
+relationship: towards NBO:0000130 ! liquid consumption
 
 [Term]
 id: NBO:0000542
@@ -4981,7 +5018,10 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-10T10:41:10Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A pathological drinking behavior characterised by large intake of fluids by mouth, usually due to excessive thirst that is relatively prolonged.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
-is_a: NBO:0000886 ! increased amount of liquid in drinking regulation
+property_value: http://purl.obolibrary.org/obo/xref HP:0001959 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0001426 xsd:string
+property_value: "note" "'participates in' some (\n'regulation of drinking behavior' and regulates some \n  ('liquid consumption' and has-input some ('liquid substance' and has_quality some 'increased mass')) \nand \nowl:qualifier some 'temporally extended')"
+is_a: NBO:0000540 ! drinking behavior phenotype
 
 [Term]
 id: NBO:0000543
@@ -4990,7 +5030,11 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-10T10:41:10Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A pathological drinking behavior characterised by an excessive relative temporal desire to drink.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0005111 xsd:string
+property_value: "note" "'participates in' some \n('regulation of drinking behavior' and (has_quality some \n('increased frequency' and (towards some 'liquid consumption') and (owl:qualifier some 'temporally extended'))))"
 is_a: NBO:0000961 ! increased frequency of drinking
+relationship: inheres_in NBO:0000064 ! regulation of drinking behavior
+relationship: towards NBO:0000130 ! liquid consumption
 
 [Term]
 id: NBO:0000544
@@ -4999,8 +5043,9 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-10T10:41:10Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A pathological feeding behavior characterised by failure to eat.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0001438 xsd:string
 is_a: NBO:0000539 ! eating behavior phenotype
-relationship: http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:towards NBO:0000063 ! eating behavior
+relationship: http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:towards NBO:0000063 ! regulation of eating behavior
 
 [Term]
 id: NBO:0000545
@@ -5018,6 +5063,8 @@ property_value: creation:date 2011-04-10T10:41:10Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A pathological drinking behavior characterised by an abnormally large intake of food by mouth, usually due to excessive hunger that is relatively prolonged.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "hyperphagia" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0000724 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0001433 xsd:string
 is_a: NBO:0000539 ! eating behavior phenotype
 relationship: owl:inheres:in NBO:0000134 ! food consumption
 
@@ -5028,6 +5075,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-10T10:41:10Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Lack of ability to enjoy a sense of pleasure.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0009710 xsd:string
 is_a: NBO:0000522 ! dysthymia
 relationship: http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:towards NBO:0000230 ! pleasure behavior
 
@@ -5174,6 +5222,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T08:14:28Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A pathological behavior characterized by muscular rigidity and fixation of posture regardless of external stimuli, as well as decreased sensitivity to pain.\" [wikipedia:Catalepsy]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0002822 xsd:string
 is_a: NBO:0000595 ! posture phenotype
 
 [Term]
@@ -5193,6 +5242,7 @@ name: social withdrawal
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T08:24:50Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0001361 xsd:string
 is_a: NBO:0000564 ! social behavior phenotype
 
 [Term]
@@ -5212,6 +5262,8 @@ property_value: http://purl.obolibrary.org/obo/def "\"A pathological behavior as
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "stereotypic behaviour" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "stereotypy" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0000733 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0001408 xsd:string
 is_a: NBO:0000644 ! voluntary movement behavior phenotype
 
 [Term]
@@ -5231,6 +5283,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T08:32:15Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Exhibiting abnormal exhaustion due to mental or physical exertion.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0002899 xsd:string
 is_a: NBO:0000644 ! voluntary movement behavior phenotype
 
 [Term]
@@ -5259,6 +5312,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T09:01:45Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A degenerative state of the brain resulting in impairment of memory, judgment, attention span, problem solving skills, the inability to perform previously learned skills that cannot be attributed to deficits of motor or sensory function, and a global loss of cognitive abilities.\" [MeSH:National Library of Medicine_Medical Subject Headings]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0002571 xsd:string
 is_a: NBO:0000266 ! cognitive behavior phenotype
 
 [Term]
@@ -5267,6 +5321,7 @@ name: behavioral despair
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T09:04:45Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0002573 xsd:string
 is_a: NBO:0000515 ! depressive disorder
 
 [Term]
@@ -5386,6 +5441,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T11:05:57Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A form of tetanic spasm in which the head and feet are drawn forward and the spine arches backward.\" [JAX:]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0009354 xsd:string
 is_a: NBO:0000587 ! tetanic spasm
 
 [Term]
@@ -5395,6 +5451,8 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T11:08:01Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A form of tetanic spasm in which the head, neck and spine are bent backward and the body is bowed forward.\" [JAX:]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002179 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0002880 xsd:string
 is_a: NBO:0000587 ! tetanic spasm
 
 [Term]
@@ -5425,6 +5483,8 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym "quivering" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "shivering" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "trembling" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0001337 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0000745 xsd:string
 is_a: NBO:0000643 ! involuntary movement behavior phenotype
 
 [Term]
@@ -5434,6 +5494,8 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T11:25:59Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Inability to coordinate voluntary muscular movements.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0001251 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0001393 xsd:string
 is_a: NBO:0000591 ! motor coordination phenotype
 relationship: http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:towards NBO:0000403 ! voluntary movement behavior
 
@@ -5454,6 +5516,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T11:33:13Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Lack of coordination of movement typified by the undershoot or overshoot of intended position with the hand, arm, leg, or eye.\" [wikipedia:Dysmetria]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0003314 xsd:string
 is_a: NBO:0000591 ! motor coordination phenotype
 
 [Term]
@@ -5490,6 +5553,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T11:37:27Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Posture distinguished by a faltering gait while walking and/or a swaying motion of the trunk or head while resting.\" [JAX:<new dbxref>]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0009514 xsd:string
 is_a: NBO:0000595 ! posture phenotype
 
 [Term]
@@ -5499,6 +5563,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:20:30Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Loss of power of voluntary movement in the muscles of the hindlimb through injury or disease of it or its nerve supply.\" [JAX:]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0000755 xsd:string
 is_a: NBO:0000032 ! paralysis
 
 [Term]
@@ -5508,6 +5573,8 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:24:20Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A locomotory disorder in which sustained muscle contractions cause twisting and repetitive movements or abnormal postures.\" [wikipedia:Dystonia]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0001332 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0005323 xsd:string
 is_a: NBO:0000009 ! locomotory behavior phenotype
 
 [Term]
@@ -5547,6 +5614,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Exhibiting indifference, o
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "impassivity" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "perfunctoriness" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0000741 xsd:string
 is_a: NBO:0000601 ! emotional behavior phenotype
 
 [Term]
@@ -5556,6 +5624,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T03:20:48Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A belief that is either mistaken or not substantiated that is held with vehemence.\" [wikipedia:Delusion]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0000746 xsd:string
 is_a: NBO:0000266 ! cognitive behavior phenotype
 
 [Term]
@@ -5585,6 +5654,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Loss of information alread
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "pathological forgetting" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "retention loss" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0000747 xsd:string
 is_a: NBO:0000266 ! cognitive behavior phenotype
 relationship: http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:towards NBO:0000304 ! memory loss behavior
 
@@ -5604,6 +5674,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T03:52:31Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Perception in the absence of a stimulus.\" [wikipedia:Hallucination]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0000738 xsd:string
 is_a: NBO:0000308 ! sensation behavior
 
 [Term]
@@ -5614,6 +5685,7 @@ property_value: creation:date 2011-04-14T03:54:02Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A form of hallucination that involves perceiving images without visual stimulus.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "paracusia" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0008765 xsd:string
 is_a: NBO:0000608 ! hallucination
 
 [Term]
@@ -5623,6 +5695,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T03:56:24Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A form of hallucination that involves perceiving sounds without auditory stimulus.\" [wikipedia:Auditory_hallucination]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002367 xsd:string
 is_a: NBO:0000608 ! hallucination
 
 [Term]
@@ -5727,6 +5800,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T05:06:03Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A communication disorder in which a person, most often a child, who is normally capable of speech is unable to speak in given situations, or to specific people.\" [wikipedia:Selective_mutism]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002300 xsd:string
 is_a: NBO:0000564 ! social behavior phenotype
 
 [Term]
@@ -5736,6 +5810,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T05:18:30Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Stereotypic behavior associated with repetitive or ritualistic movement.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0008758 xsd:string
 is_a: NBO:0000567 ! stereotypic behavior
 
 [Term]
@@ -5745,6 +5820,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T05:20:29Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Stereotypic behavior characterised by a tendency to repeat vocalizations.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0010529 xsd:string
 is_a: NBO:0000567 ! stereotypic behavior
 
 [Term]
@@ -5919,6 +5995,7 @@ property_value: creation:date 2011-05-27T11:42:33Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Two or more unprovoked recurrent seizures.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "unprovoked seizure" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0001275 xsd:string
 is_a: NBO:0000012 ! seizures/epilepsy
 
 [Term]
@@ -5961,6 +6038,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A seizure which affect onl
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "focal seizure" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "localized seizure" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0007359 xsd:string
 is_a: NBO:0000025 ! seizures
 
 [Term]
@@ -5971,6 +6049,7 @@ property_value: creation:date 2011-05-27T12:51:40Z xsd:string
 property_value: http://purl.obolibrary.org/obo/comment "Depending on the area of cerebral cortex involved, symptoms may be motor, cognitive, sensory, autonomic, or affective. Consciousness is not impaired." xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A partial seizure which affect only a small region of the brain, often the temporal lobes and/or hippocampi whilst consciousness is unaffected.\" [wikipedia:http\\://en.wikipedia.org/wiki/Simple_partial_seizure]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002349 xsd:string
 is_a: NBO:0000646 ! partial seizure
 
 [Term]
@@ -5982,6 +6061,8 @@ property_value: http://purl.obolibrary.org/obo/def "\"A seizure that is associat
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "psychomotor seizure" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "temporal lobe seizure" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002384 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0002195 xsd:string
 is_a: NBO:0000646 ! partial seizure
 
 [Term]
@@ -6011,6 +6092,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A simple partial seizure a
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "focal clonic seizure" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "motor seizure" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002266 xsd:string
 is_a: NBO:0000647 ! simple partial seizure
 
 [Term]
@@ -6127,6 +6209,7 @@ property_value: http://purl.obolibrary.org/obo/comment "Primary generalized seiz
 property_value: http://purl.obolibrary.org/obo/def "\"A seizure which affect the whole of the brain at onset.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "primarily generalized seizure" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002197 xsd:string
 is_a: NBO:0000025 ! seizures
 
 [Term]
@@ -6135,6 +6218,7 @@ name: partial seizure evolving to secondarily generalized seizure
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-05-27T03:49:54Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0007334 xsd:string
 is_a: NBO:0000646 ! partial seizure
 
 [Term]
@@ -6185,6 +6269,8 @@ property_value: creation:date 2011-05-27T03:54:48Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"An absence seizure is a brief (usually less that 20 seconds), generalized epileptic seizure of sudden onset and termination.\" [wikipedia:http\\://en.wikipedia.org/wiki/Absence_seizure]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "petit mal seizure" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002121 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0003216 xsd:string
 is_a: NBO:0000662 ! generalized seizure
 
 [Term]
@@ -6197,6 +6283,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym " akinetic seizure" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "drop attack" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "drop seizure" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0010819 xsd:string
 is_a: NBO:0000662 ! generalized seizure
 
 [Term]
@@ -6208,6 +6295,9 @@ property_value: http://purl.obolibrary.org/obo/comment "Symmetric jerking of the
 property_value: http://purl.obolibrary.org/obo/def "\"A type of seizure that is characterised by a very brief symmetric alternating contraction and relaxation of a muscle or a group of muscles.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "myoclonus" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0001336 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002123 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0000243 xsd:string
 is_a: NBO:0000662 ! generalized seizure
 
 [Term]
@@ -6218,6 +6308,7 @@ property_value: creation:date 2011-05-27T04:54:59Z xsd:string
 property_value: http://purl.obolibrary.org/obo/comment "Rapid, repetitive motor activity." xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A type of seizure that is characterised by rhythmic symmetric alternating contraction and relaxation of a muscle or a group of muscles.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0003996 xsd:string
 is_a: NBO:0000662 ! generalized seizure
 
 [Term]
@@ -6248,6 +6339,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A type of seizure generate
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "environmental epilepsy" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "reflex epilepsy" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0009358 xsd:string
 is_a: NBO:0000686 ! provoked seizure
 
 [Term]
@@ -6260,6 +6352,8 @@ property_value: http://purl.obolibrary.org/obo/def "\"A type of generalized seiz
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "gran mal seizure" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "grand mal seizure" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002069 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0003997 xsd:string
 is_a: NBO:0000662 ! generalized seizure
 
 [Term]
@@ -6269,6 +6363,8 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-05-27T05:09:15Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A type of seizure characterised by muscle rigidity.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0010818 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0002826 xsd:string
 is_a: NBO:0000662 ! generalized seizure
 
 [Term]
@@ -6280,6 +6376,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A type of seizure associat
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "febrile convulsion" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "fever fit" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002373 xsd:string
 is_a: NBO:0000686 ! provoked seizure
 
 [Term]
@@ -6393,6 +6490,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-05-27T05:59:47Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Continuous unremitting seizure lasting longer than 30 minutes or recurrent seizures without regaining consciousness between seizures for greater than 30 minutes.\" [wikipedia:http\\://en.wikipedia.org/wiki/Status_epilepticus]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002133 xsd:string
 is_a: NBO:0000642 ! epilepsy
 
 [Term]
@@ -6483,6 +6581,7 @@ property_value: creation:date 2011-05-28T11:12:23Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A type of seizure induced by exposure to an auditory stimulus.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "auditory stimulation induced seizure" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0001496 xsd:string
 is_a: NBO:0000675 ! reflex seizure
 
 [Term]
@@ -6501,6 +6600,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-05-28T11:59:31Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"An absence seizure not induced by hyperventilation.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0007270 xsd:string
 is_a: NBO:0000669 ! absence seizures
 
 [Term]
@@ -6510,6 +6610,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-05-28T12:08:24Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A generalized seizure that was initiated as a partial seizure.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002434 xsd:string
 is_a: NBO:0000662 ! generalized seizure
 
 [Term]
@@ -6592,6 +6693,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-05-28T12:35:56Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A type of seizure induced by lower than normal level of blood glucose levels.\" [GVG:NBO]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002173 xsd:string
 is_a: NBO:0000686 ! provoked seizure
 
 [Term]
@@ -6755,6 +6857,7 @@ property_value: creation:date 2011-05-28T05:51:10Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A simple partial seizure affecting the kinesthetic behavior of one side of the body.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "unilateral clonic seizure" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0006813 xsd:string
 is_a: NBO:0000651 ! simple partial seizure with motor signs
 
 [Term]
@@ -6789,6 +6892,8 @@ property_value: http://purl.obolibrary.org/obo/synonym "jackknife convulsions" x
 property_value: http://purl.obolibrary.org/obo/synonym "Massive Myoclonia" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "Salaam spasms" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "West syndrome" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002391 xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0011097 xsd:string
 is_a: NBO:0000588 ! spasm
 is_a: NBO:0000642 ! epilepsy
 
@@ -6799,6 +6904,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-05-28T08:04:53Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A type of seizure induced by lower than normal level of blood calcium levels.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002199 xsd:string
 is_a: NBO:0000686 ! provoked seizure
 
 [Term]
@@ -6808,6 +6914,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-05-28T08:28:12Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A generalized tonic clonic seizure that was initiated as a partial seizure.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0002602 xsd:string
 is_a: NBO:0000703 ! secondary generalized seizure
 
 [Term]
@@ -6817,6 +6924,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-05-28T08:34:10Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A type of seizure induced by exposure to a light stimulus.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0001327 xsd:string
 is_a: NBO:0000686 ! provoked seizure
 
 [Term]
@@ -6827,6 +6935,7 @@ property_value: creation:date 2011-05-28T11:12:42Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A type of epilepsy that is characterised a sudden burst of energy, usually in the form of laughing.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "gelastic seizure" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0010821 xsd:string
 is_a: NBO:0000642 ! epilepsy
 
 [Term]
@@ -6837,6 +6946,7 @@ property_value: creation:date 2011-05-28T11:18:45Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A type of epilepsy that is characterised a sudden paroxysmal crying.\" [NBO:<new dbxref>, NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "dacrystic seizure" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref HP:0010820 xsd:string
 is_a: NBO:0000642 ! epilepsy
 
 [Term]
@@ -7216,17 +7326,333 @@ is_a: NBO:0000540 ! drinking behavior phenotype
 [Term]
 id: NBO:0000929
 name: frequency of drinking
+property_value: "note" "'participates in' some \n('regulation of drinking behavior' and (has_quality some \n(frequency and (towards some 'liquid consumption'))))"
 is_a: NBO:0000540 ! drinking behavior phenotype
+relationship: inheres_in NBO:0000064 ! regulation of drinking behavior
+relationship: towards NBO:0000130 ! liquid consumption
 
 [Term]
 id: NBO:0000961
 name: increased frequency of drinking
 is_a: NBO:0000929 ! frequency of drinking
+relationship: inheres_in NBO:0000064 ! regulation of drinking behavior
+relationship: towards NBO:0000130 ! liquid consumption
 
 [Term]
 id: NBO:0000993
 name: decreased frequency of drinking
 is_a: NBO:0000929 ! frequency of drinking
+relationship: inheres_in NBO:0000064 ! regulation of drinking behavior
+relationship: towards NBO:0000130 ! liquid consumption
+
+[Term]
+id: NBO:0001536
+name: behavioral response to radiation
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of an electromagnetic radiation stimulus.\" [NBO:GVG]" xsd:string
+is_a: NBO:0000308 ! sensation behavior
+
+[Term]
+id: NBO:0001571
+name: behavioral response to light
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light.\" [NBO:GVG]" xsd:string
+is_a: NBO:0001536 ! behavioral response to radiation
+
+[Term]
+id: NBO:0001632
+name: behavioral response to chemical stimulus
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of a chemical stimulus.\" [NBO:GVG]" xsd:string
+is_a: NBO:0000308 ! sensation behavior
+
+[Term]
+id: NBO:0001679
+name: behavioral response to xenobiotics
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of a xenobiotic compound (compound foreign to living organisms) stimulus.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0001632 ! behavioral response to chemical stimulus
+
+[Term]
+id: NBO:0001728
+name: behavioral response to addictive substance
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to an addictive substance intake.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0001679 ! behavioral response to xenobiotics
+
+[Term]
+id: NBO:0001763
+name: behavioral response to alcohol
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to cocaine alcohol.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0001728 ! behavioral response to addictive substance
+relationship: http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to NBO:0000131 ! alcohol consumption
+
+[Term]
+id: NBO:0001786
+name: regulation of behavior
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of behavior, the specific actions or reactions of an organism in response to external or internal stimuli.\" [GO:0050795]" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref "GO:0050795 " xsd:string
+is_a: NBO:0000313 ! behavior process
+
+[Term]
+id: NBO:0001824
+name: regulation of alcohol consumption
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of alcohol consumption, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0000064 ! regulation of drinking behavior
+
+[Term]
+id: NBO:0001845
+name: consumption behavior
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the intake of substances.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0000313 ! behavior process
+
+[Term]
+id: NBO:0001884
+name: consumption of addictive an substance
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the intake of addictive substances.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0001845 ! consumption behavior
+
+[Term]
+id: NBO:0001915
+name: cocaine consumption
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the intake of cocaine.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0001884 ! consumption of addictive an substance
+
+[Term]
+id: NBO:0001952
+name: morphine consumption
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the intake of morphine.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0001884 ! consumption of addictive an substance
+
+[Term]
+id: NBO:0001987
+name: behavioral response to cocaine
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to cocaine intake.\" [NBOC:GVG]" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0048148 xsd:string
+is_a: NBO:0001728 ! behavioral response to addictive substance
+relationship: http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to NBO:0001915 ! cocaine consumption
+
+[Term]
+id: NBO:0002021
+name: behavioral response to morphine
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to morphine\" [NBOC:GVG]" xsd:string
+is_a: NBO:0001728 ! behavioral response to addictive substance
+relationship: http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to NBO:0001952 ! morphine consumption
+
+[Term]
+id: NBO:0002065
+name: behavioral response to nicotine
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to nicotine intake.\" [NBOC:GVG]" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0035095 xsd:string
+is_a: NBO:0001728 ! behavioral response to addictive substance
+relationship: http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to NBO:0002086 ! nicotine consumption
+
+[Term]
+id: NBO:0002086
+name: nicotine consumption
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the intake of nicotine.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0001884 ! consumption of addictive an substance
+
+[Term]
+id: NBO:0002132
+name: regulation of cocaine consumption
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of cocaine consumption, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0002234 ! regulation of consumption of an addictive substance
+
+[Term]
+id: NBO:0002169
+name: regulation of consumption behavior
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of consumption behavior, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0001786 ! regulation of behavior
+
+[Term]
+id: NBO:0002234
+name: regulation of consumption of an addictive substance
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of consumption of an addictive substance, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0002169 ! regulation of consumption behavior
+
+[Term]
+id: NBO:0002273
+name: regulation of nicotine consumption
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of nicotine consumption, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0002234 ! regulation of consumption of an addictive substance
+
+[Term]
+id: NBO:0002308
+name: regulation of morphine consumption
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of morphine consumption, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0002234 ! regulation of consumption of an addictive substance
+
+[Term]
+id: NBO:0002362
+name: behavioral response to anesthetic
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to an anasthetic intake.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0001728 ! behavioral response to addictive substance
+
+[Term]
+id: NBO:0002379
+name: nursing behavior
+property_value: http://purl.obolibrary.org/obo/def "\"Maternal behavior related to the nursing offspring.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0000152 ! maternal nurturing behavior
+
+[Term]
+id: NBO:0002436
+name: regulation of feeding behavior
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of consumption of food or liquid\" [NBOC:GVG]" xsd:string
+is_a: NBO:0002169 ! regulation of consumption behavior
+
+[Term]
+id: NBO:0002468
+name: regulation of water consumption
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of water consumption, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0000064 ! regulation of drinking behavior
+
+[Term]
+id: NBO:0002511
+name: regulation of saccharin consumption
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of saccharin consumption, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0000063 ! regulation of eating behavior
+
+[Term]
+id: NBO:0002519
+name: adipsia
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"A pathological drinking behavior characterised by a lack of desire to drink.\" [NBO:GVG]" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref MP:0001428 xsd:string
+is_a: NBO:0000540 ! drinking behavior phenotype
+
+[Term]
+id: NBO:0002569
+name: stress-induced hypothermia
+property_value: created:by "\"Increase in core body termperature in response to stress or anticipatory anxiety.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0000469 ! stress related behavior
+
+[Term]
+id: NBO:0002603
+name: regulation of sexual activity
+property_value: created:by "\"Any process that modulates the frequency, rate or extent of sexual activity, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]" xsd:string
+is_a: NBO:0001786 ! regulation of behavior
+
+[Term]
+id: NBO:0002660
+name: regulation of drinking preference behavior
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"A regulation of drinking behavior process associated with the preference over the type of liquids that are consumed. \" [NBO:GVG]" xsd:string
+is_a: NBO:0000064 ! regulation of drinking behavior
+
+[Term]
+id: NBO:0002702
+name: regulation of alcohol preference behavior
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"A regulation of drinking behavior process associated with the preference over alchohol consumption. \" [NBO:GVG]" xsd:string
+is_a: NBO:0002660 ! regulation of drinking preference behavior
+
+[Term]
+id: NBO:0002743
+name: regulation of eating preference behavior
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"A regulation of drinking behavior process associated with the preference over the type of food that is consumed. \" [NBO:GVG]" xsd:string
+is_a: NBO:0000063 ! regulation of eating behavior
+
+[Term]
+id: NBO:0002794
+name: regulation of saccharin preference behavior
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"A regulation of drinking behavior process associated with the preference over saccharing consumption. \" [NBO:GVG]" xsd:string
+is_a: NBO:0002743 ! regulation of eating preference behavior
+
+[Term]
+id: NBO:0002869
+name: regulation of addictive substance consumption preference
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"A regulation of consumption of an addictive sustance behavior process associated with the preference over the type of addictive sustance that is consumed. \" [NBO:GVG]" xsd:string
+is_a: NBO:0002234 ! regulation of consumption of an addictive substance
+
+[Term]
+id: NBO:0002916
+name: regulation of cocaine consumption preference
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"A regulation of consumption of an addictive sustance behavior process associated with the preference over cocaine consumption. \" [NBO:GVG]" xsd:string
+is_a: NBO:0002869 ! regulation of addictive substance consumption preference
+
+[Term]
+id: NBO:0002948
+name: regulation of mating preference
+property_value: http://purl.obolibrary.org/obo/def "\"A regulation of sexual activity process associated with the preference over a males or females.\" [NBO:GVG]" xsd:string
+is_a: NBO:0002603 ! regulation of sexual activity
+
+[Term]
+id: NBO:0002950
+name: angular vestibuloocular reflex
+property_value: http://purl.obolibrary.org/obo/def "A vestibular reflex by which a response to an angular acceleration stimulus begins with an afferent nerve impulse from a receptor in the semi-circular canal and ends with the compensatory action of eye muscles. Signaling never reaches a level of consciousness. [GOC:dph]" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref "GO:0060006 " xsd:string
+is_a: NBO:0000416 ! vestibulo-ocular reflex
+
+[Term]
+id: NBO:0002952
+name: linear vestibuloocular reflex
+property_value: http://purl.obolibrary.org/obo/def "A vestibular reflex by which a response to a linear acceleration stimulus begins with an afferent nerve impulse from a receptor in the otolith and ends with the compensatory action of eye muscles. [GOC:dph]" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0060007 xsd:string
+is_a: NBO:0000416 ! vestibulo-ocular reflex
+
+[Term]
+id: NBO:0002986
+name: withdrawal response
+property_value: http://purl.obolibrary.org/obo/def "Behavior response to addictive substance resulting from the discontinuation of an addictive substance. [NBOC:GVG]" xsd:string
+is_a: NBO:0001728 ! behavioral response to addictive substance
+
+[Term]
+id: NBO:0003047
+name: regulation of behavioral response to chemical stimulus
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of behavioral response to chemiucal stimulus.\" [NBOC:GVG] " xsd:string
+is_a: NBO:0001786 ! regulation of behavior
+
+[Term]
+id: NBO:0003104
+name: regulation of behavioral response to addictive substance
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of behavioral response to chemiucal stimulus.\" [NBOC:GVG] " xsd:string
+is_a: NBO:0003047 ! regulation of behavioral response to chemical stimulus
+
+[Term]
+id: NBO:0003142
+name: regulation of withdrawal response
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of witdrawal response.\" [NBOC:GVG] " xsd:string
+is_a: NBO:0003104 ! regulation of behavioral response to addictive substance
+
+[Term]
+id: NBO:0003161
+name: addiction response
+property_value: http://purl.obolibrary.org/obo/def "Behavior response to an addictive substance resulting from dependence of that addictive substance as well as unctronllable cravings of that substance. [NBOC:GVG]" xsd:string
+is_a: NBO:0001728 ! behavioral response to addictive substance
+is_a: NBO:0002234 ! regulation of consumption of an addictive substance
+
+[Term]
+id: NBO:0003194
+name: regulation of addiction response
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of witdrawal response.\" [NBOC:GVG] " xsd:string
+is_a: NBO:0003104 ! regulation of behavioral response to addictive substance
 
 [Typedef]
 id: NBO:0000861

@@ -8165,7 +8165,8 @@ is_a: NBO:0000540 ! drinking behavior phenotype
 [Term]
 id: NBO:0002569
 name: stress-induced hypothermia
-property_value: created:by "\"Increase in core body termperature in response to stress or anticipatory anxiety.\" [NBOC:GVG]" xsd:string
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Increase in core body termperature in response to stress or anticipatory anxiety.\" [NBOC:GVG]" xsd:string
 is_a: NBO:0000469 ! stress related behavior
 intersection_of: NBO:0000469 ! stress related behavior
 intersection_of: http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response_to PATO:0001305
@@ -8174,7 +8175,8 @@ relationship: http://purl.obolibrary.org/obo/http_//purl.org/obo/owl:in_response
 [Term]
 id: NBO:0002603
 name: regulation of sexual activity
-property_value: created:by "\"Any process that modulates the frequency, rate or extent of sexual activity, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]" xsd:string
+property_value: created:by "George Gkoutos" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates the frequency, rate or extent of sexual activity, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]" xsd:string
 is_a: NBO:0001786 ! regulation of behavior
 
 [Term]

@@ -1,4 +1,4 @@
-def b = new File("behavior.obo").getText()
+def b = new File(args[0]).getText()
 
 b = b.replaceAll("property_value: created:by","created_by:")
 b = b.replaceAll("property_value: creation:date", "creation_date:")

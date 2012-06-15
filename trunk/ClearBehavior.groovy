@@ -10,7 +10,7 @@ b = b.replaceAll("property_value: \"note\"","!property_value: \"note\"")
 b = b.replaceAll("property_value: is:obsolete \"true\"","is_obsolete: true")
 b = b.replaceAll("property_value: http://purl.obolibrary.org/obo/xref","xref:")
 b = b.replaceAll("property_value: http://purl.obolibrary.org/obo/def","def:")
-b = b.replaceAll("xsd:string","[]")
+b = b.replaceAll("xsd:string","[DB:MyScript]")
 b = b.replaceAll("\\\\\"","")
 
 println b

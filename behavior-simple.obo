@@ -47,6 +47,7 @@ property_value: creation:date 2011-04-14T01:03:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the acquisition and processing of information and/or the storage and retrieval of this information over time.\" [GO:jic]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "learning and/or memory behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0007611 xsd:string
 is_a: NBO:0000607 ! cognitive behavior
 
 [Term]
@@ -63,6 +64,7 @@ name: rhythmic behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:03:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0007622 xsd:string
 is_a: NBO:0000313 ! behavior process
 
 [Term]
@@ -74,7 +76,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic 
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "pathological locomotory behaviour" xsd:string
 is_a: NBO:0000644 ! voluntary movement behavior phenotype
-relationship: BFO:0000052 NBO:0000013 ! locomotory behavior
+relationship: inheres:in NBO:0000013 ! locomotory behavior
 
 [Term]
 id: NBO:0000010
@@ -84,6 +86,7 @@ property_value: creation:date 2011-04-14T01:03:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the actions or interactions of an organism that are associated with reproduction.\" [GOC:jl]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "reproductive behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0019098 xsd:string
 is_a: NBO:0000313 ! behavior process
 
 [Term]
@@ -114,6 +117,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:03:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior associated with the specific movement from place to place of an organism.\" [GO:0007626]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0007626 xsd:string
 property_value: http://purl.obolibrary.org/obo/xref GO:0008344 xsd:string
 is_a: NBO:0000002 ! whole body movement
 
@@ -138,6 +142,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym "aggression" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "aggressive behaviour" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "agonism" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0002118 xsd:string
 is_a: NBO:0000003 ! emotional behavior
 
 [Term]
@@ -193,6 +198,7 @@ property_value: creation:date 2011-04-14T01:03:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior associated with any process in an organism in which a relatively long-lasting adaptive behavioral change occurs as the result of experience.\" [wikipedia:Learning]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "learning behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0007612 xsd:string
 is_a: NBO:0000006 ! learning and/or memory behavior
 
 [Term]
@@ -212,6 +218,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:03:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the readily reversible state of reduced awareness and metabolic activity that occurs periodically in many animals.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0030431 xsd:string
 is_a: NBO:0000008 ! rhythmic behavior
 
 [Term]
@@ -241,6 +248,7 @@ property_value: creation:date 2011-04-14T01:03:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the cleaning or maintainance of one's body or appearance.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "grooming behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0007625 xsd:string
 is_a: NBO:0000313 ! behavior process
 
 [Term]
@@ -347,6 +355,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:03:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"The elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds.\" [wikipedia:Excretion]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0007588 xsd:string
 is_a: NBO:0000035 ! emission behavior
 
 [Term]
@@ -366,6 +375,7 @@ property_value: creation:date 2011-04-14T01:03:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"The regulation of body fluids process by which parasympathetic nerves stimulate the bladder wall muscle to contract and expel urine from the body.\" [wikipedia:urination]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "micturition" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0060073 xsd:string
 is_a: NBO:0000038 ! behavioral control of excretion
 
 [Term]
@@ -402,6 +412,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:03:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior of a parent towards their offspring.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0060746 xsd:string
 is_a: NBO:0000011 ! social behavior
 
 [Term]
@@ -555,6 +566,7 @@ property_value: creation:date 2011-04-14T01:20:02Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of food.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "eating behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0042755 xsd:string
 is_a: NBO:0002436 ! regulation of feeding behavior
 
 [Term]
@@ -565,6 +577,7 @@ property_value: creation:date 2011-04-14T01:20:02Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of liquids.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "drinking behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0042756 xsd:string
 is_a: NBO:0002436 ! regulation of feeding behavior
 
 [Term]
@@ -734,6 +747,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:20:02Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to any biological process in an organism that recurs with a regularity of approximately 24 hours.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0048512 xsd:string
 is_a: NBO:0000008 ! rhythmic behavior
 
 [Term]
@@ -785,6 +799,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A physical aggression beha
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "predatory aggression" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "predatory aggressive behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0002120 xsd:string
 is_a: NBO:0000120 ! physical aggression behavior
 is_a: NBO:0000235 ! hunger motivation behavior
 
@@ -888,6 +903,7 @@ name: exploration behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T10:28:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0035640 xsd:string
 is_a: NBO:0000097 ! response to novel environment
 
 [Term]
@@ -1181,7 +1197,7 @@ id: NBO:0000130
 name: liquid consumption
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T12:40:37Z xsd:string
-property_value: http://purl.obolibrary.org/obo/def "\"A drinking behavior associated with the intake of liquid.\" [NBO:GVG]" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"A behavior associated with the intake of liquid.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000079 ! feeding behavior
 
@@ -1201,6 +1217,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T12:41:14Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A drinking behavior associated with the intake of water.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0045187 xsd:string
 is_a: NBO:0000130 ! liquid consumption
 
 [Term]
@@ -1210,14 +1227,14 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T12:41:50Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000540 ! drinking behavior phenotype
-relationship: inheres_in NBO:0002660 ! regulation of drinking preference behavior
+relationship: inheres:in NBO:0002660 ! regulation of drinking preference behavior
 
 [Term]
 id: NBO:0000134
 name: food consumption
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T12:42:46Z xsd:string
-property_value: http://purl.obolibrary.org/obo/def "\"A drinking behavior associated with the intake of food.\" [NBO:GVG]" xsd:string
+property_value: http://purl.obolibrary.org/obo/def "\"A feeding behavior associated with the intake of food.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000079 ! feeding behavior
 
@@ -1246,7 +1263,7 @@ property_value: creation:date 2011-03-31T12:55:09Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Predilection to ingest a liquid over other substances.\" [NBOC:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000133 ! liquid preference/aversion
-relationship: inheres_in NBO:0002660 ! regulation of drinking preference behavior
+relationship: inheres:in NBO:0002660 ! regulation of drinking preference behavior
 
 [Term]
 id: NBO:0000138
@@ -1256,7 +1273,7 @@ property_value: creation:date 2011-03-31T12:55:32Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Purposeful avoidance of a liquid due to dislike.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000133 ! liquid preference/aversion
-relationship: inheres_in NBO:0002660 ! regulation of drinking preference behavior
+relationship: inheres:in NBO:0002660 ! regulation of drinking preference behavior
 
 [Term]
 id: NBO:0000139
@@ -1266,7 +1283,7 @@ property_value: creation:date 2011-03-31T12:55:46Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Purposeful avoidance of alcohol due to dislike.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000138 ! liquid aversion
-relationship: inheres_in NBO:0002702 ! regulation of alcohol preference behavior
+relationship: inheres:in NBO:0002702 ! regulation of alcohol preference behavior
 
 [Term]
 id: NBO:0000140
@@ -1276,7 +1293,7 @@ property_value: creation:date 2011-03-31T12:56:38Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Predilection to ingest alcohol over other substances.\" [NBOC:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000137 ! liquid preference
-relationship: inheres_in NBO:0002702 ! regulation of alcohol preference behavior
+relationship: inheres:in NBO:0002702 ! regulation of alcohol preference behavior
 
 [Term]
 id: NBO:0000141
@@ -1301,7 +1318,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T12:59:56Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000141 ! food preference
-relationship: inheres_in NBO:0002794 ! regulation of saccharin preference behavior
+relationship: inheres:in NBO:0002794 ! regulation of saccharin preference behavior
 
 [Term]
 id: NBO:0000144
@@ -1310,8 +1327,8 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T02:16:59Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000756 ! mating behavior phenotype
-relationship: inheres_in NBO:0002603 ! regulation of sexual activity
-relationship: towards NBO:0000034 ! sexual activity
+relationship: http://purl.obolibrary.org/obo/towards NBO:0000034 ! sexual activity
+relationship: inheres:in NBO:0002603 ! regulation of sexual activity
 
 [Term]
 id: NBO:0000145
@@ -1321,7 +1338,7 @@ property_value: creation:date 2011-03-31T02:17:22Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "mate choice" xsd:string
 is_a: NBO:0000756 ! mating behavior phenotype
-relationship: inheres_in NBO:0002948 ! regulation of mating preference
+relationship: inheres:in NBO:0002948 ! regulation of mating preference
 
 [Term]
 id: NBO:0000146
@@ -1362,6 +1379,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T02:32:21Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior of a mother towards her offspring.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0042711 xsd:string
 is_a: NBO:0000044 ! parental behavior
 
 [Term]
@@ -1371,6 +1389,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T02:32:53Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior of a father towards his offspring.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0042712 xsd:string
 is_a: NBO:0000044 ! parental behavior
 
 [Term]
@@ -1469,7 +1488,7 @@ property_value: creation:date 2011-03-31T03:15:38Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Duration of REM sleep.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000754 ! rapid eye movement sleep phenotype
-relationship: BFO:0000052 NBO:0000159 ! rapid eye movement sleep
+relationship: inheres:in NBO:0000159 ! rapid eye movement sleep
 
 [Term]
 id: NBO:0000163
@@ -1478,7 +1497,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T03:15:49Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000754 ! rapid eye movement sleep phenotype
-relationship: BFO:0000052 NBO:0000159 ! rapid eye movement sleep
+relationship: inheres:in NBO:0000159 ! rapid eye movement sleep
 
 [Term]
 id: NBO:0000164
@@ -1488,7 +1507,7 @@ property_value: creation:date 2011-03-31T03:16:07Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Duration of REM sleep.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000753 ! non-rapid eye movement sleep behavior phenotype
-relationship: BFO:0000052 NBO:0000161 ! non-rapid eye movement sleep behavior
+relationship: inheres:in NBO:0000161 ! non-rapid eye movement sleep behavior
 
 [Term]
 id: NBO:0000165
@@ -1497,7 +1516,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T03:16:10Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000753 ! non-rapid eye movement sleep behavior phenotype
-relationship: BFO:0000052 NBO:0000161 ! non-rapid eye movement sleep behavior
+relationship: inheres:in NBO:0000161 ! non-rapid eye movement sleep behavior
 
 [Term]
 id: NBO:0000166
@@ -1506,6 +1525,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T03:22:26Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Endogenously driven roughly 24-hour cycle in biochemical, physiological, or behavioral processes.\" [GOC:bf]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0007623 xsd:string
 is_a: NBO:0000084 ! circadian behavior
 
 [Term]
@@ -1540,6 +1560,7 @@ property_value: creation:date 2011-04-01T01:49:03Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior related with the ability of an organism's ability to store, retain, and recall information and experiences.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "memory behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0007613 xsd:string
 is_a: NBO:0000006 ! learning and/or memory behavior
 
 [Term]
@@ -1551,6 +1572,7 @@ property_value: http://purl.obolibrary.org/obo/comment "The formation of associa
 property_value: http://purl.obolibrary.org/obo/def "\"Learning by associating a stimulus (the cause) with a particular outcome (the effect).\" [Wikipedia:Learning#Associative_learning]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "conditional learning" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0008306 xsd:string
 is_a: NBO:0000022 ! learning behavior
 
 [Term]
@@ -1559,8 +1581,9 @@ name: olfactory learning behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-01T01:54:09Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0008355 xsd:string
 is_a: NBO:0000641 ! discrimination learning
-relationship: is_about NBO:0000323 ! olfactory behavior
+relationship: is:about NBO:0000323 ! olfactory behavior
 
 [Term]
 id: NBO:0000173
@@ -1568,8 +1591,9 @@ name: visual learning behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-01T01:54:15Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0008542 xsd:string
 is_a: NBO:0000641 ! discrimination learning
-relationship: is_about NBO:0000314 ! visual behavior
+relationship: is:about NBO:0000314 ! visual behavior
 
 [Term]
 id: NBO:0000174
@@ -1578,7 +1602,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-01T01:56:08Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000171 ! associative learning behavior
-relationship: is_about NBO:0000339 ! motor coordination
+relationship: is:about NBO:0000339 ! motor coordination
 
 [Term]
 id: NBO:0000175
@@ -1587,7 +1611,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-01T01:57:20Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000171 ! associative learning behavior
-relationship: is_about NBO:0000746 ! spatial perception
+relationship: is:about NBO:0000746 ! spatial perception
 
 [Term]
 id: NBO:0000176
@@ -1596,8 +1620,9 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-01T01:58:41Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A behavioral process whose outcome is a relatively long-lasting adaptive behavioral change whereby an organism modifies innate vocalizations to imitate or create new sounds.\" [GO:0042297]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0042297 xsd:string
 is_a: NBO:0000171 ! associative learning behavior
-relationship: is_about NBO:0000037 ! vocalization behavior
+relationship: is:about NBO:0000037 ! vocalization behavior
 
 [Term]
 id: NBO:0000177
@@ -1608,6 +1633,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A decrease in a behavioral
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "nonassociative learning" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "unconditional response" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0046958 xsd:string
 is_a: NBO:0000022 ! learning behavior
 
 [Term]
@@ -1617,6 +1643,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-01T03:19:06Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Gradual decrease in behavioral responses with repeated encounters of a particular stimulus, which proves of no consequence.\" [wikipedia:Habituation]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0046959 xsd:string
 is_a: NBO:0000177 ! non-associative learning
 
 [Term]
@@ -1635,6 +1662,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-01T03:59:07Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A type of memory that allows the recall of something from several seconds to as long as a minute.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0007614 xsd:string
 is_a: NBO:0000306 ! memory storage behavior
 
 [Term]
@@ -1644,6 +1672,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-01T03:59:10Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"This type of memory, lasting hours to months, critically depends on a transfer of the information from short term memory using repeated rehearsal.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0007616 xsd:string
 is_a: NBO:0000306 ! memory storage behavior
 
 [Term]
@@ -1671,6 +1700,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-01T04:01:02Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A type of memory that allows the recall of something from minutes to several hours.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0072375 xsd:string
 is_a: NBO:0000306 ! memory storage behavior
 
 [Term]
@@ -1899,7 +1929,7 @@ property_value: creation:date 2011-04-03T08:58:27Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A type of associative learning that allows organisms to acquire affective responses, such as fear, in situations where a particular context or stimulus is predictably elicits fear via an aversive context.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000778 ! emotional conditioning
-relationship: is_about NBO:0000091 ! fear-related behavior
+relationship: is:about NBO:0000091 ! fear-related behavior
 
 [Term]
 id: NBO:0000210
@@ -1916,6 +1946,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-03T09:04:57Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "Garcia conditioning" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0001661 xsd:string
 is_a: NBO:0000208 ! classical conditioning
 
 [Term]
@@ -1928,6 +1959,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Operant conditioning is th
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "instrumental conditioning" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "instrumental learning" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0035106 xsd:string
 is_a: NBO:0000171 ! associative learning behavior
 
 [Term]
@@ -1963,7 +1995,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-03T09:11:44Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000220 ! social learning
-relationship: is_about NBO:0000745 ! language communication behavior
+relationship: is:about NBO:0000745 ! language communication behavior
 
 [Term]
 id: NBO:0000217
@@ -2000,7 +2032,7 @@ property_value: creation:date 2011-04-04T03:34:46Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society.\" [wikipedia:Social_conditioning]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000171 ! associative learning behavior
-relationship: is_about NBO:0000011 ! social behavior
+relationship: is:about NBO:0000011 ! social behavior
 
 [Term]
 id: NBO:0000221
@@ -2009,7 +2041,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-04T03:36:48Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000778 ! emotional conditioning
-relationship: in_response_to NBO:0000778 ! emotional conditioning
+relationship: http://purl.obolibrary.org/obo/in_response_to NBO:0000778 ! emotional conditioning
 
 [Term]
 id: NBO:0000222
@@ -2059,7 +2091,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-04T03:55:46Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000208 ! classical conditioning
-relationship: is_about NBO:0000749 ! blinking
+relationship: is:about NBO:0000749 ! blinking
 
 [Term]
 id: NBO:0000228
@@ -2068,7 +2100,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-04T03:57:01Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000208 ! classical conditioning
-relationship: is_about NBO:0000747 ! jaw movement
+relationship: is:about NBO:0000747 ! jaw movement
 
 [Term]
 id: NBO:0000229
@@ -2079,7 +2111,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic 
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "pathological vestibular behaviour" xsd:string
 is_a: NBO:0000656 ! somatic sensation related behavior phenotype
-relationship: BFO:0000052 NBO:0000317 ! vestibular behavior
+relationship: inheres:in NBO:0000317 ! vestibular behavior
 
 [Term]
 id: NBO:0000230
@@ -2153,6 +2185,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-04T08:33:16Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Any process which modulates the physical craving for food.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0032098 xsd:string
 is_a: NBO:0000235 ! hunger motivation behavior
 
 [Term]
@@ -2421,7 +2454,7 @@ property_value: creation:date 2011-04-04T09:01:18Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behaviour related to cognitive processes.\" [NBO:RH]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000243 ! behavioral phenotype
-relationship: BFO:0000052 NBO:0000607 ! cognitive behavior
+relationship: inheres:in NBO:0000607 ! cognitive behavior
 
 [Term]
 id: NBO:0000267
@@ -2456,7 +2489,7 @@ property_value: creation:date 2011-04-04T09:02:16Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior associated with the intake of food or liquids.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000243 ! behavioral phenotype
-relationship: BFO:0000052 NBO:0000079 ! feeding behavior
+relationship: inheres:in NBO:0000079 ! feeding behavior
 
 [Term]
 id: NBO:0000271
@@ -2508,7 +2541,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A behavioral interaction b
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "verbal aggression behaviour" xsd:string
 is_a: NBO:0000741 ! aggressive behavior by means
-relationship: by_means NBO:0000037 ! vocalization behavior
+relationship: by:means NBO:0000037 ! vocalization behavior
 
 [Term]
 id: NBO:0000277
@@ -2719,6 +2752,7 @@ property_value: creation:date 2011-04-04T09:39:19Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A domineering, assault posture and/or hostile physical action towards animals exhibited by male animals.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "male aggressive behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0001966 xsd:string
 is_a: NBO:0000116 ! gender-related aggressive behavior
 
 [Term]
@@ -2739,6 +2773,7 @@ property_value: creation:date 2011-04-04T09:39:58Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A domineering, assault posture and/or hostile physical action towards animals exhibited by a mother or attending female.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "maternal aggression " xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0002125 xsd:string
 is_a: NBO:0000048 ! protection of offspring behavior
 is_a: NBO:0000150 ! maternal behavior
 is_a: NBO:0000301 ! female aggressive behavior
@@ -2853,6 +2888,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"The action, reaction, or p
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "behavior" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0007610 xsd:string
 
 [Term]
 id: NBO:0000314
@@ -2873,6 +2909,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-05T10:37:02Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the actions or reactions of an organism pertaining to movement of the eyes and of objects in the visual field, as in nystagmus.\" [GO:0007634]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0007634 xsd:string
 is_a: NBO:0000314 ! visual behavior
 
 [Term]
@@ -2883,6 +2920,7 @@ property_value: creation:date 2011-04-05T10:38:17Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the actions or reactions of an organism in response to a sound.\" [GO:0031223]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym " hearing behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0031223 xsd:string
 is_a: NBO:0000751 ! perception behavior by means
 
 [Term]
@@ -2934,6 +2972,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-05T10:48:17Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of the sensation of chemicals.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0007635 xsd:string
 is_a: NBO:0000751 ! perception behavior by means
 is_a: NBO:0001632 ! behavioral response to chemical stimulus
 
@@ -2944,6 +2983,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-05T10:48:52Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the sensation of odors.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0042048 xsd:string
 is_a: NBO:0000322 ! chemosensory behavior
 
 [Term]
@@ -2964,6 +3004,7 @@ property_value: creation:date 2011-04-05T11:00:51Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to environmental temperature.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "thermosensation behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0040040 xsd:string
 is_a: NBO:0000330 ! cutaneous sensation behavior
 
 [Term]
@@ -3398,6 +3439,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-06T01:17:18Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Alteration of speed or direction of movement in response to a sensory stimulus.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0042465 xsd:string
 is_a: NBO:0000373 ! locomotory orientation behavior
 
 [Term]
@@ -3407,6 +3449,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-06T01:17:27Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Locomotory orientation in a specific spatial relationship to a stimulus.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0042330 xsd:string
 is_a: NBO:0000373 ! locomotory orientation behavior
 
 [Term]
@@ -3426,6 +3469,7 @@ property_value: creation:date 2011-04-06T01:23:34Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Locomotory orientation in response to specific chemical concentration gradient.\" [GO:0006935]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "chemotaxis" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0006935 xsd:string
 is_a: NBO:0000375 ! taxis
 
 [Term]
@@ -3437,6 +3481,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Locomotory orientation in 
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "geotactic behaviour" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "gravitaxis" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0042332 xsd:string
 is_a: NBO:0000375 ! taxis
 
 [Term]
@@ -3448,6 +3493,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Locomotory orientation awa
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "negative geotactic behaviour" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "negative gravitaxis" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0048060 xsd:string
 is_a: NBO:0000378 ! gravitactic behavior
 
 [Term]
@@ -3459,6 +3505,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Locomotory orientation tow
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "positive geotactic behaviour" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "positive gravitaxis" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0048061 xsd:string
 is_a: NBO:0000378 ! gravitactic behavior
 
 [Term]
@@ -3478,6 +3525,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-06T01:47:46Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Locomotory orientation in response to physical parameters involved in energy generation.\" [GO:0009453]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0009453 xsd:string
 is_a: NBO:0000375 ! taxis
 
 [Term]
@@ -3488,6 +3536,7 @@ property_value: creation:date 2011-04-06T01:48:33Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Locomotory orientation in response to light.\" [GO:0042331]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "phototaxis" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0042331 xsd:string
 is_a: NBO:0000382 ! energy taxis
 
 [Term]
@@ -3497,6 +3546,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-06T01:50:19Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Locomotory orientation in response to a temperature gradient.\" [GO:0043052]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0043052 xsd:string
 is_a: NBO:0000382 ! energy taxis
 
 [Term]
@@ -3844,7 +3894,7 @@ property_value: creation:date 2011-04-07T01:19:38Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the readily reversible state of reduced awareness and metabolic activity that occurs periodically in many animals.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000473 ! rhythmic behavior phenotype
-relationship: BFO:0000052 NBO:0000024 ! sleeping behavior
+relationship: inheres:in NBO:0000024 ! sleeping behavior
 
 [Term]
 id: NBO:0000420
@@ -4351,7 +4401,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-08T02:18:40Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000243 ! behavioral phenotype
-relationship: BFO:0000052 NBO:0000008 ! rhythmic behavior
+relationship: inheres:in NBO:0000008 ! rhythmic behavior
 
 [Term]
 id: NBO:0000474
@@ -4361,7 +4411,7 @@ property_value: creation:date 2011-04-08T02:19:42Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "pathological circadian behaviour" xsd:string
 is_a: NBO:0000473 ! rhythmic behavior phenotype
-relationship: BFO:0000052 NBO:0000084 ! circadian behavior
+relationship: inheres:in NBO:0000084 ! circadian behavior
 
 [Term]
 id: NBO:0000475
@@ -4764,7 +4814,7 @@ property_value: http://purl.obolibrary.org/obo/synonym "DD-NOS" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "depressive disorder not otherwise specified" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref HP:0000716 xsd:string
 is_a: NBO:0000256 ! mood disorder
-relationship: towards NBO:0000085 ! depression behavior
+relationship: http://purl.obolibrary.org/obo/towards NBO:0000085 ! depression behavior
 
 [Term]
 id: NBO:0000516
@@ -4953,6 +5003,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-10T02:18:47Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Any process in which an organism modulates its heart rate at different values with a regularity of approximately 24 hours.\" [GOC:rl]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0003053 xsd:string
 is_a: NBO:0000084 ! circadian behavior
 
 [Term]
@@ -4984,7 +5035,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic 
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "eating disorder " xsd:string
 is_a: NBO:0000270 ! feeding behavior phenotype
-relationship: BFO:0000052 NBO:0000063 ! regulation of eating behavior
+relationship: inheres:in NBO:0000063 ! regulation of eating behavior
 
 [Term]
 id: NBO:0000540
@@ -4996,7 +5047,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym "drinking disorder" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "pathological drinking behaviour" xsd:string
 is_a: NBO:0000270 ! feeding behavior phenotype
-relationship: BFO:0000052 NBO:0000064 ! regulation of drinking behavior
+relationship: inheres:in NBO:0000064 ! regulation of drinking behavior
 
 [Term]
 id: NBO:0000541
@@ -5008,8 +5059,8 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref MP:0002119 xsd:string
 property_value: "note" "'participates in' some \n('regulation of drinking behavior' and (has_quality some \n('increased frequency' and towards some 'liquid consumption' and owl:qualifier some chronic)))"
 is_a: NBO:0000961 ! increased frequency of drinking
-relationship: inheres_in NBO:0000064 ! regulation of drinking behavior
-relationship: towards NBO:0000130 ! liquid consumption
+relationship: http://purl.obolibrary.org/obo/towards NBO:0000130 ! liquid consumption
+relationship: inheres:in NBO:0000064 ! regulation of drinking behavior
 
 [Term]
 id: NBO:0000542
@@ -5033,8 +5084,8 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref MP:0005111 xsd:string
 property_value: "note" "'participates in' some \n('regulation of drinking behavior' and (has_quality some \n('increased frequency' and (towards some 'liquid consumption') and (owl:qualifier some 'temporally extended'))))"
 is_a: NBO:0000961 ! increased frequency of drinking
-relationship: inheres_in NBO:0000064 ! regulation of drinking behavior
-relationship: towards NBO:0000130 ! liquid consumption
+relationship: http://purl.obolibrary.org/obo/towards NBO:0000130 ! liquid consumption
+relationship: inheres:in NBO:0000064 ! regulation of drinking behavior
 
 [Term]
 id: NBO:0000544
@@ -5045,7 +5096,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A pathological feeding beh
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref MP:0001438 xsd:string
 is_a: NBO:0000539 ! eating behavior phenotype
-relationship: towards NBO:0000063 ! regulation of eating behavior
+relationship: http://purl.obolibrary.org/obo/towards NBO:0000063 ! regulation of eating behavior
 
 [Term]
 id: NBO:0000545
@@ -5066,7 +5117,7 @@ property_value: http://purl.obolibrary.org/obo/synonym "hyperphagia" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref HP:0000724 xsd:string
 property_value: http://purl.obolibrary.org/obo/xref MP:0001433 xsd:string
 is_a: NBO:0000539 ! eating behavior phenotype
-relationship: BFO:0000052 NBO:0000134 ! food consumption
+relationship: inheres:in NBO:0000134 ! food consumption
 
 [Term]
 id: NBO:0000547
@@ -5077,7 +5128,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Lack of ability to enjoy a
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref MP:0009710 xsd:string
 is_a: NBO:0000522 ! dysthymia
-relationship: towards NBO:0000230 ! pleasure behavior
+relationship: http://purl.obolibrary.org/obo/towards NBO:0000230 ! pleasure behavior
 
 [Term]
 id: NBO:0000548
@@ -5234,7 +5285,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic 
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "pathological social behaviour" xsd:string
 is_a: NBO:0000243 ! behavioral phenotype
-relationship: BFO:0000052 NBO:0000011 ! social behavior
+relationship: inheres:in NBO:0000011 ! social behavior
 
 [Term]
 id: NBO:0000565
@@ -5274,7 +5325,7 @@ property_value: creation:date 2011-04-14T08:31:34Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the movement of the body's muscles, tendons, and joints.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000243 ! behavioral phenotype
-relationship: BFO:0000052 NBO:0000338 ! kinesthetic behavior
+relationship: inheres:in NBO:0000338 ! kinesthetic behavior
 
 [Term]
 id: NBO:0000569
@@ -5497,7 +5548,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref HP:0001251 xsd:string
 property_value: http://purl.obolibrary.org/obo/xref MP:0001393 xsd:string
 is_a: NBO:0000591 ! motor coordination phenotype
-relationship: towards NBO:0000403 ! voluntary movement behavior
+relationship: http://purl.obolibrary.org/obo/towards NBO:0000403 ! voluntary movement behavior
 
 [Term]
 id: NBO:0000591
@@ -5507,7 +5558,7 @@ property_value: creation:date 2011-04-14T11:32:30Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the coordination of combinations of body movements created with the kinematic (such as spatial direction) and kinetic (force) parameters that result in intended actions.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000229 ! vestibular behavior phenotype
-relationship: BFO:0000052 NBO:0000339 ! motor coordination
+relationship: inheres:in NBO:0000339 ! motor coordination
 
 [Term]
 id: NBO:0000592
@@ -5603,7 +5654,7 @@ property_value: creation:date 2011-04-14T03:07:16Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the complex psychophysiological experience of an individual's state of mind as interacting with biochemical (internal) and environmental (external) influences.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000243 ! behavioral phenotype
-relationship: BFO:0000052 NBO:0000003 ! emotional behavior
+relationship: inheres:in NBO:0000003 ! emotional behavior
 
 [Term]
 id: NBO:0000602
@@ -5656,7 +5707,7 @@ property_value: http://purl.obolibrary.org/obo/synonym "pathological forgetting"
 property_value: http://purl.obolibrary.org/obo/synonym "retention loss" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref HP:0000747 xsd:string
 is_a: NBO:0000266 ! cognitive behavior phenotype
-relationship: towards NBO:0000304 ! memory loss behavior
+relationship: http://purl.obolibrary.org/obo/towards NBO:0000304 ! memory loss behavior
 
 [Term]
 id: NBO:0000607
@@ -5772,6 +5823,7 @@ property_value: creation:date 2011-04-14T04:52:56Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"The behavior in which an organism sheds tears, often accompanied by non-verbal vocalizations and in response to external or internal stimuli.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "crying behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0060273 xsd:string
 is_a: NBO:0000003 ! emotional behavior
 is_a: NBO:0000036 ! behavioral control of production of sound
 
@@ -5910,6 +5962,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Aggressive behavior relate
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "territorial aggression" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "territorial aggressive behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0002124 xsd:string
 is_a: NBO:0000105 ! aggressive behavior towards animals
 
 [Term]
@@ -5919,7 +5972,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-19T02:05:35Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000741 ! aggressive behavior by means
-relationship: by_means NBO:0000128 ! irritability behavior
+relationship: by:means NBO:0000128 ! irritability behavior
 
 [Term]
 id: NBO:0000635
@@ -5949,6 +6002,7 @@ property_value: creation:date 2011-04-21T08:40:33Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"The actions or reactions of a male, for the purpose of attracting a sexual partner.\" [GOC:bf]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "male courtship behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0008049 xsd:string
 is_a: NBO:0000077 ! courtship behavior
 
 [Term]
@@ -5959,6 +6013,7 @@ property_value: creation:date 2011-04-21T08:42:23Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"The actions or reactions of a female, for the purpose of attracting a sexual partner.\" [GOC:bf]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "female courtship behaviour" xsd:string
+property_value: http://purl.obolibrary.org/obo/xref GO:0008050 xsd:string
 is_a: NBO:0000077 ! courtship behavior
 
 [Term]
@@ -6006,7 +6061,7 @@ property_value: creation:date 2011-05-27T11:56:52Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to movements that occur independent of planning.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000568 ! kinesthetic behavior phenotype
-relationship: BFO:0000052 NBO:0000388 ! involuntary movement behavior
+relationship: inheres:in NBO:0000388 ! involuntary movement behavior
 
 [Term]
 id: NBO:0000644
@@ -6016,7 +6071,7 @@ property_value: creation:date 2011-05-27T11:57:12Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to movements executed with intent.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000568 ! kinesthetic behavior phenotype
-relationship: BFO:0000052 NBO:0000403 ! voluntary movement behavior
+relationship: inheres:in NBO:0000403 ! voluntary movement behavior
 
 [Term]
 id: NBO:0000645
@@ -6140,7 +6195,7 @@ property_value: creation:date 2011-05-27T03:06:17Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related any of the five senses -- vision, touch, smell, taste, and hearing.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000266 ! cognitive behavior phenotype
-relationship: BFO:0000052 NBO:0000308 ! sensation behavior
+relationship: inheres:in NBO:0000308 ! sensation behavior
 
 [Term]
 id: NBO:0000656
@@ -6150,7 +6205,7 @@ property_value: creation:date 2011-05-27T03:20:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A phenotype manifested by a behavior related to the sensations arising from the skin and from the muscles, tendons, and joints.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000655 ! sensation behavior phenotype
-relationship: BFO:0000052 NBO:0000327 ! somatic sensation related behavior
+relationship: inheres:in NBO:0000327 ! somatic sensation related behavior
 
 [Term]
 id: NBO:0000657
@@ -6159,7 +6214,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-05-27T03:21:20Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000656 ! somatic sensation related behavior phenotype
-relationship: BFO:0000052 NBO:0000330 ! cutaneous sensation behavior
+relationship: inheres:in NBO:0000330 ! cutaneous sensation behavior
 
 [Term]
 id: NBO:0000658
@@ -6169,7 +6224,7 @@ property_value: creation:date 2011-05-27T03:22:16Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the actions or reactions of an organism in response to a sound.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000655 ! sensation behavior phenotype
-relationship: BFO:0000052 NBO:0000316 ! auditory behavior
+relationship: inheres:in NBO:0000316 ! auditory behavior
 
 [Term]
 id: NBO:0000659
@@ -6179,7 +6234,7 @@ property_value: creation:date 2011-05-27T03:22:59Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A phenotype manifested by a behavior related to the actions or reactions of an organism in response to a visual stimulus.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000655 ! sensation behavior phenotype
-relationship: BFO:0000052 NBO:0000314 ! visual behavior
+relationship: inheres:in NBO:0000314 ! visual behavior
 
 [Term]
 id: NBO:0000660
@@ -6189,7 +6244,7 @@ property_value: creation:date 2011-05-27T03:26:33Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the sensation of chemicals.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000655 ! sensation behavior phenotype
-relationship: BFO:0000052 NBO:0000322 ! chemosensory behavior
+relationship: inheres:in NBO:0000322 ! chemosensory behavior
 
 [Term]
 id: NBO:0000661
@@ -7065,7 +7120,7 @@ property_value: creation:date 2012-03-19T10:59:20Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to all sleep stages in the circadian sleep/wake cycle other than REM sleep.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000419 ! sleeping behavior phenotype
-relationship: BFO:0000052 NBO:0000161 ! non-rapid eye movement sleep behavior
+relationship: inheres:in NBO:0000161 ! non-rapid eye movement sleep behavior
 
 [Term]
 id: NBO:0000754
@@ -7084,7 +7139,7 @@ property_value: creation:date 2012-03-19T02:08:56Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the actions or interactions of an organism that are associated with reproduction.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000243 ! behavioral phenotype
-relationship: BFO:0000052 NBO:0000010 ! reproductive behavior
+relationship: inheres:in NBO:0000010 ! reproductive behavior
 
 [Term]
 id: NBO:0000756
@@ -7094,7 +7149,7 @@ property_value: creation:date 2012-03-19T02:10:16Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the interactions between organisms for the purpose of mating.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000755 ! reproductive behavior phenotype
-relationship: BFO:0000052 NBO:0000014 ! mating behavior
+relationship: inheres:in NBO:0000014 ! mating behavior
 
 [Term]
 id: NBO:0000757
@@ -7104,7 +7159,7 @@ property_value: creation:date 2012-03-19T02:10:27Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the specific actions or reactions of an organism following mating.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000755 ! reproductive behavior phenotype
-relationship: BFO:0000052 NBO:0000078 ! post-mating behavior
+relationship: inheres:in NBO:0000078 ! post-mating behavior
 
 [Term]
 id: NBO:0000758
@@ -7114,7 +7169,7 @@ property_value: creation:date 2012-03-19T02:10:54Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the activity which primary purpose is the sexual reproduction.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000755 ! reproductive behavior phenotype
-relationship: BFO:0000052 NBO:0000034 ! sexual activity
+relationship: inheres:in NBO:0000034 ! sexual activity
 
 [Term]
 id: NBO:0000759
@@ -7124,7 +7179,7 @@ property_value: creation:date 2012-03-19T02:13:54Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic related to the behavioral interactions between organisms for the purpose of attracting sexual partners.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000756 ! mating behavior phenotype
-relationship: BFO:0000052 NBO:0000077 ! courtship behavior
+relationship: inheres:in NBO:0000077 ! courtship behavior
 
 [Term]
 id: NBO:0000760
@@ -7134,7 +7189,7 @@ property_value: creation:date 2012-03-19T02:16:31Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the actions or reactions of a female, for the purpose of attracting a sexual partner.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000759 ! courtship behavior phenotype
-relationship: BFO:0000052 NBO:0000638 ! female courtship behavior
+relationship: inheres:in NBO:0000638 ! female courtship behavior
 
 [Term]
 id: NBO:0000761
@@ -7144,7 +7199,7 @@ property_value: creation:date 2012-03-19T02:16:49Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the actions or reactions of a male, for the purpose of attracting a sexual partner.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000759 ! courtship behavior phenotype
-relationship: BFO:0000052 NBO:0000637 ! male courtship behavior
+relationship: inheres:in NBO:0000637 ! male courtship behavior
 
 [Term]
 id: NBO:0000762
@@ -7154,7 +7209,7 @@ property_value: creation:date 2012-03-19T02:22:41Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the act of sexual union between male and female, involving the transfer of sperm.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000758 ! sexual activity phenotype
-relationship: BFO:0000052 NBO:0000060 ! copulation
+relationship: inheres:in NBO:0000060 ! copulation
 
 [Term]
 id: NBO:0000763
@@ -7164,7 +7219,7 @@ property_value: creation:date 2012-03-19T02:22:53Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the female activity which primary purpose is the sexual reproduction.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000758 ! sexual activity phenotype
-relationship: BFO:0000052 NBO:0000549 ! female sexual activity
+relationship: inheres:in NBO:0000549 ! female sexual activity
 
 [Term]
 id: NBO:0000764
@@ -7174,7 +7229,7 @@ property_value: creation:date 2012-03-19T02:23:03Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behavior related to the male activity which primary purpose is the sexual reproduction.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000758 ! sexual activity phenotype
-relationship: BFO:0000052 NBO:0000548 ! male sexual activity
+relationship: inheres:in NBO:0000548 ! male sexual activity
 
 [Term]
 id: NBO:0000765
@@ -7184,7 +7239,7 @@ property_value: creation:date 2012-03-19T02:33:56Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behaviour related to the acquisition and processing of information and/or the storage and retrieval of this information over time.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000266 ! cognitive behavior phenotype
-relationship: BFO:0000052 NBO:0000006 ! learning and/or memory behavior
+relationship: inheres:in NBO:0000006 ! learning and/or memory behavior
 
 [Term]
 id: NBO:0000766
@@ -7194,7 +7249,7 @@ property_value: creation:date 2012-03-19T02:34:12Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behaviour associated with any process in an organism in which a relatively long-lasting adaptive behavioral change occurs as the result of experience.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000765 ! learning and/or memory behavior phenotype
-relationship: BFO:0000052 NBO:0000022 ! learning behavior
+relationship: inheres:in NBO:0000022 ! learning behavior
 
 [Term]
 id: NBO:0000767
@@ -7204,7 +7259,7 @@ property_value: creation:date 2012-03-19T02:34:26Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behaviour related to the ability of an organism's ability to store, retain, and recall information and experiences.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000765 ! learning and/or memory behavior phenotype
-relationship: BFO:0000052 NBO:0000170 ! memory behavior
+relationship: inheres:in NBO:0000170 ! memory behavior
 
 [Term]
 id: NBO:0000768
@@ -7213,7 +7268,7 @@ property_value: created:by "gkoutos" xsd:string
 property_value: creation:date 2012-03-19T03:46:31Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000243 ! behavioral phenotype
-relationship: BFO:0000052 NBO:0000035 ! emission behavior
+relationship: inheres:in NBO:0000035 ! emission behavior
 
 [Term]
 id: NBO:0000769
@@ -7223,7 +7278,7 @@ property_value: creation:date 2012-03-19T03:46:55Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behaviour related to the elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000768 ! emission behavior phenotype
-relationship: BFO:0000052 NBO:0000038 ! behavioral control of excretion
+relationship: inheres:in NBO:0000038 ! behavioral control of excretion
 
 [Term]
 id: NBO:0000770
@@ -7233,7 +7288,7 @@ property_value: creation:date 2012-03-19T03:47:09Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behaviour related to the expulsion of feces from the rectum.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000769 ! behavioral control of excretion phenotype
-relationship: BFO:0000052 NBO:0000039 ! behavioral control of defecation
+relationship: inheres:in NBO:0000039 ! behavioral control of defecation
 
 [Term]
 id: NBO:0000771
@@ -7243,7 +7298,7 @@ property_value: creation:date 2012-03-19T03:48:16Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behaviour related to the regulation of body fluids process by which parasympathetic nerves stimulate the bladder wall muscle to contract and expel urine from the body.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000769 ! behavioral control of excretion phenotype
-relationship: BFO:0000052 NBO:0000040 ! behavioral control of urination
+relationship: inheres:in NBO:0000040 ! behavioral control of urination
 
 [Term]
 id: NBO:0000772
@@ -7252,7 +7307,7 @@ property_value: created:by "gkoutos" xsd:string
 property_value: creation:date 2012-03-20T05:24:59Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000768 ! emission behavior phenotype
-relationship: BFO:0000052 NBO:0000036 ! behavioral control of production of sound
+relationship: inheres:in NBO:0000036 ! behavioral control of production of sound
 
 [Term]
 id: NBO:0000773
@@ -7261,7 +7316,7 @@ property_value: created:by "gkoutos" xsd:string
 property_value: creation:date 2012-03-20T05:25:03Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000768 ! emission behavior phenotype
-relationship: BFO:0000052 NBO:0000041 ! behavioral control of external secretion
+relationship: inheres:in NBO:0000041 ! behavioral control of external secretion
 
 [Term]
 id: NBO:0000774
@@ -7271,7 +7326,7 @@ property_value: creation:date 2012-03-20T05:28:58Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic of behaviour related to the regulated release of the aqueous layer of the tear film from the lacrimal glands.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000773 ! behavioral control of external secretion phenotype
-relationship: BFO:0000052 NBO:0000042 ! behavioral control of lacrimation
+relationship: inheres:in NBO:0000042 ! behavioral control of lacrimation
 
 [Term]
 id: NBO:0000775
@@ -7282,7 +7337,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic 
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000601 ! emotional behavior phenotype
 is_a: NBO:0000772 ! behavioral control of production of sound phenotype
-relationship: BFO:0000052 NBO:0000618 ! crying behavior
+relationship: inheres:in NBO:0000618 ! crying behavior
 
 [Term]
 id: NBO:0000776
@@ -7293,7 +7348,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Observable characteristic 
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000601 ! emotional behavior phenotype
 is_a: NBO:0000772 ! behavioral control of production of sound phenotype
-relationship: BFO:0000052 NBO:0000632 ! mobbing calling
+relationship: inheres:in NBO:0000632 ! mobbing calling
 
 [Term]
 id: NBO:0000777
@@ -7311,7 +7366,7 @@ property_value: created:by "gkoutos" xsd:string
 property_value: creation:date 2012-03-23T10:05:56Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000208 ! classical conditioning
-relationship: is_about NBO:0000003 ! emotional behavior
+relationship: is:about NBO:0000003 ! emotional behavior
 
 [Term]
 id: NBO:0000851
@@ -7328,22 +7383,22 @@ id: NBO:0000929
 name: frequency of drinking
 property_value: "note" "'participates in' some \n('regulation of drinking behavior' and (has_quality some \n(frequency and (towards some 'liquid consumption'))))"
 is_a: NBO:0000540 ! drinking behavior phenotype
-relationship: inheres_in NBO:0000064 ! regulation of drinking behavior
-relationship: towards NBO:0000130 ! liquid consumption
+relationship: http://purl.obolibrary.org/obo/towards NBO:0000130 ! liquid consumption
+relationship: inheres:in NBO:0000064 ! regulation of drinking behavior
 
 [Term]
 id: NBO:0000961
 name: increased frequency of drinking
 is_a: NBO:0000929 ! frequency of drinking
-relationship: inheres_in NBO:0000064 ! regulation of drinking behavior
-relationship: towards NBO:0000130 ! liquid consumption
+relationship: http://purl.obolibrary.org/obo/towards NBO:0000130 ! liquid consumption
+relationship: inheres:in NBO:0000064 ! regulation of drinking behavior
 
 [Term]
 id: NBO:0000993
 name: decreased frequency of drinking
 is_a: NBO:0000929 ! frequency of drinking
-relationship: inheres_in NBO:0000064 ! regulation of drinking behavior
-relationship: towards NBO:0000130 ! liquid consumption
+relationship: http://purl.obolibrary.org/obo/towards NBO:0000130 ! liquid consumption
+relationship: inheres:in NBO:0000064 ! regulation of drinking behavior
 
 [Term]
 id: NBO:0001536
@@ -7385,7 +7440,7 @@ id: NBO:0001763
 name: behavioral response to alcohol
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to cocaine alcohol.\" [NBOC:GVG]" xsd:string
 is_a: NBO:0001728 ! behavioral response to addictive substance
-relationship: in_response_to NBO:0000131 ! alcohol consumption
+relationship: http://purl.obolibrary.org/obo/in_response_to NBO:0000131 ! alcohol consumption
 
 [Term]
 id: NBO:0001786
@@ -7436,7 +7491,7 @@ name: behavioral response to cocaine
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to cocaine intake.\" [NBOC:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref GO:0048148 xsd:string
 is_a: NBO:0001728 ! behavioral response to addictive substance
-relationship: in_response_to NBO:0001915 ! cocaine consumption
+relationship: http://purl.obolibrary.org/obo/in_response_to NBO:0001915 ! cocaine consumption
 
 [Term]
 id: NBO:0002021
@@ -7444,7 +7499,7 @@ name: behavioral response to morphine
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to morphine\" [NBOC:GVG]" xsd:string
 is_a: NBO:0001728 ! behavioral response to addictive substance
-relationship: in_response_to NBO:0001952 ! morphine consumption
+relationship: http://purl.obolibrary.org/obo/in_response_to NBO:0001952 ! morphine consumption
 
 [Term]
 id: NBO:0002065
@@ -7453,7 +7508,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to nicotine intake.\" [NBOC:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref GO:0035095 xsd:string
 is_a: NBO:0001728 ! behavioral response to addictive substance
-relationship: in_response_to NBO:0002086 ! nicotine consumption
+relationship: http://purl.obolibrary.org/obo/in_response_to NBO:0002086 ! nicotine consumption
 
 [Term]
 id: NBO:0002086
@@ -7657,6 +7712,10 @@ property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates
 is_a: NBO:0003104 ! regulation of behavioral response to addictive substance
 
 [Typedef]
-id: NBO:0000861
+id: http://purl.obolibrary.org/obo/has-input
 name: has-input
+
+[Typedef]
+id: is:about
+name: is_about
 

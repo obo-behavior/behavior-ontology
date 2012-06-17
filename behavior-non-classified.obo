@@ -5265,7 +5265,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-10T10:39:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000079 ! feeding behavior
-relationship: part:of GO:0007631
+relationship: BFO:0000050 GO:0007631
 
 [Term]
 id: NBO:0000546

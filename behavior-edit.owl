@@ -4115,7 +4115,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/creation_date> <http://purl.
 AnnotationAssertion(<http://purl.obolibrary.org/obo/created_by> <http://purl.obolibrary.org/obo/NBO_0000545> "George Gkoutos")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/namespace> <http://purl.obolibrary.org/obo/NBO_0000545> "behavior_ontology")
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000545> <http://purl.obolibrary.org/obo/NBO_0000079>)
-SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000545> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/part_of> <http://purl.obolibrary.org/obo/GO_0007631>))
+SubClassOf(<http://purl.obolibrary.org/obo/NBO_0000545> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/GO_0007631>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NBO_0000546>))
 AnnotationAssertion(<http://purl.obolibrary.org/obo/xref> <http://purl.obolibrary.org/obo/NBO_0000546> "HP:0000724")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0000546> "polyphagia"^^xsd:string)

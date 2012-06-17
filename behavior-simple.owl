@@ -60,29 +60,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/by_means -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/by_means"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/in_response_to -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/in_response_to"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/inheres_in -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/inheres_in">
         <rdfs:label xml:lang="en">inheres_in</rdfs:label>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/is_about -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/is_about"/>
     
 
 
@@ -108,9 +90,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo#has-participant -->
+    <!-- http://purl.obolibrary.org/obo/nbo#has_participant -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/nbo#has-participant"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/nbo#has_participant">
+        <rdfs:label xml:lang="en">has_participant</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
@@ -194,13 +178,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>affective behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>mood</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>mood</owl:annotatedTarget>
+        <owl:annotatedTarget>affective behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -407,12 +391,6 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>aggressive behaviour</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>agonism</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
@@ -420,6 +398,12 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>aggression</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>aggressive behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000015"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -989,13 +973,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>suckling behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>nursing behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000054"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>nursing behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>suckling behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000054"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -1494,13 +1478,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>fight-or-flight response</owl:annotatedTarget>
+        <owl:annotatedTarget>fight-or-flight-or-freeze response</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000088"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>fight-or-flight-or-freeze response</owl:annotatedTarget>
+        <owl:annotatedTarget>fight-or-flight response</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000088"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -2060,13 +2044,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>physical aggression behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>violent behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000120"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>violent behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>physical aggression behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000120"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -2444,14 +2428,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000756"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/towards"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000034"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002603"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/behavior.owl/NBO_0002603"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/towards"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -2662,13 +2646,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>REM sleep</owl:annotatedTarget>
+        <owl:annotatedTarget> paradoxical sleep</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000159"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget> paradoxical sleep</owl:annotatedTarget>
+        <owl:annotatedTarget>REM sleep</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000159"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -2882,7 +2866,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000641"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_about"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000323"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2901,7 +2885,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000641"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_about"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000314"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2920,7 +2904,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_about"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000339"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2938,7 +2922,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_about"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000746"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2956,7 +2940,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_about"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2984,13 +2968,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>unconditional response</owl:annotatedTarget>
+        <owl:annotatedTarget>nonassociative learning</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000177"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>nonassociative learning</owl:annotatedTarget>
+        <owl:annotatedTarget>unconditional response</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000177"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -3457,7 +3441,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000778"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_about"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3516,14 +3500,14 @@
         <obo:synonym>instrumental learning</obo:synonym>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>instrumental learning</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>instrumental conditioning</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000212"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>instrumental conditioning</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>instrumental learning</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000212"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -3566,14 +3550,14 @@
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>modeling</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>vicarious learning</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000215"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>vicarious learning</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>modeling</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000215"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -3587,7 +3571,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000220"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_about"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000745"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3644,7 +3628,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_about"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3663,7 +3647,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000778"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/in_response_to"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000778"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3742,7 +3726,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_about"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000749"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3760,7 +3744,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_about"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3849,7 +3833,7 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>perception of need</owl:annotatedTarget>
+        <owl:annotatedTarget> behavioral homeostasis</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000233"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -3861,7 +3845,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget> behavioral homeostasis</owl:annotatedTarget>
+        <owl:annotatedTarget>perception of need</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000233"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -4016,13 +4000,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>hysteria</owl:annotatedTarget>
+        <owl:annotatedTarget>pathological anxiety disorder</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000244"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>pathological anxiety disorder</owl:annotatedTarget>
+        <owl:annotatedTarget>hysteria</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000244"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -4158,13 +4142,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>health phobia</owl:annotatedTarget>
+        <owl:annotatedTarget>health anxiety</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000251"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>health anxiety</owl:annotatedTarget>
+        <owl:annotatedTarget>health phobia</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000251"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -4253,13 +4237,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>major depression</owl:annotatedTarget>
+        <owl:annotatedTarget>clinical depression </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>unipolar depression</owl:annotatedTarget>
+        <owl:annotatedTarget>major depression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -4271,13 +4255,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>clinical depression </owl:annotatedTarget>
+        <owl:annotatedTarget>MDD</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>MDD</owl:annotatedTarget>
+        <owl:annotatedTarget>unipolar depression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -4555,7 +4539,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000741"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/by_means"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#by_means"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -4588,13 +4572,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>&lt;new synonym&gt;</owl:annotatedTarget>
+        <owl:annotatedTarget>prejudice</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000277"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>prejudice</owl:annotatedTarget>
+        <owl:annotatedTarget>&lt;new synonym&gt;</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000277"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -5158,13 +5142,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>behavior</owl:annotatedTarget>
+        <owl:annotatedTarget>behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>behavior</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -5186,12 +5170,6 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>behavioral response to visual stimulus</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000314"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>visual behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000314"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
@@ -5199,6 +5177,12 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>behavioural response to visual stimulus</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000314"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>behavioral response to visual stimulus</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000314"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -5697,13 +5681,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>whole body coordination</owl:annotatedTarget>
+        <owl:annotatedTarget>large muscle coordination</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000347"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>large muscle coordination</owl:annotatedTarget>
+        <owl:annotatedTarget>whole body coordination</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000347"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6182,13 +6166,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>negative gravitaxis</owl:annotatedTarget>
+        <owl:annotatedTarget>negative geotactic behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000379"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>negative geotactic behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>negative gravitaxis</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000379"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6387,13 +6371,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>infantile reflex</owl:annotatedTarget>
+        <owl:annotatedTarget> infant reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000390"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget> infant reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>infantile reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000390"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6453,14 +6437,14 @@
         <obo:synonym>fencing reflex</obo:synonym>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>ATNR</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>fencing reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000393"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>fencing reflex</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>ATNR</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000393"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6679,14 +6663,14 @@
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>Braunecker-Effenberg reflex</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BROAD</obo:synonymtype>
+        <owl:annotatedTarget>BER</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000407"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BROAD</obo:synonymtype>
-        <owl:annotatedTarget>BER</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>Braunecker-Effenberg reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000407"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6742,13 +6726,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>ankle reflex</owl:annotatedTarget>
+        <owl:annotatedTarget> triceps surae reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000410"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget> triceps surae reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>Achilles tendon reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000410"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6760,7 +6744,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>Achilles tendon reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>ankle reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000410"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6874,13 +6858,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>oculovestibular reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>vestibuloocular reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000416"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>vestibuloocular reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>oculovestibular reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000416"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6920,13 +6904,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>swallowing reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>gag reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000418"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>gag reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>swallowing reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000418"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6966,14 +6950,14 @@
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>&lt;new synonym&gt;</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>teeth grinding</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000420"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>teeth grinding</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>&lt;new synonym&gt;</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000420"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -6995,13 +6979,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>delayed sleep-phase type (DSPT)</owl:annotatedTarget>
+        <owl:annotatedTarget>DSPS</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000421"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>DSPS</owl:annotatedTarget>
+        <owl:annotatedTarget>delayed sleep-phase type (DSPT)</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000421"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -7055,13 +7039,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>night terror</owl:annotatedTarget>
+        <owl:annotatedTarget>Pavor nocturnus</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000424"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>Pavor nocturnus</owl:annotatedTarget>
+        <owl:annotatedTarget>night terror</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000424"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -7096,13 +7080,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>anal reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>perineal reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000426"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>perineal reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>anal reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000426"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -7216,13 +7200,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>nociceptive reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>flexor withdrawal reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000433"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>flexor withdrawal reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>nociceptive reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000433"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -7257,6 +7241,12 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>auditory reflex</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000435"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>stapedius reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000435"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
@@ -7264,12 +7254,6 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget> attenuation reflex</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000435"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>auditory reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000435"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -7525,13 +7509,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>preening</owl:annotatedTarget>
+        <owl:annotatedTarget>auto-grooming</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000451"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>auto-grooming</owl:annotatedTarget>
+        <owl:annotatedTarget>preening</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000451"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -7902,14 +7886,14 @@
         <obo:def>&quot;A dyssomnia where the patient moves limbs involuntarily during sleep, and has symptoms or problems related to the movement.&quot; [wikipedia:Periodic_limb_movement_disorder]</obo:def>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>nocturnal myoclonus</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>PLMD</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000478"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>PLMD</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>nocturnal myoclonus</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000478"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -7987,19 +7971,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>subjective insomnia</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>sleep hypochondriasis</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>paradoxical insomnia</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -8012,6 +7984,18 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>SSM</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>paradoxical insomnia</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>subjective insomnia</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -8142,13 +8126,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>ASPT</owl:annotatedTarget>
+        <owl:annotatedTarget>ASPS</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000490"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>ASPS</owl:annotatedTarget>
+        <owl:annotatedTarget>ASPT</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000490"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -8180,19 +8164,7 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>circadian rhythm sleep disorder, free running type</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>non-24</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>hypernychthemeral syndrome</owl:annotatedTarget>
+        <owl:annotatedTarget>free running disorder (FRD) </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -8204,7 +8176,19 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>free running disorder (FRD) </owl:annotatedTarget>
+        <owl:annotatedTarget>non-24</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>non-24-hour circadian rhythm disorder </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>hypernychthemeral syndrome</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -8216,7 +8200,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>non-24-hour circadian rhythm disorder </owl:annotatedTarget>
+        <owl:annotatedTarget>circadian rhythm sleep disorder, free running type</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -8614,13 +8598,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>DD-NOS</owl:annotatedTarget>
+        <owl:annotatedTarget>depressive disorder not otherwise specified</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000515"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>depressive disorder not otherwise specified</owl:annotatedTarget>
+        <owl:annotatedTarget>DD-NOS</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000515"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -8707,13 +8691,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>PDD</owl:annotatedTarget>
+        <owl:annotatedTarget>postnatal depression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000520"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>postnatal depression</owl:annotatedTarget>
+        <owl:annotatedTarget>PDD</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000520"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -8734,13 +8718,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>winter depression</owl:annotatedTarget>
+        <owl:annotatedTarget>winter blues</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000521"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>winter blues</owl:annotatedTarget>
+        <owl:annotatedTarget>winter depression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000521"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -9049,13 +9033,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>pathological drinking behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>drinking disorder</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000540"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>drinking disorder</owl:annotatedTarget>
+        <owl:annotatedTarget>pathological drinking behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000540"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -9069,14 +9053,14 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000961"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/towards"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/towards"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -9118,14 +9102,14 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000961"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/towards"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/towards"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -9636,13 +9620,13 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>horripilation</owl:annotatedTarget>
+        <owl:annotatedTarget> piloerection</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000575"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget> piloerection</owl:annotatedTarget>
+        <owl:annotatedTarget>horripilation</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000575"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -9729,13 +9713,13 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>TNR</owl:annotatedTarget>
+        <owl:annotatedTarget>cervicospinal reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000580"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>cervicospinal reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>TNR</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000580"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -9816,13 +9800,13 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>hindlimb extension reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>limb grasping</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000584"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>limb grasping</owl:annotatedTarget>
+        <owl:annotatedTarget>hindlimb extension reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000584"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -9901,12 +9885,6 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>trembling</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000589"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>shivering</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000589"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
@@ -9914,6 +9892,12 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>quivering</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000589"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>trembling</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000589"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -10624,7 +10608,7 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000741"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/by_means"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#by_means"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000128"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -10894,13 +10878,13 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>temporal lobe seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>psychomotor seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000648"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>psychomotor seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>temporal lobe seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000648"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -11010,13 +10994,13 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>abdominal epilepsy</owl:annotatedTarget>
+        <owl:annotatedTarget>autonomic seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000653"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>autonomic seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>abdominal epilepsy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000653"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -11039,13 +11023,13 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>simple partial seizures of temporal lobe origin</owl:annotatedTarget>
+        <owl:annotatedTarget>temporal lobe auras</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000654"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>temporal lobe auras</owl:annotatedTarget>
+        <owl:annotatedTarget>simple partial seizures of temporal lobe origin</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000654"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -11453,13 +11437,13 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>gran mal seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>grand mal seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000676"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>grand mal seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>gran mal seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000676"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -11659,14 +11643,14 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
         <obo:synonym>non-epileptic attack disorder</obo:synonym>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>non-epileptic attack disorder</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>PNES</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000687"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>PNES</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>non-epileptic attack disorder</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000687"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -12323,14 +12307,8 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>West syndrome</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000734"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>Infantile Epileptic Encephalopathy</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>jackknife convulsions</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000734"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -12341,8 +12319,14 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>jackknife convulsions</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>West syndrome</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000734"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>Infantile Epileptic Encephalopathy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000734"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/synonym"/>
     </owl:Axiom>
@@ -13062,7 +13046,7 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000208"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/is_about"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#is_about"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -13143,14 +13127,14 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000929"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/inheres_in"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/towards"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/towards"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/inheres_in"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -13219,7 +13203,7 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/in_response_to"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -13302,7 +13286,7 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/in_response_to"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0001915"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -13319,7 +13303,7 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/in_response_to"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0001952"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -13336,7 +13320,7 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/in_response_to"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0002086"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -13674,9 +13658,6 @@ owl:qualifier some &#39;temporally extended&#39;)</oboInOwl:note>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/behavior.owl">
         <oboInOwl:remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-06-17</oboInOwl:remark>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/nbo#has_participant">
-        <rdfs:label xml:lang="en">has_participant</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 

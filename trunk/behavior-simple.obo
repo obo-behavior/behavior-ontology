@@ -1583,7 +1583,7 @@ property_value: creation:date 2011-04-01T01:54:09Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref GO:0008355 xsd:string
 is_a: NBO:0000641 ! discrimination learning
-relationship: is:about NBO:0000323 ! olfactory behavior
+relationship: is_about NBO:0000323 ! olfactory behavior
 
 [Term]
 id: NBO:0000173
@@ -1593,7 +1593,7 @@ property_value: creation:date 2011-04-01T01:54:15Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref GO:0008542 xsd:string
 is_a: NBO:0000641 ! discrimination learning
-relationship: is:about NBO:0000314 ! visual behavior
+relationship: is_about NBO:0000314 ! visual behavior
 
 [Term]
 id: NBO:0000174
@@ -1602,7 +1602,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-01T01:56:08Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000171 ! associative learning behavior
-relationship: is:about NBO:0000339 ! motor coordination
+relationship: is_about NBO:0000339 ! motor coordination
 
 [Term]
 id: NBO:0000175
@@ -1611,7 +1611,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-01T01:57:20Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000171 ! associative learning behavior
-relationship: is:about NBO:0000746 ! spatial perception
+relationship: is_about NBO:0000746 ! spatial perception
 
 [Term]
 id: NBO:0000176
@@ -1622,7 +1622,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A behavioral process whose
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref GO:0042297 xsd:string
 is_a: NBO:0000171 ! associative learning behavior
-relationship: is:about NBO:0000037 ! vocalization behavior
+relationship: is_about NBO:0000037 ! vocalization behavior
 
 [Term]
 id: NBO:0000177
@@ -1929,7 +1929,7 @@ property_value: creation:date 2011-04-03T08:58:27Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A type of associative learning that allows organisms to acquire affective responses, such as fear, in situations where a particular context or stimulus is predictably elicits fear via an aversive context.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000778 ! emotional conditioning
-relationship: is:about NBO:0000091 ! fear-related behavior
+relationship: is_about NBO:0000091 ! fear-related behavior
 
 [Term]
 id: NBO:0000210
@@ -1995,7 +1995,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-03T09:11:44Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000220 ! social learning
-relationship: is:about NBO:0000745 ! language communication behavior
+relationship: is_about NBO:0000745 ! language communication behavior
 
 [Term]
 id: NBO:0000217
@@ -2032,7 +2032,7 @@ property_value: creation:date 2011-04-04T03:34:46Z xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society.\" [wikipedia:Social_conditioning]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000171 ! associative learning behavior
-relationship: is:about NBO:0000011 ! social behavior
+relationship: is_about NBO:0000011 ! social behavior
 
 [Term]
 id: NBO:0000221
@@ -2041,7 +2041,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-04T03:36:48Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000778 ! emotional conditioning
-relationship: http://purl.obolibrary.org/obo/in_response_to NBO:0000778 ! emotional conditioning
+relationship: in_response_to NBO:0000778 ! emotional conditioning
 
 [Term]
 id: NBO:0000222
@@ -2091,7 +2091,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-04T03:55:46Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000208 ! classical conditioning
-relationship: is:about NBO:0000749 ! blinking
+relationship: is_about NBO:0000749 ! blinking
 
 [Term]
 id: NBO:0000228
@@ -2100,7 +2100,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-04T03:57:01Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000208 ! classical conditioning
-relationship: is:about NBO:0000747 ! jaw movement
+relationship: is_about NBO:0000747 ! jaw movement
 
 [Term]
 id: NBO:0000229
@@ -2541,7 +2541,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A behavioral interaction b
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "verbal aggression behaviour" xsd:string
 is_a: NBO:0000741 ! aggressive behavior by means
-relationship: by:means NBO:0000037 ! vocalization behavior
+relationship: by_means NBO:0000037 ! vocalization behavior
 
 [Term]
 id: NBO:0000277
@@ -5972,7 +5972,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-19T02:05:35Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000741 ! aggressive behavior by means
-relationship: by:means NBO:0000128 ! irritability behavior
+relationship: by_means NBO:0000128 ! irritability behavior
 
 [Term]
 id: NBO:0000635
@@ -7366,7 +7366,7 @@ property_value: created:by "gkoutos" xsd:string
 property_value: creation:date 2012-03-23T10:05:56Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000208 ! classical conditioning
-relationship: is:about NBO:0000003 ! emotional behavior
+relationship: is_about NBO:0000003 ! emotional behavior
 
 [Term]
 id: NBO:0000851
@@ -7440,7 +7440,7 @@ id: NBO:0001763
 name: behavioral response to alcohol
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to cocaine alcohol.\" [NBOC:GVG]" xsd:string
 is_a: NBO:0001728 ! behavioral response to addictive substance
-relationship: http://purl.obolibrary.org/obo/in_response_to NBO:0000131 ! alcohol consumption
+relationship: in_response_to NBO:0000131 ! alcohol consumption
 
 [Term]
 id: NBO:0001786
@@ -7491,7 +7491,7 @@ name: behavioral response to cocaine
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to cocaine intake.\" [NBOC:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref GO:0048148 xsd:string
 is_a: NBO:0001728 ! behavioral response to addictive substance
-relationship: http://purl.obolibrary.org/obo/in_response_to NBO:0001915 ! cocaine consumption
+relationship: in_response_to NBO:0001915 ! cocaine consumption
 
 [Term]
 id: NBO:0002021
@@ -7499,7 +7499,7 @@ name: behavioral response to morphine
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to morphine\" [NBOC:GVG]" xsd:string
 is_a: NBO:0001728 ! behavioral response to addictive substance
-relationship: http://purl.obolibrary.org/obo/in_response_to NBO:0001952 ! morphine consumption
+relationship: in_response_to NBO:0001952 ! morphine consumption
 
 [Term]
 id: NBO:0002065
@@ -7508,7 +7508,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to nicotine intake.\" [NBOC:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref GO:0035095 xsd:string
 is_a: NBO:0001728 ! behavioral response to addictive substance
-relationship: http://purl.obolibrary.org/obo/in_response_to NBO:0002086 ! nicotine consumption
+relationship: in_response_to NBO:0002086 ! nicotine consumption
 
 [Term]
 id: NBO:0002086
@@ -7718,6 +7718,10 @@ name: by_means
 [Typedef]
 id: has-input
 name: has-input
+
+[Typedef]
+id: has_participant
+name: has_participant
 
 [Typedef]
 id: in_response_to

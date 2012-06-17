@@ -8,7 +8,7 @@ ontology: behavior
 [Term]
 id: GO:0007601
 intersection_of: GO:0050953
-intersection_of: by:means UBERON:0002104
+intersection_of: by_means UBERON:0002104
 
 [Term]
 id: NBO:0000001
@@ -131,7 +131,7 @@ property_value: http://purl.obolibrary.org/obo/xref GO:0007626 xsd:string
 property_value: http://purl.obolibrary.org/obo/xref GO:0008344 xsd:string
 is_a: NBO:0000002 ! whole body movement
 intersection_of: NBO:0000002 ! whole body movement
-intersection_of: by:means GO:0040011
+intersection_of: by_means GO:0040011
 
 [Term]
 id: NBO:0000014
@@ -233,7 +233,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref GO:0030431 xsd:string
 is_a: NBO:0000008 ! rhythmic behavior
 intersection_of: NBO:0000008 ! rhythmic behavior
-intersection_of: is:about GO:0030431
+intersection_of: is_about GO:0030431
 
 [Term]
 id: NBO:0000025
@@ -372,7 +372,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref GO:0007588 xsd:string
 is_a: NBO:0000035 ! emission behavior
 intersection_of: NBO:0000035 ! emission behavior
-intersection_of: is:about GO:0007588
+intersection_of: is_about GO:0007588
 
 [Term]
 id: NBO:0000039
@@ -383,7 +383,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"The expulsion of feces fro
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000038 ! behavioral control of excretion
 intersection_of: NBO:0000038 ! behavioral control of excretion
-intersection_of: is:about GO:0030421
+intersection_of: is_about GO:0030421
 
 [Term]
 id: NBO:0000040
@@ -396,8 +396,8 @@ property_value: http://purl.obolibrary.org/obo/synonym "micturition" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref GO:0060073 xsd:string
 is_a: NBO:0000038 ! behavioral control of excretion
 intersection_of: NBO:0000038 ! behavioral control of excretion
-intersection_of: by:means UBERON:0001256
-intersection_of: is:about GO:0060073
+intersection_of: by_means UBERON:0001256
+intersection_of: is_about GO:0060073
 
 [Term]
 id: NBO:0000041
@@ -407,7 +407,7 @@ property_value: creation:date 2011-04-14T01:03:39Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000035 ! emission behavior
 intersection_of: NBO:0000035 ! emission behavior
-intersection_of: is:about GO:0007589
+intersection_of: is_about GO:0007589
 
 [Term]
 id: NBO:0000042
@@ -419,8 +419,8 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym "tear secretion" xsd:string
 is_a: NBO:0000041 ! behavioral control of external secretion
 intersection_of: NBO:0000041 ! behavioral control of external secretion
-intersection_of: by:means UBERON:0001817
-intersection_of: is:about GO:0070075
+intersection_of: by_means UBERON:0001817
+intersection_of: is_about GO:0070075
 
 [Term]
 id: NBO:0000043
@@ -776,7 +776,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref GO:0048512 xsd:string
 is_a: NBO:0000008 ! rhythmic behavior
 intersection_of: GO:0007622
-intersection_of: is:about GO:0007623
+intersection_of: is_about GO:0007623
 
 [Term]
 id: NBO:0000085
@@ -1229,7 +1229,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A behavior associated with
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000079 ! feeding behavior
 intersection_of: NBO:0000130 ! liquid consumption
-intersection_of: has:participant PATO:0000145
+intersection_of: has_participant PATO:0000145
 
 [Term]
 id: NBO:0000131
@@ -1240,7 +1240,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A drinking behavior associ
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000130 ! liquid consumption
 intersection_of: NBO:0000130 ! liquid consumption
-intersection_of: has:participant CHEBI:16236
+intersection_of: has_participant CHEBI:16236
 
 [Term]
 id: NBO:0000132
@@ -1252,7 +1252,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref GO:0045187 xsd:string
 is_a: NBO:0000130 ! liquid consumption
 intersection_of: NBO:0000130 ! liquid consumption
-intersection_of: has:participant CHEBI:15377
+intersection_of: has_participant CHEBI:15377
 
 [Term]
 id: NBO:0000133
@@ -1273,7 +1273,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A feeding behavior associa
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000079 ! feeding behavior
 intersection_of: NBO:0000079 ! feeding behavior
-intersection_of: has:participant CHEBI:33290
+intersection_of: has_participant CHEBI:33290
 
 [Term]
 id: NBO:0000135
@@ -1294,7 +1294,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A feeding behavior associa
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000134 ! food consumption
 intersection_of: NBO:0000134 ! food consumption
-intersection_of: has:participant CHEBI:32111
+intersection_of: has_participant CHEBI:32111
 
 [Term]
 id: NBO:0000137
@@ -1513,7 +1513,7 @@ property_value: http://purl.obolibrary.org/obo/synonym " paradoxical sleep" xsd:
 property_value: http://purl.obolibrary.org/obo/synonym "REM sleep" xsd:string
 is_a: NBO:0000024 ! sleeping behavior
 intersection_of: NBO:0000024 ! sleeping behavior
-intersection_of: is:about GO:0042747
+intersection_of: is_about GO:0042747
 
 [Term]
 id: NBO:0000160
@@ -1536,7 +1536,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym "NREM sleep behavior" xsd:string
 is_a: NBO:0000024 ! sleeping behavior
 intersection_of: NBO:0000024 ! sleeping behavior
-intersection_of: is:about GO:0042748
+intersection_of: is_about GO:0042748
 
 [Term]
 id: NBO:0000162
@@ -1646,7 +1646,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref GO:0008355 xsd:string
 is_a: NBO:0000641 ! discrimination learning
 intersection_of: NBO:0000641 ! discrimination learning
-intersection_of: is:about NBO:0000323 ! olfactory behavior
+intersection_of: is_about NBO:0000323 ! olfactory behavior
 
 [Term]
 id: NBO:0000173
@@ -1657,7 +1657,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref GO:0008542 xsd:string
 is_a: NBO:0000641 ! discrimination learning
 intersection_of: NBO:0000641 ! discrimination learning
-intersection_of: is:about NBO:0000314 ! visual behavior
+intersection_of: is_about NBO:0000314 ! visual behavior
 
 [Term]
 id: NBO:0000174
@@ -1667,8 +1667,8 @@ property_value: creation:date 2011-04-01T01:56:08Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000171 ! associative learning behavior
 intersection_of: NBO:0000022 ! learning behavior
-intersection_of: is:about NBO:0000339 ! motor coordination
-relationship: is:about NBO:0000339 ! motor coordination
+intersection_of: is_about NBO:0000339 ! motor coordination
+relationship: is_about NBO:0000339 ! motor coordination
 
 [Term]
 id: NBO:0000175
@@ -1678,7 +1678,7 @@ property_value: creation:date 2011-04-01T01:57:20Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000171 ! associative learning behavior
 intersection_of: NBO:0000171 ! associative learning behavior
-intersection_of: is:about NBO:0000746 ! spatial perception
+intersection_of: is_about NBO:0000746 ! spatial perception
 
 [Term]
 id: NBO:0000176
@@ -1690,7 +1690,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref GO:0042297 xsd:string
 is_a: NBO:0000171 ! associative learning behavior
 intersection_of: NBO:0000171 ! associative learning behavior
-intersection_of: is:about NBO:0000037 ! vocalization behavior
+intersection_of: is_about NBO:0000037 ! vocalization behavior
 
 [Term]
 id: NBO:0000177
@@ -1998,7 +1998,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A type of associative lear
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000208 ! classical conditioning
 intersection_of: NBO:0000208 ! classical conditioning
-intersection_of: is:about NBO:0000091 ! fear-related behavior
+intersection_of: is_about NBO:0000091 ! fear-related behavior
 
 [Term]
 id: NBO:0000210
@@ -2065,7 +2065,7 @@ property_value: creation:date 2011-04-03T09:11:44Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000171 ! associative learning behavior
 intersection_of: NBO:0000022 ! learning behavior
-intersection_of: is:about NBO:0000745 ! language communication behavior
+intersection_of: is_about NBO:0000745 ! language communication behavior
 
 [Term]
 id: NBO:0000217
@@ -2103,7 +2103,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"The sociological process o
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000171 ! associative learning behavior
 intersection_of: NBO:0000171 ! associative learning behavior
-intersection_of: is:about NBO:0000011 ! social behavior
+intersection_of: is_about NBO:0000011 ! social behavior
 
 [Term]
 id: NBO:0000221
@@ -2114,7 +2114,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 is_a: NBO:0000208 ! classical conditioning
 is_a: NBO:0000778 ! emotional conditioning
 intersection_of: NBO:0000171 ! associative learning behavior
-intersection_of: http://purl.obolibrary.org/obo/in_response_to NBO:0000778 ! emotional conditioning
+intersection_of: in_response_to NBO:0000778 ! emotional conditioning
 
 [Term]
 id: NBO:0000222
@@ -2165,7 +2165,7 @@ property_value: creation:date 2011-04-04T03:55:46Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000208 ! classical conditioning
 intersection_of: NBO:0000208 ! classical conditioning
-intersection_of: is:about NBO:0000749 ! blinking
+intersection_of: is_about NBO:0000749 ! blinking
 
 [Term]
 id: NBO:0000228
@@ -2175,7 +2175,7 @@ property_value: creation:date 2011-04-04T03:57:01Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000208 ! classical conditioning
 intersection_of: NBO:0000208 ! classical conditioning
-intersection_of: is:about NBO:0000747 ! jaw movement
+intersection_of: is_about NBO:0000747 ! jaw movement
 
 [Term]
 id: NBO:0000229
@@ -2235,7 +2235,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the de
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000233 ! motivation behavior
 intersection_of: NBO:0000233 ! motivation behavior
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0009414
+intersection_of: in_response_to GO:0009414
 
 [Term]
 id: NBO:0000235
@@ -2622,7 +2622,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym "verbal aggression behaviour" xsd:string
 is_a: NBO:0000741 ! aggressive behavior by means
 intersection_of: NBO:0000015 ! aggressive behavior
-intersection_of: by:means NBO:0000037 ! vocalization behavior
+intersection_of: by_means NBO:0000037 ! vocalization behavior
 
 [Term]
 id: NBO:0000277
@@ -2983,8 +2983,8 @@ property_value: http://purl.obolibrary.org/obo/synonym "behavioural response to 
 property_value: http://purl.obolibrary.org/obo/synonym "visual behaviour" xsd:string
 is_a: NBO:0000751 ! perception behavior by means
 intersection_of: NBO:0000308 ! sensation behavior
-intersection_of: by:means UBERON:0002104
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0007601
+intersection_of: by_means UBERON:0002104
+intersection_of: in_response_to GO:0007601
 
 [Term]
 id: NBO:0000315
@@ -3007,8 +3007,8 @@ property_value: http://purl.obolibrary.org/obo/synonym " hearing behaviour" xsd:
 property_value: http://purl.obolibrary.org/obo/xref GO:0031223 xsd:string
 is_a: NBO:0000751 ! perception behavior by means
 intersection_of: NBO:0000308 ! sensation behavior
-intersection_of: by:means UBERON:0002105
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0007605
+intersection_of: by_means UBERON:0002105
+intersection_of: in_response_to GO:0007605
 
 [Term]
 id: NBO:0000317
@@ -3020,7 +3020,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym "proprioception" xsd:string
 is_a: NBO:0000327 ! somatic sensation related behavior
 intersection_of: NBO:0000327 ! somatic sensation related behavior
-intersection_of: by:means UBERON:0004681
+intersection_of: by_means UBERON:0004681
 
 [Term]
 id: NBO:0000318
@@ -3046,7 +3046,7 @@ property_value: creation:date 2011-04-05T10:44:34Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000317 ! vestibular behavior
 intersection_of: NBO:0000317 ! vestibular behavior
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0050957
+intersection_of: in_response_to GO:0050957
 
 [Term]
 id: NBO:0000321
@@ -3056,7 +3056,7 @@ property_value: creation:date 2011-04-05T10:44:55Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000317 ! vestibular behavior
 intersection_of: NBO:0000317 ! vestibular behavior
-intersection_of: is:about GO:0019232
+intersection_of: is_about GO:0019232
 
 [Term]
 id: NBO:0000322
@@ -3069,8 +3069,8 @@ property_value: http://purl.obolibrary.org/obo/xref GO:0007635 xsd:string
 is_a: NBO:0000751 ! perception behavior by means
 is_a: NBO:0001632 ! behavioral response to chemical stimulus
 intersection_of: NBO:0001632 ! behavioral response to chemical stimulus
-intersection_of: by:means UBERON:0005726
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0007606
+intersection_of: by_means UBERON:0005726
+intersection_of: in_response_to GO:0007606
 
 [Term]
 id: NBO:0000323
@@ -3082,8 +3082,8 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref GO:0042048 xsd:string
 is_a: NBO:0000322 ! chemosensory behavior
 intersection_of: NBO:0000322 ! chemosensory behavior
-intersection_of: by:means UBERON:0005725
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0007608
+intersection_of: by_means UBERON:0005725
+intersection_of: in_response_to GO:0007608
 
 [Term]
 id: NBO:0000324
@@ -3095,8 +3095,8 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym "gustatory behavior" xsd:string
 is_a: NBO:0000322 ! chemosensory behavior
 intersection_of: NBO:0000322 ! chemosensory behavior
-intersection_of: by:means UBERON:0001033
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0050909
+intersection_of: by_means UBERON:0001033
+intersection_of: in_response_to GO:0050909
 
 [Term]
 id: NBO:0000326
@@ -3109,7 +3109,7 @@ property_value: http://purl.obolibrary.org/obo/synonym "thermosensation behaviou
 property_value: http://purl.obolibrary.org/obo/xref GO:0040040 xsd:string
 is_a: NBO:0000330 ! cutaneous sensation behavior
 intersection_of: NBO:0000330 ! cutaneous sensation behavior
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0050955
+intersection_of: in_response_to GO:0050955
 
 [Term]
 id: NBO:0000327
@@ -3130,7 +3130,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the de
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000326 ! thermosensory behavior
 intersection_of: NBO:0000326 ! thermosensory behavior
-intersection_of: http://purl.obolibrary.org/obo/in_response_to PATO:0001305
+intersection_of: in_response_to PATO:0001305
 
 [Term]
 id: NBO:0000329
@@ -3141,7 +3141,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the de
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000326 ! thermosensory behavior
 intersection_of: NBO:0000326 ! thermosensory behavior
-intersection_of: http://purl.obolibrary.org/obo/in_response_to PATO:0001306
+intersection_of: in_response_to PATO:0001306
 
 [Term]
 id: NBO:0000330
@@ -3151,7 +3151,7 @@ property_value: creation:date 2011-04-05T11:11:48Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000327 ! somatic sensation related behavior
 intersection_of: NBO:0000327 ! somatic sensation related behavior
-intersection_of: by:means UBERON:0002097
+intersection_of: by_means UBERON:0002097
 
 [Term]
 id: NBO:0000331
@@ -3163,7 +3163,7 @@ property_value: http://purl.obolibrary.org/obo/synonym "nociception" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "pain" xsd:string
 is_a: NBO:0000330 ! cutaneous sensation behavior
 intersection_of: NBO:0000330 ! cutaneous sensation behavior
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0019233
+intersection_of: in_response_to GO:0019233
 
 [Term]
 id: NBO:0000332
@@ -3173,7 +3173,7 @@ property_value: creation:date 2011-04-05T11:36:23Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000330 ! cutaneous sensation behavior
 intersection_of: NBO:0000330 ! cutaneous sensation behavior
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0050975
+intersection_of: in_response_to GO:0050975
 
 [Term]
 id: NBO:0000333
@@ -3184,7 +3184,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym "chemical nociception behaviour" xsd:string
 is_a: NBO:0000331 ! nociceptive behavior
 intersection_of: NBO:0000331 ! nociceptive behavior
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0050968
+intersection_of: in_response_to GO:0050968
 
 [Term]
 id: NBO:0000334
@@ -3195,7 +3195,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym "mechanical nociception behaviour" xsd:string
 is_a: NBO:0000331 ! nociceptive behavior
 intersection_of: NBO:0000331 ! nociceptive behavior
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0050966
+intersection_of: in_response_to GO:0050966
 
 [Term]
 id: NBO:0000335
@@ -3206,7 +3206,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym "thermal nociception behaviour" xsd:string
 is_a: NBO:0000331 ! nociceptive behavior
 intersection_of: NBO:0000331 ! nociceptive behavior
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0050965
+intersection_of: in_response_to GO:0050965
 
 [Term]
 id: NBO:0000336
@@ -3225,7 +3225,7 @@ property_value: creation:date 2011-04-05T02:06:22Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000330 ! cutaneous sensation behavior
 intersection_of: NBO:0000327 ! somatic sensation related behavior
-intersection_of: is:about PATO:0001025
+intersection_of: is_about PATO:0001025
 
 [Term]
 id: NBO:0000338
@@ -3236,7 +3236,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the mo
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000313 ! behavior process
 intersection_of: NBO:0000338 ! kinesthetic behavior
-intersection_of: by:means GO:0050881
+intersection_of: by_means GO:0050881
 
 [Term]
 id: NBO:0000339
@@ -3387,7 +3387,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Intentionally or habituall
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000317 ! vestibular behavior
 intersection_of: NBO:0000317 ! vestibular behavior
-intersection_of: by:means GO:0050884
+intersection_of: by_means GO:0050884
 
 [Term]
 id: NBO:0000356
@@ -3398,7 +3398,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Intentionally or habituall
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000355 ! posture
 intersection_of: NBO:0000355 ! posture
-intersection_of: has:participant UBERON:0000309
+intersection_of: has_participant UBERON:0000309
 
 [Term]
 id: NBO:0000357
@@ -3409,7 +3409,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Intentionally or habituall
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000355 ! posture
 intersection_of: NBO:0000355 ! posture
-intersection_of: has:participant UBERON:0002101
+intersection_of: has_participant UBERON:0002101
 
 [Term]
 id: NBO:0000358
@@ -3506,7 +3506,7 @@ property_value: http://purl.obolibrary.org/obo/synonym "flying" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref GO:0007629 xsd:string
 is_a: NBO:0000366 ! aerial locomotion behavior
 intersection_of: NBO:0000366 ! aerial locomotion behavior
-intersection_of: by:means GO:0060361
+intersection_of: by_means GO:0060361
 
 [Term]
 id: NBO:0000368
@@ -3730,7 +3730,7 @@ property_value: http://purl.obolibrary.org/obo/synonym "reflex behaviour" xsd:st
 is_a: NBO:0000313 ! behavior process
 is_a: NBO:0000388 ! involuntary movement behavior
 intersection_of: NBO:0000388 ! involuntary movement behavior
-intersection_of: by:means GO:0060004
+intersection_of: by_means GO:0060004
 
 [Term]
 id: NBO:0000390
@@ -3869,7 +3869,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to moveme
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000338 ! kinesthetic behavior
 intersection_of: NBO:0000338 ! kinesthetic behavior
-intersection_of: by:means GO:0050882
+intersection_of: by_means GO:0050882
 
 [Term]
 id: NBO:0000404
@@ -4430,7 +4430,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"The perception of familiar
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000225 ! perceptual constancy behavior
 intersection_of: NBO:0000225 ! perceptual constancy behavior
-intersection_of: is:about PATO:0000117
+intersection_of: is_about PATO:0000117
 
 [Term]
 id: NBO:0000462
@@ -4441,7 +4441,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"The perception of a color 
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000225 ! perceptual constancy behavior
 intersection_of: NBO:0000225 ! perceptual constancy behavior
-intersection_of: is:about PATO:0000014
+intersection_of: is_about PATO:0000014
 
 [Term]
 id: NBO:0000463
@@ -4452,7 +4452,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"The perception of familiar
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000225 ! perceptual constancy behavior
 intersection_of: NBO:0000225 ! perceptual constancy behavior
-intersection_of: is:about PATO:0000052
+intersection_of: is_about PATO:0000052
 
 [Term]
 id: NBO:0000464
@@ -4463,7 +4463,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Perception relating to the
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000308 ! sensation behavior
 intersection_of: NBO:0000308 ! sensation behavior
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0019232
+intersection_of: in_response_to GO:0019232
 
 [Term]
 id: NBO:0000465
@@ -4474,7 +4474,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Perception related to the 
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000308 ! sensation behavior
 intersection_of: NBO:0000308 ! sensation behavior
-intersection_of: is:about PATO:0000052
+intersection_of: is_about PATO:0000052
 
 [Term]
 id: NBO:0000466
@@ -4485,7 +4485,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Behavior involving an acti
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000746 ! spatial perception
 intersection_of: NBO:0000308 ! sensation behavior
-intersection_of: is:about PATO:0001595
+intersection_of: is_about PATO:0001595
 
 [Term]
 id: NBO:0000467
@@ -4496,7 +4496,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Perception of the distance
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000746 ! spatial perception
 intersection_of: NBO:0000746 ! spatial perception
-intersection_of: is:about PATO:0000040
+intersection_of: is_about PATO:0000040
 
 [Term]
 id: NBO:0000468
@@ -5908,7 +5908,7 @@ property_value: http://purl.obolibrary.org/obo/synonym "paracusia" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref HP:0008765 xsd:string
 is_a: NBO:0000608 ! hallucination
 intersection_of: NBO:0000608 ! hallucination
-intersection_of: by:means UBERON:0002104
+intersection_of: by_means UBERON:0002104
 
 [Term]
 id: NBO:0000610
@@ -5920,7 +5920,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref HP:0002367 xsd:string
 is_a: NBO:0000608 ! hallucination
 intersection_of: NBO:0000608 ! hallucination
-intersection_of: by:means UBERON:0002105
+intersection_of: by_means UBERON:0002105
 
 [Term]
 id: NBO:0000611
@@ -5932,7 +5932,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/synonym "phantosmia " xsd:string
 is_a: NBO:0000608 ! hallucination
 intersection_of: NBO:0000608 ! hallucination
-intersection_of: by:means UBERON:0005725
+intersection_of: by_means UBERON:0005725
 
 [Term]
 id: NBO:0000612
@@ -6148,7 +6148,7 @@ property_value: creation:date 2011-04-19T02:05:35Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000741 ! aggressive behavior by means
 intersection_of: GO:0002118
-intersection_of: by:means NBO:0000128 ! irritability behavior
+intersection_of: by_means NBO:0000128 ! irritability behavior
 
 [Term]
 id: NBO:0000635
@@ -7248,7 +7248,7 @@ property_value: creation:date 2012-03-16T05:57:42Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000308 ! sensation behavior
 intersection_of: NBO:0000308 ! sensation behavior
-intersection_of: is:about PATO:0000117
+intersection_of: is_about PATO:0000117
 
 [Term]
 id: NBO:0000747
@@ -7298,7 +7298,7 @@ property_value: creation:date 2012-03-17T03:59:12Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000331 ! nociceptive behavior
 intersection_of: NBO:0000331 ! nociceptive behavior
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0050967
+intersection_of: in_response_to GO:0050967
 
 [Term]
 id: NBO:0000753
@@ -7580,7 +7580,7 @@ property_value: creation:date 2012-03-23T10:05:56Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000208 ! classical conditioning
 intersection_of: NBO:0000208 ! classical conditioning
-intersection_of: is:about NBO:0000003 ! emotional behavior
+intersection_of: is_about NBO:0000003 ! emotional behavior
 
 [Term]
 id: NBO:0000851
@@ -7624,7 +7624,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of an electromagnetic radiation stimulus.\" [NBO:GVG]" xsd:string
 is_a: NBO:0000308 ! sensation behavior
 intersection_of: NBO:0001536 ! behavioral response to radiation
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0009314
+intersection_of: in_response_to GO:0009314
 
 [Term]
 id: NBO:0001571
@@ -7633,7 +7633,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light.\" [NBO:GVG]" xsd:string
 is_a: NBO:0001536 ! behavioral response to radiation
 intersection_of: NBO:0001536 ! behavioral response to radiation
-intersection_of: http://purl.obolibrary.org/obo/in_response_to GO:0009416
+intersection_of: in_response_to GO:0009416
 
 [Term]
 id: NBO:0001632
@@ -7662,7 +7662,7 @@ name: behavioral response to alcohol
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to cocaine alcohol.\" [NBOC:GVG]" xsd:string
 is_a: NBO:0001728 ! behavioral response to addictive substance
 intersection_of: NBO:0001728 ! behavioral response to addictive substance
-intersection_of: http://purl.obolibrary.org/obo/in_response_to NBO:0000131 ! alcohol consumption
+intersection_of: in_response_to NBO:0000131 ! alcohol consumption
 
 [Term]
 id: NBO:0001786
@@ -7700,7 +7700,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the intake of cocaine.\" [NBOC:GVG]" xsd:string
 is_a: NBO:0001884 ! consumption of addictive an substance
 intersection_of: NBO:0001884 ! consumption of addictive an substance
-intersection_of: has:participant CHEBI:27958
+intersection_of: has_participant CHEBI:27958
 
 [Term]
 id: NBO:0001952
@@ -7709,7 +7709,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the intake of morphine.\" [NBOC:GVG]" xsd:string
 is_a: NBO:0001884 ! consumption of addictive an substance
 intersection_of: NBO:0001884 ! consumption of addictive an substance
-intersection_of: has:participant CHEBI:17303
+intersection_of: has_participant CHEBI:17303
 
 [Term]
 id: NBO:0001987
@@ -7718,7 +7718,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of se
 property_value: http://purl.obolibrary.org/obo/xref GO:0048148 xsd:string
 is_a: NBO:0001728 ! behavioral response to addictive substance
 intersection_of: NBO:0001728 ! behavioral response to addictive substance
-intersection_of: http://purl.obolibrary.org/obo/in_response_to NBO:0001915 ! cocaine consumption
+intersection_of: in_response_to NBO:0001915 ! cocaine consumption
 
 [Term]
 id: NBO:0002021
@@ -7727,7 +7727,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of sensitivity to morphine\" [NBOC:GVG]" xsd:string
 is_a: NBO:0001728 ! behavioral response to addictive substance
 intersection_of: NBO:0001728 ! behavioral response to addictive substance
-intersection_of: http://purl.obolibrary.org/obo/in_response_to NBO:0001952 ! morphine consumption
+intersection_of: in_response_to NBO:0001952 ! morphine consumption
 
 [Term]
 id: NBO:0002065
@@ -7737,7 +7737,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Behavior as a result of se
 property_value: http://purl.obolibrary.org/obo/xref GO:0035095 xsd:string
 is_a: NBO:0001728 ! behavioral response to addictive substance
 intersection_of: NBO:0001728 ! behavioral response to addictive substance
-intersection_of: http://purl.obolibrary.org/obo/in_response_to NBO:0002086 ! nicotine consumption
+intersection_of: in_response_to NBO:0002086 ! nicotine consumption
 
 [Term]
 id: NBO:0002086
@@ -7746,7 +7746,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Behavior related to the intake of nicotine.\" [NBOC:GVG]" xsd:string
 is_a: NBO:0001884 ! consumption of addictive an substance
 intersection_of: NBO:0001884 ! consumption of addictive an substance
-intersection_of: has:participant CHEBI:18723
+intersection_of: has_participant CHEBI:18723
 
 [Term]
 id: NBO:0002132
@@ -7832,7 +7832,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Increase in core body termperature in response to stress or anticipatory anxiety.\" [NBOC:GVG]" xsd:string
 is_a: NBO:0000469 ! stress related behavior
 intersection_of: NBO:0000469 ! stress related behavior
-intersection_of: http://purl.obolibrary.org/obo/in_response_to PATO:0001305
+intersection_of: in_response_to PATO:0001305
 
 [Term]
 id: NBO:0002603
@@ -7855,7 +7855,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A regulation of drinking behavior process associated with the preference over alchohol consumption. \" [NBO:GVG]" xsd:string
 is_a: NBO:0002660 ! regulation of drinking preference behavior
 intersection_of: NBO:0002660 ! regulation of drinking preference behavior
-intersection_of: has:participant CHEBI:16236
+intersection_of: has_participant CHEBI:16236
 
 [Term]
 id: NBO:0002743
@@ -7871,7 +7871,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A regulation of drinking behavior process associated with the preference over saccharing consumption. \" [NBO:GVG]" xsd:string
 is_a: NBO:0002743 ! regulation of eating preference behavior
 intersection_of: NBO:0002743 ! regulation of eating preference behavior
-intersection_of: has:participant CHEBI:32111
+intersection_of: has_participant CHEBI:32111
 
 [Term]
 id: NBO:0002869
@@ -7887,7 +7887,7 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"A regulation of consumption of an addictive sustance behavior process associated with the preference over cocaine consumption. \" [NBO:GVG]" xsd:string
 is_a: NBO:0002869 ! regulation of addictive substance consumption preference
 intersection_of: NBO:0002869 ! regulation of addictive substance consumption preference
-intersection_of: has:participant CHEBI:27958
+intersection_of: has_participant CHEBI:27958
 
 [Term]
 id: NBO:0002948
@@ -7957,6 +7957,10 @@ name: by_means
 [Typedef]
 id: has-input
 name: has-input
+
+[Typedef]
+id: has_participant
+name: has_participant
 
 [Typedef]
 id: in_response_to

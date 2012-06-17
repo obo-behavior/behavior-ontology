@@ -1,8 +1,4 @@
 format-version: 1.2
-import: http://purl.obolibrary.org/obo/chebi.owl
-import: http://purl.obolibrary.org/obo/go.owl
-import: http://purl.obolibrary.org/obo/pato.owl
-import: http://purl.obolibrary.org/obo/uberon.owl
 ontology: behavior
 
 [Term]
@@ -908,7 +904,6 @@ id: NBO:0000076
 name: locomotor play
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-14T01:20:02Z xsd:string
-property_value: http://purl.obolibrary.org/obo/comment "Many different actions are included in locomotor play. Some of the actions include a vertical leap, running in circles, chasing an animals own tail, lolloping, bouncing, bucking, rolling, whirling, dangling, spinning, back flips, hand stands, somersaults, and hanging upside down. The vertical leap is seen in mammals like in primates, hares, and mice. Along with running and bouncing, the vertical leap is important for strengthening leg muscles for self defense, escaping, or chasing. Activities like dangling and hanging upside down are important for improving climbing ability. These many different examples of locomotor play are important in strengthening muscles and improving motor skills. By participating in locomotor play, individuals will be able to improve skills like fighting, hunting, fleeing, and climbing." xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Play behavior which serves to improve motor skills and physical conditioning.\" [web:http\\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Locomotor%20Play.html]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "exercise" xsd:string
@@ -6391,7 +6386,6 @@ id: NBO:0000624
 name: object play
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-19T10:51:54Z xsd:string
-property_value: http://purl.obolibrary.org/obo/comment "Object play is important in developing skills important in adulthood, especially hunting." xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Play behavior associated with the manipulation of objects.\" [NBO:GVG]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000075 ! playing behavior
@@ -6411,7 +6405,6 @@ id: NBO:0000627
 name: play fight
 property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-04-19T10:53:55Z xsd:string
-property_value: http://purl.obolibrary.org/obo/comment "Play fighting helps learning to evaluate oneself and an opponent. This skill is crucial for serious adult situations. Being able to size up an opponent quickly is very important in knowing when to give up or fight for a resource (food, mate, territory, etc. ). Play fighting is one of the most important categories of play because it prepares animals for actual fighting." xsd:string
 property_value: http://purl.obolibrary.org/obo/def "\"Play behavior associated to fighting simulation, although fighting is much slower and gentler with no intention of actual hurt.\" [web:http\\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Play%20Fighting.html]" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000049 ! social play
@@ -8495,10 +8488,26 @@ id: UBERON:0005726
 is_a: UBERON:0001032
 
 [Typedef]
-id: http://purl.obolibrary.org/obo/has-input
+id: by_means
+name: by_means
+
+[Typedef]
+id: has-input
 name: has-input
 
 [Typedef]
-id: is:about
+id: in_response_to
+name: in_response_to
+
+[Typedef]
+id: inheres:in
+name: inheres_in
+
+[Typedef]
+id: is_about
 name: is_about
+
+[Typedef]
+id: qualifier
+name: qualifier
 

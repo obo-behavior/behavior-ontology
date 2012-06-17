@@ -7951,10 +7951,26 @@ property_value: http://purl.obolibrary.org/obo/def "\"Any process that modulates
 is_a: NBO:0003104 ! regulation of behavioral response to addictive substance
 
 [Typedef]
-id: http://purl.obolibrary.org/obo/has-input
+id: by_means
+name: by_means
+
+[Typedef]
+id: has-input
 name: has-input
 
 [Typedef]
-id: is:about
+id: in_response_to
+name: in_response_to
+
+[Typedef]
+id: inheres:in
+name: inheres_in
+
+[Typedef]
+id: is_about
 name: is_about
+
+[Typedef]
+id: qualifier
+name: qualifier
 

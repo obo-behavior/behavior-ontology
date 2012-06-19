@@ -1327,8 +1327,8 @@ property_value: created:by "George Gkoutos" xsd:string
 property_value: creation:date 2011-03-31T02:16:59Z xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 is_a: NBO:0000756 ! mating behavior phenotype
-relationship: http://purl.obolibrary.org/obo/towards NBO:0000034 ! sexual activity
 relationship: inheres:in NBO:0002603 ! regulation of sexual activity
+relationship: towards NBO:0000034 ! sexual activity
 
 [Term]
 id: NBO:0000145
@@ -4814,7 +4814,7 @@ property_value: http://purl.obolibrary.org/obo/synonym "DD-NOS" xsd:string
 property_value: http://purl.obolibrary.org/obo/synonym "depressive disorder not otherwise specified" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref HP:0000716 xsd:string
 is_a: NBO:0000256 ! mood disorder
-relationship: http://purl.obolibrary.org/obo/towards NBO:0000085 ! depression behavior
+relationship: towards NBO:0000085 ! depression behavior
 
 [Term]
 id: NBO:0000516
@@ -5059,8 +5059,8 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref MP:0002119 xsd:string
 property_value: "note" "'participates in' some \n('regulation of drinking behavior' and (has_quality some \n('increased frequency' and towards some 'liquid consumption' and owl:qualifier some chronic)))"
 is_a: NBO:0000961 ! increased frequency of drinking
-relationship: http://purl.obolibrary.org/obo/towards NBO:0000130 ! liquid consumption
 relationship: inheres:in NBO:0000064 ! regulation of drinking behavior
+relationship: towards NBO:0000130 ! liquid consumption
 
 [Term]
 id: NBO:0000542
@@ -5084,8 +5084,8 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref MP:0005111 xsd:string
 property_value: "note" "'participates in' some \n('regulation of drinking behavior' and (has_quality some \n('increased frequency' and (towards some 'liquid consumption') and (owl:qualifier some 'temporally extended'))))"
 is_a: NBO:0000961 ! increased frequency of drinking
-relationship: http://purl.obolibrary.org/obo/towards NBO:0000130 ! liquid consumption
 relationship: inheres:in NBO:0000064 ! regulation of drinking behavior
+relationship: towards NBO:0000130 ! liquid consumption
 
 [Term]
 id: NBO:0000544
@@ -5096,7 +5096,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"A pathological feeding beh
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref MP:0001438 xsd:string
 is_a: NBO:0000539 ! eating behavior phenotype
-relationship: http://purl.obolibrary.org/obo/towards NBO:0000063 ! regulation of eating behavior
+relationship: towards NBO:0000063 ! regulation of eating behavior
 
 [Term]
 id: NBO:0000545
@@ -5128,7 +5128,7 @@ property_value: http://purl.obolibrary.org/obo/def "\"Lack of ability to enjoy a
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref MP:0009710 xsd:string
 is_a: NBO:0000522 ! dysthymia
-relationship: http://purl.obolibrary.org/obo/towards NBO:0000230 ! pleasure behavior
+relationship: towards NBO:0000230 ! pleasure behavior
 
 [Term]
 id: NBO:0000548
@@ -5548,7 +5548,7 @@ property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd
 property_value: http://purl.obolibrary.org/obo/xref HP:0001251 xsd:string
 property_value: http://purl.obolibrary.org/obo/xref MP:0001393 xsd:string
 is_a: NBO:0000591 ! motor coordination phenotype
-relationship: http://purl.obolibrary.org/obo/towards NBO:0000403 ! voluntary movement behavior
+relationship: towards NBO:0000403 ! voluntary movement behavior
 
 [Term]
 id: NBO:0000591
@@ -5707,7 +5707,7 @@ property_value: http://purl.obolibrary.org/obo/synonym "pathological forgetting"
 property_value: http://purl.obolibrary.org/obo/synonym "retention loss" xsd:string
 property_value: http://purl.obolibrary.org/obo/xref HP:0000747 xsd:string
 is_a: NBO:0000266 ! cognitive behavior phenotype
-relationship: http://purl.obolibrary.org/obo/towards NBO:0000304 ! memory loss behavior
+relationship: towards NBO:0000304 ! memory loss behavior
 
 [Term]
 id: NBO:0000607
@@ -7383,22 +7383,22 @@ id: NBO:0000929
 name: frequency of drinking
 property_value: "note" "'participates in' some \n('regulation of drinking behavior' and (has_quality some \n(frequency and (towards some 'liquid consumption'))))"
 is_a: NBO:0000540 ! drinking behavior phenotype
-relationship: http://purl.obolibrary.org/obo/towards NBO:0000130 ! liquid consumption
 relationship: inheres:in NBO:0000064 ! regulation of drinking behavior
+relationship: towards NBO:0000130 ! liquid consumption
 
 [Term]
 id: NBO:0000961
 name: increased frequency of drinking
 is_a: NBO:0000929 ! frequency of drinking
-relationship: http://purl.obolibrary.org/obo/towards NBO:0000130 ! liquid consumption
 relationship: inheres:in NBO:0000064 ! regulation of drinking behavior
+relationship: towards NBO:0000130 ! liquid consumption
 
 [Term]
 id: NBO:0000993
 name: decreased frequency of drinking
 is_a: NBO:0000929 ! frequency of drinking
-relationship: http://purl.obolibrary.org/obo/towards NBO:0000130 ! liquid consumption
 relationship: inheres:in NBO:0000064 ! regulation of drinking behavior
+relationship: towards NBO:0000130 ! liquid consumption
 
 [Term]
 id: NBO:0001536

@@ -8516,3 +8516,13 @@ name: is_about
 id: qualifier
 name: qualifier
 
+
+
+[Typedef]
+id: towards
+name: towards
+
+[Typedef]
+id: BFO:0000050
+name: part_of
+

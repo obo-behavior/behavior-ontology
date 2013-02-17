@@ -14,5 +14,9 @@ b = b.replaceAll("xsd:string","")
 b = b.replaceAll("\\\\\"","")
 b = b.replaceAll("\"","")
 
-println b
-
+b.eachLine { line ->
+  if (line.startsWith("def:")) {
+    line = line.replaceAll("def: ","def: \"")
+    def f1 = line.substring(0, line.lastIndexOf("["))
+  }
+}

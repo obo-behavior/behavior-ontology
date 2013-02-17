@@ -21,9 +21,12 @@ b.eachLine { line ->
     line = line.replaceAll("def: ","def: \"")
     def f1 = line.substring(0, line.lastIndexOf("["))
   }
-  if (line.startsWith("synonym")) {
+  if (line.startsWith("synonym:")) {
     line = line.substring(0,line.lastIndexOf(" "))
+    def val = line.substring(line.indexOf(":")+1).trim()
+    line = "synonym: \"$val\" EXACT []"
   }
+  line = line.trim()
   a += line+"\n"
 }
 println a

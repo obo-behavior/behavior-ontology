@@ -19,7 +19,9 @@ b.eachLine { line ->
   line = line.trim()
   if (line.startsWith("def:")) {
     line = line.replaceAll("def: ","def: \"")
-    def f1 = line.substring(0, line.lastIndexOf("["))
+    def f1 = line.substring(0, line.lastIndexOf("[")).trim()
+    def f2 = line.substring(line.lastIndexOf("[",line.lastIndexOf("]")))
+    line = f1 + "\" " + f2
   }
   if (line.startsWith("synonym:")) {
     line = line.substring(0,line.lastIndexOf(" "))

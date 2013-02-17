@@ -20,3 +20,4 @@ b.eachLine { line ->
     def f1 = line.substring(0, line.lastIndexOf("["))
   }
 }
+println b

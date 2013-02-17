@@ -14,10 +14,16 @@ b = b.replaceAll("xsd:string","")
 b = b.replaceAll("\\\\\"","")
 b = b.replaceAll("\"","")
 
+def a = ""
 b.eachLine { line ->
+  line = line.trim()
   if (line.startsWith("def:")) {
     line = line.replaceAll("def: ","def: \"")
     def f1 = line.substring(0, line.lastIndexOf("["))
   }
+  if (line.startsWith("synonym")) {
+    line = line.substring(0,line.lastIndexOf(" "))
+  }
+  a += line+"\n"
 }
-println b
+println a

@@ -460,7 +460,7 @@ is_a: NBO:0000403 ! voluntary movement behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 namespace: behavior_ontology
-synonym: stationary movement 
+synonym: "stationary" EXACT []
 
 [Term]
 id: NBO:0000002
@@ -478,8 +478,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "Behavior related to the complex psychophysiological experience of an individual's state of mind as interacting with biochemical (internal) and environmental (external) influences. [wikipedia:Emotions]
 namespace: behavior_ontology
-synonym: affective behaviour 
-synonym: mood 
+synonym: "affective" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000005
@@ -489,7 +489,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T11:57:02Z
 def: "Observable characteristic of behaviour related to involuntary movement in response to a stimulus. [NBO:GVG]
 namespace: behavior_ontology
-synonym: pathological reflexive behaviour 
+synonym: "pathological reflexive" EXACT []
 
 [Term]
 id: NBO:0000006
@@ -499,7 +499,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "Behavior related to the acquisition and processing of information and/or the storage and retrieval of this information over time. [GO:jic]
 namespace: behavior_ontology
-synonym: learning and/or memory behaviour 
+synonym: "learning and/or memory" EXACT []
 xref: GO:0007611
 
 [Term]
@@ -527,7 +527,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T12:58:40Z
 def: "Observable characteristic of behavior associated with the specific movement from place to place of an organism. [NBO:GVG]
 namespace: behavior_ontology
-synonym: pathological locomotory behaviour 
+synonym: "pathological locomotory" EXACT []
 
 [Term]
 id: NBO:0000010
@@ -537,7 +537,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "Behavior related to the actions or interactions of an organism that are associated with reproduction. [GOC:jl]
 namespace: behavior_ontology
-synonym: reproductive behaviour 
+synonym: "reproductive" EXACT []
 xref: GO:0019098
 
 [Term]
@@ -548,7 +548,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "A behavior that occurs predominantly or only, in individuals that are part of a group. [Wikipedia:Social_behavior]
 namespace: behavior_ontology
-synonym: social behaviour 
+synonym: "social" EXACT []
 xref: GO:0035176
 
 [Term]
@@ -581,7 +581,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "Behavior related to the interactions between organisms for the purpose of mating. [NBO:GVG]
 namespace: behavior_ontology
-synonym: mating behaviour 
+synonym: "mating" EXACT []
 xref: GO:0007617
 
 [Term]
@@ -592,9 +592,9 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "A behavioral interaction between organisms in which one organism has the intention of inflicting damage on another individual using physical or verbal means. [wikipedia:Aggression]
 namespace: behavior_ontology
-synonym: aggression 
-synonym: aggressive behaviour 
-synonym: agonism 
+synonym: "" EXACT []
+synonym: "aggressive" EXACT []
+synonym: "" EXACT []
 xref: GO:0002118
 
 [Term]
@@ -624,7 +624,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "Emotional behavior related to fear or anxiety. [NBO:GVG]
 namespace: behavior_ontology
-synonym: fear/anxiety related behaviour 
+synonym: "fear/anxiety related" EXACT []
 
 [Term]
 id: NBO:0000019
@@ -650,7 +650,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "Behavior associated with any process in an organism in which a relatively long-lasting adaptive behavioral change occurs as the result of experience. [wikipedia:Learning]
 namespace: behavior_ontology
-synonym: learning behaviour 
+synonym: "learning" EXACT []
 xref: GO:0007612
 
 [Term]
@@ -683,8 +683,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "An uncontrolled, paroxysmal neuronal discharge in any part of the brain; it may cause physical or mental symptoms and may be convulsive or nonconvulsive [NBO:GVG]
 namespace: behavior_ontology
-synonym: epileptic seizure 
-synonym: unprovoked seizure 
+synonym: "epileptic" EXACT []
+synonym: "unprovoked" EXACT []
 
 [Term]
 id: NBO:0000026
@@ -702,7 +702,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "Behavior related to the cleaning or maintainance of one's body or appearance. [NBO:GVG]
 namespace: behavior_ontology
-synonym: grooming behaviour 
+synonym: "grooming" EXACT []
 xref: GO:0007625
 
 [Term]
@@ -722,7 +722,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "Reduction of voluntary movement. [NBO:GVG]
 namespace: behavior_ontology
-synonym: hypokinesia 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000030
@@ -800,7 +800,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "A behavior in which an organism produces sounds by a mechanism involving its respiratory system. [NBO:GVG]
 namespace: behavior_ontology
-synonym: vocalization behaviour 
+synonym: "vocalization" EXACT []
 
 [Term]
 id: NBO:0000038
@@ -840,7 +840,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "The regulation of body fluids process by which parasympathetic nerves stimulate the bladder wall muscle to contract and expel urine from the body. [wikipedia:urination]
 namespace: behavior_ontology
-synonym: micturition 
+synonym: "" EXACT []
 xref: GO:0060073
 
 [Term]
@@ -867,7 +867,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "The regulated release of the aqueous layer of the tear film from the lacrimal glands. [wikipedia:lacrimation]
 namespace: behavior_ontology
-synonym: tear secretion 
+synonym: "tear" EXACT []
 
 [Term]
 id: NBO:0000043
@@ -876,7 +876,7 @@ is_a: NBO:0000280 ! attraction-related behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 namespace: behavior_ontology
-synonym: forming of peer relationship 
+synonym: "forming of peer" EXACT []
 
 [Term]
 id: NBO:0000044
@@ -904,7 +904,7 @@ is_a: NBO:0000079 ! feeding behavior
 created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 namespace: behavior_ontology
-synonym: weaning behaviour 
+synonym: "weaning" EXACT []
 
 [Term]
 id: NBO:0000048
@@ -926,7 +926,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "Play behavior that is associated with the socialization of an individual into the group. [web:http\\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Play%20Fighting.html]
 namespace: behavior_ontology
-synonym: social playing behaviour 
+synonym: "social playing" EXACT []
 
 [Term]
 id: NBO:0000051
@@ -962,8 +962,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:03:39Z
 def: "Specific actions of a newborn or infant mammal that result in the derivation of nourishment from the breast. [GOC:dph]
 namespace: behavior_ontology
-synonym: nursing behaviour 
-synonym: suckling behaviour 
+synonym: "nursing" EXACT []
+synonym: "suckling" EXACT []
 xref: GO:0001967
 
 [Term]
@@ -1029,7 +1029,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:20:02Z
 def: "Behavior related to the washing or cleansing of the body in a fluid, usually water or an aqueous solution. [wikipedia:Bathing]
 namespace: behavior_ontology
-synonym: bathing behaviour 
+synonym: "bathing" EXACT []
 
 [Term]
 id: NBO:0000063
@@ -1039,7 +1039,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:20:02Z
 def: "A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of food. [NBO:GVG]
 namespace: behavior_ontology
-synonym: eating behaviour 
+synonym: "eating" EXACT []
 xref: GO:0042755
 
 [Term]
@@ -1050,7 +1050,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:20:02Z
 def: "A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of liquids. [NBO:GVG]
 namespace: behavior_ontology
-synonym: drinking behaviour 
+synonym: "drinking" EXACT []
 xref: GO:0042756
 
 [Term]
@@ -1113,7 +1113,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:20:02Z
 def: "Behavior related to the movement facilitated by the generation of hole or tunnel dug into the ground. [NBO:GVG]
 namespace: behavior_ontology
-synonym: burrowing behaviour 
+synonym: "burrowing" EXACT []
 
 [Term]
 id: NBO:0000073
@@ -1123,7 +1123,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:20:02Z
 def: "The process of biting and mashing food with the teeth prior to swallowing. [NBO:GVG]
 namespace: behavior_ontology
-synonym: mastication 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000074
@@ -1151,8 +1151,8 @@ creation_date: 2011-04-14T01:20:02Z
 comment: Many different actions are included in locomotor play. Some of the actions include a vertical leap, running in circles, chasing an animals own tail, lolloping, bouncing, bucking, rolling, whirling, dangling, spinning, back flips, hand stands, somersaults, and hanging upside down. The vertical leap is seen in mammals like in primates, hares, and mice. Along with running and bouncing, the vertical leap is important for strengthening leg muscles for self defense, escaping, or chasing. Activities like dangling and hanging upside down are important for improving climbing ability. These many different examples of locomotor play are important in strengthening muscles and improving motor skills. By participating in locomotor play, individuals will be able to improve skills like fighting, hunting, fleeing, and climbing.
 def: "Play behavior which serves to improve motor skills and physical conditioning. [web:http\\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Locomotor%20Play.html]
 namespace: behavior_ontology
-synonym: exercise 
-synonym: motor development playing behaviour 
+synonym: "" EXACT []
+synonym: "motor development playing" EXACT []
 
 [Term]
 id: NBO:0000077
@@ -1162,7 +1162,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:20:02Z
 def: "The behavioral interactions between organisms for the purpose of attracting sexual partners. [GOC:dph]
 namespace: behavior_ontology
-synonym: courtship behaviour 
+synonym: "courtship" EXACT []
 xref: GO:0007619
 
 [Term]
@@ -1174,8 +1174,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:20:02Z
 def: "Behavior related to the specific actions or reactions of an organism following mating. [GOC:bf]
 namespace: behavior_ontology
-synonym: post mating behaviour 
-synonym: post-mating behaviour 
+synonym: "post mating" EXACT []
+synonym: "post-mating" EXACT []
 xref: GO:0045297
 
 [Term]
@@ -1186,7 +1186,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:20:02Z
 def: "A type of behavior associated with the intake of food or liquids. [Wikipedia:List_of_feeding_behaviors]
 namespace: behavior_ontology
-synonym: feeding behaviour 
+synonym: "feeding" EXACT []
 xref: GO:0007631
 
 [Term]
@@ -1235,7 +1235,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:20:02Z
 def: "Emotional behavior related to a state of low mood  and aversion to activity. [wikipedia:Depression]
 namespace: behavior_ontology
-synonym: depression related behaviour 
+synonym: "depression related" EXACT []
 
 [Term]
 id: NBO:0000086
@@ -1264,8 +1264,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:20:02Z
 def: "Behavior related to the preparation of the body to \\fight\\ or \\flee\\ from perceived attack, harm or threat. [NBO:GVG]
 namespace: behavior_ontology
-synonym: fight-or-flight response 
-synonym: fight-or-flight-or-freeze response 
+synonym: "fight-or-flight" EXACT []
+synonym: "fight-or-flight-or-freeze" EXACT []
 
 [Term]
 id: NBO:0000089
@@ -1276,8 +1276,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T01:20:02Z
 def: "A physical aggression behavior involving attack on prey by a predator. [NBO:GVG]
 namespace: behavior_ontology
-synonym: predatory aggression 
-synonym: predatory aggressive behaviour 
+synonym: "predatory" EXACT []
+synonym: "predatory aggressive" EXACT []
 xref: GO:0002120
 
 [Term]
@@ -1296,7 +1296,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T10:00:42Z
 def: "An emotional behavior related to a feeling of uneasiness or nervousness triggered by a specified triggering stimulus such as pain or the threat of danger. [NBO:GVG]
 namespace: behavior_ontology
-synonym: fear-related behaviour 
+synonym: "fear-related" EXACT []
 
 [Term]
 id: NBO:0000092
@@ -1306,7 +1306,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T10:01:25Z
 def: "An emotional behavior related to a feeling of uneasiness or nervousness triggered by an identifiable triggering stimulus. [NBO:GVG]
 namespace: behavior_ontology
-synonym: anxiety-related behaviour 
+synonym: "anxiety-related" EXACT []
 
 [Term]
 id: NBO:0000093
@@ -1420,7 +1420,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T10:50:52Z
 def: "Exhibiting a domineering, assault posture and/or hostile physical action towards humans. [NBO:GVG]
 namespace: behavior_ontology
-synonym: aggressive behavior towards humans 
+synonym: "aggressive behavior towards" EXACT []
 
 [Term]
 id: NBO:0000105
@@ -1430,7 +1430,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T10:51:12Z
 def: "Exhibiting a domineering, assault posture and/or hostile physical action towards animals. [NBO:GVG]
 namespace: behavior_ontology
-synonym: aggressive behavior towards animals 
+synonym: "aggressive behavior towards" EXACT []
 
 [Term]
 id: NBO:0000106
@@ -1440,7 +1440,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T10:51:33Z
 def: "Exhibiting a domineering, assault posture and/or hostile physical action toward any type of object. [NBO:GVG]
 namespace: behavior_ontology
-synonym: aggressive behavior towards objects 
+synonym: "aggressive behavior towards" EXACT []
 
 [Term]
 id: NBO:0000107
@@ -1450,7 +1450,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T10:51:50Z
 def: "Exhibiting a domineering, assault posture and/or hostile physical action towards mice. [NBO:GVG]
 namespace: behavior_ontology
-synonym: aggressive behavior towards mice 
+synonym: "aggressive behavior towards" EXACT []
 
 [Term]
 id: NBO:0000108
@@ -1461,7 +1461,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T10:52:04Z
 def: "Exhibiting a domineering, assault posture and/or hostile physical action towards women. [NBO:GVG]
 namespace: behavior_ontology
-synonym: aggressive behavior towards women 
+synonym: "aggressive behavior towards" EXACT []
 
 [Term]
 id: NBO:0000109
@@ -1472,7 +1472,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T10:52:26Z
 def: "Exhibiting a domineering, assault posture and/or hostile physical action towards men. [NBO:GVG]
 namespace: behavior_ontology
-synonym: aggressive behavior towards men 
+synonym: "aggressive behavior towards" EXACT []
 
 [Term]
 id: NBO:0000110
@@ -1483,7 +1483,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T10:52:56Z
 def: "Exhibiting a domineering, assault posture and/or hostile physical action towards male mice. [NBO:GVG]
 namespace: behavior_ontology
-synonym: aggressive behavior towards male mice 
+synonym: "aggressive behavior towards male" EXACT []
 
 [Term]
 id: NBO:0000111
@@ -1494,7 +1494,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T10:53:07Z
 def: "Exhibiting a domineering, assault posture and/or hostile physical action towards female mice. [NBO:GVG]
 namespace: behavior_ontology
-synonym: aggressive behavior towards female mice 
+synonym: "aggressive behavior towards female" EXACT []
 
 [Term]
 id: NBO:0000112
@@ -1504,7 +1504,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T10:53:44Z
 def: "Exhibiting a domineering, assault posture and/or hostile physical action toward inanimate objects. [NBO:GVG]
 namespace: behavior_ontology
-synonym: aggressive behavior towards inanimate objects 
+synonym: "aggressive behavior towards inanimate" EXACT []
 
 [Term]
 id: NBO:0000113
@@ -1514,7 +1514,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T10:53:59Z
 def: "Exhibiting a domineering, assault posture and/or hostile physical action toward inanimate objects. [NBO:GVG]
 namespace: behavior_ontology
-synonym: aggressive behavior towards animate objects 
+synonym: "aggressive behavior towards animate" EXACT []
 
 [Term]
 id: NBO:0000114
@@ -1524,7 +1524,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T10:57:11Z
 def: "Exhibiting a domineering, assault posture and/or hostile physical action towards children. [NBO:GVG]
 namespace: behavior_ontology
-synonym: aggressive behavior towards children 
+synonym: "aggressive behavior towards" EXACT []
 
 [Term]
 id: NBO:0000115
@@ -1534,7 +1534,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T10:58:09Z
 def: "Exhibiting a domineering, assault posture and/or hostile physical action towards pups. [NBO:GVG]
 namespace: behavior_ontology
-synonym: aggressive behavior towards pups 
+synonym: "aggressive behavior towards" EXACT []
 
 [Term]
 id: NBO:0000116
@@ -1544,7 +1544,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T11:02:17Z
 def: "Gender related exhibition of a domineering, assault posture and/or hostile physical action. [NBO:GVG]
 namespace: behavior_ontology
-synonym: gender-related aggressive behaviour 
+synonym: "gender-related aggressive" EXACT []
 
 [Term]
 id: NBO:0000117
@@ -1563,7 +1563,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T11:04:03Z
 def: "Exhibiting a domineering, assault posture and/or hostile physical action towards male animals. [NBO:GVG]
 namespace: behavior_ontology
-synonym: aggressive behavior towards males 
+synonym: "aggressive behavior towards" EXACT []
 
 [Term]
 id: NBO:0000119
@@ -1582,8 +1582,8 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T11:14:04Z
 def: "An aggressive behavior that aims to inflicting damage on another entity using physical means. [NBO:GVG]
 namespace: behavior_ontology
-synonym: physical aggression behaviour 
-synonym: violent behaviour 
+synonym: "physical aggression" EXACT []
+synonym: "violent" EXACT []
 
 [Term]
 id: NBO:0000121
@@ -1602,7 +1602,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T11:43:11Z
 def: "A behavior associated with the tendency of an organism towards being passive and willing to yield to others. [NBO:GVG]
 namespace: behavior_ontology
-synonym: submissive behaviour 
+synonym: "submissive" EXACT []
 
 [Term]
 id: NBO:0000123
@@ -1612,7 +1612,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T11:43:37Z
 def: "A behavior associated with the tendency of an organism towards being passive and willing to yield to male animals. [NBO:GVG]
 namespace: behavior_ontology
-synonym: submissive behavior towards males 
+synonym: "submissive behavior towards" EXACT []
 
 [Term]
 id: NBO:0000124
@@ -1622,7 +1622,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T11:44:14Z
 def: "A behavior associated with the tendency of an organism towards being passive and willing to yield to female animals. [NBO:GVG]
 namespace: behavior_ontology
-synonym: submissive behavior towards females 
+synonym: "submissive behavior towards" EXACT []
 
 [Term]
 id: NBO:0000125
@@ -1632,7 +1632,7 @@ created_by: George Gkoutos
 creation_date: 2011-03-31T11:44:25Z
 def: "A behavior associated with the tendency of an organism towards being passive and willing to yield towards male mice. [NBO:GVG]
 namespace: behavior_ontology
-synonym: submissive behavior towards male mice 
+synonym: "submissive behavior towards male" EXACT []
 
 [Term]
 id: NBO:0000126
@@ -1649,7 +1649,7 @@ is_a: NBO:0000121 ! agonistic behavior
 created_by: George Gkoutos
 creation_date: 2011-03-31T11:49:03Z
 namespace: behavior_ontology
-synonym: retreat behaviour 
+synonym: "retreat" EXACT []
 
 [Term]
 id: NBO:0000128
@@ -1819,7 +1819,7 @@ is_a: NBO:0000756 ! mating behavior phenotype
 created_by: George Gkoutos
 creation_date: 2011-03-31T02:17:22Z
 namespace: behavior_ontology
-synonym: mate choice 
+synonym: "mate" EXACT []
 
 [Term]
 id: NBO:0000146
@@ -1944,8 +1944,8 @@ relationship: is_about GO:0042747
 created_by: George Gkoutos
 creation_date: 2011-03-31T03:00:57Z
 namespace: behavior_ontology
-synonym:  paradoxical sleep 
-synonym: REM sleep 
+synonym: "paradoxical" EXACT []
+synonym: "REM" EXACT []
 
 [Term]
 id: NBO:0000160
@@ -1967,7 +1967,7 @@ creation_date: 2011-03-31T03:12:44Z
 comment: These stages are characterized by a slowing of brain waves and other physiological functions.
 def: "Behavior related to all sleep stages in the circadian sleep/wake cycle other than REM sleep. [NBO:GVG]
 namespace: behavior_ontology
-synonym: NREM sleep behavior 
+synonym: "NREM sleep" EXACT []
 
 [Term]
 id: NBO:0000162
@@ -2046,7 +2046,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-01T01:49:03Z
 def: "Behavior related with the ability of an organism's ability to store, retain, and recall information and experiences. [NBO:GVG]
 namespace: behavior_ontology
-synonym: memory behaviour 
+synonym: "memory" EXACT []
 xref: GO:0007613
 
 [Term]
@@ -2059,7 +2059,7 @@ creation_date: 2011-04-01T01:49:32Z
 comment: The formation of associations among stimuli and responses.
 def: "Learning by associating a stimulus (the cause) with a particular outcome (the effect). [Wikipedia:Learning#Associative_learning]
 namespace: behavior_ontology
-synonym: conditional learning 
+synonym: "conditional" EXACT []
 xref: GO:0008306
 
 [Term]
@@ -2122,8 +2122,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-01T03:18:40Z
 def: "A decrease in a behavioral response to a repeated stimulus. [NBO:GVG]
 namespace: behavior_ontology
-synonym: nonassociative learning 
-synonym: unconditional response 
+synonym: "nonassociative" EXACT []
+synonym: "unconditional" EXACT []
 xref: GO:0046958
 
 [Term]
@@ -2202,7 +2202,7 @@ creation_date: 2011-04-02T07:38:45Z
 comment: Encoded by the hippocampus, entorhinal cortex, and perirhinal cortex but store possibly in the medial temporal lobe.
 def: "Ability to become conscious of, or declare, facts and experiences. [NBO:GVG]
 namespace: behavior_ontology
-synonym: explicit memory 
+synonym: "explicit" EXACT []
 
 [Term]
 id: NBO:0000186
@@ -2234,8 +2234,8 @@ creation_date: 2011-04-02T07:42:37Z
 comment: Encoded and probably stored by the cerebellum and the striatum but store in the amygdala.
 def: "Non-declarative memory type of memory, which does not need to involve conscious awareness in the act of recollection. [NBO:GVG]
 namespace: behavior_ontology
-synonym: implicit memory 
-synonym: procedural memory 
+synonym: "implicit" EXACT []
+synonym: "procedural" EXACT []
 
 [Term]
 id: NBO:0000190
@@ -2246,7 +2246,7 @@ creation_date: 2011-04-02T07:54:40Z
 comment: Depends on the cerebellum and basal ganglia.
 def: "Consolidating a specific motor task into memory through repetition. [NBO:GVG]
 namespace: behavior_ontology
-synonym: muscle memory 
+synonym: "muscle" EXACT []
 
 [Term]
 id: NBO:0000191
@@ -2318,7 +2318,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-02T08:39:24Z
 def: "The ability to recall images, sounds, or objects in memory with extreme precision and in abundant volume. [wikipedia:Eidetic_memory]
 namespace: behavior_ontology
-synonym: photographic memory 
+synonym: "photographic" EXACT []
 
 [Term]
 id: NBO:0000199
@@ -2345,7 +2345,7 @@ is_a: NBO:0000200 ! priming
 created_by: George Gkoutos
 creation_date: 2011-04-02T08:55:04Z
 namespace: behavior_ontology
-synonym: repetition 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000202
@@ -2408,8 +2408,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-03T08:57:28Z
 def: "A form of associative learning that requires an unconditional reflex, where an unconditional stimulus (US)brings about an automatic, unlearned (unconditional) response (UR). If a neutral stimulus (NS) tends to precede it, an association is made and the conditional response (CR) becomes transferred onto the (previously neutral) conditional strimulus (CS); a conditional reflex has been learned. [NBO:GVG]
 namespace: behavior_ontology
-synonym: Pavlovian conditioning 
-synonym: respondent conditioning 
+synonym: "Pavlovian" EXACT []
+synonym: "respondent" EXACT []
 
 [Term]
 id: NBO:0000209
@@ -2438,7 +2438,7 @@ is_a: NBO:0000208 ! classical conditioning
 created_by: George Gkoutos
 creation_date: 2011-04-03T09:04:57Z
 namespace: behavior_ontology
-synonym: Garcia conditioning 
+synonym: "Garcia" EXACT []
 xref: GO:0001661
 
 [Term]
@@ -2450,8 +2450,8 @@ creation_date: 2011-04-03T09:05:54Z
 comment: Operant conditioning is distinguished from classical conditioning in that operant conditioning deals with the modification of voluntary behavior or operant behavior.
 def: "Operant conditioning is the use of a behavior's antecedent and/or its consequence to influence the occurrence and form of behavior. [wikipedia:Operant_conditioning]
 namespace: behavior_ontology
-synonym: instrumental conditioning 
-synonym: instrumental learning 
+synonym: "instrumental" EXACT []
+synonym: "instrumental" EXACT []
 xref: GO:0035106
 
 [Term]
@@ -2477,8 +2477,8 @@ is_a: NBO:0000220 ! social learning
 created_by: George Gkoutos
 creation_date: 2011-04-03T09:11:31Z
 namespace: behavior_ontology
-synonym: modeling 
-synonym: vicarious learning 
+synonym: "" EXACT []
+synonym: "vicarious" EXACT []
 
 [Term]
 id: NBO:0000216
@@ -2610,7 +2610,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T06:34:21Z
 def: "Observable characteristic of behavior related to the awareness of body balance and movement. [NBO:GVG]
 namespace: behavior_ontology
-synonym: pathological vestibular behaviour 
+synonym: "pathological vestibular" EXACT []
 
 [Term]
 id: NBO:0000230
@@ -2645,9 +2645,9 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T08:29:40Z
 def: "Behavior related to the tendency of an organism to maintain internal equilibrium. [NBO:GVG]
 namespace: behavior_ontology
-synonym:  behavioral homeostasis 
-synonym: maintenance behaviour 
-synonym: perception of need 
+synonym: "behavioral" EXACT []
+synonym: "maintenance" EXACT []
+synonym: "perception of" EXACT []
 
 [Term]
 id: NBO:0000234
@@ -2667,7 +2667,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T08:30:11Z
 def: "Behavior related to the deprivation of food. [NBO:GVG]
 namespace: behavior_ontology
-synonym: appetite related behaviour 
+synonym: "appetite related" EXACT []
 
 [Term]
 id: NBO:0000236
@@ -2746,8 +2746,8 @@ is_a: NBO:0000601 ! emotional behavior phenotype
 created_by: George Gkoutos
 creation_date: 2011-04-04T08:51:52Z
 namespace: behavior_ontology
-synonym: hysteria 
-synonym: pathological anxiety disorder 
+synonym: "" EXACT []
+synonym: "pathological anxiety" EXACT []
 
 [Term]
 id: NBO:0000245
@@ -2757,7 +2757,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T08:52:08Z
 def: "A pathological anxiety characterized by long-lasting anxiety that is not focused on any one object or situation. [wikipedia:Generalized_anxiety_disorder]
 namespace: behavior_ontology
-synonym: GAD 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000246
@@ -2767,7 +2767,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T08:52:18Z
 def: "A pathological anxiety characterized by fear or anxiety triggered by a specific stimulus or situation. [NBO:GVG]
 namespace: behavior_ontology
-synonym: phobic disorder 
+synonym: "phobic" EXACT []
 
 [Term]
 id: NBO:0000247
@@ -2786,7 +2786,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T08:52:42Z
 def: "A pathological anxiety primarily characterized by repetitive obsessions (distressing, persistent, and intrusive thoughts or images) and compulsions (urges to perform specific acts or rituals). [wikipedia:Obsessive%E2%80%93compulsive_disorder]
 namespace: behavior_ontology
-synonym: OCD 
+synonym: "" EXACT []
 xref: HP:0000722
 
 [Term]
@@ -2797,7 +2797,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T08:53:04Z
 def: "A pathological behavior characterized by one or more symptoms of a physical dysfunction but for which there is no identifiable organic cause. [wikipedia:Somatoform_disorder]
 namespace: behavior_ontology
-synonym: pathological somatoform behaviour 
+synonym: "pathological somatoform" EXACT []
 
 [Term]
 id: NBO:0000250
@@ -2807,7 +2807,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T08:53:18Z
 def: "A somatoform disorder characterised by a physical dysfunction (blindness, deafness, paralysis, numbness, etc. ) that has no underlying organic basis. [wikipedia:Conversion_disorder]
 namespace: behavior_ontology
-synonym: hysteria 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000251
@@ -2817,9 +2817,9 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T08:53:49Z
 def: "A somatoform disorder characterised by a continuing belief that one has one or more serious illnesses although no medical evidence supports the belief. [wikipedia:Hypochondriasis]
 namespace: behavior_ontology
-synonym: health anxiety 
-synonym: health phobia 
-synonym: hypochondria 
+synonym: "health" EXACT []
+synonym: "health" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000252
@@ -2868,11 +2868,11 @@ is_a: NBO:0000515 ! depressive disorder
 created_by: George Gkoutos
 creation_date: 2011-04-04T08:55:36Z
 namespace: behavior_ontology
-synonym: clinical depression 
-synonym: clinical depression  
-synonym: major depression 
-synonym: MDD 
-synonym: unipolar depression 
+synonym: "clinical" EXACT []
+synonym: "clinical" EXACT []
+synonym: "major" EXACT []
+synonym: "" EXACT []
+synonym: "unipolar" EXACT []
 
 [Term]
 id: NBO:0000258
@@ -2882,9 +2882,9 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T08:55:45Z
 def: "A mood disorder formerly characterised by alternating periods of mania and depression (and in some cases rapid cycling, mixed states, and psychotic symptoms). [wikipedia:Bipolar_disorder]
 namespace: behavior_ontology
-synonym: BD 
-synonym: bipolar affective disorder 
-synonym: manic depression 
+synonym: "" EXACT []
+synonym: "bipolar affective" EXACT []
+synonym: "manic" EXACT []
 xref: NBO:0000258
 
 [Term]
@@ -3013,7 +3013,7 @@ is_a: NBO:0000271 ! group behavior
 created_by: George Gkoutos
 creation_date: 2011-04-04T09:05:52Z
 namespace: behavior_ontology
-synonym: social loafing 
+synonym: "social" EXACT []
 
 [Term]
 id: NBO:0000274
@@ -3042,7 +3042,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T09:07:58Z
 def: "A behavioral interaction between organisms in which one organism exhibits aggression using vocal or verbal means. [NBO:GVG]
 namespace: behavior_ontology
-synonym: verbal aggression behaviour 
+synonym: "verbal aggression" EXACT []
 
 [Term]
 id: NBO:0000277
@@ -3051,9 +3051,9 @@ is_a: NBO:0000011 ! social behavior
 created_by: George Gkoutos
 creation_date: 2011-04-04T09:11:04Z
 namespace: behavior_ontology
-synonym: <new synonym> 
-synonym: discrimination 
-synonym: prejudice 
+synonym: "<new" EXACT []
+synonym: "" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000278
@@ -3062,7 +3062,7 @@ is_a: NBO:0000277 ! discriminatory behavior
 created_by: George Gkoutos
 creation_date: 2011-04-04T09:12:21Z
 namespace: behavior_ontology
-synonym: sexism 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000279
@@ -3072,7 +3072,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T09:12:49Z
 def: "A discriminatory behavior that is related to age. [NBO:GVG]
 namespace: behavior_ontology
-synonym: ageism 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000280
@@ -3253,7 +3253,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T09:39:19Z
 def: "A domineering, assault posture and/or hostile physical action towards animals exhibited by male animals. [NBO:GVG]
 namespace: behavior_ontology
-synonym: male aggressive behaviour 
+synonym: "male aggressive" EXACT []
 xref: GO:0001966
 
 [Term]
@@ -3264,7 +3264,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T09:39:49Z
 def: "A domineering, assault posture and/or hostile physical action towards animals exhibited by female animals. [NBO:GVG]
 namespace: behavior_ontology
-synonym: female aggressive behaviour 
+synonym: "female aggressive" EXACT []
 
 [Term]
 id: NBO:0000302
@@ -3276,7 +3276,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T09:39:58Z
 def: "A domineering, assault posture and/or hostile physical action towards animals exhibited by a mother or attending female. [NBO:GVG]
 namespace: behavior_ontology
-synonym: maternal aggression  
+synonym: "maternal" EXACT []
 xref: GO:0002125
 
 [Term]
@@ -3289,7 +3289,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T09:40:11Z
 def: "A domineering, assault posture and/or hostile physical action towards animals exhibited by a father or attending male. [NBO:GVG]
 namespace: behavior_ontology
-synonym: paternal aggression  
+synonym: "paternal" EXACT []
 
 [Term]
 id: NBO:0000304
@@ -3299,7 +3299,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T09:49:14Z
 def: "Behavior related with the gradual loss of information and experiences stored in the memory of an organism. [NBO:GVG]
 namespace: behavior_ontology
-synonym: forgetting 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000305
@@ -3317,7 +3317,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T09:53:48Z
 def: "Behavior related with the ability of an organism's ability to store information and experiences. [NBO:GVG]
 namespace: behavior_ontology
-synonym: memory storage behaviour 
+synonym: "memory storage" EXACT []
 
 [Term]
 id: NBO:0000307
@@ -3327,7 +3327,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-04T09:55:36Z
 def: "Behavior related with the ability of an organism's ability to recall information and experiences. [NBO:GVG]
 namespace: behavior_ontology
-synonym: memory retrieval behaviour 
+synonym: "memory retrieval" EXACT []
 
 [Term]
 id: NBO:0000308
@@ -3339,8 +3339,8 @@ creation_date: 2011-04-04T10:00:45Z
 comment: Example: moving head to watch passing object.
 def: "Cognitive perception of a sensation by any of the five senses -- vision, touch, smell, taste, and hearing. [NBO:GVG]
 namespace: behavior_ontology
-synonym: behavior involving perception 
-synonym: perception behavior 
+synonym: "behavior involving" EXACT []
+synonym: "perception" EXACT []
 
 [Term]
 id: NBO:0000309
@@ -3368,7 +3368,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-05T09:46:01Z
 def: "Behavior related to the actions of an organism in relation to sleep. [NBO:GVG]
 namespace: behavior_ontology
-synonym: sleep motivation behaviour 
+synonym: "sleep motivation" EXACT []
 
 [Term]
 id: NBO:0000312
@@ -3387,8 +3387,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-05T09:53:10Z
 def: "The action, reaction, or performance of an organism in response to external or internal stimuli. [GO:GO\\:0007610]
 namespace: behavior_ontology
-synonym: behavior 
-synonym: behaviour 
+synonym: "" EXACT []
+synonym: "" EXACT []
 xref: GO:0007610
 
 [Term]
@@ -3402,9 +3402,9 @@ created_by: George Gkoutos
 creation_date: 2011-04-05T10:36:24Z
 def: "Behavior related to the actions or reactions of an organism in response to a visual stimulus. [GO:0007632]
 namespace: behavior_ontology
-synonym: behavioral response to visual stimulus 
-synonym: behavioural response to visual stimulus 
-synonym: visual behaviour 
+synonym: "behavioral response to visual" EXACT []
+synonym: "behavioural response to visual" EXACT []
+synonym: "visual" EXACT []
 
 [Term]
 id: NBO:0000315
@@ -3428,7 +3428,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-05T10:38:17Z
 def: "Behavior related to the actions or reactions of an organism in response to a sound. [GO:0031223]
 namespace: behavior_ontology
-synonym:  hearing behaviour 
+synonym: "hearing" EXACT []
 xref: GO:0031223
 
 [Term]
@@ -3439,7 +3439,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-05T10:40:36Z
 def: "Behavior related to the awareness of body balance and movement. [MBP:GVG]
 namespace: behavior_ontology
-synonym: proprioception 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000318
@@ -3511,7 +3511,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-05T10:50:50Z
 comment: Taste can be described as five basic sensations, sweet, sour, salty, bitter and umamy which can be combined in various ways to make all other taste sensations.
 namespace: behavior_ontology
-synonym: gustatory behavior 
+synonym: "gustatory" EXACT []
 
 [Term]
 id: NBO:0000326
@@ -3524,7 +3524,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-05T11:00:51Z
 def: "Behavior related to environmental temperature. [NBO:GVG]
 namespace: behavior_ontology
-synonym: thermosensation behaviour 
+synonym: "thermosensation" EXACT []
 xref: GO:0040040
 
 [Term]
@@ -3579,8 +3579,8 @@ relationship: in_response_to GO:0019233
 created_by: George Gkoutos
 creation_date: 2011-04-05T11:13:27Z
 namespace: behavior_ontology
-synonym: nociception 
-synonym: pain 
+synonym: "" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000332
@@ -3603,7 +3603,7 @@ relationship: in_response_to GO:0050968
 created_by: George Gkoutos
 creation_date: 2011-04-05T12:38:39Z
 namespace: behavior_ontology
-synonym: chemical nociception behaviour 
+synonym: "chemical nociception" EXACT []
 
 [Term]
 id: NBO:0000334
@@ -3615,7 +3615,7 @@ relationship: in_response_to GO:0050966
 created_by: George Gkoutos
 creation_date: 2011-04-05T12:39:46Z
 namespace: behavior_ontology
-synonym: mechanical nociception behaviour 
+synonym: "mechanical nociception" EXACT []
 
 [Term]
 id: NBO:0000335
@@ -3627,7 +3627,7 @@ relationship: in_response_to GO:0050965
 created_by: George Gkoutos
 creation_date: 2011-04-05T12:41:15Z
 namespace: behavior_ontology
-synonym: thermal nociception behaviour 
+synonym: "thermal nociception" EXACT []
 
 [Term]
 id: NBO:0000336
@@ -3636,7 +3636,7 @@ is_a: NBO:0000331 ! nociceptive behavior
 created_by: George Gkoutos
 creation_date: 2011-04-05T12:45:31Z
 namespace: behavior_ontology
-synonym: chemically-elicited antinociception behaviour 
+synonym: "chemically-elicited antinociception" EXACT []
 
 [Term]
 id: NBO:0000337
@@ -3674,7 +3674,7 @@ creation_date: 2011-04-05T03:43:28Z
 comment: Optic apraxia - total inability of a person to coordinate eye and hand movements.\\nOptic ataxia - inability of a person to coordinate eye and hand movements.
 def: "The coordinated control of eye movement with hand movement, and the processing of visual input to guide reaching and grasping along with the use of proprioception of the hands to guide the eyes. [wikipedia:Eye%E2%80%93hand_coordination]
 namespace: behavior_ontology
-synonym: hand eye coordination 
+synonym: "hand eye" EXACT []
 
 [Term]
 id: NBO:0000342
@@ -3693,7 +3693,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-05T03:57:56Z
 def: "Coordination that results in spatial and temporal planning of reaching and grasping. [NBO:GVG]
 namespace: behavior_ontology
-synonym: intra-limb coordination 
+synonym: "intra-limb" EXACT []
 
 [Term]
 id: NBO:0000344
@@ -3703,7 +3703,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-05T03:58:29Z
 def: "Coordination that results in bimanual synchronization and temporal association of the hands. [NBO:GVG]
 namespace: behavior_ontology
-synonym: inter-limb coordination 
+synonym: "inter-limb" EXACT []
 
 [Term]
 id: NBO:0000345
@@ -3731,8 +3731,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-05T04:10:52Z
 def: "The coordination of large muscle groups and whole body movement. [NBO:GVG]
 namespace: behavior_ontology
-synonym: large muscle coordination 
-synonym: whole body coordination 
+synonym: "large muscle" EXACT []
+synonym: "whole body" EXACT []
 
 [Term]
 id: NBO:0000348
@@ -3854,7 +3854,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T09:47:57Z
 def: "Behavior related to the upward thrust produced by the rapid, simultaneous extension of the hind legs with the intend to cross wide gaps in the locomotor surface. [MBP:GVG]
 namespace: behavior_ontology
-synonym: saltation 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000361
@@ -3920,7 +3920,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T11:45:51Z
 def: "Behavior related to the self-propelled movement of an organism from one location to another through the air, usually by means of active wing movement. [NBO:GVG]
 namespace: behavior_ontology
-synonym: flying 
+synonym: "" EXACT []
 xref: GO:0007629
 
 [Term]
@@ -3949,7 +3949,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T12:25:30Z
 def: "Behavior related to the upward thrust produced by the rapid, simultaneous extension of the hind legs with the intend to rise in the air. [NBO:GVG]
 namespace: behavior_ontology
-synonym: hopping 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000371
@@ -3959,7 +3959,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T12:33:07Z
 def: "Behavior related to the movement of an organism from one location to another through a liquid medium. [NBO:GVG]
 namespace: behavior_ontology
-synonym: swimming 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000372
@@ -4016,7 +4016,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T01:23:34Z
 def: "Locomotory orientation in response to specific chemical concentration gradient. [GO:0006935]
 namespace: behavior_ontology
-synonym: chemotaxis 
+synonym: "" EXACT []
 xref: GO:0006935
 
 [Term]
@@ -4027,8 +4027,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T01:27:22Z
 def: "Locomotory orientation in response to gravity. [GO:0048062]
 namespace: behavior_ontology
-synonym: geotactic behaviour 
-synonym: gravitaxis 
+synonym: "geotactic" EXACT []
+synonym: "" EXACT []
 xref: GO:0042332
 
 [Term]
@@ -4039,8 +4039,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T01:32:49Z
 def: "Locomotory orientation away from the source of gravity. [GO:0048060]
 namespace: behavior_ontology
-synonym: negative geotactic behaviour 
-synonym: negative gravitaxis 
+synonym: "negative geotactic" EXACT []
+synonym: "negative" EXACT []
 xref: GO:0048060
 
 [Term]
@@ -4051,8 +4051,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T01:34:24Z
 def: "Locomotory orientation towards the source of gravity. [GO:0048061]
 namespace: behavior_ontology
-synonym: positive geotactic behaviour 
-synonym: positive gravitaxis 
+synonym: "positive geotactic" EXACT []
+synonym: "positive" EXACT []
 xref: GO:0048061
 
 [Term]
@@ -4063,7 +4063,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T01:45:18Z
 def: "Locomotory orientation in response to touch. [GO:0001966]
 namespace: behavior_ontology
-synonym: stereotaxis 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000382
@@ -4083,7 +4083,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T01:48:33Z
 def: "Locomotory orientation in response to light. [GO:0042331]
 namespace: behavior_ontology
-synonym: phototaxis 
+synonym: "" EXACT []
 xref: GO:0042331
 
 [Term]
@@ -4145,7 +4145,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T02:36:55Z
 def: "Behavior related to involuntary movement in response to a stimulus. [NBO:GVG]
 namespace: behavior_ontology
-synonym: reflex behaviour 
+synonym: "reflex" EXACT []
 
 [Term]
 id: NBO:0000390
@@ -4155,9 +4155,9 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T02:44:15Z
 def: "Reflex actions originating in the central nervous system that are exhibited by normal infants in response to particular stimuli. [wikipedia:Primitive_reflexes]
 namespace: behavior_ontology
-synonym:  infant reflex 
-synonym: infantile reflex 
-synonym: newborn reflex 
+synonym: "infant" EXACT []
+synonym: "infantile" EXACT []
+synonym: "newborn" EXACT []
 
 [Term]
 id: NBO:0000391
@@ -4167,7 +4167,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T02:55:21Z
 def: "An action or movement due to the application of a sudden unexpected stimulus. [wikipedia:Startle_reflex]
 namespace: behavior_ontology
-synonym: alarm reaction 
+synonym: "alarm" EXACT []
 
 [Term]
 id: NBO:0000392
@@ -4177,7 +4177,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T03:03:51Z
 def: "A reflex that arises when tilting the head back while lying on the back causes the back to stiffen and even arch backwards, the legs to straighten, stiffen, and push together, the toes to point, the arms to bend at the elbows and wrists, and the hands to become fisted or the fingers to curl. [wikipedia:Tonic_labyrinthine_reflex]
 namespace: behavior_ontology
-synonym: TLR 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000393
@@ -4187,8 +4187,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T03:05:52Z
 def: "A reflex that assists in the birthing process and helps to develop muscle tone, kicking and stimulates vestibular function in utero. [wikipedia:Asymmetrical_tonic_neck_reflex]
 namespace: behavior_ontology
-synonym: ATNR 
-synonym: fencing reflex 
+synonym: "" EXACT []
+synonym: "fencing" EXACT []
 
 [Term]
 id: NBO:0000394
@@ -4207,7 +4207,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T03:11:13Z
 def: "It is elicited by holding the newborn in ventral suspension (face down) and stroking along the one side of the spine. A reflex that caused the laterally flex toward the stimulated side when a newborn is held in ventral suspension (face down) and stroking along the one side of the spine. [NBO:Galant_reflex]
 namespace: behavior_ontology
-synonym: spinal galant 
+synonym: "spinal" EXACT []
 
 [Term]
 id: NBO:0000396
@@ -4273,7 +4273,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T03:26:47Z
 def: "A reflex that causes the infant to attempt to 'walk' by placing one foot in front of the other when the soles of their feet touch a flat surface. [wikipedia:Primitive_reflexes]
 namespace: behavior_ontology
-synonym:  stepping reflex 
+synonym: "stepping" EXACT []
 
 [Term]
 id: NBO:0000403
@@ -4293,7 +4293,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T04:02:17Z
 def: "A muscle contraction in response to stretching within the muscle. [wikipedia:Stretch_reflex]
 namespace: behavior_ontology
-synonym: deep tendon reflex 
+synonym: "deep tendon" EXACT []
 
 [Term]
 id: NBO:0000405
@@ -4312,7 +4312,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T04:07:37Z
 def: "A deep tendon reflex elicited by striking the lateral surface of the forearm proximal to the distal head of the radius, characterized by normal slight elbow flexion and forearm supination. [Medical disctionary:http\\://medical-dictionary.thefreedictionary.com/brachioradialis+reflex]
 namespace: behavior_ontology
-synonym: supinator reflex 
+synonym: "supinator" EXACT []
 
 [Term]
 id: NBO:0000407
@@ -4322,8 +4322,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T04:09:37Z
 def: "A reflex that elicits involuntary contraction of the extensor digitorum muscle. [NBO:GVG]
 namespace: behavior_ontology
-synonym: BER 
-synonym: Braunecker-Effenberg reflex 
+synonym: "" EXACT []
+synonym: "Braunecker-Effenberg" EXACT []
 
 [Term]
 id: NBO:0000408
@@ -4342,7 +4342,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T04:18:23Z
 def: "A deep tendon reflex that elicits extension of the leg resulting from a sharp tap on the patellar tendon. [NBO:GVG]
 namespace: behavior_ontology
-synonym: knee-jerk reflex 
+synonym: "knee-jerk" EXACT []
 
 [Term]
 id: NBO:0000410
@@ -4352,10 +4352,10 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T04:20:42Z
 def: "A reflex bending of the foot resulting from contraction of the calf muscles when the Achilles tendon is sharply struck. [Medical Dictionary:http\\://medical-dictionary.thefreedictionary.com/Achilles+reflex]
 namespace: behavior_ontology
-synonym:  triceps surae reflex 
-synonym: Achilles reflex 
-synonym: Achilles tendon reflex 
-synonym: ankle reflex 
+synonym: "triceps surae" EXACT []
+synonym: "Achilles" EXACT []
+synonym: "Achilles tendon" EXACT []
+synonym: "ankle" EXACT []
 
 [Term]
 id: NBO:0000411
@@ -4374,7 +4374,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T04:28:58Z
 def: "A reflex that controls the diameter of the pupil, in response to the intensity (luminance) of light that falls on the retina of the eye, thereby assisting in adaptation to various levels of darkness and light, in addition to retinal sensitivity. [wikipedia:Pupillary_light_reflex]
 namespace: behavior_ontology
-synonym: pupillary reflex 
+synonym: "pupillary" EXACT []
 
 [Term]
 id: NBO:0000413
@@ -4392,7 +4392,7 @@ is_a: NBO:0000411 ! cranial nerve related reflex
 created_by: George Gkoutos
 creation_date: 2011-04-06T04:30:58Z
 namespace: behavior_ontology
-synonym: masseter reflex 
+synonym: "masseter" EXACT []
 
 [Term]
 id: NBO:0000415
@@ -4402,8 +4402,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T06:08:06Z
 def: "An involuntary blinking of the eyelids elicited by stimulation of the cornea. [wikipedia:Corneal_reflex]
 namespace: behavior_ontology
-synonym: blink reflex 
-synonym: blinking 
+synonym: "blink" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000416
@@ -4413,9 +4413,9 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T06:11:09Z
 def: "A reflex eye movement that stabilizes images on the retina during head movement by producing an eye movement in the direction opposite to head movement, thus preserving the image on the center of the visual field. [wikipedia:Vestibulo-ocular_reflex]
 namespace: behavior_ontology
-synonym: oculovestibular reflex 
-synonym: vestibuloocular reflex 
-synonym: VOR 
+synonym: "oculovestibular" EXACT []
+synonym: "vestibuloocular" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000417
@@ -4434,8 +4434,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-06T06:17:32Z
 def: "A reflex contraction of the back of the throat, evoked by touching the soft palate. [wikipedia:Gag_reflex]
 namespace: behavior_ontology
-synonym: gag reflex 
-synonym: swallowing reflex 
+synonym: "gag" EXACT []
+synonym: "swallowing" EXACT []
 
 [Term]
 id: NBO:0000419
@@ -4454,8 +4454,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-07T01:20:00Z
 def: "A NREM parasomnia characterised by Involuntarily grinding of teeth while sleeping. [MBP:GVG]
 namespace: behavior_ontology
-synonym: <new synonym> 
-synonym: teeth grinding 
+synonym: "<new" EXACT []
+synonym: "teeth" EXACT []
 xref: HP:0003763
 
 [Term]
@@ -4466,9 +4466,9 @@ created_by: George Gkoutos
 creation_date: 2011-04-07T01:22:32Z
 def: "A circadian rhythm sleep disorder characterized by a much later than normal timing of sleep onset and offset and a period of peak alertness in the middle of the night. [wikipedia:Delayed_sleep_phase_syndrome]
 namespace: behavior_ontology
-synonym: delayed sleep-phase disorder (DSPD)  
-synonym: delayed sleep-phase type (DSPT) 
-synonym: DSPS 
+synonym: "delayed sleep-phase disorder" EXACT []
+synonym: "delayed sleep-phase type" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000422
@@ -4497,8 +4497,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-07T01:25:22Z
 def: "A NREM parasomnia characterised by abrupt awakening from sleep with behavior consistent with terror and a temporary inability to regain full consciousness. [NBO:GVG]
 namespace: behavior_ontology
-synonym: night terror 
-synonym: Pavor nocturnus 
+synonym: "night" EXACT []
+synonym: "Pavor" EXACT []
 
 [Term]
 id: NBO:0000425
@@ -4517,9 +4517,9 @@ created_by: George Gkoutos
 creation_date: 2011-04-07T05:12:40Z
 def: "Reflexive contraction of the external anal sphincter upon stroking of the skin around the anus. [wikipedia:Anal_wink]
 namespace: behavior_ontology
-synonym: anal reflex 
-synonym: anal wink 
-synonym: perineal reflex 
+synonym: "anal" EXACT []
+synonym: "anal" EXACT []
+synonym: "perineal" EXACT []
 
 [Term]
 id: NBO:0000427
@@ -4567,7 +4567,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-07T05:21:15Z
 def: "A response to activation of sensory neurons whose peripheral terminals are located on the surface of the body. [wikipedia:Scratch_reflex]
 namespace: behavior_ontology
-synonym: self-scratching 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000432
@@ -4586,8 +4586,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-07T05:35:05Z
 def: "A reflex where the body reacts to pain or unpleasant stimuli by trying to move itself away from the source. [NBO:GVG]
 namespace: behavior_ontology
-synonym: flexor withdrawal reflex 
-synonym: nociceptive reflex 
+synonym: "flexor withdrawal" EXACT []
+synonym: "nociceptive" EXACT []
 
 [Term]
 id: NBO:0000434
@@ -4606,9 +4606,9 @@ created_by: George Gkoutos
 creation_date: 2011-04-07T05:41:07Z
 def: "An involuntary muscle contraction that occurs in the middle ear of mammals in response to high-intensity sound stimuli. [wikipedia:Acoustic_reflex]
 namespace: behavior_ontology
-synonym:  attenuation reflex 
-synonym: auditory reflex 
-synonym: stapedius reflex 
+synonym: "attenuation" EXACT []
+synonym: "auditory" EXACT []
+synonym: "stapedius" EXACT []
 
 [Term]
 id: NBO:0000436
@@ -4645,7 +4645,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-07T05:48:07Z
 def: "A reflex elicited by repetitive tapping on the forehead which result in blinking to the first several taps. [wikipedia:Glabellar_reflex]
 namespace: behavior_ontology
-synonym: glabellar tap sign 
+synonym: "glabellar tap" EXACT []
 
 [Term]
 id: NBO:0000440
@@ -4655,7 +4655,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-08T12:01:59Z
 def: "A skeletal muscle contraction causes the muscle to simultaneously lengthen and relax. [wikipedia:Golgi_tendon_reflex]
 namespace: behavior_ontology
-synonym: inverse myotatic reflex 
+synonym: "inverse myotatic" EXACT []
 
 [Term]
 id: NBO:0000441
@@ -4675,8 +4675,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-08T12:08:31Z
 def: "A reflex in which mucus containing foreign particles or irritants is expelled and the nasal cavity is cleanses. [wikipedia:Sneeze]
 namespace: behavior_ontology
-synonym: sneeze 
-synonym: sneezing 
+synonym: "" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000443
@@ -4745,7 +4745,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-08T12:35:02Z
 def: "Behavior related to the activity in which individuals in a group clean or maintain one another's body or appearance. [wikipedia:Social_grooming]
 namespace: behavior_ontology
-synonym: allogrooming 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000451
@@ -4756,9 +4756,9 @@ created_by: George Gkoutos
 creation_date: 2011-04-08T12:35:54Z
 def: "Behavior related to the promotion of personal hygiene. [wikipedia:Social_grooming]
 namespace: behavior_ontology
-synonym: auto-grooming 
-synonym: preening 
-synonym: self-grooming 
+synonym: "" EXACT []
+synonym: "" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000452
@@ -4822,7 +4822,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-08T01:06:00Z
 def: "Behavior involving maintaining a consistent behavioral response during continuous and repetitive activity. [wikipedia:Attention]
 namespace: behavior_ontology
-synonym: vigilance 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000460
@@ -4977,7 +4977,7 @@ is_a: NBO:0000473 ! rhythmic behavior phenotype
 created_by: George Gkoutos
 creation_date: 2011-04-08T02:19:42Z
 namespace: behavior_ontology
-synonym: pathological circadian behaviour 
+synonym: "pathological circadian" EXACT []
 
 [Term]
 id: NBO:0000475
@@ -5013,8 +5013,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-08T02:27:28Z
 def: "A dyssomnia where the patient moves limbs involuntarily during sleep, and has symptoms or problems related to the movement. [wikipedia:Periodic_limb_movement_disorder]
 namespace: behavior_ontology
-synonym: nocturnal myoclonus 
-synonym: PLMD 
+synonym: "nocturnal" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000479
@@ -5024,8 +5024,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-08T02:28:45Z
 def: "A dyssomnia characterized by an irresistible urge to move one's body to stop uncomfortable or odd sensations. [wikipedia:Restless_legs_syndrome]
 namespace: behavior_ontology
-synonym: RLS 
-synonym: Wittmaack Ekbom syndrome 
+synonym: "" EXACT []
+synonym: "Wittmaack Ekbom" EXACT []
 
 [Term]
 id: NBO:0000480
@@ -5035,7 +5035,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-08T02:30:29Z
 def: "A sleep breathing disorder characterized by abnormal pauses in breathing or instances of abnormally low breathing, during sleep. [wikipedia:Sleep_apnea]
 namespace: behavior_ontology
-synonym: sleep apnoea 
+synonym: "sleep" EXACT []
 
 [Term]
 id: NBO:0000481
@@ -5045,12 +5045,12 @@ created_by: George Gkoutos
 creation_date: 2011-04-08T02:31:33Z
 def: "A dyssomnia characterized by a mistakenly perception of one's sleep as wakefulness. [wikipedia:Sleep_state_misperception]
 namespace: behavior_ontology
-synonym:  pseudo-insomnia 
-synonym: paradoxical insomnia 
-synonym: sleep hypochondriasis 
-synonym: SSM 
-synonym: subjective insomnia 
-synonym: subjective sleepiness 
+synonym: "" EXACT []
+synonym: "paradoxical" EXACT []
+synonym: "sleep" EXACT []
+synonym: "" EXACT []
+synonym: "subjective" EXACT []
+synonym: "subjective" EXACT []
 
 [Term]
 id: NBO:0000482
@@ -5121,7 +5121,7 @@ is_a: NBO:0000486 ! extrinsic circadian rhythm sleep disorder
 created_by: George Gkoutos
 creation_date: 2011-04-08T02:57:20Z
 namespace: behavior_ontology
-synonym: SWSD 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000490
@@ -5131,9 +5131,9 @@ created_by: George Gkoutos
 creation_date: 2011-04-08T03:00:14Z
 def: "A circadian rhythm sleep disorder characterized by difficulty staying awake in the evening and staying asleep in the morning. [wikipedia:Advanced_sleep_phase_syndrome]
 namespace: behavior_ontology
-synonym: advanced sleep-phase type 
-synonym: ASPS 
-synonym: ASPT 
+synonym: "advanced sleep-phase" EXACT []
+synonym: "" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000491
@@ -5143,13 +5143,13 @@ created_by: George Gkoutos
 creation_date: 2011-04-08T03:11:40Z
 def: "A circadian rhythm sleep disorder which the affected individual's sleep occurs later and later each day, with the period of peak alertness also continuously moving around the clock from day to day. [wikipedia:Circadian_rhythm_sleep_disorder]
 namespace: behavior_ontology
-synonym: circadian rhythm sleep disorder, free running type 
-synonym: circadian rhythm sleep disorder, nonentrained type 
-synonym: free running disorder (FRD)  
-synonym: hypernychthemeral syndrome 
-synonym: non-24 
-synonym: non-24-hour circadian rhythm disorder  
-synonym: non-24-hour sleep-wake disorder 
+synonym: "circadian rhythm sleep disorder, free running" EXACT []
+synonym: "circadian rhythm sleep disorder, nonentrained" EXACT []
+synonym: "free running disorder" EXACT []
+synonym: "hypernychthemeral" EXACT []
+synonym: "" EXACT []
+synonym: "non-24-hour circadian rhythm" EXACT []
+synonym: "non-24-hour sleep-wake" EXACT []
 
 [Term]
 id: NBO:0000492
@@ -5177,7 +5177,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-08T03:27:40Z
 def: "An intrinsic sleep disorder characterised by breathing abnormalities. [NBO:GVG]
 namespace: behavior_ontology
-synonym: SBD 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000495
@@ -5232,7 +5232,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-09T09:32:07Z
 def: "A NREM parasomnia characterised by the risef rom the slow wave sleep stage in a state of low consciousness and perform activities that are usually performed during a state of full consciousness. [wikipedia:Sleepwalking]
 namespace: behavior_ontology
-synonym: somnambulism 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000501
@@ -5242,7 +5242,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-09T09:39:54Z
 def: "A NREM parasomnia characterised by involuntary urination while asleep after the age at which bladder control usually occurs. [wikipedia:Bedwetting]
 namespace: behavior_ontology
-synonym: bedwetting 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000502
@@ -5252,7 +5252,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-09T10:02:28Z
 def: "A NREM parasomnia characterised by talking during sleep. [NBO:GVG]
 namespace: behavior_ontology
-synonym: sleep-talking 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000503
@@ -5262,7 +5262,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-09T10:06:44Z
 def: "A REM parasomnia characterised by the lack of muscle atonia during sleep. [wikipedia:REM_Sleep_Behavior_Disorder]
 namespace: behavior_ontology
-synonym: RBD 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000504
@@ -5308,7 +5308,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-09T10:14:54Z
 def: "An isolted sleep paralysis that is characterized by frequent episodes or a complex of sequential episodes whose total duration may exceed one hour, and particularly by the range and sense of perceived reality of the subjective phenomena experienced during episodes. [web:http\\://www.theconsciousdreamer.org/SSE.HTM]
 namespace: behavior_ontology
-synonym: RISP 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000509
@@ -5318,7 +5318,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-09T10:20:09Z
 def: "A sleep paralaysis characterised by the absence of narcolepsy. [wikipedia:Sleep_paralysis]
 namespace: behavior_ontology
-synonym: ISP 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000510
@@ -5338,7 +5338,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-09T10:25:40Z
 def: "A sleep paralysis which upon falling asleep the person remains aware while the body shuts down for REM sleep. [wikipedia:Sleep_paralysis]
 namespace: behavior_ontology
-synonym: predormital sleep paralysis 
+synonym: "predormital sleep" EXACT []
 
 [Term]
 id: NBO:0000512
@@ -5348,7 +5348,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-09T10:28:53Z
 def: "A sleep paralysis which upon awakening, the person becomes aware before the REM cycle is complete,. [wikipedia:Sleep_paralysis]
 namespace: behavior_ontology
-synonym: postdormital sleep paralysis 
+synonym: "postdormital sleep" EXACT []
 
 [Term]
 id: NBO:0000513
@@ -5367,7 +5367,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-09T11:20:26Z
 def: "A dyssomnia characterised by fear of sleep. [NBO:GVG]
 namespace: behavior_ontology
-synonym: somniphobia 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000515
@@ -5377,8 +5377,8 @@ alt_id: NBO:0000523
 created_by: George Gkoutos
 creation_date: 2011-04-09T12:28:31Z
 namespace: behavior_ontology
-synonym: DD-NOS 
-synonym: depressive disorder not otherwise specified 
+synonym: "" EXACT []
+synonym: "depressive disorder not otherwise" EXACT []
 xref: HP:0000716
 
 [Term]
@@ -5389,7 +5389,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-10T12:55:14Z
 def: "A major depressive disorder characterized by mood reactivity (paradoxical anhedonia) and positivity, significant weight gain or increased appetite (\\comfort eating\\), excessive sleep or somnolence (hypersomnia), a sensation of heaviness in limbs known as leaden paralysis, and significant social impairment as a consequence of hypersensitivity to perceived interpersonal rejection. [wikipedia:Atypical_depression]
 namespace: behavior_ontology
-synonym: AD 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000517
@@ -5408,7 +5408,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-10T12:58:44Z
 def: "A major depressive disorder characterized by a major depressive episode, particularly of melancholic nature, where the patient experiences psychotic symptoms such as delusions or, less commonly, hallucinations. [wikipedia:Psychotic_major_depression]
 namespace: behavior_ontology
-synonym: PMD 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000519
@@ -5427,8 +5427,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-10T01:03:17Z
 def: "A major depressive disorder characterized by a intense, sustained and sometimes disabling depression experienced by women after giving birth. [wikipedia:Postpartum_depression]
 namespace: behavior_ontology
-synonym: PDD 
-synonym: postnatal depression 
+synonym: "" EXACT []
+synonym: "postnatal" EXACT []
 
 [Term]
 id: NBO:0000521
@@ -5438,8 +5438,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-10T01:10:46Z
 def: "A major depressive disorder usually characterized seasonal pattern with depressive episodes coming on in the winter or summer, spring or autumn, repeatedly, year after year. [wikipedia:Seasonal_affective_disorder]
 namespace: behavior_ontology
-synonym: winter blues 
-synonym: winter depression 
+synonym: "winter" EXACT []
+synonym: "winter" EXACT []
 
 [Term]
 id: NBO:0000522
@@ -5459,7 +5459,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-10T01:17:54Z
 def: "A depressive disorder characterized by intermittent depressive episodes, in women not related to menstrual cycles, occurring at least once a month over at least one year or more fulfilling the diagnostic criteria for major depressive episodes except for duration which in RBD is less than 14 days, typically 2 to 4 days. [wikipedia:Recurrent_brief_depression]
 namespace: behavior_ontology
-synonym: RBD 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000525
@@ -5469,7 +5469,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-10T01:19:53Z
 def: "A depressive disorder that does not meet full criteria for Major depressive disorder but in which at least two depressive symptoms are present for two weeks. [wikipedia:Minor_Depressive_Disorder]
 namespace: behavior_ontology
-synonym: minor depression 
+synonym: "minor" EXACT []
 
 [Term]
 id: NBO:0000526
@@ -5506,7 +5506,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-10T01:28:33Z
 def: "A bipolar disorder characterised by symptoms in the bipolar spectrum (e.g. manic and depressive symptoms) but does not fully qualify for any of the three types of bipolar disorder. [wikipedia:Bipolar_Disorder_Not_Otherwise_Specified]
 namespace: behavior_ontology
-synonym: BD-NOS 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000530
@@ -5548,8 +5548,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-10T01:42:56Z
 def: "A pathological anxiety which results from a traumatic experience. [wikipedia:Post-traumatic_stress_disorder]
 namespace: behavior_ontology
-synonym: post-traumatic stress disorder 
-synonym: PTSD 
+synonym: "post-traumatic stress" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000535
@@ -5559,7 +5559,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-10T01:44:22Z
 def: "A pathological anxiety characterized by feeling of excessive and inappropriate levels of anxiety over being separated from a person or place. [wikipedia:Separation_anxiety_disorder]
 namespace: behavior_ontology
-synonym: SepAD 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000536
@@ -5589,7 +5589,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-10T02:22:58Z
 def: "Any homeostatic process in which an organism modulates its internal body temperature at different values with a regularity of approximately 24 hours. [GOC:dbh]
 namespace: behavior_ontology
-synonym: circadian thermoregulation 
+synonym: "circadian" EXACT []
 
 [Term]
 id: NBO:0000539
@@ -5599,7 +5599,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-10T10:39:39Z
 def: "Observable characteristic of feeding behavior that relates to easting. [NBO:GVG]
 namespace: behavior_ontology
-synonym: eating disorder  
+synonym: "eating" EXACT []
 
 [Term]
 id: NBO:0000540
@@ -5609,8 +5609,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-10T10:40:49Z
 def: "Observable characteristic of feeding behavior that relates to feeding. [NBO:GVG]
 namespace: behavior_ontology
-synonym: drinking disorder 
-synonym: pathological drinking behaviour 
+synonym: "drinking" EXACT []
+synonym: "pathological drinking" EXACT []
 
 [Term]
 id: NBO:0000541
@@ -5673,7 +5673,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-10T10:41:10Z
 def: "A pathological eating behavior characterised by an abnormally large intake of food by mouth, usually due to excessive hunger that is relatively prolonged. [NBO:GVG]
 namespace: behavior_ontology
-synonym: hyperphagia 
+synonym: "" EXACT []
 xref: HP:0000724
 xref: MP:0001433
 
@@ -5811,7 +5811,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T08:04:13Z
 def: "Behavior related to the barbering of other individuals of a cohort. [NBO:GVG]
 namespace: behavior_ontology
-synonym: whisker trimming 
+synonym: "whisker" EXACT []
 xref: MP:0001446
 
 [Term]
@@ -5841,7 +5841,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T08:24:37Z
 def: "Observable characteristic of behavior that occurs predominantly or only, in individuals that are part of a group. [NBO:GVG]
 namespace: behavior_ontology
-synonym: pathological social behaviour 
+synonym: "pathological social" EXACT []
 
 [Term]
 id: NBO:0000565
@@ -5868,8 +5868,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T08:28:29Z
 def: "A pathological behavior associated with repetitive or ritualistic movement, posture, or utterance. [wikipedia:Stereotypy]
 namespace: behavior_ontology
-synonym: stereotypic behaviour 
-synonym: stereotypy 
+synonym: "stereotypic" EXACT []
+synonym: "" EXACT []
 xref: HP:0000733
 xref: MP:0001408
 
@@ -5900,7 +5900,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T08:39:38Z
 def: "Movement of the head in the vertical plane. [NBO:GVG]
 namespace: behavior_ontology
-synonym: head nodding 
+synonym: "head" EXACT []
 
 [Term]
 id: NBO:0000571
@@ -5947,8 +5947,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T10:15:17Z
 def: "A reflex that elucidates goose bumps (bumps on a person's skin at the base of body hairs) which may involuntarily develop when a person is cold or experiences strong emotions such as fear, awe, admiration or sexual arousal [wikipedia:Goose_bumps]
 namespace: behavior_ontology
-synonym:  piloerection 
-synonym: horripilation 
+synonym: "" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000576
@@ -5958,7 +5958,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T10:19:59Z
 def: "A reflex that elucidates a characteristic ear twitch in response to an auditory stimulus. [NBO:GVG]
 namespace: behavior_ontology
-synonym: Preyer's reflex 
+synonym: "Preyer's" EXACT []
 
 [Term]
 id: NBO:0000577
@@ -5977,7 +5977,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T10:28:56Z
 def: "A reflex process in which an animal immediately tries to turn over after being placed in a supine position. [NBO:GVG]
 namespace: behavior_ontology
-synonym: righting response 
+synonym: "righting" EXACT []
 
 [Term]
 id: NBO:0000579
@@ -5996,8 +5996,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T10:42:28Z
 def: "A reflex that elucidates an automatic positioning of the limbs in response to a movement of the head on trunk (neck). [web:http\\://www.dizziness-and-balance.com/anatomy/vspine.htm]
 namespace: behavior_ontology
-synonym: cervicospinal reflex 
-synonym: TNR 
+synonym: "cervicospinal" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000581
@@ -6007,7 +6007,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T10:44:18Z
 def: "A reflex which results from activation of afferents from the vestibular organs and uses neck movements to stabilize the head position in space. [JAX:]
 namespace: behavior_ontology
-synonym: VCR 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000582
@@ -6026,7 +6026,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T10:52:19Z
 def: "Change position in response to stimulation of the whiskers. [JAX:<new dbxref>]
 namespace: behavior_ontology
-synonym: vibrissa reflex 
+synonym: "vibrissa" EXACT []
 
 [Term]
 id: NBO:0000584
@@ -6036,9 +6036,9 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T10:55:22Z
 def: "A mouse reflex that elicidated the clasping of front and/or hind feet almost immediately upon being lifted by tail. [EUROPHENOME:]
 namespace: behavior_ontology
-synonym: hindlimb extension reflex 
-synonym: limb clasping 
-synonym: limb grasping 
+synonym: "hindlimb extension" EXACT []
+synonym: "limb" EXACT []
+synonym: "limb" EXACT []
 
 [Term]
 id: NBO:0000585
@@ -6087,9 +6087,9 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T11:13:39Z
 def: "An involuntary rhythmical, oscillatory movement of a body part. [NBO:GVG]
 namespace: behavior_ontology
-synonym: quivering 
-synonym: shivering 
-synonym: trembling 
+synonym: "" EXACT []
+synonym: "" EXACT []
+synonym: "" EXACT []
 xref: HP:0001337
 xref: MP:0000745
 
@@ -6216,8 +6216,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T03:07:51Z
 def: "Exhibiting indifference, or suppression of emotions such as concern, excitement, motivation and passion. [wikipedia:Indifference_(emotion)]
 namespace: behavior_ontology
-synonym: impassivity 
-synonym: perfunctoriness 
+synonym: "" EXACT []
+synonym: "" EXACT []
 xref: HP:0000741
 
 [Term]
@@ -6256,8 +6256,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T03:42:46Z
 def: "Loss of information already encoded and stored in an individual's long term memory. [wikipedia:Forgetting]
 namespace: behavior_ontology
-synonym: pathological forgetting 
-synonym: retention loss 
+synonym: "pathological" EXACT []
+synonym: "retention" EXACT []
 xref: HP:0000747
 
 [Term]
@@ -6290,7 +6290,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T03:54:02Z
 def: "A form of hallucination that involves perceiving images without visual stimulus. [NBO:GVG]
 namespace: behavior_ontology
-synonym: paracusia 
+synonym: "" EXACT []
 xref: HP:0008765
 
 [Term]
@@ -6317,7 +6317,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T03:58:15Z
 def: "A form of hallucination that involves perceiving odors without odor stimulus. [NBO:GVG]
 namespace: behavior_ontology
-synonym: phantosmia  
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000612
@@ -6327,7 +6327,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T04:39:42Z
 def: "A social behavior related to the activity of conveying information. [wikipedia:Communication]
 namespace: behavior_ontology
-synonym: communicating 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000613
@@ -6337,8 +6337,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T04:40:59Z
 def: "Communication behavior related to the process of conveying meaning in the form of non-word messages through for example gesture, body language or posture; facial expression and eye contact etc. [wikipedia:.wikipedia.org/wiki/Nonverbal_communication]
 namespace: behavior_ontology
-synonym: non-verbal communication behaviour 
-synonym: nonverbal communication behaviour 
+synonym: "non-verbal communication" EXACT []
+synonym: "nonverbal communication" EXACT []
 
 [Term]
 id: NBO:0000614
@@ -6384,7 +6384,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-14T04:52:56Z
 def: "The behavior in which an organism sheds tears, often accompanied by non-verbal vocalizations and in response to external or internal stimuli. [NBO:GVG]
 namespace: behavior_ontology
-synonym: crying behaviour 
+synonym: "crying" EXACT []
 xref: GO:0060273
 
 [Term]
@@ -6453,7 +6453,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-19T10:52:50Z
 def: "Behavior associated with interactions which resemble sexual behavior but do not lead to copulation. [web:http\\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Sex%20Play.html]
 namespace: behavior_ontology
-synonym: love play 
+synonym: "love" EXACT []
 
 [Term]
 id: NBO:0000627
@@ -6521,8 +6521,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-19T02:02:11Z
 def: "Aggressive behavior related to the defence of a fixed area against intruders, typically conspecifics. [GOC:hjd]
 namespace: behavior_ontology
-synonym: territorial aggression 
-synonym: territorial aggressive behaviour 
+synonym: "territorial" EXACT []
+synonym: "territorial aggressive" EXACT []
 xref: GO:0002124
 
 [Term]
@@ -6554,8 +6554,8 @@ created_by: George Gkoutos
 creation_date: 2011-04-19T03:49:55Z
 def: "Behavior related to the activity seen in animals exposed to potential danger in which they exhibit the tendency to act defensively. [NBO:SD]
 namespace: behavior_ontology
-synonym: defense 
-synonym: defensive behaviour 
+synonym: "" EXACT []
+synonym: "defensive" EXACT []
 
 [Term]
 id: NBO:0000637
@@ -6565,7 +6565,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-21T08:40:33Z
 def: "The actions or reactions of a male, for the purpose of attracting a sexual partner. [GOC:bf]
 namespace: behavior_ontology
-synonym: male courtship behaviour 
+synonym: "male courtship" EXACT []
 xref: GO:0008049
 
 [Term]
@@ -6576,7 +6576,7 @@ created_by: George Gkoutos
 creation_date: 2011-04-21T08:42:23Z
 def: "The actions or reactions of a female, for the purpose of attracting a sexual partner. [GOC:bf]
 namespace: behavior_ontology
-synonym: female courtship behaviour 
+synonym: "female courtship" EXACT []
 xref: GO:0008050
 
 [Term]
@@ -6613,7 +6613,7 @@ created_by: George Gkoutos
 creation_date: 2011-05-27T11:42:33Z
 def: "Two or more unprovoked recurrent seizures. [NBO:GVG]
 namespace: behavior_ontology
-synonym: unprovoked seizure 
+synonym: "unprovoked" EXACT []
 xref: HP:0001275
 
 [Term]
@@ -6642,7 +6642,7 @@ created_by: George Gkoutos
 creation_date: 2011-05-27T11:59:40Z
 def: "A rapid and repeated body muscle contract that results in an uncontrolled shaking of the body. [NBO:GVG]
 namespace: behavior_ontology
-synonym: fit 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000646
@@ -6653,8 +6653,8 @@ creation_date: 2011-05-27T12:49:09Z
 comment: Partial seizures begin with an electrical discharge in one limited area of the brain.
 def: "A seizure which affect only a part of the brain at onset. [wikipedia:http\\://en.wikipedia.org/wiki/Focal_seizures]
 namespace: behavior_ontology
-synonym: focal seizure 
-synonym: localized seizure 
+synonym: "focal" EXACT []
+synonym: "localized" EXACT []
 xref: HP:0007359
 
 [Term]
@@ -6676,8 +6676,8 @@ created_by: George Gkoutos
 creation_date: 2011-05-27T12:59:01Z
 def: "A seizure that is associated with bilateral cerebral hemisphere involvement and causes impairment of awareness or responsiveness, i.e. loss of consciousness. [wikipedia:http\\://en.wikipedia.org/wiki/Complex_partial_seizures]
 namespace: behavior_ontology
-synonym: psychomotor seizure 
-synonym: temporal lobe seizure 
+synonym: "psychomotor" EXACT []
+synonym: "temporal lobe" EXACT []
 xref: HP:0002384
 xref: MP:0002195
 
@@ -6697,7 +6697,7 @@ created_by: George Gkoutos
 creation_date: 2011-05-27T02:42:59Z
 def: "A type of focal epilepsy characterized by recurrent seizures. [NBO:http\\://en.wikipedia.org/wiki/Temporal_lobe_epilepsy]
 namespace: behavior_ontology
-synonym: psychomotor epilepsy 
+synonym: "psychomotor" EXACT []
 
 [Term]
 id: NBO:0000651
@@ -6707,8 +6707,8 @@ created_by: George Gkoutos
 creation_date: 2011-05-27T02:50:59Z
 def: "A simple partial seizure affecting the kinesthetic behavior. [NBO:GVG]
 namespace: behavior_ontology
-synonym: focal clonic seizure 
-synonym: motor seizure 
+synonym: "focal clonic" EXACT []
+synonym: "motor" EXACT []
 xref: HP:0002266
 
 [Term]
@@ -6720,8 +6720,8 @@ creation_date: 2011-05-27T02:51:16Z
 comment: Some simple partial seizures consist of a sensory experience. The person may see lights, hear a buzzing sound, or feel tingling or numbness in a part of the body.
 def: "A simple partial seizure affecting any of the five senses -- vision, touch, smell, taste, and hearing. [NBO:GVG]
 namespace: behavior_ontology
-synonym: Jacksonian sensory seizure 
-synonym: sensory seizure 
+synonym: "Jacksonian sensory" EXACT []
+synonym: "sensory" EXACT []
 
 [Term]
 id: NBO:0000653
@@ -6732,8 +6732,8 @@ creation_date: 2011-05-27T02:51:31Z
 comment: These seizures are accompanied by autonomic symptoms or signs, such as abdominal discomfort or nausea which may rise into the throat (epigastric rising), stomach pain, the rumbling sounds of gas moving in the intestines (borborygmi), belching, flatulence and vomiting. Other symptoms may include pallor, flushing, sweating, hair standing on end (piloerection), dilation of the pupils, alterations in heart rate and respiration, and urination. A few people may experience sexual arousal, penile erection, and orgasm.
 def: "A simple partial seizure affecting the part of the nervous system that automatically controls bodily functions. [NBO:GVG]
 namespace: behavior_ontology
-synonym: abdominal epilepsy 
-synonym: autonomic seizure 
+synonym: "abdominal" EXACT []
+synonym: "autonomic" EXACT []
 
 [Term]
 id: NBO:0000654
@@ -6744,9 +6744,9 @@ creation_date: 2011-05-27T02:51:48Z
 comment: Simple partial seizures which arise in or near the temporal lobes often take the form of an odd experience. One may see or hear things that are not there. One feels emotions, often fear, but sometimes sadness, anger, or joy. There may be a bad smell or a bad taste, a funny feeling in the pit of the stomach or a choking sensation.
 def: "A simple partial seizure affecting the emotional behavior. [NBO:GVG]
 namespace: behavior_ontology
-synonym: psychic seizure 
-synonym: simple partial seizures of temporal lobe origin 
-synonym: temporal lobe auras 
+synonym: "psychic" EXACT []
+synonym: "simple partial seizures of temporal lobe" EXACT []
+synonym: "temporal lobe" EXACT []
 
 [Term]
 id: NBO:0000655
@@ -6820,7 +6820,7 @@ creation_date: 2011-05-27T03:46:46Z
 comment: Primary generalized seizures begin with a widespread electrical discharge that involves both sides of the brain at once.
 def: "A seizure which affect the whole of the brain at onset. [NBO:GVG]
 namespace: behavior_ontology
-synonym: primarily generalized seizure 
+synonym: "primarily generalized" EXACT []
 xref: HP:0002197
 
 [Term]
@@ -6880,7 +6880,7 @@ created_by: George Gkoutos
 creation_date: 2011-05-27T03:54:48Z
 def: "An absence seizure is a brief (usually less that 20 seconds), generalized epileptic seizure of sudden onset and termination. [wikipedia:http\\://en.wikipedia.org/wiki/Absence_seizure]
 namespace: behavior_ontology
-synonym: petit mal seizure 
+synonym: "petit mal" EXACT []
 xref: HP:0002121
 xref: MP:0003216
 
@@ -6892,9 +6892,9 @@ created_by: George Gkoutos
 creation_date: 2011-05-27T03:57:35Z
 def: "A type of generalized seizure that consist of a brief lapse in muscle tone that are caused by temporary alterations in brain function. [wikipedia:http\\://en.wikipedia.org/wiki/Atonic_seizure]
 namespace: behavior_ontology
-synonym:  akinetic seizure 
-synonym: drop attack 
-synonym: drop seizure 
+synonym: "akinetic" EXACT []
+synonym: "drop" EXACT []
+synonym: "drop" EXACT []
 xref: HP:0010819
 
 [Term]
@@ -6906,7 +6906,7 @@ creation_date: 2011-05-27T04:52:23Z
 comment: Symmetric jerking of the extremities.
 def: "A type of seizure that is characterised by a very brief symmetric alternating contraction and relaxation of a muscle or a group of muscles. [NBO:GVG]
 namespace: behavior_ontology
-synonym: myoclonus 
+synonym: "" EXACT []
 xref: HP:0001336
 xref: HP:0002123
 xref: MP:0000243
@@ -6930,7 +6930,7 @@ created_by: George Gkoutos
 creation_date: 2011-05-27T04:55:32Z
 def: "A type of epilepsy characterised by myoclonic seizures usually involving the neck, shoulders, and upper arms. [NBO:GVG]
 namespace: behavior_ontology
-synonym: Janz syndrome 
+synonym: "Janz" EXACT []
 
 [Term]
 id: NBO:0000674
@@ -6949,8 +6949,8 @@ created_by: George Gkoutos
 creation_date: 2011-05-28T11:07:41Z
 def: "A type of seizure generated by sudden sensor stimulation caused by the environment. [NBO:GVG]
 namespace: behavior_ontology
-synonym: environmental epilepsy 
-synonym: reflex epilepsy 
+synonym: "environmental" EXACT []
+synonym: "reflex" EXACT []
 xref: MP:0009358
 
 [Term]
@@ -6962,8 +6962,8 @@ creation_date: 2011-05-27T05:03:11Z
 comment: The seizures are divided into two phases, the tonic phase and the clonic phase, hence the name of the seizure, though a tonic clonic seizure will often be preceded by an aura.
 def: "A type of generalized seizure characterised by a combination of tonic stiffening (extensions) followed by clonic flexion motions. [NBO:GVG]
 namespace: behavior_ontology
-synonym: gran mal seizure 
-synonym: grand mal seizure 
+synonym: "gran mal" EXACT []
+synonym: "grand mal" EXACT []
 xref: HP:0002069
 xref: MP:0003997
 
@@ -6986,8 +6986,8 @@ created_by: George Gkoutos
 creation_date: 2011-05-27T05:13:26Z
 def: "A type of seizure associated with a significant rise in body temperature. [wikpedia:http\\://en.wikipedia.org/wiki/Febrile_seizure]
 namespace: behavior_ontology
-synonym: febrile convulsion 
-synonym: fever fit 
+synonym: "febrile" EXACT []
+synonym: "fever" EXACT []
 xref: HP:0002373
 
 [Term]
@@ -7016,7 +7016,7 @@ created_by: George Gkoutos
 creation_date: 2011-05-27T05:24:49Z
 def: "Benign rolandic epilepsy is characterized by either simple partial seizures involving the mouth and face or generalized tonic-clonic seizures. [wikipedia:http\\://en.wikipedia.org/wiki/Rolandic_epilepsy]
 namespace: behavior_ontology
-synonym: benign (childhood) epilepsy with centrotemporal (EEG) spikes 
+synonym: "benign (childhood) epilepsy with centrotemporal (EEG)" EXACT []
 
 [Term]
 id: NBO:0000682
@@ -7026,7 +7026,7 @@ created_by: George Gkoutos
 creation_date: 2011-05-27T05:30:25Z
 def: "A temporal lobe epilepsy arises in the hippocampus, parahippocampal gyrus and amygdala which are located in the inner aspect of the temporal lobe. [wikipedia:http\\://en.wikipedia.org/wiki/Temporal_lobe_epilepsy]
 namespace: behavior_ontology
-synonym: MTLE 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000683
@@ -7036,7 +7036,7 @@ created_by: George Gkoutos
 creation_date: 2011-05-27T05:31:27Z
 def: "A temporal lobe epilepsy arises in the neocortex on the outer surface of the temporal lobe of the brain. [wikipedia:http\\://en.wikipedia.org/wiki/Temporal_lobe_epilepsy]
 namespace: behavior_ontology
-synonym: LTLE 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000684
@@ -7045,7 +7045,7 @@ is_a: NBO:0000642 ! epilepsy
 created_by: George Gkoutos
 creation_date: 2011-05-27T05:32:59Z
 namespace: behavior_ontology
-synonym: pyknolepsy 
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000685
@@ -7063,7 +7063,7 @@ created_by: George Gkoutos
 creation_date: 2011-05-27T05:47:13Z
 def: "Paroxysmal events that mimic an epileptic seizure but do not involve abnormal, rhythmic discharges of cortical neurons. [wikipedia:http\\://en.wikipedia.org/wiki/Non-epileptic_seizure]
 namespace: behavior_ontology
-synonym: non-epileptic seizure 
+synonym: "non-epileptic" EXACT []
 
 [Term]
 id: NBO:0000687
@@ -7073,8 +7073,8 @@ created_by: George Gkoutos
 creation_date: 2011-05-27T05:50:08Z
 def: "A type of seizure of psychological origin that superficially resembles an epileptic seizure, but without the characteristic electrical discharges associated with epilepsy. [wikipedia:http\\://en.wikipedia.org/wiki/Psychogenic_non-epileptic_seizures]
 namespace: behavior_ontology
-synonym: non-epileptic attack disorder 
-synonym: PNES 
+synonym: "non-epileptic attack" EXACT []
+synonym: "" EXACT []
 
 [Term]
 id: NBO:0000688
@@ -7181,7 +7181,7 @@ created_by: George Gkoutos
 creation_date: 2011-05-28T11:11:25Z
 def: "A type of reflex seizure caused by visual stimuli that form patterns in time or space, such as flashing lights, bold, regular patterns, or regular moving patterns. [wikipedia:http\\://en.wikipedia.org/wiki/Photosensitive_epilepsy]
 namespace: behavior_ontology
-synonym: photosensitive epilepsy 
+synonym: "photosensitive" EXACT []
 
 [Term]
 id: NBO:0000700
@@ -7192,7 +7192,7 @@ created_by: George Gkoutos
 creation_date: 2011-05-28T11:12:23Z
 def: "A type of seizure induced by exposure to an auditory stimulus. [NBO:GVG]
 namespace: behavior_ontology
-synonym: auditory stimulation induced seizure 
+synonym: "auditory stimulation induced" EXACT []
 xref: MP:0001496
 
 [Term]
@@ -7468,7 +7468,7 @@ created_by: George Gkoutos
 creation_date: 2011-05-28T05:51:10Z
 def: "A simple partial seizure affecting the kinesthetic behavior of one side of the body. [NBO:GVG]
 namespace: behavior_ontology
-synonym: unilateral clonic seizure 
+synonym: "unilateral clonic" EXACT []
 xref: HP:0006813
 
 [Term]
@@ -7498,13 +7498,13 @@ created_by: George Gkoutos
 creation_date: 2011-05-28T06:47:31Z
 def: "A type of epileptic seizures occurring in infants and characterised by clusters of myoclonic spasms. [NBO:GVG]
 namespace: behavior_ontology
-synonym: Generalized Flexion Epilepsy 
-synonym: Infantile Epileptic Encephalopathy 
-synonym: Infantile Myoclonic Encephalopathy 
-synonym: jackknife convulsions 
-synonym: Massive Myoclonia 
-synonym: Salaam spasms 
-synonym: West syndrome 
+synonym: "Generalized Flexion" EXACT []
+synonym: "Infantile Epileptic" EXACT []
+synonym: "Infantile Myoclonic" EXACT []
+synonym: "jackknife" EXACT []
+synonym: "Massive" EXACT []
+synonym: "Salaam" EXACT []
+synonym: "West" EXACT []
 xref: HP:0002391
 xref: HP:0011097
 
@@ -7546,7 +7546,7 @@ created_by: George Gkoutos
 creation_date: 2011-05-28T11:12:42Z
 def: "A type of epilepsy that is characterised a sudden burst of energy, usually in the form of laughing. [NBO:GVG]
 namespace: behavior_ontology
-synonym: gelastic seizure 
+synonym: "gelastic" EXACT []
 xref: HP:0010821
 
 [Term]
@@ -7557,7 +7557,7 @@ created_by: George Gkoutos
 creation_date: 2011-05-28T11:18:45Z
 def: "A type of epilepsy that is characterised a sudden paroxysmal crying. [NBO:<new dbxref>, NBO:GVG]
 namespace: behavior_ontology
-synonym: dacrystic seizure 
+synonym: "dacrystic" EXACT []
 xref: HP:0010820
 
 [Term]
@@ -8563,6 +8563,7 @@ name: is_about
 [Typedef]
 id: qualifier
 name: qualifier
+
 
 
 

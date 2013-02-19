@@ -5,6 +5,8 @@ b = b.replaceAll("property_value: creation:date", "creation_date:")
 b = b.replaceAll("property_value: http://purl.obolibrary.org/obo/namespace","namespace:")
 b = b.replaceAll("property_value: http://purl.obolibrary.org/obo/synonym","synonym:")
 b = b.replaceAll("property_value: http://purl.obolibrary.org/obo/comment","comment:")
+b = b.replaceAll("property_value: http://purl.org/dc/elements/1.1/date","date:")
+b = b.replaceAll("property_value: note","note:")
 b = b.replaceAll("property_value: alt:id","alt_id:")
 b = b.replaceAll("property_value: \"note\"","!property_value: \"note\"")
 b = b.replaceAll("property_value: is:obsolete \"true\"","is_obsolete: true")
@@ -27,6 +29,12 @@ b.eachLine { line ->
     line = line.substring(0,line.lastIndexOf(" "))
     def val = line.substring(line.indexOf(":")+1).trim()
     line = "synonym: \"$val\" EXACT []"
+  }
+  if (line.startsWith("owl-axioms:")) {
+    line = ""
+  }
+  if (line.startsWith("import:")) {
+    line = "!$line"
   }
   line = line.trim()
   a += line+"\n"

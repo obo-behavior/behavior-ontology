@@ -103,11 +103,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_00000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_00000050"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/inheres_in -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/inheres_in">
         <rdfs:label xml:lang="en">inheres_in</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi#has_role -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/chebi#has_role"/>
     
 
 
@@ -186,7 +198,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000001">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body part movement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000403"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>stationary movement</oboInOwl:hasExactSynonym>
@@ -199,7 +211,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000002">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">whole body movement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000403"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
@@ -339,9 +351,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000013">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotory behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000002"/>
-        <obo:IAO_0000115>&quot;Behavior associated with the specific movement from place to place of an organism.&quot; [GO:0007626]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:xref>GO:0008344</oboInOwl:xref>
+        <obo:IAO_0000115>Movement from place to place of an organism.&quot; [GO:0007626]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:xref>GO:0007626</oboInOwl:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -521,10 +533,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000027">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grooming behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;Behavior related to the cleaning or maintainance of one&apos;s body or appearance.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:xref>GO:0007625</oboInOwl:xref>
         <oboInOwl:hasExactSynonym>grooming behaviour</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>&quot;Cleaning or maintainance behavior of one&apos;s body or appearance.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
@@ -687,7 +699,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000039">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of defecation</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000038"/>
-        <obo:IAO_0000115>&quot;The expulsion of feces from the rectum.&quot; [wikipedia:defecation]</obo:IAO_0000115>
+        <obo:IAO_0000115>&quot;The behavioral control of defecation.&quot; [wikipedia:defecation]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -1040,7 +1052,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000068">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shaking</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
-        <obo:IAO_0000115>&quot;Movement of a body part on a horizontal plain.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>&quot;Repetitive movement of a body part.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -4631,7 +4643,7 @@
         <dc:date>2011-04-05T02:08:47Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:IAO_0000115>&quot;Behavior related to the movement of the body&apos;s muscles, tendons, and joints.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>&quot;Movement behavior of the body or its parts.&quot;</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -6102,7 +6114,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000446">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visual pursuit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000444"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
         <dc:date>2011-04-08T12:25:53Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Selectively track a moving object.&quot; [NBO:GVG]</obo:IAO_0000115>
@@ -6114,10 +6126,17 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000447 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000447">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotor activation</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000403"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotor activation behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_00000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:IAO_0000115>Activation of locomotory behavior.</obo:IAO_0000115>
         <dc:date>2011-04-08T12:27:51Z</dc:date>
     </owl:Class>
     
@@ -6138,8 +6157,9 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000449 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000449">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spontaneous movement</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000447"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spontaneous movement behavior</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
+        <obo:IAO_0000115>Kinesthetic behavior initiated in the absence of specific sensory input.</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-08T12:28:25Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -6555,16 +6575,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000481">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sleep state misperception</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000476"/>
+        <oboInOwl:hasExactSynonym>SSM</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-08T02:31:33Z</dc:date>
-        <oboInOwl:hasExactSynonym> pseudo-insomnia</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>paradoxical insomnia</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>SSM</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;A dyssomnia characterized by a mistakenly perception of one&apos;s sleep as wakefulness.&quot; [wikipedia:Sleep_state_misperception]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>sleep hypochondriasis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>subjective insomnia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>subjective sleepiness</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>subjective insomnia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym> pseudo-insomnia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>paradoxical insomnia</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -6696,8 +6716,8 @@
         <oboInOwl:hasExactSynonym>non-24-hour sleep-wake disorder</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>non-24</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>&quot;A circadian rhythm sleep disorder which the affected individual&apos;s sleep occurs later and later each day, with the period of peak alertness also continuously moving around the clock from day to day.&quot; [wikipedia:Circadian_rhythm_sleep_disorder]</obo:IAO_0000115>
         <dc:date>2011-04-08T03:11:40Z</dc:date>
+        <obo:IAO_0000115>&quot;A circadian rhythm sleep disorder which the affected individual&apos;s sleep occurs later and later each day, with the period of peak alertness also continuously moving around the clock from day to day.&quot; [wikipedia:Circadian_rhythm_sleep_disorder]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>circadian rhythm sleep disorder, free running type</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>circadian rhythm sleep disorder, nonentrained type</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -8435,7 +8455,6 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000618">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crying behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000036"/>
         <oboInOwl:hasExactSynonym>crying behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0060273</oboInOwl:xref>
         <obo:namespace>behavior_ontology</obo:namespace>

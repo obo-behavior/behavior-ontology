@@ -40,27 +40,66 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="&obo;synonymtype"/>
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym"/>
-    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
-    <owl:AnnotationProperty rdf:about="&owl;deprecated"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
     <owl:AnnotationProperty rdf:about="&obo;IAO_0000115"/>
-    <owl:AnnotationProperty rdf:about="&obo;namespace"/>
-    <owl:AnnotationProperty rdf:about="&dc;date"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/created_by -->
+
     <owl:AnnotationProperty rdf:about="&obo;created_by"/>
-    <owl:AnnotationProperty rdf:about="&oboInOwl;xref"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/namespace -->
+
+    <owl:AnnotationProperty rdf:about="&obo;namespace"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/synonymtype -->
+
+    <owl:AnnotationProperty rdf:about="&obo;synonymtype"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="&dc;date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
     <owl:AnnotationProperty rdf:about="&oboInOwl;hasAlternativeId"/>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#xref -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;xref"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#deprecated -->
+
+    <owl:AnnotationProperty rdf:about="&owl;deprecated"/>
     
 
 
@@ -80,6 +119,12 @@
     <owl:ObjectProperty rdf:about="&obo;inheres_in">
         <rdfs:label xml:lang="en">inheres_in</rdfs:label>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi#has_role -->
+
+    <owl:ObjectProperty rdf:about="&obo;chebi#has_role"/>
     
 
 
@@ -688,7 +733,6 @@
     <!-- http://purl.obolibrary.org/obo/GO_0030431 -->
 
     <rdf:Description rdf:about="&obo;GO_0030431">
-        <rdfs:subClassOf rdf:resource="&obo;GO_0007610"/>
         <rdfs:subClassOf rdf:resource="&obo;GO_0044707"/>
     </rdf:Description>
     
@@ -1086,8 +1130,8 @@
     <owl:Class rdf:about="&obo;NBO_0000003">
         <rdfs:label rdf:datatype="&xsd;string">emotional behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000313"/>
-        <dc:date>2011-04-14T01:03:39Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <dc:date>2011-04-14T01:03:39Z</dc:date>
         <obo:IAO_0000115>&quot;Behavior related to the complex psychophysiological experience of an individual&apos;s state of mind as interacting with biochemical (internal) and environmental (external) influences.&quot; [wikipedia:Emotions]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>mood</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>affective behaviour</oboInOwl:hasExactSynonym>
@@ -1095,13 +1139,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>affective behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>mood</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000003"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>mood</owl:annotatedTarget>
+        <owl:annotatedTarget>affective behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000003"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -1134,8 +1178,8 @@
         <rdfs:label rdf:datatype="&xsd;string">learning and/or memory behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000607"/>
         <oboInOwl:hasExactSynonym>learning and/or memory behaviour</oboInOwl:hasExactSynonym>
-        <dc:date>2011-04-14T01:03:39Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <dc:date>2011-04-14T01:03:39Z</dc:date>
         <obo:IAO_0000115>&quot;Behavior related to the acquisition and processing of information and/or the storage and retrieval of this information over time.&quot; [GO:jic]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:xref>GO:0007611</oboInOwl:xref>
@@ -1155,8 +1199,8 @@
         <rdfs:label rdf:datatype="&xsd;string">mouth movement</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000001"/>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
 
@@ -1314,15 +1358,9 @@
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>agonism</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>&quot;A behavioral interaction between organisms in which one organism has the intention of inflicting damage on another individual using physical or verbal means.&quot; [wikipedia:Aggression]</obo:IAO_0000115>
-        <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>aggression</oboInOwl:hasExactSynonym>
+        <dc:date>2011-04-14T01:03:39Z</dc:date>
     </owl:Class>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>aggression</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000015"/>
-        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
-    </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>agonism</owl:annotatedTarget>
@@ -1332,6 +1370,12 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>aggressive behaviour</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000015"/>
+        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>aggression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000015"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -1450,15 +1494,9 @@
         <rdfs:label rdf:datatype="&xsd;string">sleeping behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0030431"/>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000008"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;nbo#is_about"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0030431"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>&quot;Behavior related to the readily reversible state of reduced awareness and metabolic activity that occurs periodically in many animals.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:xref>GO:0030431</oboInOwl:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
@@ -1511,8 +1549,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000313"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:xref>GO:0007625</oboInOwl:xref>
-        <obo:IAO_0000115>&quot;Cleaning or maintainance behavior of one&apos;s body or appearance.&quot; [NBO:GVG]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>grooming behaviour</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>&quot;Cleaning or maintainance behavior of one&apos;s body or appearance.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
@@ -1531,8 +1569,8 @@
         <rdfs:label rdf:datatype="&xsd;string">akinesia</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000009"/>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <dc:date>2011-04-14T12:59:27Z</dc:date>
         <obo:IAO_0000115>&quot;Absence of voluntary movement.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <dc:date>2011-04-14T12:59:27Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
@@ -1544,8 +1582,8 @@
         <rdfs:label rdf:datatype="&xsd;string">bradykinesia</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000009"/>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <oboInOwl:hasExactSynonym>hypokinesia</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <oboInOwl:hasExactSynonym>hypokinesia</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <obo:IAO_0000115>&quot;Reduction of voluntary movement.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
@@ -1624,8 +1662,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000010"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Behaviour related to the activity which primary purpose is the sexual reproduction.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
 
@@ -1696,8 +1734,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;GO_0007588"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:xref>GO:0007588</oboInOwl:xref>
         <obo:IAO_0000115>&quot;The elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds.&quot; [wikipedia:Excretion]</obo:IAO_0000115>
@@ -1767,12 +1805,12 @@
                 <owl:someValuesFrom rdf:resource="&obo;UBERON_0001256"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:xref>GO:0060073</oboInOwl:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;The regulation of body fluids process by which parasympathetic nerves stimulate the bladder wall muscle to contract and expel urine from the body.&quot; [wikipedia:urination]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>micturition</oboInOwl:hasExactSynonym>
-        <dc:date>2011-04-14T01:03:39Z</dc:date>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -1834,14 +1872,14 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000041"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;nbo#by_means"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001817"/>
+                <owl:onProperty rdf:resource="&obo;nbo#is_about"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0070075"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;nbo#is_about"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0070075"/>
+                <owl:onProperty rdf:resource="&obo;nbo#by_means"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0001817"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
@@ -1885,8 +1923,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000011"/>
         <obo:IAO_0000115>&quot;Behavior of a parent towards their offspring.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:xref>GO:0060746</oboInOwl:xref>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
     </owl:Class>
     
@@ -1912,8 +1950,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000079"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>weaning behaviour</oboInOwl:hasExactSynonym>
+        <dc:date>2011-04-14T01:03:39Z</dc:date>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -1931,8 +1969,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000044"/>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000636"/>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;Behavior related the protection of offspring.&quot; [NBO:SD]</obo:IAO_0000115>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
     </owl:Class>
     
@@ -1991,8 +2029,8 @@
         <rdfs:label rdf:datatype="&xsd;string">basking behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000051"/>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
 
@@ -2002,8 +2040,8 @@
     <owl:Class rdf:about="&obo;NBO_0000054">
         <rdfs:label rdf:datatype="&xsd;string">suckling behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000079"/>
-        <oboInOwl:hasExactSynonym>suckling behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>nursing behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>suckling behaviour</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:xref>GO:0001967</oboInOwl:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -2031,8 +2069,8 @@
     <owl:Class rdf:about="&obo;NBO_0000055">
         <rdfs:label rdf:datatype="&xsd;string">running behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000359"/>
-        <obo:IAO_0000115>&quot;Behavior related to rapid surface locomotion.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <obo:IAO_0000115>&quot;Behavior related to rapid surface locomotion.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
@@ -2163,8 +2201,8 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;nbo.owl/NBO_0002436"/>
-        <oboInOwl:xref>GO:0042756</oboInOwl:xref>
         <oboInOwl:hasExactSynonym>drinking behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:xref>GO:0042756</oboInOwl:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -2223,8 +2261,8 @@
     <owl:Class rdf:about="&obo;NBO_0000068">
         <rdfs:label rdf:datatype="&xsd;string">shaking</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000001"/>
-        <dc:date>2011-04-14T01:20:02Z</dc:date>
         <obo:IAO_0000115>&quot;Repetitive movement of a body part.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <dc:date>2011-04-14T01:20:02Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
@@ -2248,8 +2286,8 @@
     <owl:Class rdf:about="&obo;NBO_0000070">
         <rdfs:label rdf:datatype="&xsd;string">tilting</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000002"/>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
     </owl:Class>
     
@@ -2313,8 +2351,8 @@
         <rdfs:label rdf:datatype="&xsd;string">playing behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000313"/>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;Behavior performed in the absence of normal stimuli or behavior elicited by normal stimuli but not followed to the completion of the ritualized behavior pattern.&quot; [britannica:http\://www.britannica.com/EBchecked/topic/464349/play]</obo:IAO_0000115>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
     </owl:Class>
     
@@ -2327,21 +2365,21 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000075"/>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:hasExactSynonym>exercise</oboInOwl:hasExactSynonym>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;Play behavior which serves to improve motor skills and physical conditioning.&quot; [web:http\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Locomotor%20Play.html]</obo:IAO_0000115>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <oboInOwl:hasExactSynonym>motor development playing behaviour</oboInOwl:hasExactSynonym>
         <rdfs:comment>Many different actions are included in locomotor play. Some of the actions include a vertical leap, running in circles, chasing an animals own tail, lolloping, bouncing, bucking, rolling, whirling, dangling, spinning, back flips, hand stands, somersaults, and hanging upside down. The vertical leap is seen in mammals like in primates, hares, and mice. Along with running and bouncing, the vertical leap is important for strengthening leg muscles for self defense, escaping, or chasing. Activities like dangling and hanging upside down are important for improving climbing ability. These many different examples of locomotor play are important in strengthening muscles and improving motor skills. By participating in locomotor play, individuals will be able to improve skills like fighting, hunting, fleeing, and climbing.</rdfs:comment>
+        <oboInOwl:hasExactSynonym>motor development playing behaviour</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>motor development playing behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>exercise</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000076"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>exercise</owl:annotatedTarget>
+        <owl:annotatedTarget>motor development playing behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000076"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -2357,8 +2395,8 @@
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;The behavioral interactions between organisms for the purpose of attracting sexual partners.&quot; [GOC:dph]</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>courtship behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007619</oboInOwl:xref>
+        <oboInOwl:hasExactSynonym>courtship behaviour</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -2377,11 +2415,11 @@
         <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <obo:IAO_0000115>&quot;Behavior related to the specific actions or reactions of an organism following mating.&quot; [GOC:bf]</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId>NBO:0000325</oboInOwl:hasAlternativeId>
         <oboInOwl:xref>GO:0045297</oboInOwl:xref>
+        <oboInOwl:hasAlternativeId>NBO:0000325</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym>post-mating behaviour</oboInOwl:hasExactSynonym>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>post mating behaviour</oboInOwl:hasExactSynonym>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -2531,8 +2569,8 @@
     <owl:Class rdf:about="&obo;NBO_0000086">
         <rdfs:label rdf:datatype="&xsd;string">novelty response behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000003"/>
-        <obo:IAO_0000115>&quot;Behavior related to the exploration/investigation of a novel object, situation or environment.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
+        <obo:IAO_0000115>&quot;Behavior related to the exploration/investigation of a novel object, situation or environment.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
@@ -2559,8 +2597,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000087"/>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000470"/>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:IAO_0000115>&quot;Behavior related to the preparation of the body to \&quot;fight\&quot; or \&quot;flee\&quot; from perceived attack, harm or threat.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:IAO_0000115>&quot;Behavior related to the preparation of the body to \&quot;fight\&quot; or \&quot;flee\&quot; from perceived attack, harm or threat.&quot; [NBO:GVG]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>fight-or-flight response</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>fight-or-flight-or-freeze response</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
@@ -2588,21 +2626,21 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000235"/>
         <oboInOwl:xref>GO:0002120</oboInOwl:xref>
         <obo:IAO_0000115>&quot;A physical aggression behavior involving attack on prey by a predator.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>predatory aggressive behaviour</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
+        <oboInOwl:hasExactSynonym>predatory aggressive behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>predatory aggression</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>predatory aggression</owl:annotatedTarget>
+        <owl:annotatedTarget>predatory aggressive behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000089"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>predatory aggressive behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>predatory aggression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000089"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -2627,10 +2665,10 @@
         <rdfs:label rdf:datatype="&xsd;string">fear-related behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000018"/>
         <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness triggered by a specified triggering stimulus such as pain or the threat of danger.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>fear-related behaviour</oboInOwl:hasExactSynonym>
         <dc:date>2011-03-31T10:00:42Z</dc:date>
-        <obo:created_by>George Gkoutos</obo:created_by>
+        <oboInOwl:hasExactSynonym>fear-related behaviour</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -2760,8 +2798,8 @@
     <owl:Class rdf:about="&obo;NBO_0000100">
         <rdfs:label rdf:datatype="&xsd;string">exploration behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000097"/>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:xref>GO:0035640</oboInOwl:xref>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-03-31T10:28:39Z</dc:date>
     </owl:Class>
@@ -2835,8 +2873,8 @@
         <rdfs:label rdf:datatype="&xsd;string">aggressive behavior towards animals</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000740"/>
         <dc:date>2011-03-31T10:51:12Z</dc:date>
-        <oboInOwl:hasExactSynonym>aggressive behavior towards animals</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <oboInOwl:hasExactSynonym>aggressive behavior towards animals</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>&quot;Exhibiting a domineering, assault posture and/or hostile physical action towards animals.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
@@ -2854,8 +2892,8 @@
     <owl:Class rdf:about="&obo;NBO_0000106">
         <rdfs:label rdf:datatype="&xsd;string">aggressive behavior towards objects</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000740"/>
-        <obo:IAO_0000115>&quot;Exhibiting a domineering, assault posture and/or hostile physical action toward any type of object.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:51:33Z</dc:date>
+        <obo:IAO_0000115>&quot;Exhibiting a domineering, assault posture and/or hostile physical action toward any type of object.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>aggressive behavior towards objects</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -2918,8 +2956,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000118"/>
         <oboInOwl:hasExactSynonym>aggressive behavior towards men</oboInOwl:hasExactSynonym>
         <dc:date>2011-03-31T10:52:26Z</dc:date>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Exhibiting a domineering, assault posture and/or hostile physical action towards men.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
@@ -3018,8 +3056,8 @@
     <owl:Class rdf:about="&obo;NBO_0000114">
         <rdfs:label rdf:datatype="&xsd;string">aggressive behavior towards children</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000104"/>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>aggressive behavior towards children</oboInOwl:hasExactSynonym>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;Exhibiting a domineering, assault posture and/or hostile physical action towards children.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-03-31T10:57:11Z</dc:date>
@@ -3038,8 +3076,8 @@
     <owl:Class rdf:about="&obo;NBO_0000115">
         <rdfs:label rdf:datatype="&xsd;string">aggressive behavior towards pups</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000107"/>
-        <dc:date>2011-03-31T10:58:09Z</dc:date>
         <oboInOwl:hasExactSynonym>aggressive behavior towards pups</oboInOwl:hasExactSynonym>
+        <dc:date>2011-03-31T10:58:09Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Exhibiting a domineering, assault posture and/or hostile physical action towards pups.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -3093,8 +3131,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000116"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;Exhibiting a domineering, assault posture and/or hostile physical action towards male animals.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2011-03-31T11:04:03Z</dc:date>
         <oboInOwl:hasExactSynonym>aggressive behavior towards males</oboInOwl:hasExactSynonym>
+        <dc:date>2011-03-31T11:04:03Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     <owl:Axiom>
@@ -3256,9 +3294,9 @@
     <owl:Class rdf:about="&obo;NBO_0000127">
         <rdfs:label rdf:datatype="&xsd;string">retreat behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000121"/>
-        <oboInOwl:hasExactSynonym>retreat behaviour</oboInOwl:hasExactSynonym>
-        <dc:date>2011-03-31T11:49:03Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <dc:date>2011-03-31T11:49:03Z</dc:date>
+        <oboInOwl:hasExactSynonym>retreat behaviour</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     <owl:Axiom>
@@ -3276,8 +3314,8 @@
         <rdfs:label rdf:datatype="&xsd;string">irritability behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000121"/>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:IAO_0000115>&quot;Behavior characterized by a quick excitability to annoyance, impatience, or anger.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T12:16:00Z</dc:date>
+        <obo:IAO_0000115>&quot;Behavior characterized by a quick excitability to annoyance, impatience, or anger.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
@@ -3307,8 +3345,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;PATO_0000145"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dc:date>2011-03-31T12:40:37Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <dc:date>2011-03-31T12:40:37Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A behavior associated with the intake of liquid.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
@@ -3601,8 +3639,8 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000133"/>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-03-31T12:55:46Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;Purposeful avoidance of alcohol due to dislike.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
@@ -3631,8 +3669,8 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000137"/>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:IAO_0000115>&quot;Predilection to ingest alcohol over other substances.&quot; [NBOC:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T12:56:38Z</dc:date>
+        <obo:IAO_0000115>&quot;Predilection to ingest alcohol over other substances.&quot; [NBOC:GVG]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
@@ -3972,11 +4010,11 @@
                 <owl:someValuesFrom rdf:resource="&obo;GO_0042747"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dc:date>2011-03-31T03:00:57Z</dc:date>
         <oboInOwl:hasExactSynonym> paradoxical sleep</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>REM sleep</oboInOwl:hasExactSynonym>
+        <dc:date>2011-03-31T03:00:57Z</dc:date>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -4034,12 +4072,12 @@
                 <owl:someValuesFrom rdf:resource="&obo;GO_0042748"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>&quot;Behavior related to all sleep stages in the circadian sleep/wake cycle other than REM sleep.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <rdfs:comment>These stages are characterized by a slowing of brain waves and other physiological functions.</rdfs:comment>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <oboInOwl:hasExactSynonym>NREM sleep behavior</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-03-31T03:12:44Z</dc:date>
-        <obo:IAO_0000115>&quot;Behavior related to all sleep stages in the circadian sleep/wake cycle other than REM sleep.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>NREM sleep behavior</oboInOwl:hasExactSynonym>
-        <rdfs:comment>These stages are characterized by a slowing of brain waves and other physiological functions.</rdfs:comment>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -4172,8 +4210,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000084"/>
         <oboInOwl:xref>GO:0007623</oboInOwl:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:IAO_0000115>&quot;Endogenously driven roughly 24-hour cycle in biochemical, physiological, or behavioral processes.&quot; [GOC:bf]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:IAO_0000115>&quot;Endogenously driven roughly 24-hour cycle in biochemical, physiological, or behavioral processes.&quot; [GOC:bf]</obo:IAO_0000115>
         <dc:date>2011-03-31T03:22:26Z</dc:date>
     </owl:Class>
     
@@ -4509,8 +4547,8 @@
         <rdfs:label rdf:datatype="&xsd;string">semantic memory</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000185"/>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:IAO_0000115>&quot;Ability to consciously recall knowledge of facts that are independent of a specific time and place.&quot; [NBO:GVG]</obo:IAO_0000115>
         <rdfs:comment>Medial temporal lobe, diencephalon.</rdfs:comment>
+        <obo:IAO_0000115>&quot;Ability to consciously recall knowledge of facts that are independent of a specific time and place.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-02T07:40:26Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
@@ -4547,13 +4585,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>procedural memory</owl:annotatedTarget>
+        <owl:annotatedTarget>implicit memory</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000188"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>implicit memory</owl:annotatedTarget>
+        <owl:annotatedTarget>procedural memory</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000188"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -4627,8 +4665,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000192"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;Remembering to perform an intended action in respect to a particular time reference.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-02T08:19:37Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
 
@@ -4742,8 +4780,8 @@
         <rdfs:label rdf:datatype="&xsd;string">semantic priming</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000200"/>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <dc:date>2011-04-02T08:56:35Z</dc:date>
         <obo:IAO_0000115>&quot;A type of priming where the prime and the target are from the same semantic category and share features.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <dc:date>2011-04-02T08:56:35Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
@@ -4768,8 +4806,8 @@
         <rdfs:label rdf:datatype="&xsd;string">response priming</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000200"/>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-02T08:58:44Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
 
@@ -4793,8 +4831,8 @@
         <rdfs:label rdf:datatype="&xsd;string">perceptual priming</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000200"/>
         <dc:date>2011-04-02T09:00:27Z</dc:date>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;A type priming based on the form of the stimulus and is enhanced by the match between the early and later stimuli.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
     
@@ -4827,13 +4865,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>respondent conditioning</owl:annotatedTarget>
+        <owl:annotatedTarget>Pavlovian conditioning</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000208"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>Pavlovian conditioning</owl:annotatedTarget>
+        <owl:annotatedTarget>respondent conditioning</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000208"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -4910,8 +4948,8 @@
         <oboInOwl:xref>GO:0035106</oboInOwl:xref>
         <obo:IAO_0000115>&quot;Operant conditioning is the use of a behavior&apos;s antecedent and/or its consequence to influence the occurrence and form of behavior.&quot; [wikipedia:Operant_conditioning]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>instrumental conditioning</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Operant conditioning is distinguished from classical conditioning in that operant conditioning deals with the modification of &quot;voluntary behavior&quot; or operant behavior.</rdfs:comment>
         <oboInOwl:hasExactSynonym>instrumental learning</oboInOwl:hasExactSynonym>
+        <rdfs:comment>Operant conditioning is distinguished from classical conditioning in that operant conditioning deals with the modification of &quot;voluntary behavior&quot; or operant behavior.</rdfs:comment>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-03T09:05:54Z</dc:date>
@@ -4967,14 +5005,14 @@
         <oboInOwl:hasExactSynonym>vicarious learning</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>modeling</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>vicarious learning</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000215"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>vicarious learning</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>modeling</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000215"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -5015,8 +5053,8 @@
     <owl:Class rdf:about="&obo;NBO_0000217">
         <rdfs:label rdf:datatype="&xsd;string">active avoidance learning behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000210"/>
-        <dc:date>2011-04-04T03:22:16Z</dc:date>
         <obo:IAO_0000115>&quot;Avoidance learning when the action occurs.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <dc:date>2011-04-04T03:22:16Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
@@ -5205,8 +5243,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-04T03:57:01Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
 
@@ -5233,8 +5271,8 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000656"/>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:IAO_0000115>&quot;Observable characteristic of behavior related to the awareness of body balance and movement.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-04T06:34:21Z</dc:date>
+        <obo:IAO_0000115>&quot;Observable characteristic of behavior related to the awareness of body balance and movement.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>pathological vestibular behaviour</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -5338,8 +5376,8 @@
         <rdfs:label rdf:datatype="&xsd;string">hunger motivation behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000233"/>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:IAO_0000115>&quot;Behavior related to the deprivation of food.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-04T08:30:11Z</dc:date>
+        <obo:IAO_0000115>&quot;Behavior related to the deprivation of food.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>appetite related behaviour</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -5385,9 +5423,9 @@
         <rdfs:label rdf:datatype="&xsd;string">short term hunger regulation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000237"/>
         <obo:IAO_0000115>&quot;Any process which modulates the physical craving for food over short term food deprivation.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2011-04-04T08:33:34Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <dc:date>2011-04-04T08:33:34Z</dc:date>
     </owl:Class>
     
 
@@ -5462,18 +5500,18 @@
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>pathological anxiety disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>hysteria</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-04T08:51:52Z</dc:date>
+        <oboInOwl:hasExactSynonym>hysteria</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>pathological anxiety disorder</owl:annotatedTarget>
+        <owl:annotatedTarget>hysteria</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000244"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>hysteria</owl:annotatedTarget>
+        <owl:annotatedTarget>pathological anxiety disorder</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000244"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -5599,20 +5637,14 @@
     <owl:Class rdf:about="&obo;NBO_0000251">
         <rdfs:label rdf:datatype="&xsd;string">hypochondriasis</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000249"/>
-        <oboInOwl:hasExactSynonym>health anxiety</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>&quot;A somatoform disorder characterised by a continuing belief that one has one or more serious illnesses although no medical evidence supports the belief.&quot; [wikipedia:Hypochondriasis]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>health phobia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>health anxiety</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-04T08:53:49Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>hypochondria</oboInOwl:hasExactSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>health anxiety</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000251"/>
-        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
-    </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>hypochondria</owl:annotatedTarget>
@@ -5622,6 +5654,12 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>health phobia</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000251"/>
+        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>health anxiety</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000251"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -5694,23 +5732,23 @@
         <rdfs:label rdf:datatype="&xsd;string">major depressive disorder</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000515"/>
         <oboInOwl:hasExactSynonym>unipolar depression</oboInOwl:hasExactSynonym>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <oboInOwl:hasExactSynonym>major depression</oboInOwl:hasExactSynonym>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>clinical depression</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>major depression</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>MDD</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>clinical depression </oboInOwl:hasExactSynonym>
         <dc:date>2011-04-04T08:55:36Z</dc:date>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>MDD</owl:annotatedTarget>
+        <owl:annotatedTarget>clinical depression </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>major depression</owl:annotatedTarget>
+        <owl:annotatedTarget>MDD</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -5722,13 +5760,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>clinical depression </owl:annotatedTarget>
+        <owl:annotatedTarget>clinical depression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>clinical depression</owl:annotatedTarget>
+        <owl:annotatedTarget>major depression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -5751,7 +5789,7 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>BD</owl:annotatedTarget>
+        <owl:annotatedTarget>manic depression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000258"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -5763,7 +5801,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>manic depression</owl:annotatedTarget>
+        <owl:annotatedTarget>BD</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000258"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -5880,8 +5918,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000243"/>
         <rdfs:subClassOf rdf:resource="&obo;PATO_0000001"/>
         <obo:IAO_0000115>&quot;Observable characteristic of behaviour related to cognitive processes.&quot; [NBO:RH]</obo:IAO_0000115>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-04T09:01:18Z</dc:date>
     </owl:Class>
     
@@ -5892,8 +5930,8 @@
     <owl:Class rdf:about="&obo;NBO_0000267">
         <rdfs:label rdf:datatype="&xsd;string">delirium</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000266"/>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-04T09:01:41Z</dc:date>
     </owl:Class>
     
@@ -5946,8 +5984,8 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000243"/>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;Observable characteristic of behavior associated with the intake of food or liquids.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-04T09:02:16Z</dc:date>
     </owl:Class>
     
@@ -6043,10 +6081,10 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <oboInOwl:hasExactSynonym>verbal aggression behaviour</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-04T09:07:58Z</dc:date>
-        <obo:IAO_0000115>&quot;A behavioral interaction between organisms in which one organism exhibits aggression using vocal or verbal means.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>verbal aggression behaviour</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:IAO_0000115>&quot;A behavioral interaction between organisms in which one organism exhibits aggression using vocal or verbal means.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -6064,8 +6102,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000011"/>
         <oboInOwl:hasExactSynonym>prejudice</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <dc:date>2011-04-04T09:11:04Z</dc:date>
         <oboInOwl:hasExactSynonym>&lt;new synonym&gt;</oboInOwl:hasExactSynonym>
+        <dc:date>2011-04-04T09:11:04Z</dc:date>
         <oboInOwl:hasExactSynonym>discrimination</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
@@ -6161,8 +6199,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000280"/>
         <obo:IAO_0000115>&quot;Wanting to be with another person.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-04T09:17:02Z</dc:date>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
 
@@ -6197,8 +6235,8 @@
         <rdfs:label rdf:datatype="&xsd;string">altruism behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000286"/>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:IAO_0000115>&quot;A helping behavior (without expectation of extrinsic rewards and sometimes involving personal risk or sacrifice) that benefits individuals or society.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-04T09:19:33Z</dc:date>
+        <obo:IAO_0000115>&quot;A helping behavior (without expectation of extrinsic rewards and sometimes involving personal risk or sacrifice) that benefits individuals or society.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
@@ -6311,8 +6349,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000293"/>
         <obo:IAO_0000115>&quot;Behavior stemming from the ability to identify, assess, and control the emotions of oneself, of others, and of groups.&quot; [wikipedia:Emotional_intelligence]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-04T09:30:47Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
 
@@ -6347,9 +6385,9 @@
         <rdfs:label rdf:datatype="&xsd;string">behavior stemming from problem solving</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000293"/>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <dc:date>2011-04-04T09:31:35Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;Behavior associated with problem finding and problem shaping.&quot; [wikipedia:Problem_solving]</obo:IAO_0000115>
+        <dc:date>2011-04-04T09:31:35Z</dc:date>
     </owl:Class>
     
 
@@ -6388,8 +6426,8 @@
         <obo:IAO_0000115>&quot;A domineering, assault posture and/or hostile physical action towards animals exhibited by male animals.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <oboInOwl:hasExactSynonym>male aggressive behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0001966</oboInOwl:xref>
+        <oboInOwl:hasExactSynonym>male aggressive behaviour</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-04T09:39:19Z</dc:date>
     </owl:Class>
     <owl:Axiom>
@@ -6451,8 +6489,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000048"/>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000151"/>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000300"/>
-        <oboInOwl:hasExactSynonym>paternal aggression </oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>&quot;A domineering, assault posture and/or hostile physical action towards animals exhibited by a father or attending male.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>paternal aggression </oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-04T09:40:11Z</dc:date>
@@ -6472,8 +6510,8 @@
         <rdfs:label rdf:datatype="&xsd;string">memory loss behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000170"/>
         <obo:IAO_0000115>&quot;Behavior related with the gradual loss of information and experiences stored in the memory of an organism.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>forgetting</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <oboInOwl:hasExactSynonym>forgetting</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-04T09:49:14Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
@@ -6505,8 +6543,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000170"/>
         <obo:IAO_0000115>&quot;Behavior related with the ability of an organism&apos;s ability to store information and experiences.&quot; [NBO:GVG]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>memory storage behaviour</oboInOwl:hasExactSynonym>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-04T09:53:48Z</dc:date>
     </owl:Class>
     <owl:Axiom>
@@ -6545,8 +6583,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000607"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <rdfs:comment>Example: moving head to watch passing object.</rdfs:comment>
-        <dc:date>2011-04-04T10:00:45Z</dc:date>
         <obo:IAO_0000115>&quot;Cognitive perception of a sensation by any of the five senses -- vision, touch, smell, taste, and hearing.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <dc:date>2011-04-04T10:00:45Z</dc:date>
         <oboInOwl:hasExactSynonym>perception behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasAlternativeId>NBO:0000454</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym>behavior involving perception</oboInOwl:hasExactSynonym>
@@ -6554,13 +6592,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>perception behavior</owl:annotatedTarget>
+        <owl:annotatedTarget>behavior involving perception</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000308"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>behavior involving perception</owl:annotatedTarget>
+        <owl:annotatedTarget>perception behavior</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000308"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -6574,8 +6612,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000246"/>
         <dc:date>2011-04-05T09:35:47Z</dc:date>
         <obo:IAO_0000115>&quot;A phobia characterised by fear of social or performance situations in which embarrassment may occur.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
 
@@ -6631,8 +6669,8 @@
     <owl:Class rdf:about="&obo;NBO_0000313">
         <rdfs:label rdf:datatype="&xsd;string">behavior process</rdfs:label>
         <oboInOwl:xref>GO:0007610</oboInOwl:xref>
-        <oboInOwl:hasExactSynonym>behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>behavior</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>&quot;The action, reaction, or performance of an organism in response to external or internal stimuli.&quot; [GO:GO\:0007610]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-05T09:53:10Z</dc:date>
@@ -6641,13 +6679,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>behavior</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000313"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>behavior</owl:annotatedTarget>
+        <owl:annotatedTarget>behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000313"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -6677,13 +6715,19 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>&quot;Behavior related to the actions or reactions of an organism in response to a visual stimulus.&quot; [GO:0007632]</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>behavioral response to visual stimulus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>visual behaviour</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>behavioural response to visual stimulus</oboInOwl:hasExactSynonym>
-        <obo:created_by>George Gkoutos</obo:created_by>
-        <oboInOwl:hasExactSynonym>behavioral response to visual stimulus</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-05T10:36:24Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>behavioural response to visual stimulus</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000314"/>
+        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
+    </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>behavioral response to visual stimulus</owl:annotatedTarget>
@@ -6693,12 +6737,6 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>visual behaviour</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000314"/>
-        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>behavioural response to visual stimulus</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000314"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -6737,22 +6775,22 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;nbo#in_response_to"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0007605"/>
+                <owl:onProperty rdf:resource="&obo;nbo#by_means"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0002105"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;nbo#by_means"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0002105"/>
+                <owl:onProperty rdf:resource="&obo;nbo#in_response_to"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0007605"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym> hearing behaviour</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <oboInOwl:xref>GO:0031223</oboInOwl:xref>
         <obo:IAO_0000115>&quot;Behavior related to the actions or reactions of an organism in response to a sound.&quot; [GO:0031223]</obo:IAO_0000115>
         <dc:date>2011-04-05T10:38:17Z</dc:date>
+        <oboInOwl:xref>GO:0031223</oboInOwl:xref>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -6859,8 +6897,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;GO_0007606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:xref>GO:0007635</oboInOwl:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <oboInOwl:xref>GO:0007635</oboInOwl:xref>
         <obo:IAO_0000115>&quot;Behavior as a result of the sensation of chemicals.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-05T10:48:17Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -6890,8 +6928,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;GO_0007608"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:xref>GO:0042048</oboInOwl:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <oboInOwl:xref>GO:0042048</oboInOwl:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-05T10:48:52Z</dc:date>
         <obo:IAO_0000115>&quot;Behavior related to the sensation of odors.&quot; [NBO:GVG]</obo:IAO_0000115>
@@ -6923,8 +6961,8 @@
         </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-05T10:50:50Z</dc:date>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <rdfs:comment>Taste can be described as five basic sensations, sweet, sour, salty, bitter and umamy which can be combined in various ways to make all other taste sensations.</rdfs:comment>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>gustatory behavior</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
@@ -7226,8 +7264,8 @@
                 <owl:someValuesFrom rdf:resource="&obo;GO_0050965"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym>thermal nociception behaviour</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <oboInOwl:hasExactSynonym>thermal nociception behaviour</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-05T12:41:15Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
@@ -7278,8 +7316,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000313"/>
         <dc:date>2011-04-05T02:08:47Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:IAO_0000115>&quot;Movement behavior of the body or its parts.&quot;</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:IAO_0000115>&quot;Movement behavior of the body or its parts.&quot;</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -7412,13 +7450,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>whole body coordination</owl:annotatedTarget>
+        <owl:annotatedTarget>large muscle coordination</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000347"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>large muscle coordination</owl:annotatedTarget>
+        <owl:annotatedTarget>whole body coordination</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000347"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -7483,8 +7521,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000351"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:IAO_0000115>&quot;The coordination of the lower body movement.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-05T05:30:38Z</dc:date>
+        <obo:IAO_0000115>&quot;The coordination of the lower body movement.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -7551,8 +7589,8 @@
         </rdfs:subClassOf>
         <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-06T09:30:45Z</dc:date>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Intentionally or habitually assumed arrangement of the body.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
 
@@ -7594,8 +7632,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000355"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:IAO_0000115>&quot;Intentionally or habitually assumed arrangement of the body and its limbs in inactivity.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-06T09:31:29Z</dc:date>
+        <obo:IAO_0000115>&quot;Intentionally or habitually assumed arrangement of the body and its limbs in inactivity.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -7621,8 +7659,8 @@
         <oboInOwl:hasExactSynonym>saltation</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <dc:date>2011-04-06T09:47:57Z</dc:date>
         <obo:IAO_0000115>&quot;Behavior related to the upward thrust produced by the rapid, simultaneous extension of the hind legs with the intend to cross wide gaps in the locomotor surface.&quot; [MBP:GVG]</obo:IAO_0000115>
+        <dc:date>2011-04-06T09:47:57Z</dc:date>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
@@ -7651,8 +7689,8 @@
     <owl:Class rdf:about="&obo;NBO_0000362">
         <rdfs:label rdf:datatype="&xsd;string">stride</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000361"/>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A behavioral pattern characterized by the distance covered by as many steps as there are legs.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-06T10:08:59Z</dc:date>
     </owl:Class>
@@ -7665,8 +7703,8 @@
         <rdfs:label rdf:datatype="&xsd;string">crawling behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000359"/>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:IAO_0000115>&quot;Behavior related to the movement resulting by dragging the body close to the ground.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-06T11:39:16Z</dc:date>
+        <obo:IAO_0000115>&quot;Behavior related to the movement resulting by dragging the body close to the ground.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
@@ -7706,8 +7744,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000013"/>
         <dc:date>2011-04-06T11:44:55Z</dc:date>
         <obo:IAO_0000115>&quot;Behavior related to the movement of an organism from one location to another through the air.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
 
@@ -7720,8 +7758,8 @@
         <oboInOwl:hasExactSynonym>flying</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasAlternativeId>NBO:0000072</oboInOwl:hasAlternativeId>
-        <obo:IAO_0000115>&quot;Behavior related to the self-propelled movement of an organism from one location to another through the air, usually by means of active wing movement.&quot; [NBO:GVG]</obo:IAO_0000115>
         <oboInOwl:xref>GO:0007629</oboInOwl:xref>
+        <obo:IAO_0000115>&quot;Behavior related to the self-propelled movement of an organism from one location to another through the air, usually by means of active wing movement.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-06T11:45:51Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
@@ -7903,13 +7941,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>gravitaxis</owl:annotatedTarget>
+        <owl:annotatedTarget>geotactic behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000378"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>geotactic behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>gravitaxis</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000378"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -7922,8 +7960,8 @@
         <rdfs:label rdf:datatype="&xsd;string">negative gravitactic behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000378"/>
         <dc:date>2011-04-06T01:32:49Z</dc:date>
-        <oboInOwl:xref>GO:0048060</oboInOwl:xref>
         <oboInOwl:hasExactSynonym>negative geotactic behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:xref>GO:0048060</oboInOwl:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Locomotory orientation away from the source of gravity.&quot; [GO:0048060]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>negative gravitaxis</oboInOwl:hasExactSynonym>
@@ -8046,8 +8084,8 @@
     <owl:Class rdf:about="&obo;NBO_0000385">
         <rdfs:label rdf:datatype="&xsd;string">phonotaxis</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000386"/>
-        <dc:date>2011-04-06T01:58:40Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <dc:date>2011-04-06T01:58:40Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;Locomotory orientation in response to sound.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
@@ -8085,8 +8123,8 @@
     <owl:Class rdf:about="&obo;NBO_0000388">
         <rdfs:label rdf:datatype="&xsd;string">involuntary movement behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000338"/>
-        <obo:IAO_0000115>&quot;Behavior related to movements that occur independent of planning.&quot; [NBO:GVG]</obo:IAO_0000115>
         <rdfs:comment>Movevents listed here are involuntary, but may be also generated by free will, like blinking of the eyelids and respiratory movements.</rdfs:comment>
+        <obo:IAO_0000115>&quot;Behavior related to movements that occur independent of planning.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-06T02:35:38Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -8147,7 +8185,7 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget> infant reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>infantile reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000390"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -8159,7 +8197,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>infantile reflex</owl:annotatedTarget>
+        <owl:annotatedTarget> infant reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000390"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -8215,8 +8253,8 @@
         <oboInOwl:hasExactSynonym>fencing reflex</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <dc:date>2011-04-06T03:05:52Z</dc:date>
         <obo:IAO_0000115>&quot;A reflex that assists in the birthing process and helps to develop muscle tone, kicking and stimulates vestibular function in utero.&quot; [wikipedia:Asymmetrical_tonic_neck_reflex]</obo:IAO_0000115>
+        <dc:date>2011-04-06T03:05:52Z</dc:date>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -8351,8 +8389,8 @@
     <owl:Class rdf:about="&obo;NBO_0000402">
         <rdfs:label rdf:datatype="&xsd;string">walking reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000390"/>
-        <oboInOwl:hasExactSynonym> stepping reflex</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <oboInOwl:hasExactSynonym> stepping reflex</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-06T03:26:47Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A reflex that causes the infant to attempt to &apos;walk&apos; by placing one foot in front of the other when the soles of their feet touch a flat surface.&quot; [wikipedia:Primitive_reflexes]</obo:IAO_0000115>
@@ -8385,8 +8423,8 @@
     <owl:Class rdf:about="&obo;NBO_0000404">
         <rdfs:label rdf:datatype="&xsd;string">stretch reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000389"/>
-        <dc:date>2011-04-06T04:02:17Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <dc:date>2011-04-06T04:02:17Z</dc:date>
         <obo:IAO_0000115>&quot;A muscle contraction in response to stretching within the muscle.&quot; [wikipedia:Stretch_reflex]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>deep tendon reflex</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -8418,8 +8456,8 @@
     <owl:Class rdf:about="&obo;NBO_0000406">
         <rdfs:label rdf:datatype="&xsd;string">brachioradialis reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000404"/>
-        <dc:date>2011-04-06T04:07:37Z</dc:date>
         <obo:IAO_0000115>&quot;A deep tendon reflex elicited by striking the lateral surface of the forearm proximal to the distal head of the radius, characterized by normal slight elbow flexion and forearm supination.&quot; [Medical disctionary:http\://medical-dictionary.thefreedictionary.com/brachioradialis+reflex]</obo:IAO_0000115>
+        <dc:date>2011-04-06T04:07:37Z</dc:date>
         <oboInOwl:hasExactSynonym>supinator reflex</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -8442,18 +8480,18 @@
         <oboInOwl:hasExactSynonym>BER</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Braunecker-Effenberg reflex</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:IAO_0000115>&quot;A reflex that elicits involuntary contraction of the extensor digitorum muscle.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-06T04:09:37Z</dc:date>
+        <obo:IAO_0000115>&quot;A reflex that elicits involuntary contraction of the extensor digitorum muscle.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>Braunecker-Effenberg reflex</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="&xsd;string">BROAD</obo:synonymtype>
+        <owl:annotatedTarget>BER</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000407"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">BROAD</obo:synonymtype>
-        <owl:annotatedTarget>BER</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>Braunecker-Effenberg reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000407"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -8467,8 +8505,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000404"/>
         <obo:IAO_0000115>&quot;A deep tendon reflex that elicits involuntary contraction of the triceps brachii muscle.&quot; [wikipedia:Triceps_reflex]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <dc:date>2011-04-06T04:12:22Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <dc:date>2011-04-06T04:12:22Z</dc:date>
     </owl:Class>
     
 
@@ -8501,8 +8539,8 @@
         <oboInOwl:hasExactSynonym>Achilles reflex</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-06T04:20:42Z</dc:date>
         <obo:IAO_0000115>&quot;A reflex bending of the foot resulting from contraction of the calf muscles when the Achilles tendon is sharply struck.&quot; [Medical Dictionary:http\://medical-dictionary.thefreedictionary.com/Achilles+reflex]</obo:IAO_0000115>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>Achilles tendon reflex</oboInOwl:hasExactSynonym>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym> triceps surae reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ankle reflex</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -8555,8 +8593,8 @@
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A reflex that controls the diameter of the pupil, in response to the intensity (luminance) of light that falls on the retina of the eye, thereby assisting in adaptation to various levels of darkness and light, in addition to retinal sensitivity.&quot; [wikipedia:Pupillary_light_reflex]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>pupillary reflex</oboInOwl:hasExactSynonym>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-06T04:28:58Z</dc:date>
+        <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -8573,8 +8611,8 @@
         <rdfs:label rdf:datatype="&xsd;string">accommodation reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000411"/>
         <obo:IAO_0000115>&quot;A reflex action of the eye, in response to focusing on a near object, then looking at distant object (and vice versa), comprising coordinated changes in vergence, lens shape and pupil size.&quot; [wikipedia:Accommodation_reflex]</obo:IAO_0000115>
-        <dc:date>2011-04-06T04:29:55Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <dc:date>2011-04-06T04:29:55Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
@@ -8587,8 +8625,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000411"/>
         <dc:date>2011-04-06T04:30:58Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <oboInOwl:hasExactSynonym>masseter reflex</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <oboInOwl:hasExactSynonym>masseter reflex</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -8612,14 +8650,14 @@
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>blinking</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>blink reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000415"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>blink reflex</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>blinking</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000415"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -8641,7 +8679,7 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>oculovestibular reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>vestibuloocular reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000416"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -8653,7 +8691,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>vestibuloocular reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>oculovestibular reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000416"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -8682,18 +8720,18 @@
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>swallowing reflex</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>&quot;A reflex contraction of the back of the throat, evoked by touching the soft palate.&quot; [wikipedia:Gag_reflex]</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>gag reflex</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <oboInOwl:hasExactSynonym>gag reflex</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>swallowing reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>gag reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000418"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>gag reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>swallowing reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000418"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -8767,8 +8805,8 @@
         <obo:IAO_0000115>&quot;A circadian rhythm sleep disorder characterized by a much later than normal timing of sleep onset and offset and a period of peak alertness in the middle of the night.&quot; [wikipedia:Delayed_sleep_phase_syndrome]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>delayed sleep-phase disorder (DSPD) </oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>DSPS</oboInOwl:hasExactSynonym>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-07T01:22:32Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -8873,13 +8911,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>anal reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>perineal reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000426"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>perineal reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>anal reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000426"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -8898,9 +8936,9 @@
         <rdfs:label rdf:datatype="&xsd;string">cremasteric reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000389"/>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A reflex is elicited by lightly stroking the superior and medial (inner) part of the thigh resulting in a contraction of the cremaster muscle that pulls up the scrotum and testis on the side stroked.&quot; [wikipedia:Cremasteric_reflex]</obo:IAO_0000115>
         <dc:date>2011-04-07T05:15:36Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
 
@@ -8911,8 +8949,8 @@
         <rdfs:label rdf:datatype="&xsd;string">mammalian diving reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000389"/>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-07T05:16:44Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A reflex in mammals which optimises respiration to allow staying underwater for extended periods of time.&quot; [wikipedia:Mammalian_diving_reflex]</obo:IAO_0000115>
     </owl:Class>
     
@@ -8923,8 +8961,8 @@
     <owl:Class rdf:about="&obo;NBO_0000429">
         <rdfs:label rdf:datatype="&xsd;string">visceromotor reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000425"/>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;An increase in tonus (normal tension) of the tissues of the abdominal muscles resulting from painful stimuli originating in a viscus.&quot; [:http\://www.wordinfo.info/words/index/inf]</obo:IAO_0000115>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-07T05:18:30Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
@@ -8952,8 +8990,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000389"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasAlternativeId>NBO:0000021</oboInOwl:hasAlternativeId>
-        <obo:IAO_0000115>&quot;A response to activation of sensory neurons whose peripheral terminals are located on the surface of the body.&quot; [wikipedia:Scratch_reflex]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>self-scratching</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>&quot;A response to activation of sensory neurons whose peripheral terminals are located on the surface of the body.&quot; [wikipedia:Scratch_reflex]</obo:IAO_0000115>
         <dc:date>2011-04-07T05:21:15Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
@@ -9028,19 +9066,19 @@
         <oboInOwl:hasExactSynonym>stapedius reflex</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>&quot;An involuntary muscle contraction that occurs in the middle ear of mammals in response to high-intensity sound stimuli.&quot; [wikipedia:Acoustic_reflex]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym> attenuation reflex</oboInOwl:hasExactSynonym>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>auditory reflex</oboInOwl:hasExactSynonym>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget> attenuation reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>auditory reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000435"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>auditory reflex</owl:annotatedTarget>
+        <owl:annotatedTarget> attenuation reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000435"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -9119,8 +9157,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000389"/>
         <oboInOwl:hasExactSynonym>inverse myotatic reflex</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <dc:date>2011-04-08T12:01:59Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <dc:date>2011-04-08T12:01:59Z</dc:date>
         <obo:IAO_0000115>&quot;A skeletal muscle contraction causes the muscle to simultaneously lengthen and relax.&quot; [wikipedia:Golgi_tendon_reflex]</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
@@ -9152,11 +9190,11 @@
         <rdfs:label rdf:datatype="&xsd;string">sternutation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000389"/>
         <dc:date>2011-04-08T12:08:31Z</dc:date>
-        <oboInOwl:hasExactSynonym>sneezing</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <oboInOwl:hasExactSynonym>sneezing</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>&quot;A reflex in which mucus containing foreign particles or irritants is expelled and the nasal cavity is cleanses.&quot; [wikipedia:Sneeze]</obo:IAO_0000115>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>sneeze</oboInOwl:hasExactSynonym>
+        <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -9216,8 +9254,8 @@
         <rdfs:label rdf:datatype="&xsd;string">visual pursuit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0007601"/>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000001"/>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-08T12:25:53Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Selectively track a moving object.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
@@ -9305,13 +9343,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>self-grooming</owl:annotatedTarget>
+        <owl:annotatedTarget>auto-grooming</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000451"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>auto-grooming</owl:annotatedTarget>
+        <owl:annotatedTarget>self-grooming</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000451"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -9369,8 +9407,8 @@
         <rdfs:label rdf:datatype="&xsd;string">focused attention behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000455"/>
         <dc:date>2011-04-08T01:04:04Z</dc:date>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Behavior involving responding discretely to specific visual, auditory or tactile stimuli.&quot; [wikipedia:Attention]</obo:IAO_0000115>
     </owl:Class>
     
@@ -9383,8 +9421,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000455"/>
         <obo:IAO_0000115>&quot;Behavior involving maintaining a behavioral or cognitive set in the face of distracting or competing stimuli.&quot; [wikipedia:Attention]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <dc:date>2011-04-08T01:05:54Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <dc:date>2011-04-08T01:05:54Z</dc:date>
     </owl:Class>
     
 
@@ -9427,8 +9465,8 @@
     <owl:Class rdf:about="&obo;NBO_0000460">
         <rdfs:label rdf:datatype="&xsd;string">divided attention behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000455"/>
-        <dc:date>2011-04-08T01:08:36Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <dc:date>2011-04-08T01:08:36Z</dc:date>
         <obo:IAO_0000115>&quot;Behavior involving responding simultaneously to multiple tasks or multiple task demands.&quot; [wikipedia:Attention]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
@@ -9635,8 +9673,8 @@
     <owl:Class rdf:about="&obo;NBO_0000468">
         <rdfs:label rdf:datatype="&xsd;string">perceptual illusion behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000308"/>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;Misperception of stimuli, where what is perceived does not correspond to the actual dimensions or qualities of the physical stimulus.&quot; [jrank:http\://science.jrank.org/pages/5094/Perception.html]</obo:IAO_0000115>
         <dc:date>2011-04-08T01:32:16Z</dc:date>
     </owl:Class>
@@ -9765,8 +9803,8 @@
         <rdfs:label rdf:datatype="&xsd;string">dyssomnia</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000419"/>
         <dc:date>2011-04-08T02:20:42Z</dc:date>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A pathological sleeping behavior related to the initiating or maintaining sleep or of excessive sleepiness and are characterized by a disturbance in the amount, quality, or timing of sleep.&quot; [wikipedia:Dyssomnia]</obo:IAO_0000115>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
@@ -9802,10 +9840,10 @@
     <owl:Class rdf:about="&obo;NBO_0000478">
         <rdfs:label rdf:datatype="&xsd;string">periodic limb movement disorder</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000476"/>
-        <oboInOwl:hasExactSynonym>PLMD</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>&quot;A dyssomnia where the patient moves limbs involuntarily during sleep, and has symptoms or problems related to the movement.&quot; [wikipedia:Periodic_limb_movement_disorder]</obo:IAO_0000115>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-08T02:27:28Z</dc:date>
+        <oboInOwl:hasExactSynonym>PLMD</oboInOwl:hasExactSynonym>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>nocturnal myoclonus</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -9832,19 +9870,19 @@
         <dc:date>2011-04-08T02:28:45Z</dc:date>
         <obo:IAO_0000115>&quot;A dyssomnia characterized by an irresistible urge to move one&apos;s body to stop uncomfortable or odd sensations.&quot; [wikipedia:Restless_legs_syndrome]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <oboInOwl:hasExactSynonym>RLS</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <oboInOwl:hasExactSynonym>RLS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Wittmaack Ekbom syndrome</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>Wittmaack Ekbom syndrome</owl:annotatedTarget>
+        <owl:annotatedTarget>RLS</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000479"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>RLS</owl:annotatedTarget>
+        <owl:annotatedTarget>Wittmaack Ekbom syndrome</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000479"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -9876,32 +9914,20 @@
     <owl:Class rdf:about="&obo;NBO_0000481">
         <rdfs:label rdf:datatype="&xsd;string">sleep state misperception</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000476"/>
+        <oboInOwl:hasExactSynonym>SSM</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-08T02:31:33Z</dc:date>
-        <oboInOwl:hasExactSynonym> pseudo-insomnia</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>paradoxical insomnia</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>SSM</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;A dyssomnia characterized by a mistakenly perception of one&apos;s sleep as wakefulness.&quot; [wikipedia:Sleep_state_misperception]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>sleep hypochondriasis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym> pseudo-insomnia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>subjective insomnia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>subjective sleepiness</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>paradoxical insomnia</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>subjective insomnia</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000481"/>
-        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget> pseudo-insomnia</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000481"/>
-        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>subjective sleepiness</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000481"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -9913,13 +9939,25 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>paradoxical insomnia</owl:annotatedTarget>
+        <owl:annotatedTarget>sleep hypochondriasis</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000481"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>sleep hypochondriasis</owl:annotatedTarget>
+        <owl:annotatedTarget>subjective insomnia</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000481"/>
+        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>subjective sleepiness</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000481"/>
+        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>paradoxical insomnia</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000481"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -9985,8 +10023,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000485"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;An extrinsic circadian rhythm sleep disorder characterized by insomnia and excessive sleepiness affecting people whose work hours are scheduled during the typical sleep period.&quot; [wikipedia:Shift_work_sleep_disorder]</obo:IAO_0000115>
-        <dc:date>2011-04-08T02:54:21Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <dc:date>2011-04-08T02:54:21Z</dc:date>
     </owl:Class>
     
 
@@ -10075,26 +10113,20 @@
         <rdfs:label rdf:datatype="&xsd;string">non-24-hour sleep-wake syndrome</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000487"/>
         <oboInOwl:hasExactSynonym>non-24-hour sleep-wake disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>non-24</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <oboInOwl:hasExactSynonym>non-24</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-08T03:11:40Z</dc:date>
         <obo:IAO_0000115>&quot;A circadian rhythm sleep disorder which the affected individual&apos;s sleep occurs later and later each day, with the period of peak alertness also continuously moving around the clock from day to day.&quot; [wikipedia:Circadian_rhythm_sleep_disorder]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>circadian rhythm sleep disorder, free running type</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>circadian rhythm sleep disorder, nonentrained type</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>hypernychthemeral syndrome</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <oboInOwl:hasExactSynonym>hypernychthemeral syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>non-24-hour circadian rhythm disorder </oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>free running disorder (FRD) </oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>circadian rhythm sleep disorder, nonentrained type</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
-        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>non-24-hour sleep-wake disorder</owl:annotatedTarget>
+        <owl:annotatedTarget>hypernychthemeral syndrome</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -10106,7 +10138,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>non-24-hour circadian rhythm disorder </owl:annotatedTarget>
+        <owl:annotatedTarget>non-24-hour sleep-wake disorder</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
+        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>free running disorder (FRD) </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -10118,13 +10156,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>hypernychthemeral syndrome</owl:annotatedTarget>
+        <owl:annotatedTarget>circadian rhythm sleep disorder, nonentrained type</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>free running disorder (FRD) </owl:annotatedTarget>
+        <owl:annotatedTarget>non-24-hour circadian rhythm disorder </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -10165,8 +10203,8 @@
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;An intrinsic sleep disorder characterised by breathing abnormalities.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2011-04-08T03:27:40Z</dc:date>
         <oboInOwl:hasExactSynonym>SBD</oboInOwl:hasExactSynonym>
+        <dc:date>2011-04-08T03:27:40Z</dc:date>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -10249,8 +10287,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000499"/>
         <oboInOwl:hasExactSynonym>somnambulism</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-09T09:32:07Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A NREM parasomnia characterised by the risef rom the slow wave sleep stage in a state of low consciousness and perform activities that are usually performed during a state of full consciousness.&quot; [wikipedia:Sleepwalking]</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
@@ -10290,8 +10328,8 @@
         <obo:IAO_0000115>&quot;A NREM parasomnia characterised by talking during sleep.&quot; [NBO:GVG]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>sleep-talking</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-09T10:02:28Z</dc:date>
+        <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -10340,8 +10378,8 @@
     <owl:Class rdf:about="&obo;NBO_0000505">
         <rdfs:label rdf:datatype="&xsd;string">acute RBD</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000503"/>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;A RBD that occurs mostly as a result of a side-effect in prescribed medication- usually antidepressants.&quot; [wikipedia:Parasomnia]</obo:IAO_0000115>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-09T10:10:12Z</dc:date>
     </owl:Class>
@@ -10380,10 +10418,10 @@
         <rdfs:label rdf:datatype="&xsd;string">recurrent isolated sleep paralysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000509"/>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <oboInOwl:hasExactSynonym>RISP</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-09T10:14:54Z</dc:date>
-        <obo:created_by>George Gkoutos</obo:created_by>
+        <oboInOwl:hasExactSynonym>RISP</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>&quot;An isolted sleep paralysis that is characterized by frequent episodes or a complex of sequential episodes whose total duration may exceed one hour, and particularly by the range and sense of perceived reality of the subjective phenomena experienced during episodes.&quot; [web:http\://www.theconsciousdreamer.org/SSE.HTM]</obo:IAO_0000115>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -10399,8 +10437,8 @@
     <owl:Class rdf:about="&obo;NBO_0000509">
         <rdfs:label rdf:datatype="&xsd;string">isolated sleep paralysis</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000510"/>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>ISP</oboInOwl:hasExactSynonym>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;A sleep paralaysis characterised by the absence of narcolepsy.&quot; [wikipedia:Sleep_paralysis]</obo:IAO_0000115>
         <dc:date>2011-04-09T10:20:09Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -10571,8 +10609,8 @@
         <rdfs:label rdf:datatype="&xsd;string">melancholic depression</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000257"/>
         <obo:IAO_0000115>&quot;A major depressive disorder characterized by a loss of pleasure (anhedonia) in most or all activities, a failure of reactivity to pleasurable stimuli, a quality of depressed mood more pronounced than that of grief or loss, a worsening of symptoms in the morning hours, early morning waking, psychomotor retardation, excessive weight loss (not to be confused with anorexia nervosa), or excessive guilt.&quot; [wikipedia:Melancholic_depression]</obo:IAO_0000115>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-10T12:57:29Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
@@ -10586,8 +10624,8 @@
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>PMD</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>&quot;A major depressive disorder characterized by a major depressive episode, particularly of melancholic nature, where the patient experiences psychotic symptoms such as delusions or, less commonly, hallucinations.&quot; [wikipedia:Psychotic_major_depression]</obo:IAO_0000115>
-        <dc:date>2011-04-10T12:58:44Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <dc:date>2011-04-10T12:58:44Z</dc:date>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -10646,8 +10684,8 @@
         <oboInOwl:hasExactSynonym>winter blues</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-10T01:10:46Z</dc:date>
-        <obo:IAO_0000115>&quot;A major depressive disorder usually characterized seasonal pattern with depressive episodes coming on in the winter or summer, spring or autumn, repeatedly, year after year.&quot; [wikipedia:Seasonal_affective_disorder]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>winter depression</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>&quot;A major depressive disorder usually characterized seasonal pattern with depressive episodes coming on in the winter or summer, spring or autumn, repeatedly, year after year.&quot; [wikipedia:Seasonal_affective_disorder]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
@@ -10687,8 +10725,8 @@
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>RBD</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-10T01:17:54Z</dc:date>
-        <obo:IAO_0000115>&quot;A depressive disorder characterized by intermittent depressive episodes, in women not related to menstrual cycles, occurring at least once a month over at least one year or more fulfilling the diagnostic criteria for major depressive episodes except for duration which in RBD is less than 14 days, typically 2 to 4 days.&quot; [wikipedia:Recurrent_brief_depression]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:IAO_0000115>&quot;A depressive disorder characterized by intermittent depressive episodes, in women not related to menstrual cycles, occurring at least once a month over at least one year or more fulfilling the diagnostic criteria for major depressive episodes except for duration which in RBD is less than 14 days, typically 2 to 4 days.&quot; [wikipedia:Recurrent_brief_depression]</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -10724,9 +10762,9 @@
     <owl:Class rdf:about="&obo;NBO_0000526">
         <rdfs:label rdf:datatype="&xsd;string">bipolar I</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000258"/>
+        <obo:IAO_0000115>&quot;A type of bipolar disorder distinguished by the presence or history of one or more manic episodes or mixed episodes with or without major depressive episodes.&quot; [wikipedia:Bipolar_I]</obo:IAO_0000115>
         <dc:date>2011-04-10T01:25:04Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:IAO_0000115>&quot;A type of bipolar disorder distinguished by the presence or history of one or more manic episodes or mixed episodes with or without major depressive episodes.&quot; [wikipedia:Bipolar_I]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
@@ -10764,8 +10802,8 @@
         <rdfs:label rdf:datatype="&xsd;string">bipolar disorder not otherwise specified</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000258"/>
         <obo:IAO_0000115>&quot;A bipolar disorder characterised by symptoms in the bipolar spectrum (e.g. manic and depressive symptoms) but does not fully qualify for any of the three types of bipolar disorder.&quot; [wikipedia:Bipolar_Disorder_Not_Otherwise_Specified]</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>BD-NOS</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <oboInOwl:hasExactSynonym>BD-NOS</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-10T01:28:33Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
@@ -10833,20 +10871,20 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000244"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>PTSD</oboInOwl:hasExactSynonym>
+        <dc:date>2011-04-10T01:42:56Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>post-traumatic stress disorder</oboInOwl:hasExactSynonym>
-        <dc:date>2011-04-10T01:42:56Z</dc:date>
         <obo:IAO_0000115>&quot;A pathological anxiety which results from a traumatic experience.&quot; [wikipedia:Post-traumatic_stress_disorder]</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>post-traumatic stress disorder</owl:annotatedTarget>
+        <owl:annotatedTarget>PTSD</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000534"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>PTSD</owl:annotatedTarget>
+        <owl:annotatedTarget>post-traumatic stress disorder</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000534"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -10858,8 +10896,8 @@
     <owl:Class rdf:about="&obo;NBO_0000535">
         <rdfs:label rdf:datatype="&xsd;string">separation anxiety</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000244"/>
-        <obo:IAO_0000115>&quot;A pathological anxiety characterized by feeling of excessive and inappropriate levels of anxiety over being separated from a person or place.&quot; [wikipedia:Separation_anxiety_disorder]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:IAO_0000115>&quot;A pathological anxiety characterized by feeling of excessive and inappropriate levels of anxiety over being separated from a person or place.&quot; [wikipedia:Separation_anxiety_disorder]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>SepAD</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-10T01:44:22Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -10987,13 +11025,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>pathological drinking behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>drinking disorder</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000540"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>drinking disorder</owl:annotatedTarget>
+        <owl:annotatedTarget>pathological drinking behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000540"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -11140,14 +11178,14 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000961"/>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:note>&apos;participates in&apos; some 
 (&apos;regulation of drinking behavior&apos; and (has_quality some 
 (&apos;increased frequency&apos; and (towards some &apos;liquid consumption&apos;) and (owl:qualifier some &apos;temporally extended&apos;))))</oboInOwl:note>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:xref>MP:0005111</oboInOwl:xref>
         <obo:IAO_0000115>&quot;A pathological drinking behavior characterised by an excessive relative temporal desire to drink.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2011-04-10T10:41:10Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <dc:date>2011-04-10T10:41:10Z</dc:date>
     </owl:Class>
     
 
@@ -11314,8 +11352,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000550"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Ability to perceive the physical properties of an object (such as shape, colour and texture) and apply semantic attributes to the object, which includes the understanding of its use, previous experience with the object and how it relates to others.&quot; [wikipedia:Cognitive_Neuroscience_of_Visual_Object_Recognition]</obo:IAO_0000115>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-14T01:56:14Z</dc:date>
+        <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
 
@@ -11443,8 +11481,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasAlternativeId>NBO:0000083</oboInOwl:hasAlternativeId>
-        <oboInOwl:xref>MP:0001446</oboInOwl:xref>
         <obo:IAO_0000115>&quot;Behavior related to the barbering of other individuals of a cohort.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <oboInOwl:xref>MP:0001446</oboInOwl:xref>
         <dc:date>2011-04-14T08:04:13Z</dc:date>
         <oboInOwl:hasExactSynonym>whisker trimming</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -11476,8 +11514,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">catalepsy</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000595"/>
         <oboInOwl:xref>MP:0002822</oboInOwl:xref>
-        <dc:date>2011-04-14T08:14:28Z</dc:date>
         <obo:IAO_0000115>&quot;A pathological behavior characterized by muscular rigidity and fixation of posture regardless of external stimuli, as well as decreased sensitivity to pain.&quot; [wikipedia:Catalepsy]</obo:IAO_0000115>
+        <dc:date>2011-04-14T08:14:28Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
@@ -11657,8 +11695,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000266"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-14T09:01:45Z</dc:date>
-        <oboInOwl:xref>MP:0002571</oboInOwl:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <oboInOwl:xref>MP:0002571</oboInOwl:xref>
         <obo:IAO_0000115>&quot;A degenerative state of the brain resulting in impairment of memory, judgment, attention span, problem solving skills, the inability to perform previously learned skills that cannot be attributed to deficits of motor or sensory function, and a global loss of cognitive abilities.&quot; [MeSH:National Library of Medicine_Medical Subject Headings]</obo:IAO_0000115>
     </owl:Class>
     
@@ -11704,13 +11742,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget> piloerection</owl:annotatedTarget>
+        <owl:annotatedTarget>horripilation</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000575"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>horripilation</owl:annotatedTarget>
+        <owl:annotatedTarget> piloerection</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000575"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -11724,8 +11762,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000389"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A reflex that elucidates a characteristic ear twitch in response to an auditory stimulus.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>Preyer&apos;s reflex</oboInOwl:hasExactSynonym>
         <dc:date>2011-04-14T10:19:59Z</dc:date>
+        <oboInOwl:hasExactSynonym>Preyer&apos;s reflex</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
@@ -11743,8 +11781,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">postural reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000389"/>
         <dc:date>2011-04-14T10:24:14Z</dc:date>
-        <obo:IAO_0000115>&quot;A reflex that maintains body position and equilibrium either during rest or during movement.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:IAO_0000115>&quot;A reflex that maintains body position and equilibrium either during rest or during movement.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
@@ -11837,8 +11875,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000577"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;A reflex that originates with vestibular stimulation and control body posture.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2011-04-14T10:47:03Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <dc:date>2011-04-14T10:47:03Z</dc:date>
     </owl:Class>
     
 
@@ -11878,6 +11916,12 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>limb clasping</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000584"/>
+        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>hindlimb extension reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000584"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
@@ -11885,12 +11929,6 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>limb grasping</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000584"/>
-        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>limb clasping</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000584"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -11920,8 +11958,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:xref>HP:0002179</oboInOwl:xref>
         <dc:date>2011-04-14T11:08:01Z</dc:date>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:xref>MP:0002880</oboInOwl:xref>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
 
@@ -11957,13 +11995,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="&obo;NBO_0000589">
         <rdfs:label rdf:datatype="&xsd;string">tremor</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000643"/>
-        <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;An involuntary rhythmical, oscillatory movement of a body part.&quot; [NBO:GVG]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>shivering</oboInOwl:hasExactSynonym>
-        <dc:date>2011-04-14T11:13:39Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>trembling</oboInOwl:hasExactSynonym>
+        <dc:date>2011-04-14T11:13:39Z</dc:date>
         <oboInOwl:xref>MP:0000745</oboInOwl:xref>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:xref>HP:0001337</oboInOwl:xref>
         <oboInOwl:hasExactSynonym>quivering</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -11975,13 +12013,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>shivering</owl:annotatedTarget>
+        <owl:annotatedTarget>quivering</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000589"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>quivering</owl:annotatedTarget>
+        <owl:annotatedTarget>shivering</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000589"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -12204,13 +12242,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="&obo;NBO_0000602">
         <rdfs:label rdf:datatype="&xsd;string">apathy</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000601"/>
-        <dc:date>2011-04-14T03:07:51Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:xref>HP:0000741</oboInOwl:xref>
+        <dc:date>2011-04-14T03:07:51Z</dc:date>
         <oboInOwl:hasExactSynonym>perfunctoriness</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>impassivity</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000115>&quot;Exhibiting indifference, or suppression of emotions such as concern, excitement, motivation and passion.&quot; [wikipedia:Indifference_(emotion)]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:IAO_0000115>&quot;Exhibiting indifference, or suppression of emotions such as concern, excitement, motivation and passion.&quot; [wikipedia:Indifference_(emotion)]</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -12248,8 +12286,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000011"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <dc:date>2011-04-14T03:33:25Z</dc:date>
         <obo:IAO_0000115>&quot;A social behavior characterised by conscious or unconscious constraint of a behavior that might be considered objectionable in a social setting.&quot; [wikipedia:Social_inhibition]</obo:IAO_0000115>
+        <dc:date>2011-04-14T03:33:25Z</dc:date>
     </owl:Class>
     
 
@@ -12298,13 +12336,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>retention loss</owl:annotatedTarget>
+        <owl:annotatedTarget>pathological forgetting</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000606"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>pathological forgetting</owl:annotatedTarget>
+        <owl:annotatedTarget>retention loss</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000606"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -12330,9 +12368,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">hallucination</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000308"/>
         <obo:IAO_0000115>&quot;Perception in the absence of a stimulus.&quot; [wikipedia:Hallucination]</obo:IAO_0000115>
-        <obo:namespace>behavior_ontology</obo:namespace>
-        <oboInOwl:xref>HP:0000738</oboInOwl:xref>
         <dc:date>2011-04-14T03:52:31Z</dc:date>
+        <oboInOwl:xref>HP:0000738</oboInOwl:xref>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
@@ -12362,8 +12400,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         </rdfs:subClassOf>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A form of hallucination that involves perceiving images without visual stimulus.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>paracusia</oboInOwl:hasExactSynonym>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:xref>HP:0008765</oboInOwl:xref>
         <dc:date>2011-04-14T03:54:02Z</dc:date>
     </owl:Class>
@@ -12551,8 +12589,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:xref>GO:0060273</oboInOwl:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;The behavior in which an organism sheds tears, often accompanied by non-verbal vocalizations and in response to external or internal stimuli.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-04-14T04:52:56Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -12639,8 +12677,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:comment>Object play is important in developing skills important in adulthood, especially hunting.</rdfs:comment>
         <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-04-19T10:51:54Z</dc:date>
-        <obo:IAO_0000115>&quot;Play behavior associated with the manipulation of objects.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:IAO_0000115>&quot;Play behavior associated with the manipulation of objects.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -12685,8 +12723,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">play chasing</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000049"/>
         <dc:date>2011-04-19T10:54:09Z</dc:date>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;Play behavior that is associated with the pursuit of an individual.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
     
@@ -12762,13 +12800,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>territorial aggression</owl:annotatedTarget>
+        <owl:annotatedTarget>territorial aggressive behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000633"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>territorial aggressive behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>territorial aggression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000633"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -12932,8 +12970,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000012"/>
         <oboInOwl:xref>HP:0001275</oboInOwl:xref>
         <obo:IAO_0000115>&quot;Two or more unprovoked recurrent seizures.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>unprovoked seizure</oboInOwl:hasExactSynonym>
         <dc:date>2011-05-27T11:42:33Z</dc:date>
+        <oboInOwl:hasExactSynonym>unprovoked seizure</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
@@ -13012,8 +13050,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <obo:IAO_0000115>&quot;A rapid and repeated body muscle contract that results in an uncontrolled shaking of the body.&quot; [NBO:GVG]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>fit</oboInOwl:hasExactSynonym>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <dc:date>2011-05-27T11:59:40Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <dc:date>2011-05-27T11:59:40Z</dc:date>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
@@ -13035,18 +13073,18 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:xref>HP:0007359</oboInOwl:xref>
         <oboInOwl:hasExactSynonym>localized seizure</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115>&quot;A seizure which affect only a part of the brain at onset.&quot; [wikipedia:http\://en.wikipedia.org/wiki/Focal_seizures]</obo:IAO_0000115>
-        <dc:date>2011-05-27T12:49:09Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <dc:date>2011-05-27T12:49:09Z</dc:date>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>localized seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>focal seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000646"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>focal seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>localized seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000646"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -13084,13 +13122,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>temporal lobe seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>psychomotor seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000648"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>psychomotor seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>temporal lobe seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000648"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -13116,8 +13154,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000642"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>psychomotor epilepsy</oboInOwl:hasExactSynonym>
-        <dc:date>2011-05-27T02:42:59Z</dc:date>
         <obo:IAO_0000115>&quot;A type of focal epilepsy characterized by recurrent seizures.&quot; [NBO:http\://en.wikipedia.org/wiki/Temporal_lobe_epilepsy]</obo:IAO_0000115>
+        <dc:date>2011-05-27T02:42:59Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     <owl:Axiom>
@@ -13137,20 +13175,20 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <obo:IAO_0000115>&quot;A simple partial seizure affecting the kinesthetic behavior.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-05-27T02:50:59Z</dc:date>
         <oboInOwl:xref>HP:0002266</oboInOwl:xref>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>focal clonic seizure</oboInOwl:hasExactSynonym>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>motor seizure</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>motor seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>focal clonic seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000651"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>focal clonic seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>motor seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000651"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -13172,13 +13210,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>sensory seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>Jacksonian sensory seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000652"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>Jacksonian sensory seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>sensory seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000652"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -13200,13 +13238,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>abdominal epilepsy</owl:annotatedTarget>
+        <owl:annotatedTarget>autonomic seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000653"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>autonomic seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>abdominal epilepsy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000653"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -13223,16 +13261,10 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>temporal lobe auras</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>psychic seizure</oboInOwl:hasExactSynonym>
         <rdfs:comment>Simple partial seizures which arise in or near the temporal lobes often take the form of an odd experience. One may see or hear things that are not there. One feels emotions, often fear, but sometimes sadness, anger, or joy. There may be a bad smell or a bad taste, a funny feeling in the pit of the stomach or a choking sensation.</rdfs:comment>
-        <dc:date>2011-05-27T02:51:48Z</dc:date>
         <oboInOwl:hasExactSynonym>simple partial seizures of temporal lobe origin</oboInOwl:hasExactSynonym>
+        <dc:date>2011-05-27T02:51:48Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>temporal lobe auras</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000654"/>
-        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
-    </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>simple partial seizures of temporal lobe origin</owl:annotatedTarget>
@@ -13242,6 +13274,12 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>psychic seizure</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000654"/>
+        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>temporal lobe auras</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000654"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -13355,8 +13393,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000655"/>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-05-27T03:22:16Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Observable characteristic of behavior related to the actions or reactions of an organism in response to a sound.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
@@ -13416,8 +13454,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000655"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-05-27T03:26:33Z</dc:date>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;Observable characteristic of behavior related to the sensation of chemicals.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
 
@@ -13458,8 +13496,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000025"/>
         <obo:IAO_0000115>&quot;A seizure which affect the whole of the brain at onset.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-05-27T03:46:46Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>primarily generalized seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0002197</oboInOwl:xref>
         <rdfs:comment>Primary generalized seizures begin with a widespread electrical discharge that involves both sides of the brain at once.</rdfs:comment>
@@ -13480,8 +13518,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000646"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:xref>HP:0007334</oboInOwl:xref>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-05-27T03:49:54Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
 
@@ -13491,8 +13529,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="&obo;NBO_0000664">
         <rdfs:label rdf:datatype="&xsd;string">simple partial seizure evolving to generalized seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000663"/>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-05-27T03:50:07Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
@@ -13552,8 +13590,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">absence seizures</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000662"/>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;An absence seizure is a brief (usually less that 20 seconds), generalized epileptic seizure of sudden onset and termination.&quot; [wikipedia:http\://en.wikipedia.org/wiki/Absence_seizure]</obo:IAO_0000115>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-05-27T03:54:48Z</dc:date>
         <oboInOwl:xref>MP:0003216</oboInOwl:xref>
         <oboInOwl:hasExactSynonym>petit mal seizure</oboInOwl:hasExactSynonym>
@@ -13579,15 +13617,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym> akinetic seizure</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;A type of generalized seizure that consist of a brief lapse in muscle tone that are caused by temporary alterations in brain function.&quot; [wikipedia:http\://en.wikipedia.org/wiki/Atonic_seizure]</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>drop attack</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>drop seizure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>drop attack</oboInOwl:hasExactSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>drop seizure</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000670"/>
-        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
-    </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget> akinetic seizure</owl:annotatedTarget>
@@ -13600,6 +13632,12 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000670"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>drop seizure</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000670"/>
+        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
+    </owl:Axiom>
     
 
 
@@ -13608,15 +13646,15 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="&obo;NBO_0000671">
         <rdfs:label rdf:datatype="&xsd;string">myoclonic seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000662"/>
-        <obo:created_by>George Gkoutos</obo:created_by>
-        <oboInOwl:xref>MP:0000243</oboInOwl:xref>
-        <rdfs:comment>Symmetric jerking of the extremities.</rdfs:comment>
-        <oboInOwl:hasExactSynonym>myoclonus</oboInOwl:hasExactSynonym>
-        <dc:date>2011-05-27T04:52:23Z</dc:date>
         <oboInOwl:xref>HP:0001336</oboInOwl:xref>
+        <dc:date>2011-05-27T04:52:23Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;A type of seizure that is characterised by a very brief symmetric alternating contraction and relaxation of a muscle or a group of muscles.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <oboInOwl:xref>MP:0000243</oboInOwl:xref>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:xref>HP:0002123</oboInOwl:xref>
+        <rdfs:comment>Symmetric jerking of the extremities.</rdfs:comment>
+        <oboInOwl:hasExactSynonym>myoclonus</oboInOwl:hasExactSynonym>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -13680,8 +13718,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="&obo;NBO_0000675">
         <rdfs:label rdf:datatype="&xsd;string">reflex seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000686"/>
-        <obo:IAO_0000115>&quot;A type of seizure generated by sudden sensor stimulation caused by the environment.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:IAO_0000115>&quot;A type of seizure generated by sudden sensor stimulation caused by the environment.&quot; [NBO:GVG]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>environmental epilepsy</oboInOwl:hasExactSynonym>
         <dc:date>2011-05-28T11:07:41Z</dc:date>
         <oboInOwl:hasExactSynonym>reflex epilepsy</oboInOwl:hasExactSynonym>
@@ -13690,13 +13728,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>environmental epilepsy</owl:annotatedTarget>
+        <owl:annotatedTarget>reflex epilepsy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000675"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>reflex epilepsy</owl:annotatedTarget>
+        <owl:annotatedTarget>environmental epilepsy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000675"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -13709,14 +13747,14 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">tonic clonic seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000662"/>
         <rdfs:comment>The seizures are divided into two phases, the tonic phase and the clonic phase, hence the name of the seizure, though a tonic clonic seizure will often be preceded by an aura.</rdfs:comment>
+        <oboInOwl:xref>MP:0003997</oboInOwl:xref>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <dc:date>2011-05-27T05:03:11Z</dc:date>
-        <obo:IAO_0000115>&quot;A type of generalized seizure characterised by a combination of tonic stiffening (extensions) followed by clonic flexion motions.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <oboInOwl:xref>MP:0003997</oboInOwl:xref>
         <oboInOwl:xref>HP:0002069</oboInOwl:xref>
+        <dc:date>2011-05-27T05:03:11Z</dc:date>
         <oboInOwl:hasExactSynonym>gran mal seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>grand mal seizure</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>&quot;A type of generalized seizure characterised by a combination of tonic stiffening (extensions) followed by clonic flexion motions.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
@@ -13754,8 +13792,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">febrile seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000686"/>
         <oboInOwl:hasExactSynonym>fever fit</oboInOwl:hasExactSynonym>
-        <oboInOwl:xref>HP:0002373</oboInOwl:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <oboInOwl:xref>HP:0002373</oboInOwl:xref>
         <oboInOwl:hasExactSynonym>febrile convulsion</oboInOwl:hasExactSynonym>
         <dc:date>2011-05-27T05:13:26Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
@@ -13763,13 +13801,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>fever fit</owl:annotatedTarget>
+        <owl:annotatedTarget>febrile convulsion</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000678"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>febrile convulsion</owl:annotatedTarget>
+        <owl:annotatedTarget>fever fit</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000678"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -13850,8 +13888,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasExactSynonym>LTLE</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-05-27T05:31:27Z</dc:date>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A temporal lobe epilepsy arises in the neocortex on the outer surface of the temporal lobe of the brain.&quot; [wikipedia:http\://en.wikipedia.org/wiki/Temporal_lobe_epilepsy]</obo:IAO_0000115>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
@@ -13926,14 +13964,14 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <obo:IAO_0000115>&quot;A type of seizure of psychological origin that superficially resembles an epileptic seizure, but without the characteristic electrical discharges associated with epilepsy.&quot; [wikipedia:http\://en.wikipedia.org/wiki/Psychogenic_non-epileptic_seizures]</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>PNES</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>non-epileptic attack disorder</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000687"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>non-epileptic attack disorder</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>PNES</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000687"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -13973,8 +14011,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000642"/>
         <dc:date>2011-05-27T05:59:47Z</dc:date>
         <oboInOwl:xref>HP:0002133</oboInOwl:xref>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Continuous unremitting seizure lasting longer than 30 minutes or recurrent seizures without regaining consciousness between seizures for greater than 30 minutes.&quot; [wikipedia:http\://en.wikipedia.org/wiki/Status_epilepticus]</obo:IAO_0000115>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
@@ -14036,8 +14074,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000690"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-05-28T10:08:42Z</dc:date>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Subtle  status epilepticus consists of electrical seizure activity in the brain that endures when the associated motor responses are fragmentary or even absent.&quot; [web:http\://emedicine.medscape.com/article/1164462-overview]</obo:IAO_0000115>
+        <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
 
@@ -14142,8 +14180,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">atypical absence seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000669"/>
         <dc:date>2011-05-28T11:59:31Z</dc:date>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:xref>HP:0007270</oboInOwl:xref>
         <obo:IAO_0000115>&quot;An absence seizure not induced by hyperventilation.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
@@ -14158,8 +14196,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;A generalized seizure that was initiated as a partial seizure.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2011-05-28T12:08:24Z</dc:date>
         <oboInOwl:xref>HP:0002434</oboInOwl:xref>
+        <dc:date>2011-05-28T12:08:24Z</dc:date>
     </owl:Class>
     
 
@@ -14171,8 +14209,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000703"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:IAO_0000115>&quot;A generalized seizure that was initiated as a partial seizure but very rapidly spread to both hemispheres.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-05-28T12:11:05Z</dc:date>
+        <obo:IAO_0000115>&quot;A generalized seizure that was initiated as a partial seizure but very rapidly spread to both hemispheres.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -14236,8 +14274,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">drug induced seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000686"/>
         <obo:IAO_0000115>&quot;A type of seizure induced by the administration of a drug.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-05-28T12:32:11Z</dc:date>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
@@ -14275,8 +14313,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">hypoglycemia induced seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000686"/>
         <obo:IAO_0000115>&quot;A type of seizure induced by lower than normal level of blood glucose levels.&quot; [GVG:NBO]</obo:IAO_0000115>
-        <dc:date>2011-05-28T12:35:56Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <dc:date>2011-05-28T12:35:56Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:xref>HP:0002173</oboInOwl:xref>
     </owl:Class>
@@ -14355,8 +14393,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000710"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-05-28T01:16:56Z</dc:date>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;A type of seizure induced by the administration of penicillin.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
     
 
@@ -14393,8 +14431,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">barbiturates withdrawal induced seizure</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000711"/>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:IAO_0000115>&quot;A type of seizure induced by termination of barbiturates administration.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-05-28T01:24:25Z</dc:date>
+        <obo:IAO_0000115>&quot;A type of seizure induced by termination of barbiturates administration.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
@@ -14511,8 +14549,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000651"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2011-05-28T05:51:10Z</dc:date>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasExactSynonym>unilateral clonic seizure</oboInOwl:hasExactSynonym>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A simple partial seizure affecting the kinesthetic behavior of one side of the body.&quot; [NBO:GVG]</obo:IAO_0000115>
         <oboInOwl:xref>HP:0006813</oboInOwl:xref>
     </owl:Class>
@@ -14557,26 +14595,20 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">infantile spasm</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000588"/>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000642"/>
-        <oboInOwl:xref>HP:0011097</oboInOwl:xref>
         <oboInOwl:hasExactSynonym>West syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:xref>HP:0011097</oboInOwl:xref>
         <oboInOwl:hasExactSynonym>Massive Myoclonia</oboInOwl:hasExactSynonym>
         <obo:namespace>behavior_ontology</obo:namespace>
         <oboInOwl:hasExactSynonym>Generalized Flexion Epilepsy</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Salaam spasms</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0002391</oboInOwl:xref>
         <oboInOwl:hasExactSynonym>Infantile Epileptic Encephalopathy</oboInOwl:hasExactSynonym>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A type of epileptic seizures occurring in infants and characterised by clusters of myoclonic spasms.&quot; [NBO:GVG]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>jackknife convulsions</oboInOwl:hasExactSynonym>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <dc:date>2011-05-28T06:47:31Z</dc:date>
         <oboInOwl:hasExactSynonym>Infantile Myoclonic Encephalopathy</oboInOwl:hasExactSynonym>
     </owl:Class>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>Infantile Epileptic Encephalopathy</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000734"/>
-        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
-    </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
         <owl:annotatedTarget>Massive Myoclonia</owl:annotatedTarget>
@@ -14591,13 +14623,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>Generalized Flexion Epilepsy</owl:annotatedTarget>
+        <owl:annotatedTarget>West syndrome</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000734"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>Infantile Myoclonic Encephalopathy</owl:annotatedTarget>
+        <owl:annotatedTarget>Generalized Flexion Epilepsy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000734"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -14609,7 +14641,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>West syndrome</owl:annotatedTarget>
+        <owl:annotatedTarget>Infantile Epileptic Encephalopathy</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000734"/>
+        <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>Infantile Myoclonic Encephalopathy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000734"/>
         <owl:annotatedProperty rdf:resource="&oboInOwl;hasExactSynonym"/>
     </owl:Axiom>
@@ -14666,8 +14704,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A type of epilepsy that is characterised a sudden burst of energy, usually in the form of laughing.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>gelastic seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0010821</oboInOwl:xref>
+        <oboInOwl:hasExactSynonym>gelastic seizure</oboInOwl:hasExactSynonym>
         <dc:date>2011-05-28T11:12:42Z</dc:date>
     </owl:Class>
     <owl:Axiom>
@@ -14685,8 +14723,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">dacrystic epilepsy</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000642"/>
         <oboInOwl:xref>HP:0010820</oboInOwl:xref>
-        <obo:IAO_0000115>&quot;A type of epilepsy that is characterised a sudden paroxysmal crying.&quot; [NBO:&lt;new dbxref&gt;, NBO:GVG]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:IAO_0000115>&quot;A type of epilepsy that is characterised a sudden paroxysmal crying.&quot; [NBO:&lt;new dbxref&gt;, NBO:GVG]</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>dacrystic seizure</oboInOwl:hasExactSynonym>
         <dc:date>2011-05-28T11:18:45Z</dc:date>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -14706,8 +14744,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">aggressive behavior by intent</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000015"/>
         <obo:namespace>behavior_ontology</obo:namespace>
-        <obo:created_by>gkoutos</obo:created_by>
         <dc:date>2012-02-16T01:16:13Z</dc:date>
+        <obo:created_by>gkoutos</obo:created_by>
     </owl:Class>
     
 
@@ -14769,9 +14807,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label rdf:datatype="&xsd;string">language communication behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000612"/>
         <obo:created_by>gkoutos</obo:created_by>
+        <dc:date>2012-03-16T05:13:17Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;A social behavior related to the activity of conveying information by means of a system of arbitrary signals, such as voice sounds, gestures, or written symbols.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2012-03-16T05:13:17Z</dc:date>
     </owl:Class>
     
 
@@ -14916,8 +14954,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000419"/>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000474"/>
-        <obo:namespace>behavior_ontology</obo:namespace>
         <obo:IAO_0000115>&quot;Observable characteristic of behavior related to all sleep stages in the circadian sleep/wake cycle other than REM sleep.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2012-03-19T10:59:20Z</dc:date>
         <obo:created_by>gkoutos</obo:created_by>
     </owl:Class>
@@ -15151,8 +15189,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000759"/>
         <obo:namespace>behavior_ontology</obo:namespace>
         <dc:date>2012-03-19T02:16:49Z</dc:date>
-        <obo:IAO_0000115>&quot;Observable characteristic of behavior related to the actions or reactions of a male, for the purpose of attracting a sexual partner.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>gkoutos</obo:created_by>
+        <obo:IAO_0000115>&quot;Observable characteristic of behavior related to the actions or reactions of a male, for the purpose of attracting a sexual partner.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -15207,8 +15245,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000758"/>
-        <obo:created_by>gkoutos</obo:created_by>
         <dc:date>2012-03-19T02:22:53Z</dc:date>
+        <obo:created_by>gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Observable characteristic of behavior related to the female activity which primary purpose is the sexual reproduction.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:namespace>behavior_ontology</obo:namespace>
     </owl:Class>
@@ -15324,8 +15362,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000765"/>
         <dc:date>2012-03-19T02:34:26Z</dc:date>
-        <obo:created_by>gkoutos</obo:created_by>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <obo:created_by>gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Observable characteristic of behaviour related to the ability of an organism&apos;s ability to store, retain, and recall information and experiences.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
     
@@ -15584,8 +15622,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000601"/>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000772"/>
         <obo:IAO_0000115>&quot;Observable characteristic of behaviour associated with signals made by the mobbing species while harassing a predator.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2012-03-20T05:32:31Z</dc:date>
         <obo:namespace>behavior_ontology</obo:namespace>
+        <dc:date>2012-03-20T05:32:31Z</dc:date>
         <obo:created_by>gkoutos</obo:created_by>
     </owl:Class>
     
@@ -15850,8 +15888,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:label xml:lang="en">behavioral response to light</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0009416"/>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0001536"/>
-        <obo:IAO_0000115>&quot;Behavior as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:IAO_0000115>&quot;Behavior as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -17088,8 +17126,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0001786"/>
-        <obo:IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of behavioral response to chemiucal stimulus.&quot; [NBOC:GVG] </obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of behavioral response to chemiucal stimulus.&quot; [NBOC:GVG] </obo:IAO_0000115>
     </owl:Class>
     
 
@@ -17157,5 +17195,5 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
 
 
-<!-- Generated by the OWL API (version 3.3.1957) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
 

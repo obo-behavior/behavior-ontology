@@ -7,7 +7,7 @@ ontology: nbo
 id: NBO:0000001
 name: body part movement
 synonym: "stationary movement" EXACT []
-is_a: NBO:0000403 ! voluntary movement behavior
+is_a: NBO:0000338 ! kinesthetic behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:03:39Z xsd:string
@@ -15,7 +15,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:03:39Z xsd:st
 [Term]
 id: NBO:0000002
 name: whole body movement
-is_a: NBO:0000403 ! voluntary movement behavior
+is_a: NBO:0000338 ! kinesthetic behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:03:39Z xsd:string
@@ -114,7 +114,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:03:39Z xsd:st
 [Term]
 id: NBO:0000013
 name: locomotory behavior
-def: "\"Behavior associated with the specific movement from place to place of an organism.\" [GO:0007626]" []
+def: "Movement from place to place of an organism.\" [GO:0007626]" []
 xref: GO:0007626
 xref: GO:0008344
 is_a: NBO:0000002 ! whole body movement
@@ -244,7 +244,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:03:39Z xsd:st
 [Term]
 id: NBO:0000027
 name: grooming behavior
-def: "\"Behavior related to the cleaning or maintainance of one's body or appearance.\" [NBO:GVG]" []
+def: "\"Cleaning or maintainance behavior of one's body or appearance.\" [NBO:GVG]" []
 synonym: "grooming behaviour" EXACT []
 xref: GO:0007625
 is_a: NBO:0000313 ! behavior process
@@ -362,7 +362,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:03:39Z xsd:st
 [Term]
 id: NBO:0000039
 name: behavioral control of defecation
-def: "\"The expulsion of feces from the rectum.\" [wikipedia:defecation]" []
+def: "\"The behavioral control of defecation.\" [wikipedia:defecation]" []
 is_a: NBO:0000038 ! behavioral control of excretion
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
@@ -611,7 +611,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:20:02Z xsd:st
 [Term]
 id: NBO:0000068
 name: shaking
-def: "\"Movement of a body part on a horizontal plain.\" [NBO:GVG]" []
+def: "\"Repetitive movement of a body part.\" [NBO:GVG]" []
 is_a: NBO:0000001 ! body part movement
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
@@ -3095,7 +3095,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-05T02:06:22Z xsd:st
 [Term]
 id: NBO:0000338
 name: kinesthetic behavior
-def: "\"Behavior related to the movement of the body's muscles, tendons, and joints.\" [NBO:GVG]" []
+def: "\"Movement behavior of the body or its parts.\"" []
 is_a: NBO:0000313 ! behavior process
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
@@ -4143,15 +4143,17 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-08T12:22:13Z xsd:st
 id: NBO:0000446
 name: visual pursuit
 def: "\"Selectively track a moving object.\" [NBO:GVG]" []
-is_a: NBO:0000444 ! eye movement
+is_a: NBO:0000001 ! body part movement
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-08T12:25:53Z xsd:string
 
 [Term]
 id: NBO:0000447
-name: locomotor activation
-is_a: NBO:0000403 ! voluntary movement behavior
+name: locomotor activation behavior
+def: "Activation of locomotory behavior." []
+is_a: NBO:0000338 ! kinesthetic behavior
+relationship: BFO:00000050 NBO:0000013 ! locomotory behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-08T12:27:51Z xsd:string
@@ -4166,8 +4168,9 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-08T12:28:10Z xsd:st
 
 [Term]
 id: NBO:0000449
-name: spontaneous movement
-is_a: NBO:0000447 ! locomotor activation
+name: spontaneous movement behavior
+def: "Kinesthetic behavior initiated in the absence of specific sensory input." []
+is_a: NBO:0000338 ! kinesthetic behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-08T12:28:25Z xsd:string
@@ -5790,7 +5793,6 @@ def: "\"The behavior in which an organism sheds tears, often accompanied by non-
 synonym: "crying behaviour" EXACT []
 xref: GO:0060273
 is_a: NBO:0000003 ! emotional behavior
-is_a: NBO:0000036 ! behavioral control of production of sound
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T04:52:56Z xsd:string

@@ -255,13 +255,11 @@ is_a: GO:0050896
 
 [Term]
 id: GO:0007617
-is_a: GO:0019098
-is_a: GO:0051705
+is_a: GO:0044705
 
 [Term]
 id: GO:0007618
 is_a: GO:0044703
-is_a: GO:0051704
 
 [Term]
 id: GO:0007619
@@ -323,6 +321,7 @@ is_a: GO:0009415
 
 [Term]
 id: GO:0009415
+is_a: GO:0001101
 is_a: GO:0009628
 is_a: GO:0010035
 is_a: GO:1901700
@@ -385,12 +384,12 @@ is_a: GO:0007588
 
 [Term]
 id: GO:0030431
-is_a: GO:0007610
 is_a: GO:0044707
 
 [Term]
 id: GO:0031223
 is_a: GO:0007638
+is_a: GO:0010996
 
 [Term]
 id: GO:0032501
@@ -398,6 +397,7 @@ is_a: GO:0008150
 
 [Term]
 id: GO:0035176
+is_a: GO:0051703
 is_a: GO:0051705
 
 [Term]
@@ -442,6 +442,7 @@ is_a: GO:0044699
 [Term]
 id: GO:0044708
 is_a: GO:0007610
+is_a: GO:0044699
 
 [Term]
 id: GO:0045297
@@ -449,7 +450,7 @@ is_a: GO:0044704
 
 [Term]
 id: GO:0046903
-is_a: GO:0006810
+is_a: GO:0044765
 
 [Term]
 id: GO:0048511
@@ -627,6 +628,7 @@ is_a: GO:0065007
 [Term]
 id: GO:0070075
 is_a: GO:0007589
+is_a: GO:0032941
 
 [Term]
 id: GO:0071625
@@ -640,7 +642,7 @@ is_a: GO:0042221
 id: NBO:0000001
 name: body part movement
 synonym: "stationary movement" EXACT [] {http://purl.obolibrary.org/obo/synonymtype="EXACT"}
-is_a: NBO:0000403 ! voluntary movement behavior
+is_a: NBO:0000338 ! kinesthetic behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:03:39Z xsd:string
@@ -648,7 +650,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:03:39Z xsd:st
 [Term]
 id: NBO:0000002
 name: whole body movement
-is_a: NBO:0000403 ! voluntary movement behavior
+is_a: NBO:0000338 ! kinesthetic behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:03:39Z xsd:string
@@ -747,7 +749,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:03:39Z xsd:st
 [Term]
 id: NBO:0000013
 name: locomotory behavior
-def: "\"Behavior associated with the specific movement from place to place of an organism.\" [GO:0007626]" []
+def: "Movement from place to place of an organism.\" [GO:0007626]" []
 xref: GO:0007626
 xref: GO:0008344
 is_a: GO:0040011
@@ -853,7 +855,6 @@ def: "\"Behavior related to the readily reversible state of reduced awareness an
 xref: GO:0030431
 is_a: GO:0030431
 is_a: NBO:0000008 ! rhythmic behavior
-relationship: is_about GO:0030431
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:03:39Z xsd:string
@@ -880,7 +881,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:03:39Z xsd:st
 [Term]
 id: NBO:0000027
 name: grooming behavior
-def: "\"Behavior related to the cleaning or maintainance of one's body or appearance.\" [NBO:GVG]" []
+def: "\"Cleaning or maintainance behavior of one's body or appearance.\" [NBO:GVG]" []
 synonym: "grooming behaviour" EXACT [] {http://purl.obolibrary.org/obo/synonymtype="EXACT"}
 xref: GO:0007625
 is_a: NBO:0000313 ! behavior process
@@ -1001,7 +1002,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:03:39Z xsd:st
 [Term]
 id: NBO:0000039
 name: behavioral control of defecation
-def: "\"The expulsion of feces from the rectum.\" [wikipedia:defecation]" []
+def: "\"The behavioral control of defecation.\" [wikipedia:defecation]" []
 is_a: NBO:0000038 ! behavioral control of excretion
 intersection_of: NBO:0000038 ! behavioral control of excretion
 intersection_of: is_about GO:0030421
@@ -1266,7 +1267,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T01:20:02Z xsd:st
 [Term]
 id: NBO:0000068
 name: shaking
-def: "\"Movement of a body part on a horizontal plain.\" [NBO:GVG]" []
+def: "\"Repetitive movement of a body part.\" [NBO:GVG]" []
 is_a: NBO:0000001 ! body part movement
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
@@ -2121,6 +2122,7 @@ name: rapid eye movement sleep
 synonym: " paradoxical sleep" EXACT [] {http://purl.obolibrary.org/obo/synonymtype="EXACT"}
 synonym: "REM sleep" EXACT [] {http://purl.obolibrary.org/obo/synonymtype="EXACT"}
 is_a: GO:0042747
+is_a: GO:0050802
 is_a: NBO:0000024 ! sleeping behavior
 is_a: NBO:0000084 ! circadian behavior
 intersection_of: NBO:0000024 ! sleeping behavior
@@ -2145,6 +2147,7 @@ def: "\"Behavior related to all sleep stages in the circadian sleep/wake cycle o
 comment: These stages are characterized by a slowing of brain waves and other physiological functions.
 synonym: "NREM sleep behavior" EXACT [] {http://purl.obolibrary.org/obo/synonymtype="EXACT"}
 is_a: GO:0042748
+is_a: GO:0050802
 is_a: NBO:0000024 ! sleeping behavior
 is_a: NBO:0000084 ! circadian behavior
 relationship: is_about GO:0042748
@@ -3832,7 +3835,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-05T02:06:22Z xsd:st
 [Term]
 id: NBO:0000338
 name: kinesthetic behavior
-def: "\"Behavior related to the movement of the body's muscles, tendons, and joints.\" [NBO:GVG]" []
+def: "\"Movement behavior of the body or its parts.\"" []
 is_a: NBO:0000313 ! behavior process
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
@@ -4890,15 +4893,18 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-08T12:22:13Z xsd:st
 id: NBO:0000446
 name: visual pursuit
 def: "\"Selectively track a moving object.\" [NBO:GVG]" []
-is_a: NBO:0000444 ! eye movement
+is_a: GO:0007601
+is_a: NBO:0000001 ! body part movement
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-08T12:25:53Z xsd:string
 
 [Term]
 id: NBO:0000447
-name: locomotor activation
-is_a: NBO:0000403 ! voluntary movement behavior
+name: locomotor activation behavior
+def: "Activation of locomotory behavior." []
+is_a: NBO:0000338 ! kinesthetic behavior
+relationship: BFO:00000050 NBO:0000013 ! locomotory behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-08T12:27:51Z xsd:string
@@ -4913,8 +4919,9 @@ property_value: http://purl.org/dc/elements/1.1/date 2011-04-08T12:28:10Z xsd:st
 
 [Term]
 id: NBO:0000449
-name: spontaneous movement
-is_a: NBO:0000447 ! locomotor activation
+name: spontaneous movement behavior
+def: "Kinesthetic behavior initiated in the absence of specific sensory input." []
+is_a: NBO:0000338 ! kinesthetic behavior
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-08T12:28:25Z xsd:string
@@ -6565,7 +6572,6 @@ def: "\"The behavior in which an organism sheds tears, often accompanied by non-
 synonym: "crying behaviour" EXACT [] {http://purl.obolibrary.org/obo/synonymtype="EXACT"}
 xref: GO:0060273
 is_a: NBO:0000003 ! emotional behavior
-is_a: NBO:0000036 ! behavioral control of production of sound
 property_value: created:by "George Gkoutos" xsd:string
 property_value: http://purl.obolibrary.org/obo/namespace "behavior_ontology" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-14T04:52:56Z xsd:string
@@ -8460,6 +8466,17 @@ is_a: NBO:0003104 ! regulation of behavioral response to addictive substance
 property_value: created:by "George Gkoutos" xsd:string
 
 [Term]
+id: NBO_0009001
+name: rotation behavior
+is_a: NBO:0000002 ! whole body movement
+
+[Term]
+id: NBO_0009002
+name: locomotor inactivation behavior
+def: "Deactiviation of locomotory behavior." []
+is_a: NBO:0000338 ! kinesthetic behavior
+
+[Term]
 id: PATO:0000014
 is_a: PATO:0001300
 
@@ -8666,7 +8683,7 @@ is_a: UBERON:0000475
 
 [Term]
 id: UBERON:0000060
-is_a: UBERON:0000061
+is_a: UBERON:0000064
 
 [Term]
 id: UBERON:0000061
@@ -8674,7 +8691,7 @@ is_a: UBERON:0000465
 
 [Term]
 id: UBERON:0000062
-is_a: UBERON:0000061
+is_a: UBERON:0010000
 
 [Term]
 id: UBERON:0000077
@@ -8716,7 +8733,9 @@ is_a: UBERON:0006554
 [Term]
 id: UBERON:0001817
 is_a: UBERON:0002365
+is_a: UBERON:0003297
 is_a: UBERON:0004859
+is_a: UBERON:0015154
 
 [Term]
 id: UBERON:0002097
@@ -8774,7 +8793,7 @@ is_a: UBERON:0004121
 
 [Term]
 id: UBERON:0005725
-is_a: UBERON:0001032
+is_a: UBERON:0005726
 
 [Term]
 id: UBERON:0005726

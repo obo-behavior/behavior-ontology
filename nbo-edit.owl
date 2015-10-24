@@ -1410,13 +1410,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>affective behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>mood</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000003"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>mood</owl:annotatedTarget>
+        <owl:annotatedTarget>affective behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000003"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -1622,7 +1622,7 @@
 
     <owl:Class rdf:about="&obo;NBO_0000015">
         <rdfs:label rdf:datatype="&xsd;string">aggressive behavior</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;NBO_0000003"/>
+        <rdfs:subClassOf rdf:resource="&obo;NBO_0000121"/>
         <oboInOwl:hasDbXref>GO:0002118</oboInOwl:hasDbXref>
         <obo:synonym>aggression</obo:synonym>
         <obo:creation_date>2011-04-14T01:03:39Z</obo:creation_date>
@@ -1634,7 +1634,7 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>agonism</owl:annotatedTarget>
+        <owl:annotatedTarget>aggressive behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000015"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -1646,7 +1646,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>aggressive behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>agonism</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000015"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -2328,13 +2328,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>suckling behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>nursing behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000054"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>nursing behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>suckling behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000054"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -2650,13 +2650,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>motor development playing behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>exercise</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000076"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>exercise</owl:annotatedTarget>
+        <owl:annotatedTarget>motor development playing behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000076"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -2882,13 +2882,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>fight-or-flight response</owl:annotatedTarget>
+        <owl:annotatedTarget>fight-or-flight-or-freeze response</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000088"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>fight-or-flight-or-freeze response</owl:annotatedTarget>
+        <owl:annotatedTarget>fight-or-flight response</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000088"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -2911,13 +2911,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>predatory aggressive behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>predatory aggression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000089"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>predatory aggression</owl:annotatedTarget>
+        <owl:annotatedTarget>predatory aggressive behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000089"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -3008,8 +3008,8 @@
     <owl:Class rdf:about="&obo;NBO_0000095">
         <rdfs:label rdf:datatype="&xsd;string">fear behavior towards living things</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000091"/>
-        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to a living thing.&quot; [NBO:GVG]</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to a living thing.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-03-31T10:18:25Z</obo:creation_date>
     </owl:Class>
@@ -3448,13 +3448,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>violent behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>physical aggression behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000120"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>physical aggression behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>violent behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000120"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -3465,8 +3465,8 @@
 
     <owl:Class rdf:about="&obo;NBO_0000121">
         <rdfs:label rdf:datatype="&xsd;string">agonistic behavior</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;NBO_0000003"/>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000011"/>
+        <rdfs:subClassOf rdf:resource="&obo;NBO_0000313"/>
         <obo:creation_date>2011-03-31T11:42:15Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -4295,13 +4295,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>REM sleep</owl:annotatedTarget>
+        <owl:annotatedTarget> paradoxical sleep</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000159"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget> paradoxical sleep</owl:annotatedTarget>
+        <owl:annotatedTarget>REM sleep</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000159"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -4558,8 +4558,8 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000011"/>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000022"/>
         <rdfs:comment>The formation of associations among stimuli and responses.</rdfs:comment>
-        <obo:synonym>conditional learning</obo:synonym>
         <oboInOwl:hasDbXref>GO:0008306</oboInOwl:hasDbXref>
+        <obo:synonym>conditional learning</obo:synonym>
         <obo:creation_date>2011-04-01T01:49:32Z</obo:creation_date>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -4689,13 +4689,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>nonassociative learning</owl:annotatedTarget>
+        <owl:annotatedTarget>unconditional response</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000177"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>unconditional response</owl:annotatedTarget>
+        <owl:annotatedTarget>nonassociative learning</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000177"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -4862,13 +4862,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>procedural memory</owl:annotatedTarget>
+        <owl:annotatedTarget>implicit memory</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000188"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>implicit memory</owl:annotatedTarget>
+        <owl:annotatedTarget>procedural memory</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000188"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -5614,6 +5614,12 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget> behavioral homeostasis</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000233"/>
+        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>maintenance behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000233"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
@@ -5621,12 +5627,6 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>perception of need</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000233"/>
-        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget> behavioral homeostasis</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000233"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -5924,6 +5924,12 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>health phobia</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000251"/>
+        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>hypochondria</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000251"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
@@ -5931,12 +5937,6 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>health anxiety</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000251"/>
-        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>health phobia</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000251"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -6025,25 +6025,25 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>MDD</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000257"/>
-        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>unipolar depression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>clinical depression </owl:annotatedTarget>
+        <owl:annotatedTarget>MDD</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>clinical depression</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000257"/>
+        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>clinical depression </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -6066,12 +6066,6 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>manic depression</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000258"/>
-        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>bipolar affective disorder</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000258"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
@@ -6079,6 +6073,12 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>BD</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000258"/>
+        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>manic depression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000258"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -6377,8 +6377,8 @@
     <owl:Class rdf:about="&obo;NBO_0000277">
         <rdfs:label rdf:datatype="&xsd;string">discriminatory behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000011"/>
-        <obo:creation_date>2011-04-04T09:11:04Z</obo:creation_date>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <obo:creation_date>2011-04-04T09:11:04Z</obo:creation_date>
         <obo:synonym>prejudice</obo:synonym>
         <obo:synonym>discrimination</obo:synonym>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -6956,13 +6956,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>behavior</owl:annotatedTarget>
+        <owl:annotatedTarget>behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000313"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>behavior</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000313"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -7007,13 +7007,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>behavioural response to visual stimulus</owl:annotatedTarget>
+        <owl:annotatedTarget>visual behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000314"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>visual behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>behavioural response to visual stimulus</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000314"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -7052,14 +7052,14 @@
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000308"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;nbo#by_means"/>
-                <owl:someValuesFrom rdf:resource="&obo;UBERON_0002105"/>
+                <owl:onProperty rdf:resource="&obo;nbo#in_response_to"/>
+                <owl:someValuesFrom rdf:resource="&obo;GO_0007605"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;nbo#in_response_to"/>
-                <owl:someValuesFrom rdf:resource="&obo;GO_0007605"/>
+                <owl:onProperty rdf:resource="&obo;nbo#by_means"/>
+                <owl:someValuesFrom rdf:resource="&obo;UBERON_0002105"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasDbXref>GO:0031223</oboInOwl:hasDbXref>
@@ -7727,13 +7727,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>whole body coordination</owl:annotatedTarget>
+        <owl:annotatedTarget>large muscle coordination</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000347"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>large muscle coordination</owl:annotatedTarget>
+        <owl:annotatedTarget>whole body coordination</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000347"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -8218,13 +8218,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>gravitaxis</owl:annotatedTarget>
+        <owl:annotatedTarget>geotactic behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000378"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>geotactic behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>gravitaxis</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000378"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -8246,13 +8246,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>negative gravitaxis</owl:annotatedTarget>
+        <owl:annotatedTarget>negative geotactic behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000379"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>negative geotactic behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>negative gravitaxis</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000379"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -8274,13 +8274,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>positive geotactic behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>positive gravitaxis</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000380"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>positive gravitaxis</owl:annotatedTarget>
+        <owl:annotatedTarget>positive geotactic behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000380"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -8462,12 +8462,6 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget> infant reflex</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000390"/>
-        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>infantile reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000390"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
@@ -8475,6 +8469,12 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>newborn reflex</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000390"/>
+        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget> infant reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000390"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -8534,14 +8534,14 @@
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>fencing reflex</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>ATNR</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000393"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>ATNR</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>fencing reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000393"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -8761,14 +8761,14 @@
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">BROAD</obo:synonymtype>
-        <owl:annotatedTarget>BER</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>Braunecker-Effenberg reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000407"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>Braunecker-Effenberg reflex</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="&xsd;string">BROAD</obo:synonymtype>
+        <owl:annotatedTarget>BER</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000407"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -8824,7 +8824,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>Achilles tendon reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>ankle reflex</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000410"/>
+        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget> triceps surae reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000410"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -8836,13 +8842,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget> triceps surae reflex</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000410"/>
-        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>ankle reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>Achilles tendon reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000410"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -8956,13 +8956,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>oculovestibular reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>VOR</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000416"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>VOR</owl:annotatedTarget>
+        <owl:annotatedTarget>oculovestibular reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000416"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -8980,8 +8980,8 @@
     <owl:Class rdf:about="&obo;NBO_0000417">
         <rdfs:label rdf:datatype="&xsd;string">physiologic nystagmus</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000416"/>
-        <obo:creation_date>2011-04-06T06:16:20Z</obo:creation_date>
         <obo:IAO_0000115>&quot;A form of involuntary eye movement that is part of the vestibulo-ocular reflex (VOR). It is characterized by alternating smooth pursuit in one direction and saccadic movement in the other direction.&quot; [wikipedia:Physiologic_nystagmus]</obo:IAO_0000115>
+        <obo:creation_date>2011-04-06T06:16:20Z</obo:creation_date>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
@@ -9093,13 +9093,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>delayed sleep-phase type (DSPT)</owl:annotatedTarget>
+        <owl:annotatedTarget>DSPS</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000421"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>DSPS</owl:annotatedTarget>
+        <owl:annotatedTarget>delayed sleep-phase type (DSPT)</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000421"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -9147,13 +9147,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>Pavor nocturnus</owl:annotatedTarget>
+        <owl:annotatedTarget>night terror</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000424"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>night terror</owl:annotatedTarget>
+        <owl:annotatedTarget>Pavor nocturnus</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000424"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -9188,12 +9188,6 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>perineal reflex</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000426"/>
-        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>anal reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000426"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
@@ -9201,6 +9195,12 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>anal wink</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000426"/>
+        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>perineal reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000426"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -9212,8 +9212,8 @@
     <owl:Class rdf:about="&obo;NBO_0000427">
         <rdfs:label rdf:datatype="&xsd;string">cremasteric reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000389"/>
-        <obo:creation_date>2011-04-07T05:15:36Z</obo:creation_date>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <obo:creation_date>2011-04-07T05:15:36Z</obo:creation_date>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;A reflex is elicited by lightly stroking the superior and medial (inner) part of the thigh resulting in a contraction of the cremaster muscle that pulls up the scrotum and testis on the side stroked.&quot; [wikipedia:Cremasteric_reflex]</obo:IAO_0000115>
     </owl:Class>
@@ -9308,13 +9308,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>flexor withdrawal reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>nociceptive reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000433"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>nociceptive reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>flexor withdrawal reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000433"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -9355,13 +9355,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>stapedius reflex</owl:annotatedTarget>
+        <owl:annotatedTarget> attenuation reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000435"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget> attenuation reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>stapedius reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000435"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -9611,12 +9611,6 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>preening</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000451"/>
-        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>auto-grooming</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000451"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
@@ -9624,6 +9618,12 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>self-grooming</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000451"/>
+        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>preening</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000451"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -10116,14 +10116,14 @@
         <obo:IAO_0000115>&quot;A dyssomnia where the patient moves limbs involuntarily during sleep, and has symptoms or problems related to the movement.&quot; [wikipedia:Periodic_limb_movement_disorder]</obo:IAO_0000115>
     </owl:Class>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>nocturnal myoclonus</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>PLMD</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000478"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>PLMD</owl:annotatedTarget>
+        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>nocturnal myoclonus</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000478"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -10195,13 +10195,19 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>paradoxical insomnia</owl:annotatedTarget>
+        <owl:annotatedTarget>subjective sleepiness</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000481"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>sleep hypochondriasis</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000481"/>
+        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>paradoxical insomnia</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000481"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -10214,12 +10220,6 @@
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>subjective insomnia</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000481"/>
-        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>subjective sleepiness</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000481"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -10356,7 +10356,7 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>advanced sleep-phase type</owl:annotatedTarget>
+        <owl:annotatedTarget>ASPS</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000490"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -10368,7 +10368,7 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>ASPS</owl:annotatedTarget>
+        <owl:annotatedTarget>advanced sleep-phase type</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000490"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -10394,6 +10394,24 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>non-24-hour circadian rhythm disorder </owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
+        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>circadian rhythm sleep disorder, nonentrained type</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
+        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>circadian rhythm sleep disorder, free running type</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
+        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>hypernychthemeral syndrome</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
@@ -10406,31 +10424,13 @@
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>free running disorder (FRD) </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
-        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>circadian rhythm sleep disorder, free running type</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
-        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>circadian rhythm sleep disorder, nonentrained type</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
-        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>non-24-hour circadian rhythm disorder </owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
-        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
         <owl:annotatedTarget>non-24-hour sleep-wake disorder</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
+        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
+        <owl:annotatedTarget>free running disorder (FRD) </owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000491"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -10931,13 +10931,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>postnatal depression</owl:annotatedTarget>
+        <owl:annotatedTarget>PDD</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000520"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>PDD</owl:annotatedTarget>
+        <owl:annotatedTarget>postnatal depression</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000520"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -11146,13 +11146,13 @@
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>post-traumatic stress disorder</owl:annotatedTarget>
+        <owl:annotatedTarget>PTSD</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000534"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>PTSD</owl:annotatedTarget>
+        <owl:annotatedTarget>post-traumatic stress disorder</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000534"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -11783,8 +11783,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000595"/>
         <oboInOwl:hasDbXref>MP:0002822</oboInOwl:hasDbXref>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:IAO_0000115>&quot;A pathological behavior characterized by muscular rigidity and fixation of posture regardless of external stimuli, as well as decreased sensitivity to pain.&quot; [wikipedia:Catalepsy]</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>&quot;A pathological behavior characterized by muscular rigidity and fixation of posture regardless of external stimuli, as well as decreased sensitivity to pain.&quot; [wikipedia:Catalepsy]</obo:IAO_0000115>
         <obo:creation_date>2011-04-14T08:14:28Z</obo:creation_date>
     </owl:Class>
     
@@ -11867,13 +11867,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>stereotypic behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>stereotypy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000567"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>stereotypy</owl:annotatedTarget>
+        <owl:annotatedTarget>stereotypic behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000567"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -12010,13 +12010,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget> piloerection</owl:annotatedTarget>
+        <owl:annotatedTarget>horripilation</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000575"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>horripilation</owl:annotatedTarget>
+        <owl:annotatedTarget> piloerection</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000575"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -12184,7 +12184,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>hindlimb extension reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>limb clasping</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000584"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -12196,7 +12196,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>limb clasping</owl:annotatedTarget>
+        <owl:annotatedTarget>hindlimb extension reflex</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000584"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -12281,13 +12281,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>trembling</owl:annotatedTarget>
+        <owl:annotatedTarget>shivering</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000589"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>shivering</owl:annotatedTarget>
+        <owl:annotatedTarget>trembling</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000589"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -12604,13 +12604,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>pathological forgetting</owl:annotatedTarget>
+        <owl:annotatedTarget>retention loss</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000606"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>retention loss</owl:annotatedTarget>
+        <owl:annotatedTarget>pathological forgetting</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000606"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -12784,13 +12784,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>non-verbal communication behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>nonverbal communication behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000613"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>nonverbal communication behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>non-verbal communication behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000613"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -13139,13 +13139,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>defensive behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>defense</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000636"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>defense</owl:annotatedTarget>
+        <owl:annotatedTarget>defensive behaviour</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000636"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -13409,8 +13409,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="&obo;NBO_0000649">
         <rdfs:label rdf:datatype="&xsd;string">being conscious</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000065"/>
-        <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-05-27T01:51:38Z</obo:creation_date>
     </owl:Class>
     
@@ -13479,13 +13479,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>sensory seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>Jacksonian sensory seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000652"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>Jacksonian sensory seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>sensory seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000652"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -13507,13 +13507,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>abdominal epilepsy</owl:annotatedTarget>
+        <owl:annotatedTarget>autonomic seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000653"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>autonomic seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>abdominal epilepsy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000653"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -13542,13 +13542,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>simple partial seizures of temporal lobe origin</owl:annotatedTarget>
+        <owl:annotatedTarget>psychic seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000654"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>psychic seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>simple partial seizures of temporal lobe origin</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000654"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -13897,13 +13897,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>drop attack</owl:annotatedTarget>
+        <owl:annotatedTarget>drop seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000670"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>drop seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>drop attack</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000670"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -13997,13 +13997,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>reflex epilepsy</owl:annotatedTarget>
+        <owl:annotatedTarget>environmental epilepsy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000675"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>environmental epilepsy</owl:annotatedTarget>
+        <owl:annotatedTarget>reflex epilepsy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000675"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -14027,13 +14027,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>gran mal seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>grand mal seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000676"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>grand mal seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>gran mal seizure</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000676"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -14070,13 +14070,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>febrile convulsion</owl:annotatedTarget>
+        <owl:annotatedTarget>fever fit</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000678"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">EXACT</obo:synonymtype>
-        <owl:annotatedTarget>fever fit</owl:annotatedTarget>
+        <owl:annotatedTarget>febrile convulsion</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000678"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -14280,8 +14280,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000642"/>
         <oboInOwl:hasDbXref>HP:0002133</oboInOwl:hasDbXref>
         <obo:created_by>George Gkoutos</obo:created_by>
-        <obo:creation_date>2011-05-27T05:59:47Z</obo:creation_date>
         <obo:IAO_0000115>&quot;Continuous unremitting seizure lasting longer than 30 minutes or recurrent seizures without regaining consciousness between seizures for greater than 30 minutes.&quot; [wikipedia:http\://en.wikipedia.org/wiki/Status_epilepticus]</obo:IAO_0000115>
+        <obo:creation_date>2011-05-27T05:59:47Z</obo:creation_date>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
     </owl:Class>
     
@@ -14866,8 +14866,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="&obo;NBO_0000642"/>
         <obo:synonym>Infantile Myoclonic Encephalopathy</obo:synonym>
         <obo:synonym>jackknife convulsions</obo:synonym>
-        <obo:IAO_0000115>&quot;A type of epileptic seizures occurring in infants and characterised by clusters of myoclonic spasms.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
+        <obo:IAO_0000115>&quot;A type of epileptic seizures occurring in infants and characterised by clusters of myoclonic spasms.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:synonym>Salaam spasms</obo:synonym>
         <obo:synonym>Massive Myoclonia</obo:synonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -14880,13 +14880,19 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Class>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>Salaam spasms</owl:annotatedTarget>
+        <owl:annotatedTarget>Generalized Flexion Epilepsy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000734"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>Infantile Epileptic Encephalopathy</owl:annotatedTarget>
+        <owl:annotatedTarget>Massive Myoclonia</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="&obo;NBO_0000734"/>
+        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
+        <owl:annotatedTarget>Infantile Myoclonic Encephalopathy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000734"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -14898,7 +14904,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>Generalized Flexion Epilepsy</owl:annotatedTarget>
+        <owl:annotatedTarget>Salaam spasms</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000734"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>
@@ -14910,13 +14916,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </owl:Axiom>
     <owl:Axiom>
         <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>Infantile Myoclonic Encephalopathy</owl:annotatedTarget>
-        <owl:annotatedSource rdf:resource="&obo;NBO_0000734"/>
-        <owl:annotatedProperty rdf:resource="&obo;synonym"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <obo:synonymtype rdf:datatype="&xsd;string">RELATED</obo:synonymtype>
-        <owl:annotatedTarget>Massive Myoclonia</owl:annotatedTarget>
+        <owl:annotatedTarget>Infantile Epileptic Encephalopathy</owl:annotatedTarget>
         <owl:annotatedSource rdf:resource="&obo;NBO_0000734"/>
         <owl:annotatedProperty rdf:resource="&obo;synonym"/>
     </owl:Axiom>

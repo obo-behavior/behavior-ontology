@@ -1,0 +1,1833 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns="http://ethotools.sourceforge.net/owlwatcher/test/abocore.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xml:base="http://ethotools.sourceforge.net/owlwatcher/test/abocore.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Burrow">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Movement_through_a_substrate_medium"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Chase_prey">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Chase prey</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Capturing"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Active pursuit of fleeing prey</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Beg_food">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Social_acquisition_of_food"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Perform behaviors that may induce one or more other animals to share food with the performer</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Beg food</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Behavioral_Function">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavioral Function</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="ABO_Core"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Presumed or demonstrated function of behavior; assignment based on interpretation, not simply observation</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Fly">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Movement_through_a_substrate_medium"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Sexual_harassment">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Any of several behaviors involving harassment of one animal unwilling to mate by another eager to do so</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Reproduction"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sexual harassment</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Offspring_instruction_behavior">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Offspring_care"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Offspring instruction behavior</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Any behavior whose function is designed to accelerate learning of necessary behaviors by offspring</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Produce_electric_field">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Produce electric field</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Behavioral_Acts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Produce_sound">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Behavioral_Acts"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Produce sound</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Rattle">
+    <rdfs:subClassOf rdf:resource="#Produce_sound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Hunt_for_mate">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hunt for mate</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Mate_finding"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thermoregulation_solicitation">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior soliciting or offering help in thermoregulation</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Solicitation-invitation"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Thermoregulation solicitation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Contact_aggression">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Agonism"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Contact aggression</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Stand_up_raise_body">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Stand up/raise body</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Other_whole_body_movement"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Processing">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Nutrient_acquisition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Social_integration">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior related to social interactions among animals outside of reproduction, conflict, and resource acquisition</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Social integration</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Functional_Context"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Food_exposure">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Food exposure</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Nutrient_locating"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Age_declaration">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Self-declaration_behavior"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Age declaration</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Food_extraction">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Nutrient_acquisition"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Food extraction</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Killing">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior in which one animal causes the death of another.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Agonism"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Deposit_spermatophore">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Deposit spermatophore</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Reproductive_Sexual_acts"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Deposition of spermatophore either on substrate or in body of female</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Jump_Hop">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Movement_on_a_substrate"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Jump/Hop</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Agonism">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >context of conflict or as a result of conflict or a direct precursor to conflict.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Behavioral_Function"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Move_limb_appendage">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Move limb/appendage</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Body_part_movement"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Courtship">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Reproduction"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Display, feeding, and other activities used to persuade or induce an encountered individual to mate with the animal performing the behavior</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Swim">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Movement_through_a_substrate_medium"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Rejection">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Reproduction"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rejection of courtship or solicitation behaviors by avoidance, retreat, or other active repulsion of suitor.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Bond_status_declaration">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Self-declaration_behavior"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Bond status declaration</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Filter_feed">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Move_mouth_parts"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Filter feed</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Reproduction">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Usual function directly related to the production of offspring.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Functional_Context"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Act_in_concert">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Act in concert</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >synchronous movement or action</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Group_actions"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Territorial_status_declaration">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Territorial status declaration</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Self-declaration_behavior"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Shake_head">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Move_head"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Shake head</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Rotate_head">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Rotate head</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Move_head"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Reconciliation">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >facilitating the restoration of normal interactions between parties that recently engaged in a conflict</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Social_integration"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Bathe">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mount_Amplex">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mount/Amplex</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Reproductive_Sexual_acts"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Spawning in which male and female are clasped or attached to ensure close proximity of released gametes.
+special case of holding</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Courtship_begging">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Courtship begging</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Begging by one animal from a potential mate</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Courtship"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Startup">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Locomotion"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Change from static phase to locomotory phase</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Greeting_behavior">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Greeting behavior</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors used to acknowledge the presence of one animal or group to another animal or group</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Social_integration"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Group_actions">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Behavioral_Acts"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Group actions</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >actions which have objects</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Parasiticide_provision">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provision of plants or other agents from the local environment that kill or in otherways inhibit parasites in offspring</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Protection_of_offspring"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Parasiticide provision</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Warn_other_prey">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Antipredation"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Warn other prey</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Postures or signals that alert other animals to presence or approach of a predator</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Respiratory_ventilation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Maintenance"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Respiratory ventilation</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors that result in replacement of respiratory medium at relevant absorbent surfaces</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Coercion">
+    <rdfs:subClassOf rdf:resource="#Agonism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Spit">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Move_mouth_parts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Solicitation-invitation">
+    <rdfs:subClassOf rdf:resource="#Social_integration"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior that indicates approval by one animal of another animal beginning some new activity or state</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Migration">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Functional_Context"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Share_food">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Share food</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors in which animals solicit or allow other animals to utilize a resource they currently control</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Social_acquisition_of_food"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thermoregulation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Microclimate_regulation"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Regulation of temperature around offspring</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Wrestle_Grapple">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Wrestling and grappling during an agonistic conflict</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Wrestle/Grapple</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Recruitment">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >inviting other animals to join a group or requests other animals to let the signaler join them</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Social_integration"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Flush_prey">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Flush prey</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors in which focal animal forces to emerge from cover</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Capturing"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Medication">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Maintenance"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Jamming">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Antipredation"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Emission of signals in such a way as to prevent effective use of signals emitted by other parties</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Sit_down_lower_body">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sit down/lower body</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Other_whole_body_movement"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Motor_development_play">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Play"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Motor development play</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Oviposit">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Deposition of eggs either into the medium, or onto a substrate</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Reproductive_Sexual_acts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Molting-facilitating_behavior">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Maintenance"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Molting-facilitating behavior</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Replacement of old body covering with new one. May or may not involve slight changes in body size and/or structure.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Hang">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Static_pose"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Feeding_young">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Provision of food, water, or other nutrients to offspring</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Offspring_care"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Feeding young</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Offspring_expulsion">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Offspring_care"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Offspring expulsion</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Harassment or other behaviors that serve to evict recent offspring from parental group, territory, nest, or other prior residence of offspring</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Sperm_competition_behavior">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Any behavior by a male or his gametes that bias the success of his own sperm upwards</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sperm competition behavior</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Postcopulatory_function"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Protection_of_offspring">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Protection of offspring</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Guarding &amp; defense of young</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Offspring_care"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Die">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Life_history_transitions"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Masturbate">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Self stimulation of the genitals</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Reproductive_Sexual_acts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Postcopulatory_function">
+    <rdfs:subClassOf rdf:resource="#Reproduction"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Postcopulatory function</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors such as self-hygiene or display following a copulation</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Protection_solicitation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Protection solicitation</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior inviting another to be protected or to provide protection</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Solicitation-invitation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Distress_signalling">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Antipredation"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Distress signalling</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Signals emitted by an animal trapped or captured by a presumed predator</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Color_change">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Color change</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Behavioral_Acts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Pick">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Glide">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Movement_through_a_substrate_medium"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Jet">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Movement_through_a_substrate_medium"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Joining_solicitation">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior that invites melding of multiple parties</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Joining solicitation</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Solicitation-invitation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Flee">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Antipredation"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Depart current location of predator</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Aposematism">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Conspicuous postures or signals (often coloration) that potential predators learn to associate with strong defense mechanisms of performer</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Antipredation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mimicry_enhancement">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors, anatomical structures, or signals that imitate aposematic animals, plants, or inanimate objects that are undesirable to predators of performer</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Antipredation"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mimicry enhancement</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Salivate">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Secrete"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Rasp">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ingestion of resources containing significant organic components, (e.g. "eating")</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Move_mouth_parts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Create_refuge">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Create refuge</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Construction of a structure in which builder can benefit from reduced predation risk and/or environmental stress</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Antipredation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Scent_mark_release_pheromone">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Secrete"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Scent mark/release pheromone</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Exclusion">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior that serves to exclude an animal from a group</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Agonism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Reduce_activity">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Antipredation"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Reduce activity</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Halting or diminution of activity to minimize detection by predator</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Injuring">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior in which one animal injures another.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Agonism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Clap">
+    <rdfs:subClassOf rdf:resource="#Produce_sound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Construct_capture_device">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Capturing"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Building of a trap, web, net, or other structure to help ensnare potential food items</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Construct capture device</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Norm_maintenance">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Norm maintenance</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >reflects an animal's discomfort about the violation of some accepted norm or precept governing their social interactions</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Social_integration"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Suitability_assessment">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Suitability assessment</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sensory assessment of a resource, (usually using olfaction or taste), for suitability of subsequent usage</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Nutrient_acquisition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Thermoregulation_behavior">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Maintenance"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Thermoregulation behavior</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors that facilitate maintenance of optimal body temperatures</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Produce_slime">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Produce slime</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Secrete"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Stroke">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Static_pose">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Immobile</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Behavioral_Acts"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Static pose</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Sunning-basking">
+    <rdfs:subClassOf rdf:resource="#Thermoregulation_behavior"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Exposure of body to sunlight</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Tongue_movement">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Move_mouth_parts"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tongue movement</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Patrolling_behavior">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Territoriality"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Regular visitation by territorial resident of multiple points within the area or along the perimeter of their territory</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Patrolling behavior</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Defecate">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Removal of wastes from gut</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Excrete"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Moult">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Life_history_transitions"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Other_moved_body_part">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Body_part_movement"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Other moved body part</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Wave_Wiggle">
+    <rdfs:subClassOf rdf:resource="#Move_limb_appendage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Wave/Wiggle</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Spawning">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Release of gametes one or both sexes into the ambient medium</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Gamete_release_function"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Hiss">
+    <rdfs:subClassOf rdf:resource="#Produce_sound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Incubate">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Aided development of embryos either inside incubated eggs or inside body of parent.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Reproductive_Sexual_acts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Tilt">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Other_whole_body_movement"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Cooling">
+    <rdfs:subClassOf rdf:resource="#Thermoregulation_behavior"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Facilitate_oviposition">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Deposition of eggs either into the medium, or onto a substrate</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Facilitate oviposition</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Reproduction"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Stridulate">
+    <rdfs:subClassOf rdf:resource="#Produce_sound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Decoy-misdirection">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors directed towards presumed predators to redirect their attention away from a location of importance to the performer</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Antipredation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Dive">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Movement_through_a_substrate_medium"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Move_head">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Body_part_movement"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Move head</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Interference">
+    <rdfs:subClassOf rdf:resource="#Reproduction"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Usually interference by members of one sex in the completion of courtship or mating activities by one or more members of the same sex</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Grooming-preening_solicitation">
+    <rdfs:subClassOf rdf:resource="#Solicitation-invitation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Grooming-preening solicitation</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior that is an invitation to groom or be groomed</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Play">
+    <rdfs:subClassOf rdf:resource="#Behavioral_Function"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A very broad category including the partial or complete performance of adult functional behaviors in non-functional contexts, as well as interactive behaviors peculiar to immature animals.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Metamorphose">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Life_history_transitions"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Dealing_with_toxins">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dealing with toxins</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Nutrient_acquisition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Suck">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Move_mouth_parts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Urinate">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Excrete"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Removal of nitrogen waste products collected by urinary organs</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Group_activation-modulation_behavior">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Group activation-modulation behavior</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Social_integration"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors that indicate intention of one or more members of a social aggregation to change activity states</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Writhe">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Other_whole_body_movement"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Spatial_adjustment">
+    <rdfs:subClassOf rdf:resource="#Social_integration"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors that adjust relative proximity within a group of animals or between groups of animals</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Spatial adjustment</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Reproductive_status_assessment">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Mate_choosing"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Reproductive status assessment</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Assessment of cues and signals from encountered individual to determine reproductive condition</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Locomotion">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Translation of entire body</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Behavioral_Acts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Assessment">
+    <rdfs:subClassOf rdf:resource="#Agonism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Vigilance">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Surveillance for presence or approach of predators</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Antipredation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Offspring_care">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Offspring care</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Reproduction"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Broadcast_advertisement">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Broadcast advertisement</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Mate_attraction_behavior"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Other_whole_body_movement">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Other whole body movement</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Behavioral_Acts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Life_history_transitions">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Behavioral_Acts"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Life history transitions</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Hit">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Sex_declaration">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sex declaration</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Self-declaration_behavior"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Detection_notification">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Postures or signals that can communicate to predator that it has been detected by performer</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Detection notification</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Antipredation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Gamete_release_function">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Facilitating release or transfer of gametes</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Reproduction"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gamete release function</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Pair_affirmation">
+    <rdfs:subClassOf rdf:resource="#Postcopulatory_function"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pair affirmation</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pairs in longer term pair bonds perform displays or other behaviors to advertise relationship to each other and to other animals nearby</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Signal_exchange">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Relevant details when current behavior functions as a signal</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Signal exchange</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Behavioral_Function"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Mating_appeasement">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior that serves to demonstrate non-aggressive intent by one member of a courting or potentially mating pair to the other.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mating appeasement</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Courtship"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Nest_relocation_behavior">
+    <rdfs:subClassOf rdf:resource="#Protection_of_offspring"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Movement of adults and young (if present) to a new nest site</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nest relocation behavior</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Capture_prey">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Capturing"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors that result in ending flight of prey</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Capture prey</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Hygiene">
+    <rdfs:subClassOf rdf:resource="#Offspring_care"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >In this context, cleaning of offspring bodies, removal of ectoparasites, or removal of wastes from vicinity of offspring</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Float">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Movement_through_a_substrate_medium"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Ink_release">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ink release</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Secrete"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Promote_confusion">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >examples erratic movements that would confuse a predator</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Promote confusion</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Antipredation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Reproductive_Sexual_acts">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Behavioral_Acts"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Reproductive/Sexual acts</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Submission">
+    <rdfs:subClassOf rdf:resource="#Agonism"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Excrete">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Behavioral_Acts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Crawl_Slither">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Crawl/Slither</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Movement_on_a_substrate"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Retrieval">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Return of offspring to preferred site such as a nest or just closer to parent(s)</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Protection_of_offspring"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Vocalize">
+    <rdfs:subClassOf rdf:resource="#Produce_sound"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Movement_through_a_substrate_medium">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Movement through a medium without using another medium for traction</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Movement through a substrate/medium</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Locomotion"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Copulate">
+    <rdfs:subClassOf rdf:resource="#Reproductive_Sexual_acts"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Recovery_from_cache">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Recovery from cache</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Nutrient_locating"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Sperm_scraping">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sperm scraping</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Interference"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Climb">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Movement_on_a_substrate"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Inflate_body_part">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Body_part_movement"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Inflate body part</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Lie">
+    <rdfs:subClassOf rdf:resource="#Static_pose"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Kick_Punch">
+    <rdfs:subClassOf rdf:resource="#Move_limb_appendage"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Kick/Punch</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Microclimate_regulation">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors designed to regulate the microclimate around offspring</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Offspring_care"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Microclimate regulation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Mating_solicitation">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Performance of a behavior that indicates the performer's willingness to mate or bond</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Courtship"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mating solicitation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Touch">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >HAPTIC</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mate_guarding">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mate guarding</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >One member of a recently mating pair prevents the other from subsequent matings with other individuals</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Postcopulatory_function"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Appeasement">
+    <rdfs:subClassOf rdf:resource="#Agonism"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors that appear to reduce chances of attack</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Stand">
+    <rdfs:subClassOf rdf:resource="#Static_pose"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Behavioral_Acts">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#ABO_Core"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavioral Acts</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Descriptive terms for behaviors; assignment depends on observation not interpretation</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Parental_solicitation_by_young">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Parental solicitation by young</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Offspring_care"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Signals or postures by offspring to secure attention of parent(s)</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Agonistic_alarm">
+    <rdfs:subClassOf rdf:resource="#Agonism"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Agonistic alarm</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Alarm behavior triggered by agonistic actions or postures</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Mobbing">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Antipredation"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Harassment and/or attack by multiple animals of a presumed predator or intruder</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Agonistic_chase">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Agonistic chase</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Agonism"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Chasing of one animal by another during an agonistic conflict</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Cavitate">
+    <rdfs:subClassOf rdf:resource="#Produce_sound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Creching_behavior">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pooling of offspring from different parents</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Protection_of_offspring"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Creching behavior</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Intrusion_alarm_behavior">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Intrusion alarm behavior</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Alarm signal given by territorial residents upon discovery of an intruder</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Territoriality"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Nutrient_acquisition">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors related to acquisition and utilization of external resources</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nutrient acquisition</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Functional_Context"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Tool_preparation">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tool preparation</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Behavioral_Function"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Group_membership_declaration">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Self-declaration_behavior"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Group membership declaration</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Weaning_behavior">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Weaning behavior</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Offspring_care"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors that restrict access to or reduce demand by offspring for provisioning by parent</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Give_birth">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Give birth</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Life_history_transitions"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Produce_silk">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Secrete"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Produce silk</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Rotate">
+    <rdfs:subClassOf rdf:resource="#Other_whole_body_movement"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Build">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Building of nests or burrows for reproduction</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Scratch">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Swallow">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Move_mouth_parts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Non-vocal_hum">
+    <rdfs:subClassOf rdf:resource="#Produce_sound"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Non-vocal hum</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Defense_deployment">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >rewrite to include both chemical and physical defenses</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Defense deployment</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Antipredation"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Insemination-copulation">
+    <rdfs:subClassOf rdf:resource="#Gamete_release_function"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Insertion of sperm not in a spermatophore into female body</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Functional_Context">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Context that delimits possible functions of behavior to subset of total possible functions</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Behavioral_Function"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Functional Context</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Run">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Movement_on_a_substrate"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Feign_death">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Antipredation"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Become immobile and reduce other evidence of living state</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Feign death</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Separate_Disperse">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Separate/Disperse</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Group_actions"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Body_part_movement">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Body part movement</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Behavioral_Acts"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Mating_amplexus">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Spawning in which male and female are clasped or attached to ensure close proximity of released gametes.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Gamete_release_function"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mating amplexus</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Reception_of_signal">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Reception of signal</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Signal_exchange"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Brake">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >substaintial effort to slow down</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Locomotion"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Rub">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Dominance_status_declaration">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Self-declaration_behavior"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Dominance status declaration</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Sexual_cannibalism">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Sexual cannibalism</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Courtship"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cannibalism of one member of a mating pair, usually after the mating</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Sting">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Constrict">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Extend">
+    <rdfs:subClassOf rdf:resource="#Move_limb_appendage"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Arrest_Motion">
+    <rdfs:subClassOf rdf:resource="#Locomotion"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Arrest Motion</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Transition from locomotory phase to static phase</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Move">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Triumph">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Display behavior by the winner of a prior agonistic contest</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Agonism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Sit">
+    <rdfs:subClassOf rdf:resource="#Static_pose"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Excavate">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Hold">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Regurgitate">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Oral ejection of  indigestible items previously ingested</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Secrete"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Antipredation">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior which decreases an organism's probability of being predated.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Functional_Context"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Drum_Strum">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Drum/Strum</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Produce_sound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Build_display_structure">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Mate_attraction_behavior"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Creation of structure used in some stage of breeding</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Build display structure</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Movement_coordination_behavior">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors that facilitate coordinated movements by multiple animals</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Movement coordination behavior</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Social_integration"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Follow_trail_to_resource">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Follow trail to resource</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Locomotion to a resource guided by visual or olfactory cues created by a prior finder and/or user of that resource.</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Nutrient_locating"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Retreat">
+    <rdfs:subClassOf rdf:resource="#Agonism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Grasp">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Hatching-birth">
+    <rdfs:subClassOf rdf:resource="#Life_history_transitions"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Emergence of offspring from eggs or gestating parent</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="#Mate_choosing">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mate choosing</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Reproduction"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Humidity_regulation">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Regulation of humidity around offspring</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Humidity regulation</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Microclimate_regulation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Nod_head">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nod head</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Move_head"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Movement_on_a_substrate">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Movement on a substrate</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Movement through one medium by achieving traction on another</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Locomotion"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Groom">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Make_contact_with"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Make_contact_with">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Transitive
+[Probably should be symmetric]
+[Comment about intensity slot here]</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Behavioral_Acts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Make contact with</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Collide">
+    <rdfs:subClassOf rdf:resource="#Make_contact_with"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Walk">
+    <rdfs:subClassOf rdf:resource="#Movement_on_a_substrate"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Shake">
+    <rdfs:subClassOf rdf:resource="#Other_whole_body_movement"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Hatching_birth_facilitation">
+    <rdfs:subClassOf rdf:resource="#Offspring_care"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Hatching/birth facilitation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Mate_finding">
+    <rdfs:subClassOf rdf:resource="#Reproduction"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mate finding</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Active search for possible mates</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Threat">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >predicts an increased probability of attack.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Agonism"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Self-declaration_behavior">
+    <rdfs:subClassOf rdf:resource="#Social_integration"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >A signal or posture that broadcasts presence and often identity of signaler</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Self-declaration behavior</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Other_moved_mouth_parts">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Other moved mouth parts</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Move_mouth_parts"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#ABO_Core">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >ABO Core</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Autotomize">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Self-amputation of a body part (usually legs or tails) when threatened, attacked, or damaged</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Move_limb_appendage"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Allohygiene_behavior">
+    <rdfs:subClassOf rdf:resource="#Social_integration"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cleaning, parasite removal, surface covering adjustment, addition of conditioners to body surface, or other hygienic activites by one animal on another</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Allohygiene behavior</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Inspect_predator">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Conspicuous orientation towards and/or approach to detected predator</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Inspect predator</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Antipredation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Transport_solicitation">
+    <rdfs:subClassOf rdf:resource="#Solicitation-invitation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Transport solicitation</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior offering to transport others or requesting such transportation</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Lick">
+    <rdfs:subClassOf rdf:resource="#Tongue_movement"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Produce_wax">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Produce wax</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Secrete"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Hug">
+    <rdfs:subClassOf rdf:resource="#Make_contact_with"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Burp">
+    <rdfs:subClassOf rdf:resource="#Produce_sound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Courtship_feeding">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >feeding of by a potential mate</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Courtship feeding</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Courtship"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Capturing">
+    <rdfs:subClassOf rdf:resource="#Nutrient_acquisition"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Threaten_predator">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Threaten predator</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Antipredation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Emission_of_signal">
+    <rdfs:subClassOf rdf:resource="#Signal_exchange"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Emission of signal</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Display_condition_to_predator">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Performance of behaviors that demonstrate physical condition of performer to a detected predator</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Display condition to predator</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Antipredation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Autohygiene">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Self-cleaning, rearranging of body surface coverings, and/or application of secretions or ambient materials to body surface</rdfs:comment>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Maintenance"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Bluff">
+    <rdfs:subClassOf rdf:resource="#Antipredation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Agonistic_buffering">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Carrying or manipulation of infants or equivalent items to reduce chances of aggression on carrier by other animals</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Agonism"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Agonistic buffering</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Kleptoparasitism-steal_food">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Social_acquisition_of_food"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Uninvited taking of food from another animal</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Kleptoparasitism-steal food</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Displacement">
+    <rdfs:subClassOf rdf:resource="#Agonism"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior used out of context in a conflict situation (term from classical ethology)</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Feeding_solicitation">
+    <rdfs:subClassOf rdf:resource="#Solicitation-invitation"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior by one animal requesting that it be fed, or by one animal offering to feed</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Feeding solicitation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Change_skin_color">
+    <rdfs:subClassOf rdf:resource="#Color_change"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Change skin color</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Bonding">
+    <rdfs:subClassOf rdf:resource="#Social_integration"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Move_mouth_parts">
+    <rdfs:subClassOf rdf:resource="#Body_part_movement"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Move mouth parts</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Mouth_brood">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Process of retaining developing eggs in the mouth cavity</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Reproductive_Sexual_acts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mouth brood</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Vomit">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Forcible ejection of all upper gut contents (typical response to poisoning)</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Excrete"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Attack_predator">
+    <rdfs:subClassOf rdf:resource="#Antipredation"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Perform physically violent acts on a presumed predator</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Attack predator</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Social_play">
+    <rdfs:subClassOf rdf:resource="#Play"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Social play</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Enhance_crypsis">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Enhance crypsis</rdfs:label>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors that reduce detectability of performer against background</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Antipredation"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Whistle">
+    <rdfs:subClassOf rdf:resource="#Produce_sound"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Stalk_prey">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Stalk prey</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Capturing"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Approach to prey in manner designed to avoid early detection by prey</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Location_declaration">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Location declaration</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Self-declaration_behavior"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Bite">
+    <rdfs:subClassOf rdf:resource="#Move_mouth_parts"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Mouth_brooding">
+    <rdfs:subClassOf rdf:resource="#Protection_of_offspring"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Process of retaining developing eggs in the mouth cavity</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mouth brooding</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Maintenance">
+    <rdfs:subClassOf rdf:resource="#Functional_Context"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors designed to maintain current condition or promote internally stimulated shifts between conditions</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Intruder_advertisement_behavior">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Territoriality"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Advertisement of presence by a territorial intruder</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Intruder advertisement behavior</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Aiding">
+    <rdfs:subClassOf rdf:resource="#Social_integration"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Head_butt">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Head butt</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Make_contact_with"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Retract">
+    <rdfs:subClassOf rdf:resource="#Move_limb_appendage"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Mate_attraction_behavior">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >to advertise availability, quality, condition, or some other property related to breeding.</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mate attraction behavior</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Mate_finding"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Falsely_copulate">
+    <rdfs:subClassOf rdf:resource="#Reproductive_Sexual_acts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Falsely copulate</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Insert_Genital_Plug">
+    <rdfs:subClassOf rdf:resource="#Interference"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Insert Genital Plug</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Spermatophore_deposition">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Spermatophore deposition</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Gamete_release_function"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Deposition of spermatophore either on substrate or in body of female</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Escalation">
+    <rdfs:subClassOf rdf:resource="#Agonism"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Mate_sampling">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >General category of behaviors including sampling of medium to detect presence of possible mates, and sampling of encountered individuals to determine mate suitability</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Mate_choosing"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mate sampling</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Breeding_site_selection">
+    <rdfs:subClassOf rdf:resource="#Reproduction"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Selection of breeding site</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Breeding site selection</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Occupy_refuge">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Currently reside in constructed or existing structure that provides reduced predator and/or environmental risk</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Antipredation"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Occupy refuge</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Arrival-departure_declaration">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior that mediates the process of joining a group or leaving one</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Arrival-departure declaration</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Self-declaration_behavior"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Nest_egg_sac_creation">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Building of nests or burrows for reproduction</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Reproduction"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nest/egg sac creation</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Produce_light">
+    <rdfs:subClassOf rdf:resource="#Behavioral_Acts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Produce light</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Social_acquisition_of_food">
+    <rdfs:subClassOf rdf:resource="#Nutrient_acquisition"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Social acquisition of food</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Huddle">
+    <rdfs:subClassOf rdf:resource="#Group_actions"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Reproductive_condition_declaration">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Reproductive condition declaration</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Self-declaration_behavior"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Owner_advertisement_behavior">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Territoriality"/>
+    </rdfs:subClassOf>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Territory resident signals or occupies location to advertise their presence</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Owner advertisement behavior</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Refuge_creation_and_maintenance">
+    <rdfs:subClassOf rdf:resource="#Maintenance"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Refuge creation and maintenance</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Identity_declaration">
+    <rdfs:subClassOf rdf:resource="#Self-declaration_behavior"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >to declare individual indification</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Identity declaration</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Nutrient_locating">
+    <rdfs:subClassOf rdf:resource="#Nutrient_acquisition"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Movement directed to the detection of new resources</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nutrient locating</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Food_storage">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Food storage</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Nutrient_acquisition"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Cache, hoarding.  Retrieval is covered under locating and extracting.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Tear_release">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tear release</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Secrete"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Expose_or_highlight_color_patch">
+    <rdfs:subClassOf rdf:resource="#Color_change"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Expose or highlight color patch</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Territoriality">
+    <rdfs:subClassOf rdf:resource="#Functional_Context"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behavior occuring in the context of amimals attempting to maintain or gain control over a spatial area.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:ID="Resource_advertisement">
+    <rdfs:subClassOf rdf:resource="#Nutrient_acquisition"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Postures or signals performed to other animals to indicate the presence, and in some cases, the location, quantity, and quality, of a resource</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Resource advertisement</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Aiding_digestion">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Aiding digestion</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Nutrient_acquisition"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Nest_relief">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Behaviors that broker replacement of one nest attendant by another</rdfs:comment>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Nest relief</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Reproduction"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Secrete">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Ejection of processed waste materials from body</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="#Behavioral_Acts"/>
+  </owl:Class>
+  <owl:Class rdf:ID="Join_Aggregate">
+    <rdfs:subClassOf rdf:resource="#Group_actions"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Join/Aggregate</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Gnaw_Chew">
+    <rdfs:subClassOf rdf:resource="#Move_mouth_parts"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Gnaw/Chew</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Release_gametes_zygotes">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Release gametes/zygotes</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Reproductive_Sexual_acts"/>
+  </owl:Class>
+  <owl:FunctionalProperty rdf:ID="abo_outline">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >This slot holds the outline number for an ABO_TERM</rdfs:comment>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:FunctionalProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 2.2, Build 324)  http://protege.stanford.edu -->

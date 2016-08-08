@@ -15063,7 +15063,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000743">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000105"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
-        <obo:IAO_0000115>&quot;An aggressive behavior towards other members of the society.&quot; [NBO:RH]</obo:IAO_0000115>
+        <obo:IAO_0000115>&quot;An aggressive behavior towards other members of individual&apos;s social group&quot; [NBO:ABC]</obo:IAO_0000115>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:creation_date>2012-02-16T02:27:08Z</obo:creation_date>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>

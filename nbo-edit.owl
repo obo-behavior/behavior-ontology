@@ -17569,6 +17569,21 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <obo:created_by>George Gkoutos</obo:created_by>
         <rdfs:label xml:lang="en">regulation of addiction response</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020055">
+        <obo:created_by>Anne B. Clark</obo:created_by>
+        <obo:creation_date></obo:creation_date>
+    </rdf:Description>
 </rdf:RDF>
 
 

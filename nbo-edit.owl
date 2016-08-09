@@ -3601,7 +3601,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
-        <obo:IAO_0000115>&quot;Behavior characterized by a quick excitability to annoyance, impatience, or anger.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>&quot;behavior characterized by a quick excitability to annoyance, impatience, or anger.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-03-31T12:16:00Z</obo:creation_date>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -9994,6 +9994,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000471">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000088"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000127"/>
+        <obo:IAO_0000115>&quot;Behavior that reduces the risk that a predator locates or captures the individual&quot; [NBO:ABC]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:creation_date>2011-04-08T02:00:36Z</obo:creation_date>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -15062,7 +15063,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000743">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000105"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
-        <obo:IAO_0000115>&quot;An aggressive behavior towards other members of the society.&quot; [NBO:RH]</obo:IAO_0000115>
+        <obo:IAO_0000115>&quot;An aggressive behavior towards other members of individual&apos;s social group&quot; [NBO:ABC]</obo:IAO_0000115>
         <obo:created_by>gkoutos</obo:created_by>
         <obo:creation_date>2012-02-16T02:27:08Z</obo:creation_date>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -17568,6 +17569,21 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <obo:created_by>George Gkoutos</obo:created_by>
         <rdfs:label xml:lang="en">regulation of addiction response</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020055">
+        <obo:created_by>Anne B. Clark</obo:created_by>
+        <obo:creation_date></obo:creation_date>
+    </rdf:Description>
 </rdf:RDF>
 
 

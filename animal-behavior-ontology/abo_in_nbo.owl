@@ -706,7 +706,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020054> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020055> (Color change)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020055> ""^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020055> "Behavior associated with a relatively immediate change in the wavelengths of light reflected by the animal's skin or feather [ABO:ABC]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020055> "Color_change"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020055> "Color change"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020055> <http://purl.obolibrary.org/obo/NBO_0020128>)

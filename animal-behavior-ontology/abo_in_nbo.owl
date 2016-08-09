@@ -1335,7 +1335,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020144> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020145> (Agonistic alarm)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020145> "Alarm behavior triggered by agonistic actions or postures."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020145> "\"Behavior signalling awareness of and or fear of danger, triggered by agonistic actions or postures of a conspecific rather than a predator [ABO:SWM]\""^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020145> "Agonistic_alarm"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020145> "Agonistic alarm"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020145> <http://purl.obolibrary.org/obo/NBO_0020043>)

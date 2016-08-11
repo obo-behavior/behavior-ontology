@@ -445,7 +445,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020017> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020018> (Killing)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020018> "Behavior in which one animal causes the death of another."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020018> "Behavior in which one animal causes the death of another. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020018> "Killing"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020018> "Killing"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020018> <http://purl.obolibrary.org/obo/NBO_0020043>)
@@ -552,7 +552,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020032> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020033> (Contact aggression)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020033> "Agonistic behavior involving direct physical contact including (but not limited to) biting, kicking, grabbing."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020033> "Agonistic behavior involving direct physical contact including (but not limited to) biting, kicking, grabbing. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020033> "Contact_aggression"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020033> "Contact aggression"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020033> <http://purl.obolibrary.org/obo/NBO_0020043>)
@@ -622,7 +622,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020042> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020043> (Agonism)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020043> "Behaviors that occur in the context of conflict or as a result of conflict or a direct precursor to conflict.   "^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020043> "Behaviors that occur in the context of conflict or as a result of conflict or a direct precursor to conflict. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020043> "Agonism"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020043> "Agonism"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020043> <http://purl.obolibrary.org/obo/NBO_0020168>)
@@ -671,7 +671,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020049> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020050> (Retreat)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020050> "One animal terminates an agonistic encounter by leaving."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020050> "Behavior by which an animal removes itself spatially from an agonistic encounter in which it is not the winner. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020050> "Retreat"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020050> "Retreat"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020050> <http://purl.obolibrary.org/obo/NBO_0020043>)
@@ -762,7 +762,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020062> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020063> (Coercion)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020063> "Forcible alteration of behavior of one animal by another."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020063> "Behavior involving force or threat by an actor that modifies the behavior of another animal to the actor's benefit. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020063> "Coercion"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020063> "Coercion"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020063> <http://purl.obolibrary.org/obo/NBO_0020043>)
@@ -972,7 +972,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020092> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020093> (Assessment)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020093> "A signal or behavior correlated with fighting ability and thus predictive of outcome (Barrows)"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020093> "A behavior on the part of one individual associated with evaluating the fighting ability or correlates of fighting ability of a potential opponent. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020093> "Assessment"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020093> "Assessment"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020093> <http://purl.obolibrary.org/obo/NBO_0020043>)
@@ -1077,7 +1077,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020107> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020108> (Threat)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020108> "Behavior that signifies hostility and predicts an increased probability of attack (Barrows)."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020108> "Behavior that signifies hostility, may intimidate or repel an opponent and predicts an increased probability of attack. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020108> "Threat"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020108> "Threat"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020108> <http://purl.obolibrary.org/obo/NBO_0020043>)
@@ -1097,14 +1097,14 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020110> "ABO
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020111> (Injuring)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020111> "Behavior in which one animal causes bodily damage to another."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020111> "Behavior in which one animal causes physical damage to another. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020111> "Injuring"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020111> "Injuring"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020111> <http://purl.obolibrary.org/obo/NBO_0020043>)
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020112> (Agonistic buffering)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020112> "Carrying or manipulation of infants or equivalent items to reduce chances of aggression on carrier by other animals"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020112> "Carrying or manipulation of infants or equivalent items to reduce chances of aggression on carrier by other animals. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020112> "Agonistic_buffering"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020112> "Agonistic buffering"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020112> <http://purl.obolibrary.org/obo/NBO_0020043>)
@@ -1307,7 +1307,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020140> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020141> (Agonistic chase)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020141> "Chasing of one animal by another during an agonistic conflict"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020141> "Sudden and rapid following of one animal by another during an agonistic conflict. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020141> "Agonistic_chase"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020141> "Agonistic chase"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020141> <http://purl.obolibrary.org/obo/NBO_0020043>)
@@ -1335,7 +1335,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020144> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020145> (Agonistic alarm)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020145> "\"Behavior signalling awareness of and or fear of danger, triggered by agonistic actions or postures of a conspecific rather than a predator [ABO:SWM]\""^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020145> "Behavior signalling awareness of and or fear of danger, triggered by agonistic actions or postures of a conspecific rather than a predator. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020145> "Agonistic_alarm"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020145> "Agonistic alarm"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020145> <http://purl.obolibrary.org/obo/NBO_0020043>)
@@ -1593,7 +1593,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020181> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020182> (Escalation)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020182> "Increasing intensity of directed agonistic behavior."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020182> "Behavioral change from a lower intensity to a higher intensity form of directed agonistic behavior. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020182> "Escalation"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020182> "Escalation"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020182> <http://purl.obolibrary.org/obo/NBO_0020043>)
@@ -1810,7 +1810,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020212> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020213> (Submission)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020213> "Defensive behaviors that tend to prevent further attack; yielding or surrendering (Barrows)"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020213> "Any behavior that tends to prevent further or future attack, often by signalling a willingness to yield or surrender. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020213> "Submission"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020213> "Submission"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020213> <http://purl.obolibrary.org/obo/NBO_0020043>)
@@ -1859,7 +1859,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020219> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020220> (Exclusion)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020220> "Behavior that serves to exlude an animal from a group"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020220> "Behavior that serves to prevent access of an animal to a group, resource or location. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020220> "Exclusion"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020220> "Exclusion"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020220> <http://purl.obolibrary.org/obo/NBO_0020043>)
@@ -1992,7 +1992,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020238> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020239> (Triumph)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020239> "Display behavior by the winner of a prior agonistic contest."^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020239> "Display behavior by the winner of a prior agonistic contest. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020239> "Triumph"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020239> "Triumph"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020239> <http://purl.obolibrary.org/obo/NBO_0020043>)
@@ -2104,7 +2104,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020254> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020255> (Displacement)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020255> "An acitvity that seems irrelevant to its behavioral context to a human observer and often occurs when its performer is in a conflict situation"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020255> "Behavior of one individual that spatially supplants another individual; the connotation is that the displaced individual is giving way to the supplanting individual. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020255> "Displacement"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020255> "Displacement"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020255> <http://purl.obolibrary.org/obo/NBO_0020043>)
@@ -2272,7 +2272,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020278> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/NBO_0020279> (Appeasement)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020279> "Behaviors that appear to signifiy lack of hostility and to reduce chances of attack (Barrows)"^^xsd:string)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/NBO_0020279> "Behavior that can inhibit intraspecific attack or aggressive behavior by means other than intimidation or flight. [ABO:SWM]"^^xsd:string)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/hasAlternativeId> <http://purl.obolibrary.org/obo/NBO_0020279> "Appeasement"^^xsd:string)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/NBO_0020279> "Appeasement"^^xsd:string)
 SubClassOf(<http://purl.obolibrary.org/obo/NBO_0020279> <http://purl.obolibrary.org/obo/NBO_0020043>)

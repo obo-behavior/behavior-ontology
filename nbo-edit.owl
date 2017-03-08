@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/nbo.owl#"
-     xml:base="http://purl.obolibrary.org/obo/nbo.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/"
+     xml:base="http://purl.obolibrary.org/obo/
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -8,13 +8,13 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/nbo.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/>
         <oboInOwl:remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-07-09</oboInOwl:remark>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/nbo/2012-07-09/nbo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/nbo/2012-07-09//>
     </owl:Ontology>
     
 
@@ -2497,7 +2497,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000134"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002436"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002436"/>
         <obo:IAO_0000115>&quot;A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of food.&quot; [NBO:GVG]</obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
         <oboInOwl:xref>GO:0042755</oboInOwl:xref>
@@ -2524,7 +2524,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002436"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002436"/>
         <oboInOwl:hasExactSynonym>drinking behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0042756</oboInOwl:xref>
         <obo:created_by>George Gkoutos</obo:created_by>
@@ -3874,7 +3874,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002660"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0002660"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
                                 <owl:someValuesFrom>
@@ -3913,7 +3913,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002660"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0002660"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
                                 <owl:someValuesFrom>
@@ -3952,7 +3952,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002702"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0002702"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000911"/>
@@ -3981,7 +3981,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002702"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0002702"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000912"/>
@@ -4066,7 +4066,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002794"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0002794"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000912"/>
@@ -4122,7 +4122,7 @@
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002948"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0002948"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
@@ -17268,18 +17268,18 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl#NBO_0009001 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0009001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#NBO_0009001">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0009001">
         <rdfs:label xml:lang="en">rotation behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000002"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl#NBO_0009002 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0009002 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#NBO_0009002">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0009002">
         <rdfs:label xml:lang="en">locomotor inactivation behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
         <obo:IAO_0000115>Deactiviation of locomotory behavior.</obo:IAO_0000115>
@@ -17287,9 +17287,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002379 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002379 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002379">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002379">
         <rdfs:label xml:lang="en">nursing behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000152"/>
         <obo:IAO_0000115>&quot;Maternal behavior related to the nursing offspring.&quot; [NBOC:GVG]</obo:IAO_0000115>
@@ -17297,9 +17297,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002436 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002436 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002436">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002436">
         <rdfs:label xml:lang="en">regulation of feeding behavior</rdfs:label>
         <owl:equivalentClass>
             <owl:Restriction>
@@ -17321,9 +17321,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002468 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002468 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002468">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002468">
         <rdfs:label xml:lang="en">regulation of water consumption</rdfs:label>
         <owl:equivalentClass>
             <owl:Restriction>
@@ -17338,9 +17338,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002511 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002511 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002511">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002511">
         <rdfs:label xml:lang="en">regulation of saccharin consumption</rdfs:label>
         <owl:equivalentClass>
             <owl:Restriction>
@@ -17355,9 +17355,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002519 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002519 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002519">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002519">
         <rdfs:label xml:lang="en">adipsia</rdfs:label>
         <owl:equivalentClass>
             <owl:Restriction>
@@ -17397,9 +17397,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002569 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002569 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002569">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002569">
         <rdfs:label xml:lang="en">stress-induced hypothermia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
         <rdfs:subClassOf>
@@ -17414,9 +17414,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002603 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002603 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002603">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002603">
         <rdfs:label xml:lang="en">regulation of sexual activity</rdfs:label>
         <owl:equivalentClass>
             <owl:Restriction>
@@ -17431,9 +17431,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002660 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002660 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002660">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002660">
         <rdfs:label xml:lang="en">regulation of drinking preference behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000064"/>
         <obo:IAO_0000115>&quot;A regulation of drinking behavior process associated with the preference over the type of liquids that are consumed. &quot; [NBO:GVG]</obo:IAO_0000115>
@@ -17442,14 +17442,14 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002702 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002702 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002702">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002702">
         <rdfs:label xml:lang="en">regulation of alcohol preference behavior</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002660"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0002660"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#has_participant"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16236"/>
@@ -17457,7 +17457,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002660"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002660"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#has_participant"/>
@@ -17470,9 +17470,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002743 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002743 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002743">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002743">
         <rdfs:label xml:lang="en">regulation of eating preference behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000063"/>
         <obo:IAO_0000115>&quot;A regulation of drinking behavior process associated with the preference over the type of food that is consumed. &quot; [NBO:GVG]</obo:IAO_0000115>
@@ -17481,14 +17481,14 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002794 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002794 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002794">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002794">
         <rdfs:label xml:lang="en">regulation of saccharin preference behavior</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002743"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0002743"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#has_participant"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32111"/>
@@ -17496,7 +17496,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002743"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002743"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#has_participant"/>
@@ -17509,9 +17509,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002869 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002869 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002869">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002869">
         <rdfs:label xml:lang="en">regulation of addictive substance consumption preference</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002234"/>
         <obo:IAO_0000115>&quot;A regulation of consumption of an addictive sustance behavior process associated with the preference over the type of addictive sustance that is consumed. &quot; [NBO:GVG]</obo:IAO_0000115>
@@ -17520,12 +17520,12 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002916 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002916 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002916">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002916">
         <rdfs:label xml:lang="en">regulation of cocaine consumption preference</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002132"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002869"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002869"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#has_participant"/>
@@ -17538,19 +17538,19 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002948 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002948 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002948">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002948">
         <rdfs:label xml:lang="en">regulation of mating preference</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002603"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002603"/>
         <obo:IAO_0000115>&quot;A regulation of sexual activity process associated with the preference over a males or females.&quot; [NBO:GVG]</obo:IAO_0000115>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002950 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002950 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002950">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002950">
         <rdfs:label xml:lang="en">angular vestibuloocular reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000416"/>
         <oboInOwl:xref>GO:0060006 </oboInOwl:xref>
@@ -17559,9 +17559,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002952 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002952 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002952">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002952">
         <rdfs:label xml:lang="en">linear vestibuloocular reflex</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000416"/>
         <obo:IAO_0000115>A vestibular reflex by which a response to a linear acceleration stimulus begins with an afferent nerve impulse from a receptor in the otolith and ends with the compensatory action of eye muscles. [GOC:dph]</obo:IAO_0000115>
@@ -17570,9 +17570,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0002986 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0002986 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002986">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002986">
         <rdfs:label xml:lang="en">withdrawal response</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
         <obo:IAO_0000115>Behavior response to addictive substance resulting from the discontinuation of an addictive substance. [NBOC:GVG]</obo:IAO_0000115>
@@ -17580,9 +17580,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0003047 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0003047 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0003047">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0003047">
         <rdfs:label xml:lang="en">regulation of behavioral response to chemical stimulus</rdfs:label>
         <owl:equivalentClass>
             <owl:Restriction>
@@ -17597,9 +17597,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0003104 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0003104 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0003104">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0003104">
         <rdfs:label xml:lang="en">regulation of behavioral response to addictive substance</rdfs:label>
         <owl:equivalentClass>
             <owl:Restriction>
@@ -17607,33 +17607,33 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl/NBO_0003047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0003047"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of behavioral response to chemiucal stimulus.&quot; [NBOC:GVG] </obo:IAO_0000115>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0003142 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0003142 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0003142">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0003142">
         <rdfs:label xml:lang="en">regulation of withdrawal response</rdfs:label>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002211"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nbo.owl/NBO_0002986"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0002986"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl/NBO_0003104"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0003104"/>
         <obo:IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of witdrawal response.&quot; [NBOC:GVG] </obo:IAO_0000115>
         <obo:created_by>George Gkoutos</obo:created_by>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0003161 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0003161 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0003161">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0003161">
         <rdfs:label xml:lang="en">addiction response</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001728"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0002234"/>
@@ -17642,17 +17642,17 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl/NBO_0003194 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0003194 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl/NBO_0003194">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0003194">
         <rdfs:label xml:lang="en">regulation of addiction response</rdfs:label>
         <owl:equivalentClass>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002211"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/nbo.owl/NBO_0003161"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0003161"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl/NBO_0003104"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0003104"/>
         <obo:created_by>George Gkoutos</obo:created_by>
         <obo:IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of witdrawal response.&quot; [NBOC:GVG] </obo:IAO_0000115>
     </owl:Class>

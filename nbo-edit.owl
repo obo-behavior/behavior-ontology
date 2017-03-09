@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/"
-     xml:base="http://purl.obolibrary.org/obo/
+     xml:base="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -8,13 +8,13 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/">
         <oboInOwl:remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-07-09</oboInOwl:remark>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/nbo/2012-07-09//>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/nbo/2012-07-09/nbo.owl"/>
     </owl:Ontology>
     
 
@@ -17268,18 +17268,18 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NBO_0009001 -->
+    <!-- http://purl.obolibrary.org/obo/nbo.owl#NBO_0009001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0009001">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#NBO_0009001">
         <rdfs:label xml:lang="en">rotation behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000002"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NBO_0009002 -->
+    <!-- http://purl.obolibrary.org/obo/nbo.owl#NBO_0009002 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0009002">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#NBO_0009002">
         <rdfs:label xml:lang="en">locomotor inactivation behavior</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
         <obo:IAO_0000115>Deactiviation of locomotory behavior.</obo:IAO_0000115>

@@ -17039,6 +17039,21 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0050000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0050000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
+        <IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A feeding behavior during which an animal ingests biomass produced by a plant or other primary producer</IAO_0000115>
+        <created_by>http://orcid.org/0000-0002-1816-4260</created_by>
+        <created_by>http://orcid.org/0000-0002-4366-3088</created_by>
+        <namespace>behavior_ontology</namespace>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-14T19:12:10+09:00</dc:date>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Grazing</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grazing behaviour</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000014 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000014">

@@ -712,6 +712,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007619">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007617"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">courtship</oboInOwl:hasExactSynonym>
     </rdf:Description>
     
 
@@ -720,6 +721,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007620">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007618"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">copulate</oboInOwl:hasExactSynonym>
     </rdf:Description>
     
 
@@ -1609,6 +1611,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">reproduction</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>reproductive behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0019098</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproductive behavior</rdfs:label>
@@ -1737,6 +1740,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">jump</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007630</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jumping behavior</rdfs:label>
     </owl:Class>
@@ -1751,6 +1755,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">bite</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biting</rdfs:label>
     </owl:Class>
     
@@ -1785,6 +1790,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">lick</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">licking</rdfs:label>
     </owl:Class>
     
@@ -1798,6 +1804,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">move head</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head movement</rdfs:label>
     </owl:Class>
     
@@ -1833,6 +1840,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">shake head</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head shaking</rdfs:label>
     </owl:Class>
     
@@ -1888,6 +1896,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">rotate head</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head rotation</rdfs:label>
     </owl:Class>
     
@@ -1901,6 +1910,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">groom</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>grooming behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007625</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">grooming behavior</rdfs:label>
@@ -2038,6 +2048,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">produce sound</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of production of sound</rdfs:label>
     </owl:Class>
     
@@ -2052,6 +2063,7 @@
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>vocalization behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">vocalize</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vocalization behavior</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2160,6 +2172,7 @@
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>micturition</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">urination</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0060073</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of urination</rdfs:label>
     </owl:Class>
@@ -2197,6 +2210,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">secrete</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of external secretion</rdfs:label>
     </owl:Class>
     
@@ -2237,6 +2251,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">tear release</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>tear secretion</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of lacrimation</rdfs:label>
     </owl:Class>
@@ -2323,6 +2338,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">protection of offspring</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protection of offspring behavior</rdfs:label>
     </owl:Class>
     
@@ -2371,6 +2387,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">huddle</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">huddling behavior</rdfs:label>
     </owl:Class>
     
@@ -2384,6 +2401,9 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">basking</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">sunning</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">sunning behavior</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basking behavior</rdfs:label>
     </owl:Class>
     
@@ -2426,6 +2446,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">run</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">running behavior</rdfs:label>
     </owl:Class>
     
@@ -2439,6 +2460,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">walking</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007628</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">walking behavior</rdfs:label>
     </owl:Class>
@@ -2453,6 +2475,8 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">scratch</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">scratching behavior</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scratching</rdfs:label>
     </owl:Class>
     
@@ -2478,6 +2502,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">copulate</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copulation</rdfs:label>
     </owl:Class>
     
@@ -2505,6 +2530,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">bathing</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>bathing behaviour</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bathing behavior</rdfs:label>
     </owl:Class>
@@ -2675,6 +2701,8 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">chew</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">gnaw</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>mastication</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chewing</rdfs:label>
     </owl:Class>
@@ -2707,6 +2735,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">play</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">playing behavior</rdfs:label>
     </owl:Class>
     
@@ -2722,6 +2751,7 @@
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:hasExactSynonym>exercise</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>motor development playing behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">motor play</oboInOwl:hasExactSynonym>
         <rdfs:comment>Many different actions are included in locomotor play. Some of the actions include a vertical leap, running in circles, chasing an animals own tail, lolloping, bouncing, bucking, rolling, whirling, dangling, spinning, back flips, hand stands, somersaults, and hanging upside down. The vertical leap is seen in mammals like in primates, hares, and mice. Along with running and bouncing, the vertical leap is important for strengthening leg muscles for self defense, escaping, or chasing. Activities like dangling and hanging upside down are important for improving climbing ability. These many different examples of locomotor play are important in strengthening muscles and improving motor skills. By participating in locomotor play, individuals will be able to improve skills like fighting, hunting, fleeing, and climbing.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotor play</rdfs:label>
     </owl:Class>
@@ -2748,6 +2778,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">courtship</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>courtship behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007619</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">courtship behavior</rdfs:label>
@@ -2771,6 +2802,7 @@
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:hasAlternativeId>NBO:0000325</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym>post mating behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">post-copulatory behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>post-mating behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0045297</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">post-mating behavior</rdfs:label>
@@ -2838,6 +2870,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">sit down</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sitting down</rdfs:label>
     </owl:Class>
     
@@ -2851,6 +2884,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">stand up</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standing up</rdfs:label>
     </owl:Class>
     
@@ -2863,6 +2897,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">writhe</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">writhing</rdfs:label>
     </owl:Class>
     
@@ -2941,6 +2976,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">antipredator behavior</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antipredation behavior</rdfs:label>
     </owl:Class>
     
@@ -3011,6 +3047,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">threaten predator</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">threatening predator behavior</rdfs:label>
     </owl:Class>
     
@@ -3549,6 +3586,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-03-31T11:42:15Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">agonism</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agonistic behavior</rdfs:label>
     </owl:Class>
     
@@ -3654,6 +3692,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-03-31T11:49:03Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">retreat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>retreat behaviour</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retreat behavior</rdfs:label>
     </owl:Class>
@@ -6359,6 +6398,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-04T09:05:23Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">group actions</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">group behavior</rdfs:label>
     </owl:Class>
     
@@ -6736,6 +6776,8 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-19T09:50:09Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">reconciliation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">reconciliation behavior</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conciliation behavior</rdfs:label>
     </owl:Class>
     
@@ -8067,6 +8109,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-06T11:39:16Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">crawl</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crawling behavior</rdfs:label>
     </owl:Class>
     
@@ -9677,7 +9720,9 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-08T12:35:02Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">allo-hygiene behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>allogrooming</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">allohygiene</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social grooming</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9699,6 +9744,7 @@
         <dc:date>2011-04-08T12:35:54Z</dc:date>
         <oboInOwl:hasAlternativeId>NBO:0000058</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym>auto-grooming</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">autohygiene</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>preening</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>self-grooming</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">personal grooming</rdfs:label>
@@ -11596,6 +11642,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-10T10:39:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">swallow</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">swallowing</rdfs:label>
     </owl:Class>
     
@@ -12027,6 +12074,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T08:39:38Z</dc:date>
         <oboInOwl:hasExactSynonym>head nodding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">nod head</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">head bobbing</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -13129,6 +13177,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-19T01:44:21Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">mobbing</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mobbing behavior</rdfs:label>
     </owl:Class>
     
@@ -17705,6 +17754,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007625">
+        <oboInOwl:hasExactSynonym xml:lang="en">groom</oboInOwl:hasExactSynonym>
+    </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0090659">
         <IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The act of locomoting on limbs with body off the ground such that at least one limb is always touching the ground [NBO:AC]</IAO_0000115>
     </rdf:Description>

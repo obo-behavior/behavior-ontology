@@ -747,6 +747,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007626">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044708"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">locomotion</oboInOwl:hasExactSynonym>
     </rdf:Description>
     
 
@@ -1061,6 +1062,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045297">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044704"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">post-copulatory behavior</oboInOwl:hasExactSynonym>
     </rdf:Description>
     
 
@@ -1429,6 +1431,7 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0071625">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044704"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">vocalize</oboInOwl:hasExactSynonym>
     </rdf:Description>
     
 
@@ -1669,6 +1672,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">locomotion</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007626</oboInOwl:xref>
         <oboInOwl:xref>GO:0008344</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotory behavior</rdfs:label>
@@ -2172,7 +2176,7 @@
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>micturition</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">urination</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">urinate</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0060073</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral control of urination</rdfs:label>
     </owl:Class>
@@ -2456,7 +2460,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000359"/>
-        <IAO_0000115>&quot;Behavior related to surface locomotion.&quot; [NBO:GVG]</IAO_0000115>
+        <IAO_0000115 xml:lang="en">The act of locomoting on limbs with body off the ground such that at least one limb is always touching the ground [NBO:AC]</IAO_0000115>
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
@@ -2530,7 +2534,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
-        <oboInOwl:hasExactSynonym xml:lang="en">bathing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">bathe</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>bathing behaviour</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bathing behavior</rdfs:label>
     </owl:Class>
@@ -4342,6 +4346,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-03-31T02:42:29Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">retrieval</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">offspring retrieval</rdfs:label>
     </owl:Class>
     
@@ -8164,6 +8169,7 @@
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-06T11:45:51Z</dc:date>
         <oboInOwl:hasAlternativeId>NBO:0000072</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym xml:lang="en">fly</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>flying</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0007629</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">flight behavior</rdfs:label>
@@ -17757,8 +17763,8 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007625">
         <oboInOwl:hasExactSynonym xml:lang="en">groom</oboInOwl:hasExactSynonym>
     </rdf:Description>
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0090659">
-        <IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The act of locomoting on limbs with body off the ground such that at least one limb is always touching the ground [NBO:AC]</IAO_0000115>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007629">
+        <oboInOwl:hasExactSynonym xml:lang="en">fly</oboInOwl:hasExactSynonym>
     </rdf:Description>
 </rdf:RDF>
 

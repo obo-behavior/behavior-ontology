@@ -26,8 +26,8 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/nbo/2012-07-09/nbo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <oboInOwl:remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-07-09</oboInOwl:remark>
     </owl:Ontology>
@@ -209,352 +209,466 @@
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_15377 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_15377">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15377">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33693"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37176"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52625"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_15734 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_15734">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15734">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30879"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_16236 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_16236">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16236">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23982"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50584"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_17303 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_17303">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17303">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25418"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38164"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_18723 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_18723">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18723">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26416"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26456"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46775"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_22315 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_22315">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22315">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_23888 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_23888">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23888">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52217"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_23982 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_23982">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23982">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15734"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_24432 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24432">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50906"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24532"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_24651 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24651">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24651">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25806"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33608"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37577"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_24835 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24835">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24835">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_24921 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24921">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24921">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22315"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_25418 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_25418">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25418">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24921"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25693"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_2571 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_2571">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2571">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30879"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25806"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_26416 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_26416">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26416">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22315"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26421"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_26421 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_26421">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26421">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25693"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_26456 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_26456">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26456">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22315"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38260"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27171"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_27958 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_27958">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27958">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33308"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37332"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_30879 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_30879"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_32111 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_32111">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32111">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_55505"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33242"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_33290 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33290">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33290">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52211"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33304"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_33308 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33308">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33308">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35701"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36586"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33608"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33671"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_33692 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33692">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33692">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33608"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37577"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_33693 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33693">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33693">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36902"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35352"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_35701 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_35701">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35701">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_35703 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_35703">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35703">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_36586 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36586">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36586">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36587"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36587"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_36902 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36902">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36902">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33242"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36963"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_37176 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37176">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33692"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_37332 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37332">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37332">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_22315"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38295"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37577"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_37947 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_37947">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37947">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27171"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38106"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38101"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38106"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_38164 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_38164">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38166"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_38166 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_38166">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33671"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_38260 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_38260">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38260">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25693"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_38295 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_38295">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38295">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27171"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_38867 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_38867">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38867">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_46775 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_46775">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46775">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38260"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_50584 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50584">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50584">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2571"/>
-    </rdf:Description>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50860 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50906 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50906"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_52211 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_52211">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52211">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24432"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_52217 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_52217">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33232"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_52625 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_52625">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52625">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24651"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24835"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_55505 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_55505">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_55505">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37947"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -17094,6 +17208,162 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0020018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <IAO_0000115 xml:lang="en">Behavior in which one animal causes the death of another.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <oboInOwl:hasExactSynonym xml:lang="en">killing</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">kill</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <IAO_0000115 xml:lang="en">Agonistic behavior involving direct physical contact including (but not limited to) biting, kicking, grabbing.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">contact aggression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <IAO_0000115 xml:lang="en">Forcible alteration of behavior of one animal by another.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">coercion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <IAO_0000115 xml:lang="en">A behavior on the part of one individual associated with evaluating the fighting ability or correlates of fighting ability of a potential opponent.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">assessment behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <IAO_0000115 xml:lang="en">Behavior that signifies hostility and predicts an increased probability of attack.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">threat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <IAO_0000115 xml:lang="en">Behavior in which one animal causes bodily damage to another.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <oboInOwl:hasExactSynonym xml:lang="en">injuring</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">injure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <IAO_0000115 xml:lang="en">Carrying or manipulation of infants or equivalent items to reduce chances of aggression on carrier by other animals.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">agonistic buffering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <IAO_0000115 xml:lang="en">Chasing of one animal by another during an agonistic conflict.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">agonistic chase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <IAO_0000115 xml:lang="en">Alarm behavior triggered by agonistic actions or postures</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">agonistic alarm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <IAO_0000115 xml:lang="en">Increasing intensity of directed agonistic behavior.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">escalation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <IAO_0000115 xml:lang="en">Behavior that serves to exlude an animal from a group.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">exclusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <IAO_0000115 xml:lang="en">Display behavior by the winner of a prior agonistic contest.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">triumph</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <IAO_0000115 xml:lang="en">An acitvity that seems irrelevant to its behavioral context to a human observer and often occurs when its performer is in a conflict situation.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">displacement behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000121"/>
+        <IAO_0000115 xml:lang="en">Behaviors that appear to signifiy lack of hostility and to reduce chances of attack.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">appeasement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0050000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0050000">
@@ -17780,6 +18050,41 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     </rdf:Description>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007629">
         <oboInOwl:hasExactSynonym xml:lang="en">fly</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000122"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000127"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000128"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000296"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000743"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020018"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020033"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020063"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020093"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020108"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020111"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020112"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020141"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020145"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020182"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020220"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020239"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020255"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020279"/>
+        </owl:members>
     </rdf:Description>
 </rdf:RDF>
 

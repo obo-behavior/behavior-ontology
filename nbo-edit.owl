@@ -27,7 +27,6 @@
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/nbo/2012-07-09/nbo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <oboInOwl:remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-07-09</oboInOwl:remark>
     </owl:Ontology>
@@ -17208,6 +17207,17 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0020015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Postures or signals that alert other animals to presence or approach of a predator.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">warn other prey</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0020018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020018">
@@ -17216,6 +17226,17 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
         <oboInOwl:hasExactSynonym xml:lang="en">killing</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">kill</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Threat that will not be acted upon.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">bluff</rdfs:label>
     </owl:Class>
     
 
@@ -17231,6 +17252,28 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0020037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Surveillance for presence or approach of predators.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">vigilance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Currently reside in constructed or existing structure that provides reduced predator and/or environmental risk.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">occupy refuge</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0020063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020063">
@@ -17242,6 +17285,28 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0020077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Performance of behaviors that demonstrate physical condition of performer to a detected predator.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">display condition (to predator)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Emission of signals in such a way as to prevent effective use of signals emitted by other parties.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">jamming</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0020093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020093">
@@ -17249,6 +17314,17 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <IAO_0000115 xml:lang="en">A behavior on the part of one individual associated with evaluating the fighting ability or correlates of fighting ability of a potential opponent.</IAO_0000115>
         <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
         <rdfs:label xml:lang="en">assessment behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Construction of a structure in which builder can benefit from reduced predation risk and/or environmental stress.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">create refuge</rdfs:label>
     </owl:Class>
     
 
@@ -17287,6 +17363,28 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0020117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Use of behavioral tactics or chemical weapons to deter predation. Example: flashing eye spots (behavioral tactic) or expulsion of noxious liquid (chemical).</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">deploy defense</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Behaviors that reduce detectability of performer against background.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">enhance crypsis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0020141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020141">
@@ -17309,6 +17407,28 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0020149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Signals emitted by an animal trapped or captured by a presumed predator.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">distress signaling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Halting or diminution of activity to minimize detection by predator.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">reduce activity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0020182 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020182">
@@ -17316,6 +17436,28 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <IAO_0000115 xml:lang="en">Increasing intensity of directed agonistic behavior.</IAO_0000115>
         <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
         <rdfs:label xml:lang="en">escalation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Become immobile and reduce other evidence of living state.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">feign death</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Behaviors directed towards presumed predators to redirect their attention away from a location of importance to the performer.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">misdirect predator</rdfs:label>
     </owl:Class>
     
 
@@ -17331,6 +17473,28 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0020223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Conspicuous orientation towards and/or approach to detected predator.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">inspect predator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Perform physically violent acts on a presumed predator.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">attack predator</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0020239 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020239">
@@ -17338,6 +17502,28 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <IAO_0000115 xml:lang="en">Display behavior by the winner of a prior agonistic contest.</IAO_0000115>
         <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
         <rdfs:label xml:lang="en">triumph</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Behaviors, anatomical structures, or signals that imitate aposematic animals, plants, or inanimate objects that are undesirable to predators of performer.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">mimicry enhancement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Erratic movements or similar behaviors that would confuse a predator.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">promote confusion</rdfs:label>
     </owl:Class>
     
 
@@ -17353,6 +17539,17 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0020268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Depart [from] current location of predator.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">flee</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0020279 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020279">
@@ -17360,6 +17557,28 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <IAO_0000115 xml:lang="en">Behaviors that appear to signifiy lack of hostility and to reduce chances of attack.</IAO_0000115>
         <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
         <rdfs:label xml:lang="en">appeasement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Conspicuous postures or signals (often coloration) that potential predators learn to associate with strong defense mechanisms of performer</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">aposematism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000636"/>
+        <IAO_0000115 xml:lang="en">Postures or signals that can communicate to predator that it has been detected by performer.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">(predator) detection notification</rdfs:label>
     </owl:Class>
     
 
@@ -18062,6 +18281,32 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000048"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000087"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020015"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020031"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020037"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020059"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020077"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020079"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020105"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020117"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020139"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020149"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020175"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020199"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020223"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020230"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020245"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020251"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020268"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020287"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020289"/>
+        </owl:members>
+    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">

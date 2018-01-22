@@ -17307,6 +17307,17 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0020088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000235"/>
+        <IAO_0000115 xml:lang="en">Postures or signals performed to other animals to indicate the presence, and in some cases, the location, quantity, and quality, of a resource.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">resource advertisement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0020093 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020093">
@@ -17429,6 +17440,17 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0020177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000235"/>
+        <IAO_0000115 xml:lang="en">Obtaining food that has been procured by other conspecifics or heterospecifics.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">social acquisition of food</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0020182 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020182">
@@ -17436,6 +17458,17 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <IAO_0000115 xml:lang="en">Increasing intensity of directed agonistic behavior.</IAO_0000115>
         <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
         <rdfs:label xml:lang="en">escalation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000235"/>
+        <IAO_0000115 xml:lang="en">Movement directed to the detection of new resources.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">nutrient locating</rdfs:label>
     </owl:Class>
     
 
@@ -17561,6 +17594,17 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0020282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000235"/>
+        <IAO_0000115 xml:lang="en">Behaviors related to acquisition and utilization of external resources.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">nutrient acquisition</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0020287 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020287">
@@ -17579,6 +17623,17 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <IAO_0000115 xml:lang="en">Postures or signals that can communicate to predator that it has been detected by performer.</IAO_0000115>
         <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
         <rdfs:label xml:lang="en">(predator) detection notification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0020291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000235"/>
+        <IAO_0000115 xml:lang="en">Behavior that precedes and facilitates attaining food.</IAO_0000115>
+        <created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</created_by>
+        <rdfs:label xml:lang="en">nutrient preparation</rdfs:label>
     </owl:Class>
     
 
@@ -18305,6 +18360,18 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020268"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020287"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020289"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000089"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000237"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020088"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020177"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020188"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020282"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0020291"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>

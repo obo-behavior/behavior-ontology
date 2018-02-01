@@ -12,6 +12,7 @@ before_script:
   - wget http://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot -O bin/robot
   - wget http://build.berkeleybop.org/job/robot/lastSuccessfulBuild/artifact/bin/robot.jar -O bin/robot.jar
   - chmod +x bin/*
+  - cd src/ontology
 
 # command to run tests
 # https://github.com/INCATools/ontology-starter-kit/issues/25

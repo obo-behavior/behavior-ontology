@@ -26,6 +26,8 @@
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/nbo/2012-07-09/nbo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
+        <!--<owl:imports rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>-->
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <oboInOwl:remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-07-09</oboInOwl:remark>
     </owl:Ontology>
@@ -9783,7 +9785,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000435"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget> attenuation reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>attenuation reflex</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     <owl:Axiom>
@@ -14347,7 +14349,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000670"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget> akinetic seizure</owl:annotatedTarget>
+        <owl:annotatedTarget>akinetic seizure</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     <owl:Axiom>

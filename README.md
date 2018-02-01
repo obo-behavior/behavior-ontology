@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/bio-ontology-research-group/behavior-ontology.svg?branch=master)](https://travis-ci.org/bio-ontology-research-group/behavior-ontology)
+[![Build Status](https://travis-ci.org/obo-behavior/behavior-ontology.svg?branch=master)](https://travis-ci.org/obo-behavior/behavior-ontology)
 
 ## Neuro Behaviour Ontology
 

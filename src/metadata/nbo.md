@@ -3,7 +3,7 @@ layout: ontology_detail
 id: nbo
 title: Neuro Behavior Ontology
 jobs:
-  - id: https://travis-ci.org/lksr/neuro-behavior-ontology
+  - id: https://travis-ci.org/obo-behavior/behavior-ontology
     type: travis-ci
 build:
   checkout: git clone https://github.com/obo-behavior/behavior-ontology

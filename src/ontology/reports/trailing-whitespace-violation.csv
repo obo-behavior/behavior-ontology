@@ -1,0 +1,26 @@
+c,p,x
+http://purl.obolibrary.org/obo/NBO_0000435,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym, attenuation reflex
+http://purl.obolibrary.org/obo/NBO_0000670,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym, akinetic seizure
+http://purl.obolibrary.org/obo/NBO_0000611,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym,phantosmia 
+http://purl.obolibrary.org/obo/NBO_0000421,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym,delayed sleep-phase disorder (DSPD) 
+http://purl.obolibrary.org/obo/NBO_0003142,http://purl.obolibrary.org/obo/IAO_0000115,"""Any process that modulates the frequency, rate or extent of witdrawal response."" [NBOC:GVG] "
+http://purl.obolibrary.org/obo/NBO_0000303,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym,paternal aggression 
+http://purl.obolibrary.org/obo/NBO_0000316,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym, hearing behaviour
+http://purl.obolibrary.org/obo/NBO_0000257,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym,clinical depression 
+http://purl.obolibrary.org/obo/NBO_0003104,http://purl.obolibrary.org/obo/IAO_0000115,"""Any process that modulates the frequency, rate or extent of behavioral response to chemiucal stimulus."" [NBOC:GVG] "
+http://purl.obolibrary.org/obo/NBO_0002950,http://www.geneontology.org/formats/oboInOwl#xref,GO:0060006 
+http://purl.obolibrary.org/obo/NBO_0000539,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym,eating disorder 
+http://purl.obolibrary.org/obo/NBO_0000302,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym,maternal aggression 
+http://purl.obolibrary.org/obo/NBO_0000390,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym, infant reflex
+http://purl.obolibrary.org/obo/NBO_0000491,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym,free running disorder (FRD) 
+http://purl.obolibrary.org/obo/NBO_0000491,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym,non-24-hour circadian rhythm disorder 
+http://purl.obolibrary.org/obo/NBO_0001786,http://www.geneontology.org/formats/oboInOwl#xref,GO:0050795 
+http://purl.obolibrary.org/obo/NBO_0000159,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym, paradoxical sleep
+http://purl.obolibrary.org/obo/NBO_0000575,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym, piloerection
+http://purl.obolibrary.org/obo/NBO_0000402,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym, stepping reflex
+http://purl.obolibrary.org/obo/NBO_0000410,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym, triceps surae reflex
+http://purl.obolibrary.org/obo/NBO_0000233,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym, behavioral homeostasis
+http://purl.obolibrary.org/obo/NBO_0003194,http://purl.obolibrary.org/obo/IAO_0000115,"""Any process that modulates the frequency, rate or extent of witdrawal response."" [NBOC:GVG] "
+http://purl.obolibrary.org/obo/NBO_0000886,http://www.w3.org/2000/01/rdf-schema#label,increased amount of liquid in drinking regulation 
+http://purl.obolibrary.org/obo/NBO_0000481,http://www.geneontology.org/formats/oboInOwl#hasExactSynonym, pseudo-insomnia
+http://purl.obolibrary.org/obo/NBO_0003047,http://purl.obolibrary.org/obo/IAO_0000115,"""Any process that modulates the frequency, rate or extent of behavioral response to chemiucal stimulus."" [NBOC:GVG] "

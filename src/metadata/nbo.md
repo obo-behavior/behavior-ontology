@@ -6,24 +6,22 @@ jobs:
   - id: https://travis-ci.org/lksr/neuro-behavior-ontology
     type: travis-ci
 build:
-  checkout: git clone https://github.com/lksr/neuro-behavior-ontology.git
+  checkout: git clone https://github.com/obo-behavior/behavior-ontology
   system: git
   path: "."
 contact:
-  email: cjmungall@lbl.gov
-  label: Chris Mungall
-description: Neuro Behavior Ontology is an ontology...
-domain: stuff
-homepage: https://github.com/lksr/neuro-behavior-ontology
+  email: lxs511@bham.ac.uk
+  label: Luke Slater
+description: An ontology of human and animal behaviours and behavioural phenotypes.
+domain: behavior
+homepage: https://github.com/obo-behavior/behavior-ontology
 products:
   - id: nbo.owl
   - id: nbo.obo
 dependencies:
  - id: pato
-tracker: https://github.com/lksr/neuro-behavior-ontology/issues
+tracker: https://github.com/obo-behavior/behavior-ontology/issues
 license:
   url: http://creativecommons.org/licenses/by/3.0/
   label: CC-BY
 ---
-
-Enter a detailed description of your ontology here

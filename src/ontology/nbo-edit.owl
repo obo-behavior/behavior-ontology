@@ -4717,7 +4717,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000159"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget> paradoxical sleep</owl:annotatedTarget>
+        <owl:annotatedTarget>paradoxical sleep</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     <owl:Axiom>
@@ -6037,7 +6037,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000233"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget> behavioral homeostasis</owl:annotatedTarget>
+        <owl:annotatedTarget>behavioral homeostasis</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     <owl:Axiom>
@@ -6453,7 +6453,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000257"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>clinical depression </owl:annotatedTarget>
+        <owl:annotatedTarget>clinical depression</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     <owl:Axiom>
@@ -7179,7 +7179,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000302"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>maternal aggression </owl:annotatedTarget>
+        <owl:annotatedTarget>maternal aggression</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     
@@ -7201,7 +7201,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000303"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>paternal aggression </owl:annotatedTarget>
+        <owl:annotatedTarget>paternal aggression</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     
@@ -7498,7 +7498,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000316"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget> hearing behaviour</owl:annotatedTarget>
+        <owl:annotatedTarget>hearing behaviour</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     
@@ -9110,7 +9110,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000402"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget> stepping reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>stepping reflex</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     
@@ -9260,7 +9260,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000410"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget> triceps surae reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>triceps surae reflex</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RELATED</synonymtype>
     </owl:Axiom>
     <owl:Axiom>
@@ -9529,7 +9529,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000421"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>delayed sleep-phase disorder (DSPD) </owl:annotatedTarget>
+        <owl:annotatedTarget>delayed sleep-phase disorder (DSPD)</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     <owl:Axiom>
@@ -10632,7 +10632,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-08T02:31:33Z</dc:date>
-        <oboInOwl:hasExactSynonym> pseudo-insomnia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pseudo-insomnia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>SSM</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>paradoxical insomnia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>sleep hypochondriasis</oboInOwl:hasExactSynonym>
@@ -10643,7 +10643,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000481"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget> pseudo-insomnia</owl:annotatedTarget>
+        <owl:annotatedTarget>pseudo-insomnia</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     <owl:Axiom>
@@ -10854,7 +10854,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>free running disorder (FRD) </owl:annotatedTarget>
+        <owl:annotatedTarget>free running disorder (FRD)</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     <owl:Axiom>
@@ -10872,7 +10872,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000491"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>non-24-hour circadian rhythm disorder </owl:annotatedTarget>
+        <owl:annotatedTarget>non-24-hour circadian rhythm disorder</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     <owl:Axiom>
@@ -11704,7 +11704,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000539"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>eating disorder </owl:annotatedTarget>
+        <owl:annotatedTarget>eating disorder</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     
@@ -12461,7 +12461,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000575"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget> piloerection</owl:annotatedTarget>
+        <owl:annotatedTarget>piloerection</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     <owl:Axiom>
@@ -13194,7 +13194,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000611"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>phantosmia </owl:annotatedTarget>
+        <owl:annotatedTarget>phantosmia</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     
@@ -17340,7 +17340,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001786"/>
-        <IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of behavioral response to chemical stimulus.&quot; [NBOC:GVG] </IAO_0000115>
+        <IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of behavioral response to chemical stimulus.&quot; [NBOC:GVG]</IAO_0000115>
         <created_by>George Gkoutos</created_by>
         <rdfs:label xml:lang="en">regulation of behavioral response to chemical stimulus</rdfs:label>
     </owl:Class>
@@ -17357,7 +17357,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0003047"/>
-        <IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of behavioral response to chemical stimulus.&quot; [NBOC:GVG] </IAO_0000115>
+        <IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of behavioral response to chemical stimulus.&quot; [NBOC:GVG]</IAO_0000115>
         <created_by>George Gkoutos</created_by>
         <rdfs:label xml:lang="en">regulation of behavioral response to addictive substance</rdfs:label>
     </owl:Class>

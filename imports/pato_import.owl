@@ -9,6 +9,9 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/NBO/imports/pato_import.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/NBO/imports/go_import.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/NBO/imports/chebi_import.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/NBO/imports/uberon_import.owl"/>
 
     <!-- This is a placeholder, it will be regenerated when makefile is first executed -->
 </rdf:RDF>

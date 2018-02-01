@@ -4708,7 +4708,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-03-31T03:00:57Z</dc:date>
-        <oboInOwl:hasExactSynonym> paradoxical sleep</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>paradoxical sleep</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>REM sleep</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rapid eye movement sleep</rdfs:label>
     </owl:Class>
@@ -6027,7 +6027,7 @@
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-04T08:29:40Z</dc:date>
         <oboInOwl:hasAlternativeId>NBO:0000050</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasExactSynonym> behavioral homeostasis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>behavioral homeostasis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>maintenance behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>perception of need</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">motivation behavior</rdfs:label>
@@ -6432,7 +6432,6 @@
         <dc:date>2011-04-04T08:55:36Z</dc:date>
         <oboInOwl:hasExactSynonym>MDD</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>clinical depression</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>clinical depression </oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>major depression</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>unipolar depression</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">major depressive disorder</rdfs:label>
@@ -7171,7 +7170,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-04T09:39:58Z</dc:date>
-        <oboInOwl:hasExactSynonym>maternal aggression </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>maternal aggression</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0002125</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">maternal aggressive behavior</rdfs:label>
     </owl:Class>
@@ -7194,7 +7193,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-04T09:40:11Z</dc:date>
-        <oboInOwl:hasExactSynonym>paternal aggression </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>paternal aggression</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paternal aggressive behavior</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -7490,7 +7489,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-05T10:38:17Z</dc:date>
-        <oboInOwl:hasExactSynonym> hearing behaviour</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hearing behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>GO:0031223</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory behavior</rdfs:label>
     </owl:Class>
@@ -8889,7 +8888,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-06T02:44:15Z</dc:date>
-        <oboInOwl:hasExactSynonym> infant reflex</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>infant reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>infantile reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>newborn reflex</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primitive reflex</rdfs:label>
@@ -8897,7 +8896,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000390"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget> infant reflex</owl:annotatedTarget>
+        <owl:annotatedTarget>infant reflex</owl:annotatedTarget>
         <synonymtype rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EXACT</synonymtype>
     </owl:Axiom>
     <owl:Axiom>
@@ -9103,7 +9102,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-06T03:26:47Z</dc:date>
-        <oboInOwl:hasExactSynonym> stepping reflex</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stepping reflex</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">walking reflex</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -9250,7 +9249,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-06T04:20:42Z</dc:date>
-        <oboInOwl:hasExactSynonym> triceps surae reflex</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>triceps surae reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Achilles reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Achilles tendon reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ankle reflex</oboInOwl:hasExactSynonym>
@@ -9515,7 +9514,7 @@
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-07T01:22:32Z</dc:date>
         <oboInOwl:hasExactSynonym>DSPS</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>delayed sleep-phase disorder (DSPD) </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>delayed sleep-phase disorder (DSPD)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>delayed sleep-phase type (DSPT)</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delayed sleep phase syndrome</rdfs:label>
     </owl:Class>
@@ -9776,7 +9775,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-07T05:41:07Z</dc:date>
-        <oboInOwl:hasExactSynonym> attenuation reflex</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>attenuation reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>auditory reflex</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>stapedius reflex</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acoustic reflex</rdfs:label>
@@ -10831,10 +10830,10 @@
         <dc:date>2011-04-08T03:11:40Z</dc:date>
         <oboInOwl:hasExactSynonym>circadian rhythm sleep disorder, free running type</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>circadian rhythm sleep disorder, nonentrained type</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>free running disorder (FRD) </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>free running disorder (FRD)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hypernychthemeral syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>non-24</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>non-24-hour circadian rhythm disorder </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>non-24-hour circadian rhythm disorder</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>non-24-hour sleep-wake disorder</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-24-hour sleep-wake syndrome</rdfs:label>
     </owl:Class>
@@ -11697,7 +11696,7 @@
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-10T10:39:39Z</dc:date>
-        <oboInOwl:hasExactSynonym>eating disorder </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>eating disorder</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eating behavior phenotype</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -12453,7 +12452,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T10:15:17Z</dc:date>
-        <oboInOwl:hasExactSynonym> piloerection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>piloerection</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>horripilation</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pilomotor reflex</rdfs:label>
     </owl:Class>
@@ -13187,7 +13186,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T03:58:15Z</dc:date>
-        <oboInOwl:hasExactSynonym>phantosmia </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>phantosmia</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">olfactory hallucination</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -14339,7 +14338,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-05-27T03:57:35Z</dc:date>
-        <oboInOwl:hasExactSynonym> akinetic seizure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>akinetic seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>drop attack</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>drop seizure</oboInOwl:hasExactSynonym>
         <oboInOwl:xref>HP:0010819</oboInOwl:xref>
@@ -16483,7 +16482,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000540"/>
-        <rdfs:label xml:lang="en">increased amount of liquid in drinking regulation </rdfs:label>
+        <rdfs:label xml:lang="en">increased amount of liquid in drinking regulation</rdfs:label>
     </owl:Class>
     
 
@@ -16719,7 +16718,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
         <IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of behavior, the specific actions or reactions of an organism in response to external or internal stimuli.&quot; [GO:0050795]</IAO_0000115>
         <created_by>George Gkoutos</created_by>
-        <oboInOwl:xref>GO:0050795 </oboInOwl:xref>
+        <oboInOwl:xref>GO:0050795</oboInOwl:xref>
         <rdfs:label xml:lang="en">regulation of behavior</rdfs:label>
     </owl:Class>
     
@@ -17302,7 +17301,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002950">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000416"/>
         <IAO_0000115>A vestibular reflex by which a response to an angular acceleration stimulus begins with an afferent nerve impulse from a receptor in the semi-circular canal and ends with the compensatory action of eye muscles. Signaling never reaches a level of consciousness. [GOC:dph]</IAO_0000115>
-        <oboInOwl:xref>GO:0060006 </oboInOwl:xref>
+        <oboInOwl:xref>GO:0060006</oboInOwl:xref>
         <rdfs:label xml:lang="en">angular vestibuloocular reflex</rdfs:label>
     </owl:Class>
     
@@ -17339,7 +17338,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001786"/>
-        <IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of behavioral response to chemiucal stimulus.&quot; [NBOC:GVG] </IAO_0000115>
+        <IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of behavioral response to chemical stimulus.&quot; [NBOC:GVG] </IAO_0000115>
         <created_by>George Gkoutos</created_by>
         <rdfs:label xml:lang="en">regulation of behavioral response to chemical stimulus</rdfs:label>
     </owl:Class>
@@ -17356,7 +17355,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0003047"/>
-        <IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of behavioral response to chemiucal stimulus.&quot; [NBOC:GVG] </IAO_0000115>
+        <IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of behavioral response to chemical stimulus.&quot; [NBOC:GVG] </IAO_0000115>
         <created_by>George Gkoutos</created_by>
         <rdfs:label xml:lang="en">regulation of behavioral response to addictive substance</rdfs:label>
     </owl:Class>
@@ -17373,7 +17372,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0003104"/>
-        <IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of witdrawal response.&quot; [NBOC:GVG] </IAO_0000115>
+        <IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of withdrawal response.&quot; [NBOC:GVG]</IAO_0000115>
         <created_by>George Gkoutos</created_by>
         <rdfs:label xml:lang="en">regulation of withdrawal response</rdfs:label>
     </owl:Class>
@@ -17401,7 +17400,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0003104"/>
-        <IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of witdrawal response.&quot; [NBOC:GVG] </IAO_0000115>
+        <IAO_0000115>&quot;Any process that modulates the frequency, rate or extent of withdrawal response.&quot; [NBOC:GVG]</IAO_0000115>
         <created_by>George Gkoutos</created_by>
         <rdfs:label xml:lang="en">regulation of addiction response</rdfs:label>
     </owl:Class>

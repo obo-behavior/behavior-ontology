@@ -16,7 +16,7 @@ The editors version is [nbo-edit.owl](nbo-edit.owl)
 
 [../../nbo.owl](../../nbo.owl) is the release version
 
-To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/lksr/neuro-behavior-ontology) for details.
+To edit, open the file in Protege. First make sure you have the repository cloned, see [the GitHub project](https://github.com/obo-behavior/behavior-ontology) for details.
 
 ## ID Ranges
 
@@ -48,8 +48,7 @@ to release:
     cd src/ontology
     make
 
-If this looks goo
-d type:
+If this looks good type:
 
     make prepare_release
 
@@ -68,8 +67,8 @@ Finally type
 
 IMMEDIATELY AFTERWARDS (do *not* make further modifications) go here:
 
- * https://github.com/lksr/neuro-behavior-ontology/releases
- * https://github.com/lksr/neuro-behavior-ontology/releases/new
+ * https://github.com/obo-behavior/behavior-ontology/releases
+ * https://github.com/obo-behavior/behavior-ontology/releases/new
 
 The value of the "Tag version" field MUST be
 
@@ -96,7 +95,4 @@ For questions on this contact Chris Mungall or email obo-admin AT obofoundry.org
 
 # Travis Continuous Integration System
 
-Check the build status here: [![Build Status](https://travis-ci.org/lksr/neuro-behavior-ontology.svg?branch=master)](https://travis-ci.org/lksr/neuro-behavior-ontology)
-
-Note: if you have only just created this project you will need to authorize travis for this repo. Go to [https://travis-ci.org/profile/lksr](https://travis-ci.org/profile/lksr) for details
-
+Check the build status here: [![Build Status](https://travis-ci.org/obo-behavior/behavior-ontology.svg?branch=master)](https://travis-ci.org/obo-behavior/behavior-ontology)

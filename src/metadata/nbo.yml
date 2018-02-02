@@ -1,0 +1,26 @@
+# PURL configuration for http://purl.obolibrary.org/obo/nbo
+
+idspace: NBO
+base_url: /obo/nbo
+
+products:
+- nbo.owl: https://raw.githubusercontent.com/obo-behavior/behavior-ontology/master/nbo.owl
+
+term_browser: ontobee
+example_terms:
+- NBO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/obo-behavior/behavior-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/obo-behavior/behavior-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/NBO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/obo-behavior/behavior-ontology/master/

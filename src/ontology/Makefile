@@ -17,10 +17,10 @@ SPARQLDIR = ../sparql
 # Top-level targets
 # ----------------------------------------
 
-all: sparql_test all_imports $(ONT).owl $(ONT).obo
+all: sparql_test all_imports $(ONT).owl
 test: sparql_test all
 prepare_release: all
-	cp $(ONT).owl $(ONT).obo $(RELEASEDIR) &&\
+	cp $(ONT).owl $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/imports &&\
 	cp imports/*{owl,obo} $(RELEASEDIR)/imports &&\
 	git add $(RELEASEDIR)/imports/*{obo,owl} &&\

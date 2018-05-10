@@ -414,7 +414,8 @@ relationship: RO:0002433 UBERON:0002048 ! lung
 id: UBERON:0000117
 name: respiratory tube
 def: "A tube in the respiratory system. Examples: bronchus, bronchiole, trachea." [GO:0030323, http://orcid.org/0000-0002-6601-2165]
-synonym: "respiratory conducting tube" NARROW []
+synonym: "airway" RELATED []
+synonym: "respiratory conducting tube" NARROW [MP:0004391]
 synonym: "segment of tracheobronchial tree" EXACT [FMA:12224]
 synonym: "segment of tracheobronchial tree" NARROW [FMA:12224]
 synonym: "tracheobronchial tree segment" NARROW [FMA:12224]
@@ -1238,8 +1239,8 @@ def: "It ascends beneath the anterior margin of the trapezius, distributing bran
 synonym: "superficial branch of transverse cervical artery" EXACT [http://en.wikipedia.org/wiki/Superficial_part_of_transverse_cervical_artery]
 is_a: UBERON:0012320 ! cervical artery
 intersection_of: UBERON:0012320 ! cervical artery
-intersection_of: BFO:0000050 UBERON:0035549 ! superficial vasculature
-relationship: BFO:0000050 UBERON:0035549 ! superficial vasculature
+intersection_of: BFO:0000050 UBERON:0035549 ! vasculature of integument
+relationship: BFO:0000050 UBERON:0035549 ! vasculature of integument
 
 [Term]
 id: UBERON:0001084
@@ -4132,22 +4133,6 @@ relationship: existence_starts_and_ends_during UBERON:0000110 ! neurula stage
 relationship: RO:0002202 UBERON:0004734 ! gastrula
 
 [Term]
-id: UBERON:0004461
-name: musculature of head
-def: "Any collection of muscles that is part of a head [Automatically generated definition]." [OBOL:automatic]
-synonym: "head musculature" EXACT [FMA:71287]
-synonym: "muscle group of head" EXACT [FMA:71287]
-synonym: "muscles of head" EXACT [FMA:71287]
-synonym: "musculi capitis" EXACT LATIN [FMA:71287, FMA:TA]
-synonym: "set of muscles of head" EXACT [FMA:71287]
-is_a: UBERON:0008229 ! craniocervical region musculature
-intersection_of: UBERON:0001015 ! musculature
-intersection_of: BFO:0000050 UBERON:0000033 ! head
-relationship: BFO:0000050 UBERON:0000033 ! head
-relationship: BFO:0000050 UBERON:0013700 ! axial musculature
-relationship: RO:0002202 UBERON:0005253 ! head mesenchyme
-
-[Term]
 id: UBERON:0004464
 name: musculature of thorax
 def: "Any collection of muscles that is part of a thorax [Automatically generated definition]." [OBOL:automatic]
@@ -4200,7 +4185,7 @@ synonym: "muscle group of face" EXACT [FMA:71288]
 synonym: "musculi faciei" EXACT LATIN [FMA:71288, FMA:TA]
 synonym: "set of facial muscles" RELATED [FMA:71288]
 synonym: "set of muscles of face" RELATED [FMA:71288]
-is_a: UBERON:0004461 ! musculature of head
+is_a: UBERON:0008229 ! craniocervical region musculature
 intersection_of: UBERON:0001015 ! musculature
 intersection_of: BFO:0000050 UBERON:0001456 ! face
 relationship: BFO:0000050 UBERON:0001456 ! face
@@ -6890,17 +6875,6 @@ intersection_of: BFO:0000050 UBERON:0000955 ! brain
 relationship: BFO:0000050 UBERON:0000955 ! brain
 
 [Term]
-id: UBERON:0013700
-name: axial musculature
-def: "Musculature of the head and neck, spine, and ribs." [HP:0003327]
-is_a: UBERON:0001015 ! musculature
-intersection_of: UBERON:0001015 ! musculature
-intersection_of: BFO:0000050 UBERON:0013701 ! main body axis
-intersection_of: RO:0002371 UBERON:0005944 ! axial skeleton plus cranial skeleton
-relationship: BFO:0000050 UBERON:0013701 ! main body axis
-relationship: RO:0002371 UBERON:0005944 ! axial skeleton plus cranial skeleton
-
-[Term]
 id: UBERON:0013701
 name: main body axis
 def: "A principle subdivision of an organism that includes all structures along the primary axis, typically the anterior-posterior axis, from head to tail, including structures of the body proper where present (for example, ribs), but excluding appendages." [https://orcid.org/0000-0002-6601-2165]
@@ -7504,13 +7478,19 @@ relationship: RO:0002221 UBERON:0000468 ! multicellular organism
 
 [Term]
 id: UBERON:0035549
-name: superficial vasculature
+name: vasculature of integument
 def: "The part of the circulatory system that lies within the subcutaneous tissue layers close to the surface of the skin." [http://orcid.org/0000-0002-6601-2165]
+synonym: "dermis vasculature" NARROW []
+synonym: "hypodermis vasculature" NARROW []
+synonym: "skin vasculature" RELATED []
+synonym: "subcutaneous vasculature" RELATED []
 synonym: "superficial part of circulatory system" EXACT []
+synonym: "superficial vasculature" EXACT []
+synonym: "vasculature of skin" RELATED [FMA:225275]
 is_a: UBERON:0002049 ! vasculature
 intersection_of: UBERON:0002049 ! vasculature
-intersection_of: RO:0001025 UBERON:0002072 ! hypodermis
-relationship: RO:0001025 UBERON:0002072 ! hypodermis
+intersection_of: RO:0001025 UBERON:0002199 ! integument
+relationship: RO:0001025 UBERON:0002199 ! integument
 
 [Term]
 id: UBERON:0035550
@@ -7521,8 +7501,8 @@ synonym: "superficial veins" RELATED [http://en.wikipedia.org/wiki/Superficial_v
 synonym: "superficial vessels" RELATED [http://en.wikipedia.org/wiki/Superficial_vein]
 is_a: UBERON:0001638 ! vein
 intersection_of: UBERON:0001638 ! vein
-intersection_of: BFO:0000050 UBERON:0035549 ! superficial vasculature
-relationship: BFO:0000050 UBERON:0035549 ! superficial vasculature
+intersection_of: BFO:0000050 UBERON:0035549 ! vasculature of integument
+relationship: BFO:0000050 UBERON:0035549 ! vasculature of integument
 
 [Term]
 id: UBERON:0035551
@@ -7531,8 +7511,8 @@ def: "The part of the circulatory system that lies deep beneath the subcutaneous
 synonym: "deep part of circulatory system" EXACT []
 is_a: UBERON:0002049 ! vasculature
 intersection_of: UBERON:0002049 ! vasculature
-intersection_of: BSPO:0000107 UBERON:0002072 ! hypodermis
-relationship: BSPO:0000107 UBERON:0002072 ! hypodermis
+intersection_of: BSPO:0000107 UBERON:0002199 ! integument
+relationship: BSPO:0000107 UBERON:0002199 ! integument
 
 [Term]
 id: UBERON:0035552
@@ -7835,10 +7815,6 @@ id: RO:0002170
 is_a: transitively_connected_to
 
 [Typedef]
-id: RO:0002177
-equivalent_to_chain: RO:0002371 BFO:0000050
-
-[Typedef]
 id: RO:0002178
 is_a: RO:0002170
 
@@ -7903,11 +7879,6 @@ inverse_of: RO:0002351
 [Typedef]
 id: RO:0002351
 is_a: BFO:0000051
-
-[Typedef]
-id: RO:0002371
-is_a: RO:0002176
-is_a: RO:0002177
 
 [Typedef]
 id: RO:0002380

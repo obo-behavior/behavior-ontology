@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/"
-     xml:base="http://purl.obolibrary.org/obo/"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/nbo.owl#"
+     xml:base="http://purl.obolibrary.org/obo/nbo.owl"
      xmlns:chebi="http://purl.obolibrary.org/obo/chebi#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"

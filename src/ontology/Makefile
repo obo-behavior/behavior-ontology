@@ -17,7 +17,7 @@ SPARQLDIR = ../sparql
 # Top-level targets
 # ----------------------------------------
 
-all: sparql_test all_imports $(ONT).owl
+all: sparql_test all_imports $(ONT).owl $(ONT).obo
 test: sparql_test all
 prepare_release: all
 	cp $(ONT).owl $(RELEASEDIR) &&\

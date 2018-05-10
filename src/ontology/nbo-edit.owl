@@ -7856,7 +7856,8 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000388 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000388">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NBO_0000403"/>
         <IAO_0000115>&quot;Behavior related to movements that occur independent of planning.&quot; [NBO:GVG]</IAO_0000115>
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
@@ -8083,7 +8084,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000403">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0050882"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000001"/>
         <IAO_0000115>&quot;Behavior related to movements executed with intent.&quot; [NBO:GVG]</IAO_0000115>
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>

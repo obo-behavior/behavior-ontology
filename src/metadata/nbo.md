@@ -17,6 +17,7 @@ domain: behavior
 homepage: https://github.com/obo-behavior/behavior-ontology
 products:
   - id: nbo.owl
+  - id: nbo.obo
 dependencies:
  - id: pato
 tracker: https://github.com/obo-behavior/behavior-ontology/issues

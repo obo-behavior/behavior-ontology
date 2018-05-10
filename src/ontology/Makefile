@@ -17,7 +17,7 @@ SPARQLDIR = ../sparql
 # Top-level targets
 # ----------------------------------------
 
-all: sparql_test all_imports $(ONT).owl
+all: sparql_test all_imports $(ONT).owl $(ONT).obo
 test: sparql_test all
 prepare_release: all
 	cp $(ONT).owl $(RELEASEDIR) &&\
@@ -35,6 +35,8 @@ prepare_release: all
 # after that we annotate the ontology with the release versionInfo
 $(ONT).owl: $(SRC)
 	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+$(ONT).obo: $(ONT).owl
+	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp $@
 
 # ----------------------------------------
 # Import modules

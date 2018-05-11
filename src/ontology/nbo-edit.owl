@@ -10766,7 +10766,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <created_by>George Gkoutos</created_by>
         <namespace>behavior_ontology</namespace>
         <dc:date>2011-04-14T08:43:33Z</dc:date>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mutlidirectional head movement</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">multidirectional head movement</rdfs:label>
     </owl:Class>
     
 

@@ -885,7 +885,6 @@
     <!-- http://purl.obolibrary.org/obo/GO_0007622 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007622">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044708"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0048511"/>
     </owl:Class>
     
@@ -902,7 +901,6 @@
     <!-- http://purl.obolibrary.org/obo/GO_0007626 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007626">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044708"/>
         <oboInOwl:hasExactSynonym xml:lang="en">locomotion</oboInOwl:hasExactSynonym>
     </owl:Class>
     
@@ -929,7 +927,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007635">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042221"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044708"/>
     </owl:Class>
     
 
@@ -938,7 +935,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007638">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009612"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044708"/>
     </owl:Class>
     
 
@@ -1248,7 +1244,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044704">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0019098"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044702"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044708"/>
     </owl:Class>
     
 
@@ -1256,14 +1251,6 @@
     <!-- http://purl.obolibrary.org/obo/GO_0044705 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044705"/>
-    
-    <!-- http://purl.obolibrary.org/obo/GO_0044708 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044708">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044699"/>
-    </owl:Class>
-    
 
     <!-- http://purl.obolibrary.org/obo/GO_0045297 -->
 
@@ -1634,9 +1621,7 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0060273 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060273">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044708"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0060273"/>
     
 
 

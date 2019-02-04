@@ -726,9 +726,7 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0003008 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044707"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003008"/>
     
 
 
@@ -923,7 +921,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007632">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009416"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044704"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044707"/>
     </owl:Class>
     
 
@@ -1136,9 +1133,7 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0030431 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030431">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044707"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030431"/>
     
 
 
@@ -1262,17 +1257,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044705"/>
     
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0044707 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044707">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032501"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044699"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0044708 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044708">
@@ -1352,7 +1336,6 @@
     <!-- http://purl.obolibrary.org/obo/GO_0050878 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050878">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044707"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0065008"/>
     </owl:Class>
     
@@ -1360,9 +1343,7 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0050879 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050879">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044707"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050879"/>
     
 
 

@@ -1218,15 +1218,6 @@
     </owl:Class>
     
 
-
-    <!-- http://purl.obolibrary.org/obo/GO_0044699 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044699">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0044702 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0044702"/>
@@ -1269,9 +1260,7 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0048511 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048511">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0044699"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0048511"/>
     
 
 

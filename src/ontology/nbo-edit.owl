@@ -16686,7 +16686,6 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001256">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000060"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000078"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0006554"/>
     </rdf:Description>
     
 
@@ -16821,16 +16820,6 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005726">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001032"/>
     </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/UBERON_0006554 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0006554">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
-    </rdf:Description>
-    
-
 
     <!-- http://purl.obolibrary.org/obo/UBERON_0009569 -->
 

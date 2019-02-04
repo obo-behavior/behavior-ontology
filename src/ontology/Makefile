@@ -17,10 +17,10 @@ SPARQLDIR = ../sparql
 # Top-level targets
 # ----------------------------------------
 
-all: sparql_test all_imports $(ONT).owl $(ONT).obo
+all: sparql_test all_imports $(ONT).owl $(ONT).obo $(ONT)-base.owl
 test: sparql_test all
 prepare_release: all
-	cp $(ONT).owl $(RELEASEDIR) &&\
+	cp $(ONT).owl $(ONT)-base.owl $(RELEASEDIR) &&\
 	mkdir -p $(RELEASEDIR)/imports &&\
 	cp imports/*{owl,obo} $(RELEASEDIR)/imports &&\
 	git add $(RELEASEDIR)/imports/*{obo,owl} &&\
@@ -37,7 +37,9 @@ $(ONT).owl: $(SRC)
 	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 $(ONT).obo: $(ONT).owl
 	$(ROBOT) convert -i $< -f obo -o $(ONT).obo.tmp && mv $(ONT).obo.tmp ../../$(ONT).obo
-
+	
+$(ONT)-base.owl: $(SRC)
+	$(ROBOT) remove --trim false --input $< --select imports annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@
 # ----------------------------------------
 # Import modules
 # ----------------------------------------
@@ -69,7 +71,7 @@ mirror/%.owl: $(SRC)
 # Release
 # ----------------------------------------
 # copy from staging area (this directory) to top-level
-release: $(ONT).owl $(ONT).obo
+release: $(ONT).owl $(ONT)-base.owl $(ONT).obo
 	cp $^ $(RELEASEDIR) && cp imports/* $(RELEASEDIR)/imports
 
 # ----------------------------------------

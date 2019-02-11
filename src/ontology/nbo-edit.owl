@@ -26,10 +26,10 @@
      xmlns:insect-anatomy="http://purl.obolibrary.org/obo/uberon/insect-anatomy#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/nbo.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/nbo/2018-05-11/nbo.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/go.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/nbo/imports/uberon_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/nbo/imports/chebi_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/nbo/imports/go_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/nbo/imports/pato_import.owl"/>
         <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO</oboInOwl:treat-xrefs-as-equivalent>
         <oboInOwl:remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-05-11</oboInOwl:remark>
     </owl:Ontology>

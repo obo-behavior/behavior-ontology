@@ -2903,7 +2903,7 @@
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#has_participant"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000145"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001548"/>
                             </owl:Restriction>
                         </owl:unionOf>
                     </owl:Class>
@@ -3630,7 +3630,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#has_participant"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000145"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001548"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <IAO_0000115>&quot;A behavior associated with the intake of liquid.&quot; [NBO:GVG]</IAO_0000115>
@@ -10222,7 +10222,7 @@
                                         <owl:someValuesFrom>
                                             <owl:Class>
                                                 <owl:intersectionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000145"/>
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001548"/>
                                                     <owl:Restriction>
                                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
                                                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001563"/>
@@ -14314,7 +14314,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
-                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000145"/>
+                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001548"/>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001563"/>
@@ -14352,7 +14352,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                                         <owl:someValuesFrom>
                                             <owl:Class>
                                                 <owl:intersectionOf rdf:parseType="Collection">
-                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000145"/>
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001548"/>
                                                     <owl:Restriction>
                                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
                                                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001563"/>

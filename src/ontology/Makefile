@@ -31,7 +31,7 @@ TODAY   := $(shell date +%Y-%m-%d)
 # ----------------------------------------
 
 all: all_imports patterns all_main all_subsets sparql_test all_reports all_assets
-travis: all_main all_reports all_assets
+travis: all_main all_reports
 	
 ## -- main targets --
 ##

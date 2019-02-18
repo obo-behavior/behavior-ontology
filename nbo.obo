@@ -1098,8 +1098,8 @@ namespace: chebi_ontology
 subset: 3_STAR
 synonym: ">C=O" RELATED [IUPAC]
 synonym: "carbonyl" EXACT IUPAC_NAME [IUPAC]
-synonym: "carbonyl group" EXACT [ChEBI]
 synonym: "carbonyl group" EXACT [UniProt]
+synonym: "carbonyl group" EXACT [ChEBI]
 is_a: CHEBI:51422 ! organodiyl group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CO" xsd:string
@@ -4945,7 +4945,6 @@ id: GO:0007619
 name: courtship behavior
 namespace: biological_process
 def: "The behavioral interactions between organisms for the purpose of attracting sexual partners." [GOC:ai, GOC:dph]
-synonym: "courtship" EXACT []
 synonym: "courtship behaviour" EXACT []
 is_a: GO:0007617 ! mating behavior
 
@@ -4954,7 +4953,6 @@ id: GO:0007620
 name: copulation
 namespace: biological_process
 def: "The act of sexual union between male and female, involving the transfer of sperm." [ISBN:0721662544]
-synonym: "copulate" EXACT []
 is_a: GO:0007618 ! mating
 
 [Term]
@@ -4995,7 +4993,6 @@ name: locomotory behavior
 namespace: biological_process
 def: "The specific movement from place to place of an organism in response to external or internal stimuli. Locomotion of a whole organism in a manner dependent upon some combination of that organism's internal state and external conditions." [GOC:dph]
 synonym: "behavior via locomotion" EXACT []
-synonym: "locomotion" EXACT []
 synonym: "locomotion in response to stimulus" EXACT []
 synonym: "locomotory behavioral response to stimulus" EXACT []
 synonym: "locomotory behaviour" EXACT []
@@ -6557,7 +6554,6 @@ id: GO:0045297
 name: post-mating behavior
 namespace: biological_process
 def: "The specific behavior of an organism following mating." [GOC:bf, GOC:pr]
-synonym: "post-copulatory behavior" EXACT []
 synonym: "post-mating behaviour" EXACT []
 is_a: GO:0019098 ! reproductive behavior
 
@@ -53039,10 +53035,6 @@ property_value: editor_note "add to RO" xsd:string
 holds_over_chain: has_branching_part indirectly_supplies
 holds_over_chain: has_branching_part supplies
 is_transitive: true
-
-[Typedef]
-id: inheres:in
-name: inheres_in
 
 [Typedef]
 id: innervated_by

@@ -5,22 +5,6 @@ remark: 2018-05-11
 ontology: nbo/nbo-base
 
 [Term]
-id: GO:0007619
-synonym: "courtship" EXACT []
-
-[Term]
-id: GO:0007620
-synonym: "copulate" EXACT []
-
-[Term]
-id: GO:0007626
-synonym: "locomotion" EXACT []
-
-[Term]
-id: GO:0045297
-synonym: "post-copulatory behavior" EXACT []
-
-[Term]
 id: NBO:0000001
 name: body part movement
 synonym: "stationary movement" EXACT []
@@ -3098,7 +3082,7 @@ property_value: namespace "behavior_ontology" xsd:string
 id: NBO:0000320
 name: gravitation sensation behavior
 is_a: NBO:0000317 ! vestibular behavior
-relationship: BFO:00000050 GO:0050957
+relationship: BFO:0000050 GO:0050957
 property_value: created_by "George Gkoutos" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-05T10:44:34Z xsd:string
 property_value: namespace "behavior_ontology" xsd:string
@@ -4358,7 +4342,7 @@ property_value: namespace "behavior_ontology" xsd:string
 id: NBO:0000447
 name: locomotor activation behavior
 is_a: NBO:0000338 ! kinesthetic behavior
-relationship: BFO:00000050 NBO:0000013 ! locomotory behavior
+relationship: BFO:0000050 NBO:0000013 ! locomotory behavior
 property_value: created_by "George Gkoutos" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-08T12:27:51Z xsd:string
 property_value: IAO_0000115 "Activation of locomotory behavior." xsd:string
@@ -8584,10 +8568,6 @@ name: has_participant
 [Typedef]
 id: in_response_to
 name: in_response_to
-
-[Typedef]
-id: inheres:in
-name: inheres_in
 
 [Typedef]
 id: is_about

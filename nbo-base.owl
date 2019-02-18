@@ -154,12 +154,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_00000050 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_00000050"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -180,9 +174,7 @@
 
     <!-- http://purl.obolibrary.org/obo/inheres_in -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/inheres_in">
-        <rdfs:label xml:lang="en">inheres_in</rdfs:label>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/inheres_in"/>
     
 
 
@@ -367,17 +359,13 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0007619 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007619">
-        <oboInOwl:hasExactSynonym xml:lang="en">courtship</oboInOwl:hasExactSynonym>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007619"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/GO_0007620 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007620">
-        <oboInOwl:hasExactSynonym xml:lang="en">copulate</oboInOwl:hasExactSynonym>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007620"/>
     
 
 
@@ -395,9 +383,7 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0007626 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007626">
-        <oboInOwl:hasExactSynonym xml:lang="en">locomotion</oboInOwl:hasExactSynonym>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007626"/>
     
 
 
@@ -517,9 +503,7 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0045297 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045297">
-        <oboInOwl:hasExactSynonym xml:lang="en">post-copulatory behavior</oboInOwl:hasExactSynonym>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0045297"/>
     
 
 
@@ -5643,7 +5627,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000317"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_00000050"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0050957"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -7620,7 +7604,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_00000050"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000013"/>
             </owl:Restriction>
         </rdfs:subClassOf>

@@ -1,22 +1,15 @@
-language: java
-jdk:
-  - oraclejdk8
+## REMEMBER TO SET UP YOUR GITHUB REPO FOR TRAVIS
+## Go to: https://travis-ci.org/obo-behavior for details
+sudo: required
 
-before_script:
-  - mkdir -p bin
-  - export PATH=$PATH:$PWD/bin
-  - wget http://build.berkeleybop.org/userContent/owltools/owltools -O bin/owltools
-  - wget http://build.berkeleybop.org/userContent/owltools/ontology-release-runner -O bin/ontology-release-runner
-  - wget http://build.berkeleybop.org/userContent/owltools/owltools-runner-all.jar -O bin/owltools-runner-all.jar
-  - wget http://build.berkeleybop.org/userContent/owltools/owltools-oort-all.jar -O bin/owltools-oort-all.jar
-  - wget https://raw.githubusercontent.com/ontodev/robot/master/bin/robot -O bin/robot
-  - wget https://github.com/ontodev/robot/releases/download/v1.3.0/robot.jar -O bin/robot.jar
-  - chmod +x bin/*
-  - cd src/ontology
+services:
+  - docker
+
+before_install:
+  - docker pull obolibrary/odkfull
 
 # command to run tests
-# https://github.com/INCATools/ontology-starter-kit/issues/25
-script: bash -c "make test"
+script: cd src/ontology && make travis
 
 #after_success:
 #  coveralls
@@ -25,8 +18,11 @@ script: bash -c "make test"
 branches:
   only:
     - master
+    - test-travis
 
+### Add your own lists here
+### See https://github.com/INCATools/ontology-development-kit/issues/35
 notifications:
   email:
     - lxs511@bham.ac.uk
-
+    - obo-ci-reports-all@groups.io

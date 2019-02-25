@@ -1,7 +1,851 @@
 format-version: 1.2
+data-version: nbo/releases/2019-02-18/imports/pato_import.owl
 ontology: nbo/imports/pato_import
 
+[Term]
+id: PATO:0000001
+name: quality
+namespace: quality
+alt_id: PATO:0000072
+def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" [PATOC:GVG]
+synonym: "trait" EXACT []
+
+[Term]
+id: PATO:0000014
+name: color
+namespace: quality
+alt_id: PATO:0000020
+def: "A composite chromatic quality composed of hue, saturation and intensity parts." [PATOC:GVG]
+subset: attribute_slim
+synonym: "colour" EXACT []
+synonym: "relative color" EXACT []
+is_a: PATO:0001300 ! optical quality
+
+[Term]
+id: PATO:0000040
+name: distance
+namespace: quality
+def: "A quality that is the extent of space between two entities." [PATOC:GVG]
+subset: attribute_slim
+subset: relational_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0000044
+name: frequency
+namespace: quality
+def: "A physical quality which inheres in a bearer by virtue of the number of the bearer's repetitive actions in a particular time." [Wikipedia:http\://en.wikipedia.org/wiki/frequency]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0000161 ! rate
+
+[Term]
+id: PATO:0000051
+name: morphology
+namespace: quality
+def: "A quality of a single physical entity inhering in the bearer by virtue of the bearer's size or shape or structure." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0000052
+name: shape
+namespace: quality
+alt_id: PATO:0001647
+def: "A morphological quality inhering in a bearer by virtue of the bearer's ratios of distances between its features (points, edges, surfaces and also holes etc)." [PATOC:GVG]
+comment: Shapes are invariant on size transformations. Shapes can be subdivided into 2D and 3D shapes, We can also make a distinction between shapes of complete self-connected objects, and shapes of parts of objects.
+subset: attribute_slim
+synonym: "relational shape quality" EXACT []
+is_a: PATO:0000051 ! morphology
+
+[Term]
+id: PATO:0000068
+name: qualitative
+namespace: quality
+comment: TODO: define this or obsolete it and move children somewhere else.
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0000069
+name: deviation(from_normal)
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the whether the bearer differs from normal or average." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0000068 ! qualitative
+
+[Term]
+id: PATO:0000117
+name: size
+namespace: quality
+def: "A morphology quality inhering in a bearer by virtue of the bearer's physical magnitude." [WordNet:WordNet]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0000051 ! morphology
+
+[Term]
+id: PATO:0000125
+name: mass
+namespace: quality
+def: "A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter." [PATOC:GVG]
+subset: attribute_slim
+subset: relational_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0000146
+name: temperature
+namespace: quality
+def: "A physical quality of the thermal energy of a system." [PATOC:GVG]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0000161
+name: rate
+namespace: quality
+def: "A quality of a single process inhering in a bearer by virtue of the bearer's occurrence per unit time." [PATOC:melissa]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0002062 ! physical quality of a process
+
+[Term]
+id: PATO:0000186
+name: behavioral quality
+namespace: quality
+alt_id: PATO:0001722
+def: "An organismal quality inhering in a bearer by virtue of the bearer's behavior aggregate of the responses or reactions or movements in a given situation." [PATOC:GVG]
+synonym: "behavioural quality" EXACT []
+is_a: PATO:0001995 ! organismal quality
+
+[Term]
+id: PATO:0000188
+name: coordination
+namespace: quality
+def: "A behavioral quality inhering in a bearer by virtue of the bearer's having or lacking skillful and effective interaction of movement." [PATOC:GVG]
+subset: attribute_slim
+subset: disposition_slim
+subset: scalar_slim
+is_a: PATO:0000186 ! behavioral quality
+
+[Term]
+id: PATO:0000374
+name: increased distance
+namespace: quality
+def: "A distance which is greater relative to the normal or average." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+synonym: "long distance" RELATED []
+is_a: PATO:0000040 ! distance
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000040 ! distance
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000375 ! decreased distance
+
+[Term]
+id: PATO:0000375
+name: decreased distance
+namespace: quality
+def: "A distance which is lesser relative to the normal or average." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+synonym: "short distance" RELATED []
+is_a: PATO:0000040 ! distance
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000040 ! distance
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000374 ! increased distance
+
+[Term]
+id: PATO:0000380
+name: increased frequency
+namespace: quality
+def: "A frequency which is relatively high." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "frequent" RELATED []
+synonym: "high frequency" EXACT []
+is_a: PATO:0000044 ! frequency
+is_a: PATO:0000912 ! increased rate
+intersection_of: PATO:0000044 ! frequency
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000381 ! decreased frequency
+
+[Term]
+id: PATO:0000381
+name: decreased frequency
+namespace: quality
+def: "A frequency which is relatively low." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "infrequent" RELATED []
+synonym: "low frequency" EXACT []
+is_a: PATO:0000044 ! frequency
+is_a: PATO:0000911 ! decreased rate
+intersection_of: PATO:0000044 ! frequency
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000380 ! increased frequency
+
+[Term]
+id: PATO:0000389
+name: acute
+namespace: quality
+def: "A quality of a process inhering in a bearer by virtue of the bearer's having a sudden onset, sharp rise, and short course." [dictionary:reference]
+subset: hpo_slim
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001309 ! duration
+relationship: is_opposite_of PATO:0001863 ! chronic
+
+[Term]
+id: PATO:0000460
+name: abnormal
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the bearer's deviation from normal or average." [PATOC:GVG]
+subset: abnormal_slim
+subset: mpath_slim
+subset: value_slim
+synonym: "aberrant" RELATED []
+synonym: "atypia" RELATED []
+synonym: "atypical" RELATED []
+synonym: "defective" RELATED []
+is_a: PATO:0000069 ! deviation(from_normal)
+relationship: is_opposite_of PATO:0000461 ! normal
+
+[Term]
+id: PATO:0000461
+name: normal
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the bearer's exhibiting no deviation from normal or average." [PATOC:GVG]
+subset: abnormal_slim
+subset: mpath_slim
+subset: value_slim
+synonym: "average" RELATED []
+is_a: PATO:0000069 ! deviation(from_normal)
+relationship: is_opposite_of PATO:0000460 ! abnormal
+
+[Term]
+id: PATO:0000498
+name: increased duration
+namespace: quality
+alt_id: PATO:0000715
+def: "A duration quality of a process which is relatively high." [PATOC:GVG]
+subset: value_slim
+synonym: "chronic" RELATED []
+synonym: "high time" EXACT []
+synonym: "increased period" EXACT []
+synonym: "increased time" EXACT []
+synonym: "prolonged period" RELATED []
+synonym: "slow time" RELATED []
+is_a: PATO:0001309 ! duration
+is_a: PATO:0002304 ! increased process quality
+intersection_of: PATO:0001309 ! duration
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000499 ! decreased duration
+
+[Term]
+id: PATO:0000499
+name: decreased duration
+namespace: quality
+alt_id: PATO:0000716
+def: "A duration quality of a process which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "decreased period" EXACT []
+synonym: "decreased time" EXACT []
+synonym: "fast time" RELATED []
+synonym: "low period" EXACT []
+synonym: "shortened period" EXACT []
+is_a: PATO:0001309 ! duration
+is_a: PATO:0002302 ! decreased process quality
+intersection_of: PATO:0001309 ! duration
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000498 ! increased duration
+
+[Term]
+id: PATO:0000586
+name: increased size
+namespace: quality
+alt_id: PATO:0001202
+def: "A size quality which is relatively high." [PATOC:GVG]
+subset: value_slim
+synonym: "big" RELATED []
+synonym: "enlarged" RELATED []
+synonym: "expanded" RELATED []
+synonym: "great" RELATED []
+synonym: "large" RELATED []
+is_a: PATO:0000117 ! size
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000117 ! size
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000587 ! decreased size
+
+[Term]
+id: PATO:0000587
+name: decreased size
+namespace: quality
+def: "A size quality which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "hypoplasia" NARROW []
+synonym: "reduced" RELATED []
+synonym: "small" RELATED []
+synonym: "tiny" RELATED []
+synonym: "underdeveloped" NARROW []
+is_a: PATO:0000117 ! size
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000117 ! size
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000586 ! increased size
+
+[Term]
+id: PATO:0000769
+name: coordinated
+namespace: quality
+def: "A coordination quality of inhering in a bearer by virtue of the bearer's having skillful and effective interaction of movement." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+is_a: PATO:0000188 ! coordination
+disjoint_from: PATO:0000770 ! uncoordinated
+relationship: is_opposite_of PATO:0000770 ! uncoordinated
+
+[Term]
+id: PATO:0000770
+name: uncoordinated
+namespace: quality
+def: "A coordination quality of inhering in a bearer by virtue of the bearer's lacking skillful and effective interaction of movement." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+is_a: PATO:0000188 ! coordination
+relationship: is_opposite_of PATO:0000769 ! coordinated
+
+[Term]
+id: PATO:0000911
+name: decreased rate
+namespace: quality
+def: "A rate which is relatively low." [PATO:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "slow rate" EXACT []
+is_a: PATO:0000161 ! rate
+is_a: PATO:0002302 ! decreased process quality
+intersection_of: PATO:0000161 ! rate
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000912 ! increased rate
+
+[Term]
+id: PATO:0000912
+name: increased rate
+namespace: quality
+def: "A rate which is relatively high." [PATO:GVG]
+subset: mpath_slim
+subset: value_slim
+synonym: "fast rate" EXACT []
+synonym: "high rate" EXACT []
+is_a: PATO:0000161 ! rate
+is_a: PATO:0002304 ! increased process quality
+intersection_of: PATO:0000161 ! rate
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000911 ! decreased rate
+
+[Term]
+id: PATO:0001018
+name: physical quality
+namespace: quality
+alt_id: PATO:0002079
+def: "A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities." [PATOC:GVG]
+subset: attribute_slim
+synonym: "relational physical quality" EXACT []
+xref: Wikipedia:Physical_property
+is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0001236
+name: process quality
+namespace: quality
+alt_id: PATO:0001239
+alt_id: PATO:0001240
+def: "A quality which inheres in an process." [PATOC:GVG]
+comment: See comments of relational quality of a physical entity.
+synonym: "quality of a process" EXACT []
+synonym: "quality of occurrent" EXACT []
+synonym: "quality of process" EXACT []
+synonym: "relational quality of occurrent" EXACT []
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0001241
+name: physical object quality
+namespace: quality
+alt_id: PATO:0001237
+alt_id: PATO:0001238
+def: "A quality which inheres in a continuant." [PATOC:GVG]
+comment: Relational qualities are qualities that hold between multiple entities. Normal (monadic) qualities such as the shape of a eyeball exist purely as a quality of that eyeball. A relational quality such as sensitivity to light is a quality of that eyeball (and connecting nervous system) as it relates to incoming light waves/particles.
+synonym: "monadic quality of a continuant" EXACT []
+synonym: "monadic quality of an object" NARROW []
+synonym: "monadic quality of continuant" NARROW []
+synonym: "multiply inhering quality of a physical entity" EXACT []
+synonym: "quality of a continuant" EXACT []
+synonym: "quality of a single physical entity" EXACT []
+synonym: "quality of an object" EXACT []
+synonym: "quality of continuant" EXACT []
+xref: snap:Quality
+is_a: PATO:0000001 ! quality
+
+[Term]
+id: PATO:0001291
+name: electromagnetic (EM) radiation quality
+namespace: quality
+def: "A physical quality that inheres in an bearer by virtue of how that bearer interacts with electromagnetic radiation." [Wikipedia:http\://en.wikipedia.org/wiki/Electromagnetic_radiation]
+subset: attribute_slim
+is_a: PATO:0001739 ! radiation quality
+
+[Term]
+id: PATO:0001300
+name: optical quality
+namespace: quality
+def: "An EM radiation quality in which the EM radiation is within the fiat range of the spectrum visible deemed to be light." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001291 ! electromagnetic (EM) radiation quality
+
+[Term]
+id: PATO:0001305
+name: increased temperature
+namespace: quality
+alt_id: PATO:0000678
+def: "A temperature which is relatively high." [PATOC:GVG]
+subset: value_slim
+synonym: "high temperature" EXACT []
+synonym: "hot" EXACT []
+is_a: PATO:0000146 ! temperature
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000146 ! temperature
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001306 ! decreased temperature
+
+[Term]
+id: PATO:0001306
+name: decreased temperature
+namespace: quality
+alt_id: PATO:0000677
+def: "A temperature which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "cold" EXACT []
+synonym: "low temperature" EXACT []
+is_a: PATO:0000146 ! temperature
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000146 ! temperature
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001305 ! increased temperature
+
+[Term]
+id: PATO:0001309
+name: duration
+namespace: quality
+alt_id: PATO:0000081
+def: "A process quality inhering in a bearer by virtue of the bearer's magnitude of the temporal extent between the starting and ending point." [PATOC:mellybelly]
+subset: attribute_slim
+subset: hpo_slim
+synonym: "period" EXACT []
+synonym: "time" RELATED []
+is_a: PATO:0002062 ! physical quality of a process
+
+[Term]
+id: PATO:0001333
+name: temporally extended
+namespace: quality
+def: "A quality of a process which ends later than the natural end time." [PATOC:melissa]
+subset: value_slim
+is_a: PATO:0002304 ! increased process quality
+is_a: PATO:0002324 ! offset quality
+
+[Term]
+id: PATO:0001472
+name: decreased depth
+namespace: quality
+alt_id: PATO:0001692
+def: "A depth which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "low depth" EXACT []
+synonym: "shallow" EXACT []
+is_a: PATO:0000587 ! decreased size
+is_a: PATO:0001595 ! depth
+intersection_of: PATO:0001595 ! depth
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001596 ! increased depth
+
+[Term]
+id: PATO:0001548
+name: quality of a liquid
+namespace: quality
+def: "A physical quality inhering in an entity exhibiting the physical characteristics of an amorphous (non-crystalline) form of matter between a gas and a solid that has a definite volume, but no definite shape." [url:http\://www.chemistry-dictionary.com/definition/liquid.php]
+subset: attribute_slim
+synonym: "liquidity" EXACT []
+is_a: PATO:0002198 ! quality of a substance
+
+[Term]
+id: PATO:0001558
+name: lacking processual parts
+namespace: quality
+def: "A quality of a process inhering in a bearer by virtue of the bearer's lacking a processual part as specified by the additional entity." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0001564 ! extra or missing processual parts
+
+[Term]
+id: PATO:0001562
+name: decreased mass
+namespace: quality
+alt_id: PATO:0000579
+def: "A mass which is lower than normal or average." [PATO:GVG]
+subset: value_slim
+synonym: "low mass" EXACT []
+synonym: "small mass" EXACT []
+is_a: PATO:0000125 ! mass
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000125 ! mass
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001563 ! increased mass
+
+[Term]
+id: PATO:0001563
+name: increased mass
+namespace: quality
+alt_id: PATO:0000578
+def: "A mass which is higher than normal or average." [PATO:GVG]
+subset: value_slim
+synonym: "high mass" EXACT []
+synonym: "large mass" EXACT []
+is_a: PATO:0000125 ! mass
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000125 ! mass
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001562 ! decreased mass
+
+[Term]
+id: PATO:0001564
+name: extra or missing processual parts
+namespace: quality
+def: "A quality of a process inhering in a bearer by virtue of the bearer's processual parts." [PATOC:GVG]
+subset: relational_slim
+is_a: PATO:0001236 ! process quality
+
+[Term]
+id: PATO:0001595
+name: depth
+namespace: quality
+def: "A 1-D extent quality inhering in a bearer by virtue of the bearer's downward or backward or inward dimenision." [WordNet:WordNet]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0001708 ! 1-D extent
+
+[Term]
+id: PATO:0001596
+name: increased depth
+namespace: quality
+alt_id: PATO:0001666
+def: "A depth quality which is relatively high." [PATO:GVG]
+subset: value_slim
+synonym: "deep" EXACT []
+is_a: PATO:0000586 ! increased size
+is_a: PATO:0001595 ! depth
+intersection_of: PATO:0001595 ! depth
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001472 ! decreased depth
+
+[Term]
+id: PATO:0001708
+name: 1-D extent
+namespace: quality
+def: "A size quality inhering in an bearer by virtue of the bearer's extension in one dimension." [PATOC:GVG]
+subset: attribute_slim
+synonym: "1-D size" EXACT []
+is_a: PATO:0000117 ! size
+
+[Term]
+id: PATO:0001727
+name: disposition
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the bearer's prevailing tendency, mood, or inclination." [Merriam-Webster:Merriam-Webster]
+subset: attribute_slim
+subset: disposition_slim
+subset: relational_slim
+synonym: "tendency" RELATED []
+is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0001739
+name: radiation quality
+namespace: quality
+def: "A quality that inheres in an bearer by virtue of how that bearer interacts with radiation." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0001859
+name: increased coordination
+namespace: quality
+def: "A coordination which is relatively high." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+synonym: "high coordination" EXACT []
+is_a: PATO:0000769 ! coordinated
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0000769 ! coordinated
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001860 ! decreased coordination
+
+[Term]
+id: PATO:0001860
+name: decreased coordination
+namespace: quality
+def: "A coordination which is relatively low." [PATOC:GVG]
+subset: disposition_slim
+subset: value_slim
+synonym: "low coordination" EXACT []
+is_a: PATO:0000769 ! coordinated
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0000769 ! coordinated
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001859 ! increased coordination
+
+[Term]
+id: PATO:0001863
+name: chronic
+namespace: quality
+def: "A duration quality of a process inhering in a bearer by virtue of the bearer's having slow progressive course of indefinite duration." [PATOC:cjm]
+subset: hpo_slim
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001309 ! duration
+relationship: is_opposite_of PATO:0000389 ! acute
+
+[Term]
+id: PATO:0001995
+name: organismal quality
+namespace: quality
+def: "A quality that inheres in an entire organism or part of an organism." [PATOC:CJM]
+is_a: PATO:0001241 ! physical object quality
+
+[Term]
+id: PATO:0002062
+name: physical quality of a process
+namespace: quality
+subset: attribute_slim
+is_a: PATO:0001236 ! process quality
+created_by: george
+creation_date: 2009-06-05T09:16:46Z
+
+[Term]
+id: PATO:0002198
+name: quality of a substance
+namespace: quality
+def: "A quality inhering in a bearer by virtue of its constitution." [PATOC:GVG]
+subset: attribute_slim
+is_a: PATO:0001018 ! physical quality
+created_by: George Gkoutos
+creation_date: 2010-03-15T04:35:27Z
+
+[Term]
+id: PATO:0002300
+name: increased quality
+namespace: quality
+def: "A quality that has a value that is increased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0000069 ! deviation(from_normal)
+intersection_of: PATO:0000001 ! quality
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002301 ! decreased quality
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:39:43Z
+
+[Term]
+id: PATO:0002301
+name: decreased quality
+namespace: quality
+def: "A quality that has a value that is decreased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0000069 ! deviation(from_normal)
+intersection_of: PATO:0000001 ! quality
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002300 ! increased quality
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:40:15Z
+
+[Term]
+id: PATO:0002302
+name: decreased process quality
+namespace: quality
+def: "A quality of a process that has a value that is decreased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0001236 ! process quality
+is_a: PATO:0002301 ! decreased quality
+intersection_of: PATO:0001236 ! process quality
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002304 ! increased process quality
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:50:59Z
+
+[Term]
+id: PATO:0002303
+name: decreased object quality
+namespace: quality
+def: "A quality of an object that has a value that is decreased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0001241 ! physical object quality
+is_a: PATO:0002301 ! decreased quality
+intersection_of: PATO:0001241 ! physical object quality
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002305 ! increased object quality
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:51:54Z
+
+[Term]
+id: PATO:0002304
+name: increased process quality
+namespace: quality
+def: "A quality of a process that has a value that is increased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0001236 ! process quality
+is_a: PATO:0002300 ! increased quality
+intersection_of: PATO:0001236 ! process quality
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002302 ! decreased process quality
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:53:08Z
+
+[Term]
+id: PATO:0002305
+name: increased object quality
+namespace: quality
+def: "A quality of an object that has a value that is increased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0001241 ! physical object quality
+is_a: PATO:0002300 ! increased quality
+intersection_of: PATO:0001241 ! physical object quality
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002303 ! decreased object quality
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:54:01Z
+
+[Term]
+id: PATO:0002323
+name: temporal distribution quality
+namespace: quality
+def: "A temporal distribution pattern of process occurrences within a regulation/reference process." [PATOC:LC]
+subset: attribute_slim
+is_a: PATO:0002062 ! physical quality of a process
+created_by: George Gkoutos
+creation_date: 2011-11-22T01:12:28Z
+
+[Term]
+id: PATO:0002324
+name: offset quality
+namespace: quality
+def: "The temporal relation between the end of the process with respect to a reference process." [PATOC:LC]
+subset: attribute_slim
+synonym: "completeness" RELATED [GOC:CJM]
+synonym: "extent" RELATED [GOC:CJM]
+is_a: PATO:0002323 ! temporal distribution quality
+created_by: George Gkoutos
+creation_date: 2011-11-23T11:46:00Z
+
+[Term]
+id: PATO:0002360
+name: tendency
+namespace: quality
+def: "A disposition that can be compared on a linear scale - that is that it can be increased or decreased." [PATOC:RH]
+subset: attribute_slim
+subset: disposition_slim
+subset: relational_slim
+is_a: PATO:0001727 ! disposition
+created_by: gkoutos
+creation_date: 2012-03-16T06:31:50Z
+
+[Term]
+id: PATO:0002361
+name: increased tendency
+namespace: quality
+def: "A tendency which is relatively high." [PATOC:GVG]
+subset: disposition_slim
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0002305 ! increased object quality
+is_a: PATO:0002360 ! tendency
+intersection_of: PATO:0002360 ! tendency
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002362 ! decreased tendency
+created_by: gkoutos
+creation_date: 2012-03-16T06:31:57Z
+
+[Term]
+id: PATO:0002362
+name: decreased tendency
+namespace: quality
+def: "A tendency which is relatively low." [PATOC:GVG]
+subset: disposition_slim
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0002303 ! decreased object quality
+is_a: PATO:0002360 ! tendency
+intersection_of: PATO:0002360 ! tendency
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002361 ! increased tendency
+created_by: gkoutos
+creation_date: 2012-03-16T06:32:57Z
+
 [Typedef]
-id: BFO:0000050
+id: decreased_in_magnitude_relative_to
+name: decreased_in_magnitude_relative_to
+namespace: quality
+def: "q1 decreased_in_magnitude_relative_to q2 if and only if magnitude(q1) < magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale." [PATOC:CJM]
+comment: This relation is used to determine the 'directionality' of relative qualities such as 'decreased strength', relative to the parent type, 'strength'.
+domain: PATO:0000001 ! quality
+range: PATO:0000001 ! quality
 is_transitive: true
+is_a: different_in_magnitude_relative_to ! different_in_magnitude_relative_to
+
+[Typedef]
+id: different_in_magnitude_relative_to
+name: different_in_magnitude_relative_to
+namespace: quality
+def: "q1 different_in_magnitude_relative_to q2 if and only if magnitude(q1) NOT =~ magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale." [PATOC:CJM]
+domain: PATO:0000001 ! quality
+range: PATO:0000001 ! quality
+
+[Typedef]
+id: has_part
+name: has_part
+namespace: quality
+def: "Q1 has_part Q2 if and only if: every instance of Q1 is a quality_of an entity that has_quality some Q2." [PATOC:CJM]
+comment: We use the has_part relation to relate complex qualities to more primitive ones. A complex quality is a collection of qualities. The complex quality cannot exist without the sub-qualities. For example, the quality 'swollen' necessarily comes with the qualities of 'protruding' and 'increased size'.
+xref: BFO:0000051
+
+[Typedef]
+id: increased_in_magnitude_relative_to
+name: increased_in_magnitude_relative_to
+namespace: quality
+def: "q1 increased_in_magnitude_relative_to q2 if and only if magnitude(q1) > magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale." [PATOC:CJM]
+comment: This relation is used to determine the 'directionality' of relative qualities such as 'increased strength', relative to the parent type, 'strength'.
+domain: PATO:0000001 ! quality
+range: PATO:0000001 ! quality
+is_transitive: true
+is_a: different_in_magnitude_relative_to ! different_in_magnitude_relative_to
+
+[Typedef]
+id: is_opposite_of
+name: is opposite of
+namespace: quality
+xref: RO:0002604
+is_metadata_tag: true
+is_class_level: true
+
+[Typedef]
+id: part_of
+name: part_of
+namespace: quality
+xref: BFO:0000050
+is_transitive: true
+
+[Typedef]
+id: towards
+name: towards
+namespace: quality
+comment: Relation binding a relational quality or disposition to the relevant type of entity.
 

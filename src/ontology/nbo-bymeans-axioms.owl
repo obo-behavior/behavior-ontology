@@ -1,0 +1,18 @@
+Prefix(:=<http://purl.obolibrary.org/obo/nbo-bymeans-axioms.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+
+
+
+Ontology(<http://purl.obolibrary.org/obo/nbo-bymeans-axioms.owl>
+EquivalentClasses(obo:GO_0007601 ObjectIntersectionOf(obo:GO_0050953 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#by_means> obo:UBERON_0002104)))
+SubClassOf(obo:GO_0007601 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#by_means> obo:UBERON_0002104))
+SubClassOf(obo:GO_0007606 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#by_means> obo:UBERON_0005726))
+SubClassOf(obo:GO_0007608 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#by_means> obo:UBERON_0005725))
+SubClassOf(obo:GO_0050881 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#by_means> obo:UBERON_0002204))
+SubClassOf(obo:GO_0050909 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#by_means> obo:UBERON_0001033))
+)

@@ -15356,6 +15356,53 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://www.purl.obolibrary.org/obo/NBO_0015000 -->
+
+    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0015000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000089"/>
+        <obo:IAO_0000115>A predator behavior involving a surprise attack on unsuspecting prey. The predator remains in one place and waits for prey to come near. The predator conceals itself and then subdues its prey with its own body or body parts.</obo:IAO_0000115>
+        <created_by>Nicolas Matentzoglu</created_by>
+        <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+        <dc:date>2019-03-11T13:51:02Z</dc:date>
+        <rdfs:label xml:lang="en">ambush behavior</rdfs:label>
+    </owl:Class>
+    <rdf:Description>
+        <synonymtype>EXACT</synonymtype>
+      </rdf:Description>
+      
+
+
+    <!-- http://www.purl.obolibrary.org/obo/NBO_0015001 -->
+
+    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0015001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000635"/>
+        <obo:IAO_0000115>An avoidance behavior engaged in by prey that reduces the success of a predator without the prey actually attacking the predator.</obo:IAO_0000115>
+        <created_by>Nicolas Matentzoglu</created_by>
+        <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+        <dc:date>2019-03-11T13:51:02Z</dc:date>
+        <rdfs:label xml:lang="en">predator avoidance behavior</rdfs:label>
+    </owl:Class>
+    <rdf:Description>
+        <synonymtype>EXACT</synonymtype>
+      </rdf:Description>
+      
+
+
+    <!-- http://www.purl.obolibrary.org/obo/NBO_0015002 -->
+
+    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0015002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000089"/>
+        <obo:IAO_0000115>A predator behavior involving subduing prey using a structure or modification of the environment created by the predator for that purpose.</obo:IAO_0000115>
+        <created_by>Nicolas Matentzoglu</created_by>
+        <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+        <dc:date>2019-03-11T13:51:02Z</dc:date>
+        <rdfs:label xml:lang="en">trapping behavior</rdfs:label>
+    </owl:Class>
+    <rdf:Description>
+        <synonymtype>EXACT</synonymtype>
+    </rdf:Description>
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: nbo/releases/2019-02-18/imports/go_import.owl
+data-version: nbo/releases/2019-08-05/imports/go_import.owl
 ontology: nbo/imports/go_import
 
 [Term]
@@ -121,7 +121,7 @@ name: binding
 namespace: molecular_function
 def: "The selective, non-covalent, often stoichiometric, interaction of a molecule with one or more specific sites on another molecule." [GOC:ceb, GOC:mah, ISBN:0198506732]
 comment: Note that this term is in the subset of terms that should not be used for direct, manual gene product annotation. Please choose a more specific child term, or request a new one if no suitable term is available. For ligands that bind to signal transducing receptors, consider the molecular function term 'receptor binding ; GO:0005102' and its children.
-subset: gocheck_do_not_manually_annotate
+subset: gocheck_do_not_annotate
 subset: goslim_pir
 subset: goslim_plant
 synonym: "ligand" NARROW []
@@ -143,12 +143,10 @@ subset: goslim_pir
 subset: goslim_plant
 synonym: "glycoprotein binding" NARROW []
 synonym: "protein amino acid binding" EXACT []
-xref: reactome:R-HSA-170835 "An anchoring protein, ZFYVE9 (SARA), recruits SMAD2/3"
-xref: reactome:R-HSA-170846 "TGFBR2 recruits TGFBR1"
-xref: reactome:R-HSA-3645786 "TGFBR2 mutant dimers recruit TGFBR1"
-xref: reactome:R-HSA-3656484 "TGFBR2 recruits TGFBR1 KD Mutants"
-xref: reactome:R-HSA-3702153 "An anchoring protein, ZFYVE9 (SARA), recruits SMAD2/3 MH2 domain mutants"
-xref: reactome:R-HSA-3713560 "An anchoring protein, ZFYVE9 (SARA), recruits SMAD2/3 phosphorylation motif mutants"
+xref: MIPS_funcat:16.01
+xref: MIPS_funcat:18.01.07
+xref: Reactome:R-HSA-170835 "An anchoring protein, ZFYVE9 (SARA), recruits SMAD2/3"
+xref: Reactome:R-HSA-170846 "TGFBR2 recruits TGFBR1"
 is_a: GO:0005488 ! binding
 
 [Term]
@@ -167,6 +165,7 @@ namespace: biological_process
 def: "The chemical reactions and pathways involving the phosphate group, the anion or salt of any phosphoric acid." [GOC:ai]
 synonym: "phosphate metabolic process" RELATED []
 synonym: "phosphate metabolism" EXACT []
+xref: MIPS_funcat:01.04
 is_a: GO:0006793 ! phosphorus metabolic process
 
 [Term]
@@ -189,6 +188,7 @@ subset: goslim_plant
 synonym: "single-organism transport" RELATED []
 synonym: "small molecule transport" NARROW []
 synonym: "solute:solute exchange" NARROW []
+xref: MIPS_funcat:20
 is_a: GO:0051234 ! establishment of localization
 created_by: janelomax
 creation_date: 2012-12-13T16:25:32Z
@@ -208,6 +208,7 @@ subset: goslim_metagenomics
 subset: goslim_plant
 synonym: "response to abiotic stress" RELATED []
 synonym: "response to biotic stress" RELATED []
+xref: MIPS_funcat:32.01
 is_a: GO:0050896 ! response to stimulus
 
 [Term]
@@ -237,6 +238,7 @@ synonym: "signaling cascade" NARROW []
 synonym: "signaling pathway" RELATED []
 synonym: "signalling cascade" NARROW []
 synonym: "signalling pathway" RELATED [GOC:mah]
+xref: MIPS_funcat:30
 xref: Wikipedia:Signal_transduction
 is_a: GO:0009987 ! cellular process
 is_a: GO:0050794 ! regulation of cellular process
@@ -250,6 +252,7 @@ name: excretion
 namespace: biological_process
 def: "The elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds." [ISBN:0192801023]
 subset: goslim_pir
+xref: MIPS_funcat:36.05
 xref: Wikipedia:Excretion
 is_a: GO:0003008 ! system process
 
@@ -277,6 +280,8 @@ def: "The series of events required for an organism to receive a visual stimulus
 synonym: "sense of sight" EXACT []
 synonym: "sensory visual perception" EXACT []
 synonym: "vision" EXACT []
+xref: MIPS_funcat:34.11.01.03
+xref: MIPS_funcat:36.25.01.01
 xref: Wikipedia:Visual_perception
 is_a: GO:0050953 ! sensory perception of light stimulus
 
@@ -287,6 +292,7 @@ namespace: biological_process
 def: "The series of events required for an organism to receive an auditory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Sonic stimuli are detected in the form of vibrations and are processed to form a sound." [GOC:ai]
 synonym: "hearing" EXACT []
 synonym: "perception of sound" EXACT []
+xref: MIPS_funcat:36.25.01.03
 xref: Wikipedia:Hearing_(sense)
 is_a: GO:0050954 ! sensory perception of mechanical stimulus
 
@@ -307,6 +313,7 @@ synonym: "olfaction" EXACT []
 synonym: "scent perception" EXACT []
 synonym: "sense of smell" EXACT []
 synonym: "smell perception" EXACT []
+xref: MIPS_funcat:36.25.01.13
 xref: Wikipedia:Olfaction
 is_a: GO:0007606 ! sensory perception of chemical stimulus
 
@@ -381,6 +388,7 @@ name: circadian rhythm
 namespace: biological_process
 alt_id: GO:0050895
 def: "Any biological process in an organism that recurs with a regularity of approximately 24 hours." [GOC:bf, GOC:go_curators]
+subset: goslim_plant
 synonym: "circadian process" EXACT []
 synonym: "circadian response" RELATED []
 synonym: "response to circadian rhythm" RELATED []
@@ -426,6 +434,7 @@ synonym: "behavioural response to food" EXACT []
 synonym: "drinking" NARROW []
 synonym: "eating" NARROW []
 synonym: "feeding behaviour" EXACT []
+xref: MIPS_funcat:36.03
 xref: Wikipedia:List_of_feeding_behaviours
 is_a: GO:0007610 ! behavior
 
@@ -526,6 +535,7 @@ synonym: "metabolism" EXACT []
 synonym: "metabolism resulting in cell growth" NARROW []
 synonym: "multicellular organism metabolic process" NARROW []
 synonym: "single-organism metabolic process" RELATED []
+xref: MIPS_funcat:01
 xref: Wikipedia:Metabolism
 is_a: GO:0008150 ! biological_process
 created_by: janelomax
@@ -547,6 +557,7 @@ name: response to temperature stimulus
 namespace: biological_process
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a temperature stimulus." [GOC:hb]
 synonym: "response to thermal stimulus" EXACT []
+xref: MIPS_funcat:34.11.09
 is_a: GO:0009628 ! response to abiotic stimulus
 
 [Term]
@@ -557,6 +568,7 @@ def: "Any process that results in a change in state or activity of a cell or an 
 comment: Note that 'radiation' refers to electromagnetic radiation of any wavelength.
 synonym: "response to electromagnetic radiation stimulus" EXACT []
 synonym: "response to radiation stimulus" EXACT []
+xref: MIPS_funcat:32.01.13
 is_a: GO:0009628 ! response to abiotic stimulus
 
 [Term]
@@ -577,6 +589,7 @@ name: response to water
 namespace: biological_process
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a stimulus reflecting the presence, absence, or concentration of water." [GOC:jl]
 synonym: "response to water stimulus" EXACT [GOC:dos]
+xref: MIPS_funcat:36.20.35.09.01
 is_a: GO:0001101 ! response to acid chemical
 is_a: GO:0009628 ! response to abiotic stimulus
 is_a: GO:0010035 ! response to inorganic substance
@@ -587,6 +600,10 @@ id: GO:0009416
 name: response to light stimulus
 namespace: biological_process
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light." [GOC:go_curators, ISBN:0582227089]
+subset: goslim_plant
+xref: MIPS_funcat:34.11.01
+xref: MIPS_funcat:34.11.01.01
+xref: MIPS_funcat:36.20.35.11
 is_a: GO:0009314 ! response to radiation
 
 [Term]
@@ -617,6 +634,7 @@ synonym: "chemoreception" RELATED []
 synonym: "detection of chemical substance" EXACT []
 synonym: "perception of chemical stimulus" RELATED []
 synonym: "perception of chemical substance" RELATED []
+xref: MIPS_funcat:34.11.03
 is_a: GO:0051606 ! detection of stimulus
 relationship: part_of GO:0042221 ! response to chemical
 
@@ -629,6 +647,7 @@ comment: Note that this term is in the subset of terms that should not be used f
 subset: gocheck_do_not_manually_annotate
 subset: goslim_plant
 synonym: "response to environmental stimulus" EXACT []
+xref: MIPS_funcat:36.20.35
 is_a: GO:0050896 ! response to stimulus
 
 [Term]
@@ -638,6 +657,8 @@ namespace: biological_process
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a mechanical stimulus." [GOC:hb]
 synonym: "chemi-mechanical coupling" RELATED []
 synonym: "mechanical stimulus response" EXACT []
+xref: MIPS_funcat:34.11.05
+xref: MIPS_funcat:36.20.35.15
 is_a: GO:0009605 ! response to external stimulus
 is_a: GO:0009628 ! response to abiotic stimulus
 
@@ -860,6 +881,7 @@ def: "The series of events in which a temperature stimulus (hot or cold) is rece
 synonym: "detection of temperature" EXACT []
 synonym: "detection of thermal stimulus" EXACT []
 synonym: "perception of temperature" RELATED []
+xref: MIPS_funcat:34.11.09
 is_a: GO:0009266 ! response to temperature stimulus
 is_a: GO:0009581 ! detection of external stimulus
 is_a: GO:0009582 ! detection of abiotic stimulus
@@ -876,79 +898,8 @@ subset: goslim_metagenomics
 subset: goslim_plant
 subset: goslim_yeast
 synonym: "phosphokinase activity" EXACT []
-xref: reactome:R-HSA-109822 "MAPK3,(MAPK1) phosphorylates GRB2-1:SOS1:p-Y427-SHC1"
-xref: reactome:R-HSA-109823 "MAPK3,(MAPK1) phosphorylates GRB2-1:SOS1:p-Y-IRS1,p-Y-IRS2"
-xref: reactome:R-HSA-111898 "Phosphorylation of cPLA2 by ERK-2"
-xref: reactome:R-HSA-112381 "Hyperphosphorylation (Ser2) of RNA Pol II CTD by P-TEFb complex"
-xref: reactome:R-HSA-139908 "Phosphorylation of DLC2 by MAPK8"
-xref: reactome:R-HSA-139918 "Phosphorylation of BIM by JNK"
-xref: reactome:R-HSA-165692 "Phosphorylation of 4E-BP1 by activated mTORC1"
-xref: reactome:R-HSA-165718 "mTORC1 phosphorylation of RPS6KB1 (S6K)"
-xref: reactome:R-HSA-165726 "Phosphorylation of Ribosomal protein S6 by activated S6K1"
-xref: reactome:R-HSA-165758 "Phosphorylation and inactivation of eEF2K by activated S6K1"
-xref: reactome:R-HSA-165766 "Phosphorylation and activation of eIF4G by activated S6K1"
-xref: reactome:R-HSA-165777 "Phosphorylation and activation of eIF4B by activated S6K1"
-xref: reactome:R-HSA-167084 "Hyperphosphorylation (Ser2) of RNA Pol II CTD by P-TEFb complex"
-xref: reactome:R-HSA-167098 "Phosphorylation (Ser5) of RNA pol II CTD"
-xref: reactome:R-HSA-167191 "Hyperphosphorylation (Ser2) of RNA Pol II CTD by the P-TEFb(Cyclin T1:Cdk9) complex"
-xref: reactome:R-HSA-170055 "Myt-1 mediated phosphorylation of Cyclin B:Cdc2 complexes"
-xref: reactome:R-HSA-170070 "Wee1-mediated phosphorylation of Cyclin B1:phospho-Cdc2 complexes"
-xref: reactome:R-HSA-170076 "CAK-mediated phosphorylation of Cyclin B1:Cdc2 complexes"
-xref: reactome:R-HSA-170087 "CAK-mediated phosphorylation of Cyclin A:Cdc2 complexes"
-xref: reactome:R-HSA-170116 "Myt-1 mediated phosphorylation of Cyclin A:Cdc2"
-xref: reactome:R-HSA-170126 "Phosphorylation of Cyclin B1 in the CRS domain"
-xref: reactome:R-HSA-170156 "Wee1-mediated phosphorylation of Cyclin A:phospho-Cdc2 complexes"
-xref: reactome:R-HSA-170704 "Phosphorylation of DSIF by the P-TEFb(Cyclin T1:Cdk9) complex"
-xref: reactome:R-HSA-170706 "Phosphorylation of  NEFL by the P-TEFb(Cyclin T1:Cdk9) complex"
-xref: reactome:R-HSA-174164 "Phosphorylation of Cyclin A:Cdk2 at Tyr 15"
-xref: reactome:R-HSA-1839091 "Cytosolic FGFR1 fusion protein-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-1839107 "BCR-FGFR1-associated PI3K phosphorylates PIP2 to PIP3."
-xref: reactome:R-HSA-1839110 "p-BCR-p-FGFR1 phosphorylates GAB2"
-xref: reactome:R-HSA-187949 "CAK-mediated phosphorylation of Cyclin A:Cdk2"
-xref: reactome:R-HSA-188350 "CAK-mediated phosphorylation of Cyclin E:Cdk2"
-xref: reactome:R-HSA-191636 "Phosphorylation of Cx43 by c-src"
-xref: reactome:R-HSA-195275 "Phosphorylation of APC component of the destruction complex"
-xref: reactome:R-HSA-195283 "Phosphorylation of phospho- (Ser45, Thr41) beta-catenin  at Ser37 by GSK-3"
-xref: reactome:R-HSA-195287 "Phosphorylation of phospho-(Ser45 ) at Thr 41 by GSK-3"
-xref: reactome:R-HSA-195300 "Phosphorylation of phospho-(Ser45,Thr41,Ser37) at Ser33 by GSK-3"
-xref: reactome:R-HSA-195318 "Phosphorylation of beta-catenin at Ser45 by CK1 alpha"
-xref: reactome:R-HSA-201717 "CSNK2-mediated phosphorylation of DVL"
-xref: reactome:R-HSA-211583 "Partial autophosphorylation of PAK-2 at  Ser-19, Ser-20, Ser-55, Ser-192, and Ser-197"
-xref: reactome:R-HSA-211650 "Autophosphorylation of PAK-2p34 in the activation loop"
-xref: reactome:R-HSA-2214351 "PLK1 phosphorylates GORASP1"
-xref: reactome:R-HSA-2294580 "PLK1 hyperphosphorylates Condensin II complex"
-xref: reactome:R-HSA-2529020 "CK2 phosphorylates condensin I subunits"
-xref: reactome:R-HSA-389762 "Phosphorylation of PD-1"
-xref: reactome:R-HSA-392752 "Phosphorylation of L1 by CK-II"
-xref: reactome:R-HSA-442724 "Phosphorylation of CREB1 by ribosomal protein S6 kinases (RSKs)"
-xref: reactome:R-HSA-445079 "Phosphorylation of L1 by ERK"
-xref: reactome:R-HSA-5654690 "FGFR1-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5654692 "FGFR1- and PTPN11- associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5654697 "FGFR2- and PTPN11- associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5654701 "FGFR2-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5654705 "FGFR3-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5654709 "FGFR3- and PTPN11-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5654714 "FGFR4- and PTPN11-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5654717 "FGFR4-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5655235 "Activated FGFR4 mutant-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5655289 "Activated FGFR3 mutant-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5655290 "Activated FGFR1 mutant-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5655323 "Activated FGFR2 mutant-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-5668545 "NIK autophosphorylates on T559"
-xref: reactome:R-HSA-6788855 "FN3KRP phosphorylates PsiAm, RibAm"
-xref: reactome:R-HSA-6788867 "FN3K phosphorylates ketosamines"
-xref: reactome:R-HSA-6814409 "CK2 phosphorylates PDCL"
-xref: reactome:R-HSA-68954 "Mcm2-7 is phosphorylated by DDK"
-xref: reactome:R-HSA-69195 "Phosphorylation of Cyclin E:CDK2 complexes by WEE1"
-xref: reactome:R-HSA-69604 "Phosphorylation of Cdc25A at Ser-123 by Chk1"
-xref: reactome:R-HSA-75028 "Phosphorylation of Wee1 kinase by Chk1"
-xref: reactome:R-HSA-75809 "Phosphorylation of Cdc25C at Ser216 by CHEK2"
-xref: reactome:R-HSA-77071 "Phosphorylation (Ser5) of RNA pol II CTD"
-xref: reactome:R-HSA-8853323 "Activated FGFR3 fusion-associated PI3K phosphorylates PIP2 to PIP3"
-xref: reactome:R-HSA-8942836 "CDK4/6:CCND complexes are activated by T-loop phosphorylation of CDK4/6"
-xref: reactome:R-HSA-8948039 "FUNDC1 is phosphorylated by CK2"
-xref: reactome:R-HSA-8948143 "p-S13, FUNDC1 is phosphorylated by CK2 at Tyr18"
-xref: reactome:R-HSA-8948146 "FUNDC1 is phosphorylated by ULK1 at Ser17"
+xref: Reactome:R-HSA-6788855 "FN3KRP phosphorylates PsiAm, RibAm"
+xref: Reactome:R-HSA-6788867 "FN3K phosphorylates ketosamines"
 is_a: GO:0016772 ! transferase activity, transferring phosphorus-containing groups
 relationship: part_of GO:0016310 ! phosphorylation
 
@@ -977,11 +928,11 @@ subset: goslim_pir
 subset: goslim_plant
 subset: goslim_yeast
 xref: EC:2
-xref: reactome:R-HSA-1483089 "PE is converted to PS by PTDSS2"
-xref: reactome:R-HSA-1483186 "PC is converted to PS by PTDSS1"
-xref: reactome:R-HSA-5668414 "TRAF2 ubiquitinates cIAP1,2 in cIAP1,2:TRAF1:TRAF2:TRAF3:NIK"
-xref: reactome:R-HSA-6787403 "GTPBP3 and MTO1 transform uridine-34 yielding 5-taurinomethyluridine-34 in tRNA"
-xref: reactome:R-HSA-8868783 "TSR3 transfers aminocarboxypropyl group from S-adenosylmethionine to N(1)-methylpseudouridine-1248 of 18SE rRNA yielding N(1)-methyl-N(3)-aminocarboxypropylpseudouridine-1248"
+xref: Reactome:R-HSA-1483089 "PE is converted to PS by PTDSS2"
+xref: Reactome:R-HSA-1483186 "PC is converted to PS by PTDSS1"
+xref: Reactome:R-HSA-5668414 "TRAF2 ubiquitinates cIAP1,2 in cIAP1,2:TRAF1:TRAF2:TRAF3:NIK"
+xref: Reactome:R-HSA-6787403 "GTPBP3 and MTO1 transform uridine-34 yielding 5-taurinomethyluridine-34 in tRNA"
+xref: Reactome:R-HSA-8868783 "TSR3 transfers aminocarboxypropyl group from S-adenosylmethionine to N(1)-methylpseudouridine-1248 of 18SE rRNA yielding N(1)-methyl-N(3)-aminocarboxypropylpseudouridine-1248"
 is_a: GO:0003824 ! catalytic activity
 
 [Term]
@@ -1045,6 +996,7 @@ namespace: biological_process
 def: "The series of events required for an organism to receive a painful stimulus, convert it to a molecular signal, and recognize and characterize the signal. Pain is medically defined as the physical sensation of discomfort or distress caused by injury or illness, so can hence be described as a harmful stimulus which signals current (or impending) tissue damage. Pain may come from extremes of temperature, mechanical damage, electricity or from noxious chemical substances. This is a neurological process." [http://www.onelook.com/]
 synonym: "nociception" EXACT []
 synonym: "perception of physiological pain" NARROW []
+xref: MIPS_funcat:36.25.01.15
 xref: Wikipedia:Nociception
 is_a: GO:0007600 ! sensory perception
 
@@ -1192,8 +1144,16 @@ id: GO:0030545
 name: receptor regulator activity
 namespace: molecular_function
 def: "The function of interacting (directly or indirectly) with receptors such that the proportion of receptors in the active form is changed." [GOC:ceb]
+xref: MIPS_funcat:18.02.07
 is_a: GO:0098772 ! molecular function regulator
-relationship: part_of GO:0010469 ! regulation of signaling receptor activity
+
+[Term]
+id: GO:0030546
+name: signaling receptor activator activity
+namespace: molecular_function
+def: "The function of interacting (directly or indirectly) with receptors such that the proportion of receptors in the active form is increased." [GOC:ceb]
+synonym: "receptor activator activity" BROAD []
+is_a: GO:0030545 ! receptor regulator activity
 
 [Term]
 id: GO:0031223
@@ -1255,10 +1215,11 @@ relationship: positively_regulates GO:0044237 ! cellular metabolic process
 
 [Term]
 id: GO:0031644
-name: regulation of neurological system process
+name: regulation of nervous system process
 namespace: biological_process
-def: "Any process that modulates the frequency, rate or extent of a neurophysiological process, an organ system process carried out by any of the organs or tissues of neurological system." [GOC:dph, GOC:mah, GOC:tb]
+def: "Any process that modulates the frequency, rate or extent of a neurophysiological process, an organ system process carried out by any of the organs or tissues of the nervous system." [GOC:dph, GOC:mah, GOC:tb]
 synonym: "regulation of neurological process" EXACT [GOC:dph, GOC:tb]
+synonym: "regulation of neurological system process" EXACT []
 synonym: "regulation of neurophysiological process" EXACT []
 is_a: GO:0044057 ! regulation of system process
 intersection_of: GO:0008150 ! biological_process
@@ -1267,7 +1228,7 @@ relationship: regulates GO:0050877 ! nervous system process
 
 [Term]
 id: GO:0031645
-name: negative regulation of neurological system process
+name: negative regulation of nervous system process
 namespace: biological_process
 def: "Any process that stops, prevents, or reduces the frequency, rate or extent of a neurophysiological process." [GOC:dph, GOC:mah, GOC:tb]
 synonym: "down regulation of neurological process" EXACT []
@@ -1275,8 +1236,9 @@ synonym: "down-regulation of neurological process" EXACT []
 synonym: "downregulation of neurological process" EXACT []
 synonym: "inhibition of neurological process" NARROW []
 synonym: "negative regulation of neurological process" EXACT [GOC:dph, GOC:tb]
+synonym: "negative regulation of neurological system process" EXACT []
 synonym: "negative regulation of neurophysiological process" EXACT []
-is_a: GO:0031644 ! regulation of neurological system process
+is_a: GO:0031644 ! regulation of nervous system process
 is_a: GO:0051241 ! negative regulation of multicellular organismal process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0050877 ! nervous system process
@@ -1284,17 +1246,18 @@ relationship: negatively_regulates GO:0050877 ! nervous system process
 
 [Term]
 id: GO:0031646
-name: positive regulation of neurological system process
+name: positive regulation of nervous system process
 namespace: biological_process
 def: "Any process that activates or increases the frequency, rate or extent of a neurophysiological process." [GOC:dph, GOC:mah, GOC:tb]
 synonym: "activation of neurological process" NARROW []
 synonym: "positive regulation of neurological process" EXACT [GOC:dph, GOC:tb]
+synonym: "positive regulation of neurological system process" EXACT []
 synonym: "positive regulation of neurophysiological process" EXACT []
 synonym: "stimulation of neurological process" NARROW []
 synonym: "up regulation of neurological process" EXACT []
 synonym: "up-regulation of neurological process" EXACT []
 synonym: "upregulation of neurological process" EXACT []
-is_a: GO:0031644 ! regulation of neurological system process
+is_a: GO:0031644 ! regulation of nervous system process
 is_a: GO:0051240 ! positive regulation of multicellular organismal process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: positively_regulates GO:0050877 ! nervous system process
@@ -1506,6 +1469,7 @@ def: "Self-propelled movement of a cell or organism from one location to another
 subset: goslim_chembl
 subset: goslim_generic
 subset: goslim_pir
+xref: MIPS_funcat:02.45.11
 is_a: GO:0008150 ! biological_process
 
 [Term]
@@ -1559,9 +1523,13 @@ subset: gocheck_do_not_manually_annotate
 subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_metagenomics
+subset: goslim_plant
 subset: goslim_yeast
 synonym: "response to chemical stimulus" EXACT [GOC:dos]
 synonym: "response to chemical substance" EXACT []
+xref: MIPS_funcat:34.11.03
+xref: MIPS_funcat:34.11.03.05
+xref: MIPS_funcat:36.20.35.09
 is_a: GO:0050896 ! response to stimulus
 
 [Term]
@@ -1746,7 +1714,7 @@ relationship: negatively_regulates GO:0007623 ! circadian rhythm
 id: GO:0042755
 name: eating behavior
 namespace: biological_process
-def: "The specific behavior of an organism relating to the intake of food, any substance (usually solid) that can be metabolized by an organism to give energy and build tissue." [GOC:jl, GOC:pr, ISBN:01928006X]
+def: "The specific behavior of an organism relating to the intake of food, any substance (usually solid) that can be metabolized by an organism to give energy and build tissue." [GOC:jl, GOC:pr, PMID:19361967]
 synonym: "eating behaviour" EXACT []
 is_a: GO:0007631 ! feeding behavior
 
@@ -1777,6 +1745,7 @@ synonym: "up-regulation of enzyme activity" EXACT []
 synonym: "up-regulation of metalloenzyme activity" NARROW []
 synonym: "upregulation of enzyme activity" EXACT []
 synonym: "upregulation of metalloenzyme activity" NARROW []
+xref: MIPS_funcat:18.02.01.01
 is_a: GO:0044093 ! positive regulation of molecular function
 is_a: GO:0050790 ! regulation of catalytic activity
 intersection_of: GO:0008150 ! biological_process
@@ -2055,6 +2024,7 @@ name: secretion
 namespace: biological_process
 def: "The controlled release of a substance by a cell or a tissue." [GOC:ai]
 subset: goslim_pir
+xref: MIPS_funcat:20.09.16
 is_a: GO:0006810 ! transport
 
 [Term]
@@ -2067,9 +2037,11 @@ comment: Definition discussed in https://github.com/geneontology/go-ontology/iss
 subset: goslim_chembl
 synonym: "receptor agonist activity" BROAD [GOC:molecular_function_refactoring]
 synonym: "signaling molecule" EXACT []
+synonym: "signaling receptor ligand activity" EXACT []
 synonym: "vitamin D receptor activator activity" NARROW []
 is_a: GO:0005102 ! signaling receptor binding
-is_a: GO:0030545 ! receptor regulator activity
+is_a: GO:0030546 ! signaling receptor activator activity
+relationship: part_of GO:0007165 ! signal transduction
 created_by: midori
 creation_date: 2010-09-13T04:51:59Z
 
@@ -2080,6 +2052,7 @@ namespace: biological_process
 def: "Any process pertinent to the generation and maintenance of rhythms in the physiology of an organism." [GOC:jid]
 subset: goslim_pir
 synonym: "rhythm" RELATED []
+xref: MIPS_funcat:34.11.11
 is_a: GO:0008150 ! biological_process
 
 [Term]
@@ -2275,6 +2248,7 @@ def: "Any process that modulates the activity of an enzyme." [GOC:ai, GOC:ebc, G
 subset: goslim_chembl
 synonym: "regulation of enzyme activity" EXACT []
 synonym: "regulation of metalloenzyme activity" NARROW []
+xref: MIPS_funcat:18.02.01
 is_a: GO:0065009 ! regulation of molecular function
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0003824 ! catalytic activity
@@ -2327,6 +2301,7 @@ subset: goslim_pir
 synonym: "neurological system process" EXACT []
 synonym: "neurophysiological process" EXACT []
 synonym: "pan-neural process" RELATED []
+xref: MIPS_funcat:36.25.03
 is_a: GO:0003008 ! system process
 
 [Term]
@@ -2343,6 +2318,7 @@ name: multicellular organismal movement
 namespace: biological_process
 def: "Any physiological process involved in changing the position of a multicellular organism or an anatomical part of a multicellular organism." [GOC:dph, GOC:mtg_muscle, GOC:tb]
 subset: goslim_pir
+xref: MIPS_funcat:02.45.11
 is_a: GO:0032501 ! multicellular organismal process
 
 [Term]
@@ -2365,6 +2341,7 @@ name: neuromuscular process controlling balance
 namespace: biological_process
 def: "Any process that an organism uses to control its balance, the orientation of the organism (or the head of the organism) in relation to the source of gravity. In humans and animals, balance is perceived through visual cues, the labyrinth system of the inner ears and information from skin pressure receptors and muscle and joint receptors." [GOC:ai, GOC:dph, http://www.onelook.com/]
 synonym: "regulation of balance" RELATED []
+xref: MIPS_funcat:36.25.03.03.03
 is_a: GO:0050905 ! neuromuscular process
 
 [Term]
@@ -2380,6 +2357,7 @@ subset: goslim_flybase_ribbon
 subset: goslim_mouse
 subset: goslim_pir
 synonym: "physiological response to stimulus" EXACT []
+xref: MIPS_funcat:34.11
 is_a: GO:0008150 ! biological_process
 
 [Term]
@@ -2389,6 +2367,7 @@ namespace: biological_process
 def: "Any process pertaining to the functions of the nervous and muscular systems of an organism." [GOC:ai]
 synonym: "neuromotor process" EXACT []
 synonym: "neuromuscular physiological process" EXACT []
+xref: MIPS_funcat:36.25.03.03
 is_a: GO:0050877 ! nervous system process
 
 [Term]
@@ -2432,6 +2411,7 @@ synonym: "gustation" EXACT []
 synonym: "sense of taste" EXACT []
 synonym: "taste" EXACT []
 synonym: "taste perception" EXACT []
+xref: MIPS_funcat:36.25.01.11
 xref: Wikipedia:Taste
 is_a: GO:0007606 ! sensory perception of chemical stimulus
 
@@ -2540,6 +2520,7 @@ name: equilibrioception
 namespace: biological_process
 def: "The series of events required for an organism to receive an orientational stimulus, convert it to a molecular signal, and recognize and characterize the signal. Equilibrioception refers to a combination of processes by which an organism can perceive its orientation with respect to gravity. In animals, stimuli come from labyrinth system of the inner ears, monitoring the direction of motion; visual stimuli, with information on orientation and motion; pressure receptors, which tell the organism which body surfaces are in contact with the ground; and proprioceptive cues, which report which parts of the body are in motion." [http://www.medterms.com, http://www.onelook.com/]
 synonym: "sensory perception of orientation with respect to gravity" EXACT []
+xref: MIPS_funcat:36.25.01.07
 xref: Wikipedia:Equilibrioception
 is_a: GO:0007600 ! sensory perception
 relationship: part_of GO:0050885 ! neuromuscular process controlling balance
@@ -2713,6 +2694,7 @@ synonym: "perception of touch" EXACT []
 synonym: "tactile sense" EXACT []
 synonym: "taction" EXACT []
 synonym: "tactition" EXACT []
+xref: MIPS_funcat:36.25.01.05
 xref: Wikipedia:Touch
 is_a: GO:0050954 ! sensory perception of mechanical stimulus
 
@@ -2737,6 +2719,7 @@ id: GO:0050981
 name: detection of electrical stimulus
 namespace: biological_process
 def: "The series of events by which an electrical stimulus is received and converted into a molecular signal." [GOC:ai, GOC:dos]
+xref: MIPS_funcat:34.11.08
 is_a: GO:0009582 ! detection of abiotic stimulus
 is_a: GO:0051602 ! response to electrical stimulus
 
@@ -2745,6 +2728,7 @@ id: GO:0050982
 name: detection of mechanical stimulus
 namespace: biological_process
 def: "The series of events by which a mechanical stimulus is received and converted into a molecular signal." [GOC:ai, GOC:dos]
+xref: MIPS_funcat:34.11.05
 is_a: GO:0009581 ! detection of external stimulus
 is_a: GO:0009582 ! detection of abiotic stimulus
 is_a: GO:0009612 ! response to mechanical stimulus
@@ -3025,6 +3009,7 @@ name: response to electrical stimulus
 namespace: biological_process
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an electrical stimulus." [GOC:ai]
 synonym: "response to electricity" RELATED []
+xref: MIPS_funcat:34.11.08
 is_a: GO:0009628 ! response to abiotic stimulus
 
 [Term]
@@ -3036,6 +3021,7 @@ subset: goslim_pir
 synonym: "perception of stimulus" RELATED []
 synonym: "stimulus detection" EXACT []
 synonym: "stimulus sensing" RELATED []
+xref: MIPS_funcat:34.11
 is_a: GO:0050896 ! response to stimulus
 
 [Term]
@@ -3053,6 +3039,7 @@ name: multi-organism process
 namespace: biological_process
 alt_id: GO:0051706
 def: "A biological process which involves another organism of the same or different species." [GOC:jl]
+subset: gocheck_do_not_annotate
 subset: goslim_pir
 synonym: "interaction between organisms" EXACT []
 synonym: "physiological interaction between organisms" EXACT []
@@ -3101,7 +3088,7 @@ id: GO:0051931
 name: regulation of sensory perception
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of sensory perception, the series of events required for an organism to receive a sensory stimulus, convert it to a molecular signal, and recognize and characterize the signal." [GOC:ai]
-is_a: GO:0031644 ! regulation of neurological system process
+is_a: GO:0031644 ! regulation of nervous system process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0007600 ! sensory perception
 relationship: regulates GO:0007600 ! sensory perception
@@ -3110,7 +3097,7 @@ relationship: regulates GO:0007600 ! sensory perception
 id: GO:0060004
 name: reflex
 namespace: biological_process
-def: "An automatic response to a stimulus beginning with a nerve impulse from a receptor and ending with the action of an effector such as a gland or a muscle. Signaling never reaches a level of consciousness." [GOC:dph, ISBN:087797099]
+def: "An automatic response to a stimulus beginning with a nerve impulse from a receptor and ending with the action of an effector such as a gland or a muscle. Signaling never reaches a level of consciousness." [GOC:dph, ISBN:0877797099]
 xref: Wikipedia:Reflex
 is_a: GO:0009605 ! response to external stimulus
 
@@ -3194,6 +3181,7 @@ def: "Any process that modulates the frequency, rate or extent of a molecular fu
 subset: gocheck_do_not_annotate
 subset: goslim_agr
 subset: goslim_pir
+subset: goslim_plant
 synonym: "regulation of a molecular function" EXACT []
 is_a: GO:0065007 ! biological regulation
 intersection_of: GO:0008150 ! biological_process
@@ -3508,7 +3496,7 @@ synonym: "inhibition of perception of physiological pain" NARROW [GOC:TermGenie]
 synonym: "inhibition of sensory perception of pain" NARROW [GOC:TermGenie]
 synonym: "negative regulation of nociception" EXACT [GOC:TermGenie]
 synonym: "negative regulation of perception of physiological pain" NARROW [GOC:TermGenie]
-is_a: GO:0031645 ! negative regulation of neurological system process
+is_a: GO:0031645 ! negative regulation of nervous system process
 is_a: GO:0051930 ! regulation of sensory perception of pain
 intersection_of: GO:0008150 ! biological_process
 intersection_of: negatively_regulates GO:0019233 ! sensory perception of pain
@@ -3535,7 +3523,7 @@ synonym: "up-regulation of sensory perception of pain" EXACT [GOC:TermGenie]
 synonym: "upregulation of nociception" EXACT [GOC:TermGenie]
 synonym: "upregulation of perception of physiological pain" NARROW [GOC:TermGenie]
 synonym: "upregulation of sensory perception of pain" EXACT [GOC:TermGenie]
-is_a: GO:0031646 ! positive regulation of neurological system process
+is_a: GO:0031646 ! positive regulation of nervous system process
 is_a: GO:0051930 ! regulation of sensory perception of pain
 intersection_of: GO:0008150 ! biological_process
 intersection_of: positively_regulates GO:0019233 ! sensory perception of pain
@@ -3601,7 +3589,7 @@ synonym: "negative regulation of perception of touch, sensory transduction of me
 synonym: "negative regulation of sensory detection of mechanical stimulus during perception of touch" EXACT [GOC:TermGenie]
 synonym: "negative regulation of sensory transduction of mechanical stimulus during perception of touch" EXACT [GOC:TermGenie]
 synonym: "negative regulation of tactition, sensory detection of mechanical stimulus" EXACT [GOC:TermGenie]
-is_a: GO:0031645 ! negative regulation of neurological system process
+is_a: GO:0031645 ! negative regulation of nervous system process
 is_a: GO:0032102 ! negative regulation of response to external stimulus
 is_a: GO:1905787 ! regulation of detection of mechanical stimulus involved in sensory perception of touch
 intersection_of: GO:0008150 ! biological_process
@@ -3649,7 +3637,7 @@ synonym: "upregulation of perception of touch, sensory transduction of mechanica
 synonym: "upregulation of sensory detection of mechanical stimulus during perception of touch" EXACT [GOC:TermGenie]
 synonym: "upregulation of sensory transduction of mechanical stimulus during perception of touch" EXACT [GOC:TermGenie]
 synonym: "upregulation of tactition, sensory detection of mechanical stimulus" EXACT [GOC:TermGenie]
-is_a: GO:0031646 ! positive regulation of neurological system process
+is_a: GO:0031646 ! positive regulation of nervous system process
 is_a: GO:0032103 ! positive regulation of response to external stimulus
 is_a: GO:1905787 ! regulation of detection of mechanical stimulus involved in sensory perception of touch
 intersection_of: GO:0008150 ! biological_process
@@ -3923,14 +3911,12 @@ name: negatively regulates
 namespace: external
 xref: RO:0002212
 is_a: regulates ! regulates
-transitive_over: part_of ! part of
 
 [Typedef]
 id: occurs_in
 name: occurs in
 namespace: external
 xref: BFO:0000066
-holds_over_chain: part_of occurs_in
 transitive_over: part_of ! part of
 
 [Typedef]
@@ -3948,7 +3934,6 @@ namespace: external
 xref: RO:0002213
 holds_over_chain: negatively_regulates negatively_regulates
 is_a: regulates ! regulates
-transitive_over: part_of ! part of
 
 [Typedef]
 id: regulates
@@ -3956,5 +3941,4 @@ name: regulates
 namespace: external
 xref: RO:0002211
 is_transitive: true
-transitive_over: part_of ! part of
 

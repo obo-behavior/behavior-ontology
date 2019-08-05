@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: nbo/releases/2019-02-18/imports/chebi_import.owl
+data-version: nbo/releases/2019-08-05/imports/chebi_import.owl
 ontology: nbo/imports/chebi_import
 
 [Term]
@@ -63,7 +63,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C10H14N2" xsd:stri
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C10H14N2/c1-12-7-3-5-10(12)9-4-2-6-11-8-9/h2,4,6,8,10H,3,5,7H2,1H3" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "SNICXCGAKADSCV-UHFFFAOYSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "162.232" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "162.116" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "162.11570" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C=1C=C(C2N(CCC2)C)C=NC1" xsd:string
 
 [Term]
@@ -157,7 +157,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "H2O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/H2O/h1H2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "XLYOFNOQVPJJNP-UHFFFAOYSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "18.01530" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "18.011" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "18.01056" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H]O[H]" xsd:string
 
 [Term]
@@ -180,7 +180,7 @@ is_a: CHEBI:30879 ! alcohol
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CH3OR" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "31.034" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "31.018" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "31.01839" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "*C(O)([H])[H]" xsd:string
 
 [Term]
@@ -275,7 +275,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "H3N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/H3N/h1H3" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "QGZKDVFQNNGYKY-UHFFFAOYSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "17.03056" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "17.027" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "17.02655" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H]N([H])[H]" xsd:string
 
 [Term]
@@ -307,7 +307,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "HO" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/H2O/h1H2/p-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "XLYOFNOQVPJJNP-UHFFFAOYSA-M" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "17.00734" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "17.003" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "17.00329" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-][H]" xsd:string
 
 [Term]
@@ -452,7 +452,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C2H6O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "LFQSCWFLJHTTHZ-UHFFFAOYSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "46.06844" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "46.042" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "46.04186" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CCO" xsd:string
 
 [Term]
@@ -519,13 +519,14 @@ relationship: has_role CHEBI:38867 ! anaesthetic
 relationship: has_role CHEBI:55322 ! mu-opioid receptor agonist
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: has_role CHEBI:78298 ! environmental contaminant
+relationship: has_role CHEBI:88188 ! drug allergen
 relationship: is_conjugate_base_of CHEBI:58097 ! morphine(1+)
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C17H19NO3" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C17H19NO3/c1-18-7-6-17-10-3-5-13(20)16(17)21-15-12(19)4-2-9(14(15)17)8-11(10)18/h2-5,10-11,13,16,19-20H,6-8H2,1H3/t10-,11+,13-,16-,17-/m0/s1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "BQJCRHHNABKAKU-KBQPJGBKSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "285.33770" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "285.136" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "285.13649" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@]12C=C[C@H](O)[C@@H]3Oc4c(O)ccc5C[C@H]1N(C)CC[C@@]23c45" xsd:string
 
 [Term]
@@ -684,7 +685,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C10H14N2" xsd:stri
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C10H14N2/c1-12-7-3-5-10(12)9-4-2-6-11-8-9/h2,4,6,8,10H,3,5,7H2,1H3/t10-/m0/s1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "SNICXCGAKADSCV-JTQLQIEISA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "162.232" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "162.116" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "162.11570" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C=1C=C([C@]2(N(CCC2)C)[H])C=NC1" xsd:string
 
 [Term]
@@ -754,7 +755,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "CH4O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/CH4O/c1-2/h2H,1H3" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "OKKJLVBELUTLKV-UHFFFAOYSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "32.04186" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "32.026" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "32.02621" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CO" xsd:string
 
 [Term]
@@ -960,13 +961,24 @@ namespace: chebi_ontology
 subset: 3_STAR
 synonym: ">C=O" RELATED [IUPAC]
 synonym: "carbonyl" EXACT IUPAC_NAME [IUPAC]
-synonym: "carbonyl group" EXACT [ChEBI]
 synonym: "carbonyl group" EXACT [UniProt]
+synonym: "carbonyl group" EXACT [ChEBI]
 is_a: CHEBI:51422 ! organodiyl group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CO" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "28.01010" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "27.995" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "27.99491" xsd:string
+
+[Term]
+id: CHEBI:23357
+name: cofactor
+namespace: chebi_ontology
+def: "An organic molecule or ion (usually a metal ion) that is required by an enzyme for its activity. It may be attached either loosely (coenzyme) or tightly (prosthetic group)." []
+subset: 3_STAR
+synonym: "cofactor" EXACT [IUPAC]
+synonym: "cofactors" EXACT IUPAC_NAME [IUPAC]
+xref: Wikipedia:Cofactor_(biochemistry)
+is_a: CHEBI:52206 ! biochemical role
 
 [Term]
 id: CHEBI:23367
@@ -1176,7 +1188,8 @@ is_a: CHEBI:33308 ! carboxylic ester
 relationship: has_functional_parent CHEBI:17790 ! methanol
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C2H3O2R" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "59.013" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "59.044" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "59.01330" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "COC([*])=O" xsd:string
 
 [Term]
@@ -1217,7 +1230,10 @@ xref: WebElements:N
 is_a: CHEBI:25585 ! nonmetal atom
 is_a: CHEBI:33300 ! pnictogen
 relationship: has_role CHEBI:33937 ! macronutrient
+property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "N" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "14.007" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "14.00307" xsd:string
 
 [Term]
 id: CHEBI:25585
@@ -1287,7 +1303,7 @@ is_a: CHEBI:30879 ! alcohol
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "HOR" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "17.007" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "17.003" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "17.00274" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "O*" xsd:string
 
 [Term]
@@ -1323,7 +1339,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "QVGXLLKOCUKJST-UHFFFAOYSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "15.99940" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "15.995" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "15.99491" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O]" xsd:string
 
 [Term]
@@ -1406,7 +1422,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "S" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/S" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "NINIDFKCEFEMDL-UHFFFAOYSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "32.06600" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "31.972" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "31.97207" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[S]" xsd:string
 
 [Term]
@@ -1457,7 +1473,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "OKTJSMMVPCPJKN-UHFFFAOYSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "12.01070" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "12.000" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "12.00000" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[C]" xsd:string
 
 [Term]
@@ -1532,7 +1548,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C17H21NO4" xsd:str
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C17H21NO4/c1-18-12-8-9-13(18)15(17(20)21-2)14(10-12)22-16(19)11-6-4-3-5-7-11/h3-7,12-15H,8-10H2,1-2H3/t12-,13+,14-,15+/m0/s1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "ZPUCINDJVBIVPJ-LJISPDSOSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "303.35290" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "303.147" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "303.14706" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@]12CC[C@]([H])([C@H]([C@H](C1)OC(=O)c1ccccc1)C(=O)OC)N2C" xsd:string
 
 [Term]
@@ -1583,6 +1599,7 @@ is_a: CHEBI:35106 ! nitrogen hydride
 is_a: CHEBI:35274 ! ammonium ion
 is_a: CHEBI:50313 ! onium cation
 is_a: CHEBI:60242 ! monovalent inorganic cation
+relationship: has_role CHEBI:23357 ! cofactor
 relationship: has_role CHEBI:75772 ! Saccharomyces cerevisiae metabolite
 relationship: has_role CHEBI:76971 ! Escherichia coli metabolite
 relationship: has_role CHEBI:77746 ! human metabolite
@@ -1592,7 +1609,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "H4N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/H3N/h1H3/p+1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "QGZKDVFQNNGYKY-UHFFFAOYSA-O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "18.03850" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "18.034" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "18.03383" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][N+]([H])([H])[H]" xsd:string
 
 [Term]
@@ -1614,7 +1631,7 @@ relationship: is_conjugate_base_of CHEBI:33575 ! carboxylic acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CO2R" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "44.00950" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "43.990" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "43.98983" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[O-]C([*])=O" xsd:string
 
 [Term]
@@ -1635,7 +1652,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "H2N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/H2N/h1H2/q-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "HYGWNUKOUCZBND-UHFFFAOYSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "16.02262" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "16.019" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "16.01927" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][N-][H]" xsd:string
 
 [Term]
@@ -1656,7 +1673,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "HN" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/HN/h1H/q-2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "DZQYTNGKSBCIOE-UHFFFAOYSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "15.01468" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "15.011" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "15.01200" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[N--][H]" xsd:string
 
 [Term]
@@ -1683,7 +1700,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "H3O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/H2O/h1H2/p+1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "XLYOFNOQVPJJNP-UHFFFAOYSA-O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "19.02322" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "19.018" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "19.01784" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][O+]([H])[H]" xsd:string
 
 [Term]
@@ -1702,7 +1719,8 @@ xref: KEGG:C00069
 is_a: CHEBI:33822 ! organic hydroxy compound
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "HOR" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "17.003" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "17.007" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "17.00274" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "O[*]" xsd:string
 
 [Term]
@@ -1760,7 +1778,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C7H5NO3S" xsd:stri
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C7H5NO3S/c9-7-5-3-1-2-4-6(5)12(10,11)8-7/h1-4H,(H,8,9)" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "CVHZOJJKTDOEJC-UHFFFAOYSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "183.18500" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "182.999" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "182.99901" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "O=C1NS(=O)(=O)c2ccccc12" xsd:string
 
 [Term]
@@ -2090,7 +2108,8 @@ is_a: CHEBI:35701 ! ester
 is_a: CHEBI:36586 ! carbonyl compound
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CO2R2" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "43.990" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "44.010" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "43.98983" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[*]C(=O)O[*]" xsd:string
 
 [Term]
@@ -2154,7 +2173,7 @@ relationship: is_conjugate_acid_of CHEBI:29067 ! carboxylic acid anion
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CHO2R" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "45.01740" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "44.998" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "44.99765" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "OC([*])=O" xsd:string
 
 [Term]
@@ -2695,7 +2714,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C16H21N" xsd:strin
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C16H21N/c1-2-6-13-12(5-1)11-15-14-7-3-4-8-16(13,14)9-10-17-15/h1-2,5-6,14-15,17H,3-4,7-11H2/t14-,15+,16-/m0/s1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "INAXVFBXDYWQFN-XHSDSOJGSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "227.34468" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "227.167" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "227.16740" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@@]12CCCC[C@@]11CCN[C@@H]2Cc2ccccc12" xsd:string
 
 [Term]
@@ -3240,7 +3259,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C10H14N2" xsd:stri
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C10H14N2/c1-12-7-3-5-10(12)9-4-2-6-11-8-9/h2,4,6,8,10H,3,5,7H2,1H3/t10-/m1/s1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "SNICXCGAKADSCV-SNVBAGLBSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "162.23160" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "162.116" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "162.11570" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CN1CCC[C@@H]1c1cccnc1" xsd:string
 
 [Term]
@@ -3262,7 +3281,7 @@ is_a: CHEBI:33246 ! inorganic group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "HO" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "17.00734" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "17.003" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "17.00274" xsd:string
 
 [Term]
 id: CHEBI:46629
@@ -3279,7 +3298,7 @@ is_a: CHEBI:33246 ! inorganic group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "15.99940" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "15.995" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "15.99491" xsd:string
 
 [Term]
 id: CHEBI:46775
@@ -3321,7 +3340,7 @@ is_a: CHEBI:33249 ! organyl group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CHO2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "45.01744" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "44.998" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "44.99765" xsd:string
 
 [Term]
 id: CHEBI:47867
@@ -3492,7 +3511,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "H" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/H" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "YZCKVEUIGOORGS-UHFFFAOYSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "1.00794" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "1.008" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "1.00783" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H]" xsd:string
 
 [Term]
@@ -3585,6 +3604,18 @@ synonym: "organic entity" RELATED [ChEBI]
 synonym: "organic molecular entities" RELATED [ChEBI]
 is_a: CHEBI:33582 ! carbon group molecular entity
 relationship: has_part CHEBI:27594 ! carbon atom
+
+[Term]
+id: CHEBI:50904
+name: allergen
+namespace: chebi_ontology
+def: "A chemical compound, or part thereof, which causes the onset of an allergic reaction by interacting with any of the molecular pathways involved in an allergy." []
+subset: 3_STAR
+synonym: "alergeno" RELATED [ChEBI]
+synonym: "allergene" RELATED [ChEBI]
+synonym: "allergenic agent" RELATED [ChEBI]
+xref: Wikipedia:Allergen
+is_a: CHEBI:52209 ! aetiopathogenetic role
 
 [Term]
 id: CHEBI:50905
@@ -3717,7 +3748,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "CH3O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/CH3O/c1-2/h1H3/q-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "NBTOZLQBSIZIKS-UHFFFAOYSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "31.03390" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "31.018" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "31.01894" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[O-]" xsd:string
 
 [Term]
@@ -3738,7 +3769,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C2H5O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C2H5O/c1-2-3/h2H2,1H3/q-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "HHFAWKCIHAUFRX-UHFFFAOYSA-N" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "45.06050" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "45.034" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "45.03459" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "CC[O-]" xsd:string
 
 [Term]
@@ -3864,7 +3895,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C17H20NO3" xsd:str
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C17H19NO3/c1-18-7-6-17-10-3-5-13(20)16(17)21-15-12(19)4-2-9(14(15)17)8-11(10)18/h2-5,10-11,13,16,19-20H,6-8H2,1H3/p+1/t10-,11+,13-,16-,17-/m0/s1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "BQJCRHHNABKAKU-KBQPJGBKSA-O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "286.34560" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "286.144" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "286.14377" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@]12C=C[C@H](O)[C@@H]3Oc4c(O)ccc5C[C@H]1[NH+](C)CC[C@@]23c45" xsd:string
 
 [Term]
@@ -3908,7 +3939,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C10H15N2" xsd:stri
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C10H14N2/c1-12-7-3-5-10(12)9-4-2-6-11-8-9/h2,4,6,8,10H,3,5,7H2,1H3/p+1/t10-/m0/s1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "SNICXCGAKADSCV-JTQLQIEISA-O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "163.23900" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "163.124" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "163.12297" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[NH+]1CCC[C@H]1c1cccnc1" xsd:string
 
 [Term]
@@ -3949,7 +3980,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C17H22NO4" xsd:str
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C17H21NO4/c1-18-12-8-9-13(18)15(17(20)21-2)14(10-12)22-16(19)11-6-4-3-5-7-11/h3-7,12-15H,8-10H2,1-2H3/p+1/t12-,13+,14-,15+/m0/s1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "ZPUCINDJVBIVPJ-LJISPDSOSA-O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "304.36090" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "304.155" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "304.15433" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@]12CC[C@]([H])([C@H]([C@H](C1)OC(=O)c1ccccc1)C(=O)OC)[NH+]2C" xsd:string
 
 [Term]
@@ -4379,7 +4410,7 @@ property_value: http://purl.obolibrary.org/obo/chebi/formula "C10H15N2" xsd:stri
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C10H14N2/c1-12-7-3-5-10(12)9-4-2-6-11-8-9/h2,4,6,8,10H,3,5,7H2,1H3/p+1/t10-/m1/s1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "SNICXCGAKADSCV-SNVBAGLBSA-O" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "163.23900" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "163.124" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "163.12297" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C[NH+]1CCC[C@@H]1c1cccnc1" xsd:string
 
 [Term]
@@ -4401,6 +4432,16 @@ synonym: "monovalent inorganic anions" RELATED [ChEBI]
 is_a: CHEBI:24834 ! inorganic anion
 
 [Term]
+id: CHEBI:88188
+name: drug allergen
+namespace: chebi_ontology
+def: "Any drug which causes the onset of an allergic reaction." []
+subset: 3_STAR
+synonym: "allergenic drug" RELATED [ChEBI]
+is_a: CHEBI:23888 ! drug
+is_a: CHEBI:50904 ! allergen
+
+[Term]
 id: CHEBI:90852
 name: N-sulfonylcarboxamide
 namespace: chebi_ontology
@@ -4415,7 +4456,7 @@ is_a: CHEBI:37716 ! mixed diacylamine
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CNO3SR3" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "106.082" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "105.960" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "105.95989" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "C(=O)(N(S(*)(=O)=O)*)*" xsd:string
 
 [Term]
@@ -4430,7 +4471,7 @@ relationship: is_conjugate_base_of CHEBI:33859 ! aromatic carboxylic acid
 property_value: http://purl.obolibrary.org/obo/chebi/charge "-1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CO2R" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/mass "44.010" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "43.990" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "43.98983" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/smiles "*C([O-])=O" xsd:string
 
 [Typedef]

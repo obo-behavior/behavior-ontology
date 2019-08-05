@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: nbo/releases/2019-02-18/nbo-base.owl
+data-version: nbo/releases/2019-08-05/nbo-base.owl
 treat-xrefs-as-equivalent: GO
 remark: 2018-05-11
 ontology: nbo/nbo-base
@@ -448,6 +448,7 @@ property_value: namespace "behavior_ontology" xsd:string
 [Term]
 id: NBO:0000043
 name: bonding behavior
+def: "A behavior that occurs between two individuals, such as parent and child, and involves an emotional attachment that implies a special and focused relationship." [PMID:29327315]
 synonym: "forming of peer relationship" EXACT []
 is_a: NBO:0000280 ! attraction-related behavior
 property_value: created_by "George Gkoutos" xsd:string
@@ -7914,6 +7915,52 @@ name: regulation of addiction response
 is_a: NBO:0003104 ! regulation of behavioral response to addictive substance
 property_value: created_by "George Gkoutos" xsd:string
 property_value: IAO_0000115 "\"Any process that modulates the frequency, rate or extent of withdrawal response.\" [NBOC:GVG]" xsd:string
+
+[Term]
+id: NBO:0009003
+name: hunting behavior
+def: "A predator behavior involving actively stalking prey over a distance." []
+is_a: NBO:0000089 ! predator behavior
+is_a: NBO:0015003 ! active foraging behavior
+property_value: created_by "Nicolas Matentzoglu" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-03-11T13:51:02Z xsd:string
+
+[Term]
+id: NBO:0015000
+name: ambush behavior
+def: "A predator behavior involving a surprise attack on unsuspecting prey. The predator remains in one place and waits for prey to come near. The predator conceals itself and then subdues its prey with its own body or body parts." []
+is_a: NBO:0000089 ! predator behavior
+property_value: created_by "Nicolas Matentzoglu" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-03-11T13:51:02Z xsd:string
+
+[Term]
+id: NBO:0015001
+name: predator avoidance behavior
+def: "An avoidance behavior engaged in by prey that reduces the success of a predator without the prey actually attacking the predator." []
+is_a: NBO:0000635 ! avoidance behavior
+property_value: created_by "Nicolas Matentzoglu" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-03-11T13:51:02Z xsd:string
+
+[Term]
+id: NBO:0015002
+name: trapping behavior
+def: "A predator behavior involving subduing prey using a structure or modification of the environment created by the predator for that purpose." []
+is_a: NBO:0000089 ! predator behavior
+property_value: created_by "Nicolas Matentzoglu" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-03-11T13:51:02Z xsd:string
+
+[Term]
+id: NBO:0015003
+name: active foraging behavior
+def: "Feeding behavior during which a living entity acquires food and energy by actively searching for food resources." []
+is_a: NBO:0000079 ! feeding behavior
+property_value: created_by https://orcid.org/0000-0002-7356-1779 xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-08-04T13:51:02Z xsd:string
 
 [Term]
 id: NBO:0020007

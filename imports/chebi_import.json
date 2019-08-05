@@ -1081,6 +1081,15 @@
           "xrefs" : [ "ChEBI" ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
+          "val" : "0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "14.00307"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "14.007"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
         }, {
@@ -1133,11 +1142,11 @@
           "xrefs" : [ "ChemIDplus" ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "162.11570"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
           "val" : "CN1CCC[C@@H]1c1cccnc1"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "162.116"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
           "val" : "SNICXCGAKADSCV-SNVBAGLBSA-N"
@@ -1185,9 +1194,6 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "CO"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "27.995"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
           "val" : "28.01010"
         }, {
@@ -1196,6 +1202,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
           "val" : "0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "27.99491"
         } ]
       },
       "type" : "CLASS",
@@ -1691,11 +1700,11 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
           "val" : "YZCKVEUIGOORGS-UHFFFAOYSA-N"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "1.00783"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/H"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "1.008"
         } ]
       },
       "type" : "CLASS",
@@ -2195,7 +2204,7 @@
           "val" : "C17H21NO4"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "303.147"
+          "val" : "303.14706"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
           "val" : "ZPUCINDJVBIVPJ-LJISPDSOSA-N"
@@ -2269,6 +2278,9 @@
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "16.01927"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
           "val" : "[H][N-][H]"
         }, {
@@ -2277,9 +2289,6 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
           "val" : "16.02262"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "16.019"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "H2N"
@@ -2290,6 +2299,33 @@
       },
       "type" : "CLASS",
       "lbl" : "azanide"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_23357",
+      "meta" : {
+        "definition" : {
+          "val" : "An organic molecule or ion (usually a metal ion) that is required by an enzyme for its activity. It may be attached either loosely (coenzyme) or tightly (prosthetic group).",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "Wikipedia:Cofactor_(biochemistry)"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cofactors",
+          "xrefs" : [ "IUPAC" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cofactor",
+          "xrefs" : [ "IUPAC" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "cofactor"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_76969",
       "meta" : {
@@ -2668,9 +2704,6 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
           "val" : "17.03056"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "17.027"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "H3N"
         }, {
@@ -2697,6 +2730,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
           "val" : "QGZKDVFQNNGYKY-UHFFFAOYSA-N"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "17.02655"
         } ]
       },
       "type" : "CLASS",
@@ -2952,11 +2988,11 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
           "val" : "[N--][H]"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "15.01200"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/HN/h1H/q-2"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "15.011"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "HN"
@@ -3614,7 +3650,7 @@
           "val" : "CHEBI:22534"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "18.034"
+          "val" : "18.03383"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "H4N"
@@ -4548,11 +4584,11 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/C17H21NO4/c1-18-12-8-9-13(18)15(17(20)21-2)14(10-12)22-16(19)11-6-4-3-5-7-11/h3-7,12-15H,8-10H2,1-2H3/p+1/t12-,13+,14-,15+/m0/s1"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "304.155"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
           "val" : "304.36090"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "304.15433"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
           "val" : "ZPUCINDJVBIVPJ-LJISPDSOSA-O"
@@ -4618,14 +4654,14 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
           "val" : "17.00734"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "17.003"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:43171"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:24706"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "17.00274"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
@@ -4671,14 +4707,14 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
           "val" : "0"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "31.018"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:8406"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:26262"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "31.01839"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:14887"
@@ -4907,7 +4943,7 @@
           "val" : "chebi_ontology"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "19.018"
+          "val" : "19.01784"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
           "val" : "XLYOFNOQVPJJNP-UHFFFAOYSA-O"
@@ -4991,9 +5027,6 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
           "val" : "[C]"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "12.000"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
           "val" : "OKTJSMMVPCPJKN-UHFFFAOYSA-N"
         }, {
@@ -5008,6 +5041,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
           "val" : "12.01070"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "12.00000"
         } ]
       },
       "type" : "CLASS",
@@ -5159,7 +5195,7 @@
           "val" : "C17H20NO3"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "286.144"
+          "val" : "286.14377"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
@@ -5335,9 +5371,6 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/C17H19NO3/c1-18-7-6-17-10-3-5-13(20)16(17)21-15-12(19)4-2-9(14(15)17)8-11(10)18/h2-5,10-11,13,16,19-20H,6-8H2,1H3/t10-,11+,13-,16-,17-/m0/s1"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "285.136"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:25419"
         }, {
@@ -5358,6 +5391,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "C17H19NO3"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "285.13649"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:44202"
@@ -5388,11 +5424,11 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
           "val" : "*C([O-])=O"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "43.98983"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "CO2R"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "43.990"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
           "val" : "-1"
@@ -5441,6 +5477,9 @@
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "17.00274"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
           "val" : "17.007"
         }, {
@@ -5449,9 +5488,6 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "HOR"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "17.003"
         } ]
       },
       "type" : "CLASS",
@@ -5614,7 +5650,7 @@
           "val" : "NINIDFKCEFEMDL-UHFFFAOYSA-N"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "31.972"
+          "val" : "31.97207"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
           "val" : "0"
@@ -5804,6 +5840,26 @@
         } ]
       },
       "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_88188",
+      "meta" : {
+        "definition" : {
+          "val" : "Any drug which causes the onset of an allergic reaction.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "allergenic drug",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "drug allergen"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_33242",
       "meta" : {
@@ -6049,11 +6105,11 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
           "val" : "C[NH+]1CCC[C@@H]1c1cccnc1"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "163.124"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "C10H15N2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "163.12297"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/C10H14N2/c1-12-7-3-5-10(12)9-4-2-6-11-8-9/h2,4,6,8,10H,3,5,7H2,1H3/p+1/t10-/m1/s1"
@@ -6341,11 +6397,11 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/C2H5O/c1-2-3/h2H2,1H3/q-1"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "45.03459"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
           "val" : "HHFAWKCIHAUFRX-UHFFFAOYSA-N"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "45.034"
         } ]
       },
       "type" : "CLASS",
@@ -6526,9 +6582,6 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "CHO2R"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "44.998"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
           "val" : "45.01740"
         }, {
@@ -6540,6 +6593,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:13627"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "44.99765"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
@@ -6880,6 +6936,9 @@
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "162.11570"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "C10H14N2"
         }, {
@@ -6888,9 +6947,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:7562"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "162.116"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
           "val" : "SNICXCGAKADSCV-JTQLQIEISA-N"
@@ -7216,9 +7272,6 @@
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:42377"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "46.042"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3"
         }, {
@@ -7227,6 +7280,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
           "val" : "46.06844"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "46.04186"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
           "val" : "LFQSCWFLJHTTHZ-UHFFFAOYSA-N"
@@ -7257,11 +7313,11 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/CH3O/c1-2/h1H3/q-1"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "31.01894"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
           "val" : "NBTOZLQBSIZIKS-UHFFFAOYSA-N"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "31.018"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
           "val" : "-1"
@@ -7361,14 +7417,14 @@
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:13365"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "17.00329"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:13419"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "HO"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "17.003"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
           "val" : "17.00734"
@@ -7424,11 +7480,11 @@
           "xrefs" : [ "ChEBI" ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "105.95989"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
           "val" : "0"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "105.960"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "CNO3SR3"
@@ -7571,14 +7627,14 @@
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:41420"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "44.998"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "CHO2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "44.99765"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
           "val" : "45.01744"
@@ -7617,14 +7673,14 @@
           "xrefs" : [ "IUPAC" ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "17.003"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
           "val" : "0"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:13804"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "17.00274"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:22288"
@@ -7634,6 +7690,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "HOR"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "17.007"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
           "val" : "O[*]"
@@ -7657,11 +7716,11 @@
           "xrefs" : [ "IUPAC" ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "227.167"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/C16H21N/c1-2-6-13-12(5-1)11-15-14-7-3-4-8-16(13,14)9-10-17-15/h1-2,5-6,14-15,17H,3-4,7-11H2/t14-,15+,16-/m0/s1"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "227.16740"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
@@ -7712,6 +7771,37 @@
       },
       "type" : "CLASS",
       "lbl" : "teratogenic agent"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_50904",
+      "meta" : {
+        "definition" : {
+          "val" : "A chemical compound, or part thereof, which causes the onset of an allergic reaction by interacting with any of the molecular pathways involved in an allergy.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
+        "xrefs" : [ {
+          "val" : "Wikipedia:Allergen"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "alergeno",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "allergenic agent",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "allergene",
+          "xrefs" : [ "ChEBI" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "allergen"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_35406",
       "meta" : {
@@ -8127,9 +8217,6 @@
           "xrefs" : [ "KEGG_COMPOUND" ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "18.011"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
           "val" : "18.01530"
         }, {
@@ -8168,6 +8255,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:10743"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "18.01056"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/H2O/h1H2"
@@ -8380,7 +8470,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "32.026"
+          "val" : "32.02621"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
@@ -9085,6 +9175,9 @@
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "43.98983"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "CO2R"
         }, {
@@ -9102,9 +9195,6 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:13626"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "43.990"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
           "val" : "-1"
@@ -9244,11 +9334,11 @@
           "xrefs" : [ "ChemIDplus" ]
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "Benzoylsulfonic Imide",
+          "val" : "2,3-Dihydro-3-oxobenzisosulphonazole",
           "xrefs" : [ "ChemIDplus" ]
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "2,3-Dihydro-3-oxobenzisosulphonazole",
+          "val" : "Benzoylsulfonic Imide",
           "xrefs" : [ "ChemIDplus" ]
         }, {
           "pred" : "hasRelatedSynonym",
@@ -9301,7 +9391,7 @@
           "val" : "C7H5NO3S"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "182.999"
+          "val" : "182.99901"
         } ]
       },
       "type" : "CLASS",
@@ -9505,9 +9595,6 @@
           "xrefs" : [ "IUPAC" ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "15.995"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:29353"
         }, {
@@ -9522,6 +9609,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
           "val" : "0"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "15.99491"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "O"
@@ -9661,14 +9751,14 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
           "val" : "SNICXCGAKADSCV-JTQLQIEISA-O"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "163.12297"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
           "val" : "+1"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "163.124"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/C10H14N2/c1-12-7-3-5-10(12)9-4-2-6-11-8-9/h2,4,6,8,10H,3,5,7H2,1H3/p+1/t10-/m0/s1"
@@ -9863,9 +9953,6 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
           "val" : "0"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "162.116"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/C10H14N2/c1-12-7-3-5-10(12)9-4-2-6-11-8-9/h2,4,6,8,10H,3,5,7H2,1H3"
         }, {
@@ -9874,6 +9961,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "162.11570"
         } ]
       },
       "type" : "CLASS",
@@ -9997,11 +10087,14 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
           "val" : "COC([*])=O"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "59.01330"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "C2H3O2R"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "59.013"
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "59.044"
         } ]
       },
       "type" : "CLASS",
@@ -10224,9 +10317,6 @@
           "xrefs" : [ "ChEBI" ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "43.990"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
           "val" : "[*]C(=O)O[*]"
         }, {
@@ -10236,8 +10326,14 @@
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "chebi_ontology"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "43.98983"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:3408"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
+          "val" : "44.010"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "CHEBI:23028"
@@ -10479,9 +10575,9 @@
         }, {
           "val" : "PMID:19287496"
         }, {
-          "val" : "PMID:17206646"
-        }, {
           "val" : "PMID:17942810"
+        }, {
+          "val" : "PMID:17206646"
         }, {
           "val" : "KEGG:C16150"
         }, {
@@ -10774,9 +10870,6 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/smiles",
           "val" : "[O]"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
-          "val" : "15.995"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchikey",
           "val" : "QVGXLLKOCUKJST-UHFFFAOYSA-N"
         }, {
@@ -10794,6 +10887,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/O"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/monoisotopicmass",
+          "val" : "15.99491"
         } ]
       },
       "type" : "CLASS",
@@ -11412,6 +11508,10 @@
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_39162"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_28938",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23357"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16236",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_48218"
@@ -11511,6 +11611,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36914",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24870"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_50904",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_52209"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_76924",
       "pred" : "is_a",
@@ -11615,6 +11719,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33252",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33253"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_23357",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_52206"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33245",
       "pred" : "is_a",
@@ -12028,13 +12136,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_134179"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_17688",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_76924"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17790",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_75771"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_17688",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_76924"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_28938",
       "pred" : "is_a",
@@ -12107,6 +12215,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59740",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33893"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_17303",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_88188"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36962",
       "pred" : "is_a",
@@ -12260,13 +12372,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_51086"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_17790",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_22712",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33836"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_17790",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_22723",
       "pred" : "is_a",
@@ -12275,6 +12387,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_138000",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_26416"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_88188",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_23888"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29412",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
@@ -12620,6 +12736,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33232"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_88188",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_50904"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_52092",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_16236"
@@ -12952,13 +13072,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50996"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25805",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25585"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33702",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36916"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_25805",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_25585"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_52090",
       "pred" : "is_a",
@@ -13000,13 +13120,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_38867"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_62732",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33659"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_26456",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_38260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_62732",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33659"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_51447",
       "pred" : "is_a",
@@ -13053,7 +13173,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/nbo/releases/2019-02-18/imports/chebi_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/nbo/releases/2019-08-05/imports/chebi_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

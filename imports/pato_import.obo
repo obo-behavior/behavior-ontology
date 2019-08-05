@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: nbo/releases/2019-02-18/imports/pato_import.owl
+data-version: nbo/releases/2019-08-05/imports/pato_import.owl
 ontology: nbo/imports/pato_import
 
 [Term]
@@ -92,6 +92,17 @@ subset: attribute_slim
 subset: relational_slim
 subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
+
+[Term]
+id: PATO:0000141
+name: structure
+namespace: quality
+alt_id: PATO:0001452
+def: "A morphology quality inhering in a bearer by virtue of the bearer's relative position, shape, arrangements and connectivity of an organism's various parts; the pattern underlying its form." [PATOC:GVG]
+subset: attribute_slim
+synonym: "conformation" BROAD [VT:1000738]
+synonym: "relational structural quality" EXACT []
+is_a: PATO:0000051 ! morphology
 
 [Term]
 id: PATO:0000146
@@ -198,6 +209,19 @@ subset: mpath_slim
 subset: value_slim
 is_a: PATO:0001309 ! duration
 relationship: is_opposite_of PATO:0001863 ! chronic
+
+[Term]
+id: PATO:0000402
+name: branched
+namespace: quality
+def: "A branchiness quality inhering in a bearer by virtue of the bearer's having branches." [WordNet:WordNet]
+subset: cell_quality
+subset: mpath_slim
+subset: value_slim
+synonym: "ramified" EXACT []
+synonym: "ramiform" EXACT []
+is_a: PATO:0002009 ! branchiness
+relationship: is_opposite_of PATO:0000414
 
 [Term]
 id: PATO:0000460
@@ -628,6 +652,15 @@ def: "A quality that inheres in an entire organism or part of an organism." [PAT
 is_a: PATO:0001241 ! physical object quality
 
 [Term]
+id: PATO:0002009
+name: branchiness
+namespace: quality
+def: "A shape quality inhering in a bearer by virtue of the degree to which there are subdivisions or offshoots in a bearer entity." [PATOC:MAH]
+subset: attribute_slim
+subset: cell_quality
+is_a: PATO:0000052 ! shape
+
+[Term]
 id: PATO:0002062
 name: physical quality of a process
 namespace: quality
@@ -635,6 +668,17 @@ subset: attribute_slim
 is_a: PATO:0001236 ! process quality
 created_by: george
 creation_date: 2009-06-05T09:16:46Z
+
+[Term]
+id: PATO:0002124
+name: laminar
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the bearer's processing the form of a thin plate sheet or layer." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000141 ! structure
+created_by: george
+creation_date: 2009-10-06T04:37:14Z
 
 [Term]
 id: PATO:0002198

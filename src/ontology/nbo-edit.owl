@@ -15344,15 +15344,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0009003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000089"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0015003"/>
         <obo:IAO_0000115>A predator behavior involving actively stalking prey over a distance.</obo:IAO_0000115>
         <created_by>Nicolas Matentzoglu</created_by>
         <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
         <dc:date>2019-03-11T13:51:02Z</dc:date>
         <rdfs:label xml:lang="en">hunting behavior</rdfs:label>
     </owl:Class>
-    <rdf:Description>
-        <synonymtype>EXACT</synonymtype>
-    </rdf:Description>
     
 
 
@@ -15366,10 +15364,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2019-03-11T13:51:02Z</dc:date>
         <rdfs:label xml:lang="en">ambush behavior</rdfs:label>
     </owl:Class>
-    <rdf:Description>
-        <synonymtype>EXACT</synonymtype>
-      </rdf:Description>
-      
+    
 
 
     <!-- http://www.purl.obolibrary.org/obo/NBO_0015001 -->
@@ -15382,9 +15377,6 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2019-03-11T13:51:02Z</dc:date>
         <rdfs:label xml:lang="en">predator avoidance behavior</rdfs:label>
     </owl:Class>
-    <rdf:Description>
-        <synonymtype>EXACT</synonymtype>
-      </rdf:Description>
       
 
 
@@ -15398,9 +15390,19 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2019-03-11T13:51:02Z</dc:date>
         <rdfs:label xml:lang="en">trapping behavior</rdfs:label>
     </owl:Class>
-    <rdf:Description>
-        <synonymtype>EXACT</synonymtype>
-    </rdf:Description>
+    
+    
+    
+    <!-- http://www.purl.obolibrary.org/obo/NBO_0015003 -->
+
+     <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0015003">
+               <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
+               <obo:IAO_0000115>Feeding behavior during which a living entity acquires food and energy by actively searching for food resources.</obo:IAO_0000115>
+               <created_by>https://orcid.org/0000-0002-7356-1779</created_by>
+               <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+               <dc:date>2019-08-04T13:51:02Z</dc:date>
+               <rdfs:label xml:lang="en">active foraging behavior</rdfs:label>
+     </owl:Class>
 
 
     <!-- 

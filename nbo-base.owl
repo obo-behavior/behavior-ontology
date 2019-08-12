@@ -11,7 +11,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/nbo/nbo-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/nbo/releases/2019-02-18/nbo-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/nbo/releases/2019-08-05/nbo-base.owl"/>
         <oboInOwl:remark rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2018-05-11</oboInOwl:remark>
         <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO</oboInOwl:treat-xrefs-as-equivalent>
     </owl:Ontology>
@@ -77,6 +77,12 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/date -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
@@ -122,6 +128,18 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#note -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#note"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#remark -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#remark"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent"/>
     
 
 
@@ -1309,12 +1327,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000280"/>
+        <obo:IAO_0000115>A behavior that occurs between two individuals, such as parent and child, and involves an emotional attachment that implies a special and focused relationship.</obo:IAO_0000115>
         <nbo:created_by>George Gkoutos</nbo:created_by>
         <nbo:namespace>behavior_ontology</nbo:namespace>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:hasExactSynonym>forming of peer relationship</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bonding behavior</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000043"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A behavior that occurs between two individuals, such as parent and child, and involves an emotional attachment that implies a special and focused relationship.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:29327315</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -14175,6 +14200,12 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0015003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0015003"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0020007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0020007">
@@ -15332,9 +15363,72 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <nbo:IAO_0000115>Deactiviation of locomotory behavior.</nbo:IAO_0000115>
         <rdfs:label xml:lang="en">locomotor inactivation behavior</rdfs:label>
     </owl:Class>
-    <rdf:Description>
-        <nbo:synonymtype>EXACT</nbo:synonymtype>
-    </rdf:Description>
+    
+
+
+    <!-- http://www.purl.obolibrary.org/obo/NBO_0009003 -->
+
+    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0009003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000089"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0015003"/>
+        <obo:IAO_0000115>A predator behavior involving actively stalking prey over a distance.</obo:IAO_0000115>
+        <nbo:created_by>Nicolas Matentzoglu</nbo:created_by>
+        <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+        <dc:date>2019-03-11T13:51:02Z</dc:date>
+        <rdfs:label xml:lang="en">hunting behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.purl.obolibrary.org/obo/NBO_0015000 -->
+
+    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0015000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000089"/>
+        <obo:IAO_0000115>A predator behavior involving a surprise attack on unsuspecting prey. The predator remains in one place and waits for prey to come near. The predator conceals itself and then subdues its prey with its own body or body parts.</obo:IAO_0000115>
+        <nbo:created_by>Nicolas Matentzoglu</nbo:created_by>
+        <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+        <dc:date>2019-03-11T13:51:02Z</dc:date>
+        <rdfs:label xml:lang="en">ambush behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.purl.obolibrary.org/obo/NBO_0015001 -->
+
+    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0015001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000635"/>
+        <obo:IAO_0000115>An avoidance behavior engaged in by prey that reduces the success of a predator without the prey actually attacking the predator.</obo:IAO_0000115>
+        <nbo:created_by>Nicolas Matentzoglu</nbo:created_by>
+        <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+        <dc:date>2019-03-11T13:51:02Z</dc:date>
+        <rdfs:label xml:lang="en">predator avoidance behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.purl.obolibrary.org/obo/NBO_0015002 -->
+
+    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0015002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000089"/>
+        <obo:IAO_0000115>A predator behavior involving subduing prey using a structure or modification of the environment created by the predator for that purpose.</obo:IAO_0000115>
+        <nbo:created_by>Nicolas Matentzoglu</nbo:created_by>
+        <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+        <dc:date>2019-03-11T13:51:02Z</dc:date>
+        <rdfs:label xml:lang="en">trapping behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.purl.obolibrary.org/obo/NBO_0015003 -->
+
+    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0015003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
+        <obo:IAO_0000115>Feeding behavior during which a living entity acquires food and energy by actively searching for food resources.</obo:IAO_0000115>
+        <nbo:created_by>https://orcid.org/0000-0002-7356-1779</nbo:created_by>
+        <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+        <dc:date>2019-08-04T13:51:02Z</dc:date>
+        <rdfs:label xml:lang="en">active foraging behavior</rdfs:label>
+    </owl:Class>
     
 
 

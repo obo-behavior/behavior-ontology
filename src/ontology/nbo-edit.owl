@@ -15321,9 +15321,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl#NBO_0009001 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0009001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#NBO_0009001">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0009001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000002"/>
         <rdfs:label xml:lang="en">rotation behavior</rdfs:label>
     </owl:Class>
@@ -15332,7 +15332,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <!-- http://purl.obolibrary.org/obo/nbo.owl#NBO_0009002 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#NBO_0009002">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0009002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>
         <IAO_0000115>Deactiviation of locomotory behavior.</IAO_0000115>
         <rdfs:label xml:lang="en">locomotor inactivation behavior</rdfs:label>
@@ -15340,9 +15340,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://www.purl.obolibrary.org/obo/NBO_0009003 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0009003 -->
 
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0009003">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0009003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000089"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0015003"/>
         <obo:IAO_0000115>A predator behavior involving actively stalking prey over a distance.</obo:IAO_0000115>
@@ -15354,9 +15354,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://www.purl.obolibrary.org/obo/NBO_0015000 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0015000 -->
 
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0015000">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0015000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000089"/>
         <obo:IAO_0000115>A predator behavior involving a surprise attack on unsuspecting prey. The predator remains in one place and waits for prey to come near. The predator conceals itself and then subdues its prey with its own body or body parts.</obo:IAO_0000115>
         <created_by>Nicolas Matentzoglu</created_by>
@@ -15367,9 +15367,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://www.purl.obolibrary.org/obo/NBO_0015001 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0015001 -->
 
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0015001">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0015001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000635"/>
         <obo:IAO_0000115>An avoidance behavior engaged in by prey that reduces the success of a predator without the prey actually attacking the predator.</obo:IAO_0000115>
         <created_by>Nicolas Matentzoglu</created_by>
@@ -15380,9 +15380,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
       
 
 
-    <!-- http://www.purl.obolibrary.org/obo/NBO_0015002 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0015002 -->
 
-    <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0015002">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0015002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000089"/>
         <obo:IAO_0000115>A predator behavior involving subduing prey using a structure or modification of the environment created by the predator for that purpose.</obo:IAO_0000115>
         <created_by>Nicolas Matentzoglu</created_by>
@@ -15393,9 +15393,9 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
     
     
-    <!-- http://www.purl.obolibrary.org/obo/NBO_0015003 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0015003 -->
 
-     <owl:Class rdf:about="http://www.purl.obolibrary.org/obo/NBO_0015003">
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0015003">
                <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
                <obo:IAO_0000115>Feeding behavior during which a living entity acquires food and energy by actively searching for food resources.</obo:IAO_0000115>
                <created_by>https://orcid.org/0000-0002-7356-1779</created_by>
@@ -15403,8 +15403,75 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                <dc:date>2019-08-04T13:51:02Z</dc:date>
                <rdfs:label xml:lang="en">active foraging behavior</rdfs:label>
      </owl:Class>
+     
+     
+     <!-- http://purl.obolibrary.org/obo/NBO_0015004 -->
 
+      <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0015004">
+                <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000079"/>
+                <obo:IAO_0000115>Feeding behavior during which a living entity acquires food and energy by actively searching for food resources.</obo:IAO_0000115>
+                <created_by>https://orcid.org/0000-0002-7356-1779</created_by>
+                <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+                <dc:date>2019-08-04T13:51:02Z</dc:date>
+                <rdfs:label xml:lang="en">active foraging behavior</rdfs:label>
+      </owl:Class>
 
+      <!-- http://purl.obolibrary.org/obo/NBO_0015005 -->
+
+       <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0015005">
+                 <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001845"/>
+                 <obo:IAO_0000115>Consumption behavior that involves inhaling a material (such as finely ground tobacco leaves) through the nose.</obo:IAO_0000115>
+                 <created_by>https://orcid.org/0000-0002-7356-1779</created_by>
+                 <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+                 <dc:date>2019-09-06T10:51:02Z</dc:date>
+                 <rdfs:label xml:lang="en">smoking behavior</rdfs:label>
+       </owl:Class>
+
+       <!-- http://purl.obolibrary.org/obo/NBO_0015006 -->
+
+        <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0015006">
+                  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0015005"/>
+                  <obo:IAO_0000115>Smoking behavior that involves burning a substance such as tobacco and tasting or inhaling the smoke through a pipe.</obo:IAO_0000115>
+                  <created_by>https://orcid.org/0000-0002-7356-1779</created_by>
+                  <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+                  <dc:date>2019-09-06T10:51:02Z</dc:date>
+                  <rdfs:label xml:lang="en">pipe smoking behavior</rdfs:label>
+        </owl:Class>
+        
+        <!-- http://purl.obolibrary.org/obo/NBO_0015007 -->
+
+         <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0015007">
+                   <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0015005"/>
+                   <obo:IAO_0000115>Smoking behavior that involves burning a substance such as tobacco wrapped in paper and inhaling the smoke.</obo:IAO_0000115>
+                   <created_by>https://orcid.org/0000-0002-7356-1779</created_by>
+                   <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+                   <dc:date>2019-09-06T10:51:02Z</dc:date>
+                   <rdfs:label xml:lang="en">cigarette smoking behavior</rdfs:label>
+         </owl:Class>
+         
+         <!-- http://purl.obolibrary.org/obo/NBO_0015008 -->
+
+          <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0015008">
+                    <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0015005"/>
+                    <obo:IAO_0000115>Smoking behavior that involves burning a substance such as tobacco wrapped in tobacco leaf and inhaling the smoke.</obo:IAO_0000115>
+                    <created_by>https://orcid.org/0000-0002-7356-1779</created_by>
+                    <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+                    <dc:date>2019-09-06T10:51:02Z</dc:date>
+                    <rdfs:label xml:lang="en">cigar smoking behavior</rdfs:label>
+          </owl:Class>
+          
+          
+          <!-- http://purl.obolibrary.org/obo/NBO_0015009 -->
+
+           <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0015009">
+                     <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001845"/>
+                     <obo:IAO_0000115>Consumption behavior that involves inhaling a material (such as finely ground tobacco leaves) through the nose.</obo:IAO_0000115>
+                     <created_by>https://orcid.org/0000-0002-7356-1779</created_by>
+                     <dc:contributor>http://orcid.org/0000-0002-2908-3327</dc:contributor>
+                     <dc:date>2019-09-06T10:51:02Z</dc:date>
+                     <rdfs:label xml:lang="en">snuffing behavior</rdfs:label>
+           </owl:Class>
+         
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //

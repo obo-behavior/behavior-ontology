@@ -15330,7 +15330,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/nbo.owl#NBO_0009002 -->
+    <!-- http://purl.obolibrary.org/obo/NBO_0009002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0009002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000338"/>

@@ -1,4 +1,8 @@
 Level	Rule Name	Subject	Property	Value
+ERROR	duplicate_definition	NBO:0015003	IAO:0000115	Feeding behavior during which a living entity acquires food and energy by actively searching for food resources.	
+ERROR	duplicate_definition	NBO:0015004	IAO:0000115	Feeding behavior during which a living entity acquires food and energy by actively searching for food resources.	
+ERROR	duplicate_definition	NBO:0015005	IAO:0000115	Consumption behavior that involves inhaling a material (such as finely ground tobacco leaves) through the nose.	
+ERROR	duplicate_definition	NBO:0015009	IAO:0000115	Consumption behavior that involves inhaling a material (such as finely ground tobacco leaves) through the nose.	
 ERROR	duplicate_definition	UBERON:0001606	IAO:0000115	.	
 ERROR	duplicate_definition	UBERON:0004133	IAO:0000115	.	
 ERROR	duplicate_definition	UBERON:0005095	IAO:0000115	.	
@@ -8,14 +12,13 @@ ERROR	duplicate_definition	UBERON:0010291	IAO:0000115	.
 ERROR	duplicate_definition	http://purl.obolibrary.org/obo/uberon/core#transitively_anteriorly_connected_to	IAO:0000115	.	
 ERROR	duplicate_definition	http://purl.obolibrary.org/obo/uberon/core#transitively_distally_connected_to	IAO:0000115	.	
 ERROR	duplicate_definition	http://purl.obolibrary.org/obo/uberon/core#transitively_proximally_connected_to	IAO:0000115	.	
-ERROR	multiple_equivalent_classes	UBERON:0015021	owl:equivalentClass	7ddd13400af52addeae6a8a57d22546a	
-ERROR	multiple_equivalent_classes	UBERON:0015021	owl:equivalentClass	90ae399e8d0f97a29341f5ea07cf0092	
-ERROR	multiple_equivalent_classes	UBERON:0015022	owl:equivalentClass	b82369c7cad5698c3f97ded047ac6f8a	
-ERROR	multiple_equivalent_classes	UBERON:0015022	owl:equivalentClass	bca271963e9541f0865a667b1eb785f2	
-ERROR	multiple_equivalent_classes	UBERON:0015061	owl:equivalentClass	2f2883dea1724b9239fe019af6cca4f1	
-ERROR	multiple_equivalent_classes	UBERON:0015061	owl:equivalentClass	ab067e5e4c4564a213c17324bb6873cc	
+ERROR	multiple_equivalent_classes	UBERON:0015021	owl:equivalentClass	c102165756f7e602c9b5f9e8f3813ec0	
+ERROR	multiple_equivalent_classes	UBERON:0015021	owl:equivalentClass	cb4ac2b0fe6e0ca19f9f25c6ea243b40	
+ERROR	multiple_equivalent_classes	UBERON:0015022	owl:equivalentClass	5a3b92cacedcd11b6e7653d46000ab2f	
+ERROR	multiple_equivalent_classes	UBERON:0015022	owl:equivalentClass	8aed4379ad01599991722210653ac5e4	
+ERROR	multiple_equivalent_classes	UBERON:0015061	owl:equivalentClass	044c1f0fcd441ab69a3ea38e832074df	
+ERROR	multiple_equivalent_classes	UBERON:0015061	owl:equivalentClass	5eb5fd1037fb844225be887b27934876	
 ERROR	deprecated_property_reference	RO:0002218	owl:inverseOf	RO:0002217	
-ERROR	missing_label	NBO:0015003	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/chebi#1_STAR	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/chebi#3_STAR	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate	rdfs:label		
@@ -34,6 +37,7 @@ ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_pombe	rdfs:label
 ERROR	missing_label	http://purl.obolibrary.org/obo/go#goslim_yeast	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#abnormal_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#attribute_slim	rdfs:label		
+ERROR	missing_label	http://purl.obolibrary.org/obo/pato#cell_quality	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#disposition_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#hpo_slim	rdfs:label		
 ERROR	missing_label	http://purl.obolibrary.org/obo/pato#mpath_slim	rdfs:label		
@@ -104,6 +108,8 @@ ERROR	duplicate_label	GO:0031223	rdfs:label	auditory behavior
 ERROR	duplicate_label	NBO:0000316	rdfs:label	auditory behavior	
 ERROR	duplicate_label	GO:0002118	rdfs:label	aggressive behavior	
 ERROR	duplicate_label	NBO:0000015	rdfs:label	aggressive behavior	
+ERROR	duplicate_label	NBO:0015003	rdfs:label	active foraging behavior@en	
+ERROR	duplicate_label	NBO:0015004	rdfs:label	active foraging behavior@en	
 ERROR	multiple_definitions	BFO:0000051	IAO:0000115	Q1 has_part Q2 if and only if: every instance of Q1 is a quality_of an entity that has_quality some Q2.	
 ERROR	multiple_definitions	BFO:0000051	IAO:0000115	a core relation that holds between a whole and its part@en	
 ERROR	multiple_definitions	BFO:0000062	IAO:0000115	X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)	
@@ -288,7 +294,7 @@ ERROR	multiple_labels	RO:0003000	rdfs:label	produces
 ERROR	multiple_labels	RO:0003000	rdfs:label	produces@en	
 ERROR	multiple_labels	RO:0003001	rdfs:label	produced by@en	
 ERROR	multiple_labels	RO:0003001	rdfs:label	produced_by	
-WARN	annotation_whitespace	9c7c125cf33c79d9ecb723f75ca6b2de	oboInOwl:source	DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) 	
+WARN	annotation_whitespace	45f96b5e4446d6c628d6db792566ba46	oboInOwl:source	DOI:10.1146/annurev.cellbio.22.010605.093317 Hartenstein V, Blood cells and blood cell development in the animal kingdom. Annual review of cell and developmental biology (2006) 	
 WARN	annotation_whitespace	RO:0001018	IAO:0000116	Intended meaning:    domain: material entity    range: spatial region or site (immaterial continuant)            @en	
 WARN	annotation_whitespace	RO:0002163	IAO:0000116	There are two ways to encode this as a shortcut relation. The other possibility to use an annotation assertion between two classes, and expand this to a disjointness axiom. @en	
 WARN	annotation_whitespace	RO:0002215	IAO:0000115	A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. 	
@@ -1244,7 +1250,8 @@ WARN	missing_definition	NBO:0003104	IAO:0000115
 WARN	missing_definition	NBO:0003142	IAO:0000115		
 WARN	missing_definition	NBO:0003161	IAO:0000115		
 WARN	missing_definition	NBO:0003194	IAO:0000115		
-WARN	missing_definition	NBO:0015003	IAO:0000115		
+WARN	missing_definition	NBO:0009001	IAO:0000115		
+WARN	missing_definition	NBO:0009002	IAO:0000115		
 WARN	missing_definition	NBO:0020007	IAO:0000115		
 WARN	missing_definition	NBO:0020010	IAO:0000115		
 WARN	missing_definition	NBO:0020015	IAO:0000115		
@@ -1491,10 +1498,9 @@ WARN	missing_definition	http://purl.obolibrary.org/obo/nbo#has_participant	IAO:0
 WARN	missing_definition	http://purl.obolibrary.org/obo/nbo#in_response_to	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/nbo#is_about	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/nbo#qualifier	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/nbo.owl#NBO_0009001	IAO:0000115		
-WARN	missing_definition	http://purl.obolibrary.org/obo/nbo.owl#NBO_0009002	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#abnormal_slim	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#attribute_slim	IAO:0000115		
+WARN	missing_definition	http://purl.obolibrary.org/obo/pato#cell_quality	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#disposition_slim	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#hpo_slim	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/pato#mpath_slim	IAO:0000115		
@@ -1817,6 +1823,7 @@ INFO	lowercase_definition	UBPROP:0000103	IAO:0000115	x pharyngeal_arch_number N 
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to	IAO:0000115	q1 decreased_in_magnitude_relative_to q2 if and only if magnitude(q1) < magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.	
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/pato#different_in_magnitude_relative_to	IAO:0000115	q1 different_in_magnitude_relative_to q2 if and only if magnitude(q1) NOT =~ magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.	
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to	IAO:0000115	q1 increased_in_magnitude_relative_to q2 if and only if magnitude(q1) > magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.	
+INFO	lowercase_definition	http://purl.obolibrary.org/obo/pato#reciprocal_of	IAO:0000115	q1 reciprocal_of q2 if and only if : q1 and q2 are relational qualities and a phenotype e q1 e2 mutually implies a phenotype e2 q2 e.	
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/uberon/core#anteriorly_connected_to	IAO:0000115	x anteriorly_connected_to y iff the anterior part of x is connected to y. i.e. x connected_to y and x posterior_to y.	
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/uberon/core#conduit_for	IAO:0000115	x is a conduit for y iff y passes through the lumen of x.	
 INFO	lowercase_definition	http://purl.obolibrary.org/obo/uberon/core#distally_connected_to	IAO:0000115	x distally_connected_to y iff the distal part of x is connected to y. i.e. x connected_to y and x proximal_to y.	

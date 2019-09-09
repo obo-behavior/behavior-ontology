@@ -1154,11 +1154,11 @@
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "C10H14N2"
         }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "chebi_ontology"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
           "val" : "162.23160"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "chebi_ontology"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/charge",
           "val" : "0"
@@ -3625,16 +3625,16 @@
           "xrefs" : [ "IUPAC" ]
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "ammonium ion",
+          "xrefs" : [ "PDBeChem" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "NH4(+)",
           "xrefs" : [ "IUPAC" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "NH4+",
           "xrefs" : [ "KEGG_COMPOUND" ]
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "AMMONIUM ION",
-          "xrefs" : [ "PDBeChem" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/chebi/mass",
@@ -9972,13 +9972,25 @@
       "id" : "http://purl.obolibrary.org/obo/CHEBI_35274",
       "meta" : {
         "definition" : {
-          "val" : "Ammonium, NH4(+), and derivatives formed by substitution by univalent groups.",
+          "val" : "A derivative of ammonium, NH4(+), in which one (or more) of the hydrogens bonded to the nitrogen have been replaced with univalent organyl groups. The substituting carbon of the organyl group must not itself be directly attached to a heteroatom (thereby excluding protonated amides, hemiaminals, etc).",
           "xrefs" : [ ]
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
+          "val" : "ammonium ion derivatives",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
           "val" : "azanium ions",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "azanium ion derivatives",
+          "xrefs" : [ "ChEBI" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "azanium ion derivative",
           "xrefs" : [ "ChEBI" ]
         }, {
           "pred" : "hasRelatedSynonym",
@@ -9991,7 +10003,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "ammonium ion"
+      "lbl" : "ammonium ion derivative"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_37332",
       "meta" : {
@@ -11368,6 +11380,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_25696"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_35274",
+      "pred" : "http://purl.obolibrary.org/obo/chebi#has_parent_hydride",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_28938"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_76969",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_75787"
@@ -11392,13 +11408,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_25697"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24532",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_5686"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29337",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29340"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24532",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_5686"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_48218",
       "pred" : "is_a",
@@ -11560,13 +11576,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_25418"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_37332",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_22315"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_50047",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_39142"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_37332",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_22315"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16134",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -12020,13 +12036,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33232"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_50047",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35352"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_18723",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50905"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_50047",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35352"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_38106",
       "pred" : "is_a",
@@ -12224,13 +12240,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33304"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33560",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33318"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33859",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33659"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33560",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33318"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_18723",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -12419,10 +12435,6 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_35649",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_38515"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_28938",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_35274"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_38295",
       "pred" : "is_a",
@@ -13008,13 +13020,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_59163"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_60056",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59806",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_enantiomer_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_79008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_60056",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_77746"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_33285",
       "pred" : "is_a",
@@ -13072,13 +13084,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_50996"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33702",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36916"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_25805",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_25585"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_33702",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36916"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_52090",
       "pred" : "is_a",
@@ -13173,7 +13185,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/nbo/releases/2019-08-05/imports/chebi_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/nbo/releases/2019-09-09/imports/chebi_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

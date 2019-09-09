@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: nbo/releases/2019-08-05/nbo-base.owl
+data-version: nbo/releases/2019-09-09/nbo-base.owl
 treat-xrefs-as-equivalent: GO
 remark: 2018-05-11
 ontology: nbo/nbo-base
@@ -7917,6 +7917,17 @@ property_value: created_by "George Gkoutos" xsd:string
 property_value: IAO_0000115 "\"Any process that modulates the frequency, rate or extent of withdrawal response.\" [NBOC:GVG]" xsd:string
 
 [Term]
+id: NBO:0009001
+name: rotation behavior
+is_a: NBO:0000002 ! whole body movement
+
+[Term]
+id: NBO:0009002
+name: locomotor inactivation behavior
+is_a: NBO:0000338 ! kinesthetic behavior
+property_value: IAO_0000115 "Deactiviation of locomotory behavior." xsd:string
+
+[Term]
 id: NBO:0009003
 name: hunting behavior
 def: "A predator behavior involving actively stalking prey over a distance." []
@@ -7961,6 +7972,60 @@ is_a: NBO:0000079 ! feeding behavior
 property_value: created_by https://orcid.org/0000-0002-7356-1779 xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327 xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2019-08-04T13:51:02Z xsd:string
+
+[Term]
+id: NBO:0015004
+name: active foraging behavior
+def: "Feeding behavior during which a living entity acquires food and energy by actively searching for food resources." []
+is_a: NBO:0000079 ! feeding behavior
+property_value: created_by https://orcid.org/0000-0002-7356-1779 xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-08-04T13:51:02Z xsd:string
+
+[Term]
+id: NBO:0015005
+name: smoking behavior
+def: "Consumption behavior that involves inhaling a material (such as finely ground tobacco leaves) through the nose." []
+is_a: NBO:0001845 ! consumption behavior
+property_value: created_by https://orcid.org/0000-0002-7356-1779 xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-09-06T10:51:02Z xsd:string
+
+[Term]
+id: NBO:0015006
+name: pipe smoking behavior
+def: "Smoking behavior that involves burning a substance such as tobacco and tasting or inhaling the smoke through a pipe." []
+is_a: NBO:0015005 ! smoking behavior
+property_value: created_by https://orcid.org/0000-0002-7356-1779 xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-09-06T10:51:02Z xsd:string
+
+[Term]
+id: NBO:0015007
+name: cigarette smoking behavior
+def: "Smoking behavior that involves burning a substance such as tobacco wrapped in paper and inhaling the smoke." []
+is_a: NBO:0015005 ! smoking behavior
+property_value: created_by https://orcid.org/0000-0002-7356-1779 xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-09-06T10:51:02Z xsd:string
+
+[Term]
+id: NBO:0015008
+name: cigar smoking behavior
+def: "Smoking behavior that involves burning a substance such as tobacco wrapped in tobacco leaf and inhaling the smoke." []
+is_a: NBO:0015005 ! smoking behavior
+property_value: created_by https://orcid.org/0000-0002-7356-1779 xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-09-06T10:51:02Z xsd:string
+
+[Term]
+id: NBO:0015009
+name: snuffing behavior
+def: "Consumption behavior that involves inhaling a material (such as finely ground tobacco leaves) through the nose." []
+is_a: NBO:0001845 ! consumption behavior
+property_value: created_by https://orcid.org/0000-0002-7356-1779 xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-2908-3327 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2019-09-06T10:51:02Z xsd:string
 
 [Term]
 id: NBO:0020007
@@ -8588,17 +8653,6 @@ property_value: created_by http://orcid.org/0000-0002-4366-3088 xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2017-09-14T19:12:10+09:00 xsd:dateTime
 property_value: IAO_0000115 "A feeding behavior during which an animal ingests biomass produced by a plant or other primary producer" xsd:string
 property_value: namespace "behavior_ontology" xsd:string
-
-[Term]
-id: NBO_0009001
-name: rotation behavior
-is_a: NBO:0000002 ! whole body movement
-
-[Term]
-id: NBO_0009002
-name: locomotor inactivation behavior
-is_a: NBO:0000338 ! kinesthetic behavior
-property_value: IAO_0000115 "Deactiviation of locomotory behavior." xsd:string
 
 [Typedef]
 id: by_means

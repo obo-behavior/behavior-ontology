@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: nbo/releases/2019-08-05/imports/pato_import.owl
+data-version: nbo/releases/2019-09-09/imports/pato_import.owl
 ontology: nbo/imports/pato_import
 
 [Term]
@@ -8,7 +8,6 @@ name: quality
 namespace: quality
 alt_id: PATO:0000072
 def: "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities" [PATOC:GVG]
-synonym: "trait" EXACT []
 
 [Term]
 id: PATO:0000014
@@ -19,6 +18,7 @@ def: "A composite chromatic quality composed of hue, saturation and intensity pa
 subset: attribute_slim
 synonym: "colour" EXACT []
 synonym: "relative color" EXACT []
+is_a: PATO:0000051 ! morphology
 is_a: PATO:0001300 ! optical quality
 
 [Term]
@@ -38,7 +38,7 @@ namespace: quality
 def: "A physical quality which inheres in a bearer by virtue of the number of the bearer's repetitive actions in a particular time." [Wikipedia:http\://en.wikipedia.org/wiki/frequency]
 subset: attribute_slim
 subset: scalar_slim
-is_a: PATO:0000161 ! rate
+is_a: PATO:0050000 ! rate of occurence
 
 [Term]
 id: PATO:0000051
@@ -73,6 +73,25 @@ namespace: quality
 def: "A quality inhering in a bearer by virtue of the whether the bearer differs from normal or average." [PATOC:GVG]
 subset: attribute_slim
 is_a: PATO:0000068 ! qualitative
+
+[Term]
+id: PATO:0000070
+name: amount
+namespace: quality
+alt_id: PATO:0000053
+alt_id: PATO:0000071
+alt_id: PATO:0001169
+alt_id: PATO:0001226
+def: "The number of entities of this type that are part of the whole organism." [PATOC:GVG]
+comment: This term was originally named "presence". It has been renamed to reduce ambiguity. Consider annotating with the reciprocal relation,PATO:0001555, has_number_of. For example, rather than E=fin ray Q=count in organism C=10, say E=organism Q=has number of E2= fin ray C=10.
+subset: attribute_slim
+synonym: "count in organism" RELATED []
+synonym: "number" RELATED []
+synonym: "presence" RELATED []
+synonym: "presence or absence in organism" EXACT []
+synonym: "quantitative" EXACT []
+is_a: PATO:0000068 ! qualitative
+relationship: reciprocal_of PATO:0001555 ! has number of
 
 [Term]
 id: PATO:0000117
@@ -221,7 +240,19 @@ subset: value_slim
 synonym: "ramified" EXACT []
 synonym: "ramiform" EXACT []
 is_a: PATO:0002009 ! branchiness
-relationship: is_opposite_of PATO:0000414
+disjoint_from: PATO:0000414 ! unbranched
+relationship: is_opposite_of PATO:0000414 ! unbranched
+
+[Term]
+id: PATO:0000414
+name: unbranched
+namespace: quality
+def: "A branchiness quality inhering in a bearer by virtue of the bearer's lacking branches." [PATOC:GVG]
+subset: cell_quality
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0002009 ! branchiness
+relationship: is_opposite_of PATO:0000402 ! branched
 
 [Term]
 id: PATO:0000460
@@ -247,8 +278,56 @@ subset: abnormal_slim
 subset: mpath_slim
 subset: value_slim
 synonym: "average" RELATED []
-is_a: PATO:0000069 ! deviation(from_normal)
+is_a: PATO:0000068 ! qualitative
 relationship: is_opposite_of PATO:0000460 ! abnormal
+
+[Term]
+id: PATO:0000462
+name: absent
+namespace: quality
+alt_id: PATO:0001996
+def: "A quality denoting the lack of an entity." [thefreedictionary.:thefreedictionary.]
+comment: See documentation here: http://code.google.com/p/phenotype-ontologies/wiki/ModelingOfAbsence
+subset: absent_slim
+subset: mpath_slim
+subset: value_slim
+synonym: "absence" EXACT []
+synonym: "absent from organism" EXACT []
+is_a: PATO:0000070 ! amount
+disjoint_from: PATO:0000467 ! present
+relationship: is_opposite_of PATO:0000467 ! present
+relationship: reciprocal_of PATO:0001558 ! lacking processual parts
+relationship: reciprocal_of PATO:0002000 ! lacks all parts of type
+
+[Term]
+id: PATO:0000467
+name: present
+namespace: quality
+def: "A quality inhering in a bearer by virtue of the bearer's existence." [PATOC:GVG]
+subset: absent_slim
+subset: value_slim
+synonym: "present in organism" RELATED []
+is_a: PATO:0000070 ! amount
+relationship: is_opposite_of PATO:0000462 ! absent
+
+[Term]
+id: PATO:0000470
+name: increased amount
+namespace: quality
+alt_id: PATO:0000420
+alt_id: PATO:0000650
+def: "An amount which is relatively high." [PATOC:GVG]
+subset: value_slim
+synonym: "accessory" RELATED []
+synonym: "increased" RELATED []
+synonym: "increased number" EXACT []
+synonym: "present in greater numbers in organism" EXACT []
+synonym: "supernumerary" EXACT []
+is_a: PATO:0000467 ! present
+is_a: PATO:0002300 ! increased quality
+intersection_of: PATO:0000070 ! amount
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0001997 ! decreased amount
 
 [Term]
 id: PATO:0000498
@@ -508,6 +587,23 @@ synonym: "liquidity" EXACT []
 is_a: PATO:0002198 ! quality of a substance
 
 [Term]
+id: PATO:0001555
+name: has number of
+namespace: quality
+def: "The number of parts of a particular type that the bearer entity has. This is a relational quality, and thus holds between two entities: the bearer of the quality, and the type of parts." [PATOC:CJM]
+subset: attribute_slim
+subset: relational_slim
+synonym: "cardinality" RELATED []
+synonym: "extra or missing physical or functional parts" EXACT []
+synonym: "has or lacks parts of type" EXACT []
+synonym: "mereological quality" EXACT []
+synonym: "number" RELATED []
+synonym: "number of" EXACT []
+xref: OBO_REL:has_part
+is_a: PATO:0001241 ! physical object quality
+relationship: reciprocal_of PATO:0000070 ! amount
+
+[Term]
 id: PATO:0001558
 name: lacking processual parts
 namespace: quality
@@ -515,6 +611,7 @@ def: "A quality of a process inhering in a bearer by virtue of the bearer's lack
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0001564 ! extra or missing processual parts
+relationship: reciprocal_of PATO:0000462 ! absent
 
 [Term]
 id: PATO:0001562
@@ -652,6 +749,83 @@ def: "A quality that inheres in an entire organism or part of an organism." [PAT
 is_a: PATO:0001241 ! physical object quality
 
 [Term]
+id: PATO:0001997
+name: decreased amount
+namespace: quality
+alt_id: PATO:0000419
+alt_id: PATO:0000468
+def: "An amount which is relatively low." [PATOC:GVG]
+subset: value_slim
+synonym: "decreased" RELATED []
+synonym: "decreased number" EXACT []
+synonym: "present in fewer numbers in organism" EXACT []
+synonym: "reduced" RELATED []
+synonym: "subnumerary" RELATED []
+is_a: PATO:0000467 ! present
+is_a: PATO:0002301 ! decreased quality
+intersection_of: PATO:0000070 ! amount
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0000470 ! increased amount
+
+[Term]
+id: PATO:0001999
+name: lacks parts or has fewer parts of type
+namespace: quality
+def: "The bearer of this quality has_part < n of the indicated entity type, where n is the normal amount for a comparable organism. Note that the bearer of the quality is the whole, not the part. Formally: If a bearer entity e has fewer parts of type X at time t, then the number of instances x of X at t such that x part_of e is < n, where n is either the normal number for comparable entities, or n is stated explicitly. This case includes the limit case, where the bearer lacks all parts of the specified type." [PATOC:CJM]
+subset: relational_slim
+synonym: "loss of" EXACT []
+is_a: PATO:0002083 ! altered number of
+
+[Term]
+id: PATO:0002000
+name: lacks all parts of type
+namespace: quality
+alt_id: PATO:0001557
+def: "A quality of physical entities inhering in a bearer by virtue of the bearer's lacking a physical part as specified by the additional entity." [PATOC:CJM]
+comment: Example: [E=organism Q=lacks_all_parts_of_type E2=Wing] - applies to an organism. A relational quality in which the bearer entity has no parts of the specified type. The bearer of this quality has_part = 0 of the indicated entity type, where a comparable organism usually has at least 1 part of the same type. Note that the bearer of the quality is the whole, not the part. Formally: If a bearer entity e lacks all parts of type X at time t, then there exists no instances x of X at t such that x part_of e that has no wings, where wings are normally present in that organism type. In OWL this is equivalent to a restriction on the OBO_REL:has_part relation with cardinality=0, i.e has_part 0 E2.
+subset: relational_slim
+synonym: "lacks all physical parts of type" EXACT []
+xref: OBO_REL:lacks_part
+is_a: PATO:0001999 ! lacks parts or has fewer parts of type
+relationship: reciprocal_of PATO:0000462 ! absent
+
+[Term]
+id: PATO:0002001
+name: has fewer parts of type
+namespace: quality
+alt_id: PATO:0001569
+def: "The bearer of this quality has_part < n AND has_part > 0 of the indicated entity type, where n is the normal amount for a comparable organism. Note that the bearer of the quality is the whole, not the part. Formally: If a bearer entity e has fewer parts of type X at time t, then the number of instances x of X at t such that x part_of e is < n, where n is either the normal number for comparable entities, or n is stated explicitly." [PATOC:CJM]
+comment: Example: [E=hand Q=has_fewer_parts_of_type E2=digit] - applies to an organism that has no less fingers than is normal for organisms of that type.
+subset: relational_slim
+synonym: "decreased number of" EXACT []
+synonym: "has decreased number of" EXACT []
+synonym: "has fewer physical parts of type" EXACT []
+is_a: PATO:0001999 ! lacks parts or has fewer parts of type
+is_a: PATO:0002303 ! decreased object quality
+intersection_of: PATO:0001999 ! lacks parts or has fewer parts of type
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002002 ! has extra parts of type
+
+[Term]
+id: PATO:0002002
+name: has extra parts of type
+namespace: quality
+alt_id: PATO:0001560
+def: "The bearer of this quality has_part > n of the indicated entity type, where n is the normal amount for a comparable organism. Note that the bearer of the quality is the whole, not the part." [PATOC:CJM]
+comment: In polydactyly, the bearer of the quality is the hand, and the entity type being counted is 'finger'. In EQ syntax, E=hand, Q=<this> E2=finger.
+subset: relational_slim
+synonym: "has extra parts of" EXACT []
+synonym: "has increased number of" EXACT []
+synonym: "having extra physical parts" EXACT []
+synonym: "having supernumerary physical parts" EXACT []
+synonym: "increased number of" EXACT []
+is_a: PATO:0002083 ! altered number of
+is_a: PATO:0002305 ! increased object quality
+intersection_of: PATO:0002083 ! altered number of
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+relationship: is_opposite_of PATO:0002001 ! has fewer parts of type
+
+[Term]
 id: PATO:0002009
 name: branchiness
 namespace: quality
@@ -668,6 +842,17 @@ subset: attribute_slim
 is_a: PATO:0001236 ! process quality
 created_by: george
 creation_date: 2009-06-05T09:16:46Z
+
+[Term]
+id: PATO:0002083
+name: altered number of
+namespace: quality
+def: "Having extra or fewer parts." [PATOC:GVG]
+subset: attribute_slim
+subset: relational_slim
+is_a: PATO:0001555 ! has number of
+created_by: George Gkoutos
+creation_date: 2009-09-21T10:41:58Z
 
 [Term]
 id: PATO:0002124
@@ -834,6 +1019,13 @@ relationship: is_opposite_of PATO:0002361 ! increased tendency
 created_by: gkoutos
 creation_date: 2012-03-16T06:32:57Z
 
+[Term]
+id: PATO:0050000
+name: rate of occurence
+namespace: quality
+def: "The number of repeated events per unit time, occurring in a repeating series. (e.g. the number of heart beats occurring over 1 minute)" [https://orcid.org/0000-0002-9943-9018]
+is_a: PATO:0000161 ! rate
+
 [Typedef]
 id: decreased_in_magnitude_relative_to
 name: decreased_in_magnitude_relative_to
@@ -886,6 +1078,13 @@ name: part_of
 namespace: quality
 xref: BFO:0000050
 is_transitive: true
+
+[Typedef]
+id: reciprocal_of
+name: reciprocal_of
+namespace: quality
+def: "q1 reciprocal_of q2 if and only if : q1 and q2 are relational qualities and a phenotype e q1 e2 mutually implies a phenotype e2 q2 e." [PATOC:CJM]
+comment: There are frequently two ways to state the same thing: we can say 'spermatocyte lacks asters' or 'asters absent from spermatocyte'. In this case the quality is 'lacking all parts of type' - it is a (relational) quality of the spermatocyte, and it is with respect to instances of 'aster'. One of the popular requirements of PATO is that it continue to support 'absent', so we need to relate statements which use this quality to the 'lacking all parts of type' quality.
 
 [Typedef]
 id: towards

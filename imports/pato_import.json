@@ -100,32 +100,6 @@
       "type" : "CLASS",
       "lbl" : "increased object quality"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0001018",
-      "meta" : {
-        "definition" : {
-          "val" : "A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.",
-          "xrefs" : [ "PATOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
-        "xrefs" : [ {
-          "val" : "Wikipedia:Physical_property"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "relational physical quality",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "PATO:0002079"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "physical quality"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000402",
       "meta" : {
         "definition" : {
@@ -217,36 +191,6 @@
       "type" : "CLASS",
       "lbl" : "coordinated"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0000040",
-      "meta" : {
-        "definition" : {
-          "val" : "A quality that is the extent of space between two entities.",
-          "xrefs" : [ "PATOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#scalar_slim", "http://purl.obolibrary.org/obo/pato#relational_slim", "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "distance"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0000161",
-      "meta" : {
-        "definition" : {
-          "val" : "A quality of a single process inhering in a bearer by virtue of the bearer's occurrence per unit time.",
-          "xrefs" : [ "PATOC:melissa" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim", "http://purl.obolibrary.org/obo/pato#scalar_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "rate"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0002604",
       "meta" : {
         "xrefs" : [ {
@@ -308,21 +252,6 @@
       "type" : "CLASS",
       "lbl" : "increased quality"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0000044",
-      "meta" : {
-        "definition" : {
-          "val" : "A physical quality which inheres in a bearer by virtue of the number of the bearer's repetitive actions in a particular time.",
-          "xrefs" : [ "Wikipedia:http://en.wikipedia.org/wiki/frequency" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#scalar_slim", "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "frequency"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0001333",
       "meta" : {
         "definition" : {
@@ -361,30 +290,12 @@
       "type" : "CLASS",
       "lbl" : "decreased quality"
     }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
-      "type" : "PROPERTY",
-      "lbl" : "in_subset"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pato#mpath_slim",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Pathology slim"
-        } ]
-      },
-      "type" : "PROPERTY"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000001",
       "meta" : {
         "definition" : {
           "val" : "A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities",
           "xrefs" : [ "PATOC:GVG" ]
         },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "trait",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
           "val" : "PATO:0000072"
@@ -399,15 +310,6 @@
       "id" : "http://purl.obolibrary.org/obo/IAO_0000115",
       "type" : "PROPERTY",
       "lbl" : "definition"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pato#value_slim",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Value slim"
-        } ]
-      },
-      "type" : "PROPERTY"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0001291",
       "meta" : {
@@ -447,69 +349,31 @@
       "type" : "PROPERTY",
       "lbl" : "has_part"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0002062",
-      "meta" : {
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "george"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
-          "val" : "2009-06-05T09:16:46Z"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "physical quality of a process"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0001708",
+      "id" : "http://purl.obolibrary.org/obo/pato#reciprocal_of",
       "meta" : {
         "definition" : {
-          "val" : "A size quality inhering in an bearer by virtue of the bearer's extension in one dimension.",
-          "xrefs" : [ "PATOC:GVG" ]
+          "val" : "q1 reciprocal_of q2 if and only if : q1 and q2 are relational qualities and a phenotype e q1 e2 mutually implies a phenotype e2 q2 e.",
+          "xrefs" : [ "PATOC:CJM" ]
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "1-D size",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "quality"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "There are frequently two ways to state the same thing: we can say 'spermatocyte lacks asters' or 'asters absent from spermatocyte'. In this case the quality is 'lacking all parts of type' - it is a (relational) quality of the spermatocyte, and it is with respect to instances of 'aster'. One of the popular requirements of PATO is that it continue to support 'absent', so we need to relate statements which use this quality to the 'lacking all parts of type' quality."
         } ]
       },
-      "type" : "CLASS",
-      "lbl" : "1-D extent"
+      "type" : "PROPERTY",
+      "lbl" : "reciprocal_of"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0001309",
+      "id" : "http://purl.obolibrary.org/obo/pato#cell_quality",
       "meta" : {
-        "definition" : {
-          "val" : "A process quality inhering in a bearer by virtue of the bearer's magnitude of the temporal extent between the starting and ending point.",
-          "xrefs" : [ "PATOC:mellybelly" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#hpo_slim", "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "time",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "period",
-          "xrefs" : [ ]
-        } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "PATO:0000081"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "cell_quality"
         } ]
       },
-      "type" : "CLASS",
-      "lbl" : "duration"
+      "type" : "PROPERTY"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000499",
       "meta" : {
@@ -643,6 +507,720 @@
       },
       "type" : "CLASS",
       "lbl" : "chronic"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000414",
+      "meta" : {
+        "definition" : {
+          "val" : "A branchiness quality inhering in a bearer by virtue of the bearer's lacking branches.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#mpath_slim", "http://purl.obolibrary.org/obo/pato#value_slim", "http://purl.obolibrary.org/obo/pato#cell_quality" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000402"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "unbranched"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000770",
+      "meta" : {
+        "definition" : {
+          "val" : "A coordination quality of inhering in a bearer by virtue of the bearer's lacking skillful and effective interaction of movement.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#disposition_slim", "http://purl.obolibrary.org/obo/pato#value_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000769"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "uncoordinated"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001860",
+      "meta" : {
+        "definition" : {
+          "val" : "A coordination which is relatively low.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim", "http://purl.obolibrary.org/obo/pato#disposition_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "low coordination",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0001859"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "decreased coordination"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000374",
+      "meta" : {
+        "definition" : {
+          "val" : "A distance which is greater relative to the normal or average.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#relational_slim", "http://purl.obolibrary.org/obo/pato#value_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "long distance",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000375"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "increased distance"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000375",
+      "meta" : {
+        "definition" : {
+          "val" : "A distance which is lesser relative to the normal or average.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim", "http://purl.obolibrary.org/obo/pato#relational_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "short distance",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000374"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "decreased distance"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_related_synonym"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+      "type" : "PROPERTY",
+      "lbl" : "has_narrow_synonym"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000389",
+      "meta" : {
+        "definition" : {
+          "val" : "A quality of a process inhering in a bearer by virtue of the bearer's having a sudden onset, sharp rise, and short course.",
+          "xrefs" : [ "dictionary:reference" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim", "http://purl.obolibrary.org/obo/pato#mpath_slim", "http://purl.obolibrary.org/obo/pato#hpo_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0001863"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "acute"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001997",
+      "meta" : {
+        "definition" : {
+          "val" : "An amount which is relatively low.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "decreased",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "reduced",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "decreased number",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "subnumerary",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "present in fewer numbers in organism",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000470"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0000419"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0000468"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "decreased amount"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000146",
+      "meta" : {
+        "definition" : {
+          "val" : "A physical quality of the thermal energy of a system.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim", "http://purl.obolibrary.org/obo/pato#scalar_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "temperature"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0002324",
+      "meta" : {
+        "definition" : {
+          "val" : "The temporal relation between the end of the process with respect to a reference process.",
+          "xrefs" : [ "PATOC:LC" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "completeness",
+          "xrefs" : [ "GOC:CJM" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "extent",
+          "xrefs" : [ "GOC:CJM" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-11-23T11:46:00Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "offset quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001995",
+      "meta" : {
+        "definition" : {
+          "val" : "A quality that inheres in an entire organism or part of an organism.",
+          "xrefs" : [ "PATOC:CJM" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "organismal quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001236",
+      "meta" : {
+        "definition" : {
+          "val" : "A quality which inheres in an process.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "relational quality of occurrent",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "quality of process",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "quality of occurrent",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "quality of a process",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0001239"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0001240"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "See comments of relational quality of a physical entity."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "process quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001999",
+      "meta" : {
+        "definition" : {
+          "val" : "The bearer of this quality has_part < n of the indicated entity type, where n is the normal amount for a comparable organism. Note that the bearer of the quality is the whole, not the part. Formally: If a bearer entity e has fewer parts of type X at time t, then the number of instances x of X at t such that x part_of e is < n, where n is either the normal number for comparable entities, or n is stated explicitly. This case includes the limit case, where the bearer lacks all parts of the specified type.",
+          "xrefs" : [ "PATOC:CJM" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#relational_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "loss of",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "lacks parts or has fewer parts of type"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000381",
+      "meta" : {
+        "definition" : {
+          "val" : "A frequency which is relatively low.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#mpath_slim", "http://purl.obolibrary.org/obo/pato#value_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "infrequent",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "low frequency",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000380"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "decreased frequency"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001472",
+      "meta" : {
+        "definition" : {
+          "val" : "A depth which is relatively low.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "low depth",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "shallow",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0001692"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0001596"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "decreased depth"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000380",
+      "meta" : {
+        "definition" : {
+          "val" : "A frequency which is relatively high.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim", "http://purl.obolibrary.org/obo/pato#mpath_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "high frequency",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "frequent",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000381"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "increased frequency"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000141",
+      "meta" : {
+        "definition" : {
+          "val" : "A morphology quality inhering in a bearer by virtue of the bearer's relative position, shape, arrangements and connectivity of an organism's various parts; the pattern underlying its form.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "relational structural quality",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "conformation",
+          "xrefs" : [ "VT:1000738" ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0001452"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "structure"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001596",
+      "meta" : {
+        "definition" : {
+          "val" : "A depth quality which is relatively high.",
+          "xrefs" : [ "PATO:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "deep",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0001666"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0001472"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "increased depth"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0002323",
+      "meta" : {
+        "definition" : {
+          "val" : "A temporal distribution pattern of process occurrences within a regulation/reference process.",
+          "xrefs" : [ "PATOC:LC" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-11-22T01:12:28Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "temporal distribution quality"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+      "type" : "PROPERTY",
+      "lbl" : "has_obo_namespace"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pato#disposition_slim",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Disposition slim"
+        } ]
+      },
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001595",
+      "meta" : {
+        "definition" : {
+          "val" : "A 1-D extent quality inhering in a bearer by virtue of the bearer's downward or backward or inward dimenision.",
+          "xrefs" : [ "WordNet:WordNet" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim", "http://purl.obolibrary.org/obo/pato#scalar_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "depth"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pato#relational_slim",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Relational slim: types of quality that require an additional entity in order to exist"
+        } ]
+      },
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
+      "type" : "PROPERTY",
+      "lbl" : "term replaced by"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001241",
+      "meta" : {
+        "definition" : {
+          "val" : "A quality which inheres in a continuant.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "xrefs" : [ {
+          "val" : "snap:Quality"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "quality of a single physical entity",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "monadic quality of a continuant",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "quality of continuant",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "monadic quality of an object",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "quality of an object",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "multiply inhering quality of a physical entity",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "quality of a continuant",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "monadic quality of continuant",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0001237"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0001238"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Relational qualities are qualities that hold between multiple entities. Normal (monadic) qualities such as the shape of a eyeball exist purely as a quality of that eyeball. A relational quality such as sensitivity to light is a quality of that eyeball (and connecting nervous system) as it relates to incoming light waves/particles."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "physical object quality"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+      "type" : "PROPERTY",
+      "lbl" : "has_alternative_id"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001018",
+      "meta" : {
+        "definition" : {
+          "val" : "A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
+        "xrefs" : [ {
+          "val" : "Wikipedia:Physical_property"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "relational physical quality",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0002079"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "physical quality"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000040",
+      "meta" : {
+        "definition" : {
+          "val" : "A quality that is the extent of space between two entities.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#scalar_slim", "http://purl.obolibrary.org/obo/pato#relational_slim", "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "distance"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000161",
+      "meta" : {
+        "definition" : {
+          "val" : "A quality of a single process inhering in a bearer by virtue of the bearer's occurrence per unit time.",
+          "xrefs" : [ "PATOC:melissa" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim", "http://purl.obolibrary.org/obo/pato#scalar_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "rate"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000044",
+      "meta" : {
+        "definition" : {
+          "val" : "A physical quality which inheres in a bearer by virtue of the number of the bearer's repetitive actions in a particular time.",
+          "xrefs" : [ "Wikipedia:http://en.wikipedia.org/wiki/frequency" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#scalar_slim", "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "frequency"
+    }, {
+      "id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
+      "type" : "PROPERTY",
+      "lbl" : "in_subset"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pato#mpath_slim",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Pathology slim"
+        } ]
+      },
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/pato#value_slim",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Value slim"
+        } ]
+      },
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0002062",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "george"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-06-05T09:16:46Z"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "physical quality of a process"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001708",
+      "meta" : {
+        "definition" : {
+          "val" : "A size quality inhering in an bearer by virtue of the bearer's extension in one dimension.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "1-D size",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "1-D extent"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001309",
+      "meta" : {
+        "definition" : {
+          "val" : "A process quality inhering in a bearer by virtue of the bearer's magnitude of the temporal extent between the starting and ending point.",
+          "xrefs" : [ "PATOC:mellybelly" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#hpo_slim", "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "time",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "period",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0000081"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "duration"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0001305",
       "meta" : {
@@ -786,70 +1364,6 @@
       "type" : "CLASS",
       "lbl" : "shape"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0000770",
-      "meta" : {
-        "definition" : {
-          "val" : "A coordination quality of inhering in a bearer by virtue of the bearer's lacking skillful and effective interaction of movement.",
-          "xrefs" : [ "PATOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#disposition_slim", "http://purl.obolibrary.org/obo/pato#value_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
-          "val" : "http://purl.obolibrary.org/obo/PATO_0000769"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "uncoordinated"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0001860",
-      "meta" : {
-        "definition" : {
-          "val" : "A coordination which is relatively low.",
-          "xrefs" : [ "PATOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim", "http://purl.obolibrary.org/obo/pato#disposition_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "low coordination",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
-          "val" : "http://purl.obolibrary.org/obo/PATO_0001859"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "decreased coordination"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0000374",
-      "meta" : {
-        "definition" : {
-          "val" : "A distance which is greater relative to the normal or average.",
-          "xrefs" : [ "PATOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#relational_slim", "http://purl.obolibrary.org/obo/pato#value_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "long distance",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
-          "val" : "http://purl.obolibrary.org/obo/PATO_0000375"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "increased distance"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0001300",
       "meta" : {
         "definition" : {
@@ -865,33 +1379,6 @@
       "type" : "CLASS",
       "lbl" : "optical quality"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0000375",
-      "meta" : {
-        "definition" : {
-          "val" : "A distance which is lesser relative to the normal or average.",
-          "xrefs" : [ "PATOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim", "http://purl.obolibrary.org/obo/pato#relational_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "short distance",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
-          "val" : "http://purl.obolibrary.org/obo/PATO_0000374"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "decreased distance"
-    }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym",
-      "type" : "PROPERTY",
-      "lbl" : "has_related_synonym"
-    }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
       "type" : "PROPERTY",
       "lbl" : "has_broad_synonym"
@@ -905,10 +1392,6 @@
       },
       "type" : "PROPERTY"
     }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
-      "type" : "PROPERTY",
-      "lbl" : "has_narrow_synonym"
-    }, {
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
       "type" : "PROPERTY",
       "lbl" : "has_exact_synonym"
@@ -916,24 +1399,6 @@
       "id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
       "type" : "PROPERTY",
       "lbl" : "database_cross_reference"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0000389",
-      "meta" : {
-        "definition" : {
-          "val" : "A quality of a process inhering in a bearer by virtue of the bearer's having a sudden onset, sharp rise, and short course.",
-          "xrefs" : [ "dictionary:reference" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim", "http://purl.obolibrary.org/obo/pato#mpath_slim", "http://purl.obolibrary.org/obo/pato#hpo_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
-          "val" : "http://purl.obolibrary.org/obo/PATO_0001863"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "acute"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000587",
       "meta" : {
@@ -1031,51 +1496,6 @@
       "type" : "CLASS",
       "lbl" : "increased size"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0000146",
-      "meta" : {
-        "definition" : {
-          "val" : "A physical quality of the thermal energy of a system.",
-          "xrefs" : [ "PATOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim", "http://purl.obolibrary.org/obo/pato#scalar_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "temperature"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0002324",
-      "meta" : {
-        "definition" : {
-          "val" : "The temporal relation between the end of the process with respect to a reference process.",
-          "xrefs" : [ "PATOC:LC" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "completeness",
-          "xrefs" : [ "GOC:CJM" ]
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "extent",
-          "xrefs" : [ "GOC:CJM" ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
-          "val" : "2011-11-23T11:46:00Z"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "George Gkoutos"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "offset quality"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/pato#abnormal_slim",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -1085,59 +1505,71 @@
       },
       "type" : "PROPERTY"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0001995",
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000467",
       "meta" : {
         "definition" : {
-          "val" : "A quality that inheres in an entire organism or part of an organism.",
-          "xrefs" : [ "PATOC:CJM" ]
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "organismal quality"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0001236",
-      "meta" : {
-        "definition" : {
-          "val" : "A quality which inheres in an process.",
+          "val" : "A quality inhering in a bearer by virtue of the bearer's existence.",
           "xrefs" : [ "PATOC:GVG" ]
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#absent_slim", "http://purl.obolibrary.org/obo/pato#value_slim" ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "relational quality of occurrent",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "quality of process",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "quality of occurrent",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "quality of a process",
+          "pred" : "hasRelatedSynonym",
+          "val" : "present in organism",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "PATO:0001239"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "PATO:0001240"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "quality"
         }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "See comments of relational quality of a physical entity."
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000462"
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "process quality"
+      "lbl" : "present"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0001555",
+      "meta" : {
+        "definition" : {
+          "val" : "The number of parts of a particular type that the bearer entity has. This is a relational quality, and thus holds between two entities: the bearer of the quality, and the type of parts.",
+          "xrefs" : [ "PATOC:CJM" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim", "http://purl.obolibrary.org/obo/pato#relational_slim" ],
+        "xrefs" : [ {
+          "val" : "OBO_REL:has_part"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "number of",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "number",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "mereological quality",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "cardinality",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "has or lacks parts of type",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "extra or missing physical or functional parts",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "has number of"
     }, {
       "id" : "http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to",
       "meta" : {
@@ -1186,33 +1618,6 @@
       "type" : "CLASS",
       "lbl" : "branchiness"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0000381",
-      "meta" : {
-        "definition" : {
-          "val" : "A frequency which is relatively low.",
-          "xrefs" : [ "PATOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#mpath_slim", "http://purl.obolibrary.org/obo/pato#value_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "infrequent",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "low frequency",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
-          "val" : "http://purl.obolibrary.org/obo/PATO_0000380"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "decreased frequency"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0002362",
       "meta" : {
         "definition" : {
@@ -1237,62 +1642,34 @@
       "type" : "CLASS",
       "lbl" : "decreased tendency"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0001472",
+      "id" : "http://purl.obolibrary.org/obo/PATO_0002000",
       "meta" : {
         "definition" : {
-          "val" : "A depth which is relatively low.",
-          "xrefs" : [ "PATOC:GVG" ]
+          "val" : "A quality of physical entities inhering in a bearer by virtue of the bearer's lacking a physical part as specified by the additional entity.",
+          "xrefs" : [ "PATOC:CJM" ]
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim" ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#relational_slim" ],
+        "xrefs" : [ {
+          "val" : "OBO_REL:lacks_part"
+        } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "low depth",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "shallow",
+          "val" : "lacks all physical parts of type",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Example: [E=organism Q=lacks_all_parts_of_type E2=Wing] - applies to an organism. A relational quality in which the bearer entity has no parts of the specified type. The bearer of this quality has_part = 0 of the indicated entity type, where a comparable organism usually has at least 1 part of the same type. Note that the bearer of the quality is the whole, not the part. Formally: If a bearer entity e lacks all parts of type X at time t, then there exists no instances x of X at t such that x part_of e that has no wings, where wings are normally present in that organism type. In OWL this is equivalent to a restriction on the OBO_REL:has_part relation with cardinality=0, i.e has_part 0 E2."
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "PATO:0001692"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
-          "val" : "http://purl.obolibrary.org/obo/PATO_0001596"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "decreased depth"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0000380",
-      "meta" : {
-        "definition" : {
-          "val" : "A frequency which is relatively high.",
-          "xrefs" : [ "PATOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim", "http://purl.obolibrary.org/obo/pato#mpath_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "high frequency",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "frequent",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
-          "val" : "http://purl.obolibrary.org/obo/PATO_0000381"
+          "val" : "PATO:0001557"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "quality"
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "increased frequency"
+      "lbl" : "lacks all parts of type"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000460",
       "meta" : {
@@ -1350,33 +1727,6 @@
       "type" : "CLASS",
       "lbl" : "tendency"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0000141",
-      "meta" : {
-        "definition" : {
-          "val" : "A morphology quality inhering in a bearer by virtue of the bearer's relative position, shape, arrangements and connectivity of an organism's various parts; the pattern underlying its form.",
-          "xrefs" : [ "PATOC:GVG" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "relational structural quality",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasBroadSynonym",
-          "val" : "conformation",
-          "xrefs" : [ "VT:1000738" ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "PATO:0001452"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "structure"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0002361",
       "meta" : {
         "definition" : {
@@ -1426,31 +1776,38 @@
       "type" : "CLASS",
       "lbl" : "laminar"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0001596",
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000462",
       "meta" : {
         "definition" : {
-          "val" : "A depth quality which is relatively high.",
-          "xrefs" : [ "PATO:GVG" ]
+          "val" : "A quality denoting the lack of an entity.",
+          "xrefs" : [ "thefreedictionary.:thefreedictionary." ]
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim" ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim", "http://purl.obolibrary.org/obo/pato#mpath_slim", "http://purl.obolibrary.org/obo/pato#absent_slim" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "deep",
+          "val" : "absent from organism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "absence",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "quality"
         }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "See documentation here: http://code.google.com/p/phenotype-ontologies/wiki/ModelingOfAbsence"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "PATO:0001666"
+          "val" : "PATO:0001996"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
-          "val" : "http://purl.obolibrary.org/obo/PATO_0001472"
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000467"
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "increased depth"
+      "lbl" : "absent"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000461",
       "meta" : {
@@ -1475,27 +1832,6 @@
       "type" : "CLASS",
       "lbl" : "normal"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0002323",
-      "meta" : {
-        "definition" : {
-          "val" : "A temporal distribution pattern of process occurrences within a regulation/reference process.",
-          "xrefs" : [ "PATOC:LC" ]
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "George Gkoutos"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
-          "val" : "2011-11-22T01:12:28Z"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "quality"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "temporal distribution quality"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000186",
       "meta" : {
         "definition" : {
@@ -1518,6 +1854,43 @@
       "type" : "CLASS",
       "lbl" : "behavioral quality"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0002001",
+      "meta" : {
+        "definition" : {
+          "val" : "The bearer of this quality has_part < n AND has_part > 0 of the indicated entity type, where n is the normal amount for a comparable organism. Note that the bearer of the quality is the whole, not the part. Formally: If a bearer entity e has fewer parts of type X at time t, then the number of instances x of X at t such that x part_of e is < n, where n is either the normal number for comparable entities, or n is stated explicitly.",
+          "xrefs" : [ "PATOC:CJM" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#relational_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "decreased number of",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "has fewer physical parts of type",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "has decreased number of",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0001569"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Example: [E=hand Q=has_fewer_parts_of_type E2=digit] - applies to an organism that has no less fingers than is normal for organisms of that type."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0002002"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "has fewer parts of type"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000068",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -1531,33 +1904,50 @@
       "type" : "CLASS",
       "lbl" : "qualitative"
     }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-      "type" : "PROPERTY",
-      "lbl" : "has_obo_namespace"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/pato#disposition_slim",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Disposition slim"
-        } ]
-      },
-      "type" : "PROPERTY"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0001595",
+      "id" : "http://purl.obolibrary.org/obo/PATO_0002002",
       "meta" : {
         "definition" : {
-          "val" : "A 1-D extent quality inhering in a bearer by virtue of the bearer's downward or backward or inward dimenision.",
-          "xrefs" : [ "WordNet:WordNet" ]
+          "val" : "The bearer of this quality has_part > n of the indicated entity type, where n is the normal amount for a comparable organism. Note that the bearer of the quality is the whole, not the part.",
+          "xrefs" : [ "PATOC:CJM" ]
         },
-        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim", "http://purl.obolibrary.org/obo/pato#scalar_slim" ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#relational_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "has extra parts of",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "having extra physical parts",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "having supernumerary physical parts",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "has increased number of",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "increased number of",
+          "xrefs" : [ ]
+        } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0001560"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0002001"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "quality"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "In polydactyly, the bearer of the quality is the hand, and the entity type being counted is 'finger'. In EQ syntax, E=hand, Q=<this> E2=finger."
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "depth"
+      "lbl" : "has extra parts of type"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000188",
       "meta" : {
@@ -1600,14 +1990,26 @@
       },
       "type" : "PROPERTY"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/pato#relational_slim",
+      "id" : "http://purl.obolibrary.org/obo/PATO_0002083",
       "meta" : {
+        "definition" : {
+          "val" : "Having extra or fewer parts.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim", "http://purl.obolibrary.org/obo/pato#relational_slim" ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Relational slim: types of quality that require an additional entity in order to exist"
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2009-09-21T10:41:58Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "George Gkoutos"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
         } ]
       },
-      "type" : "PROPERTY"
+      "type" : "CLASS",
+      "lbl" : "altered number of"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0001727",
       "meta" : {
@@ -1628,10 +2030,6 @@
       },
       "type" : "CLASS",
       "lbl" : "disposition"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IAO_0100001",
-      "type" : "PROPERTY",
-      "lbl" : "term replaced by"
     }, {
       "id" : "http://purl.obolibrary.org/obo/pato#hpo_slim",
       "meta" : {
@@ -1721,64 +2119,64 @@
       "type" : "CLASS",
       "lbl" : "decreased rate"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/PATO_0001241",
+      "id" : "http://purl.obolibrary.org/obo/PATO_0050000",
       "meta" : {
         "definition" : {
-          "val" : "A quality which inheres in a continuant.",
+          "val" : "The number of repeated events per unit time, occurring in a repeating series. (e.g. the number of heart beats occurring over 1 minute)",
+          "xrefs" : [ "https://orcid.org/0000-0002-9943-9018" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "rate of occurence"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000470",
+      "meta" : {
+        "definition" : {
+          "val" : "An amount which is relatively high.",
           "xrefs" : [ "PATOC:GVG" ]
         },
-        "xrefs" : [ {
-          "val" : "snap:Quality"
-        } ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#value_slim" ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "quality of a single physical entity",
+          "val" : "increased number",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "monadic quality of a continuant",
+          "val" : "supernumerary",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "increased",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "quality of continuant",
+          "val" : "present in greater numbers in organism",
           "xrefs" : [ ]
         }, {
-          "pred" : "hasNarrowSynonym",
-          "val" : "monadic quality of an object",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "quality of an object",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "multiply inhering quality of a physical entity",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "quality of a continuant",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasNarrowSynonym",
-          "val" : "monadic quality of continuant",
+          "pred" : "hasRelatedSynonym",
+          "val" : "accessory",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0000650"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "quality"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "PATO:0001237"
+          "val" : "PATO:0000420"
         }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "PATO:0001238"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Relational qualities are qualities that hold between multiple entities. Normal (monadic) qualities such as the shape of a eyeball exist purely as a quality of that eyeball. A relational quality such as sensitivity to light is a quality of that eyeball (and connecting nervous system) as it relates to incoming light waves/particles."
+          "pred" : "http://purl.obolibrary.org/obo/RO_0002604",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0001997"
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "physical object quality"
+      "lbl" : "increased amount"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0001563",
       "meta" : {
@@ -1868,15 +2266,58 @@
       "type" : "CLASS",
       "lbl" : "decreased mass"
     }, {
-      "id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-      "type" : "PROPERTY",
-      "lbl" : "has_alternative_id"
+      "id" : "http://purl.obolibrary.org/obo/PATO_0000070",
+      "meta" : {
+        "definition" : {
+          "val" : "The number of entities of this type that are part of the whole organism.",
+          "xrefs" : [ "PATOC:GVG" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/pato#attribute_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "presence or absence in organism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "count in organism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "presence",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "quantitative",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "number",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0001226"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "This term was originally named \"presence\". It has been renamed to reduce ambiguity. Consider annotating with the reciprocal relation,PATO:0001555, has_number_of. For example, rather than E=fin ray Q=count in organism C=10, say E=organism Q=has number of E2= fin ray C=10."
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "quality"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0000053"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0001169"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "PATO:0000071"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "amount"
     } ],
     "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0000044",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000161"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000069",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000068"
@@ -1905,6 +2346,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001241"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000461",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000068"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0002300",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000069"
@@ -1921,21 +2366,33 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001018"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PATO_0000461",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/PATO_0000069"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000375",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002303"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000044",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0050000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001555",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001241"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000586",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002305"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0002001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001999"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001558",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001564"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0002000",
+      "pred" : "http://purl.obolibrary.org/obo/pato#reciprocal_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000462"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0002300",
       "pred" : "http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to",
@@ -1957,6 +2414,14 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000044"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000467",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0002002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002083"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0002009",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000052"
@@ -1969,6 +2434,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000912"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000462",
+      "pred" : "http://purl.obolibrary.org/obo/pato#reciprocal_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001309",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002062"
@@ -1977,9 +2446,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002303"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001997",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000467"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000070",
+      "pred" : "http://purl.obolibrary.org/obo/pato#reciprocal_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001555"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0002301",
       "pred" : "http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000461"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0002002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002305"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001595",
       "pred" : "is_a",
@@ -1996,6 +2477,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001727",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001241"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000414",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002009"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000912",
       "pred" : "is_a",
@@ -2021,6 +2506,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001727"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000462",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000070"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001563",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002305"
@@ -2036,6 +2525,14 @@
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001596",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000586"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0050000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000161"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0002083",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001555"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000161",
       "pred" : "is_a",
@@ -2064,6 +2561,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001472",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000587"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0002000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001999"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000141",
       "pred" : "is_a",
@@ -2101,6 +2602,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002305"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001997",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002301"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000586",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000117"
@@ -2116,6 +2621,14 @@
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000374",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002305"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001999",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002083"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000470",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002300"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0002303",
       "pred" : "is_a",
@@ -2133,6 +2646,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000769"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001558",
+      "pred" : "http://purl.obolibrary.org/obo/pato#reciprocal_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000462"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001860",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002303"
@@ -2140,6 +2657,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000051",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001241"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0002001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0002303"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000117",
       "pred" : "is_a",
@@ -2177,6 +2698,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002009"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000470",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000467"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000040",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001018"
@@ -2197,6 +2722,18 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002304"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000070",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0001555",
+      "pred" : "http://purl.obolibrary.org/obo/pato#reciprocal_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000051"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001562",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0002303"
@@ -2212,6 +2749,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001472",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0001595"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PATO_0000462",
+      "pred" : "http://purl.obolibrary.org/obo/pato#reciprocal_of",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0001558"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000375",
       "pred" : "is_a",
@@ -2270,7 +2811,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/nbo/releases/2019-08-05/imports/pato_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/nbo/releases/2019-09-09/imports/pato_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {
@@ -2316,6 +2857,13 @@
         "fillerId" : "http://purl.obolibrary.org/obo/PATO_0000461"
       } ]
     }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/PATO_0001997",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to",
+        "fillerId" : "http://purl.obolibrary.org/obo/PATO_0000461"
+      } ]
+    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/PATO_0001306",
       "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0000146" ],
       "restrictions" : [ {
@@ -2327,6 +2875,13 @@
       "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0001241" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to",
+        "fillerId" : "http://purl.obolibrary.org/obo/PATO_0000461"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/PATO_0002001",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0001999" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to",
         "fillerId" : "http://purl.obolibrary.org/obo/PATO_0000461"
       } ]
     }, {
@@ -2376,6 +2931,13 @@
       "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0000044" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to",
+        "fillerId" : "http://purl.obolibrary.org/obo/PATO_0000461"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/PATO_0002002",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0002083" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to",
         "fillerId" : "http://purl.obolibrary.org/obo/PATO_0000461"
       } ]
     }, {
@@ -2439,6 +3001,13 @@
       "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0000001" ],
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/pato#decreased_in_magnitude_relative_to",
+        "fillerId" : "http://purl.obolibrary.org/obo/PATO_0000461"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/PATO_0000470",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/PATO_0000070" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/pato#increased_in_magnitude_relative_to",
         "fillerId" : "http://purl.obolibrary.org/obo/PATO_0000461"
       } ]
     }, {

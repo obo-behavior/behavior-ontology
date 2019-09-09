@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: nbo/releases/2019-08-05/imports/chebi_import.owl
+data-version: nbo/releases/2019-09-09/imports/chebi_import.owl
 ontology: nbo/imports/chebi_import
 
 [Term]
@@ -1563,7 +1563,7 @@ subset: 3_STAR
 synonym: "[NH4](+)" RELATED [MolBase]
 synonym: "ammonium" EXACT IUPAC_NAME [IUPAC]
 synonym: "ammonium" EXACT [ChEBI]
-synonym: "AMMONIUM ION" RELATED [PDBeChem]
+synonym: "ammonium ion" RELATED [PDBeChem]
 synonym: "Ammonium(1+)" RELATED [ChemIDplus]
 synonym: "azanium" EXACT IUPAC_NAME [IUPAC]
 synonym: "NH4(+)" RELATED [UniProt]
@@ -1596,7 +1596,6 @@ xref: PMID:22631217 "Europe PMC"
 xref: Reaxys:16093784 "Reaxys"
 xref: Wikipedia:Ammonium
 is_a: CHEBI:35106 ! nitrogen hydride
-is_a: CHEBI:35274 ! ammonium ion
 is_a: CHEBI:50313 ! onium cation
 is_a: CHEBI:60242 ! monovalent inorganic cation
 relationship: has_role CHEBI:23357 ! cofactor
@@ -2468,14 +2467,18 @@ is_a: CHEBI:24432 ! biological role
 
 [Term]
 id: CHEBI:35274
-name: ammonium ion
+name: ammonium ion derivative
 namespace: chebi_ontology
-def: "Ammonium, NH4(+), and derivatives formed by substitution by univalent groups." []
+def: "A derivative of ammonium, NH4(+), in which one (or more) of the hydrogens bonded to the nitrogen have been replaced with univalent organyl groups. The substituting carbon of the organyl group must not itself be directly attached to a heteroatom (thereby excluding protonated amides, hemiaminals, etc)." []
 subset: 3_STAR
+synonym: "ammonium ion derivatives" RELATED [ChEBI]
 synonym: "ammonium ions" RELATED [ChEBI]
+synonym: "azanium ion derivative" RELATED [ChEBI]
+synonym: "azanium ion derivatives" RELATED [ChEBI]
 synonym: "azanium ions" RELATED [ChEBI]
 is_a: CHEBI:33702 ! polyatomic cation
 is_a: CHEBI:51143 ! nitrogen molecular entity
+relationship: has_parent_hydride CHEBI:28938 ! ammonium
 
 [Term]
 id: CHEBI:35337
@@ -3888,7 +3891,7 @@ synonym: "17-methyl-7,8-didehydro-4,5alpha-epoxymorphinan-17-ium-3,6alpha-diol" 
 synonym: "morphine" RELATED [UniProt]
 synonym: "morphine cation" RELATED [ChEBI]
 is_a: CHEBI:25697 ! organic cation
-is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:35274 ! ammonium ion derivative
 relationship: is_conjugate_acid_of CHEBI:17303 ! morphine
 property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C17H20NO3" xsd:string
@@ -3930,7 +3933,7 @@ synonym: "(S)-nicotine" RELATED [UniProt]
 synonym: "(S)-nicotinium cation" RELATED [ChEBI]
 xref: Gmelin:329042 "Gmelin"
 xref: MetaCyc:NICOTINE
-is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:35274 ! ammonium ion derivative
 relationship: has_role CHEBI:76924 ! plant metabolite
 relationship: is_conjugate_acid_of CHEBI:17688 ! (S)-nicotine
 relationship: is_enantiomer_of CHEBI:79008 ! (R)-nicotinium(1+)
@@ -3971,7 +3974,7 @@ synonym: "cocaine" RELATED [UniProt]
 synonym: "cocaine cation" RELATED [ChEBI]
 xref: Gmelin:2542129 "Gmelin"
 xref: Gmelin:341636 "Gmelin"
-is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:35274 ! ammonium ion derivative
 is_a: CHEBI:37332 ! tropane alkaloid
 relationship: has_role CHEBI:77746 ! human metabolite
 relationship: is_conjugate_acid_of CHEBI:27958 ! cocaine
@@ -4402,7 +4405,7 @@ synonym: "(2R)-1-methyl-2-(pyridin-3-yl)pyrrolidinium" EXACT IUPAC_NAME [IUPAC]
 synonym: "(R)-nicotine" RELATED [UniProt]
 xref: MetaCyc:R-NICOTINE "SUBMITTER"
 is_a: CHEBI:25697 ! organic cation
-is_a: CHEBI:35274 ! ammonium ion
+is_a: CHEBI:35274 ! ammonium ion derivative
 relationship: is_conjugate_acid_of CHEBI:39162 ! (R)-nicotine
 relationship: is_enantiomer_of CHEBI:59806 ! (S)-nicotinium(1+)
 property_value: http://purl.obolibrary.org/obo/chebi/charge "+1" xsd:string

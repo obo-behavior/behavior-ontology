@@ -35,3 +35,11 @@ EquivalentTo: xsd:integer[> 15000 , <= 19999]
 Datatype: idrange: 6
 Annotations: allocatedto: "Clare Pilgrim"
 EquivalentTo: xsd:integer[> 20000 , <= 29999]
+
+Datatype: idrange: 7
+Annotations: allocatedto: "Anne Thessen"
+EquivalentTo: xsd:integer[> 30000 , <= 34999]
+
+Datatype: idrange: 8
+Annotations: allocatedto: "Lauren Chan"
+EquivalentTo: xsd:integer[> 35000 , <= 39999]

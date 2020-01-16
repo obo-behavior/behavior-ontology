@@ -43,3 +43,7 @@ EquivalentTo: xsd:integer[> 30000 , <= 34999]
 Datatype: idrange: 8
 Annotations: allocatedto: "Lauren Chan"
 EquivalentTo: xsd:integer[> 35000 , <= 39999]
+
+Datatype: idrange: 9
+Annotations: allocatedto: "Erik Segerdell"
+EquivalentTo: xsd:integer[> 40000 , <= 44999]

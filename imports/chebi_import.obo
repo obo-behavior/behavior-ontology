@@ -1,5 +1,7 @@
 format-version: 1.2
-data-version: nbo/releases/2019-09-09/imports/chebi_import.owl
+data-version: nbo/releases/2020-01-23/imports/chebi_import.owl
+subsetdef: 1_STAR "Preliminary entries"
+subsetdef: 3_STAR "Manually annotated by ChEBI Team"
 ontology: nbo/imports/chebi_import
 
 [Term]
@@ -138,7 +140,6 @@ xref: KEGG:D00001
 xref: MetaCyc:WATER
 xref: MolBase:1
 xref: PDBeChem:HOH
-xref: PDBeChem:MTO
 xref: Reaxys:3587155 "Reaxys"
 xref: Wikipedia:Water
 is_a: CHEBI:33693 ! oxygen hydride
@@ -359,7 +360,6 @@ xref: MetaCyc:ETOH
 xref: MolBase:858
 xref: MolBase:859
 xref: PDBeChem:EOH
-xref: PDBeChem:OHE
 xref: PMID:11046114 "Europe PMC"
 xref: PMID:11090978 "Europe PMC"
 xref: PMID:11198720 "Europe PMC"
@@ -3278,8 +3278,7 @@ synonym: "HYDROXY GROUP" EXACT [PDBeChem]
 synonym: "hydroxy group" EXACT [UniProt]
 synonym: "hydroxyl" RELATED [ChEBI]
 synonym: "hydroxyl group" RELATED [ChEBI]
-synonym: "oxidanyl" EXACT IUPAC_NAME [IUPAC]
-xref: PDBeChem:HYD
+xref: PDBeChem:OH
 is_a: CHEBI:33246 ! inorganic group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "HO" xsd:string
@@ -3296,7 +3295,7 @@ subset: 3_STAR
 synonym: "=O" RELATED [IUPAC]
 synonym: "oxo" EXACT IUPAC_NAME [IUPAC]
 synonym: "OXO GROUP" EXACT [PDBeChem]
-xref: PDBeChem:OXO
+xref: PDBeChem:O
 is_a: CHEBI:33246 ! inorganic group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "O" xsd:string
@@ -3338,7 +3337,7 @@ synonym: "-COOH" RELATED [IUPAC]
 synonym: "carboxy" EXACT IUPAC_NAME [IUPAC]
 synonym: "CARBOXY GROUP" EXACT [PDBeChem]
 synonym: "carboxyl group" RELATED [ChEBI]
-xref: PDBeChem:CBX
+xref: PDBeChem:FMT
 is_a: CHEBI:33249 ! organyl group
 property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "CHO2" xsd:string

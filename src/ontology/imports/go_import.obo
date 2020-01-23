@@ -1,5 +1,20 @@
 format-version: 1.2
-data-version: nbo/releases/2019-09-09/imports/go_import.owl
+data-version: nbo/releases/2020-01-23/imports/go_import.owl
+subsetdef: gocheck_do_not_annotate "Term not to be used for direct annotation"
+subsetdef: gocheck_do_not_manually_annotate "Term not to be used for direct manual annotation"
+subsetdef: goslim_agr "AGR slim"
+subsetdef: goslim_aspergillus "Aspergillus GO slim"
+subsetdef: goslim_candida "Candida GO slim"
+subsetdef: goslim_chembl "ChEMBL protein targets summary"
+subsetdef: goslim_drosophila "Drosophila GO slim"
+subsetdef: goslim_flybase_ribbon "FlyBase Drosophila GO ribbon slim"
+subsetdef: goslim_generic "Generic GO slim"
+subsetdef: goslim_metagenomics "Metagenomics GO slim"
+subsetdef: goslim_mouse "Mouse GO slim"
+subsetdef: goslim_pir "PIR GO slim"
+subsetdef: goslim_plant "Plant GO slim"
+subsetdef: goslim_pombe "Fission yeast GO slim"
+subsetdef: goslim_yeast "Yeast GO slim"
 ontology: nbo/imports/go_import
 
 [Term]
@@ -89,6 +104,7 @@ id: GO:0003824
 name: catalytic activity
 namespace: molecular_function
 def: "Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic." [GOC:vw, ISBN:0198506732]
+subset: goslim_agr
 subset: goslim_chembl
 subset: goslim_flybase_ribbon
 subset: goslim_metagenomics
@@ -150,6 +166,67 @@ xref: Reactome:R-HSA-170846 "TGFBR2 recruits TGFBR1"
 is_a: GO:0005488 ! binding
 
 [Term]
+id: GO:0005575
+name: cellular_component
+namespace: cellular_component
+alt_id: GO:0008372
+def: "A location, relative to cellular compartments and structures, occupied by a macromolecular machine when it carries out a molecular function. There are two ways in which the gene ontology describes locations of gene products: (1) relative to cellular structures (e.g., cytoplasmic side of plasma membrane) or compartments (e.g., mitochondrion), and (2) the stable macromolecular complexes of which they are parts (e.g., the ribosome)." [GOC:pdt, NIF_Subcellular:sao1337158144]
+comment: Note that, in addition to forming the root of the cellular component ontology, this term is recommended for use for the annotation of gene products whose cellular component is unknown. When this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code "no data" (ND), is used to indicate this.
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_generic
+subset: goslim_metagenomics
+subset: goslim_pir
+subset: goslim_plant
+subset: goslim_yeast
+synonym: "cell or subcellular entity" EXACT []
+synonym: "cellular component" EXACT []
+synonym: "subcellular entity" RELATED [NIF_Subcellular:nlx_subcell_100315]
+xref: NIF_Subcellular:sao1337158144
+
+[Term]
+id: GO:0005622
+name: intracellular
+namespace: cellular_component
+def: "The living contents of a cell; the matter contained within (but not including) the plasma membrane, usually taken to exclude large vacuoles and masses of secretory or ingested material. In eukaryotes it includes the nucleus and cytoplasm." [ISBN:0198506732]
+subset: gocheck_do_not_annotate
+subset: goslim_chembl
+subset: goslim_generic
+subset: goslim_metagenomics
+subset: goslim_plant
+synonym: "internal to cell" EXACT []
+synonym: "nucleocytoplasm" RELATED [GOC:mah]
+synonym: "protoplasm" EXACT []
+synonym: "protoplast" RELATED [GOC:mah]
+xref: Wikipedia:Intracellular
+is_a: GO:0005575 ! cellular_component
+
+[Term]
+id: GO:0005634
+name: nucleus
+namespace: cellular_component
+def: "A membrane-bounded organelle of eukaryotic cells in which chromosomes are housed and replicated. In most cells, the nucleus contains all of the cell's chromosomes except the organellar chromosomes, and is the site of RNA synthesis and processing. In some species, or in specialized cell types, RNA metabolism or DNA replication may be absent." [GOC:go_curators]
+subset: goslim_agr
+subset: goslim_aspergillus
+subset: goslim_candida
+subset: goslim_chembl
+subset: goslim_drosophila
+subset: goslim_flybase_ribbon
+subset: goslim_generic
+subset: goslim_metagenomics
+subset: goslim_mouse
+subset: goslim_pir
+subset: goslim_plant
+subset: goslim_yeast
+synonym: "cell nucleus" EXACT []
+synonym: "horsetail nucleus" NARROW [GOC:al, GOC:mah, GOC:vw, PMID:15030757]
+xref: MIPS_funcat:70.10
+xref: NIF_Subcellular:sao1702920020
+xref: Wikipedia:Cell_nucleus
+is_a: GO:0043231 ! intracellular membrane-bounded organelle
+
+[Term]
 id: GO:0006793
 name: phosphorus metabolic process
 namespace: biological_process
@@ -203,6 +280,7 @@ subset: gocheck_do_not_manually_annotate
 subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
+subset: goslim_drosophila
 subset: goslim_generic
 subset: goslim_metagenomics
 subset: goslim_plant
@@ -269,6 +347,7 @@ id: GO:0007600
 name: sensory perception
 namespace: biological_process
 def: "The series of events required for an organism to receive a sensory stimulus, convert it to a molecular signal, and recognize and characterize the signal. This is a neurological process." [GOC:ai, GOC:dph]
+subset: goslim_drosophila
 xref: Wikipedia:Perception
 is_a: GO:0050877 ! nervous system process
 
@@ -308,7 +387,7 @@ is_a: GO:0007600 ! sensory perception
 id: GO:0007608
 name: sensory perception of smell
 namespace: biological_process
-def: "The series of events required for an organism to receive an olfactory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Olfaction involves the detection of chemical composition of an organism's ambient medium by chemoreceptors. This is a neurological process." [GOC:ai, http://www.onelook.com/]
+def: "The series of events required for an organism to receive an olfactory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Olfaction involves the detection of chemical composition of an organism's ambient medium by chemoreceptors. This is a neurological process." [GOC:ai]
 synonym: "olfaction" EXACT []
 synonym: "scent perception" EXACT []
 synonym: "sense of smell" EXACT []
@@ -360,7 +439,7 @@ relationship: part_of GO:0019953 ! sexual reproduction
 id: GO:0007619
 name: courtship behavior
 namespace: biological_process
-def: "The behavioral interactions between organisms for the purpose of attracting sexual partners." [GOC:ai, GOC:dph]
+def: "The behavior of an organism for the purpose of attracting sexual partners." [GOC:ai, GOC:dph]
 synonym: "courtship behaviour" EXACT []
 is_a: GO:0007617 ! mating behavior
 
@@ -388,6 +467,7 @@ name: circadian rhythm
 namespace: biological_process
 alt_id: GO:0050895
 def: "Any biological process in an organism that recurs with a regularity of approximately 24 hours." [GOC:bf, GOC:go_curators]
+subset: goslim_drosophila
 subset: goslim_plant
 synonym: "circadian process" EXACT []
 synonym: "circadian response" RELATED []
@@ -408,6 +488,7 @@ id: GO:0007626
 name: locomotory behavior
 namespace: biological_process
 def: "The specific movement from place to place of an organism in response to external or internal stimuli. Locomotion of a whole organism in a manner dependent upon some combination of that organism's internal state and external conditions." [GOC:dph]
+subset: goslim_drosophila
 synonym: "behavior via locomotion" EXACT []
 synonym: "locomotion in response to stimulus" EXACT []
 synonym: "locomotory behavioral response to stimulus" EXACT []
@@ -479,8 +560,8 @@ namespace: biological_process
 alt_id: GO:0016542
 def: "The behavior of a male, for the purpose of attracting a sexual partner. An example of this process is found in Drosophila melanogaster." [GOC:mtg_sensu, GOC:pr]
 synonym: "male courtship behaviour" EXACT []
+is_a: GO:0007619 ! courtship behavior
 is_a: GO:0060179 ! male mating behavior
-relationship: part_of GO:0007619 ! courtship behavior
 
 [Term]
 id: GO:0008050
@@ -488,8 +569,8 @@ name: female courtship behavior
 namespace: biological_process
 def: "The behavior of a female, for the purpose of attracting a sexual partner." [GOC:bf, GOC:pr]
 synonym: "female courtship behaviour" EXACT []
+is_a: GO:0007619 ! courtship behavior
 is_a: GO:0060180 ! female mating behavior
-relationship: part_of GO:0007619 ! courtship behavior
 
 [Term]
 id: GO:0008150
@@ -645,6 +726,7 @@ namespace: biological_process
 def: "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of an external stimulus." [GOC:hb]
 comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
 subset: gocheck_do_not_manually_annotate
+subset: goslim_drosophila
 subset: goslim_plant
 synonym: "response to environmental stimulus" EXACT []
 xref: MIPS_funcat:36.20.35
@@ -893,6 +975,7 @@ namespace: molecular_function
 def: "Catalysis of the transfer of a phosphate group, usually from ATP, to a substrate molecule." [ISBN:0198506732]
 comment: Note that this term encompasses all activities that transfer a single phosphate group; although ATP is by far the most common phosphate donor, reactions using other phosphate donors are included in this term.
 subset: goslim_chembl
+subset: goslim_drosophila
 subset: goslim_generic
 subset: goslim_metagenomics
 subset: goslim_plant
@@ -918,7 +1001,6 @@ id: GO:0016740
 name: transferase activity
 namespace: molecular_function
 def: "Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2." [ISBN:0198506732]
-subset: goslim_agr
 subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_chembl
@@ -952,8 +1034,9 @@ namespace: biological_process
 alt_id: GO:0033057
 alt_id: GO:0044704
 def: "The specific behavior of an organism that is associated with reproduction." [GOC:jl, GOC:pr]
+subset: goslim_drosophila
 synonym: "multicellular organism reproductive behavior" NARROW []
-synonym: "reproductive behavior in a multicellular organism" EXACT [GOC:curators]
+synonym: "reproductive behavior in a multicellular organism" EXACT []
 synonym: "reproductive behaviour" EXACT []
 synonym: "single-organism reproductive behavior" RELATED []
 is_a: GO:0007610 ! behavior
@@ -993,7 +1076,7 @@ relationship: regulates GO:0008152 ! metabolic process
 id: GO:0019233
 name: sensory perception of pain
 namespace: biological_process
-def: "The series of events required for an organism to receive a painful stimulus, convert it to a molecular signal, and recognize and characterize the signal. Pain is medically defined as the physical sensation of discomfort or distress caused by injury or illness, so can hence be described as a harmful stimulus which signals current (or impending) tissue damage. Pain may come from extremes of temperature, mechanical damage, electricity or from noxious chemical substances. This is a neurological process." [http://www.onelook.com/]
+def: "The series of events required for an organism to receive a painful stimulus, convert it to a molecular signal, and recognize and characterize the signal. Pain is medically defined as the physical sensation of discomfort or distress caused by injury or illness, so can hence be described as a harmful stimulus which signals current (or impending) tissue damage. Pain may come from extremes of temperature, mechanical damage, electricity or from noxious chemical substances. This is a neurological process." [GOC:curators]
 synonym: "nociception" EXACT []
 synonym: "perception of physiological pain" NARROW []
 xref: MIPS_funcat:36.25.01.15
@@ -1023,7 +1106,7 @@ id: GO:0022412
 name: cellular process involved in reproduction in multicellular organism
 namespace: biological_process
 def: "A process, occurring at the cellular level, that is involved in the reproductive function of a multicellular organism." [GOC:isa_complete]
-synonym: "reproductive cellular process in multicellular organism" EXACT [GOC:curators]
+synonym: "reproductive cellular process in multicellular organism" EXACT []
 is_a: GO:0009987 ! cellular process
 is_a: GO:0022414 ! reproductive process
 intersection_of: GO:0009987 ! cellular process
@@ -1353,6 +1436,48 @@ intersection_of: positively_regulates GO:0009605 ! response to external stimulus
 relationship: positively_regulates GO:0009605 ! response to external stimulus
 
 [Term]
+id: GO:0032386
+name: regulation of intracellular transport
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of the directed movement of substances within cells." [GOC:mah]
+is_a: GO:0051049 ! regulation of transport
+is_a: GO:0060341 ! regulation of cellular localization
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0046907 ! intracellular transport
+relationship: regulates GO:0046907 ! intracellular transport
+
+[Term]
+id: GO:0032387
+name: negative regulation of intracellular transport
+namespace: biological_process
+def: "Any process that stops, prevents, or reduces the frequency, rate or extent of the directed movement of substances within cells." [GOC:mah]
+synonym: "down regulation of intracellular transport" EXACT []
+synonym: "down-regulation of intracellular transport" EXACT []
+synonym: "downregulation of intracellular transport" EXACT []
+synonym: "inhibition of intracellular transport" NARROW []
+is_a: GO:0032386 ! regulation of intracellular transport
+is_a: GO:0051051 ! negative regulation of transport
+intersection_of: GO:0008150 ! biological_process
+intersection_of: negatively_regulates GO:0046907 ! intracellular transport
+relationship: negatively_regulates GO:0046907 ! intracellular transport
+
+[Term]
+id: GO:0032388
+name: positive regulation of intracellular transport
+namespace: biological_process
+def: "Any process that activates or increases the frequency, rate or extent of the directed movement of substances within cells." [GOC:mah]
+synonym: "activation of intracellular transport" NARROW []
+synonym: "stimulation of intracellular transport" NARROW []
+synonym: "up regulation of intracellular transport" EXACT []
+synonym: "up-regulation of intracellular transport" EXACT []
+synonym: "upregulation of intracellular transport" EXACT []
+is_a: GO:0032386 ! regulation of intracellular transport
+is_a: GO:0051050 ! positive regulation of transport
+intersection_of: GO:0008150 ! biological_process
+intersection_of: positively_regulates GO:0046907 ! intracellular transport
+relationship: positively_regulates GO:0046907 ! intracellular transport
+
+[Term]
 id: GO:0032501
 name: multicellular organismal process
 namespace: biological_process
@@ -1442,6 +1567,31 @@ is_a: GO:0051703 ! intraspecies interaction between organisms
 is_a: GO:0051705 ! multi-organism behavior
 
 [Term]
+id: GO:0035556
+name: intracellular signal transduction
+namespace: biological_process
+alt_id: GO:0007242
+alt_id: GO:0007243
+alt_id: GO:0023013
+alt_id: GO:0023034
+def: "The process in which a signal is passed on to downstream components within the cell, which become activated themselves to further propagate the signal and finally trigger a change in the function or state of the cell." [GOC:bf, GOC:jl, GOC:signaling, ISBN:3527303782]
+subset: goslim_drosophila
+synonym: "intracellular protein kinase cascade" NARROW [GOC:signaling]
+synonym: "intracellular signal transduction pathway" NARROW []
+synonym: "intracellular signaling cascade" RELATED [GOC:signaling]
+synonym: "intracellular signaling chain" EXACT [ISBN:3527303782]
+synonym: "intracellular signaling pathway" RELATED []
+synonym: "protein kinase cascade" NARROW [GOC:signaling]
+synonym: "signal transduction via intracellular signaling cascade" RELATED []
+synonym: "signal transmission via intracellular cascade" NARROW []
+is_a: GO:0007165 ! signal transduction
+intersection_of: GO:0007165 ! signal transduction
+intersection_of: occurs_in GO:0005622 ! intracellular
+relationship: occurs_in GO:0005622 ! intracellular
+created_by: rfoulger
+creation_date: 2010-05-14T01:14:37Z
+
+[Term]
 id: GO:0038023
 name: signaling receptor activity
 namespace: molecular_function
@@ -1450,6 +1600,7 @@ alt_id: GO:0019041
 def: "Receiving a signal and transmitting it in the cell to initiate a change in cell activity. A signal is a physical entity or change in state that is used to transfer information in order to trigger a response." [GOC:bf, GOC:signaling]
 subset: goslim_agr
 subset: goslim_chembl
+subset: goslim_drosophila
 subset: goslim_flybase_ribbon
 subset: goslim_metagenomics
 subset: goslim_mouse
@@ -1522,6 +1673,7 @@ comment: Note that this term is in the subset of terms that should not be used f
 subset: gocheck_do_not_manually_annotate
 subset: goslim_aspergillus
 subset: goslim_candida
+subset: goslim_drosophila
 subset: goslim_metagenomics
 subset: goslim_plant
 subset: goslim_yeast
@@ -1775,6 +1927,48 @@ intersection_of: negatively_regulates GO:0003824 ! catalytic activity
 relationship: negatively_regulates GO:0003824 ! catalytic activity
 
 [Term]
+id: GO:0043226
+name: organelle
+namespace: cellular_component
+def: "Organized structure of distinctive morphology and function. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton, and prokaryotic structures such as anammoxosomes and pirellulosomes. Excludes the plasma membrane." [GOC:go_curators]
+subset: goslim_chembl
+subset: goslim_generic
+subset: goslim_pir
+xref: NIF_Subcellular:sao1539965131
+xref: Wikipedia:Organelle
+is_a: GO:0110165 ! cellular anatomical entity
+
+[Term]
+id: GO:0043227
+name: membrane-bounded organelle
+namespace: cellular_component
+def: "Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane." [GOC:go_curators]
+synonym: "membrane-enclosed organelle" EXACT []
+xref: NIF_Subcellular:sao414196390
+is_a: GO:0043226 ! organelle
+
+[Term]
+id: GO:0043229
+name: intracellular organelle
+namespace: cellular_component
+def: "Organized structure of distinctive morphology and function, occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, vesicles, ribosomes and the cytoskeleton. Excludes the plasma membrane." [GOC:go_curators]
+subset: goslim_pir
+is_a: GO:0043226 ! organelle
+intersection_of: GO:0043226 ! organelle
+intersection_of: part_of GO:0005622 ! intracellular
+relationship: part_of GO:0005622 ! intracellular
+
+[Term]
+id: GO:0043231
+name: intracellular membrane-bounded organelle
+namespace: cellular_component
+def: "Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane and occurring within the cell. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane." [GOC:go_curators]
+subset: goslim_pir
+synonym: "intracellular membrane-enclosed organelle" EXACT []
+is_a: GO:0043227 ! membrane-bounded organelle
+is_a: GO:0043229 ! intracellular organelle
+
+[Term]
 id: GO:0043393
 name: regulation of protein binding
 namespace: biological_process
@@ -1891,6 +2085,20 @@ comment: This term covers more than feeding behavior, including, for example,  t
 is_a: GO:0051704 ! multi-organism process
 created_by: janelomax
 creation_date: 2011-10-27T03:30:30Z
+
+[Term]
+id: GO:0044464
+name: obsolete cell part
+namespace: cellular_component
+def: "OBSOLETE. Any constituent part of a cell, the basic structural and functional unit of all organisms." [GOC:jl]
+comment: Note that this term is in the subset of terms that should not be used for direct gene product annotation. Instead, select a child term or, if no appropriate child term exists, please request a new term. Direct annotations to this term may be amended during annotation QC.
+subset: gocheck_do_not_annotate
+subset: goslim_pir
+synonym: "cellular subcomponent" EXACT [NIF_Subcellular:sao628508602]
+synonym: "protoplast" RELATED [GOC:mah]
+xref: NIF_Subcellular:sao628508602
+is_obsolete: true
+consider: CL:0000000
 
 [Term]
 id: GO:0044703
@@ -2028,6 +2236,22 @@ xref: MIPS_funcat:20.09.16
 is_a: GO:0006810 ! transport
 
 [Term]
+id: GO:0046907
+name: intracellular transport
+namespace: biological_process
+alt_id: GO:1902582
+def: "The directed movement of substances within a cell." [GOC:ai]
+synonym: "single organism intracellular transport" RELATED [GOC:TermGenie]
+synonym: "single-organism intracellular transport" RELATED []
+is_a: GO:0006810 ! transport
+is_a: GO:0051641 ! cellular localization
+intersection_of: GO:0006810 ! transport
+intersection_of: occurs_in GO:0005622 ! intracellular
+relationship: occurs_in GO:0005622 ! intracellular
+created_by: jl
+creation_date: 2013-12-18T14:04:50Z
+
+[Term]
 id: GO:0048018
 name: receptor ligand activity
 namespace: molecular_function
@@ -2035,6 +2259,7 @@ alt_id: GO:0071884
 def: "The activity of a gene product that interacts with a receptor to effect a change in the activity of the receptor. Ligands may be produced by the same, or different, cell that expresses the receptor. Ligands may diffuse extracellularly from their point of origin to the receiving cell, or remain attached to an adjacent cell surface (e.g. Notch ligands)." [GOC:kv, GOC:molecular_function_refactoring, GOC:pdt]
 comment: Definition discussed in https://github.com/geneontology/go-ontology/issues/14220
 subset: goslim_chembl
+subset: goslim_drosophila
 synonym: "receptor agonist activity" BROAD [GOC:molecular_function_refactoring]
 synonym: "signaling molecule" EXACT []
 synonym: "signaling receptor ligand activity" EXACT []
@@ -2144,7 +2369,7 @@ synonym: "up-regulation of cellular process" EXACT []
 synonym: "upregulation of cellular process" EXACT []
 is_a: GO:0048518 ! positive regulation of biological process
 is_a: GO:0050794 ! regulation of cellular process
-intersection_of: GO:0008150 ! biological_process
+intersection_of: GO:0065007 ! biological regulation
 intersection_of: positively_regulates GO:0009987 ! cellular process
 relationship: positively_regulates GO:0009987 ! cellular process
 
@@ -2217,8 +2442,8 @@ id: GO:0048609
 name: multicellular organismal reproductive process
 namespace: biological_process
 def: "The process, occurring above the cellular level, that is pertinent to the reproductive function of a multicellular organism. This includes the integrated processes at the level of tissues and organs." [GOC:dph, GOC:jid, GOC:tb]
-synonym: "organismal reproductive process" BROAD [GOC:curators]
-synonym: "reproductive process in a multicellular organism" EXACT [GOC:curators]
+synonym: "organismal reproductive process" BROAD []
+synonym: "reproductive process in a multicellular organism" EXACT []
 is_a: GO:0022414 ! reproductive process
 relationship: part_of GO:0032504 ! multicellular organism reproduction
 
@@ -2229,7 +2454,6 @@ namespace: biological_process
 alt_id: GO:0050791
 def: "Any process that modulates the frequency, rate or extent of a biological process. Biological processes are regulated by many means; examples include the control of gene expression, protein modification or interaction with a protein or substrate molecule." [GOC:ai, GOC:go_curators]
 subset: gocheck_do_not_annotate
-subset: goslim_agr
 subset: goslim_aspergillus
 subset: goslim_candida
 subset: goslim_pir
@@ -2262,7 +2486,7 @@ alt_id: GO:0051244
 def: "Any process that modulates the frequency, rate or extent of a cellular process, any of those that are carried out at the cellular level, but are not necessarily restricted to a single cell. For example, cell communication occurs among more than one cell, but occurs at the cellular level." [GOC:go_curators]
 synonym: "regulation of cellular physiological process" EXACT []
 is_a: GO:0050789 ! regulation of biological process
-intersection_of: GO:0008150 ! biological_process
+intersection_of: GO:0065007 ! biological regulation
 intersection_of: regulates GO:0009987 ! cellular process
 relationship: regulates GO:0009987 ! cellular process
 
@@ -2339,7 +2563,7 @@ is_a: GO:0050881 ! musculoskeletal movement
 id: GO:0050885
 name: neuromuscular process controlling balance
 namespace: biological_process
-def: "Any process that an organism uses to control its balance, the orientation of the organism (or the head of the organism) in relation to the source of gravity. In humans and animals, balance is perceived through visual cues, the labyrinth system of the inner ears and information from skin pressure receptors and muscle and joint receptors." [GOC:ai, GOC:dph, http://www.onelook.com/]
+def: "Any process that an organism uses to control its balance, the orientation of the organism (or the head of the organism) in relation to the source of gravity. In humans and animals, balance is perceived through visual cues, the labyrinth system of the inner ears and information from skin pressure receptors and muscle and joint receptors." [GOC:ai, GOC:dph]
 synonym: "regulation of balance" RELATED []
 xref: MIPS_funcat:36.25.03.03.03
 is_a: GO:0050905 ! neuromuscular process
@@ -2406,7 +2630,7 @@ relationship: part_of GO:0007606 ! sensory perception of chemical stimulus
 id: GO:0050909
 name: sensory perception of taste
 namespace: biological_process
-def: "The series of events required for an organism to receive a gustatory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Gustation involves the direct detection of chemical composition, usually through contact with chemoreceptor cells. This is a neurological process." [GOC:ai, http://www.onelook.com/]
+def: "The series of events required for an organism to receive a gustatory stimulus, convert it to a molecular signal, and recognize and characterize the signal. Gustation involves the direct detection of chemical composition, usually through contact with chemoreceptor cells. This is a neurological process." [GOC:ai]
 synonym: "gustation" EXACT []
 synonym: "sense of taste" EXACT []
 synonym: "taste" EXACT []
@@ -2518,7 +2742,7 @@ is_a: GO:0050951 ! sensory perception of temperature stimulus
 id: GO:0050957
 name: equilibrioception
 namespace: biological_process
-def: "The series of events required for an organism to receive an orientational stimulus, convert it to a molecular signal, and recognize and characterize the signal. Equilibrioception refers to a combination of processes by which an organism can perceive its orientation with respect to gravity. In animals, stimuli come from labyrinth system of the inner ears, monitoring the direction of motion; visual stimuli, with information on orientation and motion; pressure receptors, which tell the organism which body surfaces are in contact with the ground; and proprioceptive cues, which report which parts of the body are in motion." [http://www.medterms.com, http://www.onelook.com/]
+def: "The series of events required for an organism to receive an orientational stimulus, convert it to a molecular signal, and recognize and characterize the signal. Equilibrioception refers to a combination of processes by which an organism can perceive its orientation with respect to gravity. In animals, stimuli come from labyrinth system of the inner ears, monitoring the direction of motion; visual stimuli, with information on orientation and motion; pressure receptors, which tell the organism which body surfaces are in contact with the ground; and proprioceptive cues, which report which parts of the body are in motion." [http://www.medterms.com]
 synonym: "sensory perception of orientation with respect to gravity" EXACT []
 xref: MIPS_funcat:36.25.01.07
 xref: Wikipedia:Equilibrioception
@@ -2601,9 +2825,9 @@ synonym: "sensory transduction of temperature stimulus during perception of pain
 synonym: "sensory transduction of thermal stimulus during sensory perception of pain" EXACT []
 synonym: "thermal nociception" RELATED [GOC:pr]
 is_a: GO:0050961 ! detection of temperature stimulus involved in sensory perception
+is_a: GO:0062149 ! detection of stimulus involved in sensory perception of pain
 intersection_of: GO:0016048 ! detection of temperature stimulus
 intersection_of: part_of GO:0019233 ! sensory perception of pain
-relationship: part_of GO:0019233 ! sensory perception of pain
 
 [Term]
 id: GO:0050966
@@ -2617,9 +2841,9 @@ synonym: "perception of pain, sensory transduction of mechanical stimulus" EXACT
 synonym: "sensory detection of mechanical stimulus during perception of pain" EXACT []
 synonym: "sensory transduction of mechanical stimulus during perception of pain" EXACT []
 is_a: GO:0050974 ! detection of mechanical stimulus involved in sensory perception
+is_a: GO:0062149 ! detection of stimulus involved in sensory perception of pain
 intersection_of: GO:0050982 ! detection of mechanical stimulus
 intersection_of: part_of GO:0019233 ! sensory perception of pain
-relationship: part_of GO:0019233 ! sensory perception of pain
 
 [Term]
 id: GO:0050967
@@ -2633,9 +2857,9 @@ synonym: "perception of pain, sensory transduction of electrical stimulus" EXACT
 synonym: "sensory detection of electrical stimulus during perception of pain" RELATED []
 synonym: "sensory transduction of electrical stimulus during perception of pain" RELATED []
 is_a: GO:0050963 ! detection of electrical stimulus involved in sensory perception
+is_a: GO:0062149 ! detection of stimulus involved in sensory perception of pain
 intersection_of: GO:0050981 ! detection of electrical stimulus
 intersection_of: part_of GO:0019233 ! sensory perception of pain
-relationship: part_of GO:0019233 ! sensory perception of pain
 
 [Term]
 id: GO:0050968
@@ -2649,9 +2873,9 @@ synonym: "perception of pain, sensory transduction of chemical stimulus" EXACT [
 synonym: "sensory detection of chemical stimulus during perception of pain" EXACT []
 synonym: "sensory transduction of chemical stimulus during perception of pain" EXACT []
 is_a: GO:0050907 ! detection of chemical stimulus involved in sensory perception
+is_a: GO:0062149 ! detection of stimulus involved in sensory perception of pain
 intersection_of: GO:0009593 ! detection of chemical stimulus
 intersection_of: part_of GO:0019233 ! sensory perception of pain
-relationship: part_of GO:0019233 ! sensory perception of pain
 
 [Term]
 id: GO:0050973
@@ -3025,6 +3249,24 @@ xref: MIPS_funcat:34.11
 is_a: GO:0050896 ! response to stimulus
 
 [Term]
+id: GO:0051641
+name: cellular localization
+namespace: biological_process
+alt_id: GO:1902580
+def: "A cellular localization process whereby a substance or cellular entity, such as a protein complex or organelle, is transported to, and/or maintained in, a specific location within a cell including the localization of substances or cellular entities to the cell membrane." [GOC:tb, GOC:vw]
+subset: goslim_pir
+synonym: "cellular localisation" EXACT [GOC:mah]
+synonym: "establishment and maintenance of cellular localization" EXACT []
+synonym: "establishment and maintenance of localization in cell or cell membrane" EXACT []
+synonym: "intracellular localization" NARROW []
+synonym: "localization within cell" NARROW []
+synonym: "single organism cellular localization" EXACT [GOC:TermGenie]
+synonym: "single-organism cellular localization" RELATED []
+is_a: GO:0051179 ! localization
+created_by: jl
+creation_date: 2013-12-18T14:04:32Z
+
+[Term]
 id: GO:0051703
 name: intraspecies interaction between organisms
 namespace: biological_process
@@ -3154,6 +3396,29 @@ def: "The behavior in which an organism sheds tears, often accompanied by non-ve
 is_a: GO:0007610 ! behavior
 
 [Term]
+id: GO:0060341
+name: regulation of cellular localization
+namespace: biological_process
+def: "Any process that modulates the frequency, rate or extent of a process in which a cell, a substance, or a cellular entity is transported to, or maintained in a specific location within or in the membrane of a cell." [GOC:dph, GOC:tb]
+synonym: "regulation of cellular localisation" EXACT [GOC:mah]
+is_a: GO:0032879 ! regulation of localization
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0051641 ! cellular localization
+relationship: regulates GO:0051641 ! cellular localization
+
+[Term]
+id: GO:0062149
+name: detection of stimulus involved in sensory perception of pain
+namespace: biological_process
+def: "The series of events involved in the perception of pain in which a stimulus is received and converted into a molecular signal." [PMID:19837031]
+is_a: GO:0050906 ! detection of stimulus involved in sensory perception
+intersection_of: GO:0051606 ! detection of stimulus
+intersection_of: part_of GO:0019233 ! sensory perception of pain
+relationship: part_of GO:0019233 ! sensory perception of pain
+created_by: dph
+creation_date: 2019-09-13T13:48:47Z
+
+[Term]
 id: GO:0065007
 name: biological regulation
 namespace: biological_process
@@ -3179,7 +3444,6 @@ name: regulation of molecular function
 namespace: biological_process
 def: "Any process that modulates the frequency, rate or extent of a molecular function, an elemental biological activity occurring at the molecular level, such as catalysis or binding." [GOC:isa_complete]
 subset: gocheck_do_not_annotate
-subset: goslim_agr
 subset: goslim_pir
 subset: goslim_plant
 synonym: "regulation of a molecular function" EXACT []
@@ -3269,6 +3533,15 @@ is_a: GO:0044057 ! regulation of system process
 intersection_of: GO:0008150 ! biological_process
 intersection_of: regulates GO:0003014 ! renal system process
 relationship: regulates GO:0003014 ! renal system process
+
+[Term]
+id: GO:0110165
+name: cellular anatomical entity
+namespace: cellular_component
+def: "A part of a cellular organism that is either an immaterial entity or a material entity with granularity above the level of a protein complex but below that of an anatomical system. Or, a substance produced by a cellular organism with granularity above the level of a protein complex." [GOC:kmv]
+is_a: GO:0005575 ! cellular_component
+created_by: kmv
+creation_date: 2019-08-12T18:01:37Z
 
 [Term]
 id: GO:1900120
@@ -3382,6 +3655,124 @@ intersection_of: positively_regulates GO:0060179 ! male mating behavior
 relationship: positively_regulates GO:0060179 ! male mating behavior
 created_by: mm2
 creation_date: 2013-10-09T15:50:14Z
+
+[Term]
+id: GO:1902531
+name: regulation of intracellular signal transduction
+namespace: biological_process
+alt_id: GO:0010627
+def: "Any process that modulates the frequency, rate or extent of intracellular signal transduction." [GOC:dph, GOC:signaling, GOC:tb, GOC:TermGenie]
+synonym: "regulation of intracellular protein kinase cascade" NARROW []
+synonym: "regulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "regulation of intracellular signaling cascade" EXACT [GOC:TermGenie]
+synonym: "regulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "regulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "regulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "regulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+is_a: GO:0009966 ! regulation of signal transduction
+intersection_of: GO:0008150 ! biological_process
+intersection_of: regulates GO:0035556 ! intracellular signal transduction
+relationship: regulates GO:0035556 ! intracellular signal transduction
+created_by: bf
+creation_date: 2013-12-02T11:32:52Z
+
+[Term]
+id: GO:1902532
+name: negative regulation of intracellular signal transduction
+namespace: biological_process
+alt_id: GO:0010741
+def: "Any process that stops, prevents or reduces the frequency, rate or extent of intracellular signal transduction." [GOC:dph, GOC:signaling, GOC:tb, GOC:TermGenie]
+synonym: "down regulation of intracellular signal transduction" EXACT [GOC:TermGenie]
+synonym: "down regulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "down regulation of intracellular signaling cascade" NARROW [GOC:TermGenie]
+synonym: "down regulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "down regulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "down regulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "down regulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+synonym: "down-regulation of intracellular signal transduction" EXACT [GOC:TermGenie]
+synonym: "down-regulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "down-regulation of intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "down-regulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "down-regulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "down-regulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "down-regulation of signal transmission via intracellular cascade" RELATED [GOC:TermGenie]
+synonym: "downregulation of intracellular signal transduction" EXACT [GOC:TermGenie]
+synonym: "downregulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "downregulation of intracellular signaling cascade" NARROW [GOC:TermGenie]
+synonym: "downregulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "downregulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "downregulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "downregulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+synonym: "inhibition of intracellular signal transduction" NARROW [GOC:TermGenie]
+synonym: "inhibition of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "inhibition of intracellular signaling cascade" NARROW [GOC:TermGenie]
+synonym: "inhibition of intracellular signaling chain" NARROW [GOC:TermGenie]
+synonym: "inhibition of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "inhibition of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "inhibition of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+synonym: "negative regulation of intracellular protein kinase cascade" EXACT []
+synonym: "negative regulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "negative regulation of intracellular signaling cascade" EXACT [GOC:TermGenie]
+synonym: "negative regulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "negative regulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "negative regulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "negative regulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+is_a: GO:0009968 ! negative regulation of signal transduction
+is_a: GO:1902531 ! regulation of intracellular signal transduction
+intersection_of: GO:0008150 ! biological_process
+intersection_of: negatively_regulates GO:0035556 ! intracellular signal transduction
+relationship: negatively_regulates GO:0035556 ! intracellular signal transduction
+created_by: bf
+creation_date: 2013-12-02T11:33:01Z
+
+[Term]
+id: GO:1902533
+name: positive regulation of intracellular signal transduction
+namespace: biological_process
+alt_id: GO:0010740
+def: "Any process that activates or increases the frequency, rate or extent of intracellular signal transduction." [GOC:BHF, GOC:dph, GOC:signaling, GOC:tb, GOC:TermGenie]
+synonym: "activation of intracellular signal transduction" NARROW [GOC:TermGenie]
+synonym: "activation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "activation of intracellular signaling cascade" NARROW [GOC:TermGenie]
+synonym: "activation of intracellular signaling chain" NARROW [GOC:TermGenie]
+synonym: "activation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "activation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "activation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+synonym: "positive regulation of intracellular protein kinase cascade" NARROW []
+synonym: "positive regulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "positive regulation of intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "positive regulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "positive regulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "positive regulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "positive regulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+synonym: "up regulation of intracellular signal transduction" EXACT [GOC:TermGenie]
+synonym: "up regulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "up regulation of intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "up regulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "up regulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "up regulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "up regulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+synonym: "up-regulation of intracellular signal transduction" EXACT [GOC:TermGenie]
+synonym: "up-regulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "up-regulation of intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "up-regulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "up-regulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "up-regulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "up-regulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+synonym: "upregulation of intracellular signal transduction" EXACT [GOC:TermGenie]
+synonym: "upregulation of intracellular signal transduction pathway" NARROW [GOC:TermGenie]
+synonym: "upregulation of intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "upregulation of intracellular signaling chain" EXACT [GOC:TermGenie]
+synonym: "upregulation of intracellular signaling pathway" RELATED [GOC:TermGenie]
+synonym: "upregulation of signal transduction via intracellular signaling cascade" RELATED [GOC:TermGenie]
+synonym: "upregulation of signal transmission via intracellular cascade" NARROW [GOC:TermGenie]
+is_a: GO:0009967 ! positive regulation of signal transduction
+is_a: GO:1902531 ! regulation of intracellular signal transduction
+intersection_of: GO:0008150 ! biological_process
+intersection_of: positively_regulates GO:0035556 ! intracellular signal transduction
+relationship: positively_regulates GO:0035556 ! intracellular signal transduction
+created_by: bf
+creation_date: 2013-12-02T11:33:10Z
 
 [Term]
 id: GO:1902584

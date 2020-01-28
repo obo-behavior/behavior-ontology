@@ -3,7 +3,6 @@
      xml:base="http://purl.obolibrary.org/obo/nbo.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:go="http://purl.obolibrary.org/obo/go#"
-     xmlns:nbo="http://purl.obolibrary.org/obo/nbo.owl#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"

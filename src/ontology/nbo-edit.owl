@@ -15341,6 +15341,111 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0045000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0045000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001845"/>
+        <obo:IAO_0000115>Any habitual use of the tobacco plant leaf and its products.</obo:IAO_0000115>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-27T20:46:57Z</dc:date>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <rdfs:label xml:lang="en">tobacco consumption</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0045001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0045001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0045000"/>
+        <obo:IAO_0000115>A behavior of chewing a type of smokeless tobacco maked from cured tobacco leaves. Often the tobacco is left in the mouth and chewed but the leaves are not swallowed.</obo:IAO_0000115>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-27T20:51:17Z</dc:date>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <oboInOwl:hasExactSynonym>spit tobacco consumption</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">tobacco chewing behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0045002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0045002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0015005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0045000"/>
+        <obo:IAO_0000115>The inhalation and exhalation of tobacco smoke.</obo:IAO_0000115>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-27T20:51:34Z</dc:date>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <rdfs:label xml:lang="en">tobacco smoking behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0045003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0045003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0045000"/>
+        <obo:IAO_0000115>The inhalation and exhalation of tobacco aerosol, referred to as vapor, which is produced by an e-cigarette or other device.</obo:IAO_0000115>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-27T20:51:58Z</dc:date>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <rdfs:label xml:lang="en">tobacco vaping behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0045004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0045004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0001845"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-27T21:03:19Z</dc:date>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <rdfs:label xml:lang="en">cannabis consumption</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0045005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0045005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0015005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0045004"/>
+        <obo:IAO_0000115>The inhalation and exhalation of marijuana smoke.</obo:IAO_0000115>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-27T21:04:14Z</dc:date>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <oboInOwl:hasExactSynonym>marijuana smoking behavior</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pot smoking behavior</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>weed smoking behavior</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">cannabis smoking behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0045006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0045006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0045004"/>
+        <obo:IAO_0000115>The inhalation and exhalation of cannabis aerosol, referred to as vapor, which is produced by an e-cigarette or other device.</obo:IAO_0000115>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-27T21:04:28Z</dc:date>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <oboInOwl:hasExactSynonym>marijuana vaping behavior</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pot vaping behavior</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>weed vaping behavior</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">cannabis vaping behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0045007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0045007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0045004"/>
+        <obo:IAO_0000115>The consuming of cannabis through eating or applying the oil sublingually.</obo:IAO_0000115>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-27T21:04:49Z</dc:date>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <oboInOwl:hasExactSynonym>marijuana oil consumption</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">cannabis oil consumption</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0050000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0050000">

@@ -51,3 +51,7 @@ EquivalentTo: xsd:integer[> 40000 , <= 44999]
 Datatype: idrange: 10
 Annotations: allocatedto: "Leigh Carmody"
 EquivalentTo: xsd:integer[> 45000 , <= 49999]
+
+Datatype: idrange: 11
+Annotations: allocatedto: "Sofia Robb"
+EquivalentTo: xsd:integer[> 50000 , <= 59999]

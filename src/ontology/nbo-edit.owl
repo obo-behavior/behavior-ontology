@@ -15465,7 +15465,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0050001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000013"/>
-        <obo:IAO_0000115>Behavior related to the movement of an organism from one location to another using an inchworm like motion. This motion consits of extending the front part of the body and pulling the rear along the surface to meet the front.</obo:IAO_0000115>
+        <obo:IAO_0000115>Behavior related to the movement of an organism from one location to another using an inchworm like motion. This motion consists of extending the front part of the body and pulling the rear along the surface to meet the front.</obo:IAO_0000115>
         <dc:contributor>http://orcid.org/0000-0002-3528-5267</dc:contributor>
         <dc:date>2020-02-05T20:14:32Z</dc:date>
         <oboInOwl:created_by>Sofia Robb</oboInOwl:created_by>

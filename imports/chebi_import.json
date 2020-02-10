@@ -9326,11 +9326,11 @@
           "xrefs" : [ "ChemIDplus" ]
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "Benzoylsulfonic Imide",
+          "val" : "2,3-Dihydro-3-oxobenzisosulphonazole",
           "xrefs" : [ "ChemIDplus" ]
         }, {
           "pred" : "hasRelatedSynonym",
-          "val" : "2,3-Dihydro-3-oxobenzisosulphonazole",
+          "val" : "Benzoylsulfonic Imide",
           "xrefs" : [ "ChemIDplus" ]
         }, {
           "pred" : "hasRelatedSynonym",
@@ -11404,13 +11404,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_25697"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24532",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_5686"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_29337",
       "pred" : "http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_29340"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_24532",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_5686"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_48218",
       "pred" : "is_a",
@@ -12464,13 +12464,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24651"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_36343",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36342"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_60606",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_60598"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_36343",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36342"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_50313",
       "pred" : "is_a",
@@ -12608,13 +12608,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_25367"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_26456",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_22315"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_90852",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_37716"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_26456",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_22315"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_75772",
       "pred" : "is_a",
@@ -12704,13 +12704,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_23367"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76413",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_51086"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_51446",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_33247"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_76413",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_51086"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_28938",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
@@ -13128,13 +13128,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_38867"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_62732",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33659"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_26456",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_38260"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_62732",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_33659"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_51447",
       "pred" : "is_a",
@@ -13181,7 +13181,7 @@
       "subsets" : [ ],
       "xrefs" : [ ],
       "basicPropertyValues" : [ ],
-      "version" : "http://purl.obolibrary.org/obo/nbo/releases/2020-01-23/imports/chebi_import.owl"
+      "version" : "http://purl.obolibrary.org/obo/nbo/releases/2020-02-10/imports/chebi_import.owl"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

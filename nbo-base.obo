@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: nbo/releases/2020-01-23/nbo-base.owl
+data-version: nbo/releases/2020-02-10/nbo-base.owl
 treat-xrefs-as-equivalent: GO
 ontology: nbo/nbo-base
 
@@ -8689,6 +8689,79 @@ is_a: NBO:0000635 ! avoidance behavior
 created_by: https://orcid.org/0000-0002-9611-1279
 
 [Term]
+id: NBO:0045000
+name: tobacco consumption
+def: "Any habitual use of the tobacco plant leaf and its products." []
+is_a: NBO:0001845 ! consumption behavior
+property_value: http://purl.org/dc/elements/1.1/date 2020-01-27T20:46:57Z xsd:dateTime
+created_by: http://orcid.org/0000-0001-7941-2961
+
+[Term]
+id: NBO:0045001
+name: tobacco chewing behavior
+def: "A behavior of chewing a type of smokeless tobacco maked from cured tobacco leaves. Often the tobacco is left in the mouth and chewed but the leaves are not swallowed." []
+synonym: "spit tobacco consumption" EXACT []
+is_a: NBO:0045000 ! tobacco consumption
+property_value: http://purl.org/dc/elements/1.1/date 2020-01-27T20:51:17Z xsd:dateTime
+created_by: http://orcid.org/0000-0001-7941-2961
+
+[Term]
+id: NBO:0045002
+name: tobacco smoking behavior
+def: "The inhalation and exhalation of tobacco smoke." []
+is_a: NBO:0015005 ! smoking behavior
+is_a: NBO:0045000 ! tobacco consumption
+property_value: http://purl.org/dc/elements/1.1/date 2020-01-27T20:51:34Z xsd:dateTime
+created_by: http://orcid.org/0000-0001-7941-2961
+
+[Term]
+id: NBO:0045003
+name: tobacco vaping behavior
+def: "The inhalation and exhalation of tobacco aerosol, referred to as vapor, which is produced by an e-cigarette or other device." []
+is_a: NBO:0045000 ! tobacco consumption
+property_value: http://purl.org/dc/elements/1.1/date 2020-01-27T20:51:58Z xsd:dateTime
+created_by: http://orcid.org/0000-0001-7941-2961
+
+[Term]
+id: NBO:0045004
+name: cannabis consumption
+is_a: NBO:0001845 ! consumption behavior
+property_value: http://purl.org/dc/elements/1.1/date 2020-01-27T21:03:19Z xsd:dateTime
+created_by: http://orcid.org/0000-0001-7941-2961
+
+[Term]
+id: NBO:0045005
+name: cannabis smoking behavior
+def: "The inhalation and exhalation of marijuana smoke." []
+synonym: "marijuana smoking behavior" EXACT []
+synonym: "pot smoking behavior" EXACT []
+synonym: "weed smoking behavior" EXACT []
+is_a: NBO:0015005 ! smoking behavior
+is_a: NBO:0045004 ! cannabis consumption
+property_value: http://purl.org/dc/elements/1.1/date 2020-01-27T21:04:14Z xsd:dateTime
+created_by: http://orcid.org/0000-0001-7941-2961
+
+[Term]
+id: NBO:0045006
+name: cannabis vaping behavior
+def: "The inhalation and exhalation of cannabis aerosol, referred to as vapor, which is produced by an e-cigarette or other device." []
+synonym: "marijuana vaping behavior" EXACT []
+synonym: "pot vaping behavior" EXACT []
+synonym: "weed vaping behavior" EXACT []
+is_a: NBO:0045004 ! cannabis consumption
+property_value: http://purl.org/dc/elements/1.1/date 2020-01-27T21:04:28Z xsd:dateTime
+created_by: http://orcid.org/0000-0001-7941-2961
+
+[Term]
+id: NBO:0045007
+name: cannabis oil consumption
+def: "The consuming of cannabis through eating or applying the oil sublingually." []
+synonym: "marijuana oil consumption" EXACT []
+is_a: NBO:0045004 ! cannabis consumption
+property_value: http://purl.org/dc/elements/1.1/date 2020-01-27T21:04:49Z xsd:dateTime
+created_by: http://orcid.org/0000-0001-7941-2961
+
+[Term]
 id: NBO:0050000
 name: grazing behaviour
 namespace: behavior_ontology
@@ -8698,6 +8771,30 @@ is_a: NBO:0000079 ! feeding behavior
 property_value: http://purl.org/dc/elements/1.1/date 2017-09-14T19:12:10+09:00 xsd:dateTime
 created_by: http://orcid.org/0000-0002-1816-4260
 created_by: http://orcid.org/0000-0002-4366-3088
+
+[Term]
+id: NBO:0050001
+name: inchworming behavior
+namespace: behavior_ontology
+def: "Behavior related to the movement of an organism from one location to another using an inchworm like motion. This motion consists of extending the front part of the body and pulling the rear along the surface to meet the front." []
+synonym: "inchworm-like locomotion" EXACT []
+synonym: "inchworming" EXACT []
+is_a: NBO:0000013 ! locomotory behavior
+property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-3528-5267 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2020-02-05T20:14:32Z xsd:string
+created_by: Sofia Robb
+
+[Term]
+id: NBO:0050002
+name: circling behavior
+namespace: behavior_ontology
+def: "Behavior related to the repeating or looping movement of the whole organism along a circular or round path." []
+synonym: "circling" EXACT []
+synonym: "circling locomotion" EXACT []
+is_a: NBO:0000013 ! locomotory behavior
+property_value: http://purl.org/dc/elements/1.1/contributor http://orcid.org/0000-0002-3528-5267 xsd:string
+property_value: http://purl.org/dc/elements/1.1/date 2020-02-05T20:14:32Z xsd:string
+created_by: Sofia Robb
 
 [Typedef]
 id: by_means

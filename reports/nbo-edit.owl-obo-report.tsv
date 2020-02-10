@@ -219,6 +219,7 @@ WARN	missing_definition	NBO:0000929	IAO:0000115
 WARN	missing_definition	NBO:0000961	IAO:0000115		
 WARN	missing_definition	NBO:0000993	IAO:0000115		
 WARN	missing_definition	NBO:0009001	IAO:0000115		
+WARN	missing_definition	NBO:0045004	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/nbo#by_means	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/nbo#has-input	IAO:0000115		
 WARN	missing_definition	http://purl.obolibrary.org/obo/nbo#has_participant	IAO:0000115		

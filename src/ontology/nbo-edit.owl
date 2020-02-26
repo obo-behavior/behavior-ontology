@@ -145,19 +145,6 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
     
 
-
-    <!-- http://purl.obolibrary.org/obo/inheres_in -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/inheres_in"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/chebi#has_role -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/chebi#has_role"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/nbo#by_means -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/nbo#by_means">
@@ -204,19 +191,6 @@
         <rdfs:label xml:lang="en">qualifier</rdfs:label>
     </owl:ObjectProperty>
     
-
-
-    <!-- http://purl.obolibrary.org/obo/pato#towards -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/pato#towards"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/uberon#has_quality -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon#has_quality"/>
-    
-
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -686,7 +660,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007626"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -2582,13 +2556,13 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000064"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000161"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
@@ -2650,7 +2624,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0060259"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -2708,13 +2682,13 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0002660"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000912"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
@@ -2747,13 +2721,13 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0002660"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000911"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
@@ -2786,7 +2760,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0002702"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000911"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -2815,7 +2789,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0002702"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000912"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -2844,7 +2818,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0060259"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000912"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -2872,7 +2846,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0060259"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000911"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -2900,7 +2874,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0002794"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000912"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -2928,7 +2902,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007617"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -2956,7 +2930,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0002948"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000161"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -3184,7 +3158,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0030431"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001309"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -3236,7 +3210,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042747"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001309"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -3265,7 +3239,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042747"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -3293,7 +3267,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000161"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001309"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -3323,7 +3297,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000161"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000044"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -4295,7 +4269,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000317"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -4802,7 +4776,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000607"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -4869,7 +4843,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000079"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -7186,7 +7160,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000024"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -8035,7 +8009,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000008"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -8063,7 +8037,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0048512"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -8636,13 +8610,13 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000515">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002361"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000085"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -8972,7 +8946,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042755"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -9002,7 +8976,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042756"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -9033,7 +9007,7 @@
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000064"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
@@ -9043,7 +9017,7 @@
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001863"/>
                                             </owl:Restriction>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
@@ -9092,7 +9066,7 @@
                                                 <owl:intersectionOf rdf:parseType="Collection">
                                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001548"/>
                                                     <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001563"/>
                                                     </owl:Restriction>
                                                 </owl:intersectionOf>
@@ -9138,7 +9112,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000064"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
@@ -9148,7 +9122,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001333"/>
                                             </owl:Restriction>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
@@ -9179,13 +9153,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000544">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001558"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0042755"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -9235,7 +9209,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000134"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000912"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -9261,13 +9235,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000547">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001558"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000230"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -9507,7 +9481,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0035176"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -9579,7 +9553,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000338"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -9905,7 +9879,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000339"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000770"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -9935,7 +9909,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000339"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -10086,7 +10060,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000003"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -10165,13 +10139,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000606">
         <owl:equivalentClass>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                 <owl:someValuesFrom>
                     <owl:Class>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0002361"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000304"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -10756,7 +10730,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000388"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -10785,7 +10759,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000403"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -10968,7 +10942,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000308"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -10997,7 +10971,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000327"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -11026,7 +11000,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000330"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -11054,7 +11028,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0031223"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -11083,7 +11057,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007632"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -11113,7 +11087,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007635"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -11142,7 +11116,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000323"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12423,7 +12397,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000161"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12453,7 +12427,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0042747"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12483,7 +12457,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0019098"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12512,7 +12486,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007617"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12541,7 +12515,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0045297"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12570,7 +12544,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000034"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12599,7 +12573,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007619"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12628,7 +12602,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008050"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12657,7 +12631,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008049"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12686,7 +12660,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0007620"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12715,7 +12689,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000549"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12744,7 +12718,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000548"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12773,7 +12747,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000006"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12802,7 +12776,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000022"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12831,7 +12805,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000170"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12860,7 +12834,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000035"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12888,7 +12862,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000038"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12917,7 +12891,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000039"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12946,7 +12920,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000040"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -12975,7 +12949,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000036"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -13003,7 +12977,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000041"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -13031,7 +13005,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000042"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -13060,7 +13034,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0060273"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -13090,7 +13064,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000632"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -13120,7 +13094,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000037"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -13184,7 +13158,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                                         <owl:intersectionOf rdf:parseType="Collection">
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001548"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001563"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
@@ -13222,7 +13196,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                                                 <owl:intersectionOf rdf:parseType="Collection">
                                                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0001548"/>
                                                     <owl:Restriction>
-                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001563"/>
                                                     </owl:Restriction>
                                                 </owl:intersectionOf>
@@ -13253,13 +13227,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000064"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000044"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
@@ -13291,13 +13265,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000064"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000380"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
@@ -13326,13 +13300,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000064"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000381"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
@@ -13396,7 +13370,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
                         <owl:someValuesFrom>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chebi#has_role"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35703"/>
                             </owl:Restriction>
                         </owl:someValuesFrom>
@@ -13410,7 +13384,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chebi#has_role"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35703"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
@@ -13863,7 +13837,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NBO_0000064"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/uberon#has_quality"/>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
                                 <owl:someValuesFrom>
                                     <owl:Class>
                                         <owl:intersectionOf rdf:parseType="Collection">
@@ -13873,7 +13847,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001863"/>
                                             </owl:Restriction>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/pato#towards"/>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>

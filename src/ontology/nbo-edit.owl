@@ -12818,7 +12818,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2012-03-19T02:34:26Z</dc:date>
         <oboInOwl:created_by>gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory behavior behavior</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">memory behavior phenotype</rdfs:label>
     </owl:Class>
     
 

@@ -1,33 +1,34 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/nbo.owl#"
-     xml:base="http://purl.obolibrary.org/obo/nbo.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:go="http://purl.obolibrary.org/obo/go#"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:cito="http://purl.org/spar/cito/"
-     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:pato="http://purl.obolibrary.org/obo/pato#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/nbo.owl/"
+     xml:base="http://purl.obolibrary.org/obo/nbo.owl/"
      xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
-     xmlns:core1="http://purl.obolibrary.org/obo/core#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:go="http://purl.obolibrary.org/obo/go#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:cito="http://purl.org/spar/cito/"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
-     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:core="http://purl.obolibrary.org/obo/uberon/core#"
      xmlns:chebi2="http://purl.obolibrary.org/obo/chebi#"
      xmlns:chebi3="http://purl.obolibrary.org/obo/chebi#3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:core1="http://purl.obolibrary.org/obo/core#"
      xmlns:chebi4="http://purl.obolibrary.org/obo/chebi#1"
-     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:pato="http://purl.obolibrary.org/obo/pato#"
+     xmlns:nbo="http://purl.obolibrary.org/obo/nbo.owl#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/nbo.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/nbo/2018-05-11/nbo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/nbo/imports/chebi_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/nbo/imports/go_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/nbo/imports/pato_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/nbo/imports/ro_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/nbo/imports/go_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/nbo/imports/uberon_import.owl"/>
         <oboInOwl:treat-xrefs-as-equivalent rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO</oboInOwl:treat-xrefs-as-equivalent>
     </owl:Ontology>
@@ -140,10 +141,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002211 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
     
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002503 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002503"/>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/nbo#by_means -->
 
@@ -191,6 +205,7 @@
         <rdfs:label xml:lang="en">qualifier</rdfs:label>
     </owl:ObjectProperty>
     
+
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -922,7 +937,7 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0030000"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The act of using body parts to pick at, rub and or remove material from exterior covering, e.g., fur, scales, feathers, skin [NBO:SMAC]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
@@ -9013,12 +9028,12 @@
                                         <owl:intersectionOf rdf:parseType="Collection">
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000380"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#qualifier"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001863"/>
-                                            </owl:Restriction>
-                                            <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#qualifier"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001863"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -9118,12 +9133,12 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                                         <owl:intersectionOf rdf:parseType="Collection">
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000380"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#qualifier"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001333"/>
-                                            </owl:Restriction>
-                                            <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#qualifier"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001333"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -13843,12 +13858,12 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                                         <owl:intersectionOf rdf:parseType="Collection">
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000381"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#qualifier"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001863"/>
-                                            </owl:Restriction>
-                                            <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#qualifier"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001863"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -15245,6 +15260,54 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NBO_0030000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0030000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <obo:IAO_0000115>Behavior related to cleaning, maintaining and repairing</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2908-3327"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-22T18:44:13Z</dc:date>
+        <rdfs:label xml:lang="en">maintenance behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0030001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0030001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0030000"/>
+        <obo:IAO_0000115>A maintenance behavior related to cleaning and maintaining a home and its inhabitants</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2908-3327"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-22T18:49:02Z</dc:date>
+        <rdfs:label xml:lang="en">housework behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0030002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0030002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0030000"/>
+        <obo:IAO_0000115>A maintenance behavior related to cleaning and maintaining the exterior of a property</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2908-3327"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-22T18:49:12Z</dc:date>
+        <rdfs:label xml:lang="en">yardwork behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0030003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0030003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000285"/>
+        <obo:IAO_0000115>An altruism behavior wherein an individual helps another individual with behaviors that are normally performed by oneself and are necessary for survival. This excludes normal parental behaviors.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2908-3327"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-22T18:53:31Z</dc:date>
+        <rdfs:label xml:lang="en">care giving behavior</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0040000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0040000">
@@ -15443,12 +15506,14 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:contributor>http://orcid.org/0000-0002-3528-5267</dc:contributor>
         <dc:date>2020-02-05T20:14:32Z</dc:date>
         <oboInOwl:created_by>Sofia Robb</oboInOwl:created_by>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchworming</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchworm-like locomotion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchworming</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchworming behavior</rdfs:label>
     </owl:Class>
-   
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0050002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0050002">
@@ -15462,7 +15527,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circling behavior</rdfs:label>
     </owl:Class>
- 
+    
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
@@ -15839,5 +15904,5 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 

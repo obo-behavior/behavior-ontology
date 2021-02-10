@@ -140,10 +140,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002211 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
     
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002503 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002503"/>
+    
+
 
     <!-- http://purl.obolibrary.org/obo/nbo#by_means -->
 
@@ -191,6 +204,7 @@
         <rdfs:label xml:lang="en">qualifier</rdfs:label>
     </owl:ObjectProperty>
     
+
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -580,6 +594,7 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
         <obo:IAO_0000115>&quot;Behavior related to the complex psychophysiological experience of an individual&apos;s state of mind as interacting with biochemical (internal) and environmental (external) influences.&quot; [wikipedia:Emotions]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
@@ -639,6 +654,7 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
@@ -698,6 +714,7 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
         <obo:IAO_0000115>&quot;A behavior that occurs predominantly or only, in individuals that are part of a group.&quot; [Wikipedia:Social_behavior]</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
@@ -4327,6 +4344,7 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
         <obo:IAO_0000115>&quot;Behavior related to the tendency of an organism to maintain internal equilibrium.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-04T08:29:40Z</dc:date>
@@ -7948,6 +7966,7 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000469 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000469">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
         <obo:IAO_0000115>&quot;Behavior related to how the body reacts to a stressor ( a stimulus that causes stress), real or imagined.&quot; [wikipedia:Stress_(biological)]</obo:IAO_0000115>
         <dc:date>2011-04-08T01:52:36Z</dc:date>
@@ -9013,12 +9032,12 @@
                                         <owl:intersectionOf rdf:parseType="Collection">
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000380"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#qualifier"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001863"/>
-                                            </owl:Restriction>
-                                            <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#qualifier"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001863"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -9118,12 +9137,12 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                                         <owl:intersectionOf rdf:parseType="Collection">
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000380"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#qualifier"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001333"/>
-                                            </owl:Restriction>
-                                            <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#qualifier"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001333"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -10169,6 +10188,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <!-- http://purl.obolibrary.org/obo/NBO_0000607 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000607">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0007610"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
         <obo:IAO_0000115>&quot;Behaviour related to cognitive processes.&quot; [NBO:JH]</obo:IAO_0000115>
         <dc:date>2011-04-14T03:51:13Z</dc:date>
@@ -13843,12 +13863,12 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                                         <owl:intersectionOf rdf:parseType="Collection">
                                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000381"/>
                                             <owl:Restriction>
-                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#qualifier"/>
-                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001863"/>
-                                            </owl:Restriction>
-                                            <owl:Restriction>
                                                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002503"/>
                                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000130"/>
+                                            </owl:Restriction>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#qualifier"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001863"/>
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
@@ -15443,12 +15463,14 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:contributor>http://orcid.org/0000-0002-3528-5267</dc:contributor>
         <dc:date>2020-02-05T20:14:32Z</dc:date>
         <oboInOwl:created_by>Sofia Robb</oboInOwl:created_by>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchworming</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchworm-like locomotion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchworming</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inchworming behavior</rdfs:label>
     </owl:Class>
-   
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NBO_0050002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0050002">
@@ -15462,7 +15484,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">circling behavior</rdfs:label>
     </owl:Class>
- 
+    
 
 
     <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
@@ -15839,5 +15861,5 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
 
 
-<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 

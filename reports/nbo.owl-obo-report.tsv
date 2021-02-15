@@ -3,6 +3,14 @@ ERROR	duplicate_definition	active foraging behavior	definition	Feeding behavior 
 ERROR	duplicate_definition	active foraging behavior	definition	Feeding behavior during which a living entity acquires food and energy by actively searching for food resources.
 ERROR	duplicate_definition	smoking behavior	definition	Consumption behavior that involves inhaling a material (such as finely ground tobacco leaves) through the nose.
 ERROR	duplicate_definition	snuffing behavior	definition	Consumption behavior that involves inhaling a material (such as finely ground tobacco leaves) through the nose.
+ERROR	duplicate_definition	muscle of iris	definition	.
+ERROR	duplicate_definition	kidney rudiment	definition	.
+ERROR	duplicate_definition	mesonephric smooth muscle tissue	definition	.
+ERROR	duplicate_definition	early pharyngeal endoderm	definition	.
+ERROR	duplicate_definition	layer of sclera	definition	.
+ERROR	duplicate_definition	transitively anteriorly connected to	definition	.
+ERROR	duplicate_definition	transitively distally connected to	definition	.
+ERROR	duplicate_definition	transitively proximally connected to	definition	.
 ERROR	duplicate_definition	aggressive behavior towards inanimate objects	definition	"<\""Exhibiting a domineering, assault posture and/or hostile physical action toward inanimate objects.\"" [NBO:GVG]>"
 ERROR	duplicate_definition	aggressive behavior towards animate objects	definition	"<\""Exhibiting a domineering, assault posture and/or hostile physical action toward inanimate objects.\"" [NBO:GVG]>"
 ERROR	duplicate_definition	REM duration	definition	"<\""Duration of REM sleep.\"" [NBO:GVG]>"
@@ -11,45 +19,218 @@ ERROR	duplicate_definition	regulation of withdrawal response	definition	"<\""Any
 ERROR	duplicate_definition	regulation of addiction response	definition	"<\""Any process that modulates the frequency, rate or extent of withdrawal response.\"" [NBOC:GVG]>"
 ERROR	duplicate_definition	regulation of behavioral response to chemical stimulus	definition	"<\""Any process that modulates the frequency, rate or extent of behavioral response to chemical stimulus.\"" [NBOC:GVG]>"
 ERROR	duplicate_definition	regulation of behavioral response to addictive substance	definition	"<\""Any process that modulates the frequency, rate or extent of behavioral response to chemical stimulus.\"" [NBOC:GVG]>"
-ERROR	missing_label	grooming behavior	rdfs:label	
-ERROR	missing_label	flight behavior	rdfs:label	
+ERROR	multiple_equivalent_classes	forelimb endochondral element	owl:equivalentClass	89567ad5-260a-4755-9023-8e7d1908974cgenid13796
+ERROR	multiple_equivalent_classes	forelimb endochondral element	owl:equivalentClass	89567ad5-260a-4755-9023-8e7d1908974cgenid13800
+ERROR	multiple_equivalent_classes	hindlimb endochondral element	owl:equivalentClass	89567ad5-260a-4755-9023-8e7d1908974cgenid13807
+ERROR	multiple_equivalent_classes	hindlimb endochondral element	owl:equivalentClass	89567ad5-260a-4755-9023-8e7d1908974cgenid13811
+ERROR	multiple_equivalent_classes	limb endochondral element	owl:equivalentClass	89567ad5-260a-4755-9023-8e7d1908974cgenid13818
+ERROR	multiple_equivalent_classes	limb endochondral element	owl:equivalentClass	89567ad5-260a-4755-9023-8e7d1908974cgenid13822
+ERROR	deprecated_class_reference	obsolete predatory behavior	rdfs:subClassOf	<http://purl.obolibrary.org/obo/NBO_0020292>
 ERROR	missing_ontology_description	http://purl.obolibrary.org/obo/nbo.owl	dc11:description	
+ERROR	duplicate_label	visual behavior	rdfs:label	visual behavior
+ERROR	duplicate_label	visual behavior	rdfs:label	visual behavior
+ERROR	duplicate_label	social behavior	rdfs:label	social behavior
+ERROR	duplicate_label	social behavior	rdfs:label	social behavior
+ERROR	duplicate_label	rhythmic behavior	rdfs:label	rhythmic behavior
+ERROR	duplicate_label	rhythmic behavior	rdfs:label	rhythmic behavior
+ERROR	duplicate_label	reproductive behavior	rdfs:label	reproductive behavior
+ERROR	duplicate_label	reproductive behavior	rdfs:label	reproductive behavior
+ERROR	duplicate_label	regulation of eating behavior	rdfs:label	regulation of eating behavior
+ERROR	duplicate_label	regulation of eating behavior	rdfs:label	regulation of eating behavior
+ERROR	duplicate_label	mating behavior	rdfs:label	mating behavior
+ERROR	duplicate_label	mating behavior	rdfs:label	mating behavior
+ERROR	duplicate_label	male courtship behavior	rdfs:label	male courtship behavior
+ERROR	duplicate_label	male courtship behavior	rdfs:label	male courtship behavior
+ERROR	duplicate_label	locomotory behavior	rdfs:label	locomotory behavior
+ERROR	duplicate_label	locomotory behavior	rdfs:label	locomotory behavior
+ERROR	duplicate_label	grooming behavior	rdfs:label	grooming behavior
+ERROR	duplicate_label	grooming behavior	rdfs:label	grooming behavior
+ERROR	duplicate_label	flight behavior	rdfs:label	flight behavior
+ERROR	duplicate_label	flight behavior	rdfs:label	flight behavior
+ERROR	duplicate_label	female courtship behavior	rdfs:label	female courtship behavior
+ERROR	duplicate_label	female courtship behavior	rdfs:label	female courtship behavior
+ERROR	duplicate_label	feeding behavior	rdfs:label	feeding behavior
+ERROR	duplicate_label	feeding behavior	rdfs:label	feeding behavior
+ERROR	duplicate_label	crying behavior	rdfs:label	crying behavior
+ERROR	duplicate_label	crying behavior	rdfs:label	crying behavior
+ERROR	duplicate_label	courtship behavior	rdfs:label	courtship behavior
+ERROR	duplicate_label	courtship behavior	rdfs:label	courtship behavior
+ERROR	duplicate_label	copulation	rdfs:label	copulation
+ERROR	duplicate_label	copulation	rdfs:label	copulation
+ERROR	duplicate_label	circadian rhythm	rdfs:label	circadian rhythm
+ERROR	duplicate_label	circadian rhythm	rdfs:label	circadian rhythm
+ERROR	duplicate_label	circadian behavior	rdfs:label	circadian behavior
+ERROR	duplicate_label	circadian behavior	rdfs:label	circadian behavior
+ERROR	duplicate_label	chemosensory behavior	rdfs:label	chemosensory behavior
+ERROR	duplicate_label	chemosensory behavior	rdfs:label	chemosensory behavior
+ERROR	duplicate_label	auditory behavior	rdfs:label	auditory behavior
+ERROR	duplicate_label	auditory behavior	rdfs:label	auditory behavior
+ERROR	duplicate_label	aggressive behavior	rdfs:label	aggressive behavior
+ERROR	duplicate_label	aggressive behavior	rdfs:label	aggressive behavior
 ERROR	duplicate_label	active foraging behavior	rdfs:label	active foraging behavior@en
 ERROR	duplicate_label	active foraging behavior	rdfs:label	active foraging behavior@en
+ERROR	multiple_definitions	has_part	definition	<Q1 has_part Q2 if and only if: every instance of Q1 is a quality_of an entity that has_quality some Q2.>
+ERROR	multiple_definitions	has_part	definition	a core relation that holds between a whole and its part@en
+ERROR	multiple_definitions	preceded_by	definition	<X preceded_by Y iff: end(Y) before_or_simultaneous_with start(X)>
+ERROR	multiple_definitions	preceded_by	definition	<x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en>
 ERROR	multiple_definitions	agonistic alarm	definition	Alarm behavior triggered by agonistic actions or postures@en
 ERROR	multiple_definitions	agonistic alarm	definition	Alarm behavior triggered by agonistic actions or postures.@en
+ERROR	multiple_definitions	has potential to developmentally contribute to	definition	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y
+ERROR	multiple_definitions	has potential to developmentally contribute to	definition	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en
+ERROR	multiple_definitions	has potential to develop into	definition	x has the potential to develop into y iff x develops into y or if x is capable of developing into y
+ERROR	multiple_definitions	has potential to develop into	definition	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en
 ERROR	missing_ontology_license	http://purl.obolibrary.org/obo/nbo.owl	dc:license	
 ERROR	missing_ontology_title	http://purl.obolibrary.org/obo/nbo.owl	dc11:title	
+ERROR	multiple_labels	part_of	rdfs:label	part of
+ERROR	multiple_labels	part_of	rdfs:label	part of@en
+ERROR	multiple_labels	part_of	rdfs:label	part_of
+ERROR	multiple_labels	has_part	rdfs:label	has part
+ERROR	multiple_labels	has_part	rdfs:label	has part@en
+ERROR	multiple_labels	has_part	rdfs:label	has_part
+ERROR	multiple_labels	preceded_by	rdfs:label	preceded by@en
+ERROR	multiple_labels	preceded_by	rdfs:label	preceded_by
+ERROR	multiple_labels	precedes	rdfs:label	precedes
+ERROR	multiple_labels	precedes	rdfs:label	precedes@en
+ERROR	multiple_labels	bearer of	rdfs:label	bearer of
+ERROR	multiple_labels	bearer of	rdfs:label	bearer of@en
+ERROR	multiple_labels	has quality	rdfs:label	has quality
+ERROR	multiple_labels	has quality	rdfs:label	has quality@en
+ERROR	multiple_labels	has role	rdfs:label	has role
+ERROR	multiple_labels	has role	rdfs:label	has role@en
+ERROR	multiple_labels	immediately preceded by	rdfs:label	immediately preceded by@en
+ERROR	multiple_labels	immediately preceded by	rdfs:label	immediately_preceded_by
+ERROR	multiple_labels	develops from	rdfs:label	develops from@en
+ERROR	multiple_labels	develops from	rdfs:label	develops_from
+ERROR	multiple_labels	develops_into	rdfs:label	develops into@en
+ERROR	multiple_labels	develops_into	rdfs:label	develops_into
+ERROR	multiple_labels	regulates	rdfs:label	regulates
+ERROR	multiple_labels	regulates	rdfs:label	regulates@en
+ERROR	multiple_labels	has developmental contribution from	rdfs:label	has developmental contribution from
+ERROR	multiple_labels	has developmental contribution from	rdfs:label	has developmental contribution from@en
+ERROR	multiple_labels	developmentally contributes to	rdfs:label	developmentally contributes to@en
+ERROR	multiple_labels	developmentally contributes to	rdfs:label	developmentally_contributes_to
+ERROR	multiple_labels	has potential to developmentally contribute to	rdfs:label	has potential to developmentally contribute to
+ERROR	multiple_labels	has potential to developmentally contribute to	rdfs:label	has potential to developmentally contribute to@en
+ERROR	multiple_labels	has potential to develop into	rdfs:label	has potential to develop into
+ERROR	multiple_labels	has potential to develop into	rdfs:label	has potential to develop into@en
+WARN	annotation_whitespace	capable of	definition	A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. 
+WARN	duplicate_exact_synonym	visual behavior	has_exact_synonym	visual behaviour
+WARN	duplicate_exact_synonym	visual behavior	has_exact_synonym	visual behaviour
 WARN	duplicate_exact_synonym	seizures	has_exact_synonym	unprovoked seizure
 WARN	duplicate_exact_synonym	epilepsy	has_exact_synonym	unprovoked seizure
+WARN	duplicate_exact_synonym	social behavior	has_exact_synonym	social behaviour
+WARN	duplicate_exact_synonym	social behavior	has_exact_synonym	social behaviour
+WARN	duplicate_exact_synonym	reproductive behavior	has_exact_synonym	reproductive behaviour
+WARN	duplicate_exact_synonym	reproductive behavior	has_exact_synonym	reproductive behaviour
 WARN	duplicate_exact_synonym	REM sleep behavior disorder	has_exact_synonym	RBD
 WARN	duplicate_exact_synonym	recurrent brief depression	has_exact_synonym	RBD
+WARN	duplicate_exact_synonym	sensory perception of pain	has_exact_synonym	nociception
+WARN	duplicate_exact_synonym	nociceptive behavior	has_exact_synonym	nociception
+WARN	duplicate_exact_synonym	mating behavior	has_exact_synonym	mating behaviour
+WARN	duplicate_exact_synonym	mating behavior	has_exact_synonym	mating behaviour
+WARN	duplicate_exact_synonym	male courtship behavior	has_exact_synonym	male courtship behaviour
+WARN	duplicate_exact_synonym	male courtship behavior	has_exact_synonym	male courtship behaviour
 WARN	duplicate_exact_synonym	pathological anxiety	has_exact_synonym	hysteria
 WARN	duplicate_exact_synonym	conversion disorder	has_exact_synonym	hysteria
+WARN	duplicate_exact_synonym	grooming behavior	has_exact_synonym	grooming behaviour
+WARN	duplicate_exact_synonym	grooming behavior	has_exact_synonym	grooming behaviour
 WARN	duplicate_exact_synonym	grooming behavior	has_exact_synonym	groom@en
 WARN	duplicate_exact_synonym	grooming behavior	has_exact_synonym	groom@en
 WARN	duplicate_exact_synonym	flight behavior	has_exact_synonym	fly@en
 WARN	duplicate_exact_synonym	flight behavior	has_exact_synonym	fly@en
+WARN	duplicate_exact_synonym	female courtship behavior	has_exact_synonym	female courtship behaviour
+WARN	duplicate_exact_synonym	female courtship behavior	has_exact_synonym	female courtship behaviour
+WARN	duplicate_exact_synonym	feeding behavior	has_exact_synonym	feeding behaviour
+WARN	duplicate_exact_synonym	feeding behavior	has_exact_synonym	feeding behaviour
+WARN	duplicate_exact_synonym	eating behavior	has_exact_synonym	eating behaviour
+WARN	duplicate_exact_synonym	regulation of eating behavior	has_exact_synonym	eating behaviour
+WARN	duplicate_exact_synonym	drinking behavior	has_exact_synonym	drinking behaviour
+WARN	duplicate_exact_synonym	regulation of drinking behavior	has_exact_synonym	drinking behaviour
+WARN	duplicate_exact_synonym	courtship behavior	has_exact_synonym	courtship behaviour
+WARN	duplicate_exact_synonym	courtship behavior	has_exact_synonym	courtship behaviour
+WARN	duplicate_exact_synonym	visual behavior	has_exact_synonym	behavioural response to visual stimulus
+WARN	duplicate_exact_synonym	visual behavior	has_exact_synonym	behavioural response to visual stimulus
+WARN	duplicate_exact_synonym	behavior	has_exact_synonym	behaviour
+WARN	duplicate_exact_synonym	behavior process	has_exact_synonym	behaviour
+WARN	duplicate_exact_synonym	visual behavior	has_exact_synonym	behavioral response to visual stimulus
+WARN	duplicate_exact_synonym	visual behavior	has_exact_synonym	behavioral response to visual stimulus
+WARN	duplicate_exact_synonym	aggressive behavior	has_exact_synonym	aggression
+WARN	duplicate_exact_synonym	aggressive behavior	has_exact_synonym	aggression
 WARN	duplicate_exact_synonym	discriminatory behavior	has_exact_synonym	<new synonym>
 WARN	duplicate_exact_synonym	bruxism	has_exact_synonym	<new synonym>
-WARN	duplicate_label_synonym	aggressive behavior towards humans	has_exact_synonym	aggressive behavior towards humans
-WARN	duplicate_label_synonym	aggressive behavior towards animals	has_exact_synonym	aggressive behavior towards animals
-WARN	duplicate_label_synonym	aggressive behavior towards objects	has_exact_synonym	aggressive behavior towards objects
-WARN	duplicate_label_synonym	aggressive behavior towards mice	has_exact_synonym	aggressive behavior towards mice
-WARN	duplicate_label_synonym	aggressive behavior towards women	has_exact_synonym	aggressive behavior towards women
-WARN	duplicate_label_synonym	aggressive behavior towards men	has_exact_synonym	aggressive behavior towards men
-WARN	duplicate_label_synonym	aggressive behavior towards male mice	has_exact_synonym	aggressive behavior towards male mice
-WARN	duplicate_label_synonym	aggressive behavior towards female mice	has_exact_synonym	aggressive behavior towards female mice
-WARN	duplicate_label_synonym	aggressive behavior towards inanimate objects	has_exact_synonym	aggressive behavior towards inanimate objects
-WARN	duplicate_label_synonym	aggressive behavior towards animate objects	has_exact_synonym	aggressive behavior towards animate objects
-WARN	duplicate_label_synonym	aggressive behavior towards children	has_exact_synonym	aggressive behavior towards children
-WARN	duplicate_label_synonym	aggressive behavior towards pups	has_exact_synonym	aggressive behavior towards pups
-WARN	duplicate_label_synonym	aggressive behavior towards males	has_exact_synonym	aggressive behavior towards males
-WARN	duplicate_label_synonym	submissive behavior towards males	has_exact_synonym	submissive behavior towards males
-WARN	duplicate_label_synonym	submissive behavior towards females	has_exact_synonym	submissive behavior towards females
-WARN	duplicate_label_synonym	submissive behavior towards male mice	has_exact_synonym	submissive behavior towards male mice
-WARN	missing_definition	grooming behavior	definition	
-WARN	missing_definition	flight behavior	definition	
+WARN	missing_definition	quality	definition	
+WARN	missing_definition	anatomical entity	definition	
+WARN	missing_definition	biological entity	definition	
+WARN	missing_definition	hydroxide	definition	
+WARN	missing_definition	carbonyl group	definition	
+WARN	missing_definition	imide	definition	
+WARN	missing_definition	inorganic anion	definition	
+WARN	missing_definition	nitrogen atom	definition	
+WARN	missing_definition	nonmetal atom	definition	
+WARN	missing_definition	organic heteromonocyclic compound	definition	
+WARN	missing_definition	organic ion	definition	
+WARN	missing_definition	oxygen atom	definition	
+WARN	missing_definition	oxygen molecular entity	definition	
+WARN	missing_definition	pyridine alkaloid	definition	
+WARN	missing_definition	pyrrolidine alkaloid	definition	
+WARN	missing_definition	sulfur atom	definition	
+WARN	missing_definition	sulfur molecular entity	definition	
+WARN	missing_definition	organic heterobicyclic compound	definition	
+WARN	missing_definition	carbon atom	definition	
+WARN	missing_definition	azanide	definition	
+WARN	missing_definition	oxonium	definition	
+WARN	missing_definition	inorganic hydride	definition	
+WARN	missing_definition	carbon group element atom	definition	
+WARN	missing_definition	s-block element atom	definition	
+WARN	missing_definition	carbon group molecular entity	definition	
+WARN	missing_definition	hydrogen molecular entity	definition	
+WARN	missing_definition	polycyclic compound	definition	
+WARN	missing_definition	organic aromatic compound	definition	
+WARN	missing_definition	monocyclic compound	definition	
+WARN	missing_definition	heteromonocyclic compound	definition	
+WARN	missing_definition	oxygen hydride	definition	
+WARN	missing_definition	benzenoid aromatic compound	definition	
+WARN	missing_definition	macronutrient	definition	
+WARN	missing_definition	nitrogen hydride	definition	
+WARN	missing_definition	alkaloid fundamental parent	definition	
+WARN	missing_definition	natural product fundamental parent	definition	
+WARN	missing_definition	carbon oxoacid	definition	
+WARN	missing_definition	morphinan	definition	
+WARN	missing_definition	pnictogen hydride	definition	
+WARN	missing_definition	chalcogen hydride	definition	
+WARN	missing_definition	inorganic ion	definition	
+WARN	missing_definition	inorganic cation	definition	
+WARN	missing_definition	organic hydride	definition	
+WARN	missing_definition	mononuclear parent hydride	definition	
+WARN	missing_definition	tropane alkaloid	definition	
+WARN	missing_definition	benzothiazoles	definition	
+WARN	missing_definition	organosulfur heterocyclic compound	definition	
+WARN	missing_definition	organic heteropentacyclic compound	definition	
+WARN	missing_definition	organic heteropolycyclic compound	definition	
+WARN	missing_definition	azabicycloalkane	definition	
+WARN	missing_definition	isoquinoline alkaloid fundamental parent	definition	
+WARN	missing_definition	sodium channel modulator	definition	
+WARN	missing_definition	hydroxy group	definition	
+WARN	missing_definition	oxo group	definition	
+WARN	missing_definition	N-alkylpyrrolidine	definition	
+WARN	missing_definition	carboxy group	definition	
+WARN	missing_definition	serotonergic drug	definition	
+WARN	missing_definition	protophilic solvent	definition	
+WARN	missing_definition	amphiprotic solvent	definition	
+WARN	missing_definition	hydrogen atom	definition	
+WARN	missing_definition	onium compound	definition	
+WARN	missing_definition	nitrogen molecular entity	definition	
+WARN	missing_definition	organic divalent group	definition	
+WARN	missing_definition	organic univalent group	definition	
+WARN	missing_definition	biophysical role	definition	
+WARN	missing_definition	physiological role	definition	
+WARN	missing_definition	inorganic hydroxy compound	definition	
+WARN	missing_definition	molecular_function	definition	
+WARN	missing_definition	catalytic activity	definition	
+WARN	missing_definition	kinase activity	definition	
+WARN	missing_definition	transferase activity	definition	
+WARN	missing_definition	transferase activity, transferring phosphorus-containing groups	definition	
+WARN	missing_definition	definition	definition	
 WARN	missing_definition	whole body movement	definition	
 WARN	missing_definition	rhythmic behavior	definition	
 WARN	missing_definition	seizures/epilepsy	definition	
@@ -220,12 +401,217 @@ WARN	missing_definition	increased frequency of drinking	definition
 WARN	missing_definition	decreased frequency of drinking	definition	
 WARN	missing_definition	rotation behavior	definition	
 WARN	missing_definition	cannabis consumption	definition	
+WARN	missing_definition	qualitative	definition	
+WARN	missing_definition	physical quality of a process	definition	
+WARN	missing_definition	location_of	definition	
+WARN	missing_definition	contains	definition	
+WARN	missing_definition	located_in	definition	
+WARN	missing_definition	has boundary	definition	
+WARN	missing_definition	bounding layer of	definition	
+WARN	missing_definition	has component activity	definition	
+WARN	missing_definition	directly regulated by	definition	
+WARN	missing_definition	ends after	definition	
+WARN	missing_definition	immediately precedes	definition	
+WARN	missing_definition	continuous_with	definition	
+WARN	missing_definition	attaches_to_part_of	definition	
+WARN	missing_definition	drains	definition	
+WARN	missing_definition	temporally related to	definition	
+WARN	missing_definition	starts with	definition	
+WARN	missing_definition	ends with	definition	
+WARN	missing_definition	developmentally_replaces	definition	
+WARN	missing_definition	causally upstream of, positive effect	definition	
+WARN	missing_definition	causally upstream of, negative effect	definition	
+WARN	missing_definition	enables	definition	
+WARN	missing_definition	member of	definition	
+WARN	missing_definition	has member	definition	
+WARN	missing_definition	attaches_to	definition	
+WARN	missing_definition	tributary_of	definition	
+WARN	missing_definition	branching_part_of	definition	
+WARN	missing_definition	immediately causally downstream of	definition	
+WARN	missing_definition	contributes to morphology of	definition	
+WARN	missing_definition	phosphorylates	definition	
+WARN	missing_definition	helper property (not for use in curation)	definition	
+WARN	missing_definition	is kinase activity	definition	
+WARN	missing_definition	existence starts and ends during	definition	
+WARN	missing_definition	transformation of	definition	
+WARN	missing_definition	immediate transformation of	definition	
+WARN	missing_definition	existence starts during or after	definition	
+WARN	missing_definition	existence ends during or before	definition	
+WARN	missing_definition	depends on	definition	
+WARN	missing_definition	causal relation between entities	definition	
+WARN	missing_definition	causally influenced by	definition	
+WARN	missing_definition	interaction relation helper property	definition	
+WARN	missing_definition	molecular interaction relation helper property	definition	
+WARN	missing_definition	has branching part	definition	
+WARN	missing_definition	luminal space of	definition	
+WARN	missing_definition	skeleton of	definition	
+WARN	missing_definition	produces	definition	
+WARN	missing_definition	produced_by	definition	
+WARN	missing_definition	acts upstream of or within, positive effect	definition	
+WARN	missing_definition	acts upstream of or within, negative effect	definition	
+WARN	missing_definition	causally upstream of or within, negative effect	definition	
+WARN	missing_definition	causally upstream of or within, positive effect	definition	
+WARN	missing_definition	anterior region of body	definition	
+WARN	missing_definition	posterior region of body	definition	
+WARN	missing_definition	membranous layer	definition	
+WARN	missing_definition	subdivision of head	definition	
+WARN	missing_definition	posterior neural tube	definition	
+WARN	missing_definition	anterior neural tube	definition	
+WARN	missing_definition	valve	definition	
+WARN	missing_definition	developing anatomical structure	definition	
+WARN	missing_definition	chemosensory system	definition	
+WARN	missing_definition	zone of bone organ	definition	
+WARN	missing_definition	posterior surface of head	definition	
+WARN	missing_definition	future spinal cord	definition	
+WARN	missing_definition	superior vesical vein	definition	
+WARN	missing_definition	presumptive blood	definition	
+WARN	missing_definition	presumptive gut	definition	
+WARN	missing_definition	1st arch mandibular component	definition	
+WARN	missing_definition	pharyngeal region of foregut	definition	
+WARN	missing_definition	indifferent external genitalia	definition	
+WARN	missing_definition	subdivision of trunk	definition	
+WARN	missing_definition	midbrain mantle layer	definition	
+WARN	missing_definition	spinal cord mantle layer	definition	
+WARN	missing_definition	midbrain hindbrain boundary neural plate	definition	
+WARN	missing_definition	trunk paraxial mesoderm	definition	
+WARN	missing_definition	entire pharyngeal arch endoderm	definition	
+WARN	missing_definition	sac	definition	
+WARN	missing_definition	anterior lateral plate mesoderm	definition	
+WARN	missing_definition	optic neural crest	definition	
+WARN	missing_definition	germ layer / neural crest	definition	
+WARN	missing_definition	primary subdivision of cranial skeletal system	definition	
+WARN	missing_definition	intra-ocular muscle	definition	
+WARN	missing_definition	embryonic skin basal layer	definition	
+WARN	missing_definition	future lower lip	definition	
+WARN	missing_definition	fibrous connective tissue	definition	
+WARN	missing_definition	collection of collagen fibrils	definition	
+WARN	missing_definition	internal anal region	definition	
+WARN	missing_definition	respiratory system arterial smooth muscle	definition	
+WARN	missing_definition	extraembryonic cavity	definition	
+WARN	missing_definition	external anal region	definition	
+WARN	missing_definition	subdivision of tube	definition	
+WARN	missing_definition	subepicardial layer of epicardium	definition	
+WARN	missing_definition	heart plus pericardium	definition	
+WARN	missing_definition	lamina of gray matter of spinal cord	definition	
+WARN	missing_definition	cardiac muscle tissue of ventricle	definition	
+WARN	missing_definition	reproductive system mucosa	definition	
+WARN	missing_definition	gray matter of hindbrain	definition	
+WARN	missing_definition	gray matter of midbrain	definition	
+WARN	missing_definition	sensory organ epithelium	definition	
+WARN	missing_definition	surface of eyeball	definition	
+WARN	missing_definition	hindbrain marginal layer	definition	
+WARN	missing_definition	spinal cord ventricular layer	definition	
+WARN	missing_definition	gland lumen	definition	
+WARN	missing_definition	zone of organ	definition	
+WARN	missing_definition	epithelial layer of duct	definition	
+WARN	missing_definition	jaw epithelium	definition	
+WARN	missing_definition	posterior surface of kidney	definition	
+WARN	missing_definition	uveal vein	definition	
+WARN	missing_definition	cavity of cardiac chamber	definition	
+WARN	missing_definition	serous cavity	definition	
+WARN	missing_definition	wall of blood vessel	definition	
+WARN	missing_definition	orifice of skull	definition	
+WARN	missing_definition	pelvic vein	definition	
+WARN	missing_definition	vasculature of central nervous system plus retina	definition	
+WARN	missing_definition	vasculature of central nervous system	definition	
+WARN	missing_definition	wall of anal canal	definition	
+WARN	missing_definition	wall of urethra	definition	
+WARN	missing_definition	wall of eyeball	definition	
+WARN	missing_definition	BRAND NAME	definition	
+WARN	missing_definition	IUPAC NAME	definition	
+WARN	missing_definition	has functional parent	definition	
+WARN	missing_definition	has parent hydride	definition	
+WARN	missing_definition	is conjugate acid of	definition	
+WARN	missing_definition	is conjugate base of	definition	
+WARN	missing_definition	is enantiomer of	definition	
+WARN	missing_definition	is substituent group from	definition	
 WARN	missing_definition	by_means	definition	
 WARN	missing_definition	has-input	definition	
 WARN	missing_definition	has_participant	definition	
 WARN	missing_definition	in_response_to	definition	
 WARN	missing_definition	is_about	definition	
 WARN	missing_definition	qualifier	definition	
+WARN	missing_definition	channel for	definition	
+WARN	missing_definition	channels_from	definition	
+WARN	missing_definition	channels_into	definition	
+WARN	missing_definition	protects	definition	
+WARN	missing_definition	subdivision of	definition	
+WARN	missing_definition	transitively_connected to	definition	
+WARN	missing_definition	contributor	definition	
+WARN	missing_definition	subset_property	definition	
+WARN	missing_definition	has_alternative_id	definition	
+WARN	missing_definition	has_broad_synonym	definition	
+WARN	missing_definition	database_cross_reference	definition	
+WARN	missing_definition	has_exact_synonym	definition	
+WARN	missing_definition	has_narrow_synonym	definition	
+WARN	missing_definition	has_obo_namespace	definition	
+WARN	missing_definition	has_related_synonym	definition	
+WARN	missing_definition	has_synonym_type	definition	
+WARN	missing_definition	in_subset	definition	
+WARN	missing_definition	shorthand	definition	
+WARN	missing_definition	treat-xrefs-as-equivalent	definition	
+WARN	duplicate_scoped_synonym	nitrogen atom	has_exact_synonym	nitrogen
+WARN	duplicate_scoped_synonym	nitrogen atom	has_related_synonym	nitrogen
+WARN	duplicate_scoped_synonym	nonmetal atom	has_exact_synonym	nonmetal
+WARN	duplicate_scoped_synonym	nonmetal atom	has_related_synonym	nonmetal
+WARN	duplicate_scoped_synonym	oxygen atom	has_exact_synonym	oxygen
+WARN	duplicate_scoped_synonym	oxygen atom	has_related_synonym	oxygen
+WARN	duplicate_scoped_synonym	sulfur atom	has_exact_synonym	sulfur
+WARN	duplicate_scoped_synonym	sulfur atom	has_related_synonym	sulfur
+WARN	duplicate_scoped_synonym	carbon atom	has_exact_synonym	carbon
+WARN	duplicate_scoped_synonym	carbon atom	has_related_synonym	carbon
+WARN	duplicate_scoped_synonym	hydrogen atom	has_exact_synonym	hydrogen
+WARN	duplicate_scoped_synonym	hydrogen atom	has_related_synonym	hydrogen
+WARN	duplicate_scoped_synonym	onium cation	has_exact_synonym	onium cations
+WARN	duplicate_scoped_synonym	onium cation	has_related_synonym	onium cations
+WARN	duplicate_scoped_synonym	immediately preceded by	IAO:0000118	starts_at_end_of
+WARN	duplicate_scoped_synonym	immediately preceded by	has_exact_synonym	starts_at_end_of
+WARN	duplicate_scoped_synonym	zygote stage	has_exact_synonym	fertilized egg stage
+WARN	duplicate_scoped_synonym	zygote stage	has_related_synonym	fertilized egg stage
+WARN	duplicate_scoped_synonym	respiratory system	has_exact_synonym	apparatus respiratorius
+WARN	duplicate_scoped_synonym	respiratory system	has_related_synonym	apparatus respiratorius
+WARN	duplicate_scoped_synonym	sensory system	has_exact_synonym	organa sensuum
+WARN	duplicate_scoped_synonym	sensory system	has_related_synonym	organa sensuum
+WARN	duplicate_scoped_synonym	wall of intestine	has_exact_synonym	bowel wall
+WARN	duplicate_scoped_synonym	wall of intestine	has_related_synonym	bowel wall
+WARN	duplicate_scoped_synonym	pectoral girdle region	has_exact_synonym	cingulum membri superioris
+WARN	duplicate_scoped_synonym	pectoral girdle region	has_narrow_synonym	cingulum membri superioris
+WARN	duplicate_scoped_synonym	optic choroid	has_exact_synonym	choroidea
+WARN	duplicate_scoped_synonym	optic choroid	has_related_synonym	choroidea
+WARN	duplicate_scoped_synonym	hindlimb	has_exact_synonym	membrum inferius
+WARN	duplicate_scoped_synonym	hindlimb	has_related_synonym	membrum inferius
+WARN	duplicate_scoped_synonym	vestibulo-auditory system	has_exact_synonym	vestibuloauditory system
+WARN	duplicate_scoped_synonym	vestibulo-auditory system	has_related_synonym	vestibuloauditory system
+WARN	duplicate_scoped_synonym	pelvic appendage bud ectoderm	has_exact_synonym	hindlimb ectoderm
+WARN	duplicate_scoped_synonym	pelvic appendage bud ectoderm	has_narrow_synonym	hindlimb ectoderm
+WARN	duplicate_scoped_synonym	abdominal wall	has_exact_synonym	paries abdominalis
+WARN	duplicate_scoped_synonym	abdominal wall	has_related_synonym	paries abdominalis
+WARN	duplicate_scoped_synonym	mouth mucosa	has_exact_synonym	tunica mucosa oris
+WARN	duplicate_scoped_synonym	mouth mucosa	has_related_synonym	tunica mucosa oris
+WARN	duplicate_scoped_synonym	cardiac vein	has_exact_synonym	coronary vein
+WARN	duplicate_scoped_synonym	cardiac vein	has_related_synonym	coronary vein
+WARN	duplicate_scoped_synonym	muscular coat	has_exact_synonym	tunica muscularis
+WARN	duplicate_scoped_synonym	muscular coat	has_related_synonym	tunica muscularis
+WARN	duplicate_scoped_synonym	corneo-scleral junction	has_exact_synonym	limbus corneae
+WARN	duplicate_scoped_synonym	corneo-scleral junction	has_related_synonym	limbus corneae
+WARN	duplicate_scoped_synonym	craniocervical region musculature	has_exact_synonym	head or neck muscle
+WARN	duplicate_scoped_synonym	craniocervical region musculature	has_related_synonym	head or neck muscle
+WARN	duplicate_scoped_synonym	ciliary processes	has_exact_synonym	processus ciliares
+WARN	duplicate_scoped_synonym	ciliary processes	has_related_synonym	processus ciliares
+WARN	duplicate_scoped_synonym	internal urethral orifice	has_exact_synonym	internal urethral ostium
+WARN	duplicate_scoped_synonym	internal urethral orifice	has_related_synonym	internal urethral ostium
+INFO	lowercase_definition	part_of	definition	a core relation that holds between a part and its whole@en
+INFO	lowercase_definition	has_part	definition	a core relation that holds between a whole and its part@en
+INFO	lowercase_definition	preceded_by	definition	<x is preceded by y if and only if the time point at which y ends is before or equivalent to the time point at which x starts. Formally: x preceded by y iff ω(y) <= α(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en>
+INFO	lowercase_definition	precedes	definition	<x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) <= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.@en>
+INFO	lowercase_definition	occurs in	definition	b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t@en
+INFO	lowercase_definition	contains process	definition	[copied from inverse property 'occurs in'] b occurs_in c =def b is a process and c is a material entity or immaterial entity& there exists a spatiotemporal region r and b occupies_spatiotemporal_region r.& forall(t) if b exists_at t then c exists_at t & there exist spatial regions s and s’ where & b spatially_projects_onto s at t& c is occupies_spatial_region s’ at t& s is a proper_continuant_part_of s’ at t@en
+INFO	lowercase_definition	anterior_to	definition	<x anterior_to y iff x is further along the antero-posterior axis than y, towards the head. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail: bearer>
+INFO	lowercase_definition	distal_to	definition	x distal_to y iff x is further along the proximo-distal axis than y, towards the appendage tip. A proximo-distal axis extends from tip of an appendage (distal) to where it joins the body (proximal).
+INFO	lowercase_definition	dorsal_to	definition	x dorsal_to y iff x is further along the dorso-ventral axis than y, towards the back. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly).
+INFO	lowercase_definition	posterior_to	definition	x posterior_to y iff x is further along the antero-posterior axis than y, towards the body/tail. An antero-posterior axis is an axis that bisects an organism from head end to opposite end of body or tail.
+INFO	lowercase_definition	proximal_to	definition	x proximal_to y iff x is closer to the point of attachment with the body than y.
+INFO	lowercase_definition	ventral_to	definition	x ventral_to y iff x is further along the dorso-ventral axis than y, towards the front. A dorso-ventral axis is an axis that bisects an organism from back (e.g. spinal column) to front (e.g. belly).
 INFO	lowercase_definition	emotional behavior	definition	"<\""Behavior related to the complex psychophysiological experience of an individual's state of mind as interacting with biochemical (internal) and environmental (external) influences.\"" [wikipedia:Emotions]>"
 INFO	lowercase_definition	reflexive behavior phenotype	definition	"<\""Observable characteristic of behaviour related to involuntary movement in response to a stimulus.\"" [NBO:GVG]>"
 INFO	lowercase_definition	learning and/or memory behavior	definition	"<\""Behavior related to the acquisition and processing of information and/or the storage and retrieval of this information over time.\"" [GO:jic]>"
@@ -829,4 +1215,126 @@ INFO	lowercase_definition	regulation of behavioral response to chemical stimulus
 INFO	lowercase_definition	regulation of behavioral response to addictive substance	definition	"<\""Any process that modulates the frequency, rate or extent of behavioral response to chemical stimulus.\"" [NBOC:GVG]>"
 INFO	lowercase_definition	regulation of withdrawal response	definition	"<\""Any process that modulates the frequency, rate or extent of withdrawal response.\"" [NBOC:GVG]>"
 INFO	lowercase_definition	regulation of addiction response	definition	"<\""Any process that modulates the frequency, rate or extent of withdrawal response.\"" [NBOC:GVG]>"
+INFO	lowercase_definition	inheres in	definition	a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	bearer of	definition	a relation between an independent continuant (the bearer) and a specifically dependent continuant (the dependent), in which the dependent specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	participates in	definition	a relation between a continuant and a process, in which the continuant is somehow involved in the process@en
+INFO	lowercase_definition	has participant	definition	a relation between a process and a continuant, in which the continuant is somehow involved in the process@en
+INFO	lowercase_definition	quality of	definition	a relation between a quality and an independent continuant (the bearer), in which the quality specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	role of	definition	a relation between a role and an independent continuant (the bearer), in which the role specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	has quality	definition	a relation between an independent continuant (the bearer) and a quality, in which the quality specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	has role	definition	a relation between an independent continuant (the bearer) and a role, in which the role specifically depends on the bearer for its existence@en
+INFO	lowercase_definition	has component process	definition	w 'has process component' p if p and w are processes,  w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
+INFO	lowercase_definition	overlaps	definition	x overlaps y if and only if there exists some z such that x has part z and z part of y
+INFO	lowercase_definition	has component	definition	w 'has component' p if w 'has part' p and w is such that it can be directly disassembled into into n parts p, p2, p3, ..., pn, where these parts are of similar type.
+INFO	lowercase_definition	develops from	definition	x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y
+INFO	lowercase_definition	develops_into	definition	inverse of develops from
+INFO	lowercase_definition	regulates	definition	<process(P1) regulates process(P2) iff: P1 results in the initiation or termination of P2 OR affects the frequency of its initiation or termination OR affects the magnitude or rate of output of P2.>
+INFO	lowercase_definition	capable of part of	definition	c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p.
+INFO	lowercase_definition	surrounded_by	definition	<x surrounded_by y iff: x is adjacent to y and for every region r adjacent to x, r overlaps y>
+INFO	lowercase_definition	adjacent_to	definition	<x adjacent_to y iff: x and y share a boundary>
+INFO	lowercase_definition	surrounds	definition	inverse of surrounded_by
+INFO	lowercase_definition	has input	definition	<p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p.>
+INFO	lowercase_definition	has developmental contribution from	definition	x has developmental contribution from y iff x has some part z such that z develops from y@en
+INFO	lowercase_definition	developmentally contributes to	definition	inverse of has developmental contribution from
+INFO	lowercase_definition	developmentally_induced_by	definition	<t1 developmentally_induced_by t2 if there is a process of organ induction (GO:0001759) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor tissue type T to T', where T' develops_from T.>
+INFO	lowercase_definition	acts upstream of	definition	c acts upstream of p if and only if c enables some f that is involved in p' and p' occurs chronologically before p, is not part of p, and affects the execution of p. c is a material entity and f, p, p' are processes.
+INFO	lowercase_definition	acts upstream of or within	definition	c acts upstream of or within p if c is enables f, and f is causally upstream of or within p. c is a material entity and p is an process.
+INFO	lowercase_definition	inheres in part of	definition	q inheres in part of w if and only if there exists some p such that q inheres in p and p part of w.
+INFO	lowercase_definition	part of structure that is capable of	definition	this relation holds between c and p when c is part of some c', and c' is capable of p.
+INFO	lowercase_definition	involved in	definition	c involved_in p if and only if c enables some process p', and p' is part of p
+INFO	lowercase_definition	enabled by	definition	inverse of enables
+INFO	lowercase_definition	regulated by	definition	inverse of regulates
+INFO	lowercase_definition	negatively regulated by	definition	inverse of negatively regulates
+INFO	lowercase_definition	positively regulated by	definition	inverse of positively regulates
+INFO	lowercase_definition	input of	definition	inverse of has input
+INFO	lowercase_definition	has developmental potential involving	definition	x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction).@en
+INFO	lowercase_definition	has potential to developmentally contribute to	definition	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y
+INFO	lowercase_definition	has potential to developmentally contribute to	definition	x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y@en
+INFO	lowercase_definition	has potential to develop into	definition	x has the potential to develop into y iff x develops into y or if x is capable of developing into y
+INFO	lowercase_definition	has potential to develop into	definition	x has the potential to develop into y iff x develops into y or if x is capable of developing into y@en
+INFO	lowercase_definition	has potential to directly develop into	definition	x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y@en
+INFO	lowercase_definition	causally downstream of	definition	inverse of upstream of
+INFO	lowercase_definition	causally upstream of	definition	p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain
+INFO	lowercase_definition	immediately causally upstream of	definition	p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q.
+INFO	lowercase_definition	causally upstream of or within	definition	p 'causally upstream or within' q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q.
+INFO	lowercase_definition	causally downstream of or within	definition	inverse of causally upstream of or within
+INFO	lowercase_definition	involved in regulation of	definition	c involved in regulation of p if c is involved in some p' and p' regulates some p
+INFO	lowercase_definition	involved in positive regulation of	definition	c involved in regulation of p if c is involved in some p' and p' positively regulates some p
+INFO	lowercase_definition	involved in negative regulation of	definition	c involved in regulation of p if c is involved in some p' and p' negatively regulates some p
+INFO	lowercase_definition	involved in or involved in regulation of	definition	c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p
+INFO	lowercase_definition	is active in	definition	c executes activity in d if and only if c enables p and p occurs_in d.  Assuming no action at a distance by gene products, if a gene product enables (is capable of) a process that occurs in some structure, it must have at least some part in that structure.
+INFO	lowercase_definition	composed primarily of	definition	<x composed_primarily_of y iff: more than half of the mass of x is made from parts of y>
+INFO	lowercase_definition	has part that occurs in	definition	p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c.
+INFO	lowercase_definition	causal relation between processes	definition	p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one of direct activation or direct inhibition. p may be upstream, downstream, part of or a container of q.
+INFO	lowercase_definition	towards	definition	q towards e2 if and only if q is a relational quality such that q inheres-in some e, and e != e2 and q is dependent on e2
+INFO	lowercase_definition	has part structure that is capable of	definition	s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p
+INFO	lowercase_definition	acts upstream of, positive effect	definition	c 'acts upstream of, positive effect' p if c is enables f, and f is causally upstream of p, and the direction of f is positive
+INFO	lowercase_definition	acts upstream of, negative effect	definition	c 'acts upstream of, negative effect' p if c is enables f, and f is causally upstream of p, and the direction of f is negative
+INFO	lowercase_definition	serous membrane	definition	multi-tissue structure that is comprised of a secretory epithelial layer (mesothelium) and a connective tissue layer.
+INFO	lowercase_definition	urethra	definition	the fibromuscular tubular canal through which urine is discharged from the bladder to the exterior via the external urinary meatus; in males, the urethra is joined by the ejaculatory ducts and serves as a passageway for semen during ejaculation, as well as a canal for urine during voiding; in females, the urethra is shorter and emerges above the vaginal opening
+INFO	lowercase_definition	post-embryonic stage	definition	stage succeeding embryo, including mature structure
+INFO	lowercase_definition	embryonic cloaca	definition	endoderm-lined chamber that develops as pouch-like dilation of the caudal end of the hindgut and receives the allantois ventrally and two mesonephric ducts laterally; caudally it ends blindly at the cloacal membrane formed by the union of proctodeal (anal pit) ectoderm and cloacal endoderm, with no intervening mesoderm[MP].
+INFO	lowercase_definition	primitive urogenital sinus	definition	the ventral part of the cloaca remaining after septation of the rectum, which further develops into part of the bladder, part of the prostatic part of the male urethra and the urethra and vestibule in females
+INFO	lowercase_definition	cornea	definition	the transparent anterior portion of the fibrous coat of the eye that serves as the chief refractory structure
+INFO	lowercase_definition	circulatory system	definition	organ system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells, etc. to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis[WP].
+INFO	lowercase_definition	rectum	definition	the terminal portion of the intestinal tube, terminating with the anus
+INFO	lowercase_definition	urinary bladder	definition	distensible musculomembranous organ situated in the anterior part of the pelvic cavity in which urine collects before excretion[MP].
+INFO	lowercase_definition	mucosa of urinary bladder	definition	the mucous membrane lining the urinary bladder
+INFO	lowercase_definition	muscle of iris	definition	.
+INFO	lowercase_definition	occipital bone	definition	the bone at the lower, posterior part of the skull
+INFO	lowercase_definition	anterior chamber of eyeball	definition	the space in the eye, filled with aqueous humor, and bounded anteriorly by the cornea and a small portion of the sclera and posteriorly by a small portion of the ciliary body, the iris, and part of the crystalline lens
+INFO	lowercase_definition	uvea	definition	the pigmented middle of the three concentric layers that make up an eye, consisting of the iris, ciliary body and choroid[WP,edited].
+INFO	lowercase_definition	iris	definition	the adjustable membrane, composed of the stroma and pigmented epithelium, located just in front of the crystalline lens within the eye
+INFO	lowercase_definition	corneal epithelium	definition	the smooth stratified squamous epithelium that covers the outer surface of the cornea
+INFO	lowercase_definition	ciliary body	definition	the thickened portion of the vascular tunic, which lies between the choroid and the iris, composed of ciliary muscle and ciliary processes
+INFO	lowercase_definition	optic choroid	definition	vascular layer containing connective tissue, of the eye lying between the retina and the sclera. The choroid provides oxygen and nourishment to the outer layers of the retina. Along with the ciliary body and iris, the choroid forms the uveal tract[WP].
+INFO	lowercase_definition	anterior segment of eyeball	definition	any of the parts of the eye that lie in front of, or ventral to, the lens (inclusive)
+INFO	lowercase_definition	posterior segment of eyeball	definition	any of the parts of the eye that lie in back of, or dorsal to, the lens (but not inclusive)
+INFO	lowercase_definition	capsule of lens	definition	the elastic, clear, membrane-like structure, that is outer most layer of the lens
+INFO	lowercase_definition	kidney capsule	definition	the tough fibrous layer surrounding the kidney which is covered in a thick layer of perirenal adipose tissue that functions to provide some protection from trauma and damage
+INFO	lowercase_definition	myocardium of atrium	definition	the atrial part of middle layer of the heart, comprised of involuntary muscle
+INFO	lowercase_definition	epicardium	definition	a region of the serous membrane that forms the innermost layer of the pericardium and the outer surface of the heart.
+INFO	lowercase_definition	myocardium	definition	the middle layer of the heart, comprised mainly of striated cardiac muscle fibers
+INFO	lowercase_definition	pericardial sac	definition	a double-walled sac containing the heart and the roots of the great vessels.
+INFO	lowercase_definition	gland	definition	an organ that functions as a secretory or excretory organ
+INFO	lowercase_definition	cranial neural crest	definition	neural crest cells (NCCs) originating in the anterior part of the developing embryo and residing between the mid-diencephalon and the forming hindbrain; cranial NCCs migrate dorsolaterally to form the craniofacial mesenchyme that differentiates into various craniofacial cartilages and bones, cranial neurons, glia, and connective tissues of the face; these cells enter the pharyngeal pouches and arches where they give rise to thymic cells, bones of the middle ear and jaw (mandible), and the odontoblasts of the tooth primordia; like their counterparts in the trunk, cranial NCCs also contribute to the developing peripheral nervous system, along with the pigmented cell (i.e. melanocyte) lineage.
+INFO	lowercase_definition	metanephric mesenchyme	definition	one of the two embryological structures that give rise to the kidney (the other is the ureteric bud). The metanephric blastema mostly develops into nephrons, but can also form parts of the collecting duct system.[WP]. Metanephric mesenchyme is the tissue made up of loosely connected mesenchymal cells in the metanephros[GO]
+INFO	lowercase_definition	smooth muscle of eye	definition	<any of the striated muscles that move the eye and include: superior rectus, inferior rectus, medial rectus, lateral rectus, superior oblique, inferior oblique, retractor bulbi>
+INFO	lowercase_definition	kidney pelvis smooth muscle	definition	the smooth muscle tissue surrounding the urothelium of the kidney pelvis
+INFO	lowercase_definition	blood vessel smooth muscle	definition	smooth muscle found within, and composing the majority of the wall of blood vessels.
+INFO	lowercase_definition	apical ectodermal ridge	definition	multilayered ectodermal region at the distal tip of a limb or fin bud necessary for the proper development of the underlying mesenchyme[MP,modified]. Along with the zone of polarizing activity, it is a crucial organizing region during limb development[WP].
+INFO	lowercase_definition	dermal skeletal element	definition	dermis-derived entity that is made of skeletal tissue.
+INFO	lowercase_definition	respiratory system mucosa	definition	the mucous membrane lining the respiratory tract
+INFO	lowercase_definition	kidney epithelium	definition	the cellular avascular layer of the kidney luminar surfaces
+INFO	lowercase_definition	kidney rudiment	definition	.
+INFO	lowercase_definition	mesonephric smooth muscle tissue	definition	.
+INFO	lowercase_definition	mandibular prominence	definition	the paired ventral prominences formed by bifurcation of the first pharyngeal arches in the embryo; the two prominences unite ventrally and fuse to form the mandible and lower lip
+INFO	lowercase_definition	corneo-scleral junction	definition	the edge of the cornea where it joins the sclera; the limbus is a common site for the occurrence of corneal epithelial neoplasm
+INFO	lowercase_definition	pigment epithelium of eye	definition	epithelial layer of the retina, ciliary body, or iris composed of cells containing pigment granules.
+INFO	lowercase_definition	kidney field	definition	region of the embryo into the area in which the kidney rudiment will develop.
+INFO	lowercase_definition	early pharyngeal endoderm	definition	.
+INFO	lowercase_definition	layer of sclera	definition	.
+INFO	lowercase_definition	urinary bladder vasculature	definition	network of tubes that carries blood through the distensible musculomembranous organ that serves to collect and store urine excreted by the kidneys[MP]
+INFO	lowercase_definition	urethral meatus	definition	external opening or orifice of the urethra through which urine and seminal fluid (in males only) leave the body; in males the meatus presents as a vertical slit normally positioned at the tip of glans penis; in females the meatus is located between the clitoris and the vagina in the vulvular vestibule of the female genitalia[MP].
+INFO	lowercase_definition	internal urethral orifice	definition	the usually crescent-shaped opening of the urinary bladder into the urethra, placed at the anteroinferior angle (apex) of the urinary bladder trigone
+INFO	lowercase_definition	lacrimal gland bud	definition	<the single bud-like invagination of the conjunctival fornix epithelium at the temporal aspect of the eye that signals lacrimal gland formation (Int Rev Cytol. 1996;168:1-80. Cell biology of the harderian gland)>
+INFO	lowercase_definition	prechordal mesoderm	definition	the area of axial mesoderm that develops into the prechordal plate
+INFO	lowercase_definition	wall of heart	definition	wall of organ which has as its parts the endocardium, myocardium , epicardium, and the cardiac septum, surrounded by the pericardial sac proper and is continuous with the walls of the systemic and pulmonary arterial and venous trees.
+INFO	lowercase_definition	decreased_in_magnitude_relative_to	definition	q1 decreased_in_magnitude_relative_to q2 if and only if magnitude(q1) < magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.
+INFO	lowercase_definition	different_in_magnitude_relative_to	definition	q1 different_in_magnitude_relative_to q2 if and only if magnitude(q1) NOT =~ magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.
+INFO	lowercase_definition	increased_in_magnitude_relative_to	definition	q1 increased_in_magnitude_relative_to q2 if and only if magnitude(q1) > magnitude(q2). Here, magnitude(q) is a function that maps a quality to a unit-invariant scale.
+INFO	lowercase_definition	reciprocal_of	definition	<q1 reciprocal_of q2 if and only if : q1 and q2 are relational qualities and a phenotype e q1 e2 mutually implies a phenotype e2 q2 e.>
+INFO	lowercase_definition	anteriorly connected to	definition	x anteriorly_connected_to y iff the anterior part of x is connected to y. i.e. x connected_to y and x posterior_to y.
+INFO	lowercase_definition	conduit for	definition	x is a conduit for y iff y passes through the lumen of x.
+INFO	lowercase_definition	distally connected to	definition	x distally_connected_to y iff the distal part of x is connected to y. i.e. x connected_to y and x proximal_to y.
+INFO	lowercase_definition	posteriorly connected to	definition	x posteriorly_connected_to y iff the posterior part of x is connected to y. i.e. x connected_to y and x anterior_to y.
+INFO	lowercase_definition	proximally connected to	definition	x proximally_connected_to y iff the proximal part of x is connected to y. i.e. x connected_to y and x distal_to y.
+INFO	lowercase_definition	transitively anteriorly connected to	definition	.
+INFO	lowercase_definition	transitively distally connected to	definition	.
+INFO	lowercase_definition	transitively proximally connected to	definition	.
+INFO	missing_superclass	chemical entity	rdfs:subClassOf	
+INFO	missing_superclass	subatomic particle	rdfs:subClassOf	
+INFO	missing_superclass	role	rdfs:subClassOf	
 INFO	missing_superclass	behavioral phenotype	rdfs:subClassOf	
+INFO	missing_superclass	processual entity	rdfs:subClassOf	
+INFO	missing_superclass	anatomical entity	rdfs:subClassOf	

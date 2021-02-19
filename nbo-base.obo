@@ -1,7 +1,9 @@
 format-version: 1.2
-data-version: nbo/releases/2020-02-10/nbo-base.owl
+data-version: nbo/releases/2021-02-15/nbo-base.owl
 treat-xrefs-as-equivalent: GO
 ontology: nbo/nbo-base
+property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
+property_value: owl:versionInfo "2021-02-15" xsd:string
 
 [Term]
 id: NBO:0000001
@@ -3009,6 +3011,7 @@ def: "\"The action, reaction, or performance of an organism in response to exter
 synonym: "behavior" EXACT []
 synonym: "behaviour" EXACT []
 xref: GO:0007610
+is_a: GO:0007610
 property_value: http://purl.org/dc/elements/1.1/date 2011-04-05T09:53:10Z xsd:string
 created_by: George Gkoutos
 
@@ -7442,7 +7445,7 @@ created_by: gkoutos
 
 [Term]
 id: NBO:0000767
-name: memory behavior behavior
+name: memory behavior phenotype
 namespace: behavior_ontology
 def: "\"Observable characteristic of behaviour related to the ability of an organism's ability to store, retain, and recall information and experiences.\" [NBO:GVG]" []
 is_a: NBO:0000765 ! learning and/or memory behavior phenotype

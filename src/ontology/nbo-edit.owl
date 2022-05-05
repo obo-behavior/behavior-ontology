@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/nbo.owl#"
      xml:base="http://purl.obolibrary.org/obo/nbo.owl"
+     xmlns:cl="http://purl.obolibrary.org/obo/cl#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:go="http://purl.obolibrary.org/obo/go#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -20,6 +21,7 @@
      xmlns:chebi2="http://purl.obolibrary.org/obo/chebi#"
      xmlns:chebi3="http://purl.obolibrary.org/obo/chebi#3"
      xmlns:chebi4="http://purl.obolibrary.org/obo/chebi#1"
+     xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/nbo.owl">
@@ -728,6 +730,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000243"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0010000"/>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -9855,6 +9858,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000588">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000643"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0010000"/>
         <obo:IAO_0000115>&quot;A sudden, involuntary contraction of a muscle or group of muscles.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-04-14T11:10:55Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
@@ -10754,6 +10758,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000568"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0010000"/>
         <obo:IAO_0000115>&quot;Observable characteristic of behavior related to movements that occur independent of planning.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-05-27T11:56:52Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
@@ -10796,6 +10801,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000645">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000643"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0010000"/>
         <obo:IAO_0000115>&quot;A rapid and repeated body muscle contract that results in an uncontrolled shaking of the body.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-05-27T11:59:40Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
@@ -11747,6 +11753,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000705">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000643"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0010000"/>
         <obo:IAO_0000115>&quot;Purposeless repetitive motor activities that often occur during a seizure.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-05-28T12:14:35Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
@@ -14174,6 +14181,17 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <dc:date>2019-03-11T13:51:02Z</dc:date>
         <oboInOwl:created_by>Nicolas Matentzoglu</oboInOwl:created_by>
         <rdfs:label xml:lang="en">hunting behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0010000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0010000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0002-7073-9172"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-05-05T18:18:32Z</oboInOwl:creation_date>
+        <rdfs:label>pathological behavior process</rdfs:label>
     </owl:Class>
     
 

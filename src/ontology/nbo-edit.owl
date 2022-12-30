@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/nbo.owl#"
      xml:base="http://purl.obolibrary.org/obo/nbo.owl"
+     xmlns:cl="http://purl.obolibrary.org/obo/cl#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:go="http://purl.obolibrary.org/obo/go#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -20,6 +21,7 @@
      xmlns:chebi2="http://purl.obolibrary.org/obo/chebi#"
      xmlns:chebi3="http://purl.obolibrary.org/obo/chebi#3"
      xmlns:chebi4="http://purl.obolibrary.org/obo/chebi#1"
+     xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/nbo.owl">
@@ -2106,10 +2108,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>&quot;Behavioral response to the presidency of the stressor where it becomes necessary to attempt some means of coping with the stress.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to disequilibrium that attempts to compensate in the second stage of adaptation.</obo:IAO_0000115>
         <dc:date>2011-03-31T10:49:00Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Stress_(biology)#Stage_2</oboInOwl:note>
+        <rdfs:comment>&quot;Behavioral response to the presidency of the stressor where it becomes necessary to attempt some means of coping with the stress.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coping behavior</rdfs:label>
     </owl:Class>
     
@@ -7964,10 +7969,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000469">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;Behavior related to how the body reacts to a stressor ( a stimulus that causes stress), real or imagined.&quot; [wikipedia:Stress_(biological)]</obo:IAO_0000115>
+        <obo:IAO_0000115>A process that responds to distressing disequilibrium.</obo:IAO_0000115>
         <dc:date>2011-04-08T01:52:36Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym>response to stress</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Stress_(biology)#Biological_need_for_equilibrium</oboInOwl:note>
+        <oboInOwl:xref>GO:0006950</oboInOwl:xref>
+        <rdfs:comment>&quot;Behavior related to how the body reacts to a stressor ( a stimulus that causes stress), real or imagined.&quot; [wikipedia:Stress_(biological)]</rdfs:comment>
         <rdfs:comment>It refers to the consequence of the failure of an organism to respond adequately to mental, emotional or physical demands, whether actual or imagined.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stress related behavior</rdfs:label>
     </owl:Class>
@@ -7978,10 +7988,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000470">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>&quot;Behavior related to the identification or realization of a threat or a stressor.&quot; [wikipedia:Stress_(biological)]</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to disequilibrium that manages shock in the first stage of adaptation.</obo:IAO_0000115>
         <dc:date>2011-04-08T01:55:58Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Stress_(biology)#Stage_1</oboInOwl:note>
+        <rdfs:comment>&quot;Behavior related to the identification or realization of a threat or a stressor.&quot; [wikipedia:Stress_(biological)]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral alarm</rdfs:label>
     </owl:Class>
     
@@ -8004,10 +8017,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000472">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>&quot;Behavior related to the depletion of the body resources for coping to stress.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to disequilibrium that decompensates in the third stage of adaptation.</obo:IAO_0000115>
         <dc:date>2011-04-08T02:06:24Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Stress_(biology)#Stage_3</oboInOwl:note>
+        <rdfs:comment>&quot;Behavior related to the depletion of the body resources for coping to stress.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">behavioral exhaustion</rdfs:label>
     </owl:Class>
     

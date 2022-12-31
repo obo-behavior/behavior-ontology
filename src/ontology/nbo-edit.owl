@@ -7973,7 +7973,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000469">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>A process that responds to distressing disequilibrium.</obo:IAO_0000115>
+        <obo:IAO_0000115>A process that responds to menacing disequilibrium.</obo:IAO_0000115>
         <dc:date>2011-04-08T01:52:36Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -15349,10 +15349,27 @@ The redefinition of stress-induced hyperthermia (also mistakenly mislabelled hyp
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0040004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000008"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>A behavior involving an organism (especially fish or tadpoles) breathing at or near the surface of water where the concentration of dissolved oxygen is highest. [NBO:EJS]</obo:IAO_0000115>
+        <obo:IAO_0000115>Increasing oxygen that comes from surface water.</obo:IAO_0000115>
+        <obo:IAO_0000116>LABEL
+True air &apos;breathing&apos; in aquatic animals uses a number of strategies and may be obligate or facultative, but is not simply a stress related metabolic issue. Seeking more highly oxygenated water (in the epilimnion just below the surface) for gill users is, however, a stress response, but doesn&apos;t involve air directly. Air gulping can be involved in some forms of facultative breathing, but is also a method some fishes use for air bladder inflation and deflation (air burping). These are issues to be teased out at a later time perhaps involving &apos;gas management&apos; under emission behavior.
+
+DEFINITION
+Stress induced tachybranchia is also known. A missing superclass should intervene, labelled: ‘stress-induced oxygen demand’, and defined as: ‘A response to menace, that increases oxygen availability.’
+
+The redefinition of this class follows this hierarchy.</obo:IAO_0000116>
         <oboInOwl:created_by>https://orcid.org/0000-0002-9611-1279</oboInOwl:created_by>
-        <rdfs:label xml:lang="en">surface breathing</rdfs:label>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasRelatedSynonym>piping</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">surface breathing</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment>A behavior involving an organism (especially fish or tadpoles) breathing at or near the surface of water where the concentration of dissolved oxygen is highest. [NBO:EJS]</rdfs:comment>
+        <rdfs:label>epilimnic respiration</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0040004"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>piping</owl:annotatedTarget>
+        <oboInOwl:source>Kalueff AV, Gebhardt M, Stewart AM. Towards a comprehensive catalog of Zebrafish behavior 1.0 and beyond. Zebrafish. 2013 Mar 1;10(1):70–86.</oboInOwl:source>
+    </owl:Axiom>
     
 
 

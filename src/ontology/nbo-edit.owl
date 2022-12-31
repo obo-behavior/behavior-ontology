@@ -823,12 +823,16 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>&quot;Emotional behavior related to fear or anxiety.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to menace, that is emotional.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear/anxiety related behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>fear/anxiety related behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear/anxiety related behavior</rdfs:label>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Anxiety</oboInOwl:note>
+        <rdfs:comment>&quot;Emotional behavior related to fear or anxiety.&quot; [NBO:GVG]</rdfs:comment>
+        <rdfs:label>threatened behavior</rdfs:label>
     </owl:Class>
     
 
@@ -13909,10 +13913,27 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001305"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>&quot;Increase in core body termperature in response to stress or anticipatory anxiety.&quot; [NBOC:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Core temperature change that is hotter.</obo:IAO_0000115>
+        <obo:IAO_0000116>Stress-induced hypothermia is also recognised. A missing superclass should intervene, labelled: &apos;stress-induced dysthermia&apos;, and defined as: &apos;A response to menace, that changes core temperature.&apos;
+
+The redefinition of stress-induced hyperthermia (also mistakenly mislabelled hypothermia in the original definition) follows this hierarchy.</obo:IAO_0000116>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <rdfs:label xml:lang="en">stress-induced hypothermia</rdfs:label>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:source>Oka T. Stress-induced hyperthermia and hypothermia. Handbook of clinical neurology. 2018 Jan 1;157:599-621.</oboInOwl:source>
+        <rdfs:comment>&quot;Increase in core body termperature in response to stress or anticipatory anxiety.&quot; [NBOC:GVG]</rdfs:comment>
+        <rdfs:label xml:lang="en">stress-induced hyperthermia</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0002569"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/nbo#in_response_to"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001305"/>
+            </owl:Restriction>
+        </owl:annotatedTarget>
+        <oboInOwl:editor>This may be wrong: it is not a response TO temperature change but TO stress.</oboInOwl:editor>
+    </owl:Axiom>
     
 
 

@@ -823,7 +823,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>A response to menace, that is emotional.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to overload, that is social and emotional.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -1903,12 +1903,17 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000087"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000470"/>
-        <obo:IAO_0000115>&quot;Behavior related to the preparation of the body to \&quot;fight\&quot; or \&quot;flee\&quot; from perceived attack, harm or threat.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>The second phase of the first stage, that activates the sympathetic nervous system.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym>antishock</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>fight-or-flight response</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>fight-or-flight-or-freeze response</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hyperarousal</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Fight-or-flight_response</oboInOwl:note>
+        <rdfs:comment>&quot;Behavior related to the preparation of the body to \&quot;fight\&quot; or \&quot;flee\&quot; from perceived attack, harm or threat.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute stress response</rdfs:label>
     </owl:Class>
     
@@ -1949,11 +1954,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000018"/>
-        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness triggered by a specified triggering stimulus such as pain or the threat of danger.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>An emotional response that is triggered by a present danger.</obo:IAO_0000115>
+        <obo:IAO_0000116>Wikipedia&apos;s article on Fear somewhat contradicts the more definite distinction offered in its article on Anxiety.</obo:IAO_0000116>
         <dc:date>2011-03-31T10:00:42Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>fear-related behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Anxiety</oboInOwl:note>
+        <rdfs:comment>&quot;An emotional behavior related to a feeling of uneasiness or nervousness triggered by a specified triggering stimulus such as pain or the threat of danger.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear-related behavior</rdfs:label>
     </owl:Class>
     
@@ -1963,11 +1972,14 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000092">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000018"/>
-        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness triggered by an identifiable triggering stimulus.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>An emotional response that is triggered by an imagined future danger.</obo:IAO_0000115>
         <dc:date>2011-03-31T10:01:25Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>anxiety-related behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Anxiety</oboInOwl:note>
+        <rdfs:comment>&quot;An emotional behavior related to a feeling of uneasiness or nervousness triggered by an identifiable triggering stimulus.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anxiety-related behavior</rdfs:label>
     </owl:Class>
     
@@ -1977,10 +1989,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
-        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to an object.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>A triggered response that is about an inanimate danger.</obo:IAO_0000115>
         <dc:date>2011-03-31T10:16:48Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:comment>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to an object.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards objects</rdfs:label>
     </owl:Class>
     
@@ -1991,12 +2005,20 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000100"/>
-        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to a particular situation or environment.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>A triggered response that is about an environmental danger.</obo:IAO_0000115>
         <dc:date>2011-03-31T10:18:11Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards situation/environment</rdfs:label>
+        <rdfs:comment>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to a particular situation or environment.&quot; [NBO:GVG]</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards environment</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0000094"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards environment</owl:annotatedTarget>
+        <obo:IAO_0000116>If this about two things, there should be two classes. If it is about one thing, then only one word is needed.</obo:IAO_0000116>
+    </owl:Axiom>
     
 
 
@@ -2004,10 +2026,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
-        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to a living thing.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>A triggered response that is about an animate danger.</obo:IAO_0000115>
         <dc:date>2011-03-31T10:18:25Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <rdfs:comment>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to a living thing.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards living things</rdfs:label>
     </owl:Class>
     
@@ -2019,8 +2043,10 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000094"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000246"/>
         <obo:IAO_0000115>&quot;A phobia characterised by fear of open spaces.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000116>This belongs with the phenotypes and is misplaced with stress-related behavior processes (issue #36).</obo:IAO_0000116>
         <dc:date>2011-03-31T10:18:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:xref>HP:0000756</oboInOwl:xref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">agoraphobia behavior</rdfs:label>
@@ -2100,6 +2126,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000100"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000101"/>
         <obo:IAO_0000115>&quot;Moving backwards in response to a fear stimulus.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000116>Retropulsion is the locomotory behaviour. I don&apos;t think we need to double-label it, although we could link it here alongside other terminal (leaf) responses (e.g. diving or jumping out of the water in fishes, freezing, etc).</obo:IAO_0000116>
         <dc:date>2011-03-31T10:36:56Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -2112,7 +2139,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>A response to disequilibrium that attempts to compensate in the second stage of adaptation.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to overload that attempts to compensate in the second stage of adaptation.</obo:IAO_0000115>
         <dc:date>2011-03-31T10:49:00Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -7973,13 +8000,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000469">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>A process that responds to menacing disequilibrium.</obo:IAO_0000115>
+        <obo:IAO_0000115>A process that responds to allostatic overload.</obo:IAO_0000115>
         <dc:date>2011-04-08T01:52:36Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>response to stress</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:note>https://en.wikipedia.org/wiki/Stress_(biology)#Biological_need_for_equilibrium</oboInOwl:note>
+        <oboInOwl:note>https://en.wikipedia.org/wiki/Allostasis#Types</oboInOwl:note>
         <oboInOwl:xref>GO:0006950</oboInOwl:xref>
         <rdfs:comment>&quot;Behavior related to how the body reacts to a stressor ( a stimulus that causes stress), real or imagined.&quot; [wikipedia:Stress_(biological)]</rdfs:comment>
         <rdfs:comment>It refers to the consequence of the failure of an organism to respond adequately to mental, emotional or physical demands, whether actual or imagined.</rdfs:comment>
@@ -7992,7 +8019,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000470">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>A response to disequilibrium that manages shock in the first stage of adaptation.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to overload that manages shock in the first stage of adaptation.</obo:IAO_0000115>
         <dc:date>2011-04-08T01:55:58Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -8009,8 +8036,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000471">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000088"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000127"/>
+        <obo:IAO_0000116>This class is duplicated under retreat and stress behavior, and also with a different ID (NBO:0050001) under avoidance behavior, both probably being where it better belongs.</obo:IAO_0000116>
         <dc:date>2011-04-08T02:00:36Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">predator avoidance behavior</rdfs:label>
     </owl:Class>
@@ -8021,7 +8050,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000472">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>A response to disequilibrium that decompensates in the third stage of adaptation.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to overload that decompensates in the third stage of adaptation.</obo:IAO_0000115>
         <dc:date>2011-04-08T02:06:24Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -13914,7 +13943,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Core temperature change that is hotter.</obo:IAO_0000115>
-        <obo:IAO_0000116>Stress-induced hypothermia is also recognised. A missing superclass should intervene, labelled: &apos;stress-induced dysthermia&apos;, and defined as: &apos;A response to menace, that changes core temperature.&apos;
+        <obo:IAO_0000116>Stress-induced hypothermia is also recognised. A missing superclass should intervene, labelled: &apos;stress-induced dysthermia&apos;, and defined as: &apos;A response to overload, that changes core temperature.&apos;
 
 The redefinition of stress-induced hyperthermia (also mistakenly mislabelled hypothermia in the original definition) follows this hierarchy.</obo:IAO_0000116>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
@@ -14807,7 +14836,9 @@ The redefinition of stress-induced hyperthermia (also mistakenly mislabelled hyp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000470"/>
         <obo:IAO_0000115 xml:lang="en">Alarm behavior triggered by agonistic actions or postures</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">Alarm behavior triggered by agonistic actions or postures.</obo:IAO_0000115>
+        <obo:IAO_0000116>This may be a misnomer. Whereas Google Scholar lists a number of journal references listing &apos;agonistic, alarm&apos; alongside each other in a list, there is only one reference (to lemurs) suggesting an actual &apos;agonistic alarm&apos; exists.</obo:IAO_0000116>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <rdfs:label xml:lang="en">agonistic alarm</rdfs:label>
     </owl:Class>
     
@@ -15354,7 +15385,7 @@ The redefinition of stress-induced hyperthermia (also mistakenly mislabelled hyp
 True air &apos;breathing&apos; in aquatic animals uses a number of strategies and may be obligate or facultative, but is not simply a stress related metabolic issue. Seeking more highly oxygenated water (in the epilimnion just below the surface) for gill users is, however, a stress response, but doesn&apos;t involve air directly. Air gulping can be involved in some forms of facultative breathing, but is also a method some fishes use for air bladder inflation and deflation (air burping). These are issues to be teased out at a later time perhaps involving &apos;gas management&apos; under emission behavior.
 
 DEFINITION
-Stress induced tachybranchia is also known. A missing superclass should intervene, labelled: ‘stress-induced oxygen demand’, and defined as: ‘A response to menace, that increases oxygen availability.’
+Stress induced tachybranchia is also known. A missing superclass should intervene, labelled: ‘stress-induced oxygen demand’, and defined as: ‘A response to overload, that increases oxygen availability.’
 
 The redefinition of this class follows this hierarchy.</obo:IAO_0000116>
         <oboInOwl:created_by>https://orcid.org/0000-0002-9611-1279</oboInOwl:created_by>

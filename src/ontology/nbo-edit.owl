@@ -8019,7 +8019,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000470">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>A response to overload that manages shock in the first stage of adaptation.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to allostatic overload that manages the first stage of adaptation.</obo:IAO_0000115>
         <dc:date>2011-04-08T01:55:58Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>

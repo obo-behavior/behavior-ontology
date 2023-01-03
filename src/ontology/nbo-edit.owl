@@ -1903,7 +1903,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000087"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000470"/>
-        <obo:IAO_0000115>The second phase of the first stage, that activates the sympathetic nervous system.</obo:IAO_0000115>
+        <obo:IAO_0000115>The second phase of the first stage of adaptation that activates the sympathetic nervous system.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>

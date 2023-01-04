@@ -8050,7 +8050,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000472">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>A response to overload that decompensates in the third stage of adaptation.</obo:IAO_0000115>
+        <obo:IAO_0000115>One of two pathways through the third stage of adaptation, that decompensates from normal function.</obo:IAO_0000115>
         <dc:date>2011-04-08T02:06:24Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -14836,9 +14836,7 @@ The redefinition of stress-induced hyperthermia (also mistakenly mislabelled hyp
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000470"/>
         <obo:IAO_0000115 xml:lang="en">Alarm behavior triggered by agonistic actions or postures</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">Alarm behavior triggered by agonistic actions or postures.</obo:IAO_0000115>
-        <obo:IAO_0000116>This may be a misnomer. Whereas Google Scholar lists a number of journal references listing &apos;agonistic, alarm&apos; alongside each other in a list, there is only one reference (to lemurs) suggesting an actual &apos;agonistic alarm&apos; exists.</obo:IAO_0000116>
         <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luke Slater</oboInOwl:created_by>
-        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <rdfs:label xml:lang="en">agonistic alarm</rdfs:label>
     </owl:Class>
     

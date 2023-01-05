@@ -823,7 +823,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>A response to overload, that is social and emotional.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to allostatic overload, that is social and emotional.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -2139,10 +2139,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>A response to overload that attempts to compensate in the second stage of adaptation.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to allostatic overload that attempts to compensate in the second stage of adaptation.</obo:IAO_0000115>
         <dc:date>2011-03-31T10:49:00Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym>resistance</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Stress_(biology)#Stage_2</oboInOwl:note>
         <rdfs:comment>&quot;Behavioral response to the presidency of the stressor where it becomes necessary to attempt some means of coping with the stress.&quot; [NBO:GVG]</rdfs:comment>

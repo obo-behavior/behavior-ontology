@@ -1988,12 +1988,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
-        <obo:IAO_0000115>A triggered response that is about an inanimate danger.</obo:IAO_0000115>
+        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to an object.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:16:48Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:comment>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to an object.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards objects</rdfs:label>
     </owl:Class>
     
@@ -2004,12 +2002,10 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000100"/>
-        <obo:IAO_0000115>A triggered response that is about an environmental danger.</obo:IAO_0000115>
+        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to a particular situation or environment.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:18:11Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:comment>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to a particular situation or environment.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards situation/environment</rdfs:label>
     </owl:Class>
     
@@ -2019,12 +2015,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
-        <obo:IAO_0000115>A triggered response that is about an animate danger.</obo:IAO_0000115>
+        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to a living thing.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:18:25Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:comment>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to a living thing.&quot; [NBO:GVG]</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards living things</rdfs:label>
     </owl:Class>
     
@@ -8028,10 +8022,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000471">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000088"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000127"/>
-        <obo:IAO_0000116>This class is duplicated under retreat and stress behavior, and also with a different ID (NBO:0050001) under avoidance behavior, both probably being where it better belongs.</obo:IAO_0000116>
         <dc:date>2011-04-08T02:00:36Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">predator avoidance behavior</rdfs:label>
     </owl:Class>

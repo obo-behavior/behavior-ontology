@@ -2111,7 +2111,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000100"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000101"/>
         <obo:IAO_0000115>&quot;Moving backwards in response to a fear stimulus.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <obo:IAO_0000116>Retropulsion is the locomotory behaviour. I don&apos;t think we need to double-label it, although we could link it here alongside other terminal (leaf) responses (e.g. diving or jumping out of the water in fishes, freezing, etc).</obo:IAO_0000116>
         <dc:date>2011-03-31T10:36:56Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>

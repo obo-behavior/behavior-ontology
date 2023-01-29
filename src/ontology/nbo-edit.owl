@@ -822,7 +822,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#sociality_function"/>
         <obo:IAO_0000115>Signalling that responds emotionally to danger.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
@@ -1991,19 +1990,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NBO_0000093 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000093">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
-        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to an object.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2011-03-31T10:16:48Z</dc:date>
-        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards objects</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NBO_0000094 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000094">
@@ -2014,19 +2000,6 @@
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards situation/environment</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NBO_0000095 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000095">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
-        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to a living thing.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2011-03-31T10:18:25Z</dc:date>
-        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards living things</rdfs:label>
     </owl:Class>
     
 
@@ -2102,26 +2075,12 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000056"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
         <obo:IAO_0000115>&quot;Moving backwards.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:32:40Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retropulsion</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NBO_0000102 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000100"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000101"/>
-        <obo:IAO_0000115>&quot;Moving backwards in response to a fear stimulus.&quot; [NBO:GVG]</obo:IAO_0000115>
-        <dc:date>2011-03-31T10:36:56Z</dc:date>
-        <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
-        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear-related retropulsion</rdfs:label>
     </owl:Class>
     
 
@@ -15702,6 +15661,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <!-- http://purl.obolibrary.org/obo/nbo.owl#aerotaxis -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#aerotaxis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000377"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#exchange_function"/>
         <obo:IAO_0000115>Internal resource optimisation that alters gas exchange by changing position on an oxygen concentration gradient.</obo:IAO_0000115>
         <dc:date>2023-01-29</dc:date>

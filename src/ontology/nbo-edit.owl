@@ -837,7 +837,7 @@
         <oboInOwl:source>https://en.wikipedia.org/wiki/Anxiety</oboInOwl:source>
         <oboInOwl:xref>GO:0001662</oboInOwl:xref>
         <rdfs:comment>A response to allostatic overload.</rdfs:comment>
-        <rdfs:label>threatened behavior</rdfs:label>
+        <rdfs:label>threatened</rdfs:label>
     </owl:Class>
     
 
@@ -1959,15 +1959,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000018"/>
-        <obo:IAO_0000115>An emotional response that is triggered by a real present danger.</obo:IAO_0000115>
+        <obo:IAO_0000115>An emotional response to danger that is real and present.</obo:IAO_0000115>
         <dc:date>2011-03-31T10:00:42Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear-related behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>fear-related behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>[ORIGINAL DEFINITION] &quot;An emotional behavior related to a feeling of uneasiness or nervousness triggered by a specified triggering stimulus such as pain or the threat of danger.&quot; [NBO:GVG]</oboInOwl:note>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Anxiety</oboInOwl:note>
-        <rdfs:comment>&quot;An emotional behavior related to a feeling of uneasiness or nervousness triggered by a specified triggering stimulus such as pain or the threat of danger.&quot; [NBO:GVG]</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear-related behavior</rdfs:label>
+        <rdfs:label>fearful</rdfs:label>
     </owl:Class>
     
 

@@ -823,15 +823,20 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>A response to allostatic overload, that is social and emotional.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#sociality_function"/>
+        <obo:IAO_0000115>Signalling that responds emotionally to danger.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasBroadSynonym>behavioral fear response</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>behavioural fear response</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear/anxiety related behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>fear/anxiety related behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:note>https://en.wikipedia.org/wiki/Anxiety</oboInOwl:note>
-        <rdfs:comment>&quot;Emotional behavior related to fear or anxiety.&quot; [NBO:GVG]</rdfs:comment>
+        <oboInOwl:note>[ORIGINAL DEFINITION] &quot;Emotional behavior related to fear or anxiety.&quot; [NBO:GVG]</oboInOwl:note>
+        <oboInOwl:source>https://en.wikipedia.org/wiki/Anxiety</oboInOwl:source>
+        <oboInOwl:xref>GO:0001662</oboInOwl:xref>
+        <rdfs:comment>A response to allostatic overload.</rdfs:comment>
         <rdfs:label>threatened behavior</rdfs:label>
     </owl:Class>
     
@@ -1971,15 +1976,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000092">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000018"/>
-        <obo:IAO_0000115>An emotional response that is triggered by an imagined future danger.</obo:IAO_0000115>
+        <obo:IAO_0000115>An emotional response to danger that is imagined and future.</obo:IAO_0000115>
         <dc:date>2011-03-31T10:01:25Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anxiety-related behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>anxiety-related behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>[ORIGINAL DEFINITION] &quot;An emotional behavior related to a feeling of uneasiness or nervousness triggered by an identifiable triggering stimulus.&quot; [NBO:GVG]</oboInOwl:note>
         <oboInOwl:note>https://en.wikipedia.org/wiki/Anxiety</oboInOwl:note>
-        <rdfs:comment>&quot;An emotional behavior related to a feeling of uneasiness or nervousness triggered by an identifiable triggering stimulus.&quot; [NBO:GVG]</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anxiety-related behavior</rdfs:label>
+        <rdfs:label>anxious</rdfs:label>
     </owl:Class>
     
 
@@ -15342,22 +15348,16 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <!-- http://purl.obolibrary.org/obo/NBO_0040004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0040004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000008"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>Increased oxygenation that comes from surface water.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#aerotaxis"/>
+        <obo:IAO_0000115>Increased gas exchange that comes from surface water.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0002-9611-1279</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasRelatedSynonym>piping</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym xml:lang="en">surface breathing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:source>Kramer DL. Dissolved oxygen and fish behavior. Environmental biology of fishes. 1987 Feb;18:81-92.</oboInOwl:source>
         <rdfs:comment>A behavior involving an organism (especially fish or tadpoles) breathing at or near the surface of water where the concentration of dissolved oxygen is highest. [NBO:EJS]</rdfs:comment>
         <rdfs:label>aquatic surface respiration</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NBO_0040004"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>piping</owl:annotatedTarget>
-        <oboInOwl:source>Kalueff AV, Gebhardt M, Stewart AM. Towards a comprehensive catalog of Zebrafish behavior 1.0 and beyond. Zebrafish. 2013 Mar 1;10(1):70–86.</oboInOwl:source>
-    </owl:Axiom>
     
 
 
@@ -15698,6 +15698,38 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/nbo.owl#aerotaxis -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#aerotaxis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#exchange_function"/>
+        <obo:IAO_0000115>Internal resource optimisation that alters gas exchange by changing position on an oxygen concentration gradient.</obo:IAO_0000115>
+        <dc:date>2023-01-29</dc:date>
+        <oboInOwl:created_by>ORCID:  0000-0002-4277-2151</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym>taxis in response to atmospheric oxygen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Julius B Kirkegaard, Ambre Bouillant, Alan O Marron, Kyriacos C Leptos, Raymond E Goldstein (2016) Aerotaxis in the closest relatives of animals eLife 5:e18109 https://doi.org/10.7554/eLife.18109</oboInOwl:source>
+        <oboInOwl:xref>GO:0009454</oboInOwl:xref>
+        <rdfs:label>aerotaxis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nbo.owl#aquatic_aerial_respiration -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#aquatic_aerial_respiration">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#aerotaxis"/>
+        <obo:IAO_0000115>Increased gas exchange that comes from gulping air.</obo:IAO_0000115>
+        <dc:date>2023-01-29</dc:date>
+        <oboInOwl:created_by>ORCID: 0000-0002-4277-2151</oboInOwl:created_by>
+        <oboInOwl:hasRelatedSynonym>piping</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">surface breathing</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:source>https://en.wikipedia.org/wiki/Fish_physiology#Respiration</oboInOwl:source>
+        <rdfs:comment>This may cross the gills, aerate the mouth cavity, or enter modified organs.</rdfs:comment>
+        <rdfs:label>aquatic aerial respiration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/nbo.owl#exchange_function -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#exchange_function">
@@ -15764,6 +15796,20 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:source>https://en.wikipedia.org/wiki/Stress_(biology)#Stage_1</oboInOwl:source>
         <rdfs:label>shock</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nbo.owl#sociality_function -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#sociality_function">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <obo:IAO_0000115>A function that communicates signals.</obo:IAO_0000115>
+        <dc:date>2023-01-29</dc:date>
+        <oboInOwl:created_by>ORCID:  0000-0002-4277-2151</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Mallpress DE. Towards a functional classification of behaviour: a taxonomy based on outcomes. Adaptive Behavior. 2022;30(5):417–50.</oboInOwl:source>
+        <rdfs:label>sociality function</rdfs:label>
     </owl:Class>
     
 

@@ -2319,12 +2319,16 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000119">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115>&quot;A behavior that occur quickly without control, planning, or consideration of the consequences of that behavior.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#goal_orientation"/>
+        <obo:IAO_0000115>&quot;An act (that is) performed without delay, reflection, voluntary direction, or obvious differential control.&quot;</obo:IAO_0000115>
         <dc:date>2011-03-31T11:08:55Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID:  0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">impulsive behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">impulsive behavior</rdfs:label>
+        <oboInOwl:note>[ORIGINAL DEFINITION] &quot;A behavior that occur quickly without control, planning, or consideration of the consequences of that behavior.&quot; [NBO:GVG]</oboInOwl:note>
+        <oboInOwl:source>Bari A, Robbins TW. Inhibition and impulsivity: behavioral and neural basis of response control. Progress in neurobiology. 2013 Sep 1;108:44-79.</oboInOwl:source>
+        <rdfs:label>impulse</rdfs:label>
     </owl:Class>
     
 
@@ -15691,6 +15695,20 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/nbo.owl#cognition_function -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#cognition_function">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <obo:IAO_0000115>A function that enables meaning to emerge.</obo:IAO_0000115>
+        <dc:date>2023-01-31</dc:date>
+        <oboInOwl:created_by>ORCID:  0000-0002-4277-2151</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Mallpress DE. Towards a functional classification of behaviour: a taxonomy based on outcomes. Adaptive Behavior. 2022;30(5):417–50.</oboInOwl:source>
+        <rdfs:label>cognition function</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/nbo.owl#exchange_function -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#exchange_function">
@@ -15701,6 +15719,35 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:source>Mallpress DE. Towards a functional classification of behaviour: a taxonomy based on outcomes. Adaptive Behavior. 2022;30(5):417–50.</oboInOwl:source>
         <rdfs:label>exchange function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nbo.owl#goal_orientation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#goal_orientation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#cognition_function"/>
+        <obo:IAO_0000115>Meaning that varies with the degree of executive control over a responsive act.</obo:IAO_0000115>
+        <dc:date>2023-01-31</dc:date>
+        <oboInOwl:editor>ORCID:  0000-0002-4277-2151</oboInOwl:editor>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Bari A, Robbins TW. Inhibition and impulsivity: behavioral and neural basis of response control. Progress in neurobiology. 2013 Sep 1;108:44-79.</oboInOwl:source>
+        <rdfs:label>goal orientation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nbo.owl#inhibition -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#inhibition">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#goal_orientation"/>
+        <obo:IAO_0000115>A response that is delayed, restrained, or flexible.</obo:IAO_0000115>
+        <dc:date>2023-01-31</dc:date>
+        <oboInOwl:created_by>ORCID:  0000-0002-4277-2151</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">impulsive behavior</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Bari A, Robbins TW. Inhibition and impulsivity: behavioral and neural basis of response control. Progress in neurobiology. 2013 Sep 1;108:44-79.</oboInOwl:source>
+        <rdfs:label>inhibition</rdfs:label>
     </owl:Class>
     
 

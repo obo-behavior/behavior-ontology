@@ -1358,12 +1358,15 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000075"/>
-        <obo:IAO_0000115>&quot;Play behavior that is associated with the socialization of an individual into the group.&quot; [web:http\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Play%20Fighting.html]</obo:IAO_0000115>
+        <obo:IAO_0000115>Activity that &quot;facilitates... integration into groups&quot;.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasAlternativeId>NBO:0000625</oboInOwl:hasAlternativeId>
         <oboInOwl:hasExactSynonym>social playing behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>[ORIGINAL DEFINITION] &quot;Play behavior that is associated with the socialization of an individual into the group.&quot;</oboInOwl:note>
+        <oboInOwl:source>Oliveira AF, Rossi AO, Silva LF, Lau MC, Barreto RE. Play behaviour in nonhuman animals and the animal welfare issue. Journal of ethology. 2010 Jan;28:1-5.</oboInOwl:source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social play</rdfs:label>
     </owl:Class>
     
@@ -1692,13 +1695,17 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000075">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A very broad category including the partial or complete performance of adult functional behaviors in non-functional contexts, as well as interactive behaviors peculiar to immature animals [NBO:AC]</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#sensation_function"/>
+        <obo:IAO_0000115>Informative action that is non-functional, self-rewarding, non-ethotypic, repetitive, and relaxed.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym xml:lang="en">play</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">playing behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">playing behavior</rdfs:label>
+        <oboInOwl:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ORIGINAL DEFINITION] A very broad category including the partial or complete performance of adult functional behaviors in non-functional contexts, as well as interactive behaviors peculiar to immature animals [NBO:AC]</oboInOwl:note>
+        <oboInOwl:source>Oliveira AF, Rossi AO, Silva LF, Lau MC, Barreto RE. Play behaviour in nonhuman animals and the animal welfare issue. Journal of ethology. 2010 Jan;28:1-5.</oboInOwl:source>
+        <rdfs:label>play</rdfs:label>
     </owl:Class>
     
 
@@ -10475,10 +10482,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000624">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000075"/>
-        <obo:IAO_0000115>&quot;Play behavior associated with the manipulation of objects.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>&quot;Activity (that is) devoted to an inanimate (thing).&quot;</obo:IAO_0000115>
         <dc:date>2011-04-19T10:51:54Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>[ORIGINAL DEFINITION] &quot;Play behavior associated with the manipulation of objects.&quot; [NBO:GVG]</oboInOwl:note>
+        <oboInOwl:source>Oliveira AF, Rossi AO, Silva LF, Lau MC, Barreto RE. Play behaviour in nonhuman animals and the animal welfare issue. Journal of ethology. 2010 Jan;28:1-5.</oboInOwl:source>
         <rdfs:comment>Object play is important in developing skills important in adulthood, especially hunting.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">object play</rdfs:label>
     </owl:Class>
@@ -15790,6 +15800,20 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:source>https://en.wikipedia.org/wiki/Stress_(biology)#Stage_3</oboInOwl:source>
         <rdfs:label>resolving</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nbo.owl#sensation_function -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#sensation_function">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000313"/>
+        <obo:IAO_0000115>A function that actively acquires information.</obo:IAO_0000115>
+        <dc:date>2023-02-01</dc:date>
+        <oboInOwl:created_by>ORCID:  0000-0002-4277-2151</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Mallpress DE. Towards a functional classification of behaviour: a taxonomy based on outcomes. Adaptive Behavior. 2022;30(5):417–50.</oboInOwl:source>
+        <rdfs:label>sensation function</rdfs:label>
     </owl:Class>
     
 

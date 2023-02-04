@@ -823,7 +823,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000003"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#sociality_function"/>
-        <obo:IAO_0000115>Signalling that responds emotionally to danger.</obo:IAO_0000115>
+        <obo:IAO_0000115>Sociality that responds emotionally to danger.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -1358,7 +1358,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000011"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000075"/>
-        <obo:IAO_0000115>Activity that &quot;facilitates... integration into groups&quot;.</obo:IAO_0000115>
+        <obo:IAO_0000115>Play that &quot;facilitates... integration into groups&quot;.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:03:39Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -1696,7 +1696,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#sensation_function"/>
-        <obo:IAO_0000115>Informative action that is non-functional, self-rewarding, non-ethotypic, repetitive, and relaxed.</obo:IAO_0000115>
+        <obo:IAO_0000115>Sensorial action that &quot;is repeated, seemingly non-functional behavior differing from more adaptive versions structurally, contextually, or developmentally, and initiated when the animal is in a relaxed, unstimulating, or low stress setting.&quot;</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -1704,7 +1704,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">playing behavior</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ORIGINAL DEFINITION] A very broad category including the partial or complete performance of adult functional behaviors in non-functional contexts, as well as interactive behaviors peculiar to immature animals [NBO:AC]</oboInOwl:note>
-        <oboInOwl:source>Oliveira AF, Rossi AO, Silva LF, Lau MC, Barreto RE. Play behaviour in nonhuman animals and the animal welfare issue. Journal of ethology. 2010 Jan;28:1-5.</oboInOwl:source>
+        <oboInOwl:source>Burghardt GM. A Brief Glimpse at the Long Evolutionary History of Play. Animal Behavior and Cognition. 2014;1(2):90-8.</oboInOwl:source>
         <rdfs:label>play</rdfs:label>
     </owl:Class>
     
@@ -1714,13 +1714,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000076">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000075"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Undirected behavior involving exercise and coordination, and often associated with repetition and &apos;practice&apos; of adult behavior patterns in a non-functional context  [NBO:AC]</obo:IAO_0000115>
+        <obo:IAO_0000115>Play that is performed &quot;in a sudden, persistent and frenetic manner.&quot;</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>exercise</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>motor development playing behaviour</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">motor play</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[ORIGINAL DEFINITION] Undirected behavior involving exercise and coordination, and often associated with repetition and &apos;practice&apos; of adult behavior patterns in a non-functional context  [NBO:AC]</oboInOwl:note>
+        <oboInOwl:source>Oliveira AF, Rossi AO, Silva LF, Lau MC, Barreto RE. Play behaviour in nonhuman animals and the animal welfare issue. Journal of ethology. 2010 Jan;28:1-5.</oboInOwl:source>
         <rdfs:comment>Many different actions are included in locomotor play. Some of the actions include a vertical leap, running in circles, chasing an animals own tail, lolloping, bouncing, bucking, rolling, whirling, dangling, spinning, back flips, hand stands, somersaults, and hanging upside down. The vertical leap is seen in mammals like in primates, hares, and mice. Along with running and bouncing, the vertical leap is important for strengthening leg muscles for self defense, escaping, or chasing. Activities like dangling and hanging upside down are important for improving climbing ability. These many different examples of locomotor play are important in strengthening muscles and improving motor skills. By participating in locomotor play, individuals will be able to improve skills like fighting, hunting, fleeing, and climbing.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locomotor play</rdfs:label>
     </owl:Class>
@@ -1914,7 +1917,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000088">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000087"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000470"/>
-        <obo:IAO_0000115>The second phase of the first stage of adaptation that activates the fight-or-fright response.</obo:IAO_0000115>
+        <obo:IAO_0000115>The second alarm phase, that activates the fight-or-fright response.</obo:IAO_0000115>
         <dc:date>2011-04-14T01:20:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -1965,7 +1968,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000018"/>
-        <obo:IAO_0000115>An emotional response to danger that is real and present.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to a threat that is real and present.</obo:IAO_0000115>
         <dc:date>2011-03-31T10:00:42Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -1983,7 +1986,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000092">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000018"/>
-        <obo:IAO_0000115>An emotional response to danger that is imagined and future.</obo:IAO_0000115>
+        <obo:IAO_0000115>A response to a threat that is imagined and future.</obo:IAO_0000115>
         <dc:date>2011-03-31T10:01:25Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -2002,11 +2005,14 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000091"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000100"/>
-        <obo:IAO_0000115>&quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to a particular situation or environment.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Fearfulness that correlates with habitat related predation risk.</obo:IAO_0000115>
         <dc:date>2011-03-31T10:18:11Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear behavior towards situation/environment</rdfs:label>
+        <oboInOwl:note>[ORIGINAL DEFINITION] &quot;An emotional behavior related to a feeling of uneasiness or nervousness in respect to a particular situation or environment.&quot; [NBO:GVG]</oboInOwl:note>
+        <oboInOwl:source>Laundré JW, Hernández L, Ripple WJ. The landscape of fear: ecological implications of being afraid. The Open Ecology Journal. 2010 Feb 3;3(1).</oboInOwl:source>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fear landscaping</rdfs:label>
     </owl:Class>
     
 
@@ -2014,7 +2020,6 @@
     <!-- http://purl.obolibrary.org/obo/NBO_0000096 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000096">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000094"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000246"/>
         <obo:IAO_0000115>&quot;A phobia characterised by fear of open spaces.&quot; [NBO:GVG]</obo:IAO_0000115>
         <dc:date>2011-03-31T10:18:39Z</dc:date>
@@ -2096,7 +2101,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>A response to allostatic overload that attempts to compensate in the second stage of adaptation.</obo:IAO_0000115>
+        <obo:IAO_0000115>Stressing that attempts to compensate in the second stage of adaptation.</obo:IAO_0000115>
         <dc:date>2011-03-31T10:49:00Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -7963,7 +7968,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000469">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#morphophysiology_function"/>
-        <obo:IAO_0000115>A body system that responds to allostatic overload.</obo:IAO_0000115>
+        <obo:IAO_0000115>Morphophysiology that responds to allostatic overload.</obo:IAO_0000115>
         <dc:date>2011-04-08T01:52:36Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -7983,7 +7988,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000470">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>A response to allostatic overload that manages the first stage of adaptation.</obo:IAO_0000115>
+        <obo:IAO_0000115>Stressing that manages the first stage of adaptation.</obo:IAO_0000115>
         <dc:date>2011-04-08T01:55:58Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -7991,7 +7996,7 @@
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:note>[ORIGINAL DEFINITION] &quot;Behavior related to the identification or realization of a threat or a stressor.&quot; [wikipedia:Stress_(biological)]</oboInOwl:note>
         <oboInOwl:source>https://en.wikipedia.org/wiki/Stress_(biology)#Stage_1</oboInOwl:source>
-        <rdfs:label>stress alarm</rdfs:label>
+        <rdfs:label>alarm</rdfs:label>
     </owl:Class>
     
 
@@ -8012,7 +8017,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000472">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#resolving"/>
-        <obo:IAO_0000115>A pathway through the third stage of adaptation, that decompensates from normal function.</obo:IAO_0000115>
+        <obo:IAO_0000115>Resolution that decompensates from normal function.</obo:IAO_0000115>
         <dc:date>2011-04-08T02:06:24Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -10482,7 +10487,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000624">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000075"/>
-        <obo:IAO_0000115>&quot;Activity (that is) devoted to an inanimate (thing).&quot;</obo:IAO_0000115>
+        <obo:IAO_0000115>Play that is &quot;devoted to an inanimate (thing).&quot;</obo:IAO_0000115>
         <dc:date>2011-04-19T10:51:54Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
@@ -10499,11 +10504,14 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000626">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000049"/>
-        <obo:IAO_0000115>&quot;Behavior associated with interactions which resemble sexual behavior but do not lead to copulation.&quot; [web:http\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Sex%20Play.html]</obo:IAO_0000115>
+        <obo:IAO_0000115>Social play that may &quot;occur between any age–sex class combinations, which may include (nonconceptive) copulation and genital investigation or stimulation.&quot;</obo:IAO_0000115>
         <dc:date>2011-04-19T10:52:50Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasExactSynonym>love play</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>[ORIGINAL DEFINITION] &quot;Behavior associated with interactions which resemble sexual behavior but do not lead to copulation.&quot; [web:http\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Sex%20Play.html] - BROKEN LINK</oboInOwl:note>
+        <oboInOwl:source>Hill HM, Dietrich S, Cappiello B. Learning to play: A review and theoretical investigation of the developmental mechanisms and functions of cetacean play. Learning &amp; Behavior. 2017 Dec;45:335-54.</oboInOwl:source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sexual play</rdfs:label>
     </owl:Class>
     
@@ -10513,10 +10521,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000627">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000049"/>
-        <obo:IAO_0000115>&quot;Play behavior associated to fighting simulation, although fighting is much slower and gentler with no intention of actual hurt.&quot; [web:http\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Play%20Fighting.html]</obo:IAO_0000115>
+        <obo:IAO_0000115>Social play that &quot;involves some degree of reciprocity, or turn taking, that requires that the competition be attenuated by cooperation.&quot;</obo:IAO_0000115>
         <dc:date>2011-04-19T10:53:55Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>[ORIGINAL DEFINITION] &quot;Play behavior associated to fighting simulation, although fighting is much slower and gentler with no intention of actual hurt.&quot; [web:http\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Play%20Fighting.html] - BROKEN LINK</oboInOwl:note>
+        <oboInOwl:source>Pellis SM, Pellis VC. What is play fighting and what is it good for?. Learning &amp; behavior. 2017 Dec;45:355-66.</oboInOwl:source>
         <rdfs:comment>Play fighting helps learning to evaluate oneself and an opponent. This skill is crucial for serious adult situations. Being able to size up an opponent quickly is very important in knowing when to give up or fight for a resource (food, mate, territory, etc. ). Play fighting is one of the most important categories of play because it prepares animals for actual fighting.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">play fight</rdfs:label>
     </owl:Class>
@@ -10527,10 +10538,13 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000628">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000049"/>
-        <obo:IAO_0000115>&quot;Play behavior that is associated with the pursuit of an individual.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <obo:IAO_0000115>Social play that involves pursuing another animal.</obo:IAO_0000115>
         <dc:date>2011-04-19T10:54:09Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>[ORIGINAL DEFINITION] &quot;Play behavior that is associated with the pursuit of an individual.&quot; [NBO:GVG]</oboInOwl:note>
+        <oboInOwl:source>Caro TM. Short-term costs and correlates of play in cheetahs. Animal Behaviour. 1995 Feb 1;49(2):333-45.</oboInOwl:source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">play chasing</rdfs:label>
     </owl:Class>
     
@@ -10539,11 +10553,14 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <!-- http://purl.obolibrary.org/obo/NBO_0000629 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000629">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000049"/>
-        <obo:IAO_0000115>&quot;Play behavior associated with the exhibition of parenting behavior by non-parents.&quot; [NBO:GVG]</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000624"/>
+        <obo:IAO_0000115>Object play that pretends to be a parent.</obo:IAO_0000115>
         <dc:date>2011-04-19T11:03:02Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>[ORIGINAL DEFINITION] &quot;Play behavior associated with the exhibition of parenting behavior by non-parents.&quot; [NBO:GVG]</oboInOwl:note>
+        <oboInOwl:source>Kahlenberg SM, Wrangham RW. Sex differences in chimpanzees&apos; use of sticks as play objects resemble those of children. Current biology. 2010 Dec 21;20(24):R1067-8.</oboInOwl:source>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nursing play</rdfs:label>
     </owl:Class>
     
@@ -10552,11 +10569,14 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <!-- http://purl.obolibrary.org/obo/NBO_0000630 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000630">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000075"/>
-        <obo:IAO_0000115>&quot;Play behavior related to the copying the actions of another.&quot; [web:http\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Imitative%20Play.html]</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000049"/>
+        <obo:IAO_0000115>Social play that pretends to complete an activity template or model.</obo:IAO_0000115>
         <dc:date>2011-04-19T11:07:20Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
+        <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:note>[ORIGINAL DEFINITION] &quot;Play behavior related to the copying the actions of another.&quot; [web:http\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Imitative%20Play.html] - LINK BROKEN</oboInOwl:note>
+        <oboInOwl:source>Adair HV, Carruthers P. Pretend play: More imitative than imaginative. Mind &amp; Language. 2022 Apr 5.</oboInOwl:source>
         <rdfs:comment>Imitative play is an excellent means of learning how to perform a task that an adult has perfected. Therefore, imitative play is one of the best ways for animals to learn from the adults in the group.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imitative play</rdfs:label>
     </owl:Class>
@@ -13902,7 +13922,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0002569">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000103"/>
-        <obo:IAO_0000115>Adaptive compensation that increases core temperature.</obo:IAO_0000115>
+        <obo:IAO_0000115>A coping adaptation that increases core temperature.</obo:IAO_0000115>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -15323,7 +15343,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0040004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#aerotaxis"/>
-        <obo:IAO_0000115>Increased gas exchange that comes from surface water.</obo:IAO_0000115>
+        <obo:IAO_0000115>Aerotaxis that leads towards surface water.</obo:IAO_0000115>
         <oboInOwl:created_by>https://orcid.org/0000-0002-9611-1279</oboInOwl:created_by>
         <oboInOwl:editor>ORCID: 0000-0002-4277-2151</oboInOwl:editor>
         <oboInOwl:hasRelatedSynonym>piping</oboInOwl:hasRelatedSynonym>
@@ -15677,7 +15697,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#aerotaxis">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000377"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#exchange_function"/>
-        <obo:IAO_0000115>Internal resource optimisation that alters gas exchange by changing position on an oxygen concentration gradient.</obo:IAO_0000115>
+        <obo:IAO_0000115>Gas exchange that is optimised by changing position on an oxygen concentration gradient.</obo:IAO_0000115>
         <dc:date>2023-01-29</dc:date>
         <oboInOwl:created_by>ORCID:  0000-0002-4277-2151</oboInOwl:created_by>
         <oboInOwl:hasExactSynonym>taxis in response to atmospheric oxygen</oboInOwl:hasExactSynonym>
@@ -15693,7 +15713,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#aquatic_aerial_respiration">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#aerotaxis"/>
-        <obo:IAO_0000115>Increased gas exchange that comes from gulping air.</obo:IAO_0000115>
+        <obo:IAO_0000115>Aerotaxis that leads to gulping air.</obo:IAO_0000115>
         <dc:date>2023-01-29</dc:date>
         <oboInOwl:created_by>ORCID: 0000-0002-4277-2151</oboInOwl:created_by>
         <oboInOwl:hasRelatedSynonym>piping</oboInOwl:hasRelatedSynonym>
@@ -15714,7 +15734,21 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:created_by>ORCID:  0000-0002-4277-2151</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:source>Mallpress DE. Towards a functional classification of behaviour: a taxonomy based on outcomes. Adaptive Behavior. 2022;30(5):417–50.</oboInOwl:source>
-        <rdfs:label>cognition function</rdfs:label>
+        <rdfs:label>cognition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nbo.owl#creative_play -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#creative_play">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000624"/>
+        <obo:IAO_0000115>Object play that produces items to manipulate, such as bubbles.</obo:IAO_0000115>
+        <dc:date>2023-02-04</dc:date>
+        <oboInOwl:created_by>ORCID: 0000-0002-4277-2151</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Hill HM, Dietrich S, Cappiello B. Learning to play: A review and theoretical investigation of the developmental mechanisms and functions of cetacean play. Learning &amp; Behavior. 2017 Dec;45:335-54.</oboInOwl:source>
+        <rdfs:label>creative play</rdfs:label>
     </owl:Class>
     
 
@@ -15728,7 +15762,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:created_by>ORCID:  0000-0002-4277-2151</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:source>Mallpress DE. Towards a functional classification of behaviour: a taxonomy based on outcomes. Adaptive Behavior. 2022;30(5):417–50.</oboInOwl:source>
-        <rdfs:label>exchange function</rdfs:label>
+        <rdfs:label>exchange</rdfs:label>
     </owl:Class>
     
 
@@ -15762,6 +15796,20 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/nbo.owl#manipulation_play -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#manipulation_play">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000624"/>
+        <obo:IAO_0000115>Object play that moves, carries, balances or tosses things.</obo:IAO_0000115>
+        <dc:date>2023-02-04</dc:date>
+        <oboInOwl:created_by>ORCID: 0000-0002-4277-2151</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Hill HM, Dietrich S, Cappiello B. Learning to play: A review and theoretical investigation of the developmental mechanisms and functions of cetacean play. Learning &amp; Behavior. 2017 Dec;45:335-54.</oboInOwl:source>
+        <rdfs:label>manipulation play</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/nbo.owl#morphophysiology_function -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#morphophysiology_function">
@@ -15771,7 +15819,35 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:created_by>ORCID:  0000-0002-4277-2151</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:source>Mallpress DE. Towards a functional classification of behaviour: a taxonomy based on outcomes. Adaptive Behavior. 2022;30(5):417–50.</oboInOwl:source>
-        <rdfs:label>morphophysiology function</rdfs:label>
+        <rdfs:label>morphophysiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nbo.owl#play_fleeing -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#play_fleeing">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000049"/>
+        <obo:IAO_0000115>Social play that involves eluding another animal.</obo:IAO_0000115>
+        <dc:date>2023-02-04</dc:date>
+        <oboInOwl:created_by>ORCID: 0000-0002-4277-2151</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Caro TM. Short-term costs and correlates of play in cheetahs. Animal Behaviour. 1995 Feb 1;49(2):333-45.</oboInOwl:source>
+        <rdfs:label>play fleeing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/nbo.owl#predation_play -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#predation_play">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000624"/>
+        <obo:IAO_0000115>Object play that pretends to be a predator.</obo:IAO_0000115>
+        <dc:date>2023-02-04</dc:date>
+        <oboInOwl:created_by>ORCID: 0000-0002-4277-2151</oboInOwl:created_by>
+        <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:source>Giljov A, Karenina K, Kochnev A. Prey or play: interactions between walruses and seabirds. acta ethologica. 2017 Feb;20(1):47-57.</oboInOwl:source>
+        <rdfs:label>predatory play</rdfs:label>
     </owl:Class>
     
 
@@ -15780,7 +15856,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#recovering">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/nbo.owl#resolving"/>
-        <obo:IAO_0000115>A pathway through the third stage of adaptation, that recuperates towards normal function.</obo:IAO_0000115>
+        <obo:IAO_0000115>Resolution that recuperates towards normal function.</obo:IAO_0000115>
         <dc:date>2023-01-28</dc:date>
         <oboInOwl:created_by>ORCID:  0000-0002-4277-2151</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -15794,12 +15870,12 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#resolving">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000469"/>
-        <obo:IAO_0000115>A response to allostatic overload that manages the third stage of adaptation.</obo:IAO_0000115>
+        <obo:IAO_0000115>Stressing that manages the third stage of adaptation.</obo:IAO_0000115>
         <dc:date>2023-01-28</dc:date>
         <oboInOwl:created_by>ORCID:  0000-0002-4277-2151</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:source>https://en.wikipedia.org/wiki/Stress_(biology)#Stage_3</oboInOwl:source>
-        <rdfs:label>resolving</rdfs:label>
+        <rdfs:label>resolution</rdfs:label>
     </owl:Class>
     
 
@@ -15813,7 +15889,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:created_by>ORCID:  0000-0002-4277-2151</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:source>Mallpress DE. Towards a functional classification of behaviour: a taxonomy based on outcomes. Adaptive Behavior. 2022;30(5):417–50.</oboInOwl:source>
-        <rdfs:label>sensation function</rdfs:label>
+        <rdfs:label>sensation</rdfs:label>
     </owl:Class>
     
 
@@ -15822,7 +15898,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#shock">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000470"/>
-        <obo:IAO_0000115>The first phase of the first stage of adaptation that faces collapse.</obo:IAO_0000115>
+        <obo:IAO_0000115>The first alarm phase, that faces collapse.</obo:IAO_0000115>
         <dc:date>2023-01-28</dc:date>
         <oboInOwl:created_by>ORCID:  0000-0002-4277-2151</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
@@ -15841,7 +15917,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
         <oboInOwl:created_by>ORCID:  0000-0002-4277-2151</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:source>Mallpress DE. Towards a functional classification of behaviour: a taxonomy based on outcomes. Adaptive Behavior. 2022;30(5):417–50.</oboInOwl:source>
-        <rdfs:label>sociality function</rdfs:label>
+        <rdfs:label>sociality</rdfs:label>
     </owl:Class>
     
 
@@ -15850,7 +15926,7 @@ owl:qualifier some &apos;temporally extended&apos;)</oboInOwl:note>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/nbo.owl#stress-induced_hypothermia">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000472"/>
-        <obo:IAO_0000115>Adaptive decompensation that reduces core temperature.</obo:IAO_0000115>
+        <obo:IAO_0000115>Exhaustion that reduces core temperature.</obo:IAO_0000115>
         <dc:date>2023-01-28</dc:date>
         <oboInOwl:created_by>ORCID: 0000-0002-4277-2151</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>

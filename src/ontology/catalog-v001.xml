@@ -6,5 +6,6 @@
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/nbo/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/nbo/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/nbo/imports/ro_import.owl" uri="imports/ro_import.owl"/>
+    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/nbo/imports/merged_import.owl" uri="imports/merged_import.owl"/>
     <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
 </catalog>

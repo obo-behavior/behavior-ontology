@@ -1,0 +1,298 @@
+ID	LABEL	SubClass Of
+NBO:0000420	bruxism	NREM parasomnia
+NBO:0000501	nocturnal enuresis	NREM parasomnia
+NBO:0000424	sleep terror	NREM parasomnia
+NBO:0000500	sleepwalking	NREM parasomnia
+NBO:0000502	somniloquy	NREM parasomnia
+NBO:0000503	REM sleep behavior disorder	REM parasomnia
+NBO:0000507	catathrenia	REM parasomnia
+NBO:0000510	sleep paralysis	REM parasomnia|paralysis
+NBO:0000505	acute RBD	REM sleep behavior disorder
+NBO:0000506	chronic RBD	REM sleep behavior disorder
+NBO:0000702	atypical absence seizure	absence seizures
+NBO:0000701	typical absence seizure	absence seizures
+NBO:0000708	complex motor automatism	automatism
+NBO:0000707	gestural automatism	automatism
+NBO:0000706	oral automatism	automatism
+NBO:0000770	behavioral control of defecation phenotype	behavioral control of excretion phenotype
+NBO:0000771	behavioral control of urination phenotype	behavioral control of excretion phenotype
+NBO:0000774	behavioral control of lacrimation phenotype	behavioral control of external secretion phenotype
+NBO:0000777	vocalization behavior phenotype	behavioral control of production of sound phenotype
+NBO:0000775	crying behavior phenotype	behavioral control of production of sound phenotype|emotional behavior phenotype
+NBO:0000776	mobbing calling phenotype	behavioral control of production of sound phenotype|emotional behavior phenotype
+NBO:0000266	cognitive behavior phenotype	behavioral phenotype
+NBO:0000252	dissociative disorders	behavioral phenotype
+NBO:0000768	emission behavior phenotype	behavioral phenotype
+NBO:0000601	emotional behavior phenotype	behavioral phenotype
+NBO:0000270	feeding behavior phenotype	behavioral phenotype
+NBO:0000568	kinesthetic behavior phenotype	behavioral phenotype
+NBO:0000256	mood disorder	behavioral phenotype
+NBO:0000265	personality disorder	behavioral phenotype
+NBO:0000259	psychotic disorder	behavioral phenotype
+NBO:0000755	reproductive behavior phenotype	behavioral phenotype
+NBO:0000473	rhythmic behavior phenotype	behavioral phenotype
+NBO:0000012	seizures/epilepsy	behavioral phenotype
+NBO:0000564	social behavior phenotype	behavioral phenotype
+NBO:0000249	somatoform behavior phenotype	behavioral phenotype
+NBO:0000526	bipolar I	bipolar disorder
+NBO:0000527	bipolar II	bipolar disorder
+NBO:0000529	bipolar disorder not otherwise specified	bipolar disorder
+NBO:0000528	cyclothymia	bipolar disorder
+NBO:0000661	olfactory behavior phenotype	chemosensory behavior phenotype
+NBO:0000485	circadian rhythm sleep disorder	circadian behavior phenotype|dyssomnia
+NBO:0000753	non-rapid eye movement sleep behavior phenotype	circadian behavior phenotype|sleeping behavior phenotype
+NBO:0000754	rapid eye movement sleep phenotype	circadian behavior phenotype|sleeping behavior phenotype
+NBO:0000486	extrinsic circadian rhythm sleep disorder	circadian rhythm sleep disorder
+NBO:0000487	intrinsic circadian rhythm sleep disorder	circadian rhythm sleep disorder
+NBO:0000269	amnestic disorder	cognitive behavior phenotype
+NBO:0000267	delirium	cognitive behavior phenotype
+NBO:0000603	delusion	cognitive behavior phenotype
+NBO:0000268	dementia	cognitive behavior phenotype
+NBO:0000606	forgetfulness	cognitive behavior phenotype
+NBO:0000765	learning and/or memory behavior phenotype	cognitive behavior phenotype
+NBO:0000744	perception behavior phenotype	cognitive behavior phenotype
+NBO:0000572	senility	cognitive behavior phenotype
+NBO:0000655	sensation behavior phenotype	cognitive behavior phenotype
+NBO:0000667	simple partial onset, followed by impairment of consciousness	complex partial seizure
+NBO:0000668	with impairment of consciousness at onset	complex partial seizure
+NBO:0000760	female courtship behavior phenotype	courtship behavior phenotype
+NBO:0000761	male courtship behavior phenotype	courtship behavior phenotype
+NBO:0002519	adipsia	decreased frequency of drinking
+NBO:0000573	behavioral despair	depressive disorder
+NBO:0000522	dysthymia	depressive disorder
+NBO:0000257	major depressive disorder	depressive disorder
+NBO:0000525	minor depressive disorder	depressive disorder
+NBO:0000524	recurrent brief depression	depressive disorder
+NBO:0000253	dissociative amnesia	dissociative disorders
+NBO:0000254	dissociative fugue	dissociative disorders
+NBO:0000255	dissociative identity disorder	dissociative disorders
+NBO:0000851	increased amount of liquid in a single drinking act	drinking behavior phenotype
+NBO:0000886	increased amount of liquid in drinking regulation	drinking behavior phenotype
+NBO:0000133	liquid preference/aversion	drinking behavior phenotype
+NBO:0000542	polydipsia	drinking behavior phenotype
+NBO:0000710	drug overdose induced seizure	drug induced seizure
+NBO:0000711	drug withdrawal induced seizure	drug induced seizure
+NBO:0000715	amphetamine overdose induced seizure	drug overdose induced seizure
+NBO:0000716	antidepressant overdose induced seizure	drug overdose induced seizure
+NBO:0000713	cocaine overdose induced seizure	drug overdose induced seizure
+NBO:0000714	isoniazide overdose induced seizure	drug overdose induced seizure
+NBO:0000718	penicillin overdose induced seizure	drug overdose induced seizure
+NBO:0000717	theophylline overdose induced seizure	drug overdose induced seizure
+NBO:0000719	alcohol withdrawal induced seizure	drug withdrawal induced seizure
+NBO:0000721	barbiturates withdrawal induced seizure	drug withdrawal induced seizure
+NBO:0000720	benzodiazepine withdrawal induced seizure	drug withdrawal induced seizure
+NBO:0000722	heroin withdrawal induced seizure	drug withdrawal induced seizure
+NBO:0000593	hypermetria	dysmetria
+NBO:0000594	hypometria	dysmetria
+NBO:0000482	extrinsic sleep disorder	dyssomnia
+NBO:0000422	insomnia	dyssomnia
+NBO:0000476	intrinsic sleep disorder	dyssomnia
+NBO:0000547	anhedonia	dysthymia
+NBO:0000240	anorexia nervosa	eating behavior phenotype
+NBO:0000544	aphagia	eating behavior phenotype
+NBO:0000241	bulimia nervosa	eating behavior phenotype
+NBO:0000135	food preference/aversion	eating behavior phenotype
+NBO:0000242	obesity	eating behavior phenotype
+NBO:0000546	polyphagia	eating behavior phenotype
+NBO:0000769	behavioral control of excretion phenotype	emission behavior phenotype
+NBO:0000773	behavioral control of external secretion phenotype	emission behavior phenotype
+NBO:0000772	behavioral control of production of sound phenotype	emission behavior phenotype
+NBO:0000602	apathy	emotional behavior phenotype
+NBO:0000244	pathological anxiety	emotional behavior phenotype
+NBO:0000674	Lennox-Gastaut syndrome	epilepsy
+NBO:0000681	benign rolandic epilepsy	epilepsy
+NBO:0000684	childhood absence epilepsy	epilepsy
+NBO:0000739	dacrystic epilepsy	epilepsy
+NBO:0000697	frontal lobe epilepsy	epilepsy
+NBO:0000738	gelastic epilepsy	epilepsy
+NBO:0000688	myoclonic epilepsy	epilepsy
+NBO:0000698	nocturnal epilepsy	epilepsy
+NBO:0000690	status epilepticus	epilepsy
+NBO:0000650	temporal lobe epilepsy	epilepsy
+NBO:0000734	infantile spasm	epilepsy|spasm
+NBO:0000488	jet lag	extrinsic circadian rhythm sleep disorder
+NBO:0000489	shift work sleep disorder	extrinsic circadian rhythm sleep disorder
+NBO:0000483	alcohol-dependent sleep disorder	extrinsic sleep disorder
+NBO:0000484	food allergy insomnia	extrinsic sleep disorder
+NBO:0000680	complex febrile seizure	febrile seizure
+NBO:0000679	simple febrile seizure	febrile seizure
+NBO:0000540	drinking behavior phenotype	feeding behavior phenotype
+NBO:0000539	eating behavior phenotype	feeding behavior phenotype
+NBO:0000143	saccharin preference	food preference
+NBO:0000142	food aversion	food preference/aversion
+NBO:0000141	food preference	food preference/aversion
+NBO:0000993	decreased frequency of drinking	frequency of drinking
+NBO:0000961	increased frequency of drinking	frequency of drinking
+NBO:0000669	absence seizures	generalized seizure
+NBO:0000670	atonic seizure	generalized seizure
+NBO:0000672	clonic seizure	generalized seizure
+NBO:0000671	myoclonic seizure	generalized seizure
+NBO:0000703	secondary generalized seizure	generalized seizure
+NBO:0000676	tonic clonic seizure	generalized seizure
+NBO:0000677	tonic seizure	generalized seizure
+NBO:0000732	left side clonic seizure	hemiclonic seizure
+NBO:0000733	right side clonic seizure	hemiclonic seizure
+NBO:0000498	posttraumatic hypersomnia	hypersomnia
+NBO:0000497	recurrent hypersomnia	hypersomnia
+NBO:0000541	dipsosis	increased frequency of drinking
+NBO:0000543	hyperdipsia	increased frequency of drinking
+NBO:0000490	advanced sleep phase syndrome	intrinsic circadian rhythm sleep disorder
+NBO:0000421	delayed sleep phase syndrome	intrinsic circadian rhythm sleep disorder
+NBO:0000492	irregular sleep-wake rhythm	intrinsic circadian rhythm sleep disorder
+NBO:0000491	non-24-hour sleep-wake syndrome	intrinsic circadian rhythm sleep disorder
+NBO:0000477	hypersomnia	intrinsic sleep disorder
+NBO:0000514	hypnophobia	intrinsic sleep disorder
+NBO:0000423	narcolepsy	intrinsic sleep disorder
+NBO:0000478	periodic limb movement disorder	intrinsic sleep disorder
+NBO:0000479	restless legs syndrome	intrinsic sleep disorder
+NBO:0000494	sleep breathing disorder	intrinsic sleep disorder
+NBO:0000481	sleep state misperception	intrinsic sleep disorder
+NBO:0000705	automatism	involuntary movement behavior phenotype
+NBO:0000645	convulsion	involuntary movement behavior phenotype
+NBO:0000005	reflexive behavior phenotype	involuntary movement behavior phenotype
+NBO:0000588	spasm	involuntary movement behavior phenotype
+NBO:0000589	tremor	involuntary movement behavior phenotype
+NBO:0000508	recurrent isolated sleep paralysis	isolated sleep paralysis
+NBO:0000730	auditory kindling induced seizure	kindling induced seizure
+NBO:0000729	chemical kindling induced seizure	kindling induced seizure
+NBO:0000728	electrical kindling induced seizure	kindling induced seizure
+NBO:0000643	involuntary movement behavior phenotype	kinesthetic behavior phenotype
+NBO:0000644	voluntary movement behavior phenotype	kinesthetic behavior phenotype
+NBO:0000766	learning behavior phenotype	learning and/or memory behavior phenotype
+NBO:0000767	memory behavior phenotype	learning and/or memory behavior phenotype
+NBO:0000139	alcohol aversion	liquid aversion
+NBO:0000140	alcohol preference	liquid preference
+NBO:0000929	frequency of drinking	liquid preference/aversion
+NBO:0000138	liquid aversion	liquid preference/aversion
+NBO:0000137	liquid preference	liquid preference/aversion
+NBO:0000028	akinesia	locomotory behavior phenotype
+NBO:0000029	bradykinesia	locomotory behavior phenotype
+NBO:0000598	dystonia	locomotory behavior phenotype
+NBO:0000032	paralysis	locomotory behavior phenotype
+NBO:0000516	atypical depression	major depressive disorder
+NBO:0000519	catatonic depression	major depressive disorder
+NBO:0000517	melancholic depression	major depressive disorder
+NBO:0000520	postpartum depression	major depressive disorder
+NBO:0000518	psychotic major depression	major depressive disorder
+NBO:0000521	seasonal affective disorder	major depressive disorder
+NBO:0000759	courtship behavior phenotype	mating behavior phenotype
+NBO:0000144	mating frequency	mating behavior phenotype
+NBO:0000145	mating preference	mating behavior phenotype
+NBO:0000762	copulation phenotype	mating behavior phenotype|sexual activity phenotype
+NBO:0000258	bipolar disorder	mood disorder
+NBO:0000515	depressive disorder	mood disorder
+NBO:0000530	substance induced mood disorder	mood disorder
+NBO:0000590	ataxia	motor coordination phenotype
+NBO:0000592	dysmetria	motor coordination phenotype
+NBO:0000673	juvenile myoclonic epilepsy	myoclonic epilepsy
+NBO:0000689	progressive myoclonic epilepsy	myoclonic epilepsy
+NBO:0000694	absence status epilepticus	non-convulsive status epilepticus
+NBO:0000693	complex partial status epilepticus	non-convulsive status epilepticus
+NBO:0000165	NREM frequency	non-rapid eye movement sleep behavior phenotype
+NBO:0000164	NREM duration	non-rapid eye movement sleep behavior phenotype|sleep duration
+NBO:0000033	carpoptosis	paralysis
+NBO:0000061	forelimb paralysis	paralysis
+NBO:0000597	hindlimb paralysis	paralysis
+NBO:0000499	NREM parasomnia	parasomnia
+NBO:0000504	REM parasomnia	parasomnia
+NBO:0000648	complex partial seizure	partial seizure
+NBO:0000663	partial seizure evolving to secondarily generalized seizure	partial seizure
+NBO:0000647	simple partial seizure	partial seizure
+NBO:0000665	complex partial seizure evolving to generalized seizure	partial seizure evolving to secondarily generalized seizure
+NBO:0000666	simple partial seizure evolving to complex partial seizure evolving to generalized seizure	partial seizure evolving to secondarily generalized seizure
+NBO:0000664	simple partial seizure evolving to generalized seizure	partial seizure evolving to secondarily generalized seizure
+NBO:0000245	generalized anxiety	pathological anxiety
+NBO:0000248	obsessive-compulsive disorder	pathological anxiety
+NBO:0000247	panic	pathological anxiety
+NBO:0000246	phobia	pathological anxiety
+NBO:0000534	post-traumatic stress	pathological anxiety
+NBO:0000535	separation anxiety	pathological anxiety
+NBO:0000310	acrophobia	phobia
+NBO:0000096	agoraphobia behavior	phobia
+NBO:0000309	social phobia	phobia
+NBO:0000563	catalepsy	posture phenotype
+NBO:0000596	titubation	posture phenotype
+NBO:0000709	drug induced seizure	provoked seizure
+NBO:0000724	electrical stimulation induced seizure	provoked seizure
+NBO:0000678	febrile seizure	provoked seizure
+NBO:0000735	hypocalcemia induced seizure	provoked seizure
+NBO:0000712	hypoglycemia induced seizure	provoked seizure
+NBO:0000723	hypomagnesemia induced seizure	provoked seizure
+NBO:0000727	kindling induced seizure	provoked seizure
+NBO:0000737	photostimulation induced seizure	provoked seizure
+NBO:0000687	psychogenic non-epileptic seizure	provoked seizure
+NBO:0000675	reflex seizure	provoked seizure
+NBO:0000726	trauma induced seizure	provoked seizure
+NBO:0000261	catatonic schizophrenia	psychotic disorder
+NBO:0000262	disorganized (hebephrenic) schizophrenia	psychotic disorder
+NBO:0000260	paranoid schizophrenia	psychotic disorder
+NBO:0000264	residual schizophrenia	psychotic disorder
+NBO:0000263	undifferentiated schizophrenia	psychotic disorder
+NBO:0000162	REM duration	rapid eye movement sleep phenotype
+NBO:0000163	REM frequency	rapid eye movement sleep phenotype
+NBO:0000700	audiogenic seizure	reflex seizure
+NBO:0000699	photosensitive seizure	reflex seizure
+NBO:0000579	hyperekplexia	reflexive behavior phenotype
+NBO:0000756	mating behavior phenotype	reproductive behavior phenotype
+NBO:0000757	post-mating behavior phenotype	reproductive behavior phenotype
+NBO:0000758	sexual activity phenotype	reproductive behavior phenotype
+NBO:0000659	visual behavior phenotype	reproductive behavior phenotype|sensation behavior phenotype
+NBO:0000474	circadian behavior phenotype	rhythmic behavior phenotype
+NBO:0000419	sleeping behavior phenotype	rhythmic behavior phenotype
+NBO:0000704	rapid secondary generalization	secondary generalized seizure
+NBO:0000736	secondary generalized tonic clonic seizure	secondary generalized seizure
+NBO:0000685	continuous seizure	seizures
+NBO:0000662	generalized seizure	seizures
+NBO:0000646	partial seizure	seizures
+NBO:0000642	epilepsy	seizures/epilepsy
+NBO:0000686	provoked seizure	seizures/epilepsy
+NBO:0000025	seizures	seizures/epilepsy
+NBO:0000658	auditory behavior phenotype	sensation behavior phenotype
+NBO:0000660	chemosensory behavior phenotype	sensation behavior phenotype
+NBO:0000656	somatic sensation related behavior phenotype	sensation behavior phenotype
+NBO:0000763	female sexual activity phenotype	sexual activity phenotype
+NBO:0000764	male sexual activity phenotype	sexual activity phenotype
+NBO:0000653	simple partial seizure with autonomic symptoms or signs	simple partial seizure
+NBO:0000651	simple partial seizure with motor signs	simple partial seizure
+NBO:0000654	simple partial seizure with psychic symptoms	simple partial seizure
+NBO:0000652	simple partial seizure with sensory symptoms	simple partial seizure
+NBO:0000731	hemiclonic seizure	simple partial seizure with motor signs
+NBO:0000480	sleep apnea	sleep breathing disorder
+NBO:0000496	upper airway resistance syndrome	sleep breathing disorder
+NBO:0000511	hypnagogic sleep paralysis	sleep paralysis
+NBO:0000512	hypnopompic sleep paralysis	sleep paralysis
+NBO:0000509	isolated sleep paralysis	sleep paralysis
+NBO:0000067	asleep	sleeping behavior phenotype
+NBO:0000475	dyssomnia	sleeping behavior phenotype
+NBO:0000493	parasomnia	sleeping behavior phenotype
+NBO:0000160	sleep duration	sleeping behavior phenotype
+NBO:0000158	sleep pattern	sleeping behavior phenotype
+NBO:0000621	selective mutism	social behavior phenotype
+NBO:0000565	social withdrawal	social behavior phenotype
+NBO:0000566	social withdrawal in childhood	social withdrawal
+NBO:0000657	cutaneous sensation behavior phenotype	somatic sensation related behavior phenotype
+NBO:0000229	vestibular behavior phenotype	somatic sensation related behavior phenotype
+NBO:0000250	conversion disorder	somatoform behavior phenotype
+NBO:0000251	hypochondriasis	somatoform behavior phenotype
+NBO:0000587	tetanic spasm	spasm
+NBO:0000692	generalised convulsive status epilepticus	status epilepticus
+NBO:0000691	non-convulsive status epilepticus	status epilepticus
+NBO:0000696	simple partial status epilepticus	status epilepticus
+NBO:0000695	subtle status epilepticus	status epilepticus
+NBO:0000623	echolalia	stereotypic behavior
+NBO:0000622	stereotypic motor behavior	stereotypic behavior
+NBO:0000533	Interferon-alpha induced mood disorder	substance induced mood disorder
+NBO:0000531	alcohol induced mood disorder	substance induced mood disorder
+NBO:0000532	benzodiazepine induced mood disorder	substance induced mood disorder
+NBO:0000683	lateral temporal lobe epilepsy	temporal lobe epilepsy
+NBO:0000682	medial temporal lobe epilepsy	temporal lobe epilepsy
+NBO:0000585	emprosthotonos	tetanic spasm
+NBO:0000586	opisthotonus	tetanic spasm
+NBO:0000591	motor coordination phenotype	vestibular behavior phenotype
+NBO:0000595	posture phenotype	vestibular behavior phenotype
+NBO:0000569	fatigue	voluntary movement behavior phenotype
+NBO:0000030	hyperactivity	voluntary movement behavior phenotype
+NBO:0000031	hypoactivity	voluntary movement behavior phenotype
+NBO:0000009	locomotory behavior phenotype	voluntary movement behavior phenotype
+NBO:0000567	stereotypic behavior	voluntary movement behavior phenotype
+NBO:0000243	behavioral phenotype	

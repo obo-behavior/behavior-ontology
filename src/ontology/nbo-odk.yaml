@@ -8,12 +8,46 @@ export_formats:
   - obo
   - json
 import_group:
+  use_base_merging: TRUE
+  exclude_iri_patterns:
+    - <http://purl.obolibrary.org/obo/GOCHE_*>
+    - <http://purl.obolibrary.org/obo/NCBITaxon_Union_*>
+    - <http://www.informatics.jax.org/marker/MGI:*>
+    - <http://purl.obolibrary.org/obo/CARO_*>
+    - <http://purl.obolibrary.org/obo/ECTO_*>
+    - <http://purl.obolibrary.org/obo/ENVO_*>
+    - <http://purl.obolibrary.org/obo/MF_*>
+    - <http://purl.obolibrary.org/obo/NCIT_*>
+    - <http://purl.obolibrary.org/obo/OGMS_*>
+    - <http://purl.obolibrary.org/obo/PR_*>
+    - <http://purl.obolibrary.org/obo/UPHENO_*>
+    - <http://purl.obolibrary.org/obo/CL_*>
+    - <http://purl.obolibrary.org/obo/OBI_*>
+    - <http://purl.obolibrary.org/obo/HsapDv_*>
+    - <http://purl.obolibrary.org/obo/MPATH_*>
+    - <http://www.geneontology.org/formats/*>
+    - <http://purl.org/dc/*>
+    - <http://swrl.stanford.edu/ontologies/*>
+    - <http://identifiers.org/hgnc/*>
+    - <http://www.genenames.org/cgi-bin/gene_symbol_report*>
   products:
     - id: go
-    - id: uberon 
+      make_base: TRUE
+    - id: cob
+    - id: bfo
+      make_base: TRUE
+    - id: uberon
+      make_base: TRUE
     - id: ro
+      use_base: TRUE
     - id: chebi
-      is_large: TRUE
-      use_gzipped: TRUE
+      make_base: TRUE
+      mirror_from: https://raw.githubusercontent.com/obophenotype/chebi_obo_slim/main/chebi_slim.owl
     - id: pato
+      use_base: TRUE
+    - id: ncbitaxon
+      mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
+      make_base: TRUE
+      base_iris:
+        - http://purl.obolibrary.org/obo/NCBITaxon_
 robot_java_args: '-Xmx8G'

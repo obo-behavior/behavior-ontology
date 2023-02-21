@@ -9055,7 +9055,7 @@ SubClassOf(obo:NBO_0003161 obo:NBO_0002234)
 
 # Class: obo:NBO_0003194 (regulation of addiction response)
 
-AnnotationAssertion(obo:IAO_0000115 obo:NBO_0003194 "\"Any process that modulates the frequency, rate or extent of withdrawal response.\" [NBOC:GVG]")
+AnnotationAssertion(Annotation(dc:contributor "0000-0002-4277-2151") obo:IAO_0000115 obo:NBO_0003194 "\"Any process that modulates the frequency, rate or extent of addiction response.\" [NBOC:GVG]")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0003194 "George Gkoutos")
 AnnotationAssertion(rdfs:label obo:NBO_0003194 "regulation of addiction response"@en)
 EquivalentClasses(obo:NBO_0003194 ObjectSomeValuesFrom(obo:RO_0002211 obo:NBO_0003161))

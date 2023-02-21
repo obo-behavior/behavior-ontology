@@ -37,7 +37,7 @@ SCRIPTSDIR=                 ../scripts
 UPDATEREPODIR=              target
 SPARQLDIR =                 ../sparql
 COMPONENTSDIR =             components
-REPORT_FAIL_ON =            None
+REPORT_FAIL_ON =            ERROR
 REPORT_LABEL =              -l true
 REPORT_PROFILE_OPTS =       
 OBO_FORMAT_OPTIONS =        
@@ -148,7 +148,7 @@ all_mappings: $(MAPPING_FILES)
 # QC Reports & Utilities
 # ----------------------------------------
 
-OBO_REPORT =  $(SRC)-obo-report
+OBO_REPORT =  nbo-base.owl-obo-report $(SRC)-obo-report
 REPORTS = $(OBO_REPORT)
 REPORT_FILES = $(patsubst %, $(REPORTDIR)/%.tsv, $(REPORTS))
 

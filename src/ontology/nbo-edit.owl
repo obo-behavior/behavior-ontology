@@ -5113,6 +5113,7 @@ AnnotationAssertion(oboInOwl:created_by obo:NBO_0000415 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000415 "blink reflex")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000415 "blinking")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000415 "behavior_ontology")
+AnnotationAssertion(Annotation(dc:contributor "0000-0002-4277-2151") oboInOwl:xref obo:NBO_0000415 "GO:0060082")
 AnnotationAssertion(rdfs:label obo:NBO_0000415 "corneal reflex")
 SubClassOf(obo:NBO_0000415 obo:NBO_0000411)
 

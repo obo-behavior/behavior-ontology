@@ -9032,7 +9032,7 @@ SubClassOf(obo:NBO_0003047 obo:NBO_0001786)
 
 # Class: obo:NBO_0003104 (regulation of behavioral response to addictive substance)
 
-AnnotationAssertion(obo:IAO_0000115 obo:NBO_0003104 "\"Any process that modulates the frequency, rate or extent of behavioral response to chemical stimulus.\" [NBOC:GVG]")
+AnnotationAssertion(Annotation(dc:contributor "0000-0002-4277-2151") obo:IAO_0000115 obo:NBO_0003104 "\"Any process that modulates the frequency, rate or extent of behavioral response to addic tive substance.\" [NBOC:GVG]")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0003104 "George Gkoutos")
 AnnotationAssertion(rdfs:label obo:NBO_0003104 "regulation of behavioral response to addictive substance"@en)
 EquivalentClasses(obo:NBO_0003104 ObjectSomeValuesFrom(obo:RO_0002211 obo:NBO_0001728))

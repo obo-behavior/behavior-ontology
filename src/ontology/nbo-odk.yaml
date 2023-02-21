@@ -2,7 +2,7 @@ id: nbo
 title: "Neuro Behavior Ontology"
 github_org: obo-behavior
 repo: behavior-ontology
-report_fail_on: none
+report_fail_on: ERROR
 export_formats:
   - owl
   - obo
@@ -51,3 +51,9 @@ import_group:
       base_iris:
         - http://purl.obolibrary.org/obo/NCBITaxon_
 robot_java_args: '-Xmx8G'
+robot_report:
+  fail_on: ERROR
+  use_base_iris: TRUE
+  report_on:
+    - nbo-base.owl
+    - edit

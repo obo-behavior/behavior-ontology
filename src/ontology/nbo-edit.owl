@@ -5487,14 +5487,13 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000452 "behavior_ontology"
 AnnotationAssertion(rdfs:label obo:NBO_0000452 "awareness")
 SubClassOf(obo:NBO_0000452 obo:NBO_0000065)
 
-# Class: obo:NBO_0000453 (behavior related to feelings experiencing)
+# Class: obo:NBO_0000453 (obsolete behavior related to feelings experiencing)
 
 AnnotationAssertion(dc:date obo:NBO_0000453 "2011-04-08T12:52:15Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000453 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000453 "behavior_ontology")
-AnnotationAssertion(rdfs:label obo:NBO_0000453 "behavior related to feelings experiencing")
-AnnotationAssertion(owl:deprecated obo:NBO_0000453 "true")
-SubClassOf(obo:NBO_0000453 obo:NBO_0000065)
+AnnotationAssertion(rdfs:label obo:NBO_0000453 "obsolete behavior related to feelings experiencing")
+AnnotationAssertion(owl:deprecated obo:NBO_0000453 "true"^^xsd:boolean)
 
 # Class: obo:NBO_0000455 (attention behavior)
 

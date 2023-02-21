@@ -906,6 +906,7 @@ Declaration(Class(obo:NBO_0015000))
 Declaration(Class(obo:NBO_0015001))
 Declaration(Class(obo:NBO_0015002))
 Declaration(Class(obo:NBO_0015003))
+Declaration(Class(obo:NBO_0015004))
 Declaration(Class(obo:NBO_0015005))
 Declaration(Class(obo:NBO_0015006))
 Declaration(Class(obo:NBO_0015007))
@@ -9116,6 +9117,15 @@ AnnotationAssertion(dc:date obo:NBO_0015003 "2019-08-04T13:51:02Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0015003 "https://orcid.org/0000-0002-7356-1779")
 AnnotationAssertion(rdfs:label obo:NBO_0015003 "active foraging behavior"@en)
 SubClassOf(obo:NBO_0015003 obo:NBO_0000079)
+
+# Class: obo:NBO_0015004 (active foraging behavior)
+
+AnnotationAssertion(obo:IAO_0000115 obo:NBO_0015004 "Feeding behavior during which a living entity acquires food and energy by actively searching for food resources.")
+AnnotationAssertion(dc:contributor obo:NBO_0015004 "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(dc:date obo:NBO_0015004 "2019-08-04T13:51:02Z")
+AnnotationAssertion(oboInOwl:created_by obo:NBO_0015004 "https://orcid.org/0000-0002-7356-1779")
+AnnotationAssertion(rdfs:label obo:NBO_0015004 "active foraging behavior"@en)
+SubClassOf(obo:NBO_0015004 obo:NBO_0000079)
 
 # Class: obo:NBO_0015005 (smoking behavior)
 

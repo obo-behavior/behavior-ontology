@@ -2049,7 +2049,6 @@ AnnotationAssertion(oboInOwl:created_by obo:NBO_0000096 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000096 "behavior_ontology")
 AnnotationAssertion(oboInOwl:xref obo:NBO_0000096 "HP:0000756")
 AnnotationAssertion(rdfs:label obo:NBO_0000096 "agoraphobia behavior")
-SubClassOf(obo:NBO_0000096 obo:NBO_0000094)
 SubClassOf(obo:NBO_0000096 obo:NBO_0000246)
 
 # Class: obo:NBO_0000097 (response to novel environment)

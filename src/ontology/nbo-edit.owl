@@ -2709,7 +2709,7 @@ SubClassOf(obo:NBO_0000163 obo:NBO_0000754)
 
 # Class: obo:NBO_0000164 (NREM duration)
 
-AnnotationAssertion(obo:IAO_0000115 obo:NBO_0000164 "\"Duration of REM sleep.\" [NBO:GVG]")
+AnnotationAssertion(Annotation(dc:contributor "0000-0002-4277-2151") obo:IAO_0000115 obo:NBO_0000164 "\"Duration of NREM sleep.\" [NBO:GVG]")
 AnnotationAssertion(dc:date obo:NBO_0000164 "2011-03-31T03:16:07Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000164 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000164 "behavior_ontology")

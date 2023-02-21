@@ -6,13 +6,22 @@
         "pred" : "http://purl.org/dc/elements/1.1/type",
         "val" : "http://purl.obolibrary.org/obo/IAO_8000001"
       }, {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "An ontology of human and animal behaviours."
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "https://creativecommons.org/licenses/by/3.0/"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "Neuro Behaviour Ontology"
+      }, {
         "pred" : "http://www.geneontology.org/formats/oboInOwl#treat-xrefs-as-equivalent",
         "val" : "GO"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-02-19"
+        "val" : "2023-02-21"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/nbo/releases/2023-02-19/nbo-base.json"
+      "version" : "http://purl.obolibrary.org/obo/nbo/releases/2023-02-21/nbo-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/GO_0007625",
@@ -75,7 +84,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the complex psychophysiological experience of an individual's state of mind as interacting with biochemical (internal) and environmental (external) influences.\" [wikipedia:Emotions]"
+          "val" : "Behavior related to the complex psychophysiological experience of an individual's state of mind as interacting with biochemical (internal) and environmental (external) influences."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -101,7 +110,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behaviour related to involuntary movement in response to a stimulus.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behaviour related to involuntary movement in response to a stimulus."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -124,7 +133,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the acquisition and processing of information and/or the storage and retrieval of this information over time.\" [GO:jic]"
+          "val" : "Behavior related to the acquisition and processing of information and/or the storage and retrieval of this information over time."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -195,7 +204,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior associated with the specific movement from place to place of an organism.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior associated with the specific movement from place to place of an organism."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -324,7 +333,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the interactions between organisms for the purpose of mating.\" [NBO:GVG]"
+          "val" : "Behavior related to the interactions between organisms for the purpose of mating."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -350,7 +359,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A behavioral interaction between organisms in which one organism has the intention of inflicting damage on another individual using physical or verbal means.\" [wikipedia:Aggression]"
+          "val" : "A behavioral interaction between organisms in which one organism has the intention of inflicting damage on another individual using physical or verbal means."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -431,7 +440,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Emotional behavior related to fear or anxiety.\" [NBO:GVG]"
+          "val" : "Emotional behavior related to fear or anxiety."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -500,7 +509,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior associated with any process in an organism in which a relatively long-lasting adaptive behavioral change occurs as the result of experience.\" [wikipedia:Learning]"
+          "val" : "Behavior associated with any process in an organism in which a relatively long-lasting adaptive behavioral change occurs as the result of experience."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -526,7 +535,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Movement of the head in the horizontal plane.\" [NBO:GVG]"
+          "val" : "Movement of the head in the horizontal plane."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -549,7 +558,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the readily reversible state of reduced awareness and metabolic activity that occurs periodically in many animals.\" [NBO:GVG]"
+          "val" : "Behavior related to the readily reversible state of reduced awareness and metabolic activity that occurs periodically in many animals."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -571,7 +580,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An uncontrolled, paroxysmal neuronal discharge in any part of the brain; it may cause physical or mental symptoms and may be convulsive or nonconvulsive\" [NBO:GVG]"
+          "val" : "An uncontrolled, paroxysmal neuronal discharge in any part of the brain; it may cause physical or mental symptoms and may be convulsive or nonconvulsive"
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -652,7 +661,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Absence of voluntary movement.\" [NBO:GVG]"
+          "val" : "Absence of voluntary movement."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -671,7 +680,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Reduction of voluntary movement.\" [NBO:GVG]"
+          "val" : "Reduction of voluntary movement."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -694,7 +703,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A kinesthetic behavior which relatively increased.\" [NBO:GVG]"
+          "val" : "A kinesthetic behavior which relatively increased."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -719,7 +728,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A kinesthetic behavior which relatively decreased.\" [NBO:GVG]"
+          "val" : "A kinesthetic behavior which relatively decreased."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -789,7 +798,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behaviour related to the activity which primary purpose is the sexual reproduction.\" [NBO:GVG]"
+          "val" : "Behaviour related to the activity which primary purpose is the sexual reproduction."
         },
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -848,7 +857,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A behavior in which an organism produces sounds by a mechanism involving its respiratory system.\" [NBO:GVG]"
+          "val" : "A behavior in which an organism produces sounds by a mechanism involving its respiratory system."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -874,7 +883,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds.\" [wikipedia:Excretion]"
+          "val" : "The elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -915,7 +924,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The regulation of body fluids process by which parasympathetic nerves stimulate the bladder wall muscle to contract and expel urine from the body.\" [wikipedia:urination]"
+          "val" : "The regulation of body fluids process by which parasympathetic nerves stimulate the bladder wall muscle to contract and expel urine from the body."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -967,7 +976,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The regulated release of the aqueous layer of the tear film from the lacrimal glands.\" [wikipedia:lacrimation]"
+          "val" : "The regulated release of the aqueous layer of the tear film from the lacrimal glands."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1082,7 +1091,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related the protection of offspring.\" [NBO:SD]"
+          "val" : "Behavior related the protection of offspring."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1131,7 +1140,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the actions by which an organism modulates its internal body temperature.\" [NBO:GVG]"
+          "val" : "Behavior related to the actions by which an organism modulates its internal body temperature."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -1202,7 +1211,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Specific actions of a newborn or infant mammal that result in the derivation of nourishment from the breast.\" [GOC:dph]"
+          "val" : "Specific actions of a newborn or infant mammal that result in the derivation of nourishment from the breast."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1348,7 +1357,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Loss of power of voluntary movement in muscles of the forelimb through injury or disease of it or its nerve supply.\" [JAX:]"
+          "val" : "Loss of power of voluntary movement in muscles of the forelimb through injury or disease of it or its nerve supply."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -1370,7 +1379,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the washing or cleansing of the body in a fluid, usually water or an aqueous solution.\" [wikipedia:Bathing]"
+          "val" : "Behavior related to the washing or cleansing of the body in a fluid, usually water or an aqueous solution."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1396,7 +1405,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of food.\" [NBO:GVG]"
+          "val" : "A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of food."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1422,7 +1431,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of liquids.\" [NBO:GVG]"
+          "val" : "A feeding behavior associated with the intake or the frequency of intake or preference or manner of intake of liquids."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1448,7 +1457,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to a variety of aspects of the relationship between the mind and the world with which it interacts.\" [wikipedia:Consciousness]"
+          "val" : "Behavior related to a variety of aspects of the relationship between the mind and the world with which it interacts."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -1486,7 +1495,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to reduced or absent consciousness, relatively suspended sensory activity, and inactivity of nearly all voluntary muscles.\" [wikipedia:Asleep]"
+          "val" : "Behavior related to reduced or absent consciousness, relatively suspended sensory activity, and inactivity of nearly all voluntary muscles."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -1505,7 +1514,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Repetitive movement of a body part.\" [NBO:GVG]"
+          "val" : "Repetitive movement of a body part."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -1556,7 +1565,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the movement facilitated by the generation of hole or tunnel dug into the ground.\" [NBO:GVG]"
+          "val" : "Behavior related to the movement facilitated by the generation of hole or tunnel dug into the ground."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1680,7 +1689,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The behavioral interactions between organisms for the purpose of attracting sexual partners.\" [GOC:dph]"
+          "val" : "The behavioral interactions between organisms for the purpose of attracting sexual partners."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1709,7 +1718,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the specific actions or reactions of an organism following mating.\" [GOC:bf]"
+          "val" : "Behavior related to the specific actions or reactions of an organism following mating."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1836,7 +1845,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to any biological process in an organism that recurs with a regularity of approximately 24 hours.\" [NBO:GVG]"
+          "val" : "Behavior related to any biological process in an organism that recurs with a regularity of approximately 24 hours."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -1858,7 +1867,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Emotional behavior related to a state of low mood  and aversion to activity.\" [wikipedia:Depression]"
+          "val" : "Emotional behavior related to a state of low mood  and aversion to activity."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1881,7 +1890,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the exploration/investigation of a novel object, situation or environment.\" [NBO:GVG]"
+          "val" : "Behavior related to the exploration/investigation of a novel object, situation or environment."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -1900,7 +1909,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to defence against predation or predators.\" [NBO:GVG]"
+          "val" : "Behavior related to defence against predation or predators."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1923,7 +1932,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the preparation of the body to \\\"fight\\\" or \\\"flee\\\" from perceived attack, harm or threat.\" [NBO:GVG]"
+          "val" : "Behavior related to the preparation of the body to \\\"fight\\\" or \\\"flee\\\" from perceived attack, harm or threat."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -1949,7 +1958,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A physical aggression behavior involving attack on prey by a predator.\" [NBO:GVG]"
+          "val" : "A physical aggression behavior involving attack on prey by a predator."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2001,7 +2010,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An emotional behavior related to a feeling of uneasiness or nervousness triggered by a specified triggering stimulus such as pain or the threat of danger.\" [NBO:GVG]"
+          "val" : "An emotional behavior related to a feeling of uneasiness or nervousness triggered by a specified triggering stimulus such as pain or the threat of danger."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2024,7 +2033,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An emotional behavior related to a feeling of uneasiness or nervousness triggered by an identifiable triggering stimulus.\" [NBO:GVG]"
+          "val" : "An emotional behavior related to a feeling of uneasiness or nervousness triggered by an identifiable triggering stimulus."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2047,7 +2056,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An emotional behavior related to a feeling of uneasiness or nervousness in respect to an object.\" [NBO:GVG]"
+          "val" : "An emotional behavior related to a feeling of uneasiness or nervousness in respect to an object."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2066,7 +2075,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An emotional behavior related to a feeling of uneasiness or nervousness in respect to a particular situation or environment.\" [NBO:GVG]"
+          "val" : "An emotional behavior related to a feeling of uneasiness or nervousness in respect to a particular situation or environment."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2085,7 +2094,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An emotional behavior related to a feeling of uneasiness or nervousness in respect to a living thing.\" [NBO:GVG]"
+          "val" : "An emotional behavior related to a feeling of uneasiness or nervousness in respect to a living thing."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2104,7 +2113,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A phobia characterised by fear of open spaces.\" [NBO:GVG]"
+          "val" : "A phobia characterised by fear of open spaces."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2126,7 +2135,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the exploration/investigation of a novel environment.\" [NBO:GVG]"
+          "val" : "Behavior related to the exploration/investigation of a novel environment."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2145,7 +2154,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the exploration/investigation of a novel obhject.\" [NBO:GVG]"
+          "val" : "Behavior related to the exploration/investigation of a novel obhject."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2164,7 +2173,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the exploration/investigation of a novel odor.\" [NBO:GVG]"
+          "val" : "Behavior related to the exploration/investigation of a novel odor."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2202,7 +2211,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Moving backwards.\" [NBO:GVG]"
+          "val" : "Moving backwards."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2221,7 +2230,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Moving backwards in response to a fear stimulus.\" [NBO:GVG]"
+          "val" : "Moving backwards in response to a fear stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2240,7 +2249,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavioral response to the presidency of the stressor where it becomes necessary to attempt some means of coping with the stress.\" [NBO:GVG]"
+          "val" : "Behavioral response to the presidency of the stressor where it becomes necessary to attempt some means of coping with the stress."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2259,7 +2268,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting a domineering, assault posture and/or hostile physical action towards humans.\" [NBO:GVG]"
+          "val" : "Exhibiting a domineering, assault posture and/or hostile physical action towards humans."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2282,7 +2291,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting a domineering, assault posture and/or hostile physical action towards animals.\" [NBO:GVG]"
+          "val" : "Exhibiting a domineering, assault posture and/or hostile physical action towards animals."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2305,7 +2314,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting a domineering, assault posture and/or hostile physical action toward any type of object.\" [NBO:GVG]"
+          "val" : "Exhibiting a domineering, assault posture and/or hostile physical action toward any type of object."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2328,7 +2337,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting a domineering, assault posture and/or hostile physical action towards mice.\" [NBO:GVG]"
+          "val" : "Exhibiting a domineering, assault posture and/or hostile physical action towards mice."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2351,7 +2360,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting a domineering, assault posture and/or hostile physical action towards women.\" [NBO:GVG]"
+          "val" : "Exhibiting a domineering, assault posture and/or hostile physical action towards women."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2374,7 +2383,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting a domineering, assault posture and/or hostile physical action towards men.\" [NBO:GVG]"
+          "val" : "Exhibiting a domineering, assault posture and/or hostile physical action towards men."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2397,7 +2406,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting a domineering, assault posture and/or hostile physical action towards male mice.\" [NBO:GVG]"
+          "val" : "Exhibiting a domineering, assault posture and/or hostile physical action towards male mice."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2420,7 +2429,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting a domineering, assault posture and/or hostile physical action towards female mice.\" [NBO:GVG]"
+          "val" : "Exhibiting a domineering, assault posture and/or hostile physical action towards female mice."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2443,7 +2452,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting a domineering, assault posture and/or hostile physical action toward inanimate objects.\" [NBO:GVG]"
+          "val" : "Exhibiting a domineering, assault posture and/or hostile physical action toward inanimate objects."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2466,7 +2475,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting a domineering, assault posture and/or hostile physical action toward inanimate objects.\" [NBO:GVG]"
+          "val" : "Exhibiting a domineering, assault posture and/or hostile physical action toward animate objects."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2489,7 +2498,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting a domineering, assault posture and/or hostile physical action towards children.\" [NBO:GVG]"
+          "val" : "Exhibiting a domineering, assault posture and/or hostile physical action towards children."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2512,7 +2521,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting a domineering, assault posture and/or hostile physical action towards pups.\" [NBO:GVG]"
+          "val" : "Exhibiting a domineering, assault posture and/or hostile physical action towards pups."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2535,7 +2544,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Gender related exhibition of a domineering, assault posture and/or hostile physical action.\" [NBO:GVG]"
+          "val" : "Gender related exhibition of a domineering, assault posture and/or hostile physical action."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2558,7 +2567,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting a domineering, assault posture and/or hostile physical action towards female animals.\" [NBO:GVG]"
+          "val" : "Exhibiting a domineering, assault posture and/or hostile physical action towards female animals."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2577,7 +2586,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting a domineering, assault posture and/or hostile physical action towards male animals.\" [NBO:GVG]"
+          "val" : "Exhibiting a domineering, assault posture and/or hostile physical action towards male animals."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2600,7 +2609,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A behavior that occur quickly without control, planning, or consideration of the consequences of that behavior.\" [NBO:GVG]"
+          "val" : "A behavior that occur quickly without control, planning, or consideration of the consequences of that behavior."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2619,7 +2628,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An aggressive behavior that aims to inflicting damage on another entity using physical means.\" [NBO:GVG]"
+          "val" : "An aggressive behavior that aims to inflicting damage on another entity using physical means."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2688,7 +2697,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A behavior associated with the tendency of an organism towards being passive and willing to yield to male animals.\" [NBO:GVG]"
+          "val" : "A behavior associated with the tendency of an organism towards being passive and willing to yield to male animals."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2711,7 +2720,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A behavior associated with the tendency of an organism towards being passive and willing to yield to female animals.\" [NBO:GVG]"
+          "val" : "A behavior associated with the tendency of an organism towards being passive and willing to yield to female animals."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2734,7 +2743,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A behavior associated with the tendency of an organism towards being passive and willing to yield towards male mice.\" [NBO:GVG]"
+          "val" : "A behavior associated with the tendency of an organism towards being passive and willing to yield towards male mice."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -2799,7 +2808,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior characterized by a quick excitability to annoyance, impatience, or anger.\" [NBO:GVG]"
+          "val" : "Behavior characterized by a quick excitability to annoyance, impatience, or anger."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2818,7 +2827,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Emotional behavior related to excitement or restlessness.\" [NBO:GVG]"
+          "val" : "Emotional behavior related to excitement or restlessness."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2837,7 +2846,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A behavior associated with the intake of liquid.\" [NBO:GVG]"
+          "val" : "A behavior associated with the intake of liquid."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2856,7 +2865,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A drinking behavior associated with the intake of alcohol.\" [NBO:GVG]"
+          "val" : "A drinking behavior associated with the intake of alcohol."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2875,7 +2884,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A drinking behavior associated with the intake of water.\" [NBO:GVG]"
+          "val" : "A drinking behavior associated with the intake of water."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2913,7 +2922,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A feeding behavior associated with the intake of food.\" [NBO:GVG]"
+          "val" : "A feeding behavior associated with the intake of food."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2948,7 +2957,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A feeding behavior associated with the intake of saccharin.\" [NBO:GVG]"
+          "val" : "A feeding behavior associated with the intake of saccharin."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2967,7 +2976,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Predilection to ingest a liquid over other substances.\" [NBOC:GVG]"
+          "val" : "Predilection to ingest a liquid over other substances."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -2986,7 +2995,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Purposeful avoidance of a liquid due to dislike.\" [NBO:GVG]"
+          "val" : "Purposeful avoidance of a liquid due to dislike."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3005,7 +3014,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Purposeful avoidance of liquid alcohol due to dislike.\" [NBO:GVG] [NBO:LKSR]"
+          "val" : "Purposeful avoidance of liquid alcohol due to dislike. [NBO:LKSR]"
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3024,7 +3033,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Predilection to ingest alcohol over other substances.\" [NBOC:GVG]"
+          "val" : "Predilection to ingest alcohol over other substances."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3195,7 +3204,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior of a mother towards her offspring.\" [NBO:GVG]"
+          "val" : "Behavior of a mother towards her offspring."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3217,7 +3226,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior of a father towards his offspring.\" [NBO:GVG]"
+          "val" : "Behavior of a father towards his offspring."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3239,7 +3248,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Maternal behavior related to the brining up her offspring.\" [NBO:GVG]"
+          "val" : "Maternal behavior related to the brining up her offspring."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3258,7 +3267,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Paternal behavior related to the brining up his offspring.\" [NBO:GVG]"
+          "val" : "Paternal behavior related to the brining up his offspring."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3293,7 +3302,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the parent's tendency to collect stray offspring and return them to a defined location.\" [NBO:GVG]"
+          "val" : "Behavior related to the parent's tendency to collect stray offspring and return them to a defined location."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -3403,7 +3412,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to all sleep stages in the circadian sleep/wake cycle other than REM sleep.\" [NBO:GVG]"
+          "val" : "Behavior related to all sleep stages in the circadian sleep/wake cycle other than REM sleep."
         },
         "comments" : [ "These stages are characterized by a slowing of brain waves and other physiological functions." ],
         "synonyms" : [ {
@@ -3427,7 +3436,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Duration of REM sleep.\" [NBO:GVG]"
+          "val" : "Duration of REM sleep."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3462,7 +3471,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Duration of REM sleep.\" [NBO:GVG]"
+          "val" : "Duration of NREM sleep."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3497,7 +3506,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Endogenously driven roughly 24-hour cycle in biochemical, physiological, or behavioral processes.\" [GOC:bf]"
+          "val" : "Endogenously driven roughly 24-hour cycle in biochemical, physiological, or behavioral processes."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3567,7 +3576,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related with the ability of an organism's ability to store, retain, and recall information and experiences.\" [NBO:GVG]"
+          "val" : "Behavior related with the ability of an organism's ability to store, retain, and recall information and experiences."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -3712,7 +3721,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A decrease in a behavioral response to a repeated stimulus.\" [NBO:GVG]"
+          "val" : "A decrease in a behavioral response to a repeated stimulus."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -3741,7 +3750,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Gradual decrease in behavioral responses with repeated encounters of a particular stimulus, which proves of no consequence.\" [wikipedia:Habituation]"
+          "val" : "Gradual decrease in behavioral responses with repeated encounters of a particular stimulus, which proves of no consequence."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3763,7 +3772,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An increase in behavioral responses following repeated applications of a particular stimulus.\" [wikipedia:Sensitization]"
+          "val" : "An increase in behavioral responses following repeated applications of a particular stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3782,7 +3791,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of memory that allows the recall of something from several seconds to as long as a minute.\" [NBO:GVG]"
+          "val" : "A type of memory that allows the recall of something from several seconds to as long as a minute."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3804,7 +3813,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"This type of memory, lasting hours to months, critically depends on a transfer of the information from short term memory using repeated rehearsal.\" [NBO:GVG]"
+          "val" : "This type of memory, lasting hours to months, critically depends on a transfer of the information from short term memory using repeated rehearsal."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3826,7 +3835,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Report great detail about a complex stimulus immediately following its presentation. This ability forms within a few tens of milliseconds and decays again rapidly within a few hundred milliseconds.\" [NBO:GVG]"
+          "val" : "Report great detail about a complex stimulus immediately following its presentation. This ability forms within a few tens of milliseconds and decays again rapidly within a few hundred milliseconds."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3845,7 +3854,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A memory that last for months to lifetime.\" [NBO:GVG]"
+          "val" : "A memory that last for months to lifetime."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3864,7 +3873,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of memory that allows the recall of something from minutes to several hours.\" [NBO:GVG]"
+          "val" : "A type of memory that allows the recall of something from minutes to several hours."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -3886,7 +3895,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Ability to become conscious of, or declare, facts and experiences.\" [NBO:GVG]"
+          "val" : "Ability to become conscious of, or declare, facts and experiences."
         },
         "comments" : [ "Encoded by the hippocampus, entorhinal cortex, and perirhinal cortex but store possibly in the medial temporal lobe." ],
         "synonyms" : [ {
@@ -3910,7 +3919,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Ability to consciously recall knowledge of facts that are independent of a specific time and place.\" [NBO:GVG]"
+          "val" : "Ability to consciously recall knowledge of facts that are independent of a specific time and place."
         },
         "comments" : [ "Medial temporal lobe, diencephalon." ],
         "basicPropertyValues" : [ {
@@ -3930,7 +3939,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Ability to explicitly recall information about a specific event that has occurred at a specific time and place.\" [NBO:GVG]"
+          "val" : "Ability to explicitly recall information about a specific event that has occurred at a specific time and place."
         },
         "comments" : [ "Medial temporal lobe, diencephalon." ],
         "basicPropertyValues" : [ {
@@ -3950,7 +3959,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Non-declarative memory type of memory, which does not need to involve conscious awareness in the act of recollection.\" [NBO:GVG]"
+          "val" : "Non-declarative memory type of memory, which does not need to involve conscious awareness in the act of recollection."
         },
         "comments" : [ "Encoded and probably stored by the cerebellum and the striatum but store in the amygdala." ],
         "synonyms" : [ {
@@ -3980,7 +3989,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Consolidating a specific motor task into memory through repetition.\" [NBO:GVG]"
+          "val" : "Consolidating a specific motor task into memory through repetition."
         },
         "comments" : [ "Depends on the cerebellum and basal ganglia." ],
         "synonyms" : [ {
@@ -4023,7 +4032,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Remembering to perform an intended action.\" [NBO:GVG]"
+          "val" : "Remembering to perform an intended action."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4042,7 +4051,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Remembering to perform an intended action in respect to a particular event.\" [NBO:GVG]"
+          "val" : "Remembering to perform an intended action in respect to a particular event."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4061,7 +4070,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Remembering to perform an intended action in respect to a particular time reference.\" [NBO:GVG]"
+          "val" : "Remembering to perform an intended action in respect to a particular time reference."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4080,7 +4089,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of memory for particular events within one's own life.\" [NBO:GVG]"
+          "val" : "A type of memory for particular events within one's own life."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4157,7 +4166,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Ability to orient oneself in space, to recognize and follow an itinerary, or to recognize familiar places.\" [NBO:GVG]"
+          "val" : "Ability to orient oneself in space, to recognize and follow an itinerary, or to recognize familiar places."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4176,7 +4185,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An implicit memory effect in which exposure to a stimulus influences response to a later stimulus.\" [NBO:GVG]"
+          "val" : "An implicit memory effect in which exposure to a stimulus influences response to a later stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4215,7 +4224,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of priming where the prime and the target are from the same semantic category and share features.\" [NBO:GVG]"
+          "val" : "A type of priming where the prime and the target are from the same semantic category and share features."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4234,7 +4243,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of priming where the target is a word that has a high probability of appearing with the prime, and is \\\"associated\\\" with it but not necessarily related in semantic features.\" [NBO:GVG]"
+          "val" : "A type of priming where the target is a word that has a high probability of appearing with the prime, and is \\\"associated\\\" with it but not necessarily related in semantic features."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4269,7 +4278,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of priming based on the meaning of a stimulus and is enhanced by semantic task.\" [NBO:GVG]"
+          "val" : "A type of priming based on the meaning of a stimulus and is enhanced by semantic task."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4288,7 +4297,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type priming based on the form of the stimulus and is enhanced by the match between the early and later stimuli.\" [NBO:GVG]"
+          "val" : "A type priming based on the form of the stimulus and is enhanced by the match between the early and later stimuli."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4307,7 +4316,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Change in the responsiveness of a sensory system when confronted with a constant stimulus.\" [NBO:GVG]"
+          "val" : "Change in the responsiveness of a sensory system when confronted with a constant stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4326,7 +4335,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A form of associative learning that requires an unconditional reflex, where an unconditional stimulus (US)brings about an automatic, unlearned (unconditional) response (UR). If a neutral stimulus (NS) tends to precede it, an association is made and the conditional response (CR) becomes transferred onto the (previously neutral) conditional strimulus (CS); a conditional reflex has been learned.\" [NBO:GVG]"
+          "val" : "A form of associative learning that requires an unconditional reflex, where an unconditional stimulus (US)brings about an automatic, unlearned (unconditional) response (UR). If a neutral stimulus (NS) tends to precede it, an association is made and the conditional response (CR) becomes transferred onto the (previously neutral) conditional strimulus (CS); a conditional reflex has been learned."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -4352,7 +4361,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of associative learning that allows organisms to acquire affective responses, such as fear, in situations where a particular context or stimulus is predictably elicits fear via an aversive context.\" [NBO:GVG]"
+          "val" : "A type of associative learning that allows organisms to acquire affective responses, such as fear, in situations where a particular context or stimulus is predictably elicits fear via an aversive context."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4511,7 +4520,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Avoidance learning when the action occurs.\" [NBO:GVG]"
+          "val" : "Avoidance learning when the action occurs."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4530,7 +4539,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Avoidance learning when no action occurs.\" [NBO:GVG]"
+          "val" : "Avoidance learning when no action occurs."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4549,7 +4558,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Avoid a situation completely.\" [NBO:GVG]"
+          "val" : "Avoid a situation completely."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4718,7 +4727,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the awareness of body balance and movement.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the awareness of body balance and movement."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -4789,7 +4798,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the tendency of an organism to maintain internal equilibrium.\" [NBO:GVG]"
+          "val" : "Behavior related to the tendency of an organism to maintain internal equilibrium."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -4821,7 +4830,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the deprivation of water.\" [NBO:GVG]"
+          "val" : "Behavior related to the deprivation of water."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4840,7 +4849,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the deprivation of food.\" [NBO:GVG]"
+          "val" : "Behavior related to the deprivation of food."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -4863,7 +4872,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the drive of an organism to engage in sexual activity.\" [NBO:GVG]"
+          "val" : "Behavior related to the drive of an organism to engage in sexual activity."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4882,7 +4891,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process which modulates the physical craving for food.\" [NBO:GVG]"
+          "val" : "Any process which modulates the physical craving for food."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4904,7 +4913,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process which modulates the physical craving for food over short term food deprivation.\" [NBO:GVG]"
+          "val" : "Any process which modulates the physical craving for food over short term food deprivation."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4923,7 +4932,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process which modulates the physical craving for food over long term food deprivation.\" [NBO:GVG]"
+          "val" : "Any process which modulates the physical craving for food over long term food deprivation."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -4990,7 +4999,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An observable characteristic of the behavior of an organism.\" [NBO:RH]"
+          "val" : "An observable characteristic of the behavior of an organism."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -5058,7 +5067,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A pathological anxiety characterized by fear or anxiety triggered by a specific stimulus or situation.\" [NBO:GVG]"
+          "val" : "A pathological anxiety characterized by fear or anxiety triggered by a specific stimulus or situation."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -5172,7 +5181,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A somatoform disorder characterised by a continuing belief that one has one or more serious illnesses although no medical evidence supports the belief.\" [wikipedia:Hypochondriasis]"
+          "val" : "A somatoform disorder characterised by a continuing belief that one has one or more serious illnesses although no medical evidence supports the belief."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -5461,7 +5470,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behaviour related to cognitive processes.\" [NBO:RH]"
+          "val" : "Observable characteristic of behaviour related to cognitive processes."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -5531,7 +5540,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior associated with the intake of food or liquids.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior associated with the intake of food or liquids."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -5641,7 +5650,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A behavioral interaction between organisms in which one organism exhibits aggression using vocal or verbal means.\" [NBO:GVG]"
+          "val" : "A behavioral interaction between organisms in which one organism exhibits aggression using vocal or verbal means."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -5710,7 +5719,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A discriminatory behavior that is related to age.\" [NBO:GVG]"
+          "val" : "A discriminatory behavior that is related to age."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -5749,7 +5758,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to having a generally positive attitude toward another person.\" [MBP:GVG]"
+          "val" : "Behavior related to having a generally positive attitude toward another person."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -5768,7 +5777,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Wanting to be with another person.\" [NBO:GVG]"
+          "val" : "Wanting to be with another person."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -5819,7 +5828,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A helping behavior (without expectation of extrinsic rewards and sometimes involving personal risk or sacrifice) that benefits individuals or society.\" [NBO:GVG]"
+          "val" : "A helping behavior (without expectation of extrinsic rewards and sometimes involving personal risk or sacrifice) that benefits individuals or society."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -5959,7 +5968,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to one or more capacities of the mind.\" [wikipedia:Intelligence]"
+          "val" : "Behavior related to one or more capacities of the mind."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -6058,7 +6067,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior stemming from intelligence associated with the capacity of conveying information. (Example: behavior adaptation in chimpanzees in order to communicate with humans.)\" [NBO:GVG]"
+          "val" : "Behavior stemming from intelligence associated with the capacity of conveying information. (Example: behavior adaptation in chimpanzees in order to communicate with humans.)"
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -6093,7 +6102,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A domineering, assault posture and/or hostile physical action towards animals exhibited by male animals.\" [NBO:GVG]"
+          "val" : "A domineering, assault posture and/or hostile physical action towards animals exhibited by male animals."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -6119,7 +6128,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A domineering, assault posture and/or hostile physical action towards animals exhibited by female animals.\" [NBO:GVG]"
+          "val" : "A domineering, assault posture and/or hostile physical action towards animals exhibited by female animals."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -6142,7 +6151,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A domineering, assault posture and/or hostile physical action towards animals exhibited by a mother or attending female.\" [NBO:GVG]"
+          "val" : "A domineering, assault posture and/or hostile physical action towards animals exhibited by a mother or attending female."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -6168,7 +6177,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A domineering, assault posture and/or hostile physical action towards animals exhibited by a father or attending male.\" [NBO:GVG]"
+          "val" : "A domineering, assault posture and/or hostile physical action towards animals exhibited by a father or attending male."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -6191,7 +6200,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related with the gradual loss of information and experiences stored in the memory of an organism.\" [NBO:GVG]"
+          "val" : "Behavior related with the gradual loss of information and experiences stored in the memory of an organism."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -6230,7 +6239,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related with the ability of an organism's ability to store information and experiences.\" [NBO:GVG]"
+          "val" : "Behavior related with the ability of an organism's ability to store information and experiences."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -6253,7 +6262,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related with the ability of an organism's ability to recall information and experiences.\" [NBO:GVG]"
+          "val" : "Behavior related with the ability of an organism's ability to recall information and experiences."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -6276,7 +6285,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Cognitive perception of a sensation by any of the five senses -- vision, touch, smell, taste, and hearing.\" [NBO:GVG]"
+          "val" : "Cognitive perception of a sensation by any of the five senses -- vision, touch, smell, taste, and hearing."
         },
         "comments" : [ "Example: moving head to watch passing object." ],
         "synonyms" : [ {
@@ -6306,7 +6315,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A phobia characterised by fear of social or performance situations in which embarrassment may occur.\" [NBO:GVG]"
+          "val" : "A phobia characterised by fear of social or performance situations in which embarrassment may occur."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -6325,7 +6334,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A phobia characterised by fear of high places.\" [NBO:GVG]"
+          "val" : "A phobia characterised by fear of high places."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -6344,7 +6353,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the actions of an organism in relation to sleep.\" [NBO:GVG]"
+          "val" : "Behavior related to the actions of an organism in relation to sleep."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -6367,7 +6376,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of sleep.\" [GOC:jl]"
+          "val" : "Any process that modulates the frequency, rate or extent of sleep."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -6495,7 +6504,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the awareness of body balance and movement.\" [MBP:GVG]"
+          "val" : "Behavior related to the awareness of body balance and movement."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -6582,7 +6591,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior as a result of the sensation of chemicals.\" [NBO:GVG]"
+          "val" : "Behavior as a result of the sensation of chemicals."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -6604,7 +6613,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the sensation of odors.\" [NBO:GVG]"
+          "val" : "Behavior related to the sensation of odors."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -6647,7 +6656,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to environmental temperature.\" [NBO:GVG]"
+          "val" : "Behavior related to environmental temperature."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -6673,7 +6682,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the sensations arising from the skin and from the muscles, tendons, and joints.\" [OBP:GVG]"
+          "val" : "Behavior related to the sensations arising from the skin and from the muscles, tendons, and joints."
         },
         "comments" : [ "Sensations arising from the internal organs (the viscera), such as pain or the sense of fullness of the stomach or bladder, may therefore be included, although they are usually considered separately as visceral sensations. Pain arising from the viscera is often felt as though it comes from some part of the body surface or underlying tissue." ],
         "basicPropertyValues" : [ {
@@ -6693,7 +6702,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the detection of high environmental temperature.\" [NBO:GVG]"
+          "val" : "Behavior related to the detection of high environmental temperature."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -6712,7 +6721,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the detection of low environmental temperature.\" [NBO:GVG]"
+          "val" : "Behavior related to the detection of low environmental temperature."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -6947,7 +6956,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The coordination of limb movement.\" [NBO:GVG]"
+          "val" : "The coordination of limb movement."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -6966,7 +6975,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Coordination that results in spatial and temporal planning of reaching and grasping.\" [NBO:GVG]"
+          "val" : "Coordination that results in spatial and temporal planning of reaching and grasping."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -6989,7 +6998,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Coordination that results in bimanual synchronization and temporal association of the hands.\" [NBO:GVG]"
+          "val" : "Coordination that results in bimanual synchronization and temporal association of the hands."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -7012,7 +7021,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The coordination of lower limb movement.\" [NBO:GVG]"
+          "val" : "The coordination of lower limb movement."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7031,7 +7040,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The coordination of upper limb movement.\" [NBO:GVG]"
+          "val" : "The coordination of upper limb movement."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7050,7 +7059,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The coordination of large muscle groups and whole body movement.\" [NBO:GVG]"
+          "val" : "The coordination of large muscle groups and whole body movement."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -7076,7 +7085,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Coordination of small muscle movements which occur usually in coordination with the eye.\" [NBO:GVG]"
+          "val" : "Coordination of small muscle movements which occur usually in coordination with the eye."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7111,7 +7120,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Coordination involved in writing.\" [NBO:GVG]"
+          "val" : "Coordination involved in writing."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7130,7 +7139,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The coordination of the whole body movement.\" [NBO:GVG]"
+          "val" : "The coordination of the whole body movement."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7149,7 +7158,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The coordination of the lower body movement.\" [NBO:GVG]"
+          "val" : "The coordination of the lower body movement."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7168,7 +7177,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The coordination of the upper body movement.\" [NBO:GVG]"
+          "val" : "The coordination of the upper body movement."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7203,7 +7212,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Intentionally or habitually assumed arrangement of the body and its limbs.\" [NBO:GVG]"
+          "val" : "Intentionally or habitually assumed arrangement of the body and its limbs."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7222,7 +7231,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Intentionally or habitually assumed arrangement of the body.\" [NBO:GVG]"
+          "val" : "Intentionally or habitually assumed arrangement of the body."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7241,7 +7250,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Intentionally or habitually assumed arrangement of the limbs.\" [NBO:GVG]"
+          "val" : "Intentionally or habitually assumed arrangement of the limbs."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7260,7 +7269,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Intentionally or habitually assumed arrangement of the body and its limbs in inactivity.\" [NBO:GVG]"
+          "val" : "Intentionally or habitually assumed arrangement of the body and its limbs in inactivity."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7279,7 +7288,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior associated with surface locomotion.\" [NBO:GVG]"
+          "val" : "Behavior associated with surface locomotion."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7298,7 +7307,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the upward thrust produced by the rapid, simultaneous extension of the hind legs with the intend to cross wide gaps in the locomotor surface.\" [MBP:GVG]"
+          "val" : "Behavior related to the upward thrust produced by the rapid, simultaneous extension of the hind legs with the intend to cross wide gaps in the locomotor surface."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -7340,7 +7349,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A behavioral pattern characterized by the distance covered by as many steps as there are legs.\" [NBO:GVG]"
+          "val" : "A behavioral pattern characterized by the distance covered by as many steps as there are legs."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7359,7 +7368,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the movement resulting by dragging the body close to the ground.\" [NBO:GVG]"
+          "val" : "Behavior related to the movement resulting by dragging the body close to the ground."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -7421,7 +7430,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the movement of an organism from one location to another through the air.\" [NBO:GVG]"
+          "val" : "Behavior related to the movement of an organism from one location to another through the air."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7440,7 +7449,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the self-propelled movement of an organism from one location to another through the air, usually by means of active wing movement.\" [NBO:GVG]"
+          "val" : "Behavior related to the self-propelled movement of an organism from one location to another through the air, usually by means of active wing movement."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -7472,7 +7481,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the ascending a steep object.\" [NBO:GVG]"
+          "val" : "Behavior related to the ascending a steep object."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7491,7 +7500,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the expansion lateral surface of the body with the intention of increasing the wind resistance against the body and hence reducing the speed of falling.\" [NBO:GVG]"
+          "val" : "Behavior related to the expansion lateral surface of the body with the intention of increasing the wind resistance against the body and hence reducing the speed of falling."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7510,7 +7519,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the upward thrust produced by the rapid, simultaneous extension of the hind legs with the intend to rise in the air.\" [NBO:GVG]"
+          "val" : "Behavior related to the upward thrust produced by the rapid, simultaneous extension of the hind legs with the intend to rise in the air."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -7533,7 +7542,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the movement of an organism from one location to another through a liquid medium.\" [NBO:GVG]"
+          "val" : "Behavior related to the movement of an organism from one location to another through a liquid medium."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -7559,7 +7568,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the control of the direction of locomotion.\" [NBO:GVG]"
+          "val" : "Behavior related to the control of the direction of locomotion."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7578,7 +7587,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the ability of an animal to determine and to alter its position in the environment.\" [NBO:GVG]"
+          "val" : "Behavior related to the ability of an animal to determine and to alter its position in the environment."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7597,7 +7606,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Alteration of speed or direction of movement in response to a sensory stimulus.\" [NBO:GVG]"
+          "val" : "Alteration of speed or direction of movement in response to a sensory stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7619,7 +7628,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Locomotory orientation in a specific spatial relationship to a stimulus.\" [NBO:GVG]"
+          "val" : "Locomotory orientation in a specific spatial relationship to a stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7641,7 +7650,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the mechanical alteration of the locomotor pattern through which the animal adjusts its position.\" [NBO:GVG]"
+          "val" : "Behavior related to the mechanical alteration of the locomotor pattern through which the animal adjusts its position."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7866,7 +7875,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Locomotory orientation in response to sound.\" [NBO:GVG]"
+          "val" : "Locomotory orientation in response to sound."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7885,7 +7894,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Locomotory orientation in response to mechanical stimulus.\" [NBO:GVG]"
+          "val" : "Locomotory orientation in response to mechanical stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7904,7 +7913,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Locomotory orientation in response to pressure.\" [NBO:GVG]"
+          "val" : "Locomotory orientation in response to pressure."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -7923,7 +7932,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to movements that occur independent of planning.\" [NBO:GVG]"
+          "val" : "Behavior related to movements that occur independent of planning."
         },
         "comments" : [ "Movevents listed here are involuntary, but may be also generated by free will, like blinking of the eyelids and respiratory movements." ],
         "basicPropertyValues" : [ {
@@ -7943,7 +7952,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to involuntary movement in response to a stimulus.\" [NBO:GVG]"
+          "val" : "Behavior related to involuntary movement in response to a stimulus."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -8070,7 +8079,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A reflex that causes the eyes to alternately fixate at far and near, expanding vision development from arms length to far away.\" [MBP:GVG]"
+          "val" : "A reflex that causes the eyes to alternately fixate at far and near, expanding vision development from arms length to far away."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -8249,7 +8258,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to movements executed with intent.\" [NBO:GVG]"
+          "val" : "Behavior related to movements executed with intent."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -8291,7 +8300,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A deep tendon reflex that elicits involuntary contraction of the biceps brachii muscle.\" [NBO:GVG]"
+          "val" : "A deep tendon reflex that elicits involuntary contraction of the biceps brachii muscle."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -8333,7 +8342,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A reflex that elicits involuntary contraction of the extensor digitorum muscle.\" [NBO:GVG]"
+          "val" : "A reflex that elicits involuntary contraction of the extensor digitorum muscle."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -8378,7 +8387,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A deep tendon reflex that elicits extension of the leg resulting from a sharp tap on the patellar tendon.\" [NBO:GVG]"
+          "val" : "A deep tendon reflex that elicits extension of the leg resulting from a sharp tap on the patellar tendon."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -8433,7 +8442,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A reflex that involves cranial nerves.\" [wikipedia:Reflex]"
+          "val" : "A reflex that involves cranial nerves."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -8522,6 +8531,9 @@
         }, {
           "pred" : "hasExactSynonym",
           "val" : "blinking"
+        } ],
+        "xrefs" : [ {
+          "val" : "GO:0060082"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -8614,7 +8626,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the readily reversible state of reduced awareness and metabolic activity that occurs periodically in many animals.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the readily reversible state of reduced awareness and metabolic activity that occurs periodically in many animals."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -8633,7 +8645,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A NREM parasomnia characterised by Involuntarily grinding of teeth while sleeping.\" [MBP:GVG]"
+          "val" : "A NREM parasomnia characterised by Involuntarily grinding of teeth while sleeping."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -8691,7 +8703,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Inability to fall asleep and/or remain asleep for a reasonable amount of time.\" [NBO:GVG]"
+          "val" : "Inability to fall asleep and/or remain asleep for a reasonable amount of time."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -8710,7 +8722,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A dyssomnia characterised by excessive daytime sleepiness (EDS) in which a person experiences extreme fatigue and possibly falls asleep at inappropriate times.\" [wikipedia:Narcolepsy]"
+          "val" : "A dyssomnia characterised by excessive daytime sleepiness (EDS) in which a person experiences extreme fatigue and possibly falls asleep at inappropriate times."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -8732,7 +8744,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A NREM parasomnia characterised by abrupt awakening from sleep with behavior consistent with terror and a temporary inability to regain full consciousness.\" [NBO:GVG]"
+          "val" : "A NREM parasomnia characterised by abrupt awakening from sleep with behavior consistent with terror and a temporary inability to regain full consciousness."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -8908,7 +8920,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An action or movement due to the application of a sudden unexpected loud noise.\" [NBO:GVG]"
+          "val" : "An action or movement due to the application of a sudden unexpected loud noise."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -8927,7 +8939,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A reflex where the body reacts to pain or unpleasant stimuli by trying to move itself away from the source.\" [NBO:GVG]"
+          "val" : "A reflex where the body reacts to pain or unpleasant stimuli by trying to move itself away from the source."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -9104,7 +9116,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A reflex in which muscle groups around the vital organs begin to shake in small movements in an attempt to create warmth by expending energy.\" [wikipedia:Shivering]"
+          "val" : "A reflex in which muscle groups around the vital organs begin to shake in small movements in an attempt to create warmth by expending energy."
         },
         "comments" : [ "The shivering reflex is triggered to maintain homeostasis." ],
         "basicPropertyValues" : [ {
@@ -9124,7 +9136,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A reflex in which mucus containing foreign particles or irritants is expelled and the nasal cavity is cleanses.\" [wikipedia:Sneeze]"
+          "val" : "A reflex in which mucus containing foreign particles or irritants is expelled and the nasal cavity is cleanses."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -9201,7 +9213,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Selectively track a moving object.\" [NBO:GVG]"
+          "val" : "Selectively track a moving object."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -9338,7 +9350,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the state or ability to perceive, to feel, or to be conscious of events, objects or sensory patterns.\" [wikipedia:Awareness]"
+          "val" : "Behavior related to the state or ability to perceive, to feel, or to be conscious of events, objects or sensory patterns."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -9353,7 +9365,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/NBO_0000453",
-      "lbl" : "behavior related to feelings experiencing",
+      "lbl" : "obsolete behavior related to feelings experiencing",
       "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -9365,7 +9377,8 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "behavior_ontology"
-        } ]
+        } ],
+        "deprecated" : true
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/NBO_0000455",
@@ -9373,7 +9386,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The sustained focus of cognitive resources on information while filtering or ignoring extraneous information.  Intended to encompass only attention to perceptual stimuli. \" [wikipedia:Attention]"
+          "val" : "The sustained focus of cognitive resources on information while filtering or ignoring extraneous information.  Intended to encompass only attention to perceptual stimuli. "
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -9392,7 +9405,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior involving responding discretely to specific visual, auditory or tactile stimuli.\" [wikipedia:Attention]"
+          "val" : "Behavior involving responding discretely to specific visual, auditory or tactile stimuli."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -9411,7 +9424,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior involving maintaining a behavioral or cognitive set in the face of distracting or competing stimuli.\" [wikipedia:Attention]"
+          "val" : "Behavior involving maintaining a behavioral or cognitive set in the face of distracting or competing stimuli."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -9430,7 +9443,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior involving mental flexibility that allows individuals to shift their focus of attention and move between tasks having different cognitive requirements.\" [wikipedia:Attention]"
+          "val" : "Behavior involving mental flexibility that allows individuals to shift their focus of attention and move between tasks having different cognitive requirements."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -9449,7 +9462,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior involving maintaining a consistent behavioral response during continuous and repetitive activity.\" [wikipedia:Attention]"
+          "val" : "Behavior involving maintaining a consistent behavioral response during continuous and repetitive activity."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -9472,7 +9485,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior involving responding simultaneously to multiple tasks or multiple task demands.\" [wikipedia:Attention]"
+          "val" : "Behavior involving responding simultaneously to multiple tasks or multiple task demands."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -9529,7 +9542,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The perception of familiar objects as approximately the same shape regardless of their distance or angle of view from the observer.\" [NBO:GVG]"
+          "val" : "The perception of familiar objects as approximately the same shape regardless of their distance or angle of view from the observer."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -9605,7 +9618,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Perception of the distance of an object.\" [NBO:GVG]"
+          "val" : "Perception of the distance of an object."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -9698,7 +9711,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the depletion of the body resources for coping to stress.\" [NBO:GVG]"
+          "val" : "Behavior related to the depletion of the body resources for coping to stress."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -9753,7 +9766,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A pathological sleeping behavior related to the initiating or maintaining sleep or of excessive sleepiness and are characterized by a disturbance in the amount, quality, or timing of sleep.\" [wikipedia:Dyssomnia]"
+          "val" : "A pathological sleeping behavior related to the initiating or maintaining sleep or of excessive sleepiness and are characterized by a disturbance in the amount, quality, or timing of sleep."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -9788,7 +9801,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A dyssomnia characterized by excessive amounts of sleepiness.\" [wikipedia:Hypersomnia]"
+          "val" : "A dyssomnia characterized by excessive amounts of sleepiness."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -9936,7 +9949,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A dyssomnia associated with alcohol intake.\" [NBO:GVG]"
+          "val" : "A dyssomnia associated with alcohol intake."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -9955,7 +9968,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A insomnia associated with food allergies.\" [NBO:GVG]"
+          "val" : "A insomnia associated with food allergies."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -10156,7 +10169,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A sleeping behavior phenotype that involve abnormal and unnatural movements, emotions, perceptions, and dreams that occur while falling asleep, sleeping, between sleep stages, or during arousal from sleep.\" [wikipedia:Parasomnia]"
+          "val" : "A sleeping behavior phenotype that involve abnormal and unnatural movements, emotions, perceptions, and dreams that occur while falling asleep, sleeping, between sleep stages, or during arousal from sleep."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -10175,7 +10188,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An intrinsic sleep disorder characterised by breathing abnormalities.\" [NBO:GVG]"
+          "val" : "An intrinsic sleep disorder characterised by breathing abnormalities."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -10198,7 +10211,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A sleeping behavior characterised by vibration of respiratory structures and the resulting sound, due to obstructed air movement during breathing while sleeping.\" [wikipedia:Snoring]"
+          "val" : "A sleeping behavior characterised by vibration of respiratory structures and the resulting sound, due to obstructed air movement during breathing while sleeping."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -10236,7 +10249,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A hypersomnia characterized by recurrent episodes.\" [NBO:GVG]"
+          "val" : "A hypersomnia characterized by recurrent episodes."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -10255,7 +10268,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A hypersomnia that occurs as a result of a traumatic event involving the central nervous system.\" [NBO:GVG]"
+          "val" : "A hypersomnia that occurs as a result of a traumatic event involving the central nervous system."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -10274,7 +10287,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of parasomnia that occurs during NREM sleep.\" [NBO:GVG]"
+          "val" : "A type of parasomnia that occurs during NREM sleep."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -10293,7 +10306,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A NREM parasomnia characterised by the risef rom the slow wave sleep stage in a state of low consciousness and perform activities that are usually performed during a state of full consciousness.\" [wikipedia:Sleepwalking]"
+          "val" : "A NREM parasomnia characterised by the risef rom the slow wave sleep stage in a state of low consciousness and perform activities that are usually performed during a state of full consciousness."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -10316,7 +10329,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A NREM parasomnia characterised by involuntary urination while asleep after the age at which bladder control usually occurs.\" [wikipedia:Bedwetting]"
+          "val" : "A NREM parasomnia characterised by involuntary urination while asleep after the age at which bladder control usually occurs."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -10339,7 +10352,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A NREM parasomnia characterised by talking during sleep.\" [NBO:GVG]"
+          "val" : "A NREM parasomnia characterised by talking during sleep."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -10385,7 +10398,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of parasomnia that occurs during REM sleep.\" [NBO:GVG]"
+          "val" : "A type of parasomnia that occurs during REM sleep."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -10404,7 +10417,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A RBD that occurs mostly as a result of a side-effect in prescribed medication- usually antidepressants.\" [wikipedia:Parasomnia]"
+          "val" : "A RBD that occurs mostly as a result of a side-effect in prescribed medication- usually antidepressants."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -10423,7 +10436,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Idiopathic or associated with neurological disorders REM sleep behavior disorder.\" [wikipedia:Parasomnia]"
+          "val" : "Idiopathic or associated with neurological disorders REM sleep behavior disorder."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -10442,7 +10455,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A REM parasomnia consisting of breath holding and expiratory groaning during sleep that is distinct from both somniloquy and obstructive sleep apnea.\" [wikipedia:Catathrenia]"
+          "val" : "A REM parasomnia consisting of breath holding and expiratory groaning during sleep that is distinct from both somniloquy and obstructive sleep apnea."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -10572,7 +10585,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the ascending stairs.\" [NBO:GVG]"
+          "val" : "Behavior related to the ascending stairs."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -10591,7 +10604,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A dyssomnia characterised by fear of sleep.\" [NBO:GVG]"
+          "val" : "A dyssomnia characterised by fear of sleep."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -10708,7 +10721,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A major depressive disorder characterized by psychological and motorological disturbances.\" [wikipedia:Catatonia]"
+          "val" : "A major depressive disorder characterized by psychological and motorological disturbances."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -10779,7 +10792,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A depressive disorder characterized by chronic, different mood disturbance.\" [wikipedia:Dysthymia]"
+          "val" : "A depressive disorder characterized by chronic, different mood disturbance."
         },
         "comments" : [ "For humans: where a person reports a low mood almost daily over a span of at least two years." ],
         "basicPropertyValues" : [ {
@@ -10883,7 +10896,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A bipolar disorder characterised by recurrent hypomanic and dysthymic episodes, but no full manic episodes or full major depressive episodes.\" [wikipedia:Cyclothymia]"
+          "val" : "A bipolar disorder characterised by recurrent hypomanic and dysthymic episodes, but no full manic episodes or full major depressive episodes."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11038,7 +11051,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process in which an organism modulates its heart rate at different values with a regularity of approximately 24 hours.\" [GOC:rl]"
+          "val" : "Any process in which an organism modulates its heart rate at different values with a regularity of approximately 24 hours."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11079,7 +11092,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any homeostatic process in which an organism modulates its internal body temperature at different values with a regularity of approximately 24 hours.\" [GOC:dbh]"
+          "val" : "Any homeostatic process in which an organism modulates its internal body temperature at different values with a regularity of approximately 24 hours."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -11102,7 +11115,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of feeding behavior that relates to eating.\" [NBO:GVG]"
+          "val" : "Observable characteristic of feeding behavior that relates to eating."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -11125,7 +11138,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of feeding behavior that relates to drinking.\" [NBO:GVG]"
+          "val" : "Observable characteristic of feeding behavior that relates to drinking."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -11151,7 +11164,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A pathological drinking behavior characterised by an excessive desire to drink.\" [NBO:GVG]"
+          "val" : "A pathological drinking behavior characterised by an excessive desire to drink."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11176,7 +11189,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A pathological drinking behavior characterised by large intake of fluids by mouth, usually due to excessive thirst that is relatively prolonged.\" [NBO:GVG]"
+          "val" : "A pathological drinking behavior characterised by large intake of fluids by mouth, usually due to excessive thirst that is relatively prolonged."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11204,7 +11217,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A pathological drinking behavior characterised by an excessive relative temporal desire to drink.\" [NBO:GVG]"
+          "val" : "A pathological drinking behavior characterised by an excessive relative temporal desire to drink."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11229,7 +11242,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A pathological feeding behavior characterised by failure to eat.\" [NBO:GVG]"
+          "val" : "A pathological feeding behavior characterised by failure to eat."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11274,7 +11287,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A pathological eating behavior characterised by an abnormally large intake of food by mouth, usually due to excessive hunger that is relatively prolonged.\" [NBO:GVG]"
+          "val" : "A pathological eating behavior characterised by an abnormally large intake of food by mouth, usually due to excessive hunger that is relatively prolonged."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -11303,7 +11316,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Lack of ability to enjoy a sense of pleasure.\" [NBO:GVG]"
+          "val" : "Lack of ability to enjoy a sense of pleasure."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11325,7 +11338,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behaviour related to the male activity which primary purpose is the sexual reproduction.\" [NBO:GVG]"
+          "val" : "Behaviour related to the male activity which primary purpose is the sexual reproduction."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11344,7 +11357,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behaviour related to the female activity which primary purpose is the sexual reproduction.\" [NBO:GVG]"
+          "val" : "Behaviour related to the female activity which primary purpose is the sexual reproduction."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11401,7 +11414,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A visual object recognition that lasts hours to months and critically depends on a transfer of the information from short term object recognition memory using repeated rehearsals.\" [NBO:GVG]"
+          "val" : "A visual object recognition that lasts hours to months and critically depends on a transfer of the information from short term object recognition memory using repeated rehearsals."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11522,7 +11535,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the activity in which a mother cleans or maintains the body or the appearance of her offsprings.\" [NBO:GVG]"
+          "val" : "Behavior related to the activity in which a mother cleans or maintains the body or the appearance of her offsprings."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11541,7 +11554,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior relating to the plucking of fur/hair or whiskers/vibrissae.\" [NBO:GVG]"
+          "val" : "Behavior relating to the plucking of fur/hair or whiskers/vibrissae."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11560,7 +11573,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the barbering of other individuals of a cohort.\" [NBO:GVG]"
+          "val" : "Behavior related to the barbering of other individuals of a cohort."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -11589,7 +11602,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the barbering of oneself.\" [NBO:GVG]"
+          "val" : "Behavior related to the barbering of oneself."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11608,7 +11621,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A pathological behavior characterized by muscular rigidity and fixation of posture regardless of external stimuli, as well as decreased sensitivity to pain.\" [wikipedia:Catalepsy]"
+          "val" : "A pathological behavior characterized by muscular rigidity and fixation of posture regardless of external stimuli, as well as decreased sensitivity to pain."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11630,7 +11643,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior that occurs predominantly or only, in individuals that are part of a group.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior that occurs predominantly or only, in individuals that are part of a group."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -11688,7 +11701,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A pathological behavior associated with repetitive or ritualistic movement, posture, or utterance.\" [wikipedia:Stereotypy]"
+          "val" : "A pathological behavior associated with repetitive or ritualistic movement, posture, or utterance."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -11720,7 +11733,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the movement of the body's muscles, tendons, and joints.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the movement of the body's muscles, tendons, and joints."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11739,7 +11752,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Exhibiting abnormal exhaustion due to mental or physical exertion.\" [NBO:GVG]"
+          "val" : "Exhibiting abnormal exhaustion due to mental or physical exertion."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11787,7 +11800,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Movement of the head in multiple directions.\" [NBO:GVG]"
+          "val" : "Movement of the head in multiple directions."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11892,7 +11905,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A reflex that elucidates a characteristic ear twitch in response to an auditory stimulus.\" [NBO:GVG]"
+          "val" : "A reflex that elucidates a characteristic ear twitch in response to an auditory stimulus."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -11915,7 +11928,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A reflex that maintains body position and equilibrium either during rest or during movement.\" [NBO:GVG]"
+          "val" : "A reflex that maintains body position and equilibrium either during rest or during movement."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -11934,7 +11947,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A reflex process in which an animal immediately tries to turn over after being placed in a supine position.\" [NBO:GVG]"
+          "val" : "A reflex process in which an animal immediately tries to turn over after being placed in a supine position."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -11957,7 +11970,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A pathological behavior characterised by pronounced startle responses to tactile or acoustic stimuli and hypertonia.\" [wikipedia:Hyperekplexia]"
+          "val" : "A pathological behavior characterised by pronounced startle responses to tactile or acoustic stimuli and hypertonia."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12002,7 +12015,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A reflex which results from activation of afferents from the vestibular organs and uses neck movements to stabilize the head position in space.\" [JAX:]"
+          "val" : "A reflex which results from activation of afferents from the vestibular organs and uses neck movements to stabilize the head position in space."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -12025,7 +12038,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A reflex that originates with vestibular stimulation and control body posture.\" [NBO:GVG]"
+          "val" : "A reflex that originates with vestibular stimulation and control body posture."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12067,7 +12080,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A mouse reflex that elicidated the clasping of front and/or hind feet almost immediately upon being lifted by tail.\" [EUROPHENOME:]"
+          "val" : "A mouse reflex that elicidated the clasping of front and/or hind feet almost immediately upon being lifted by tail."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -12096,7 +12109,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A form of tetanic spasm in which the head and feet are drawn forward and the spine arches backward.\" [JAX:]"
+          "val" : "A form of tetanic spasm in which the head and feet are drawn forward and the spine arches backward."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12118,7 +12131,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A form of tetanic spasm in which the head, neck and spine are bent backward and the body is bowed forward.\" [JAX:]"
+          "val" : "A form of tetanic spasm in which the head, neck and spine are bent backward and the body is bowed forward."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12143,7 +12156,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A sudden, involuntary contraction of a muscle or group of muscles associated with strychnine poisoning and tetanus.\" [NBO:GVG]"
+          "val" : "A sudden, involuntary contraction of a muscle or group of muscles associated with strychnine poisoning and tetanus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12162,7 +12175,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A sudden, involuntary contraction of a muscle or group of muscles.\" [NBO:GVG]"
+          "val" : "A sudden, involuntary contraction of a muscle or group of muscles."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12181,7 +12194,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An involuntary rhythmical, oscillatory movement of a body part.\" [NBO:GVG]"
+          "val" : "An involuntary rhythmical, oscillatory movement of a body part."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -12216,7 +12229,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Inability to coordinate voluntary muscular movements.\" [NBO:GVG]"
+          "val" : "Inability to coordinate voluntary muscular movements."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12241,7 +12254,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the coordination of combinations of body movements created with the kinematic (such as spatial direction) and kinetic (force) parameters that result in intended actions.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the coordination of combinations of body movements created with the kinematic (such as spatial direction) and kinetic (force) parameters that result in intended actions."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12260,7 +12273,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Lack of coordination of movement typified by the undershoot or overshoot of intended position with the hand, arm, leg, or eye.\" [wikipedia:Dysmetria]"
+          "val" : "Lack of coordination of movement typified by the undershoot or overshoot of intended position with the hand, arm, leg, or eye."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12282,7 +12295,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Overshooting the intended position.\" [wikipedia:Dysmetria]"
+          "val" : "Overshooting the intended position."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12301,7 +12314,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Undershooting the intended position.\" [wikipedia:Dysmetria]"
+          "val" : "Undershooting the intended position."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12320,7 +12333,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related with the Intentionally or habitually assumed arrangement of the body and its limbs.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related with the Intentionally or habitually assumed arrangement of the body and its limbs."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12361,7 +12374,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Loss of power of voluntary movement in the muscles of the hindlimb through injury or disease of it or its nerve supply.\" [JAX:]"
+          "val" : "Loss of power of voluntary movement in the muscles of the hindlimb through injury or disease of it or its nerve supply."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12383,7 +12396,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A locomotory disorder in which sustained muscle contractions cause twisting and repetitive movements or abnormal postures.\" [wikipedia:Dystonia]"
+          "val" : "A locomotory disorder in which sustained muscle contractions cause twisting and repetitive movements or abnormal postures."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12408,7 +12421,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of memory that allows one to store and manage information about one's environment and its spatial orientation lasting hours to months.\" [NBO:GVG]"
+          "val" : "A type of memory that allows one to store and manage information about one's environment and its spatial orientation lasting hours to months."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12446,7 +12459,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the complex psychophysiological experience of an individual's state of mind as interacting with biochemical (internal) and environmental (external) influences.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the complex psychophysiological experience of an individual's state of mind as interacting with biochemical (internal) and environmental (external) influences."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12494,7 +12507,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A belief that is either mistaken or not substantiated that is held with vehemence.\" [wikipedia:Delusion]"
+          "val" : "A belief that is either mistaken or not substantiated that is held with vehemence."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12554,7 +12567,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Loss of information already encoded and stored in an individual's long term memory.\" [wikipedia:Forgetting]"
+          "val" : "Loss of information already encoded and stored in an individual's long term memory."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -12583,7 +12596,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behaviour related to cognitive processes.\" [NBO:JH]"
+          "val" : "Behaviour related to cognitive processes."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12602,7 +12615,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Perception in the absence of a stimulus.\" [wikipedia:Hallucination]"
+          "val" : "Perception in the absence of a stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12624,7 +12637,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A form of hallucination that involves perceiving images without visual stimulus.\" [NBO:GVG]"
+          "val" : "A form of hallucination that involves perceiving images without visual stimulus."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -12672,7 +12685,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A form of hallucination that involves perceiving odors without odor stimulus.\" [NBO:GVG]"
+          "val" : "A form of hallucination that involves perceiving odors without odor stimulus."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -12695,7 +12708,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A social behavior related to the activity of conveying information.\" [wikipedia:Communication]"
+          "val" : "A social behavior related to the activity of conveying information."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -12820,7 +12833,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The behavior in which an organism sheds tears, often accompanied by non-verbal vocalizations and in response to external or internal stimuli.\" [NBO:GVG]"
+          "val" : "The behavior in which an organism sheds tears, often accompanied by non-verbal vocalizations and in response to external or internal stimuli."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -12846,7 +12859,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior stemming from understanding of a specific cause and effect in a specific context.\" [wikipedia:Insight]"
+          "val" : "Behavior stemming from understanding of a specific cause and effect in a specific context."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12865,7 +12878,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An emotional behavior that arises from the perceived resistance to the fulfillment of individual will.\" [wikipedia:Frustration]"
+          "val" : "An emotional behavior that arises from the perceived resistance to the fulfillment of individual will."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12928,7 +12941,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Stereotypic behavior characterised by a tendency to repeat vocalizations.\" [NBO:GVG]"
+          "val" : "Stereotypic behavior characterised by a tendency to repeat vocalizations."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -12950,7 +12963,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Play behavior associated with the manipulation of objects.\" [NBO:GVG]"
+          "val" : "Play behavior associated with the manipulation of objects."
         },
         "comments" : [ "Object play is important in developing skills important in adulthood, especially hunting." ],
         "basicPropertyValues" : [ {
@@ -13013,7 +13026,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Play behavior that is associated with the pursuit of an individual.\" [NBO:GVG]"
+          "val" : "Play behavior that is associated with the pursuit of an individual."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -13032,7 +13045,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Play behavior associated with the exhibition of parenting behavior by non-parents.\" [NBO:GVG]"
+          "val" : "Play behavior associated with the exhibition of parenting behavior by non-parents."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -13113,7 +13126,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Aggressive behavior related to the defence of a fixed area against intruders, typically conspecifics.\" [GOC:hjd]"
+          "val" : "Aggressive behavior related to the defence of a fixed area against intruders, typically conspecifics."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13177,7 +13190,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the activity seen in animals exposed to potential danger in which they exhibit the tendency to act defensively.\" [NBO:SD]"
+          "val" : "Behavior related to the activity seen in animals exposed to potential danger in which they exhibit the tendency to act defensively."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13203,7 +13216,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The actions or reactions of a male, for the purpose of attracting a sexual partner.\" [GOC:bf]"
+          "val" : "The actions or reactions of a male, for the purpose of attracting a sexual partner."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13229,7 +13242,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The actions or reactions of a female, for the purpose of attracting a sexual partner.\" [GOC:bf]"
+          "val" : "The actions or reactions of a female, for the purpose of attracting a sexual partner."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13255,7 +13268,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process which modulates the physical craving for water over long term water deprivation.\" [NBO:GVG]"
+          "val" : "Any process which modulates the physical craving for water over long term water deprivation."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -13274,7 +13287,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process which modulates the physical craving for water over short term water deprivation.\" [NBO:GVG]"
+          "val" : "Any process which modulates the physical craving for water over short term water deprivation."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -13309,7 +13322,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Two or more unprovoked recurrent seizures.\" [NBO:GVG]"
+          "val" : "Two or more unprovoked recurrent seizures."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13335,7 +13348,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to movements that occur independent of planning.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to movements that occur independent of planning."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -13354,7 +13367,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to movements executed with intent.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to movements executed with intent."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -13373,7 +13386,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A rapid and repeated body muscle contract that results in an uncontrolled shaking of the body.\" [NBO:GVG]"
+          "val" : "A rapid and repeated body muscle contract that results in an uncontrolled shaking of the body."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13520,7 +13533,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A simple partial seizure affecting the kinesthetic behavior.\" [NBO:GVG]"
+          "val" : "A simple partial seizure affecting the kinesthetic behavior."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -13549,7 +13562,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A simple partial seizure affecting any of the five senses -- vision, touch, smell, taste, and hearing.\" [NBO:GVG]"
+          "val" : "A simple partial seizure affecting any of the five senses -- vision, touch, smell, taste, and hearing."
         },
         "comments" : [ "Some simple partial seizures consist of a sensory experience. The person may see lights, hear a buzzing sound, or feel tingling or numbness in a part of the body." ],
         "synonyms" : [ {
@@ -13576,7 +13589,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A simple partial seizure affecting the part of the nervous system that automatically controls bodily functions.\" [NBO:GVG]"
+          "val" : "A simple partial seizure affecting the part of the nervous system that automatically controls bodily functions."
         },
         "comments" : [ "These seizures are accompanied by autonomic symptoms or signs, such as abdominal discomfort or nausea which may rise into the throat (epigastric rising), stomach pain, the rumbling sounds of gas moving in the intestines (borborygmi), belching, flatulence and vomiting. Other symptoms may include pallor, flushing, sweating, hair standing on end (piloerection), dilation of the pupils, alterations in heart rate and respiration, and urination. A few people may experience sexual arousal, penile erection, and orgasm." ],
         "synonyms" : [ {
@@ -13603,7 +13616,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A simple partial seizure affecting the emotional behavior.\" [NBO:GVG]"
+          "val" : "A simple partial seizure affecting the emotional behavior."
         },
         "comments" : [ "Simple partial seizures which arise in or near the temporal lobes often take the form of an odd experience. One may see or hear things that are not there. One feels emotions, often fear, but sometimes sadness, anger, or joy. There may be a bad smell or a bad taste, a funny feeling in the pit of the stomach or a choking sensation." ],
         "synonyms" : [ {
@@ -13633,7 +13646,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related any of the five senses -- vision, touch, smell, taste, and hearing.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related any of the five senses -- vision, touch, smell, taste, and hearing."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -13652,7 +13665,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A phenotype manifested by a behavior related to the sensations arising from the skin and from the muscles, tendons, and joints.\" [NBO:GVG]"
+          "val" : "A phenotype manifested by a behavior related to the sensations arising from the skin and from the muscles, tendons, and joints."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -13687,7 +13700,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the actions or reactions of an organism in response to a sound.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the actions or reactions of an organism in response to a sound."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -13706,7 +13719,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A phenotype manifested by a behavior related to the actions or reactions of an organism in response to a visual stimulus.\" [NBO:GVG]"
+          "val" : "A phenotype manifested by a behavior related to the actions or reactions of an organism in response to a visual stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -13725,7 +13738,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the sensation of chemicals.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the sensation of chemicals."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -13744,7 +13757,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the sensation of odors.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the sensation of odors."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -13763,7 +13776,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A seizure which affect the whole of the brain at onset.\" [NBO:GVG]"
+          "val" : "A seizure which affect the whole of the brain at onset."
         },
         "comments" : [ "Primary generalized seizures begin with a widespread electrical discharge that involves both sides of the brain at once." ],
         "synonyms" : [ {
@@ -13950,7 +13963,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure that is characterised by a very brief symmetric alternating contraction and relaxation of a muscle or a group of muscles.\" [NBO:GVG]"
+          "val" : "A type of seizure that is characterised by a very brief symmetric alternating contraction and relaxation of a muscle or a group of muscles."
         },
         "comments" : [ "Symmetric jerking of the extremities." ],
         "synonyms" : [ {
@@ -13983,7 +13996,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure that is characterised by rhythmic symmetric alternating contraction and relaxation of a muscle or a group of muscles.\" [NBO:GVG]"
+          "val" : "A type of seizure that is characterised by rhythmic symmetric alternating contraction and relaxation of a muscle or a group of muscles."
         },
         "comments" : [ "Rapid, repetitive motor activity." ],
         "basicPropertyValues" : [ {
@@ -14006,7 +14019,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of epilepsy characterised by myoclonic seizures usually involving the neck, shoulders, and upper arms.\" [NBO:GVG]"
+          "val" : "A type of epilepsy characterised by myoclonic seizures usually involving the neck, shoulders, and upper arms."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -14029,7 +14042,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of epilepsy characterised by multiple different types of seizures, particularly including tonic (stiffening) and atonic (drop) types of seizures.\" [NBO:GVG]"
+          "val" : "A type of epilepsy characterised by multiple different types of seizures, particularly including tonic (stiffening) and atonic (drop) types of seizures."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14048,7 +14061,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure generated by sudden sensor stimulation caused by the environment.\" [NBO:GVG]"
+          "val" : "A type of seizure generated by sudden sensor stimulation caused by the environment."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -14077,7 +14090,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of generalized seizure characterised by a combination of tonic stiffening (extensions) followed by clonic flexion motions.\" [NBO:GVG]"
+          "val" : "A type of generalized seizure characterised by a combination of tonic stiffening (extensions) followed by clonic flexion motions."
         },
         "comments" : [ "The seizures are divided into two phases, the tonic phase and the clonic phase, hence the name of the seizure, though a tonic clonic seizure will often be preceded by an aura." ],
         "synonyms" : [ {
@@ -14110,7 +14123,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure characterised by muscle rigidity.\" [NBO:GVG]"
+          "val" : "A type of seizure characterised by muscle rigidity."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14356,7 +14369,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of epilepsy that is characterised by myoclonic seizures.\" [NBO:GVG]"
+          "val" : "A type of epilepsy that is characterised by myoclonic seizures."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14540,7 +14553,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of epilepsy characterised by seizure, usually tonic clonic, that occur only during sleep.\" [NBO:GVG]"
+          "val" : "A type of epilepsy characterised by seizure, usually tonic clonic, that occur only during sleep."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14582,7 +14595,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by exposure to an auditory stimulus.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by exposure to an auditory stimulus."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -14611,7 +14624,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An absence seizure induced by hyperventilation.\" [NBO:GVG]"
+          "val" : "An absence seizure induced by hyperventilation."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14630,7 +14643,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An absence seizure not induced by hyperventilation.\" [NBO:GVG]"
+          "val" : "An absence seizure not induced by hyperventilation."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14652,7 +14665,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A generalized seizure that was initiated as a partial seizure.\" [NBO:GVG]"
+          "val" : "A generalized seizure that was initiated as a partial seizure."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14674,7 +14687,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A generalized seizure that was initiated as a partial seizure but very rapidly spread to both hemispheres.\" [NBO:GVG]"
+          "val" : "A generalized seizure that was initiated as a partial seizure but very rapidly spread to both hemispheres."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14693,7 +14706,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Purposeless repetitive motor activities that often occur during a seizure.\" [NBO:GVG]"
+          "val" : "Purposeless repetitive motor activities that often occur during a seizure."
         },
         "comments" : [ "Automatisms may occur during complex partial or absence seizures." ],
         "basicPropertyValues" : [ {
@@ -14713,7 +14726,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An automatism characterised by involuntary oral activity such as lip smacking and swallowing.\" [NBO:GVG]"
+          "val" : "An automatism characterised by involuntary oral activity such as lip smacking and swallowing."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14732,7 +14745,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An automatism characterised by involuntary movement of the limbs or body such as  fumbling, picking and rubbing.\" [NBO:GVG]"
+          "val" : "An automatism characterised by involuntary movement of the limbs or body such as  fumbling, picking and rubbing."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14751,7 +14764,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An automatism characterised by stereotyped series of motor actions usually involving the limbs bilaterally such as swimming \\nmovements, kicking movements and bicycling movements.\" [NBO:GVG]"
+          "val" : "An automatism characterised by stereotyped series of motor actions usually involving the limbs bilaterally such as swimming \\nmovements, kicking movements and bicycling movements."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14770,7 +14783,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by the administration of a drug.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by the administration of a drug."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14789,7 +14802,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by accidental or intentional ingestion or application of a drug in quantities greater than recommended.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by accidental or intentional ingestion or application of a drug in quantities greater than recommended."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14808,7 +14821,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by termination of drug administration.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by termination of drug administration."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14827,7 +14840,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by lower than normal level of blood glucose levels.\" [GVG:NBO]"
+          "val" : "A type of seizure induced by lower than normal level of blood glucose levels."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14849,7 +14862,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by the administration of cocaine.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by the administration of cocaine."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14868,7 +14881,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by the administration of isoniazide.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by the administration of isoniazide."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14887,7 +14900,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by the administration of amphetamine.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by the administration of amphetamine."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14906,7 +14919,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by the administration of antidepressant.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by the administration of antidepressant."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14925,7 +14938,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by the administration of theophylline.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by the administration of theophylline."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14944,7 +14957,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by the administration of penicillin.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by the administration of penicillin."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14963,7 +14976,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by termination of alcohol administration.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by termination of alcohol administration."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -14982,7 +14995,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by termination of benzodiazepine administration.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by termination of benzodiazepine administration."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15001,7 +15014,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by termination of barbiturates administration.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by termination of barbiturates administration."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15020,7 +15033,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by termination of heroin administration.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by termination of heroin administration."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15039,7 +15052,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by lower than normal level of blood magnesium levels.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by lower than normal level of blood magnesium levels."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15058,7 +15071,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by exposure to an electrical stimulus.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by exposure to an electrical stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15077,7 +15090,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by the administration of a brain trauma.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by the administration of a brain trauma."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15096,7 +15109,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by kindling, a repeated administration of seizure invoking stimulus which eventually results changes in the brain.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by kindling, a repeated administration of seizure invoking stimulus which eventually results changes in the brain."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15115,7 +15128,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by kindling, a repeated administration of electrical stimulus which eventually results changes in the brain.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by kindling, a repeated administration of electrical stimulus which eventually results changes in the brain."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15134,7 +15147,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by kindling, a repeated administration of chemical stimulus which eventually results changes in the brain.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by kindling, a repeated administration of chemical stimulus which eventually results changes in the brain."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15153,7 +15166,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by kindling, a repeated administration of auditory stimulus which eventually results changes in the brain.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by kindling, a repeated administration of auditory stimulus which eventually results changes in the brain."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15172,7 +15185,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A simple partial seizure affecting the kinesthetic behavior of one side of the body.\" [NBO:GVG]"
+          "val" : "A simple partial seizure affecting the kinesthetic behavior of one side of the body."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -15198,7 +15211,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A simple partial seizure affecting the kinesthetic behavior of left side of the body.\" [NBO:GVG]"
+          "val" : "A simple partial seizure affecting the kinesthetic behavior of left side of the body."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15217,7 +15230,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A simple partial seizure affecting the kinesthetic behavior of right side of the body.\" [NBO:GVG]"
+          "val" : "A simple partial seizure affecting the kinesthetic behavior of right side of the body."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15236,7 +15249,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of epileptic seizures occurring in infants and characterised by clusters of myoclonic spasms.\" [NBO:GVG]"
+          "val" : "A type of epileptic seizures occurring in infants and characterised by clusters of myoclonic spasms."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -15283,7 +15296,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by lower than normal level of blood calcium levels.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by lower than normal level of blood calcium levels."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15305,7 +15318,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A generalized tonic clonic seizure that was initiated as a partial seizure.\" [NBO:GVG]"
+          "val" : "A generalized tonic clonic seizure that was initiated as a partial seizure."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15327,7 +15340,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of seizure induced by exposure to a light stimulus.\" [NBO:GVG]"
+          "val" : "A type of seizure induced by exposure to a light stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15349,7 +15362,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A type of epilepsy that is characterised a sudden burst of energy, usually in the form of laughing.\" [NBO:GVG]"
+          "val" : "A type of epilepsy that is characterised a sudden burst of energy, usually in the form of laughing."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -15433,7 +15446,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Agressive behavior towards oneself.\" [NBO:GVG]"
+          "val" : "Agressive behavior towards oneself."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15452,7 +15465,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"An aggressive behavior towards other members of the society.\" [NBO:RH]"
+          "val" : "An aggressive behavior towards other members of the society."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15487,7 +15500,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A social behavior related to the activity of conveying information by means of a system of arbitrary signals, such as voice sounds, gestures, or written symbols.\" [NBO:GVG]"
+          "val" : "A social behavior related to the activity of conveying information by means of a system of arbitrary signals, such as voice sounds, gestures, or written symbols."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15621,7 +15634,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to all sleep stages in the circadian sleep/wake cycle other than REM sleep.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to all sleep stages in the circadian sleep/wake cycle other than REM sleep."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15640,7 +15653,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the stage in the circadian sleep cycle during which dreams occur and the body undergoes marked changes including rapid eye movement, loss of reflexes, and increased pulse rate and brain activity.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the stage in the circadian sleep cycle during which dreams occur and the body undergoes marked changes including rapid eye movement, loss of reflexes, and increased pulse rate and brain activity."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15659,7 +15672,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the actions or interactions of an organism that are associated with reproduction.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the actions or interactions of an organism that are associated with reproduction."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15678,7 +15691,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the interactions between organisms for the purpose of mating.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the interactions between organisms for the purpose of mating."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15697,7 +15710,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the specific actions or reactions of an organism following mating.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the specific actions or reactions of an organism following mating."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15716,7 +15729,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the activity which primary purpose is the sexual reproduction.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the activity which primary purpose is the sexual reproduction."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15735,7 +15748,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic related to the behavioral interactions between organisms for the purpose of attracting sexual partners.\" [NBO:GVG]"
+          "val" : "Observable characteristic related to the behavioral interactions between organisms for the purpose of attracting sexual partners."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15754,7 +15767,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the actions or reactions of a female, for the purpose of attracting a sexual partner.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the actions or reactions of a female, for the purpose of attracting a sexual partner."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15773,7 +15786,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the actions or reactions of a male, for the purpose of attracting a sexual partner.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the actions or reactions of a male, for the purpose of attracting a sexual partner."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15792,7 +15805,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the act of sexual union between male and female, involving the transfer of sperm.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the act of sexual union between male and female, involving the transfer of sperm."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15811,7 +15824,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the female activity which primary purpose is the sexual reproduction.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the female activity which primary purpose is the sexual reproduction."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15830,7 +15843,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behavior related to the male activity which primary purpose is the sexual reproduction.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behavior related to the male activity which primary purpose is the sexual reproduction."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15849,7 +15862,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behaviour related to the acquisition and processing of information and/or the storage and retrieval of this information over time.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behaviour related to the acquisition and processing of information and/or the storage and retrieval of this information over time."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15868,7 +15881,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behaviour associated with any process in an organism in which a relatively long-lasting adaptive behavioral change occurs as the result of experience.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behaviour associated with any process in an organism in which a relatively long-lasting adaptive behavioral change occurs as the result of experience."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15887,7 +15900,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behaviour related to the ability of an organism's ability to store, retain, and recall information and experiences.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behaviour related to the ability of an organism's ability to store, retain, and recall information and experiences."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15922,7 +15935,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behaviour related to the elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behaviour related to the elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15941,7 +15954,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behaviour related to the expulsion of feces from the rectum.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behaviour related to the expulsion of feces from the rectum."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -15960,7 +15973,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behaviour related to the regulation of body fluids process by which parasympathetic nerves stimulate the bladder wall muscle to contract and expel urine from the body.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behaviour related to the regulation of body fluids process by which parasympathetic nerves stimulate the bladder wall muscle to contract and expel urine from the body."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -16011,7 +16024,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behaviour related to the regulated release of the aqueous layer of the tear film from the lacrimal glands.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behaviour related to the regulated release of the aqueous layer of the tear film from the lacrimal glands."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -16030,7 +16043,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behaviour in which an organism sheds tears, often accompanied by non-verbal vocalizations and in response to external or internal stimuli.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behaviour in which an organism sheds tears, often accompanied by non-verbal vocalizations and in response to external or internal stimuli."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -16049,7 +16062,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behaviour associated with signals made by the mobbing species while harassing a predator.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behaviour associated with signals made by the mobbing species while harassing a predator."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -16068,7 +16081,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Observable characteristic of behaviour in which an organism produces sounds by a mechanism involving its respiratory system.\" [NBO:GVG]"
+          "val" : "Observable characteristic of behaviour in which an organism produces sounds by a mechanism involving its respiratory system."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/date",
@@ -16129,7 +16142,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior as a result of an electromagnetic radiation stimulus.\" [NBO:GVG]"
+          "val" : "Behavior as a result of an electromagnetic radiation stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16142,7 +16155,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light.\" [NBO:GVG]"
+          "val" : "Behavior as a result of a light stimulus, electromagnetic radiation of wavelengths classified as infrared, visible or ultraviolet light."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16155,7 +16168,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior as a result of a chemical stimulus.\" [NBO:GVG]"
+          "val" : "Behavior as a result of a chemical stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16168,7 +16181,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior as a result of a xenobiotic compound (compound foreign to living organisms) stimulus.\" [NBOC:GVG]"
+          "val" : "Behavior as a result of a xenobiotic compound (compound foreign to living organisms) stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16181,7 +16194,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior as a result of sensitivity to an addictive substance intake.\" [NBOC:GVG]"
+          "val" : "Behavior as a result of sensitivity to an addictive substance intake."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16194,7 +16207,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior as a result of sensitivity to cocaine alcohol.\" [NBOC:GVG]"
+          "val" : "Behavior as a result of sensitivity to cocaine alcohol."
         }
       }
     }, {
@@ -16219,7 +16232,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of alcohol consumption, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]"
+          "val" : "Any process that modulates the frequency, rate or extent of alcohol consumption, the specific actions or reactions of an organism in response to external or internal stimuli."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16232,7 +16245,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the intake of substances.\" [NBOC:GVG]"
+          "val" : "Behavior related to the intake of substances."
         },
         "synonyms" : [ {
           "pred" : "hasBroadSynonym",
@@ -16249,7 +16262,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the intake of addictive substances.\" [NBOC:GVG]"
+          "val" : "Behavior related to the intake of addictive substances."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16262,7 +16275,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the intake of cocaine.\" [NBOC:GVG]"
+          "val" : "Behavior related to the intake of cocaine."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16275,7 +16288,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the intake of morphine.\" [NBOC:GVG]"
+          "val" : "Behavior related to the intake of morphine."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16288,7 +16301,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior as a result of sensitivity to cocaine intake.\" [NBOC:GVG]"
+          "val" : "Behavior as a result of sensitivity to cocaine intake."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#xref",
@@ -16301,7 +16314,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior as a result of sensitivity to morphine\" [NBOC:GVG]"
+          "val" : "Behavior as a result of sensitivity to morphine"
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16314,7 +16327,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior as a result of sensitivity to nicotine intake.\" [NBOC:GVG]"
+          "val" : "Behavior as a result of sensitivity to nicotine intake."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16330,7 +16343,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior related to the intake of nicotine.\" [NBOC:GVG]"
+          "val" : "Behavior related to the intake of nicotine."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16343,7 +16356,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of cocaine consumption, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]"
+          "val" : "Any process that modulates the frequency, rate or extent of cocaine consumption, the specific actions or reactions of an organism in response to external or internal stimuli."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16356,7 +16369,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of consumption behavior, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]"
+          "val" : "Any process that modulates the frequency, rate or extent of consumption behavior, the specific actions or reactions of an organism in response to external or internal stimuli."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16369,7 +16382,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of consumption of an addictive substance, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]"
+          "val" : "Any process that modulates the frequency, rate or extent of consumption of an addictive substance, the specific actions or reactions of an organism in response to external or internal stimuli."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16382,7 +16395,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of nicotine consumption, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]"
+          "val" : "Any process that modulates the frequency, rate or extent of nicotine consumption, the specific actions or reactions of an organism in response to external or internal stimuli."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16395,7 +16408,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of morphine consumption, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]"
+          "val" : "Any process that modulates the frequency, rate or extent of morphine consumption, the specific actions or reactions of an organism in response to external or internal stimuli."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16408,7 +16421,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Behavior as a result of sensitivity to an anasthetic intake.\" [NBOC:GVG]"
+          "val" : "Behavior as a result of sensitivity to an anasthetic intake."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16421,7 +16434,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Maternal behavior related to the nursing offspring.\" [NBOC:GVG]"
+          "val" : "Maternal behavior related to the nursing offspring."
         }
       }
     }, {
@@ -16430,7 +16443,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of consumption of food or liquid\" [NBOC:GVG]"
+          "val" : "Any process that modulates the frequency, rate or extent of consumption of food or liquid"
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16443,7 +16456,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of water consumption, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]"
+          "val" : "Any process that modulates the frequency, rate or extent of water consumption, the specific actions or reactions of an organism in response to external or internal stimuli."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16456,7 +16469,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of saccharin consumption, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]"
+          "val" : "Any process that modulates the frequency, rate or extent of saccharin consumption, the specific actions or reactions of an organism in response to external or internal stimuli."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16469,7 +16482,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A pathological drinking behavior characterised by a lack of desire to drink.\" [NBO:GVG]"
+          "val" : "A pathological drinking behavior characterised by a lack of desire to drink."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16485,7 +16498,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Increase in core body termperature in response to stress or anticipatory anxiety.\" [NBOC:GVG]"
+          "val" : "Increase in core body termperature in response to stress or anticipatory anxiety."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16498,7 +16511,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of sexual activity, the specific actions or reactions of an organism in response to external or internal stimuli.\" [NBOC:GVG]"
+          "val" : "Any process that modulates the frequency, rate or extent of sexual activity, the specific actions or reactions of an organism in response to external or internal stimuli."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16511,7 +16524,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A regulation of drinking behavior process associated with the preference over the type of liquids that are consumed. \" [NBO:GVG]"
+          "val" : "A regulation of drinking behavior process associated with the preference over the type of liquids that are consumed. "
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16524,7 +16537,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A regulation of drinking behavior process associated with the preference over alchohol consumption. \" [NBO:GVG]"
+          "val" : "A regulation of drinking behavior process associated with the preference over alchohol consumption. "
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16537,7 +16550,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A regulation of drinking behavior process associated with the preference over the type of food that is consumed. \" [NBO:GVG]"
+          "val" : "A regulation of drinking behavior process associated with the preference over the type of food that is consumed. "
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16550,7 +16563,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A regulation of drinking behavior process associated with the preference over saccharing consumption. \" [NBO:GVG]"
+          "val" : "A regulation of drinking behavior process associated with the preference over saccharing consumption. "
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16563,7 +16576,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A regulation of consumption of an addictive sustance behavior process associated with the preference over the type of addictive sustance that is consumed. \" [NBO:GVG]"
+          "val" : "A regulation of consumption of an addictive sustance behavior process associated with the preference over the type of addictive sustance that is consumed. "
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16576,7 +16589,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A regulation of consumption of an addictive sustance behavior process associated with the preference over cocaine consumption. \" [NBO:GVG]"
+          "val" : "A regulation of consumption of an addictive sustance behavior process associated with the preference over cocaine consumption. "
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16589,7 +16602,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"A regulation of sexual activity process associated with the preference over a males or females.\" [NBO:GVG]"
+          "val" : "A regulation of sexual activity process associated with the preference over a males or females."
         }
       }
     }, {
@@ -16633,7 +16646,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of behavioral response to chemical stimulus.\" [NBOC:GVG]"
+          "val" : "Any process that modulates the frequency, rate or extent of behavioral response to chemical stimulus."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16646,7 +16659,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of behavioral response to chemical stimulus.\" [NBOC:GVG]"
+          "val" : "Any process that modulates the frequency, rate or extent of behavioral response to addictive substance."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16659,7 +16672,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of withdrawal response.\" [NBOC:GVG]"
+          "val" : "Any process that modulates the frequency, rate or extent of withdrawal response."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16681,7 +16694,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"Any process that modulates the frequency, rate or extent of withdrawal response.\" [NBOC:GVG]"
+          "val" : "Any process that modulates the frequency, rate or extent of addiction response."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
@@ -16798,13 +16811,17 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/NBO_0015004",
-      "lbl" : "active foraging behavior",
+      "lbl" : "obsolete active foraging behavior",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Feeding behavior during which a living entity acquires food and energy by actively searching for food resources."
+          "val" : "OBSOLETE. Feeding behavior during which a living entity acquires food and energy by actively searching for food resources."
         },
+        "comments" : [ "A duplicate of NBO:0015003" ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
+          "val" : "http://purl.obolibrary.org/obo/NBO_0015003"
+        }, {
           "pred" : "http://purl.org/dc/elements/1.1/contributor",
           "val" : "http://orcid.org/0000-0002-2908-3327"
         }, {
@@ -16813,7 +16830,8 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "https://orcid.org/0000-0002-7356-1779"
-        } ]
+        } ],
+        "deprecated" : true
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/NBO_0015005",
@@ -16821,7 +16839,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Consumption behavior that involves inhaling a material (such as finely ground tobacco leaves) through the nose."
+          "val" : "Consumption behavior that involves burning a substance and inhaling the particulate and gas suspension emitted."
         },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/contributor",
@@ -17460,6 +17478,9 @@
           "val" : "Alarm behavior triggered by agonistic actions or postures."
         },
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "0000-0002-4277-2151"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
           "val" : "Luke Slater"
         } ]
@@ -18806,10 +18827,6 @@
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000095",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000091"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/NBO_0000096",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NBO_0000094"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000096",
       "pred" : "is_a",
@@ -20480,10 +20497,6 @@
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000027"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000452",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NBO_0000065"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/NBO_0000453",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000065"
     }, {
@@ -22184,10 +22197,6 @@
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000089"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0015003",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NBO_0000079"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/NBO_0015004",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000079"
     }, {

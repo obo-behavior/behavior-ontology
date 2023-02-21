@@ -25,7 +25,9 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 Ontology(<http://purl.obolibrary.org/obo/nbo.owl>
 <http://purl.obolibrary.org/obo/nbo/2018-05-11/nbo.owl>
 Import(<http://purl.obolibrary.org/obo/nbo/imports/merged_import.owl>)
-Annotation(dc:title "Neuro Behaviour Ontology")
+Annotation(terms:title "Neuro Behaviour Ontology")
+Annotation(terms:description "An ontology of human and animal behaviours.")
+Annotation(terms:license <https://creativecommons.org/licenses/by/3.0/>)
 Annotation(oboInOwl:treat-xrefs-as-equivalent "GO")
 
 Declaration(Class(obo:CHEBI_15377))

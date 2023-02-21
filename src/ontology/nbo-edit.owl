@@ -9468,8 +9468,8 @@ SubClassOf(obo:NBO_0020144 obo:NBO_0020188)
 
 # Class: obo:NBO_0020145 (agonistic alarm)
 
-AnnotationAssertion(obo:IAO_0000115 obo:NBO_0020145 "Alarm behavior triggered by agonistic actions or postures"@en)
 AnnotationAssertion(obo:IAO_0000115 obo:NBO_0020145 "Alarm behavior triggered by agonistic actions or postures."@en)
+AnnotationAssertion(dc:contributor obo:NBO_0020145 "0000-0002-4277-2151")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0020145 "Luke Slater")
 AnnotationAssertion(rdfs:label obo:NBO_0020145 "agonistic alarm"@en)
 SubClassOf(obo:NBO_0020145 obo:NBO_0000121)

@@ -2213,7 +2213,7 @@ SubClassOf(obo:NBO_0000112 obo:NBO_0000106)
 
 # Class: obo:NBO_0000113 (aggressive behavior towards animate objects)
 
-AnnotationAssertion(Annotation(dc:contributor "0000-0002-4277-2151") obo:IAO_0000115 obo:NBO_0000113 "\"Exhibiting a domineering, assault posture and/or hostile physical action toward animate objects.\" [NBO:GVG]")
+AnnotationAssertion(Annotation(dc:contributor "https://orcid.org/0000-0002-4277-2151") obo:IAO_0000115 obo:NBO_0000113 "Exhibiting a domineering, assault posture and/or hostile physical action toward animate objects.")
 AnnotationAssertion(dc:date obo:NBO_0000113 "2011-03-31T10:53:59Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000113 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000113 "aggressive behavior towards animate objects")

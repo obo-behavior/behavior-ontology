@@ -9129,7 +9129,7 @@ SubClassOf(obo:NBO_0015004 obo:NBO_0000079)
 
 # Class: obo:NBO_0015005 (smoking behavior)
 
-AnnotationAssertion(obo:IAO_0000115 obo:NBO_0015005 "Consumption behavior that involves inhaling a material (such as finely ground tobacco leaves) through the nose.")
+AnnotationAssertion(Annotation(dc:contributor "0000-0002-4277-2151") Annotation(cito:citesAsAuthority "https://en.wikipedia.org/wiki/Smoking") obo:IAO_0000115 obo:NBO_0015005 "Consumption behavior that involves burning a substance and inhaling the particulate and gas suspension emitted.")
 AnnotationAssertion(dc:contributor obo:NBO_0015005 "http://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(dc:date obo:NBO_0015005 "2019-09-06T10:51:02Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0015005 "https://orcid.org/0000-0002-7356-1779")

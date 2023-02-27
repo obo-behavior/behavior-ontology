@@ -1482,17 +1482,16 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000037 "behavior_ontology"
 AnnotationAssertion(rdfs:label obo:NBO_0000037 "vocalization behavior")
 SubClassOf(obo:NBO_0000037 obo:NBO_0000036)
 
-# Class: obo:NBO_0000038 (behavioral control of excretion)
+# Class: obo:NBO_0000038 (obsolete behavioral control of excretion)
 
-AnnotationAssertion(Annotation(oboInOwl:source "wikipedia:Excretion") obo:IAO_0000115 obo:NBO_0000038 "The elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds.")
+AnnotationAssertion(Annotation(oboInOwl:source "wikipedia:Excretion") obo:IAO_0000115 obo:NBO_0000038 "OBSOLETE. The elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds.")
 AnnotationAssertion(dc:date obo:NBO_0000038 "2011-04-14T01:03:39Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000038 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000038 "behavior_ontology")
 AnnotationAssertion(oboInOwl:xref obo:NBO_0000038 "GO:0007588")
-AnnotationAssertion(rdfs:label obo:NBO_0000038 "behavioral control of excretion")
-EquivalentClasses(obo:NBO_0000038 ObjectIntersectionOf(obo:NBO_0000035 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#is_about> obo:GO_0007588)))
-SubClassOf(obo:NBO_0000038 obo:NBO_0000035)
-SubClassOf(obo:NBO_0000038 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#is_about> obo:GO_0007588))
+AnnotationAssertion(rdfs:comment obo:NBO_0000038 "GO is obsoleting the term.")
+AnnotationAssertion(rdfs:label obo:NBO_0000038 "obsolete behavioral control of excretion")
+AnnotationAssertion(owl:deprecated obo:NBO_0000038 "true"^^xsd:boolean)
 
 # Class: obo:NBO_0000039 (behavioral control of defecation)
 

@@ -8590,6 +8590,7 @@ AnnotationAssertion(dc:date obo:NBO_0000769 "2012-03-19T03:46:55Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000769 "gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000769 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000769 "behavioral control of excretion phenotype")
+EquivalentClasses(obo:NBO_0000769 ObjectSomeValuesFrom(obo:BFO_0000056 ObjectIntersectionOf(obo:NBO_0000038 ObjectSomeValuesFrom(obo:RO_0000086 obo:PATO_0000001))))
 SubClassOf(obo:NBO_0000769 obo:NBO_0000768)
 
 # Class: obo:NBO_0000770 (behavioral control of defecation phenotype)

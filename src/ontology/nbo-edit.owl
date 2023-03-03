@@ -1507,7 +1507,8 @@ SubClassOf(obo:NBO_0000039 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/
 
 # Class: obo:NBO_0000040 (behavioral control of urination)
 
-AnnotationAssertion(Annotation(oboInOwl:source "wikipedia:urination") obo:IAO_0000115 obo:NBO_0000040 "The regulation of body fluids process by which parasympathetic nerves stimulate the bladder wall muscle to contract and expel urine from the body.")
+AnnotationAssertion(Annotation(oboInOwl:source "wikipedia:urination") obo:IAO_0000115 obo:NBO_0000040 "Excretion behaviour that controls liquid waste expulsion.")
+AnnotationAssertion(dc:contributor obo:NBO_0000040 "https://orcid.org/0000-0002-4277-2151")
 AnnotationAssertion(dc:date obo:NBO_0000040 "2011-04-14T01:03:39Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000040 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000040 "micturition")
@@ -1515,9 +1516,8 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000040 "urinate"@en)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000040 "behavior_ontology")
 AnnotationAssertion(oboInOwl:xref obo:NBO_0000040 "GO:0060073")
 AnnotationAssertion(rdfs:label obo:NBO_0000040 "behavioral control of urination")
-EquivalentClasses(obo:NBO_0000040 ObjectIntersectionOf(obo:NBO_0000038 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#by_means> obo:UBERON_0001256) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#is_about> obo:GO_0060073)))
+EquivalentClasses(obo:NBO_0000040 ObjectIntersectionOf(obo:NBO_0000038 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#is_about> obo:GO_0060073)))
 SubClassOf(obo:NBO_0000040 obo:NBO_0000038)
-SubClassOf(obo:NBO_0000040 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#by_means> obo:UBERON_0001256))
 SubClassOf(obo:NBO_0000040 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#is_about> obo:GO_0060073))
 
 # Class: obo:NBO_0000041 (behavioral control of external secretion)

@@ -1490,9 +1490,7 @@ AnnotationAssertion(oboInOwl:created_by obo:NBO_0000038 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000038 "behavior_ontology")
 AnnotationAssertion(oboInOwl:xref obo:NBO_0000038 "GO:0007588")
 AnnotationAssertion(rdfs:label obo:NBO_0000038 "behavioral control of excretion")
-EquivalentClasses(obo:NBO_0000038 ObjectIntersectionOf(obo:NBO_0000035 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#is_about> obo:GO_0007588)))
 SubClassOf(obo:NBO_0000038 obo:NBO_0000035)
-SubClassOf(obo:NBO_0000038 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#is_about> obo:GO_0007588))
 
 # Class: obo:NBO_0000039 (behavioral control of defecation)
 

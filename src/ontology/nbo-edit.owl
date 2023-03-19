@@ -1508,7 +1508,7 @@ SubClassOf(obo:NBO_0000039 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/
 # Class: obo:NBO_0000040 (behavioral control of urination)
 
 AnnotationAssertion(Annotation(oboInOwl:source "wikipedia:urination") obo:IAO_0000115 obo:NBO_0000040 "Excretion behaviour that controls liquid waste expulsion.")
-AnnotationAssertion(dc:contributor obo:NBO_0000040 "https://orcid.org/0000-0002-4277-2151")
+AnnotationAssertion(dc:contributor obo:NBO_0000040 <https://orcid.org/0000-0002-4277-2151>)
 AnnotationAssertion(dc:date obo:NBO_0000040 "2011-04-14T01:03:39Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000040 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000040 "micturition")

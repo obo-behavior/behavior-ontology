@@ -25,9 +25,9 @@ Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
 Ontology(<http://purl.obolibrary.org/obo/nbo.owl>
 <http://purl.obolibrary.org/obo/nbo/2018-05-11/nbo.owl>
 Import(<http://purl.obolibrary.org/obo/nbo/imports/merged_import.owl>)
-Annotation(terms:title "Neuro Behaviour Ontology")
 Annotation(terms:description "An ontology of human and animal behaviours.")
 Annotation(terms:license <https://creativecommons.org/licenses/by/3.0/>)
+Annotation(terms:title "Neuro Behaviour Ontology")
 Annotation(oboInOwl:treat-xrefs-as-equivalent "GO")
 
 Declaration(Class(obo:CHEBI_15377))
@@ -1017,6 +1017,7 @@ Declaration(Class(obo:NBO_0045007))
 Declaration(Class(obo:NBO_0050000))
 Declaration(Class(obo:NBO_0050001))
 Declaration(Class(obo:NBO_0050002))
+Declaration(Class(obo:NBO_0070000))
 Declaration(Class(obo:PATO_0000001))
 Declaration(Class(obo:PATO_0000014))
 Declaration(Class(obo:PATO_0000040))
@@ -1060,7 +1061,10 @@ Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:IAO_0100001))
 Declaration(AnnotationProperty(:synonymtype))
 Declaration(AnnotationProperty(dc:contributor))
+Declaration(AnnotationProperty(dc:creator))
 Declaration(AnnotationProperty(dc:date))
+Declaration(AnnotationProperty(terms:description))
+Declaration(AnnotationProperty(terms:title))
 Declaration(AnnotationProperty(oboInOwl:created_by))
 Declaration(AnnotationProperty(oboInOwl:hasAlternativeId))
 Declaration(AnnotationProperty(oboInOwl:hasBroadSynonym))
@@ -9034,7 +9038,7 @@ SubClassOf(obo:NBO_0003047 obo:NBO_0001786)
 
 # Class: obo:NBO_0003104 (regulation of behavioral response to addictive substance)
 
-AnnotationAssertion(Annotation(oboInOwl:source "NBOC:GVG") Annotation(dc:contributor "https://orcid.org/0000-0002-4277-2151") obo:IAO_0000115 obo:NBO_0003104 "Any process that modulates the frequency, rate or extent of behavioral response to addictive substance.")
+AnnotationAssertion(Annotation(dc:contributor "https://orcid.org/0000-0002-4277-2151") Annotation(oboInOwl:source "NBOC:GVG") obo:IAO_0000115 obo:NBO_0003104 "Any process that modulates the frequency, rate or extent of behavioral response to addictive substance.")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0003104 "George Gkoutos")
 AnnotationAssertion(rdfs:label obo:NBO_0003104 "regulation of behavioral response to addictive substance"@en)
 EquivalentClasses(obo:NBO_0003104 ObjectSomeValuesFrom(obo:RO_0002211 obo:NBO_0001728))
@@ -9057,7 +9061,7 @@ SubClassOf(obo:NBO_0003161 obo:NBO_0002234)
 
 # Class: obo:NBO_0003194 (regulation of addiction response)
 
-AnnotationAssertion(Annotation(oboInOwl:source "NBOC:GVG") Annotation(dc:contributor "https://orcid.org/0000-0002-4277-2151") obo:IAO_0000115 obo:NBO_0003194 "Any process that modulates the frequency, rate or extent of addiction response.")
+AnnotationAssertion(Annotation(dc:contributor "https://orcid.org/0000-0002-4277-2151") Annotation(oboInOwl:source "NBOC:GVG") obo:IAO_0000115 obo:NBO_0003194 "Any process that modulates the frequency, rate or extent of addiction response.")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0003194 "George Gkoutos")
 AnnotationAssertion(rdfs:label obo:NBO_0003194 "regulation of addiction response"@en)
 EquivalentClasses(obo:NBO_0003194 ObjectSomeValuesFrom(obo:RO_0002211 obo:NBO_0003161))
@@ -9937,6 +9941,15 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0050002 "circling locomotio
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0050002 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0050002 "circling behavior")
 SubClassOf(obo:NBO_0050002 obo:NBO_0000013)
+
+# Class: obo:NBO_0070000 (autotomy)
+
+AnnotationAssertion(obo:IAO_0000115 obo:NBO_0070000 "protective behavior that sheds or discards an appendage or organ")
+AnnotationAssertion(dc:creator obo:NBO_0070000 <https://orcid.org/0000-0002-4277-2151>)
+AnnotationAssertion(dc:date obo:NBO_0070000 "2023-04-03T09:35:06Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:source obo:NBO_0070000 "<https://en.wikipedia.org/wiki/Autotomy>")
+AnnotationAssertion(rdfs:label obo:NBO_0070000 "autotomy")
+SubClassOf(obo:NBO_0070000 obo:NBO_0000636)
 
 
 DisjointClasses(obo:NBO_0000014 obo:NBO_0000034 obo:NBO_0000078 obo:NBO_0020084 obo:NBO_0020254 obo:NBO_0020298 obo:NBO_0020299)

@@ -9960,6 +9960,7 @@ AnnotationAssertion(obo:IAO_0000115 obo:NBO_0070002 "Migration that involves reg
 AnnotationAssertion(dc:contributor obo:NBO_0070002 <http://orcid.org/0000-0002-2908-3327>)
 AnnotationAssertion(terms:contributor obo:NBO_0070002 <https://orcid.org/0000-0002-4277-2151>)
 AnnotationAssertion(terms:date obo:NBO_0070002 "2023-04-22T14:41:53Z"^^xsd:dateTime)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0070002 "behavior_ontology")
 AnnotationAssertion(oboInOwl:source obo:NBO_0070002 "Bandara K, Varpe Ø, Wijewardene L, Tverberg V, Eiane K. Two hundred years of zooplankton vertical migration research. Biological Reviews. 2021 Aug;96(4):1547-89.")
 AnnotationAssertion(rdfs:label obo:NBO_0070002 "diel vertical migration")
 SubClassOf(obo:NBO_0070002 obo:NBO_0070001)

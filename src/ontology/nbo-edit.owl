@@ -9944,10 +9944,11 @@ SubClassOf(obo:NBO_0050002 obo:NBO_0000013)
 
 # Class: obo:NBO_0070000 (autotomy)
 
-AnnotationAssertion(obo:IAO_0000115 obo:NBO_0070000 "protective behavior that sheds or discards an appendage or organ")
+AnnotationAssertion(obo:IAO_0000115 obo:NBO_0070000 "protective behavior that sheds or discards an animal's body part")
 AnnotationAssertion(dc:creator obo:NBO_0070000 <https://orcid.org/0000-0002-4277-2151>)
-AnnotationAssertion(dc:date obo:NBO_0070000 "2023-04-03T09:35:06Z"^^xsd:dateTime)
-AnnotationAssertion(oboInOwl:source obo:NBO_0070000 "<https://en.wikipedia.org/wiki/Autotomy>")
+AnnotationAssertion(dc:date obo:NBO_0070000 "2023-04-23")
+AnnotationAssertion(oboInOwl:source obo:NBO_0070000 "Tara Lynne Maginnis, The costs of autotomy and regeneration in animals: a review and framework for future research, Behavioral Ecology, Volume 17, Issue 5, September/October 2006, Pages 857–872")
+AnnotationAssertion(rdfs:comment obo:NBO_0070000 "This is most often understood to mean an appendage such as a lizard's tail, or an insect's leg, which may already be in the clutches of a predator, fouled in a portion of molted cuticle, or caught in a spider's web. Some animals can even shed a body part spontaneously, perhaps to distract a predator. But some echinoderms can autotomize part of their digestive tract whilst some mammals can slough off some skin, which are not so much appendages as organs, yet with the same effects.")
 AnnotationAssertion(rdfs:label obo:NBO_0070000 "autotomy")
 SubClassOf(obo:NBO_0070000 obo:NBO_0000636)
 

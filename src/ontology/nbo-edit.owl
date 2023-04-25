@@ -9945,7 +9945,7 @@ SubClassOf(obo:NBO_0050002 obo:NBO_0000013)
 
 # Class: obo:NBO_0070001 (migration)
 
-AnnotationAssertion(obo:IAO_0000115 obo:NBO_0070001 "Rhythmic behavior that involves cue-initiated, persistent, direct, focused movement between habitats.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "ISBN 0199640394") obo:IAO_0000115 obo:NBO_0070001 "Rhythmic behavior that involves cue-initiated, persistent, direct, focused movement between habitats.")
 AnnotationAssertion(terms:contributor obo:NBO_0070001 <https://orcid.org/0000-0002-4277-2151>)
 AnnotationAssertion(terms:date obo:NBO_0070001 "2023-04-22T14:17:43Z"^^xsd:dateTime)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0070001 "behavior_ontology")

@@ -9956,7 +9956,7 @@ SubClassOf(obo:NBO_0070001 obo:NBO_0000008)
 
 # Class: obo:NBO_0070002 (diel vertical migration)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "DOI 10.1111/brv.12715") obo:IAO_0000115 obo:NBO_0070002 "Migration that involves regular movement up and down in the water column.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "DOI:10.1111/brv.12715") obo:IAO_0000115 obo:NBO_0070002 "Migration that involves regular movement up and down in the water column.")
 AnnotationAssertion(dc:contributor obo:NBO_0070002 <http://orcid.org/0000-0002-2908-3327>)
 AnnotationAssertion(terms:contributor obo:NBO_0070002 <https://orcid.org/0000-0002-4277-2151>)
 AnnotationAssertion(terms:date obo:NBO_0070002 "2023-04-22T14:41:53Z"^^xsd:dateTime)

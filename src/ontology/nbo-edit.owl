@@ -9944,7 +9944,7 @@ SubClassOf(obo:NBO_0050002 obo:NBO_0000013)
 
 # Class: obo:NBO_0070000 (autotomy)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "DOI 10.1093/beheco/arl010") obo:IAO_0000115 obo:NBO_0070000 "Protective behavior that sheds or discards an animal's body part.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "DOI:10.1093/beheco/arl010") obo:IAO_0000115 obo:NBO_0070000 "Protective behavior that sheds or discards an animal's body part.")
 AnnotationAssertion(dc:creator obo:NBO_0070000 <https://orcid.org/0000-0002-4277-2151>)
 AnnotationAssertion(dc:date obo:NBO_0070000 "2023-04-23")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0070000 "behavior_ontology")

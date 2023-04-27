@@ -5422,7 +5422,7 @@ SubClassOf(obo:NBO_0000445 obo:NBO_0000001)
 # Class: obo:NBO_0000446 (visual pursuit)
 
 AnnotationAssertion(obo:IAO_0000115 obo:NBO_0000446 "Selective tracking that follows a moving object by eye.")
-AnnotationAssertion(dc:contributor obo:NBO_0000446 <https://orcid.org/ 0000-0002-4277-2151>)
+AnnotationAssertion(dc:contributor obo:NBO_0000446 <https://orcid.org/0000-0002-4277-2151>)
 AnnotationAssertion(dc:date obo:NBO_0000446 "2011-04-08T12:25:53Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000446 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000446 "behavior_ontology")

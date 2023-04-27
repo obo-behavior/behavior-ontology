@@ -1579,7 +1579,7 @@ SubClassOf(obo:NBO_0000045 obo:NBO_0000048)
 # Class: obo:NBO_0000047 (weaning behavior)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "ISBN:0674205065") obo:IAO_0000115 obo:NBO_0000047 "Parental behavior that promotes the breaking of an offspring's dependence on parental resources.")
-AnnotationAssertion(dc:contributor obo:NBO_0000047 <https://orcid.org/ 0000-0002-4277-2151 >)
+AnnotationAssertion(dc:contributor obo:NBO_0000047 <https://orcid.org/0000-0002-4277-2151>)
 AnnotationAssertion(dc:date obo:NBO_0000047 "2011-04-14T01:03:39Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000047 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000047 "weaning behaviour")

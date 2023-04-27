@@ -9967,7 +9967,7 @@ SubClassOf(obo:NBO_0070002 obo:NBO_0070001)
 
 # Class: obo:NBO_0070003 (geographical migration)
 
-AnnotationAssertion(Annotation(oboInOwl:hasDbXref "DOI 10.1146/annurev-ecolsys-012021-031035") obo:IAO_0000115 obo:NBO_0070003 "Migration that involves regular movement laterally between distant ranges in seasonal cycles.")
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "DOI:10.1146/annurev-ecolsys-012021-031035") obo:IAO_0000115 obo:NBO_0070003 "Migration that involves regular movement laterally between distant ranges in seasonal cycles.")
 AnnotationAssertion(dc:contributor obo:NBO_0070003 <http://orcid.org/0000-0002-2908-3327>)
 AnnotationAssertion(terms:contributor obo:NBO_0070003 <https://orcid.org/0000-0002-4277-2151>)
 AnnotationAssertion(terms:date obo:NBO_0070003 "2023-04-22T14:54:49Z"^^xsd:dateTime)

@@ -3247,7 +3247,7 @@ AnnotationAssertion(dc:contributor obo:NBO_0000220 <https://orcid.org/ 0000-0002
 AnnotationAssertion(dc:date obo:NBO_0000220 "2011-04-04T03:34:46Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000220 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000220 "behavior_ontology")
-AnnotationAssertion(oboInOwl:remark obo:NBO_0000220 "Original definition: \"The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society.\" [wikipedia:Social_conditioning]")
+AnnotationAssertion(rdfs:comment obo:NBO_0000220 "Original definition: \"The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society.\" [wikipedia:Social_conditioning]")
 AnnotationAssertion(oboInOwl:source obo:NBO_0000220 <https://en.wikipedia.org/wiki/Social_learning_in_animals>)
 AnnotationAssertion(rdfs:label obo:NBO_0000220 "social learning")
 SubClassOf(obo:NBO_0000220 obo:NBO_0000171)

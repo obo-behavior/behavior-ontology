@@ -5426,7 +5426,7 @@ AnnotationAssertion(dc:contributor obo:NBO_0000446 <https://orcid.org/0000-0002-
 AnnotationAssertion(dc:date obo:NBO_0000446 "2011-04-08T12:25:53Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000446 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000446 "behavior_ontology")
-AnnotationAssertion(Annotation(oboInOwl:source "NBO:GVG") oboInOwl:remark obo:NBO_0000446 "Original definition: Selectively track a moving object.")
+AnnotationAssertion(rdfs:comment obo:NBO_0000446 "Original definition: Selectively track a moving object (Source: NBO:GVG).")
 AnnotationAssertion(rdfs:label obo:NBO_0000446 "visual pursuit")
 SubClassOf(obo:NBO_0000446 obo:GO_0007601)
 SubClassOf(obo:NBO_0000446 obo:NBO_0000314)

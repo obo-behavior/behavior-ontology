@@ -1020,6 +1020,7 @@ Declaration(Class(obo:NBO_0050002))
 Declaration(Class(obo:NBO_0070000))
 Declaration(Class(obo:NBO_0070001))
 Declaration(Class(obo:NBO_0070002))
+Declaration(Class(obo:NBO_0070003))
 Declaration(Class(obo:NBO_0070004))
 Declaration(Class(obo:PATO_0000001))
 Declaration(Class(obo:PATO_0000014))
@@ -9988,6 +9989,16 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0070002 "behavior_ontology"
 AnnotationAssertion(oboInOwl:source obo:NBO_0070002 "Bandara K, Varpe Ø, Wijewardene L, Tverberg V, Eiane K. Two hundred years of zooplankton vertical migration research. Biological Reviews. 2021 Aug;96(4):1547-89.")
 AnnotationAssertion(rdfs:label obo:NBO_0070002 "diel vertical migration")
 SubClassOf(obo:NBO_0070002 obo:NBO_0070001)
+
+# Class: obo:NBO_0070003 (geographical migration)
+
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "DOI:10.1146/annurev-ecolsys-012021-031035") obo:IAO_0000115 obo:NBO_0070003 "Migration that involves regular movement laterally between distant ranges in seasonal cycles.")
+AnnotationAssertion(dc:creator obo:NBO_0070003 <https://orcid.org/0000-0002-4277-2151>)
+AnnotationAssertion(dc:date obo:NBO_0070003 "2023-05-01T14:41:27Z"^^xsd:dateTime)
+AnnotationAssertion(terms:contributor obo:NBO_0070003 <https://orcid.org/0000-0002-2908-3327>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0070003 "behavior_ontology")
+AnnotationAssertion(rdfs:label obo:NBO_0070003 "geographical migration")
+SubClassOf(obo:NBO_0070003 obo:NBO_0070001)
 
 # Class: obo:NBO_0070004 (stotting)
 

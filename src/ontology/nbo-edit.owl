@@ -9955,7 +9955,7 @@ SubClassOf(obo:NBO_0050002 obo:NBO_0000013)
 # Class: obo:NBO_0070004 (stotting)
 
 AnnotationAssertion(Annotation(oboInOwl:hasDbXref "DOI:10.1016/S0003-3472(86)80051-3") obo:IAO_0000115 obo:NBO_0070004 "Display that involves taking all four legs off the ground simultaneously and holding the legs stiff and straight.")
-AnnotationAssertion(dc:contributor obo:NBO_0070004 <http://orcid.org/0000-0002-2908-332>)
+AnnotationAssertion(terms:contributor obo:NBO_0070004 <http://orcid.org/0000-0002-2908-332>)
 AnnotationAssertion(terms:contributor obo:NBO_0070004 <https://orcid.org/0000-0002-4277-2151>)
 AnnotationAssertion(terms:date obo:NBO_0070004 "2023-04-24T19:52:42Z"^^xsd:dateTime)
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0070004 "pronking")

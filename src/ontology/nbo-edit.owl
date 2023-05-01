@@ -1581,12 +1581,16 @@ SubClassOf(obo:NBO_0000045 obo:NBO_0000048)
 
 # Class: obo:NBO_0000047 (weaning behavior)
 
+AnnotationAssertion(Annotation(oboInOwl:hasDbXref "ISBN:0674205065") obo:IAO_0000115 obo:NBO_0000047 "Parental behavior that promotes the breaking of an offspring's dependence on parental resources.")
+AnnotationAssertion(dc:contributor obo:NBO_0000047 <https://orcid.org/0000-0002-4277-2151>)
 AnnotationAssertion(dc:date obo:NBO_0000047 "2011-04-14T01:03:39Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000047 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000047 "weaning behaviour")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000047 "behavior_ontology")
+AnnotationAssertion(oboInOwl:source obo:NBO_0000047 "Immelmann K, Beer C. A dictionary of ethology. Harvard University Press; 1989.")
+AnnotationAssertion(rdfs:comment obo:NBO_0000047 "Especially food resources, and we know that many male birds provide offspring food.")
 AnnotationAssertion(rdfs:label obo:NBO_0000047 "weaning behavior")
-SubClassOf(obo:NBO_0000047 obo:NBO_0000079)
+SubClassOf(obo:NBO_0000047 obo:NBO_0000044)
 
 # Class: obo:NBO_0000048 (protection of offspring behavior)
 
@@ -3245,10 +3249,13 @@ SubClassOf(obo:NBO_0000219 obo:NBO_0000210)
 
 # Class: obo:NBO_0000220 (social learning)
 
-AnnotationAssertion(obo:IAO_0000115 obo:NBO_0000220 "\"The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society.\" [wikipedia:Social_conditioning]")
+AnnotationAssertion(obo:IAO_0000115 obo:NBO_0000220 "Associative learning behavior that arises from observing or interacting with another individual.")
+AnnotationAssertion(dc:contributor obo:NBO_0000220 <https://orcid.org/ 0000-0002-4277-2151>)
 AnnotationAssertion(dc:date obo:NBO_0000220 "2011-04-04T03:34:46Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000220 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000220 "behavior_ontology")
+AnnotationAssertion(oboInOwl:source obo:NBO_0000220 <https://en.wikipedia.org/wiki/Social_learning_in_animals>)
+AnnotationAssertion(rdfs:comment obo:NBO_0000220 "Original definition: \"The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society.\" [wikipedia:Social_conditioning]")
 AnnotationAssertion(rdfs:label obo:NBO_0000220 "social learning")
 SubClassOf(obo:NBO_0000220 obo:NBO_0000171)
 
@@ -5424,13 +5431,15 @@ SubClassOf(obo:NBO_0000445 obo:NBO_0000001)
 
 # Class: obo:NBO_0000446 (visual pursuit)
 
-AnnotationAssertion(Annotation(oboInOwl:source "NBO:GVG") obo:IAO_0000115 obo:NBO_0000446 "Selectively track a moving object.")
+AnnotationAssertion(obo:IAO_0000115 obo:NBO_0000446 "Selective tracking that follows a moving object by eye.")
+AnnotationAssertion(dc:contributor obo:NBO_0000446 <https://orcid.org/0000-0002-4277-2151>)
 AnnotationAssertion(dc:date obo:NBO_0000446 "2011-04-08T12:25:53Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000446 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000446 "behavior_ontology")
+AnnotationAssertion(rdfs:comment obo:NBO_0000446 "Original definition: Selectively track a moving object (Source: NBO:GVG).")
 AnnotationAssertion(rdfs:label obo:NBO_0000446 "visual pursuit")
 SubClassOf(obo:NBO_0000446 obo:GO_0007601)
-SubClassOf(obo:NBO_0000446 obo:NBO_0000001)
+SubClassOf(obo:NBO_0000446 obo:NBO_0000314)
 
 # Class: obo:NBO_0000447 (locomotor activation behavior)
 

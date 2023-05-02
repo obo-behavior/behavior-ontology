@@ -55,7 +55,6 @@ WARN	missing_definition	rhythmic behavior	IAO:0000115
 WARN	missing_definition	seizures/epilepsy	IAO:0000115	
 WARN	missing_definition	emission behavior	IAO:0000115	
 WARN	missing_definition	behavioral control of production of sound	IAO:0000115	
-WARN	missing_definition	weaning behavior	IAO:0000115	
 WARN	missing_definition	nuzzling	IAO:0000115	
 WARN	missing_definition	swaying	IAO:0000115	
 WARN	missing_definition	tilting	IAO:0000115	
@@ -237,7 +236,6 @@ INFO	lowercase_definition	emotional memory	IAO:0000115	"\""A type of memory asso
 INFO	lowercase_definition	visual memory	IAO:0000115	"\""Ability to store and retrieve previously experienced visual sensations and perceptions when the stimuli that originally evoked them are no longer present.\"" [wikipedia:Visual_memory]"
 INFO	lowercase_definition	eidetic memory	IAO:0000115	"\""The ability to recall images, sounds, or objects in memory with extreme precision and in abundant volume.\"" [wikipedia:Eidetic_memory]"
 INFO	lowercase_definition	operant conditioning behavior	IAO:0000115	"\""Operant conditioning is the use of a behavior's antecedent and/or its consequence to influence the occurrence and form of behavior.\"" [wikipedia:Operant_conditioning]"
-INFO	lowercase_definition	social learning	IAO:0000115	"\""The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society.\"" [wikipedia:Social_conditioning]"
 INFO	lowercase_definition	perceptual constancy behavior	IAO:0000115	"\""Perception of objects remains the same despite changes in their image on the retina.\"" [:http\://science.jrank.org/pages/5094/Perception.html]"
 INFO	lowercase_definition	generalized anxiety	IAO:0000115	"\""A pathological anxiety characterized by long-lasting anxiety that is not focused on any one object or situation.\"" [wikipedia:Generalized_anxiety_disorder]"
 INFO	lowercase_definition	panic	IAO:0000115	"\""A pathological anxiety characterized by brief attacks of intense terror and apprehension, often marked by trembling, shaking, confusion, dizziness, nausea, difficulty breathing.\"" [wikipedia:Panic_disorder]"

@@ -1,11 +1,11 @@
 format-version: 1.2
-data-version: releases/2023-02-21
+data-version: releases/2023-05-02
 treat-xrefs-as-equivalent: GO
 ontology: nbo
 property_value: http://purl.org/dc/terms/description "An ontology of human and animal behaviours." xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/
 property_value: http://purl.org/dc/terms/title "Neuro Behaviour Ontology" xsd:string
-property_value: owl:versionInfo "2023-02-21" xsd:string
+property_value: owl:versionInfo "2023-05-02" xsd:string
 
 [Term]
 id: BFO:0000001
@@ -640,9 +640,9 @@ property_value: http://purl.obolibrary.org/obo/chebi/charge "0" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/formula "C10H14N2" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchi "InChI=1S/C10H14N2/c1-12-7-3-5-10(12)9-4-2-6-11-8-9/h2,4,6,8,10H,3,5,7H2,1H3/t10-/m0/s1" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/inchikey "SNICXCGAKADSCV-JTQLQIEISA-N" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/mass "162.232" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/mass "162.236" xsd:string
 property_value: http://purl.obolibrary.org/obo/chebi/monoisotopicmass "162.11570" xsd:string
-property_value: http://purl.obolibrary.org/obo/chebi/smiles "C=1C=C([C@]2(N(CCC2)C)[H])C=NC1" xsd:string
+property_value: http://purl.obolibrary.org/obo/chebi/smiles "[H][C@]1(CCCN1C)C1=CC=CN=C1" xsd:string
 
 [Term]
 id: CHEBI:17790
@@ -3506,26 +3506,6 @@ comment: Note that this term does not have a 'developmental process' parent beca
 is_a: GO:0032501 ! multicellular organismal process
 
 [Term]
-id: GO:0001525
-name: angiogenesis
-is_a: GO:0048646 ! anatomical structure formation involved in morphogenesis
-relationship: BFO:0000050 GO:0048514 ! part of blood vessel morphogenesis
-
-[Term]
-id: GO:0001568
-name: blood vessel development
-is_a: GO:0048856 ! anatomical structure development
-relationship: BFO:0000050 GO:0001944 ! part of vasculature development
-
-[Term]
-id: GO:0001569
-name: branching involved in blood vessel morphogenesis
-is_a: GO:0048754 ! branching morphogenesis of an epithelial tube
-intersection_of: GO:0048754 ! branching morphogenesis of an epithelial tube
-intersection_of: BFO:0000050 GO:0048514 ! part of blood vessel morphogenesis
-relationship: BFO:0000050 GO:0001525 ! part of angiogenesis
-
-[Term]
 id: GO:0001659
 name: temperature homeostasis
 is_a: GO:0048871 ! multicellular organismal-level homeostasis
@@ -3589,12 +3569,6 @@ id: GO:0001841
 name: neural tube formation
 is_a: GO:0001838 ! embryonic epithelial tube formation
 relationship: BFO:0000050 GO:0021915 ! part of neural tube development
-
-[Term]
-id: GO:0001944
-name: vasculature development
-is_a: GO:0048731 ! system development
-relationship: BFO:0000050 GO:0072359 ! part of circulatory system development
 
 [Term]
 id: GO:0001957
@@ -3906,8 +3880,8 @@ is_a: GO:0043170 ! macromolecule metabolic process
 [Term]
 id: GO:0005977
 name: glycogen metabolic process
-is_a: GO:0006073 ! cellular glucan metabolic process
 is_a: GO:0006112 ! energy reserve metabolic process
+is_a: GO:0044042 ! glucan metabolic process
 
 [Term]
 id: GO:0005978
@@ -3929,12 +3903,11 @@ id: GO:0005980
 name: glycogen catabolic process
 is_a: GO:0005977 ! glycogen metabolic process
 is_a: GO:0009251 ! glucan catabolic process
-is_a: GO:0044247 ! cellular polysaccharide catabolic process
 
 [Term]
 id: GO:0005981
 name: regulation of glycogen catabolic process
-is_a: GO:0043471 ! regulation of cellular carbohydrate catabolic process
+is_a: GO:0043470 ! regulation of carbohydrate catabolic process
 is_a: GO:0070873 ! regulation of glycogen metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002211 GO:0005980 ! regulates glycogen catabolic process
@@ -3950,12 +3923,6 @@ is_a: GO:0044281 ! small molecule metabolic process
 id: GO:0006006
 name: glucose metabolic process
 is_a: GO:0019318 ! hexose metabolic process
-
-[Term]
-id: GO:0006073
-name: cellular glucan metabolic process
-is_a: GO:0044042 ! glucan metabolic process
-is_a: GO:0044264 ! cellular polysaccharide metabolic process
 
 [Term]
 id: GO:0006082
@@ -4305,6 +4272,7 @@ comment: A biological process is an evolved process
 comment: Note that, in addition to forming the root of the biological process ontology, this term is recommended for use for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.
 is_a: BFO:0000015 ! process
 relationship: BFO:0000051 GO:0003674 ! has part molecular_function
+property_value: IAO:0000233 "https://github.com/geneontology/go-ontology/issues/24968" xsd:anyURI
 
 [Term]
 id: GO:0008152
@@ -4387,12 +4355,13 @@ id: GO:0009059
 name: macromolecule biosynthetic process
 is_a: GO:0043170 ! macromolecule metabolic process
 is_a: GO:1901576 ! organic substance biosynthetic process
+property_value: IAO:0000233 "http://amigo.geneontology.org/amigo/term/GO:0070589" xsd:anyURI
 
 [Term]
 id: GO:0009250
 name: glucan biosynthetic process
-is_a: GO:0006073 ! cellular glucan metabolic process
-is_a: GO:0033692 ! cellular polysaccharide biosynthetic process
+is_a: GO:0000271 ! polysaccharide biosynthetic process
+is_a: GO:0044042 ! glucan metabolic process
 
 [Term]
 id: GO:0009251
@@ -4599,6 +4568,7 @@ is_a: GO:0010817 ! regulation of hormone levels
 [Term]
 id: GO:0009987
 name: cellular process
+comment: This term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term.
 is_a: GO:0008150 ! biological_process
 
 [Term]
@@ -4734,35 +4704,6 @@ intersection_of: RO:0002212 GO:0007154 ! negatively regulates cell communication
 relationship: RO:0002212 GO:0007154 ! negatively regulates cell communication
 
 [Term]
-id: GO:0010675
-name: regulation of cellular carbohydrate metabolic process
-is_a: GO:0006109 ! regulation of carbohydrate metabolic process
-is_a: GO:0031323 ! regulation of cellular metabolic process
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002211 GO:0044262 ! regulates cellular carbohydrate metabolic process
-relationship: RO:0002211 GO:0044262 ! regulates cellular carbohydrate metabolic process
-
-[Term]
-id: GO:0010676
-name: positive regulation of cellular carbohydrate metabolic process
-is_a: GO:0010675 ! regulation of cellular carbohydrate metabolic process
-is_a: GO:0031325 ! positive regulation of cellular metabolic process
-is_a: GO:0045913 ! positive regulation of carbohydrate metabolic process
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002213 GO:0044262 ! positively regulates cellular carbohydrate metabolic process
-relationship: RO:0002213 GO:0044262 ! positively regulates cellular carbohydrate metabolic process
-
-[Term]
-id: GO:0010677
-name: negative regulation of cellular carbohydrate metabolic process
-is_a: GO:0010675 ! regulation of cellular carbohydrate metabolic process
-is_a: GO:0031324 ! negative regulation of cellular metabolic process
-is_a: GO:0045912 ! negative regulation of carbohydrate metabolic process
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002212 GO:0044262 ! negatively regulates cellular carbohydrate metabolic process
-relationship: RO:0002212 GO:0044262 ! negatively regulates cellular carbohydrate metabolic process
-
-[Term]
 id: GO:0010700
 name: negative regulation of norepinephrine secretion
 is_a: GO:0014061 ! regulation of norepinephrine secretion
@@ -4779,24 +4720,6 @@ is_a: GO:0033605 ! positive regulation of catecholamine secretion
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002213 GO:0048243 ! positively regulates norepinephrine secretion
 relationship: RO:0002213 GO:0048243 ! positively regulates norepinephrine secretion
-
-[Term]
-id: GO:0010720
-name: positive regulation of cell development
-is_a: GO:0045597 ! positive regulation of cell differentiation
-is_a: GO:0060284 ! regulation of cell development
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002213 GO:0048468 ! positively regulates cell development
-relationship: RO:0002213 GO:0048468 ! positively regulates cell development
-
-[Term]
-id: GO:0010721
-name: negative regulation of cell development
-is_a: GO:0045596 ! negative regulation of cell differentiation
-is_a: GO:0060284 ! regulation of cell development
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002212 GO:0048468 ! negatively regulates cell development
-relationship: RO:0002212 GO:0048468 ! negatively regulates cell development
 
 [Term]
 id: GO:0010817
@@ -4831,7 +4754,7 @@ relationship: RO:0002212 GO:0006694 ! negatively regulates steroid biosynthetic 
 [Term]
 id: GO:0010906
 name: regulation of glucose metabolic process
-is_a: GO:0010675 ! regulation of cellular carbohydrate metabolic process
+is_a: GO:0006109 ! regulation of carbohydrate metabolic process
 is_a: GO:0062012 ! regulation of small molecule metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002211 GO:0006006 ! regulates glucose metabolic process
@@ -4840,8 +4763,8 @@ relationship: RO:0002211 GO:0006006 ! regulates glucose metabolic process
 [Term]
 id: GO:0010907
 name: positive regulation of glucose metabolic process
-is_a: GO:0010676 ! positive regulation of cellular carbohydrate metabolic process
 is_a: GO:0010906 ! regulation of glucose metabolic process
+is_a: GO:0045913 ! positive regulation of carbohydrate metabolic process
 is_a: GO:0062013 ! positive regulation of small molecule metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002213 GO:0006006 ! positively regulates glucose metabolic process
@@ -4850,9 +4773,7 @@ relationship: RO:0002213 GO:0006006 ! positively regulates glucose metabolic pro
 [Term]
 id: GO:0010962
 name: regulation of glucan biosynthetic process
-is_a: GO:0010675 ! regulation of cellular carbohydrate metabolic process
 is_a: GO:0032885 ! regulation of polysaccharide biosynthetic process
-is_a: GO:2000112 ! regulation of cellular macromolecule biosynthetic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002211 GO:0009250 ! regulates glucan biosynthetic process
 relationship: RO:0002211 GO:0009250 ! regulates glucan biosynthetic process
@@ -5054,15 +4975,7 @@ is_a: GO:0048598 ! embryonic morphogenesis
 id: GO:0016477
 name: cell migration
 is_a: GO:0048870 ! cell motility
-
-[Term]
-id: GO:0016525
-name: negative regulation of angiogenesis
-is_a: GO:0045765 ! regulation of angiogenesis
-is_a: GO:2000181 ! negative regulation of blood vessel morphogenesis
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002212 GO:0001525 ! negatively regulates angiogenesis
-relationship: RO:0002212 GO:0001525 ! negatively regulates angiogenesis
+property_value: IAO:0000233 "https://github.com/geneontology/go-ontology/issues/24787" xsd:anyURI
 
 [Term]
 id: GO:0016740
@@ -5198,7 +5111,7 @@ relationship: RO:0002211 GO:0023052 ! regulates signaling
 id: GO:0023052
 name: signaling
 comment: Note that a signal is any variable property or parameter that serves to convey information, and may be a physical entity such as a gene product or small molecule, a photon, or a change in state such as movement or voltage change.
-is_a: GO:0008150 ! biological_process
+is_a: GO:0050789 ! regulation of biological process
 
 [Term]
 id: GO:0023056
@@ -5244,17 +5157,6 @@ name: insulin secretion
 is_a: GO:0009306 ! protein secretion
 is_a: GO:0030072 ! peptide hormone secretion
 property_value: IAO:0000233 "https://github.com/geneontology/go-ontology/issues/11255#issuecomment-426191045" xsd:anyURI
-
-[Term]
-id: GO:0030097
-name: hemopoiesis
-is_a: GO:0048468 ! cell development
-property_value: IAO:0000233 "https://github.com/geneontology/go-ontology/issues/22178" xsd:anyURI
-
-[Term]
-id: GO:0030154
-name: cell differentiation
-is_a: GO:0048869 ! cellular developmental process
 
 [Term]
 id: GO:0030278
@@ -5782,28 +5684,6 @@ intersection_of: RO:0002213 GO:0016301 ! positively regulates kinase activity
 relationship: RO:0002213 GO:0016301 ! positively regulates kinase activity
 
 [Term]
-id: GO:0033692
-name: cellular polysaccharide biosynthetic process
-is_a: GO:0000271 ! polysaccharide biosynthetic process
-is_a: GO:0034637 ! cellular carbohydrate biosynthetic process
-is_a: GO:0034645 ! cellular macromolecule biosynthetic process
-is_a: GO:0044264 ! cellular polysaccharide metabolic process
-
-[Term]
-id: GO:0034637
-name: cellular carbohydrate biosynthetic process
-is_a: GO:0016051 ! carbohydrate biosynthetic process
-is_a: GO:0044249 ! cellular biosynthetic process
-is_a: GO:0044262 ! cellular carbohydrate metabolic process
-
-[Term]
-id: GO:0034645
-name: cellular macromolecule biosynthetic process
-is_a: GO:0009059 ! macromolecule biosynthetic process
-is_a: GO:0044249 ! cellular biosynthetic process
-is_a: GO:0044260 ! cellular macromolecule metabolic process
-
-[Term]
 id: GO:0035148
 name: tube formation
 is_a: GO:0048646 ! anatomical structure formation involved in morphogenesis
@@ -6225,17 +6105,6 @@ intersection_of: RO:0002211 GO:0016052 ! regulates carbohydrate catabolic proces
 relationship: RO:0002211 GO:0016052 ! regulates carbohydrate catabolic process
 
 [Term]
-id: GO:0043471
-name: regulation of cellular carbohydrate catabolic process
-is_a: GO:0010675 ! regulation of cellular carbohydrate metabolic process
-is_a: GO:0031329 ! regulation of cellular catabolic process
-is_a: GO:0043470 ! regulation of carbohydrate catabolic process
-is_a: GO:0060255 ! regulation of macromolecule metabolic process
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002211 GO:0044275 ! regulates cellular carbohydrate catabolic process
-relationship: RO:0002211 GO:0044275 ! regulates cellular carbohydrate catabolic process
-
-[Term]
 id: GO:0043549
 name: regulation of kinase activity
 is_a: GO:0042325 ! regulation of phosphorylation
@@ -6318,6 +6187,7 @@ relationship: RO:0002213 GO:0003674 ! positively regulates molecular_function
 [Term]
 id: GO:0044237
 name: cellular metabolic process
+comment: This term should not be used for direct annotation. It should be possible to make a more specific annotation to one of the children of this term.
 is_a: GO:0008152 ! metabolic process
 is_a: GO:0009987 ! cellular process
 
@@ -6325,13 +6195,6 @@ is_a: GO:0009987 ! cellular process
 id: GO:0044238
 name: primary metabolic process
 is_a: GO:0008152 ! metabolic process
-
-[Term]
-id: GO:0044247
-name: cellular polysaccharide catabolic process
-is_a: GO:0000272 ! polysaccharide catabolic process
-is_a: GO:0044264 ! cellular polysaccharide metabolic process
-is_a: GO:0044275 ! cellular carbohydrate catabolic process
 
 [Term]
 id: GO:0044248
@@ -6344,32 +6207,6 @@ id: GO:0044249
 name: cellular biosynthetic process
 is_a: GO:0009058 ! biosynthetic process
 is_a: GO:0044237 ! cellular metabolic process
-
-[Term]
-id: GO:0044260
-name: cellular macromolecule metabolic process
-is_a: GO:0043170 ! macromolecule metabolic process
-is_a: GO:0044237 ! cellular metabolic process
-
-[Term]
-id: GO:0044262
-name: cellular carbohydrate metabolic process
-is_a: GO:0005975 ! carbohydrate metabolic process
-is_a: GO:0044237 ! cellular metabolic process
-
-[Term]
-id: GO:0044264
-name: cellular polysaccharide metabolic process
-is_a: GO:0005976 ! polysaccharide metabolic process
-is_a: GO:0044260 ! cellular macromolecule metabolic process
-is_a: GO:0044262 ! cellular carbohydrate metabolic process
-
-[Term]
-id: GO:0044275
-name: cellular carbohydrate catabolic process
-is_a: GO:0016052 ! carbohydrate catabolic process
-is_a: GO:0044248 ! cellular catabolic process
-is_a: GO:0044262 ! cellular carbohydrate metabolic process
 
 [Term]
 id: GO:0044281
@@ -6420,40 +6257,11 @@ comment: This term was obsoleted because it was not precisely defined.
 is_obsolete: true
 
 [Term]
-id: GO:0045595
-name: regulation of cell differentiation
-is_a: GO:0050793 ! regulation of developmental process
-is_a: GO:0050794 ! regulation of cellular process
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002211 GO:0030154 ! regulates cell differentiation
-relationship: RO:0002211 GO:0030154 ! regulates cell differentiation
-
-[Term]
-id: GO:0045596
-name: negative regulation of cell differentiation
-is_a: GO:0045595 ! regulation of cell differentiation
-is_a: GO:0048523 ! negative regulation of cellular process
-is_a: GO:0051093 ! negative regulation of developmental process
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002212 GO:0030154 ! negatively regulates cell differentiation
-relationship: RO:0002212 GO:0030154 ! negatively regulates cell differentiation
-
-[Term]
-id: GO:0045597
-name: positive regulation of cell differentiation
-is_a: GO:0045595 ! regulation of cell differentiation
-is_a: GO:0048522 ! positive regulation of cellular process
-is_a: GO:0051094 ! positive regulation of developmental process
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002213 GO:0030154 ! positively regulates cell differentiation
-relationship: RO:0002213 GO:0030154 ! positively regulates cell differentiation
-
-[Term]
 id: GO:0045719
 name: negative regulation of glycogen biosynthetic process
 is_a: GO:0005979 ! regulation of glycogen biosynthetic process
+is_a: GO:0010558 ! negative regulation of macromolecule biosynthetic process
 is_a: GO:0070874 ! negative regulation of glycogen metabolic process
-is_a: GO:2000113 ! negative regulation of cellular macromolecule biosynthetic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002212 GO:0005978 ! negatively regulates glycogen biosynthetic process
 relationship: RO:0002212 GO:0005978 ! negatively regulates glycogen biosynthetic process
@@ -6468,24 +6276,6 @@ is_a: GO:0070875 ! positive regulation of glycogen metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002213 GO:0005978 ! positively regulates glycogen biosynthetic process
 relationship: RO:0002213 GO:0005978 ! positively regulates glycogen biosynthetic process
-
-[Term]
-id: GO:0045765
-name: regulation of angiogenesis
-is_a: GO:0022603 ! regulation of anatomical structure morphogenesis
-is_a: GO:1901342 ! regulation of vasculature development
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002211 GO:0001525 ! regulates angiogenesis
-relationship: RO:0002211 GO:0001525 ! regulates angiogenesis
-
-[Term]
-id: GO:0045766
-name: positive regulation of angiogenesis
-is_a: GO:0045765 ! regulation of angiogenesis
-is_a: GO:1904018 ! positive regulation of vasculature development
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002213 GO:0001525 ! positively regulates angiogenesis
-relationship: RO:0002213 GO:0001525 ! positively regulates angiogenesis
 
 [Term]
 id: GO:0045778
@@ -6802,13 +6592,6 @@ is_a: GO:0048729 ! tissue morphogenesis
 relationship: BFO:0000050 GO:0007498 ! part of mesoderm development
 
 [Term]
-id: GO:0048468
-name: cell development
-is_a: GO:0048856 ! anatomical structure development
-is_a: GO:0048869 ! cellular developmental process
-relationship: BFO:0000050 GO:0030154 ! part of cell differentiation
-
-[Term]
 id: GO:0048511
 name: rhythmic process
 is_a: GO:0008150 ! biological_process
@@ -6823,12 +6606,6 @@ is_a: GO:0007623 ! circadian rhythm
 id: GO:0048513
 name: animal organ development
 is_a: GO:0048856 ! anatomical structure development
-
-[Term]
-id: GO:0048514
-name: blood vessel morphogenesis
-is_a: GO:0035239 ! tube morphogenesis
-relationship: BFO:0000050 GO:0001568 ! part of blood vessel development
 
 [Term]
 id: GO:0048518
@@ -6985,12 +6762,6 @@ is_a: GO:0031410 ! cytoplasmic vesicle
 [Term]
 id: GO:0048856
 name: anatomical structure development
-is_a: GO:0032502 ! developmental process
-
-[Term]
-id: GO:0048869
-name: cellular developmental process
-is_a: GO:0009987 ! cellular process
 is_a: GO:0032502 ! developmental process
 
 [Term]
@@ -7816,14 +7587,6 @@ name: crying behavior
 is_a: GO:0007610 ! behavior
 
 [Term]
-id: GO:0060284
-name: regulation of cell development
-is_a: GO:0045595 ! regulation of cell differentiation
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002211 GO:0048468 ! regulates cell development
-relationship: RO:0002211 GO:0048468 ! regulates cell development
-
-[Term]
 id: GO:0060341
 name: regulation of cellular localization
 is_a: GO:0032879 ! regulation of localization
@@ -8172,7 +7935,6 @@ relationship: RO:0002213 GO:0006699 ! positively regulates bile acid biosyntheti
 [Term]
 id: GO:0070873
 name: regulation of glycogen metabolic process
-is_a: GO:0010675 ! regulation of cellular carbohydrate metabolic process
 is_a: GO:0032881 ! regulation of polysaccharide metabolic process
 is_a: GO:0043467 ! regulation of generation of precursor metabolites and energy
 intersection_of: GO:0065007 ! biological regulation
@@ -8183,7 +7945,8 @@ relationship: RO:0002211 GO:0005977 ! regulates glycogen metabolic process
 id: GO:0070874
 name: negative regulation of glycogen metabolic process
 is_a: GO:0010605 ! negative regulation of macromolecule metabolic process
-is_a: GO:0010677 ! negative regulation of cellular carbohydrate metabolic process
+is_a: GO:0031324 ! negative regulation of cellular metabolic process
+is_a: GO:0045912 ! negative regulation of carbohydrate metabolic process
 is_a: GO:0070873 ! regulation of glycogen metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002212 GO:0005977 ! negatively regulates glycogen metabolic process
@@ -8194,6 +7957,7 @@ id: GO:0070875
 name: positive regulation of glycogen metabolic process
 is_a: GO:0010604 ! positive regulation of macromolecule metabolic process
 is_a: GO:0010907 ! positive regulation of glucose metabolic process
+is_a: GO:0031325 ! positive regulation of cellular metabolic process
 is_a: GO:0070873 ! regulation of glycogen metabolic process
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002213 GO:0005977 ! positively regulates glycogen metabolic process
@@ -8261,11 +8025,6 @@ id: GO:0072330
 name: monocarboxylic acid biosynthetic process
 is_a: GO:0032787 ! monocarboxylic acid metabolic process
 is_a: GO:0046394 ! carboxylic acid biosynthetic process
-
-[Term]
-id: GO:0072359
-name: circulatory system development
-is_a: GO:0048731 ! system development
 
 [Term]
 id: GO:0080090
@@ -8561,24 +8320,6 @@ is_a: GO:0006810 ! transport
 is_a: GO:0009987 ! cellular process
 
 [Term]
-id: GO:1901342
-name: regulation of vasculature development
-is_a: GO:2000026 ! regulation of multicellular organismal development
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002211 GO:0001944 ! regulates vasculature development
-relationship: RO:0002211 GO:0001944 ! regulates vasculature development
-
-[Term]
-id: GO:1901343
-name: negative regulation of vasculature development
-is_a: GO:0051093 ! negative regulation of developmental process
-is_a: GO:0051241 ! negative regulation of multicellular organismal process
-is_a: GO:1901342 ! regulation of vasculature development
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002212 GO:0001944 ! negatively regulates vasculature development
-relationship: RO:0002212 GO:0001944 ! negatively regulates vasculature development
-
-[Term]
 id: GO:1901360
 name: organic cyclic compound metabolic process
 is_a: GO:0071704 ! organic substance metabolic process
@@ -8724,41 +8465,6 @@ intersection_of: GO:0031982 ! vesicle
 intersection_of: BFO:0000050 GO:0005576 ! part of extracellular region
 
 [Term]
-id: GO:1903706
-name: regulation of hemopoiesis
-comment: An example of this is Atg7 in mouse (UniProt symbol, Q9D906) in PMID:20080761, inferred from mutant phenotype.
-is_a: GO:0002682 ! regulation of immune system process
-is_a: GO:0060284 ! regulation of cell development
-is_a: GO:2000026 ! regulation of multicellular organismal development
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002211 GO:0030097 ! regulates hemopoiesis
-relationship: RO:0002211 GO:0030097 ! regulates hemopoiesis
-
-[Term]
-id: GO:1903707
-name: negative regulation of hemopoiesis
-comment: An example of this is Atg7 in mouse (UniProt symbol, Q9D906) in PMID:20080761, inferred from mutant phenotype.
-is_a: GO:0002683 ! negative regulation of immune system process
-is_a: GO:0010721 ! negative regulation of cell development
-is_a: GO:0051241 ! negative regulation of multicellular organismal process
-is_a: GO:1903706 ! regulation of hemopoiesis
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002212 GO:0030097 ! negatively regulates hemopoiesis
-relationship: RO:0002212 GO:0030097 ! negatively regulates hemopoiesis
-
-[Term]
-id: GO:1903708
-name: positive regulation of hemopoiesis
-comment: An example of this is Atg7 in mouse (UniProt symbol, Q9D906) in PMID:20080761, inferred from mutant phenotype.
-is_a: GO:0002684 ! positive regulation of immune system process
-is_a: GO:0010720 ! positive regulation of cell development
-is_a: GO:0051240 ! positive regulation of multicellular organismal process
-is_a: GO:1903706 ! regulation of hemopoiesis
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002213 GO:0030097 ! positively regulates hemopoiesis
-relationship: RO:0002213 GO:0030097 ! positively regulates hemopoiesis
-
-[Term]
 id: GO:1903828
 name: negative regulation of protein localization
 is_a: GO:0032880 ! regulation of protein localization
@@ -8821,16 +8527,6 @@ is_a: GO:2000253 ! positive regulation of feeding behavior
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002213 GO:0042755 ! positively regulates eating behavior
 relationship: RO:0002213 GO:0042755 ! positively regulates eating behavior
-
-[Term]
-id: GO:1904018
-name: positive regulation of vasculature development
-is_a: GO:0051094 ! positive regulation of developmental process
-is_a: GO:0051240 ! positive regulation of multicellular organismal process
-is_a: GO:1901342 ! regulation of vasculature development
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002213 GO:0001944 ! positively regulates vasculature development
-relationship: RO:0002213 GO:0001944 ! positively regulates vasculature development
 
 [Term]
 id: GO:1904057
@@ -8990,36 +8686,6 @@ intersection_of: RO:0002213 GO:0002009 ! positively regulates morphogenesis of a
 relationship: RO:0002213 GO:0002009 ! positively regulates morphogenesis of an epithelium
 
 [Term]
-id: GO:1905553
-name: regulation of blood vessel branching
-is_a: GO:0045765 ! regulation of angiogenesis
-is_a: GO:0060688 ! regulation of morphogenesis of a branching structure
-is_a: GO:1905330 ! regulation of morphogenesis of an epithelium
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002211 GO:0001569 ! regulates branching involved in blood vessel morphogenesis
-relationship: RO:0002211 GO:0001569 ! regulates branching involved in blood vessel morphogenesis
-
-[Term]
-id: GO:1905554
-name: negative regulation of vessel branching
-is_a: GO:0016525 ! negative regulation of angiogenesis
-is_a: GO:1905331 ! negative regulation of morphogenesis of an epithelium
-is_a: GO:1905553 ! regulation of blood vessel branching
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002212 GO:0001569 ! negatively regulates branching involved in blood vessel morphogenesis
-relationship: RO:0002212 GO:0001569 ! negatively regulates branching involved in blood vessel morphogenesis
-
-[Term]
-id: GO:1905555
-name: positive regulation of blood vessel branching
-is_a: GO:0045766 ! positive regulation of angiogenesis
-is_a: GO:1905332 ! positive regulation of morphogenesis of an epithelium
-is_a: GO:1905553 ! regulation of blood vessel branching
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002213 GO:0001569 ! positively regulates branching involved in blood vessel morphogenesis
-relationship: RO:0002213 GO:0001569 ! positively regulates branching involved in blood vessel morphogenesis
-
-[Term]
 id: GO:1905787
 name: regulation of detection of mechanical stimulus involved in sensory perception of touch
 is_a: GO:0032101 ! regulation of response to external stimulus
@@ -9147,25 +8813,6 @@ intersection_of: RO:0002211 GO:0009414 ! regulates response to water deprivation
 relationship: RO:0002211 GO:0009414 ! regulates response to water deprivation
 
 [Term]
-id: GO:2000112
-name: regulation of cellular macromolecule biosynthetic process
-is_a: GO:0010556 ! regulation of macromolecule biosynthetic process
-is_a: GO:0031326 ! regulation of cellular biosynthetic process
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002211 GO:0034645 ! regulates cellular macromolecule biosynthetic process
-relationship: RO:0002211 GO:0034645 ! regulates cellular macromolecule biosynthetic process
-
-[Term]
-id: GO:2000113
-name: negative regulation of cellular macromolecule biosynthetic process
-is_a: GO:0010558 ! negative regulation of macromolecule biosynthetic process
-is_a: GO:0031327 ! negative regulation of cellular biosynthetic process
-is_a: GO:2000112 ! regulation of cellular macromolecule biosynthetic process
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002212 GO:0034645 ! negatively regulates cellular macromolecule biosynthetic process
-relationship: RO:0002212 GO:0034645 ! negatively regulates cellular macromolecule biosynthetic process
-
-[Term]
 id: GO:2000145
 name: regulation of cell motility
 is_a: GO:0040012 ! regulation of locomotion
@@ -9193,15 +8840,6 @@ is_a: GO:2000145 ! regulation of cell motility
 intersection_of: GO:0065007 ! biological regulation
 intersection_of: RO:0002213 GO:0048870 ! positively regulates cell motility
 relationship: RO:0002213 GO:0048870 ! positively regulates cell motility
-
-[Term]
-id: GO:2000181
-name: negative regulation of blood vessel morphogenesis
-is_a: GO:0022603 ! regulation of anatomical structure morphogenesis
-is_a: GO:1901343 ! negative regulation of vasculature development
-intersection_of: GO:0065007 ! biological regulation
-intersection_of: RO:0002212 GO:0048514 ! negatively regulates blood vessel morphogenesis
-relationship: RO:0002212 GO:0048514 ! negatively regulates blood vessel morphogenesis
 
 [Term]
 id: GO:2000241
@@ -9731,9 +9369,6 @@ namespace: behavior_ontology
 def: "The elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds." [] {source="wikipedia:Excretion"}
 xref: GO:0007588
 is_a: NBO:0000035 ! emission behavior
-intersection_of: NBO:0000035 ! emission behavior
-intersection_of: is_about GO:0007588 ! excretion
-relationship: is_about GO:0007588 ! excretion
 property_value: http://purl.org/dc/elements/1.1/date "2011-04-14T01:03:39Z" xsd:string
 created_by: George Gkoutos
 
@@ -9753,16 +9388,15 @@ created_by: George Gkoutos
 id: NBO:0000040
 name: behavioral control of urination
 namespace: behavior_ontology
-def: "The regulation of body fluids process by which parasympathetic nerves stimulate the bladder wall muscle to contract and expel urine from the body." [] {source="wikipedia:urination"}
+def: "Excretion behaviour that controls liquid waste expulsion." [] {source="wikipedia:urination"}
 synonym: "micturition" EXACT []
 synonym: "urinate" EXACT []
 xref: GO:0060073
 is_a: NBO:0000038 ! behavioral control of excretion
 intersection_of: NBO:0000038 ! behavioral control of excretion
-intersection_of: by_means UBERON:0001256 ! wall of urinary bladder
 intersection_of: is_about GO:0060073 ! micturition
-relationship: by_means UBERON:0001256 ! wall of urinary bladder
 relationship: is_about GO:0060073 ! micturition
+property_value: http://purl.org/dc/elements/1.1/contributor https://orcid.org/0000-0002-4277-2151
 property_value: http://purl.org/dc/elements/1.1/date "2011-04-14T01:03:39Z" xsd:string
 created_by: George Gkoutos
 
@@ -9829,9 +9463,13 @@ created_by: George Gkoutos
 id: NBO:0000047
 name: weaning behavior
 namespace: behavior_ontology
+def: "Parental behavior that promotes the breaking of an offspring's dependence on parental resources." [ISBN:0674205065]
+comment: Especially food resources, and we know that many male birds provide offspring food.
 synonym: "weaning behaviour" EXACT []
-is_a: NBO:0000079 ! feeding behavior
+is_a: NBO:0000044 ! parental behavior
+property_value: http://purl.org/dc/elements/1.1/contributor https://orcid.org/0000-0002-4277-2151
 property_value: http://purl.org/dc/elements/1.1/date "2011-04-14T01:03:39Z" xsd:string
+property_value: source "Immelmann K, Beer C. A dictionary of ethology. Harvard University Press; 1989." xsd:string
 created_by: George Gkoutos
 
 [Term]
@@ -11491,9 +11129,12 @@ created_by: George Gkoutos
 id: NBO:0000220
 name: social learning
 namespace: behavior_ontology
-def: "\"The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society.\" [wikipedia:Social_conditioning]" []
+def: "Associative learning behavior that arises from observing or interacting with another individual." []
+comment: Original definition: "The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society." [wikipedia:Social_conditioning]
 is_a: NBO:0000171 ! associative learning behavior
+property_value: http://purl.org/dc/elements/1.1/contributor https://orcid.org/%200000-0002-4277-2151
 property_value: http://purl.org/dc/elements/1.1/date "2011-04-04T03:34:46Z" xsd:string
+property_value: source https://en.wikipedia.org/wiki/Social_learning_in_animals
 created_by: George Gkoutos
 
 [Term]
@@ -13686,9 +13327,11 @@ created_by: George Gkoutos
 id: NBO:0000446
 name: visual pursuit
 namespace: behavior_ontology
-def: "Selectively track a moving object." [] {source="NBO:GVG"}
+def: "Selective tracking that follows a moving object by eye." []
+comment: Original definition: Selectively track a moving object (Source: NBO:GVG).
 is_a: GO:0007601 ! visual perception
-is_a: NBO:0000001 ! body part movement
+is_a: NBO:0000314 ! visual behavior
+property_value: http://purl.org/dc/elements/1.1/contributor https://orcid.org/0000-0002-4277-2151
 property_value: http://purl.org/dc/elements/1.1/date "2011-04-08T12:25:53Z" xsd:string
 created_by: George Gkoutos
 
@@ -18166,6 +17809,61 @@ property_value: http://purl.org/dc/elements/1.1/date "2020-02-05T20:14:32Z" xsd:
 created_by: Sofia Robb
 
 [Term]
+id: NBO:0070000
+name: autotomy
+namespace: behavior_ontology
+def: "Protective behavior that sheds or discards an animal's body part." [DOI:10.1093/beheco/arl010]
+comment: This is most often understood to mean an appendage such as a lizard's tail, or an insect's leg, which may already be in the clutches of a predator, fouled in a portion of molted cuticle, or caught in a spider's web. Some animals can even shed a body part spontaneously, perhaps to distract a predator. But some echinoderms can autotomize part of their digestive tract whilst some mammals can slough off some skin, which are not so much appendages as organs, yet with the same effects.
+is_a: NBO:0000636 ! protective behavior
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-4277-2151
+property_value: http://purl.org/dc/elements/1.1/date "2023-04-23" xsd:string
+property_value: source "Tara Lynne Maginnis, The costs of autotomy and regeneration in animals: a review and framework for future research, Behavioral Ecology, Volume 17, Issue 5, September/October 2006, Pages 857–872" xsd:string
+
+[Term]
+id: NBO:0070001
+name: migration
+namespace: behavior_ontology
+def: "Rhythmic behavior that involves cue-initiated, persistent, direct, focused movement between habitats." [ISBN:0199640394]
+synonym: "Movement ecology" RELATED []
+is_a: NBO:0000008 ! rhythmic behavior
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-4277-2151
+property_value: http://purl.org/dc/terms/date "2023-04-22T14:17:43Z" xsd:dateTime
+property_value: source "Dingle H. Migration: the biology of life on the move. Oxford University Press, USA; 2014." xsd:string
+
+[Term]
+id: NBO:0070002
+name: diel vertical migration
+namespace: behavior_ontology
+def: "Migration that involves regular movement up and down in the water column." [DOI:10.1111/brv.12715]
+is_a: NBO:0070001 ! migration
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-2908-3327
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-4277-2151
+property_value: http://purl.org/dc/terms/date "2023-04-22T14:41:53Z" xsd:dateTime
+property_value: source "Bandara K, Varpe Ø, Wijewardene L, Tverberg V, Eiane K. Two hundred years of zooplankton vertical migration research. Biological Reviews. 2021 Aug;96(4):1547-89." xsd:string
+
+[Term]
+id: NBO:0070003
+name: geographical migration
+namespace: behavior_ontology
+def: "Migration that involves regular movement laterally between distant ranges in seasonal cycles." [DOI:10.1146/annurev-ecolsys-012021-031035]
+is_a: NBO:0070001 ! migration
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-4277-2151
+property_value: http://purl.org/dc/elements/1.1/date "2023-05-01T14:41:27Z" xsd:dateTime
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-2908-3327
+
+[Term]
+id: NBO:0070004
+name: stotting
+namespace: behavior_ontology
+def: "Display that involves taking all four legs off the ground simultaneously and holding the legs stiff and straight." [DOI:10.1016/S0003-3472(86)80051-3]
+synonym: "pronking" EXACT []
+is_a: NBO:0020077 ! display condition (to predator)
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-2908-332
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-4277-2151
+property_value: http://purl.org/dc/terms/date "2023-04-24T19:52:42Z" xsd:dateTime
+property_value: source "Caro TM. The functions of stotting: a review of the hypotheses. Animal Behaviour. 1986 Jun 1;34(3):649-62." xsd:string
+
+[Term]
 id: NCBITaxon:1
 name: root
 
@@ -19974,7 +19672,7 @@ name: system
 def: "A material entity consisting of multiple components that are causally integrated." []
 is_a: BFO:0000040 ! material entity
 property_value: IAO:0000116 "May be replaced by a BFO class, as discussed in http://www.jbiomedsem.com/content/4/1/43" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 "http://www.jbiomedsem.com/content/4/1/43" xsd:string
 
 [Term]
@@ -20260,8 +19958,8 @@ id: UBERON:0000058
 name: duct
 is_a: UBERON:0000063 ! organ subunit
 relationship: BFO:0000051 UBERON:0034969 ! has part epithelial layer of duct
-relationship: conduit_for UBERON:0000463 ! organism substance
 relationship: RO:0000086 PATO:0002299 ! has quality tubular
+relationship: RO:0002570 UBERON:0000463 ! conduit for organism substance
 property_value: UBPROP:0000012 "Most ducts, but not all, are exocrine gland ducts. Some ontologies classify structures such as the oviduct here." xsd:string
 
 [Term]
@@ -20346,7 +20044,6 @@ id: UBERON:0000068
 name: embryo stage
 is_a: UBERON:0000105 ! life cycle stage
 disjoint_from: UBERON:0000092 ! post-embryonic stage
-relationship: BFO:0000050 GO:0009790 ! part of embryo development
 relationship: BFO:0000063 UBERON:0000066 ! precedes fully formed stage
 relationship: BFO:0000063 UBERON:0000092 ! precedes post-embryonic stage
 relationship: RO:0002082 GO:0009790 ! simultaneous with embryo development
@@ -20355,7 +20052,6 @@ relationship: RO:0002082 GO:0009790 ! simultaneous with embryo development
 id: UBERON:0000069
 name: larval stage
 is_a: UBERON:0000105 ! life cycle stage
-relationship: BFO:0000050 GO:0002164 ! part of larval development
 relationship: BFO:0000050 UBERON:0000092 ! part of post-embryonic stage
 relationship: RO:0002082 GO:0002164 ! simultaneous with larval development
 relationship: RO:0002087 UBERON:0000068 ! immediately preceded by embryo stage
@@ -20487,7 +20183,7 @@ property_value: depicted:by "http://upload.wikimedia.org/wikipedia/commons/c/c6/
 [Term]
 id: UBERON:0000086
 name: zona pellucida
-is_a: UBERON:0000476 ! acellular anatomical structure
+is_a: UBERON:0005764 ! acellular membrane
 relationship: BFO:0000050 UBERON:0000992 ! part of ovary
 relationship: BFO:0000051 CHEBI:17089 ! has part glycoprotein
 property_value: depicted:by "http://upload.wikimedia.org/wikipedia/commons/8/81/Gray3.png" xsd:anyURI
@@ -20524,7 +20220,6 @@ property_value: depicted:by "http://upload.wikimedia.org/wikipedia/commons/e/e3/
 id: UBERON:0000092
 name: post-embryonic stage
 is_a: UBERON:0000105 ! life cycle stage
-relationship: BFO:0000050 GO:0009791 ! part of post-embryonic development
 relationship: BFO:0000062 UBERON:0000068 ! preceded by embryo stage
 relationship: RO:0002082 GO:0009791 ! simultaneous with post-embryonic development
 property_value: seeAlso "https://github.com/obophenotype/uberon/issues/344" xsd:anyURI
@@ -20591,7 +20286,6 @@ name: cleavage stage
 is_a: UBERON:0000105 ! life cycle stage
 intersection_of: UBERON:0000105 ! life cycle stage
 intersection_of: RO:0002082 GO:0040016 ! simultaneous with embryonic cleavage
-relationship: BFO:0000050 GO:0040016 ! part of embryonic cleavage
 relationship: BFO:0000050 UBERON:0000068 ! part of embryo stage
 relationship: RO:0002082 GO:0040016 ! simultaneous with embryonic cleavage
 relationship: RO:0002087 UBERON:0000106 ! immediately preceded by zygote stage
@@ -20609,7 +20303,6 @@ property_value: IAO:0000116 "consider adding a preceding stage 'morula stage' as
 id: UBERON:0000109
 name: gastrula stage
 is_a: UBERON:0000105 ! life cycle stage
-relationship: BFO:0000050 GO:0007369 ! part of gastrulation
 relationship: BFO:0000050 UBERON:0000068 ! part of embryo stage
 relationship: BFO:0000062 UBERON:0000108 ! preceded by blastula stage
 relationship: RO:0002082 GO:0007369 ! simultaneous with gastrulation
@@ -20619,7 +20312,6 @@ relationship: RO:0002160 NCBITaxon:6072 ! only in taxon Eumetazoa
 id: UBERON:0000110
 name: neurula stage
 is_a: UBERON:0000105 ! life cycle stage
-relationship: BFO:0000050 GO:0001841 ! part of neural tube formation
 relationship: BFO:0000050 UBERON:0000068 ! part of embryo stage
 relationship: BFO:0000062 UBERON:0000109 ! preceded by gastrula stage
 relationship: RO:0002082 GO:0001841 ! simultaneous with neural tube formation
@@ -20630,7 +20322,6 @@ property_value: seeAlso "https://github.com/obophenotype/uberon/issues/343" xsd:
 id: UBERON:0000111
 name: organogenesis stage
 is_a: UBERON:0000105 ! life cycle stage
-relationship: BFO:0000050 GO:0048513 ! part of animal organ development
 relationship: BFO:0000050 UBERON:0000068 ! part of embryo stage
 relationship: BFO:0000062 UBERON:0000110 ! preceded by neurula stage
 relationship: RO:0002082 GO:0048513 ! simultaneous with animal organ development
@@ -20956,12 +20647,6 @@ relationship: BFO:0000050 UBERON:0001555 ! part of digestive tract
 property_value: IAO:0000232 "We model the digestive tract as consisting of two parts: the wall and the lumen." xsd:string
 
 [Term]
-id: UBERON:0000332
-name: yellow bone marrow
-is_a: UBERON:0002371 ! bone marrow
-relationship: BFO:0000050 UBERON:0007195 ! part of stroma of bone marrow
-
-[Term]
 id: UBERON:0000333
 name: intestinal gland
 is_a: UBERON:0003408 ! gland of digestive tract
@@ -21268,7 +20953,6 @@ property_value: RO:0002175 NCBITaxon:4751
 id: UBERON:0000477
 name: anatomical cluster
 is_a: UBERON:0034923 ! disconnected anatomical group
-property_value: IAO:0000116 "Will be obsoleted in CARO v2 [https://github.com/obophenotype/caro/issues/3]" xsd:string
 property_value: RO:0002175 NCBITaxon:33090
 property_value: RO:0002175 NCBITaxon:33208
 property_value: RO:0002175 NCBITaxon:4751
@@ -21605,7 +21289,7 @@ property_value: UBPROP:0000008 "Compared to terrestial animals, the cornea of ze
 [Term]
 id: UBERON:0000965
 name: lens of camera-type eye
-comment: The lens is avascular and nourished by diffusion from the aqueous and vitreous
+comment: The lens is avascular and nourished by diffusion from the aqueous and vitreous humors.
 is_a: UBERON:0004121 ! ectoderm-derived structure
 is_a: UBERON:0005389 ! transparent eye structure
 relationship: BFO:0000050 UBERON:0001801 ! part of anterior segment of eyeball
@@ -22228,7 +21912,7 @@ property_value: depicted:by "http://upload.wikimedia.org/wikipedia/commons/a/a3/
 [Term]
 id: UBERON:0001133
 name: cardiac muscle tissue
-is_a: UBERON:0002036 ! striated muscle tissue
+is_a: UBERON:8600006 ! visceral striated muscle tissue
 disjoint_from: UBERON:0001134 ! skeletal muscle tissue
 relationship: BFO:0000050 UBERON:0000948 ! part of heart
 property_value: IAO:0000116 "check relationship with myocardium. part_of in MA - but we also have a more specific class 'cardiac muscle tissue of myocardium'. Check ncit" xsd:string
@@ -23057,22 +22741,6 @@ relationship: RO:0002202 UBERON:0008835 ! develops from hepatic diverticulum
 relationship: RO:0002433 UBERON:0002107 ! contributes to morphology of liver
 
 [Term]
-id: UBERON:0001281
-name: hepatic sinusoid
-is_a: UBERON:0003909 ! sinusoid
-is_a: UBERON:0005911 ! endo-epithelium
-is_a: UBERON:0015796 ! liver blood vessel
-intersection_of: UBERON:0003909 ! sinusoid
-intersection_of: BFO:0000050 UBERON:0002107 ! part of liver
-relationship: BFO:0000050 RO:0002577 ! part of system
-relationship: BFO:0000050 UBERON:0004647 ! part of liver lobule
-relationship: BFO:0000050 UBERON:0006877 ! part of vasculature of liver
-relationship: RO:0002170 UBERON:0006841 ! connected to central vein of liver
-relationship: RO:0002226 UBERON:0001113 ! develops in lobe of liver
-relationship: RO:0002433 UBERON:0004647 ! contributes to morphology of liver lobule
-property_value: RO:0002175 NCBITaxon:9606
-
-[Term]
 id: UBERON:0001282
 name: intralobular bile duct
 is_a: UBERON:0003704 ! intrahepatic bile duct
@@ -23469,7 +23137,7 @@ property_value: UBPROP:0000013 "we following Kardong in naming the entire tube f
 [Term]
 id: UBERON:0001556
 name: lower urinary tract
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0011216 ! organ system subdivision
 relationship: BFO:0000050 UBERON:0001008 ! part of renal system
 relationship: BFO:0000051 UBERON:0000057 ! has part urethra
 relationship: BFO:0000051 UBERON:0001255 ! has part urinary bladder
@@ -23527,7 +23195,6 @@ intersection_of: UBERON:0014892 ! skeletal muscle organ
 intersection_of: RO:0002005 UBERON:0001650 ! innervated_by hypoglossal nerve
 intersection_of: RO:0002177 UBERON:0001723 ! attached to part of tongue
 intersection_of: RO:0002371 UBERON:0004765 ! attached to skeletal element
-relationship: BFO:0000050 RO:0002577 ! part of system
 relationship: RO:0002005 UBERON:0001650 ! innervated_by hypoglossal nerve
 relationship: RO:0002202 UBERON:0011332 ! develops from extrinsic tongue pre-muscle mass
 relationship: RO:0002371 UBERON:0004765 ! attached to skeletal element
@@ -24480,6 +24147,7 @@ is_a: UBERON:0008339 ! microvascular endothelium
 intersection_of: UBERON:0001986 ! endothelium
 intersection_of: BFO:0000050 UBERON:0001980 ! part of arteriole
 relationship: BFO:0000050 UBERON:0001980 ! part of arteriole
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0001917
@@ -24675,6 +24343,7 @@ relationship: RO:0002202 UBERON:0006965 ! develops from vascular cord
 relationship: RO:0002216 GO:0008015 ! capable of part of blood circulation
 property_value: depicted:by "http://upload.wikimedia.org/wikipedia/commons/2/29/Circulatory_System_en.svg" xsd:anyURI
 property_value: IAO:0000116 "consider adopting the EMAPA superclass 'vascular element', which includes microvasculature (e.g. capillaries), vascular plexus" xsd:string
+property_value: RO:0002175 NCBITaxon:9606
 property_value: UBPROP:0000008 "annelids have blood vessels, but this class is not applicable to annelids." xsd:string
 
 [Term]
@@ -25994,24 +25663,6 @@ relationship: RO:0002215 GO:0046879 ! capable of hormone secretion
 property_value: depicted:by "http://upload.wikimedia.org/wikipedia/commons/d/da/Illu_endocrine_system.png" xsd:anyURI
 
 [Term]
-id: UBERON:0002371
-name: bone marrow
-is_a: UBERON:0000479 ! tissue
-is_a: UBERON:0004120 ! mesoderm-derived structure
-intersection_of: UBERON:0000479 ! tissue
-intersection_of: BFO:0000050 UBERON:0001474 ! part of bone element
-intersection_of: BFO:0000051 UBERON:0012429 ! has part hematopoietic tissue
-relationship: BFO:0000050 UBERON:0001474 ! part of bone element
-relationship: BFO:0000050 UBERON:0002390 ! part of hematopoietic system
-relationship: BFO:0000050 UBERON:0002405 ! part of immune system
-relationship: BFO:0000051 UBERON:0012429 ! has part hematopoietic tissue
-property_value: depicted:by "http://upload.wikimedia.org/wikipedia/commons/7/74/Gray72-en.svg" xsd:anyURI
-property_value: IAO:0000116 "consider placement of NCIT:C53466 medullary bone" xsd:string
-property_value: IAO:0000116 "TODO - create superclass for bone marrow / head kidney. both are portions of tissue in the hematopoetic system. also consider adding as subclass of zone of bone organ for consistency with FMA. See also: Leydig and epigonal organs" xsd:string
-property_value: RO:0002175 NCBITaxon:9606
-property_value: UBPROP:0000009 "In adults, marrow in large bones produces new blood cells[Wikipedia:Bone_marrow]" xsd:string
-
-[Term]
 id: UBERON:0002376
 name: cranial muscle
 comment: defined generically so could in theory encompass FBbt:00003260 'skeletal muscle of head', or the muscle of a starfish Aristotle's lantern, but we restrict this to craniates. Skeletal muscles of the head originate from the non-segmented head mesoderm (Noden, 1983; Wachtler et al., 1984)
@@ -26577,8 +26228,6 @@ relationship: RO:0002202 UBERON:0005721 ! develops from pronephric mesoderm
 id: UBERON:0003061
 name: blood island
 is_a: UBERON:0006598 ! presumptive structure
-relationship: BFO:0000067 GO:0001525 ! contains process angiogenesis
-relationship: BFO:0000067 GO:0030097 ! contains process hemopoiesis
 relationship: RO:0002202 UBERON:0003081 ! develops from lateral plate mesoderm
 relationship: RO:0002387 UBERON:0002390 ! has potential to develop into hematopoietic system
 
@@ -27172,6 +26821,7 @@ is_a: UBERON:0003855 ! gonad mesenchyme
 intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: BFO:0000050 UBERON:0000992 ! part of ovary
 relationship: BFO:0000050 UBERON:0000992 ! part of ovary
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003316
@@ -27250,6 +26900,7 @@ is_a: UBERON:0001206 ! serosa of small intestine
 intersection_of: UBERON:0000042 ! serous membrane
 intersection_of: BFO:0000050 UBERON:0002114 ! part of duodenum
 relationship: BFO:0000050 UBERON:0002114 ! part of duodenum
+property_value: RO:0002175 NCBITaxon:9606
 property_value: UBPROP:0000010 "1st part serosa, 2nd - 4th adventitia" xsd:string
 
 [Term]
@@ -27400,6 +27051,7 @@ is_a: UBERON:0004490 ! cardiac muscle tissue of atrium
 intersection_of: UBERON:0001133 ! cardiac muscle tissue
 intersection_of: BFO:0000050 UBERON:0002078 ! part of right cardiac atrium
 relationship: BFO:0000050 UBERON:0002078 ! part of right cardiac atrium
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003380
@@ -27432,6 +27084,7 @@ is_a: UBERON:0004492 ! cardiac muscle tissue of cardiac septum
 is_a: UBERON:0004667 ! interventricular septum muscular part
 intersection_of: UBERON:0001133 ! cardiac muscle tissue
 intersection_of: BFO:0000050 UBERON:0002094 ! part of interventricular septum
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003384
@@ -27950,6 +27603,7 @@ is_a: UBERON:0003497 ! abdomen blood vessel
 intersection_of: UBERON:0001981 ! blood vessel
 intersection_of: BFO:0000050 UBERON:0002113 ! part of kidney
 relationship: BFO:0000050 UBERON:0006544 ! part of kidney vasculature
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003519
@@ -27982,6 +27636,7 @@ is_a: UBERON:0001982 ! capillary
 is_a: UBERON:0003517 ! kidney blood vessel
 intersection_of: UBERON:0001982 ! capillary
 intersection_of: BFO:0000050 UBERON:0002113 ! part of kidney
+property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003528
@@ -28411,9 +28066,9 @@ name: foramen magnum
 comment: Design pattern notes: check whether this fits the foramen design pattern
 is_a: UBERON:0013685 ! foramen of skull
 intersection_of: UBERON:0013685 ! foramen of skull
-intersection_of: conduit_for UBERON:0001896 ! medulla oblongata
-relationship: conduit_for UBERON:0001896 ! medulla oblongata
+intersection_of: RO:0002570 UBERON:0001896 ! conduit for medulla oblongata
 relationship: RO:0001025 UBERON:0001676 ! located in occipital bone
+relationship: RO:0002570 UBERON:0001896 ! conduit for medulla oblongata
 property_value: depicted:by "http://upload.wikimedia.org/wikipedia/commons/3/39/Gray130.png" xsd:anyURI
 
 [Term]
@@ -28812,12 +28467,6 @@ relationship: RO:0002256 UBERON:0005426 ! developmentally induced by lens vesicl
 relationship: RO:0002495 UBERON:0005425 ! immediate transformation of presumptive neural retina
 
 [Term]
-id: UBERON:0003909
-name: sinusoid
-is_a: UBERON:2005260 ! fenestrated capillary
-property_value: UBPROP:0000007 "sinusoidal" xsd:string
-
-[Term]
 id: UBERON:0003914
 name: epithelial tube
 is_a: UBERON:0000025 ! tube
@@ -28842,7 +28491,6 @@ intersection_of: UBERON:0003104 ! mesenchyme
 intersection_of: RO:0002387 UBERON:0002113 ! has potential to develop into kidney
 relationship: RO:0002387 UBERON:0002113 ! has potential to develop into kidney
 property_value: IAO:0000116 "check this" xsd:string
-property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0003920
@@ -29097,10 +28745,10 @@ name: anatomical conduit
 is_a: UBERON:0010000 ! multicellular anatomical structure
 intersection_of: UBERON:0010000 ! multicellular anatomical structure
 intersection_of: BFO:0000051 UBERON:0013686 ! has part anatomical conduit space
-intersection_of: conduit_for UBERON:0000061 ! anatomical structure
+intersection_of: RO:0002570 UBERON:0000061 ! conduit for anatomical structure
 relationship: BFO:0000051 UBERON:0013686 ! has part anatomical conduit space
-relationship: conduit_for UBERON:0000061 ! anatomical structure
 relationship: RO:0002176 UBERON:0000464 {cardinality="2"} ! connects anatomical space
+relationship: RO:0002570 UBERON:0000061 ! conduit for anatomical structure
 property_value: RO:0002175 NCBITaxon:33090
 property_value: RO:0002175 NCBITaxon:33208
 property_value: RO:0002175 NCBITaxon:4751
@@ -30282,7 +29930,6 @@ property_value: IAO:0000116 "EHDAA2 places this as a subtype of organism. This l
 id: UBERON:0004729
 name: nematode larval stage
 is_a: UBERON:0000069 ! larval stage
-relationship: BFO:0000050 GO:0002119 ! part of nematode larval development
 relationship: RO:0002082 GO:0002119 ! simultaneous with nematode larval development
 relationship: RO:0002160 NCBITaxon:6231 ! only in taxon Nematoda
 property_value: seeAlso "https://github.com/obophenotype/uberon/issues/567" xsd:anyURI
@@ -32074,11 +31721,11 @@ name: jugular foramen
 is_a: UBERON:0018321 ! foramen for glossopharyngeal nerve
 intersection_of: UBERON:0013685 ! foramen of skull
 intersection_of: BFO:0000050 UBERON:0001678 ! part of temporal bone
-intersection_of: conduit_for UBERON:0001586 ! internal jugular vein
+intersection_of: RO:0002570 UBERON:0001586 ! conduit for internal jugular vein
 relationship: BFO:0000050 UBERON:0001678 ! part of temporal bone
-relationship: conduit_for UBERON:0001586 ! internal jugular vein
-relationship: conduit_for UBERON:0001759 ! vagus nerve
-relationship: conduit_for UBERON:0002019 ! accessory XI nerve
+relationship: RO:0002570 UBERON:0001586 ! conduit for internal jugular vein
+relationship: RO:0002570 UBERON:0001759 ! conduit for vagus nerve
+relationship: RO:0002570 UBERON:0002019 ! conduit for accessory XI nerve
 property_value: depicted:by "http://upload.wikimedia.org/wikipedia/commons/f/fa/Foramenjugulare.PNG" xsd:anyURI
 
 [Term]
@@ -33100,6 +32747,7 @@ name: pharynx
 is_a: UBERON:0004921 ! subdivision of digestive tract
 relationship: RO:0002160 NCBITaxon:33213 ! only in taxon Bilateria
 property_value: IAO:0000232 "currently this is an extremely generic class, encompassing both protostomes and deuterostomes." xsd:string
+property_value: IAO:0006012 "2023-04-20" xsd:string
 property_value: UBPROP:0000007 "branchial" xsd:string
 property_value: UBPROP:0000007 "pharyngeal" xsd:string
 
@@ -33245,9 +32893,9 @@ id: UBERON:0006668
 name: carotid canal
 is_a: UBERON:0013685 ! foramen of skull
 intersection_of: UBERON:0013685 ! foramen of skull
-intersection_of: conduit_for UBERON:0001532 ! internal carotid artery
+intersection_of: RO:0002570 UBERON:0001532 ! conduit for internal carotid artery
 relationship: BFO:0000050 UBERON:0001678 ! part of temporal bone
-relationship: conduit_for UBERON:0001532 ! internal carotid artery
+relationship: RO:0002570 UBERON:0001532 ! conduit for internal carotid artery
 property_value: depicted:by "http://upload.wikimedia.org/wikipedia/commons/4/4c/Gray141.png" xsd:anyURI
 
 [Term]
@@ -33273,10 +32921,10 @@ id: UBERON:0006682
 name: hypoglossal canal
 is_a: UBERON:0013685 ! foramen of skull
 intersection_of: UBERON:0004111 ! anatomical conduit
-intersection_of: conduit_for UBERON:0001650 ! hypoglossal nerve
+intersection_of: RO:0002570 UBERON:0001650 ! conduit for hypoglossal nerve
 relationship: BFO:0000050 UBERON:0001676 ! part of occipital bone
-relationship: conduit_for UBERON:0001650 ! hypoglossal nerve
 relationship: RO:0002160 NCBITaxon:7776 ! only in taxon Gnathostomata <vertebrates>
+relationship: RO:0002570 UBERON:0001650 ! conduit for hypoglossal nerve
 
 [Term]
 id: UBERON:0006756
@@ -33342,14 +32990,6 @@ intersection_of: site_of GO:0009790 ! embryo development
 relationship: BFO:0000050 UBERON:0000474 ! part of female reproductive system
 relationship: RO:0002160 NCBITaxon:33208 ! only in taxon Metazoa
 relationship: site_of GO:0009790 ! embryo development
-
-[Term]
-id: UBERON:0006841
-name: central vein of liver
-is_a: UBERON:0013126 ! vein of abdomen
-is_a: UBERON:0015796 ! liver blood vessel
-relationship: BFO:0000050 UBERON:0004647 ! part of liver lobule
-property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0006846
@@ -33710,18 +33350,6 @@ is_a: UBERON:0003388 ! mesothelium of pericardial cavity
 intersection_of: UBERON:0001136 ! mesothelium
 intersection_of: BFO:0000050 UBERON:0002357 ! part of serous pericardium
 relationship: BFO:0000050 UBERON:0002357 ! part of serous pericardium
-
-[Term]
-id: UBERON:0007195
-name: stroma of bone marrow
-is_a: UBERON:0003891 ! stroma
-is_a: UBERON:0004120 ! mesoderm-derived structure
-intersection_of: UBERON:0003891 ! stroma
-intersection_of: BFO:0000050 UBERON:0002371 ! part of bone marrow
-relationship: BFO:0000050 UBERON:0002371 ! part of bone marrow
-relationship: BFO:0000051 UBERON:0000332 ! has part yellow bone marrow
-relationship: BFO:0000051 UBERON:0003909 ! has part sinusoid
-property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
 id: UBERON:0007196
@@ -34600,7 +34228,7 @@ relationship: RO:0002202 UBERON:0000087 ! develops from inner cell mass
 [Term]
 id: UBERON:0008814
 name: pharyngeal arch system
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0034921 ! multi organ part structure
 relationship: BFO:0000050 UBERON:0000922 ! part of embryo
 relationship: BFO:0000050 UBERON:0009145 ! part of pharyngeal region of foregut
 relationship: RO:0002160 NCBITaxon:7711 ! only in taxon Chordata
@@ -34692,7 +34320,6 @@ is_a: UBERON:0004253 ! skin muscle
 is_a: UBERON:0014892 ! skeletal muscle organ
 intersection_of: UBERON:0014892 ! skeletal muscle organ
 intersection_of: BFO:0000050 UBERON:0002072 ! part of hypodermis
-relationship: BFO:0000050 RO:0002577 ! part of system
 relationship: BFO:0000050 UBERON:0002072 ! part of hypodermis
 relationship: RO:0001025 UBERON:0002190 ! located in subcutaneous adipose tissue
 relationship: RO:0002373 UBERON:0002097 ! has muscle insertion skin of body
@@ -35041,24 +34668,6 @@ is_a: UBERON:0005291 ! embryonic tissue
 intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0006757 ! part of lateral lingual swelling
 relationship: BFO:0000050 UBERON:0006757 ! part of lateral lingual swelling
-
-[Term]
-id: UBERON:0009548
-name: hepatic sinusoid of left of lobe of liver
-is_a: UBERON:0001281 ! hepatic sinusoid
-intersection_of: UBERON:0001281 ! hepatic sinusoid
-intersection_of: BFO:0000050 UBERON:0001115 ! part of left lobe of liver
-relationship: BFO:0000050 UBERON:0001115 ! part of left lobe of liver
-relationship: RO:0002226 UBERON:0001115 ! develops in left lobe of liver
-
-[Term]
-id: UBERON:0009549
-name: hepatic sinusoid of right of lobe of liver
-is_a: UBERON:0001281 ! hepatic sinusoid
-intersection_of: UBERON:0001281 ! hepatic sinusoid
-intersection_of: BFO:0000050 UBERON:0001114 ! part of right lobe of liver
-relationship: BFO:0000050 UBERON:0001114 ! part of right lobe of liver
-relationship: RO:0002226 UBERON:0001114 ! develops in right lobe of liver
 
 [Term]
 id: UBERON:0009550
@@ -36786,7 +36395,8 @@ intersection_of: BFO:0000050 UBERON:0002101 ! part of limb
 [Term]
 id: UBERON:0011143
 name: upper urinary tract
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0011216 ! organ system subdivision
+is_a: UBERON:0015212 ! lateral structure
 relationship: BFO:0000050 UBERON:0001008 ! part of renal system
 relationship: BFO:0000051 UBERON:0000056 ! has part ureter
 relationship: BFO:0000051 UBERON:0002113 ! has part kidney
@@ -37516,17 +37126,6 @@ is_a: UBERON:0012423 ! layer of microvilli
 relationship: BFO:0000050 UBERON:0000160 ! part of intestine
 
 [Term]
-id: UBERON:0012429
-name: hematopoietic tissue
-is_a: UBERON:0004120 ! mesoderm-derived structure
-is_a: UBERON:0034769 ! lymphomyeloid tissue
-intersection_of: UBERON:0000479 ! tissue
-intersection_of: site_of GO:0030097 ! hemopoiesis
-relationship: BFO:0000050 UBERON:0002390 ! part of hematopoietic system
-relationship: site_of GO:0030097 ! hemopoiesis
-property_value: UBPROP:0000008 "Bone marrow in humans, kidney interstitium in Danio, within a stroma of reticuloendothelial tissue" xsd:string
-
-[Term]
 id: UBERON:0012430
 name: tunica fibrosa of eyeball
 is_a: UBERON:0004121 ! ectoderm-derived structure
@@ -38022,23 +37621,6 @@ relationship: RO:0002473 UBERON:0001134 ! composed primarily of skeletal muscle 
 property_value: IAO:0000232 "this class may be merged with 'respiratory system muscle'; check intercostals" xsd:string
 
 [Term]
-id: UBERON:0014399
-name: sinusoidal space
-is_a: UBERON:0010161 ! lumen of blood vessel
-intersection_of: UBERON:0000464 ! anatomical space
-intersection_of: RO:0002572 UBERON:0003909 ! luminal space of sinusoid
-relationship: BFO:0000050 UBERON:0003909 ! part of sinusoid
-relationship: RO:0002572 UBERON:0003909 ! luminal space of sinusoid
-
-[Term]
-id: UBERON:0014400
-name: hepatic sinusoidal space
-is_a: UBERON:0014399 ! sinusoidal space
-intersection_of: UBERON:0014399 ! sinusoidal space
-intersection_of: BFO:0000050 UBERON:0001281 ! part of hepatic sinusoid
-relationship: BFO:0000050 UBERON:0001281 ! part of hepatic sinusoid
-
-[Term]
 id: UBERON:0014401
 name: renal venous blood vessel
 is_a: UBERON:0003517 ! kidney blood vessel
@@ -38230,6 +37812,7 @@ relationship: BFO:0000050 UBERON:0007270 ! part of pelvic appendage musculature
 id: UBERON:0014892
 name: skeletal muscle organ
 is_a: UBERON:0001630 ! muscle organ
+relationship: BFO:0000050 RO:0002577 ! part of system
 relationship: BFO:0000050 UBERON:0018254 ! part of skeletal musculature
 relationship: RO:0002202 UBERON:0003082 ! develops from myotome
 relationship: RO:0002219 UBERON:0011899 ! surrounded by epimysium
@@ -38480,11 +38063,6 @@ intersection_of: UBERON:0000483 ! epithelium
 intersection_of: BFO:0000050 UBERON:0000159 ! part of anal canal
 relationship: BFO:0000050 UBERON:0000159 ! part of anal canal
 property_value: RO:0002175 NCBITaxon:9606
-
-[Term]
-id: UBERON:0015757
-name: heterogeneous tissue
-is_a: UBERON:0000479 ! tissue
 
 [Term]
 id: UBERON:0015783
@@ -38880,9 +38458,9 @@ id: UBERON:0018321
 name: foramen for glossopharyngeal nerve
 is_a: UBERON:0013685 ! foramen of skull
 intersection_of: UBERON:0013685 ! foramen of skull
-intersection_of: conduit_for UBERON:0001649 ! glossopharyngeal nerve
+intersection_of: RO:0002570 UBERON:0001649 ! conduit for glossopharyngeal nerve
 relationship: BFO:0000050 UBERON:0003128 ! part of cranium
-relationship: conduit_for UBERON:0001649 ! glossopharyngeal nerve
+relationship: RO:0002570 UBERON:0001649 ! conduit for glossopharyngeal nerve
 
 [Term]
 id: UBERON:0018543
@@ -39233,11 +38811,6 @@ relationship: extends_fibers_into UBERON:0001806 ! sympathetic ganglion
 property_value: RO:0002175 NCBITaxon:9606
 
 [Term]
-id: UBERON:0034769
-name: lymphomyeloid tissue
-is_a: UBERON:0015757 ! heterogeneous tissue
-
-[Term]
 id: UBERON:0034873
 name: bodily gas
 is_a: UBERON:0000463 ! organism substance
@@ -39562,7 +39135,7 @@ relationship: BFO:0000050 UBERON:0003070 ! part of trigeminal placode complex
 [Term]
 id: UBERON:0035639
 name: ocular adnexa
-is_a: UBERON:0000477 ! anatomical cluster
+is_a: UBERON:0034921 ! multi organ part structure
 relationship: BFO:0000050 UBERON:0004088 ! part of orbital region
 
 [Term]
@@ -40105,14 +39678,6 @@ intersection_of: BFO:0000050 UBERON:0002090 ! part of postcranial axial skeleton
 relationship: BFO:0000050 UBERON:0002090 ! part of postcranial axial skeleton
 
 [Term]
-id: UBERON:2005260
-name: fenestrated capillary
-is_a: UBERON:0001982 ! capillary
-is_a: UBERON:0004638 ! blood vessel endothelium
-property_value: IAO:0000116 "the ZFA class from which this was derived is not explicitly classified as a capillary - need to verify for taxon histology differences" xsd:string
-property_value: UBPROP:0000001 "Blood vessel endothelium that has pores that allow passage small molecules and proteins[ZFA]." xsd:string
-
-[Term]
 id: UBERON:2007013
 name: preplacodal ectoderm
 is_a: UBERON:0005497 ! non-neural ectoderm
@@ -40510,6 +40075,17 @@ intersection_of: UBERON:0000014 ! zone of skin
 intersection_of: BFO:0000050 UBERON:0004176 ! part of external genitalia
 relationship: BFO:0000050 UBERON:0004176 ! part of external genitalia
 
+[Term]
+id: UBERON:8600004
+name: visceral muscle tissue
+is_a: UBERON:0002385 ! muscle tissue
+
+[Term]
+id: UBERON:8600006
+name: visceral striated muscle tissue
+is_a: UBERON:0002036 ! striated muscle tissue
+is_a: UBERON:8600004 ! visceral muscle tissue
+
 [Typedef]
 id: BFO:0000050
 name: part of
@@ -40821,7 +40397,7 @@ def: "a relation between a material entity and a 2D immaterial entity (the bound
 property_value: IAO:0000112 "my body has 2D boundary the surface of my skin" xsd:string
 property_value: IAO:0000116 "A 2D boundary may have holes and gaps, but it must be a single connected entity, not an aggregate of several disconnected parts." xsd:string
 property_value: IAO:0000116 "Although the boundary is two-dimensional, it exists in three-dimensional space and thus has a 3D shape." xsd:string
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "has boundary" xsd:string
 property_value: IAO:0000118 "has_2D_boundary" xsd:string
 property_value: RO:0001900 RO:0001901
@@ -40833,7 +40409,7 @@ is_a: RO:0002323 ! mereotopologically related to
 id: RO:0002005
 name: innervated_by
 property_value: http://purl.org/spar/cito/citesAsAuthority "http://www.ncbi.nlm.nih.gov/pubmed/22402613" xsd:anyURI
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 inverse_of: RO:0002134 ! innervates
 
 [Typedef]
@@ -40841,7 +40417,7 @@ id: RO:0002007
 name: bounding layer of
 def: "X outer_layer_of Y iff:\n. X :continuant that bearer_of some PATO:laminar\n. X part_of Y\n. exists Z :surface\n. X has_boundary Z\n. Z boundary_of Y\n\nhas_boundary: http://purl.obolibrary.org/obo/RO_0002002\nboundary_of: http://purl.obolibrary.org/obo/RO_0002000" []
 comment: A relationship that applies between a continuant and its outer, bounding layer.  Examples include the relationship between a multicellular organism and its integument, between an animal cell and its plasma membrane, and between a membrane bound organelle and its outer/bounding membrane.
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 range: BFO:0000040 ! material entity
 is_a: BFO:0000050 ! part of
 
@@ -40920,6 +40496,7 @@ id: RO:0002082
 name: simultaneous with
 comment: t1 simultaneous_with t2 iff:=  t1 before_or_simultaneous_with t2  and not (t1 before t2)
 property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 is_transitive: true
 is_a: RO:0002081 ! before or simultaneous with
 
@@ -40946,6 +40523,7 @@ id: RO:0002090
 name: immediately precedes
 comment: X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)
 property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "ends_at_start_of" xsd:string
 property_value: IAO:0000118 "meets" xsd:string
 property_value: RO:0002575 BFO:0000063
@@ -40972,7 +40550,7 @@ name: innervates
 def: "Relation between a 'neuron projection bundle' and a region in which one or more of its component neuron projections either synapses to targets or receives synaptic input.\nT innervates some R\nExpands_to: T has_fasciculating_neuron_projection that synapse_in some R." []
 property_value: http://purl.org/spar/cito/citesAsAuthority http://www.ncbi.nlm.nih.gov/pubmed/22402613
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: RO:0001900 RO:0001901
 transitive_over: BFO:0000050 ! part of
 expand_expression_to: "RO_0002132 some (GO_0043005 that (RO_0002131 some (GO_0045202 that BFO_0000050 some Y?)))" []
@@ -40982,7 +40560,7 @@ id: RO:0002150
 name: continuous with
 def: "X continuous_with Y if and only if X and Y share a fiat boundary." []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "connected to" xsd:string
 property_value: IAO:0000232 "The label for this relation was previously connected to. I relabeled this to \"continuous with\". The standard notion of connectedness does not imply shared boundaries - e.g. Glasgow connected_to Edinburgh via M8; my patella connected_to my femur (via patellar-femoral joint)" xsd:string
 property_value: RO:0001900 RO:0001901
@@ -40999,7 +40577,7 @@ def: "x only in taxon y if and only if x is in taxon y, and there is no other or
 property_value: IAO:0000112 "lactation SubClassOf 'only in taxon' some 'Mammalia'" xsd:string
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000116 "The original intent was to treat this as a macro that expands to 'in taxon' only ?Y - however, this is not necessary if we instead have supplemental axioms that state that each pair of sibling tax have a disjointness axiom using the 'in taxon' property - e.g.\n\n 'in taxon' some Eukaryota DisjointWith 'in taxon' some Eubacteria" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/17921072
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20973947
 property_value: seeAlso https://github.com/obophenotype/uberon/wiki/Taxon-constraints
@@ -41011,8 +40589,8 @@ name: in taxon
 def: "x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed." []
 comment: Connects a biological entity to its taxon of origin.
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 "Jennifer Deegan" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-9227-417X
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/17921072
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20973947
 property_value: seeAlso https://github.com/obophenotype/uberon/wiki/Taxon-constraints
@@ -41030,7 +40608,7 @@ name: spatially disjoint from
 def: "A is spatially_disjoint_from B if and only if they have no parts in common" []
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000116 "There are two ways to encode this as a shortcut relation. The other possibility to use an annotation assertion between two classes, and expand this to a disjointness axiom. " xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/22293552
 property_value: IAO:0000232 "Note that it would be possible to use the relation to label the relationship between a near infinite number of structures - between the rings of saturn and my left earlobe. The intent is that this is used for parsiomoniously for disambiguation purposes - for example, between siblings in a jointly exhaustive pairwise disjointness hierarchy" xsd:string
 property_value: RO:0001900 RO:0001901
@@ -41102,10 +40680,10 @@ name: develops from
 def: "x develops from y if and only if either (a) x directly develops from y or (b) there exists some z such that x directly develops from z and z develops from y" []
 comment: This is the transitive form of the develops from relation
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
-property_value: IAO:0000117 "Melissa Haendel" xsd:string
-property_value: IAO:0000117 "Terry Meehan" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-9114-8737
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
+property_value: IAO:0000117 https://orcid.org/0000-0003-1980-3228
 domain: BFO:0000004 ! independent continuant
 range: BFO:0000004 ! independent continuant
 is_transitive: true
@@ -41117,9 +40695,9 @@ id: RO:0002203
 name: develops into
 def: "inverse of develops from" []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
-property_value: IAO:0000117 "Terry Meehan" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
+property_value: IAO:0000117 https://orcid.org/0000-0003-1980-3228
 is_transitive: true
 is_a: RO:0002286 ! developmentally succeeded by
 is_a: RO:0002387 ! has potential to develop into
@@ -41131,9 +40709,8 @@ name: directly develops from
 def: "Candidate definition: x directly_develops from y if and only if there exists some developmental process (GO:0032502) p such that x and y both participate in p, and x is the output of p and y is the input of p, and a substantial portion of the matter of x comes from y, and the start of x is coincident with or after the end of y." []
 comment: TODO - add child relations from DOS
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
-property_value: IAO:0000117 "has developmental precursor" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000119 "FBbt" xsd:string
 property_value: RO:0002575 RO:0002202
 is_a: RO:0002202 ! develops from
@@ -41151,9 +40728,9 @@ is_a: RO:0002203 ! develops into
 id: RO:0002211
 name: regulates
 def: "p regulates q iff p is causally upstream of q, the execution of p is not constant and varies according to specific conditions, and p influences the rate or magnitude of execution of q due to an effect either on some enabler of q or some enabler of a part of q." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 "David Hill" xsd:string
-property_value: IAO:0000117 "Tanya Berardini" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-7476-6306
+property_value: IAO:0000117 https://orcid.org/0000-0002-3837-8864
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 "GO" xsd:string
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000232 "Regulation precludes parthood; the regulatory process may not be within the regulated process." xsd:string
@@ -41172,7 +40749,7 @@ transitive_over: RO:0002025 ! has effector activity
 id: RO:0002212
 name: negatively regulates
 def: "p negatively regulates q iff p regulates q, and p decreases the rate or magnitude of execution of q." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000589 "negatively regulates (process to process)" xsd:string
 property_value: RO:0004050 RO:0002211
@@ -41185,7 +40762,7 @@ inverse_of: RO:0002335 ! negatively regulated by
 id: RO:0002213
 name: positively regulates
 def: "p positively regulates q iff p regulates q, and p increases the rate or magnitude of execution of q." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000589 "positively regulates (process to process)" xsd:string
 property_value: RO:0004049 RO:0002211
@@ -41202,7 +40779,7 @@ name: capable of
 def: "A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. " []
 property_value: IAO:0000112 "mechanosensory neuron capable of detection of mechanical stimulus involved in sensory perception (GO:0050974)" xsd:string
 property_value: IAO:0000112 "osteoclast SubClassOf 'capable of' some 'bone resorption'" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "has function realized in" xsd:string
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20123131
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/21208450
@@ -41215,7 +40792,7 @@ is_a: RO:0002216 ! capable of part of
 id: RO:0002216
 name: capable of part of
 def: "c stands in this relationship to p if and only if there exists some p' such that c is capable_of p', and p' is part_of p." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "has function in" xsd:string
 property_value: seeAlso http://purl.obolibrary.org/obo/ro/docs/reflexivity/
 holds_over_chain: RO:0002215 BFO:0000050 {http://purl.obolibrary.org/obo/RO_0002582="true"}
@@ -41227,7 +40804,7 @@ id: RO:0002219
 name: surrounded by
 def: "x surrounded_by y if and only if (1) x is adjacent to y and for every region r that is adjacent to x, r overlaps y (2) the shared boundary between x and y occupies the majority of the outermost boundary of x" []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: RO:0001900 RO:0001901
 is_a: RO:0002220 ! adjacent to
 inverse_of: RO:0002221 ! surrounds
@@ -41242,7 +40819,7 @@ property_value: IAO:0000112 "The plasma membrane of a cell is adjacent to the cy
 property_value: IAO:0000112 "The skin of the forelimb is adjacent to the skin of the torso if these are considered anatomical subdivisions with a defined border. Otherwise a relation such as continuous_with would be used." xsd:string
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000116 "This relation acts as a join point with BSPO" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: RO:0001900 RO:0001901
 domain: BFO:0000004 ! independent continuant
 range: BFO:0000004 ! independent continuant
@@ -41253,7 +40830,7 @@ id: RO:0002221
 name: surrounds
 def: "inverse of surrounded by" []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: RO:0001900 RO:0001901
 is_a: RO:0002220 ! adjacent to
 
@@ -41262,7 +40839,7 @@ id: RO:0002222
 name: temporally related to
 comment: A relation that holds between two occurrents. This is a grouping relation that collects together all the Allen relations.
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 https://en.wikipedia.org/wiki/Allen%27s_interval_algebra
 property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for relations between occurrents involving the relative timing of their starts and ends." xsd:string
 domain: BFO:0000003 ! occurrent
@@ -41274,6 +40851,7 @@ name: starts
 def: "inverse of starts with" []
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 "Allen" xsd:string
 is_a: BFO:0000050 ! part of
 is_a: RO:0002222 ! temporally related to
@@ -41286,6 +40864,7 @@ def: "x starts with y if and only if x has part y and the time point at which x 
 property_value: IAO:0000112 "Every insulin receptor signaling pathway starts with the binding of a ligand to the insulin receptor" xsd:string
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "started by" xsd:string
 is_transitive: true
 is_a: BFO:0000051 ! has part
@@ -41296,7 +40875,7 @@ id: RO:0002225
 name: develops from part of
 def: "x develops from part of y if and only if there exists some z such that x develops from z and z is part of y" []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 holds_over_chain: RO:0002207 BFO:0000050
 is_a: RO:0002202 ! develops from
 
@@ -41305,7 +40884,7 @@ id: RO:0002226
 name: develops in
 def: "x develops_in y if x is located in y whilst x is developing" []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 "EHDAA2" xsd:string
 property_value: IAO:0000119 "Jonathan Bard, EHDAA2" xsd:string
 holds_over_chain: RO:0002207 RO:0001025
@@ -41317,6 +40896,7 @@ name: ends
 def: "inverse of ends with" []
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: BFO:0000050 ! part of
 is_a: RO:0002222 ! temporally related to
 inverse_of: RO:0002230 ! ends with
@@ -41327,6 +40907,7 @@ name: ends with
 def: "x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) > α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point." []
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "finished by" xsd:string
 is_transitive: true
 is_a: BFO:0000051 ! has part
@@ -41337,7 +40918,7 @@ id: RO:0002231
 name: has start location
 def: "x 'has starts location' y if and only if there exists some process z such that x 'starts with' z and z 'occurs in' y" []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "starts with process that occurs in" xsd:string
 domain: BFO:0000015 ! process
 range: BFO:0000004 ! independent continuant
@@ -41349,7 +40930,7 @@ id: RO:0002232
 name: has end location
 def: "x 'has end location' y if and only if there exists some process z such that x 'ends with' z and z 'occurs in' y" []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "ends with process that occurs in" xsd:string
 domain: BFO:0000015 ! process
 range: BFO:0000004 ! independent continuant
@@ -41361,7 +40942,7 @@ id: RO:0002233
 name: has input
 def: "p has input c iff: p is a process, c is a material entity, c is a participant in p, c is present at the start of p, and the state of c is modified during p." []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "consumes" xsd:string
 domain: BFO:0000015 ! process
 holds_over_chain: RO:0002224 RO:0002233
@@ -41373,7 +40954,7 @@ id: RO:0002234
 name: has output
 def: "p has output c iff c is a participant in p, c is present at the end of p, and c is not present in the same state at the beginning of p." []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "produces" xsd:string
 holds_over_chain: RO:0002230 RO:0002234
 is_a: RO:0000057 ! has participant
@@ -41385,7 +40966,7 @@ name: has developmental contribution from
 def: "x has developmental contribution from y iff x has some part z such that z develops from y" []
 property_value: IAO:0000112 "Mammalian thymus has developmental contribution from some pharyngeal pouch 3; Mammalian thymus has developmental contribution from some pharyngeal pouch 4 [Kardong]" xsd:string
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 holds_over_chain: BFO:0000051 RO:0002202
 is_a: RO:0002258 ! developmentally preceded by
 inverse_of: RO:0002255 ! developmentally contributes to
@@ -41395,7 +40976,7 @@ id: RO:0002255
 name: developmentally contributes to
 def: "inverse of has developmental contribution from" []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 holds_over_chain: RO:0002203 BFO:0000050
 is_a: RO:0002286 ! developmentally succeeded by
 is_a: RO:0002385 ! has potential to developmentally contribute to
@@ -41405,9 +40986,9 @@ id: RO:0002256
 name: developmentally induced by
 def: "t1 induced_by t2 if there is a process of developmental induction (GO:0031128) with t1 and t2 as interacting participants. t2 causes t1 to change its fate from a precursor material anatomical entity type T to T', where T' develops_from T" []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 "David Osumi-Sutherland" xsd:string
-property_value: IAO:0000117 "Melissa Haendel" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-9114-8737
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0002-7073-9172
 property_value: IAO:0000118 "induced by" xsd:string
 property_value: IAO:0000119 " Developmental Biology, Gilbert, 8th edition, figure 6.5(F)" xsd:string
 property_value: IAO:0000119 "GO:0001759" xsd:string
@@ -41421,7 +41002,7 @@ id: RO:0002257
 name: developmentally induces
 def: "Inverse of developmentally induced by" []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002286 ! developmentally succeeded by
 is_a: RO:0002386 ! has potential to developmentally induce
 
@@ -41432,7 +41013,7 @@ def: "Candidate definition: x developmentally related to y if and only if there 
 comment: This relation groups together various other developmental relations. It is fairly generic, encompassing induction, developmental contribution and direct and transitive develops from
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000116 "false" xsd:boolean
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "In general you should not use this relation to make assertions - use one of the more specific relations below this one" xsd:string
 domain: BFO:0000002 ! continuant
 range: BFO:0000002 ! continuant
@@ -41463,7 +41044,7 @@ name: developmentally replaces
 def: "x developmentally replaces y if and only if there is some developmental process that causes x to move or to cease to exist, and for the site that was occupied by x to become occupied by y, where y either comes into existence in this site or moves to this site from somewhere else" []
 property_value: IAO:0000114 IAO:0000125
 property_value: IAO:0000116 "This relation is intended for cases such as when we have a bone element replacing its cartilage element precursor. Currently most AOs represent this using 'develops from'. We need to decide whether 'develops from' will be generic and encompass replacement, or whether we need a new name for a generic relation that encompasses replacement and development-via-cell-lineage" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "replaces" xsd:string
 is_a: RO:0002258 ! developmentally preceded by
 
@@ -41472,7 +41053,7 @@ id: RO:0002286
 name: developmentally succeeded by
 def: "Inverse of developmentally preceded by" []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002384 ! has developmental potential involving
 
 [Typedef]
@@ -41480,7 +41061,7 @@ id: RO:0002287
 name: part of developmental precursor of
 property_value: IAO:0000112 "'hypopharyngeal eminence' SubClassOf 'part of precursor of' some tongue" xsd:string
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 holds_over_chain: BFO:0000050 RO:0002210
 is_a: RO:0002286 ! developmentally succeeded by
 
@@ -41506,7 +41087,7 @@ id: RO:0002314
 name: characteristic of part of
 def: "q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w." []
 property_value: IAO:0000116 "Because part_of is transitive, inheres in is a sub-relation of characteristic of part of" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "inheres in part of" xsd:string
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20064205
 property_value: RO:0001900 RO:0001901
@@ -41519,14 +41100,14 @@ transitive_over: BFO:0000050 ! part of
 id: RO:0002320
 name: evolutionarily related to
 def: "A relationship that holds via some environmental process" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving the process of evolution." xsd:string
 
 [Typedef]
 id: RO:0002323
 name: mereotopologically related to
 def: "A mereological relationship or a topological relationship" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving parthood or connectivity relationships" xsd:string
 property_value: RO:0001900 RO:0001901
 
@@ -41534,7 +41115,7 @@ property_value: RO:0001900 RO:0001901
 id: RO:0002324
 name: developmentally related to
 def: "A relationship that holds between entities participating in some developmental process (GO:0032502)" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving organismal development" xsd:string
 
 [Typedef]
@@ -41542,7 +41123,7 @@ id: RO:0002327
 name: enables
 def: "c enables p iff c is capable of p and c acts to execute p." []
 property_value: IAO:0000112 "a particular instances of akt-2 enables some instance of protein kinase activity" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "catalyzes" xsd:string
 property_value: IAO:0000118 "executes" xsd:string
 property_value: IAO:0000118 "has" xsd:string
@@ -41558,14 +41139,14 @@ transitive_over: RO:0002017 ! has component activity
 id: RO:0002328
 name: functionally related to
 def: "A grouping relationship for any relationship directly involving a function, or that holds because of a function of one of the related entities." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "This is a grouping relation that collects relations used for the purpose of connecting structure and function" xsd:string
 
 [Typedef]
 id: RO:0002329
 name: part of structure that is capable of
 def: "this relation holds between c and p when c is part of some c', and c' is capable of p." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "false" xsd:boolean
 holds_over_chain: BFO:0000050 RO:0002215 {http://purl.obolibrary.org/obo/RO_0002581="true"}
 is_a: RO:0002328 ! functionally related to
@@ -41574,7 +41155,7 @@ is_a: RO:0002328 ! functionally related to
 id: RO:0002331
 name: involved in
 def: "c involved_in p if and only if c enables some process p', and p' is part of p" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "actively involved in" xsd:string
 property_value: IAO:0000118 "enables part of" xsd:string
 property_value: seeAlso Involved:in
@@ -41587,7 +41168,7 @@ transitive_over: BFO:0000050 ! part of
 id: RO:0002333
 name: enabled by
 def: "inverse of enables" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0000057 ! has participant
 is_a: RO:0002328 ! functionally related to
 
@@ -41595,7 +41176,7 @@ is_a: RO:0002328 ! functionally related to
 id: RO:0002334
 name: regulated by
 def: "inverse of regulates" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000589 "regulated by (processual)" xsd:string
 domain: BFO:0000015 ! process
 range: BFO:0000015 ! process
@@ -41606,14 +41187,14 @@ is_a: RO:0002427 ! causally downstream of or within
 id: RO:0002335
 name: negatively regulated by
 def: "inverse of negatively regulates" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002334 ! regulated by
 
 [Typedef]
 id: RO:0002336
 name: positively regulated by
 def: "inverse of positively regulates" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002334 ! regulated by
 
 [Typedef]
@@ -41640,7 +41221,7 @@ is_a: BFO:0000051 ! has part
 id: RO:0002352
 name: input of
 def: "inverse of has input" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0000056 ! participates in
 is_a: RO:0002328 ! functionally related to
 
@@ -41648,7 +41229,7 @@ is_a: RO:0002328 ! functionally related to
 id: RO:0002353
 name: output of
 def: "inverse of has output" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0000056 ! participates in
 is_a: RO:0002328 ! functionally related to
 
@@ -41656,7 +41237,7 @@ is_a: RO:0002328 ! functionally related to
 id: RO:0002371
 name: attached to
 def: "a is attached to b if and only if a and b are discrete objects or object parts, and there are physical connections between a and b such that a force pulling a will move b, or a force pulling b will move a" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000589 "attached to (anatomical structure to anatomical structure)" xsd:string
 is_symmetric: true
 is_a: RO:0002170 ! connected to
@@ -41666,7 +41247,7 @@ is_a: RO:0002177 ! attached to part of
 id: RO:0002372
 name: has muscle origin
 def: "m has_muscle_origin s iff m is attached_to s, and it is the case that when m contracts, s does not move. The site of the origin tends to be more proximal and have greater mass than what the other end attaches to." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 "Wikipedia:Insertion_(anatomy)" xsd:string
 property_value: seeAlso http://dbpedia.org/property/origin
 is_a: RO:0002371 ! attached to
@@ -41676,7 +41257,7 @@ is_a: RO:0002567 ! biomechanically related to
 id: RO:0002373
 name: has muscle insertion
 def: "m has_muscle_insertion s iff m is attaches_to s, and it is the case that when m contracts, s moves. Insertions are usually connections of muscle via tendon to bone." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 "Wikipedia:Insertion_(anatomy)" xsd:string
 property_value: seeAlso http://dbpedia.org/property/insertion
 is_a: RO:0002371 ! attached to
@@ -41687,7 +41268,7 @@ id: RO:0002375
 name: in branching relationship with
 def: "A relationship that holds between two material entities in a system of connected structures, where the branching relationship holds based on properties of the connecting network." []
 property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving branching relationships" xsd:string
 property_value: IAO:0000232 "This relation can be used for geographic features (e.g. rivers) as well as anatomical structures (plant branches and roots, leaf veins, animal veins, arteries, nerves)" xsd:string
 property_value: RO:0004036 BFO:0000050
@@ -41704,7 +41285,7 @@ def: "x tributary_of y if and only if x a channel for the flow of a substance in
 property_value: IAO:0000112 "Deschutes River tributary_of Columbia River" xsd:string
 property_value: IAO:0000112 "inferior epigastric vein tributary_of external iliac vein" xsd:string
 property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "drains into" xsd:string
 property_value: IAO:0000118 "drains to" xsd:string
 property_value: IAO:0000118 "tributary channel of" xsd:string
@@ -41721,7 +41302,7 @@ id: RO:0002379
 name: spatially coextensive with
 def: "x spatially_coextensive_with y if and inly if x and y have the same location" []
 property_value: IAO:0000112 "A lump of clay and a statue" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "This relation is added for formal completeness. It is unlikely to be used in many practical scenarios" xsd:string
 is_a: RO:0002131 ! overlaps
 
@@ -41730,7 +41311,7 @@ id: RO:0002380
 name: branching part of
 def: "x is a branching part of y if and only if x is part of y and x is connected directly or indirectly to the main stem of y" []
 property_value: IAO:0000112 "In the tree T depicted in https://oborel.github.io/obo-relations/branching_part_of.png, B1 is a (direct) branching part of T. B1-1, B1-2, and B1-3 are also branching parts of T, but these are considered indirect branching parts as they do not directly connect to the main stem S" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: seeAlso "FMA:85994" xsd:string
 property_value: seeAlso https://github.com/obophenotype/uberon/issues/2212
 is_a: BFO:0000050 ! part of
@@ -41742,7 +41323,7 @@ id: RO:0002384
 name: has developmental potential involving
 def: "x has developmental potential involving y iff x is capable of a developmental process with output y. y may be the successor of x, or may be a different structure in the vicinity (as for example in the case of developmental induction)." []
 property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002324 ! developmentally related to
 
 [Typedef]
@@ -41750,7 +41331,7 @@ id: RO:0002385
 name: has potential to developmentally contribute to
 def: "x has potential to developmentrally contribute to y iff x developmentally contributes to y or x is capable of developmentally contributing to y" []
 property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002384 ! has developmental potential involving
 
 [Typedef]
@@ -41758,7 +41339,7 @@ id: RO:0002386
 name: has potential to developmentally induce
 def: "x has potential to developmentally induce y iff x developmentally induces y or x is capable of developmentally inducing y" []
 property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002384 ! has developmental potential involving
 
 [Typedef]
@@ -41766,7 +41347,7 @@ id: RO:0002387
 name: has potential to develop into
 def: "x has the potential to develop into y iff x develops into y or if x is capable of developing into y" []
 property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002384 ! has developmental potential involving
 
 [Typedef]
@@ -41774,7 +41355,7 @@ id: RO:0002388
 name: has potential to directly develop into
 def: "x has potential to directly develop into y iff x directly develops into y or x is capable of directly developing into y" []
 property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002387 ! has potential to develop into
 
 [Typedef]
@@ -41782,7 +41363,7 @@ id: RO:0002404
 name: causally downstream of
 def: "inverse of upstream of" []
 property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: BFO:0000062 ! preceded by
 is_a: RO:0002427 ! causally downstream of or within
 inverse_of: RO:0002411 ! causally upstream of
@@ -41791,7 +41372,7 @@ inverse_of: RO:0002411 ! causally upstream of
 id: RO:0002405
 name: immediately causally downstream of
 property_value: IAO:0000114 IAO:0000428
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002087 ! immediately preceded by
 is_a: RO:0002404 ! causally downstream of
 inverse_of: RO:0002412 ! immediately causally upstream of
@@ -41800,7 +41381,7 @@ inverse_of: RO:0002412 ! immediately causally upstream of
 id: RO:0002407
 name: indirectly positively regulates
 def: "p indirectly positively regulates q iff p is indirectly causally upstream of q and p positively regulates q." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "indirectly activates" xsd:string
 property_value: RO:0002579 RO:0002213
 holds_over_chain: RO:0002409 RO:0002409
@@ -41815,7 +41396,7 @@ transitive_over: RO:0002629 ! directly positively regulates
 id: RO:0002409
 name: indirectly negatively regulates
 def: "p indirectly negatively regulates q iff p is indirectly causally upstream of q and p negatively regulates q." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "indirectly inhibits" xsd:string
 property_value: RO:0002579 RO:0002212
 holds_over_chain: RO:0002630 RO:0002409
@@ -41829,14 +41410,14 @@ transitive_over: RO:0002630 ! directly negatively regulates
 id: RO:0002410
 name: causally related to
 property_value: IAO:0000116 "This branch of the ontology deals with causal relations between entities. It is divided into two branches: causal relations between occurrents/processes, and causal relations between material entities. We take an 'activity flow-centric approach', with the former as primary, and define causal relations between material entities in terms of causal relations between occurrents.\n\nTo define causal relations in an activity-flow type network, we make use of 3 primitives:\n\n * Temporal: how do the intervals of the two occurrents relate? \n * Is the causal relation regulatory?\n * Is the influence positive or negative?\n\nThe first of these can be formalized in terms of the Allen Interval Algebra. Informally, the 3 bins we care about are 'direct', 'indirect' or overlapping. Note that all causal relations should be classified under a RO temporal relation (see the branch under 'temporally related to'). Note that all causal relations are temporal, but not all temporal relations are causal. Two occurrents can be related in time without being causally connected. We take causal influence to be primitive, elucidated as being such that has the upstream changed, some qualities of the donwstream would necessarily be modified.\n\nFor the second, we consider a relationship to be regulatory if the system in which the activities occur is capable of altering the relationship to achieve some objective. This could include changing the rate of production of a molecule.\n\nFor the third, we consider the effect of the upstream process on the output(s) of the downstream process. If the level of output is increased, or the rate of production of the output is increased, then the direction is increased. Direction can be positive, negative or neutral or capable of either direction. Two positives in succession yield a positive, two negatives in succession yield a positive, otherwise the default assumption is that the net effect is canceled and the influence is neutral.\n\nEach of these 3 primitives can be composed to yield a cross-product of different relation types." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
 
 [Typedef]
 id: RO:0002411
 name: causally upstream of
 def: "p is causally upstream of q iff p is causally related to q, the end of p precedes the end of q, and p is not an occurrent part of q." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_transitive: true
 is_a: BFO:0000063 ! precedes
 is_a: RO:0002418 ! causally upstream of or within
@@ -41845,7 +41426,7 @@ is_a: RO:0002418 ! causally upstream of or within
 id: RO:0002412
 name: immediately causally upstream of
 def: "p is immediately causally upstream of q iff p is causally upstream of q, and the end of p is coincident with the beginning of q." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: RO:0002575 RO:0002411
 is_a: RO:0002090 ! immediately precedes
 is_a: RO:0002411 ! causally upstream of
@@ -41855,7 +41436,7 @@ id: RO:0002418
 name: causally upstream of or within
 def: "p is 'causally upstream or within' q iff p is causally related to q, and the end of p precedes, or is coincident with, the end of q." []
 property_value: IAO:0000116 "We would like to make this disjoint with 'preceded by', but this is prohibited in OWL2" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "influences (processual)" xsd:string
 is_transitive: true
 is_a: RO:0002501 ! causal relation between processes
@@ -41865,7 +41446,7 @@ inverse_of: RO:0002427 ! causally downstream of or within
 id: RO:0002427
 name: causally downstream of or within
 def: "inverse of causally upstream of or within" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 is_transitive: true
 is_a: RO:0002501 ! causal relation between processes
@@ -41874,7 +41455,7 @@ is_a: RO:0002501 ! causal relation between processes
 id: RO:0002428
 name: involved in regulation of
 def: "c involved in regulation of p if c is involved in some p' and p' regulates some p" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 holds_over_chain: RO:0002327 RO:0002211
 holds_over_chain: RO:0002331 RO:0002211
 is_a: RO:0002263 ! acts upstream of
@@ -41884,7 +41465,7 @@ is_a: RO:0002431 ! involved in or involved in regulation of
 id: RO:0002429
 name: involved in positive regulation of
 def: "c involved in regulation of p if c is involved in some p' and p' positively regulates some p" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: RO:0004049 RO:0002428
 holds_over_chain: RO:0002327 RO:0002213
 holds_over_chain: RO:0002331 RO:0002213
@@ -41894,7 +41475,7 @@ is_a: RO:0002428 ! involved in regulation of
 id: RO:0002430
 name: involved in negative regulation of
 def: "c involved in regulation of p if c is involved in some p' and p' negatively regulates some p" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: RO:0004050 RO:0002428
 holds_over_chain: RO:0002327 RO:0002212
 holds_over_chain: RO:0002331 RO:0002212
@@ -41905,7 +41486,7 @@ id: RO:0002431
 name: involved in or involved in regulation of
 def: "c involved in or regulates p if and only if either (i) c is involved in p or (ii) c is involved in regulation of p" []
 property_value: IAO:0000116 "OWL does not allow defining object properties via a Union" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "involved in or reguates" xsd:string
 is_a: RO:0002264 ! acts upstream of or within
 is_a: RO:0002328 ! functionally related to
@@ -41915,7 +41496,7 @@ is_a: RO:0002500 ! causal agent in process
 id: RO:0002432
 name: is active in
 property_value: IAO:0000112 "A protein that enables activity in a cytosol." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "executes activity in" xsd:string
 holds_over_chain: RO:0002327 BFO:0000066 {http://purl.obolibrary.org/obo/RO_0002581="true"}
 is_a: RO:0002131 ! overlaps
@@ -41925,7 +41506,7 @@ is_a: RO:0002328 ! functionally related to
 id: RO:0002433
 name: contributes to morphology of
 def: "p contributes to morphology of w if and only if a change in the morphology of p entails a change in the morphology of w. Examples: every skull contributes to morphology of the head which it is a part of. Counter-example: nuclei do not generally contribute to the morphology of the cell they are part of, as they are buffered by cytoplasm." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002131 ! overlaps
 
 [Typedef]
@@ -41935,7 +41516,7 @@ def: "A relationship that holds between two entities in which the processes exec
 property_value: closeMatch "http://purl.obolibrary.org/obo/MI_0914" xsd:anyURI
 property_value: IAO:0000116 "Considering relabeling as 'pairwise interacts with'" xsd:anyURI
 property_value: IAO:0000116 "This relation and all sub-relations can be applied to either (1) pairs of entities that are interacting at any moment of time (2) populations or species of entity whose members have the disposition to interact (3) classes whose members have the disposition to interact." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Note that this relationship type, and sub-relationship types may be redundant with process terms from other ontologies. For example, the symbiotic relationship hierarchy parallels GO. The relations are provided as a convenient shortcut. Consider using the more expressive processual form to capture your data. In the future, these relations will be linked to their cognate processes through rules." xsd:string
 property_value: seeAlso "http://purl.obolibrary.org/obo/ro/docs/interaction-relations/" xsd:anyURI
 domain: BFO:0000040 ! material entity
@@ -41947,7 +41528,7 @@ id: RO:0002436
 name: molecularly interacts with
 def: "An interaction relationship in which the two partners are molecular entities that directly physically interact with each other for example via a stable binding interaction or a brief interaction during which one modifies the other." []
 property_value: closeMatch "http://purl.obolibrary.org/obo/MI_0915" xsd:anyURI
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "binds" xsd:string
 property_value: IAO:0000118 "molecularly binds with" xsd:string
 property_value: seeAlso ECO:0000353
@@ -41958,7 +41539,7 @@ is_a: RO:0002434 ! interacts with
 id: RO:0002447
 name: phosphorylates
 property_value: IAO:0000116 "Axiomatization to GO to be added later" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "An interaction relation between x and y in which x catalyzes a reaction in which a phosphate group is added to y." xsd:string
 is_a: RO:0002436 ! molecularly interacts with
 
@@ -41966,8 +41547,8 @@ is_a: RO:0002436 ! molecularly interacts with
 id: RO:0002448
 name: directly regulates activity of
 def: "The entity A, immediately upstream of the entity B, has an activity that regulates an activity performed by B. For example, A and B may be gene products and binding of B by A regulates the kinase activity of B.\n\nA and B can be physically interacting but not necessarily. Immediately upstream means there are no intermediate entity between A and B." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 "Vasundra Touré" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
 domain: BFO:0000040 ! material entity
 range: BFO:0000040 ! material entity
 is_a: RO:0002436 ! molecularly interacts with
@@ -41977,8 +41558,8 @@ is_a: RO:0011002 ! regulates activity of
 id: RO:0002449
 name: directly negatively regulates activity of
 def: "The entity A, immediately upstream of the entity B, has an activity that negatively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A negatively regulates the kinase activity of B." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 "Vasundra Touré" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
 property_value: IAO:0000118 "directly inhibits" xsd:string
 domain: BFO:0000040 ! material entity
 range: BFO:0000040 ! material entity
@@ -41988,8 +41569,8 @@ is_a: RO:0002448 ! directly regulates activity of
 id: RO:0002450
 name: directly positively regulates activity of
 def: "The entity A, immediately upstream of the entity B, has an activity that positively regulates an activity performed by B. \nFor example, A and B may be gene products and binding of B by A positively regulates the kinase activity of B." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 "Vasundra Touré" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
 property_value: IAO:0000118 "directly activates" xsd:string
 domain: BFO:0000040 ! material entity
 range: BFO:0000040 ! material entity
@@ -41998,7 +41579,7 @@ is_a: RO:0002448 ! directly regulates activity of
 [Typedef]
 id: RO:0002464
 name: helper property (not for use in curation)
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "This property or its subproperties is not to be used directly. These properties exist as helper properties that are used to support OWL reasoning." xsd:string
 
 [Typedef]
@@ -42006,7 +41587,7 @@ id: RO:0002473
 name: composed primarily of
 def: "x composed_primarily_of y if and only if more than half of the mass of x is made from y or units of the same type as y." []
 property_value: IAO:0000112 "'otolith organ' SubClassOf 'composed primarily of' some 'calcium carbonate'" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/22293552
 property_value: RO:0001900 RO:0001901
 domain: BFO:0000040 ! material entity
@@ -42017,7 +41598,7 @@ is_a: BFO:0000051 ! has part
 id: RO:0002479
 name: has part that occurs in
 def: "p has part that occurs in c if and only if there exists some p1, such that p has_part p1, and p1 occurs in c." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 domain: BFO:0000003 ! occurrent
 range: BFO:0000004 ! independent continuant
 holds_over_chain: BFO:0000051 BFO:0000066 {http://purl.obolibrary.org/obo/RO_0002581="true"}
@@ -42025,13 +41606,13 @@ holds_over_chain: BFO:0000051 BFO:0000066 {http://purl.obolibrary.org/obo/RO_000
 [Typedef]
 id: RO:0002481
 name: is kinase activity
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002564 ! molecular interaction relation helper property
 
 [Typedef]
 id: RO:0002487
 name: relation between physical entity and a process or stage
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, typically connecting an anatomical entity to a biological process or developmental stage." xsd:string
 domain: BFO:0000004 ! independent continuant
 range: BFO:0000003 ! occurrent
@@ -42040,7 +41621,7 @@ range: BFO:0000003 ! occurrent
 id: RO:0002488
 name: existence starts during
 def: "x existence starts during y if and only if the time point at which x starts is after or equivalent to the time point at which y starts and before or equivalent to the time point at which y ends. Formally: x existence starts during y iff α(x) >= α(y) & α(x) <= ω(y)." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002490 ! existence overlaps
 is_a: RO:0002496 ! existence starts during or after
 transitive_over: BFO:0000050 ! part of
@@ -42049,7 +41630,7 @@ transitive_over: BFO:0000050 ! part of
 id: RO:0002489
 name: existence starts with
 def: "x starts ends with y if and only if the time point at which x starts is equivalent to the time point at which y starts. Formally: x existence starts with y iff α(x) = α(y)." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002488 ! existence starts during
 
 [Typedef]
@@ -42057,7 +41638,7 @@ id: RO:0002490
 name: existence overlaps
 def: "x existence overlaps y if and only if either (a) the start of x is part of y or (b) the end of x is part of y. Formally: x existence starts and ends during y iff (α(x) >= α(y) & α(x) <= ω(y)) OR (ω(x) <= ω(y) & ω(x) >= α(y))" []
 comment: The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002487 ! relation between physical entity and a process or stage
 
 [Typedef]
@@ -42065,7 +41646,7 @@ id: RO:0002491
 name: existence starts and ends during
 def: "x exists during y if and only if: 1) the time point at which x begins to exist is after or equal to the time point at which y begins and 2) the time point at which x ceases to exist is before or equal to the point at which y ends. Formally: x existence starts and ends during y iff α(x) >= α(y) & α(x) <= ω(y) & ω(x) <= ω(y) & ω(x) >= α(y)" []
 comment: The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002488 ! existence starts during
 is_a: RO:0002492 ! existence ends during
 
@@ -42074,7 +41655,7 @@ id: RO:0002492
 name: existence ends during
 def: "x existence ends during y if and only if the time point at which x ends is before or equivalent to the time point at which y ends and after or equivalent to the point at which y starts. Formally: x existence ends during y iff ω(x) <= ω(y) and ω(x) >= α(y)." []
 comment: The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002490 ! existence overlaps
 is_a: RO:0002497 ! existence ends during or before
 transitive_over: BFO:0000050 ! part of
@@ -42084,14 +41665,14 @@ id: RO:0002493
 name: existence ends with
 def: "x existence ends with y if and only if the time point at which x ends is equivalent to the time point at which y ends. Formally: x existence ends with y iff ω(x) = ω(y)." []
 comment: The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002492 ! existence ends during
 
 [Typedef]
 id: RO:0002494
 name: transformation of
 def: "x transformation of y if x is the immediate transformation of y, or is linked to y through a chain of transformation relationships" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_transitive: true
 is_a: RO:0002202 ! develops from
 
@@ -42099,7 +41680,7 @@ is_a: RO:0002202 ! develops from
 id: RO:0002495
 name: immediate transformation of
 def: "x immediate transformation of y iff x immediately succeeds y temporally at a time boundary t, and all of the matter present in x at t is present in y at t, and all the matter in y at t is present in x at t" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: RO:0002575 RO:0002494
 is_a: RO:0002207 ! directly develops from
 is_a: RO:0002494 ! transformation of
@@ -42109,7 +41690,7 @@ id: RO:0002496
 name: existence starts during or after
 def: "x existence starts during or after y if and only if the time point at which x starts is after or equivalent to the time point at which y starts. Formally: x existence starts during or after y iff α (x) >= α (y)." []
 comment: The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 holds_over_chain: BFO:0000050 RO:0002496
 holds_over_chain: RO:0002258 RO:0002496
 is_a: RO:0002487 ! relation between physical entity and a process or stage
@@ -42122,7 +41703,7 @@ id: RO:0002497
 name: existence ends during or before
 def: "x existence ends during or before y if and only if the time point at which x ends is before or equivalent to the time point at which y ends." []
 comment: The relations here were created based on work originally by Fabian Neuhaus and David Osumi-Sutherland. The work has not yet been vetted and errors in definitions may have occurred during transcription.
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 holds_over_chain: BFO:0000050 RO:0002497
 holds_over_chain: RO:0002286 RO:0002497
 is_a: RO:0002487 ! relation between physical entity and a process or stage
@@ -42142,7 +41723,7 @@ inverse_of: RO:0002608 ! process has causal agent
 id: RO:0002501
 name: causal relation between processes
 def: "p is causally related to q if and only if p or any part of p and q or any part of q are linked by a chain of events where each event pair is one where the execution of p influences the execution of q. p may be upstream, downstream, part of, or a container of q." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
 domain: BFO:0000003 ! occurrent
@@ -42152,7 +41733,7 @@ is_a: RO:0002410 ! causally related to
 [Typedef]
 id: RO:0002502
 name: depends on
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: seeAlso BFO:0000169
 
 [Typedef]
@@ -42160,7 +41741,7 @@ id: RO:0002503
 name: towards
 def: "q towards e2 if and only if q is a relational quality such that q inheres-in some e, and e != e2 and q is dependent on e2" []
 property_value: IAO:0000116 "This relation is provided in order to support the use of relational qualities such as 'concentration of'; for example, the concentration of C in V is a quality that inheres in V, but pertains to C." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://www.ncbi.nlm.nih.gov/pubmed/20064205
 is_a: RO:0002502 ! depends on
 
@@ -42168,7 +41749,7 @@ is_a: RO:0002502 ! depends on
 id: RO:0002506
 name: causal relation between entities
 property_value: IAO:0000116 "The intent is that the process branch of the causal property hierarchy is primary (causal relations hold between occurrents/processes), and that the material branch is defined in terms of the process branch" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000232 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
 domain: BFO:0000002 ! continuant
@@ -42180,7 +41761,7 @@ id: RO:0002551
 name: has skeleton
 def: "A relation between a segment or subdivision of an organism and the maximal subdivision of material entities that provides structural support for that segment or subdivision." []
 property_value: IAO:0000112 "Forelimb SubClassOf has_skeleton some 'Forelimb skeleton'" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000118 "has supporting framework" xsd:string
 property_value: IAO:0000232 "The skeleton of a structure may be a true skeleton (for example, the bony skeleton of a hand) or any kind of support framework (the hydrostatic skeleton of a sea star, the exoskeleton of an insect, the cytoskeleton of a cell)." xsd:string
 is_a: BFO:0000051 ! has part
@@ -42190,7 +41771,7 @@ is_asymmetric: true
 [Typedef]
 id: RO:0002559
 name: causally influenced by
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000589 "causally influenced by (entity-centric)" xsd:string
 is_a: RO:0002506 ! causal relation between entities
@@ -42199,7 +41780,7 @@ inverse_of: RO:0002566 ! causally influences
 [Typedef]
 id: RO:0002563
 name: interaction relation helper property
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: seeAlso http://ontologydesignpatterns.org/wiki/Submissions:N-Ary_Relation_Pattern_%28OWL_2%29
 property_value: seeAlso "http://purl.obolibrary.org/obo/ro/docs/interaction-relations/" xsd:anyURI
 is_a: RO:0002464 ! helper property (not for use in curation)
@@ -42207,15 +41788,15 @@ is_a: RO:0002464 ! helper property (not for use in curation)
 [Typedef]
 id: RO:0002564
 name: molecular interaction relation helper property
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: RO:0002563 ! interaction relation helper property
 
 [Typedef]
 id: RO:0002566
 name: causally influences
 def: "The entity or characteristic A is causally upstream of the entity or characteristic B, A having an effect on B. An entity corresponds to any biological type of entity as long as a mass is measurable. A characteristic corresponds to a particular specificity of an entity (e.g., phenotype, shape, size)." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
-property_value: IAO:0000117 "Vasundra Touré" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000589 "causally influences (entity-centric)" xsd:string
 domain: BFO:0000002 ! continuant
@@ -42226,7 +41807,7 @@ is_a: RO:0002506 ! causal relation between entities
 id: RO:0002567
 name: biomechanically related to
 def: "A relation that holds between elements of a musculoskeletal system or its analogs." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000232 "Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving the biomechanical processes." xsd:string
 is_a: RO:0002328 ! functionally related to
 
@@ -42234,7 +41815,7 @@ is_a: RO:0002328 ! functionally related to
 id: RO:0002568
 name: has muscle antagonist
 def: "m1 has_muscle_antagonist m2 iff m1 has_muscle_insertion s, m2 has_muscle_insection s, m1 acts in opposition to m2, and m2 is responsible for returning the structure to its initial position." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 "Wikipedia:Antagonist_(muscle)" xsd:string
 is_a: RO:0002567 ! biomechanically related to
 
@@ -42242,16 +41823,27 @@ is_a: RO:0002567 ! biomechanically related to
 id: RO:0002569
 name: has branching part
 def: "inverse of branching part of" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_transitive: true
 is_a: BFO:0000051 ! has part
 is_a: RO:0002375 ! in branching relationship with
 
 [Typedef]
+id: RO:0002570
+name: conduit for
+def: "x is a conduit for y iff y overlaps through the lumen_of of x, and y has parts on either side of the lumen of x." []
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
+property_value: IAO:0000119 "UBERON:cjm" xsd:string
+property_value: IAO:0000232 "This relation holds between a thing with a 'conduit' (e.g. a bone foramen) and a 'conduee' (for example, a nerve) such that at the time the relationship holds, the conduee has two ends sticking out either end of the conduit. It should therefore note be used for objects that move through the conduit but whose spatial extent does not span the passage. For example, it would not be used for a mountain that contains a long tunnel through which trains pass. Nor would we use it for a digestive tract and objects such as food that pass through." xsd:string
+domain: BFO:0000040 ! material entity
+range: BFO:0000040 ! material entity
+is_a: RO:0002131 ! overlaps
+
+[Typedef]
 id: RO:0002571
 name: lumen of
 def: "x lumen_of y iff x is the space or substance that is part of y and does not cross any of the inner membranes or boundaries of y that is maximal with respect to the volume of the convex hull." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 "GOC:cjm" xsd:string
 range: BFO:0000040 ! material entity
 is_a: BFO:0000050 ! part of
@@ -42260,7 +41852,7 @@ is_a: BFO:0000050 ! part of
 id: RO:0002572
 name: luminal space of
 def: "s is luminal space of x iff s is lumen_of x and s is an immaterial entity" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 domain: BFO:0000141 ! immaterial entity
 is_a: RO:0002571 ! lumen of
 
@@ -42268,14 +41860,14 @@ is_a: RO:0002571 ! lumen of
 id: RO:0002576
 name: skeleton of
 def: "inverse of has skeleton" []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 is_a: BFO:0000050 ! part of
 
 [Typedef]
 id: RO:0002578
 name: directly regulates
 def: "p directly regulates q iff p is immediately causally upstream of q and p regulates q." []
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 property_value: IAO:0000589 "directly regulates (processual)" xsd:string
 property_value: RO:0002575 RO:0002211
@@ -42287,7 +41879,7 @@ id: RO:0002584
 name: has part structure that is capable of
 def: "s 'has part structure that is capable of' p if and only if there exists some part x such that s 'has part' x and x 'capable of' p" []
 property_value: IAO:0000112 "gland SubClassOf 'has part structure that is capable of' some 'secretion by cell'" xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 holds_over_chain: BFO:0000051 RO:0002215
 is_a: RO:0002328 ! functionally related to
 is_a: RO:0002595 ! causal relation between material entity and a process
@@ -42297,7 +41889,7 @@ id: RO:0002595
 name: causal relation between material entity and a process
 def: "A relationship that holds between a material entity and a process in which causality is involved, with either the material entity or some part of the material entity exerting some influence over the process, or the process influencing some aspect of the material entity." []
 property_value: IAO:0000116 "Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect." xsd:string
-property_value: IAO:0000117 "Chris Mungall" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0002-6601-2165
 property_value: IAO:0000119 http://purl.obolibrary.org/obo/ro/docs/causal-relations
 domain: BFO:0000040 ! material entity
 range: BFO:0000015 ! process
@@ -42362,7 +41954,7 @@ name: produces
 def: "a produces b if some process that occurs_in a has_output b, where a and b are material entities. Examples: hybridoma cell line produces monoclonal antibody reagent; chondroblast produces avascular GAG-rich matrix." []
 comment: Note that this definition doesn't quite distinguish the output of a transformation process from a production process, which is related to the identity/granularity issue.
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Melissa Haendel" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-9114-8737
 domain: BFO:0000040 ! material entity
 range: BFO:0000040 ! material entity
 inverse_of: RO:0003001 ! produced by
@@ -42372,7 +41964,7 @@ id: RO:0003001
 name: produced by
 def: "a produced_by b iff some process that occurs_in b has_output a." []
 property_value: IAO:0000114 IAO:0000125
-property_value: IAO:0000117 "Melissa Haendel" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-9114-8737
 domain: BFO:0000040 ! material entity
 range: BFO:0000040 ! material entity
 
@@ -42434,7 +42026,7 @@ is_a: RO:0002418 ! causally upstream of or within
 id: RO:0011002
 name: regulates activity of
 def: "The entity A has an activity that regulates an activity of the entity B. For example, A and B are gene products where the catalytic activity of A regulates the kinase activity of B." []
-property_value: IAO:0000117 "Vasundra Touré" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0003-4639-4431
 domain: BFO:0000040 ! material entity
 range: BFO:0000040 ! material entity
 is_a: RO:0002566 ! causally influences
@@ -42489,8 +42081,8 @@ id: RO:0017001
 name: device utilizes material
 def: "X device utilizes material Y means X and Y are material entities, and X is capable of some process P that has input Y." []
 property_value: IAO:0000112 "A diagnostic testing device utilizes a specimen." xsd:string
-property_value: IAO:0000117 "https://orcid.org/0000-0001-9625-1899" xsd:string
-property_value: IAO:0000117 "https://orcid.org/0000-0003-2620-0345" xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-9625-1899
+property_value: IAO:0000117 https://orcid.org/0000-0003-2620-0345
 property_value: IAO:0000232 "A diagnostic testing device utilizes a specimen means that the diagnostic testing device is capable of an assay, and this assay a specimen as its input." xsd:string
 property_value: IAO:0000232 "See github ticket https://github.com/oborel/obo-relations/issues/497" xsd:string
 holds_over_chain: RO:0002215 RO:0002233

@@ -1,12 +1,12 @@
 format-version: 1.2
-data-version: nbo/releases/2023-02-21/nbo-base.owl
+data-version: nbo/releases/2023-05-02/nbo-base.owl
 treat-xrefs-as-equivalent: GO
 ontology: nbo/nbo-base
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/description "An ontology of human and animal behaviours." xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/
 property_value: http://purl.org/dc/terms/title "Neuro Behaviour Ontology" xsd:string
-property_value: owl:versionInfo "2023-02-21" xsd:string
+property_value: owl:versionInfo "2023-05-02" xsd:string
 
 [Term]
 id: NBO:0000001
@@ -385,9 +385,6 @@ namespace: behavior_ontology
 def: "The elimination by an organism of the waste products that arise as a result of metabolic activity. These products include water, carbon dioxide (CO2), and nitrogenous compounds." [] {source="wikipedia:Excretion"}
 xref: GO:0007588
 is_a: NBO:0000035 ! emission behavior
-intersection_of: NBO:0000035 ! emission behavior
-intersection_of: is_about GO:0007588
-relationship: is_about GO:0007588
 property_value: http://purl.org/dc/elements/1.1/date "2011-04-14T01:03:39Z" xsd:string
 created_by: George Gkoutos
 
@@ -407,16 +404,15 @@ created_by: George Gkoutos
 id: NBO:0000040
 name: behavioral control of urination
 namespace: behavior_ontology
-def: "The regulation of body fluids process by which parasympathetic nerves stimulate the bladder wall muscle to contract and expel urine from the body." [] {source="wikipedia:urination"}
+def: "Excretion behaviour that controls liquid waste expulsion." [] {source="wikipedia:urination"}
 synonym: "micturition" EXACT []
 synonym: "urinate" EXACT []
 xref: GO:0060073
 is_a: NBO:0000038 ! behavioral control of excretion
 intersection_of: NBO:0000038 ! behavioral control of excretion
-intersection_of: by_means UBERON:0001256
 intersection_of: is_about GO:0060073
-relationship: by_means UBERON:0001256
 relationship: is_about GO:0060073
+property_value: http://purl.org/dc/elements/1.1/contributor https://orcid.org/0000-0002-4277-2151
 property_value: http://purl.org/dc/elements/1.1/date "2011-04-14T01:03:39Z" xsd:string
 created_by: George Gkoutos
 
@@ -483,9 +479,13 @@ created_by: George Gkoutos
 id: NBO:0000047
 name: weaning behavior
 namespace: behavior_ontology
+def: "Parental behavior that promotes the breaking of an offspring's dependence on parental resources." [ISBN:0674205065]
+comment: Especially food resources, and we know that many male birds provide offspring food.
 synonym: "weaning behaviour" EXACT []
-is_a: NBO:0000079 ! feeding behavior
+is_a: NBO:0000044 ! parental behavior
+property_value: http://purl.org/dc/elements/1.1/contributor https://orcid.org/0000-0002-4277-2151
 property_value: http://purl.org/dc/elements/1.1/date "2011-04-14T01:03:39Z" xsd:string
+property_value: source "Immelmann K, Beer C. A dictionary of ethology. Harvard University Press; 1989." xsd:string
 created_by: George Gkoutos
 
 [Term]
@@ -2143,9 +2143,12 @@ created_by: George Gkoutos
 id: NBO:0000220
 name: social learning
 namespace: behavior_ontology
-def: "\"The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society.\" [wikipedia:Social_conditioning]" []
+def: "Associative learning behavior that arises from observing or interacting with another individual." []
+comment: Original definition: "The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society." [wikipedia:Social_conditioning]
 is_a: NBO:0000171 ! associative learning behavior
+property_value: http://purl.org/dc/elements/1.1/contributor https://orcid.org/%200000-0002-4277-2151
 property_value: http://purl.org/dc/elements/1.1/date "2011-04-04T03:34:46Z" xsd:string
+property_value: source https://en.wikipedia.org/wiki/Social_learning_in_animals
 created_by: George Gkoutos
 
 [Term]
@@ -4338,9 +4341,11 @@ created_by: George Gkoutos
 id: NBO:0000446
 name: visual pursuit
 namespace: behavior_ontology
-def: "Selectively track a moving object." [] {source="NBO:GVG"}
+def: "Selective tracking that follows a moving object by eye." []
+comment: Original definition: Selectively track a moving object (Source: NBO:GVG).
 is_a: GO:0007601
-is_a: NBO:0000001 ! body part movement
+is_a: NBO:0000314 ! visual behavior
+property_value: http://purl.org/dc/elements/1.1/contributor https://orcid.org/0000-0002-4277-2151
 property_value: http://purl.org/dc/elements/1.1/date "2011-04-08T12:25:53Z" xsd:string
 created_by: George Gkoutos
 
@@ -8802,6 +8807,61 @@ is_a: NBO:0000013 ! locomotory behavior
 property_value: http://purl.org/dc/elements/1.1/contributor "http://orcid.org/0000-0002-3528-5267" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date "2020-02-05T20:14:32Z" xsd:string
 created_by: Sofia Robb
+
+[Term]
+id: NBO:0070000
+name: autotomy
+namespace: behavior_ontology
+def: "Protective behavior that sheds or discards an animal's body part." [DOI:10.1093/beheco/arl010]
+comment: This is most often understood to mean an appendage such as a lizard's tail, or an insect's leg, which may already be in the clutches of a predator, fouled in a portion of molted cuticle, or caught in a spider's web. Some animals can even shed a body part spontaneously, perhaps to distract a predator. But some echinoderms can autotomize part of their digestive tract whilst some mammals can slough off some skin, which are not so much appendages as organs, yet with the same effects.
+is_a: NBO:0000636 ! protective behavior
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-4277-2151
+property_value: http://purl.org/dc/elements/1.1/date "2023-04-23" xsd:string
+property_value: source "Tara Lynne Maginnis, The costs of autotomy and regeneration in animals: a review and framework for future research, Behavioral Ecology, Volume 17, Issue 5, September/October 2006, Pages 857–872" xsd:string
+
+[Term]
+id: NBO:0070001
+name: migration
+namespace: behavior_ontology
+def: "Rhythmic behavior that involves cue-initiated, persistent, direct, focused movement between habitats." [ISBN:0199640394]
+synonym: "Movement ecology" RELATED []
+is_a: NBO:0000008 ! rhythmic behavior
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-4277-2151
+property_value: http://purl.org/dc/terms/date "2023-04-22T14:17:43Z" xsd:dateTime
+property_value: source "Dingle H. Migration: the biology of life on the move. Oxford University Press, USA; 2014." xsd:string
+
+[Term]
+id: NBO:0070002
+name: diel vertical migration
+namespace: behavior_ontology
+def: "Migration that involves regular movement up and down in the water column." [DOI:10.1111/brv.12715]
+is_a: NBO:0070001 ! migration
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-2908-3327
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-4277-2151
+property_value: http://purl.org/dc/terms/date "2023-04-22T14:41:53Z" xsd:dateTime
+property_value: source "Bandara K, Varpe Ø, Wijewardene L, Tverberg V, Eiane K. Two hundred years of zooplankton vertical migration research. Biological Reviews. 2021 Aug;96(4):1547-89." xsd:string
+
+[Term]
+id: NBO:0070003
+name: geographical migration
+namespace: behavior_ontology
+def: "Migration that involves regular movement laterally between distant ranges in seasonal cycles." [DOI:10.1146/annurev-ecolsys-012021-031035]
+is_a: NBO:0070001 ! migration
+property_value: http://purl.org/dc/elements/1.1/creator https://orcid.org/0000-0002-4277-2151
+property_value: http://purl.org/dc/elements/1.1/date "2023-05-01T14:41:27Z" xsd:dateTime
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-2908-3327
+
+[Term]
+id: NBO:0070004
+name: stotting
+namespace: behavior_ontology
+def: "Display that involves taking all four legs off the ground simultaneously and holding the legs stiff and straight." [DOI:10.1016/S0003-3472(86)80051-3]
+synonym: "pronking" EXACT []
+is_a: NBO:0020077 ! display condition (to predator)
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-2908-332
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-4277-2151
+property_value: http://purl.org/dc/terms/date "2023-04-24T19:52:42Z" xsd:dateTime
+property_value: source "Caro TM. The functions of stotting: a review of the hypotheses. Animal Behaviour. 1986 Jun 1;34(3):649-62." xsd:string
 
 [Typedef]
 id: by_means

@@ -19,9 +19,9 @@
         "val" : "GO"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-02-21"
+        "val" : "2023-05-02"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/nbo/releases/2023-02-21/nbo-base.json"
+      "version" : "http://purl.obolibrary.org/obo/nbo/releases/2023-05-02/nbo-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/GO_0007625",
@@ -924,7 +924,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "The regulation of body fluids process by which parasympathetic nerves stimulate the bladder wall muscle to contract and expel urine from the body."
+          "val" : "Excretion behaviour that controls liquid waste expulsion."
         },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -934,6 +934,9 @@
           "val" : "urinate"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0002-4277-2151"
+        }, {
           "pred" : "http://purl.org/dc/elements/1.1/date",
           "val" : "2011-04-14T01:03:39Z"
         }, {
@@ -1070,11 +1073,19 @@
       "lbl" : "weaning behavior",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "Parental behavior that promotes the breaking of an offspring's dependence on parental resources.",
+          "xrefs" : [ "ISBN:0674205065" ]
+        },
+        "comments" : [ "Especially food resources, and we know that many male birds provide offspring food." ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "weaning behaviour"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0002-4277-2151"
+        }, {
           "pred" : "http://purl.org/dc/elements/1.1/date",
           "val" : "2011-04-14T01:03:39Z"
         }, {
@@ -1083,6 +1094,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "behavior_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#source",
+          "val" : "Immelmann K, Beer C. A dictionary of ethology. Harvard University Press; 1989."
         } ]
       }
     }, {
@@ -4577,9 +4591,13 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "\"The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society.\" [wikipedia:Social_conditioning]"
+          "val" : "Associative learning behavior that arises from observing or interacting with another individual."
         },
+        "comments" : [ "Original definition: \"The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society.\" [wikipedia:Social_conditioning]" ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/%200000-0002-4277-2151"
+        }, {
           "pred" : "http://purl.org/dc/elements/1.1/date",
           "val" : "2011-04-04T03:34:46Z"
         }, {
@@ -4588,6 +4606,9 @@
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "behavior_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#source",
+          "val" : "https://en.wikipedia.org/wiki/Social_learning_in_animals"
         } ]
       }
     }, {
@@ -9213,9 +9234,13 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "Selectively track a moving object."
+          "val" : "Selective tracking that follows a moving object by eye."
         },
+        "comments" : [ "Original definition: Selectively track a moving object (Source: NBO:GVG)." ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/elements/1.1/contributor",
+          "val" : "https://orcid.org/0000-0002-4277-2151"
+        }, {
           "pred" : "http://purl.org/dc/elements/1.1/date",
           "val" : "2011-04-08T12:25:53Z"
         }, {
@@ -18379,6 +18404,136 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NBO_0070000",
+      "lbl" : "autotomy",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Protective behavior that sheds or discards an animal's body part.",
+          "xrefs" : [ "DOI:10.1093/beheco/arl010" ]
+        },
+        "comments" : [ "This is most often understood to mean an appendage such as a lizard's tail, or an insect's leg, which may already be in the clutches of a predator, fouled in a portion of molted cuticle, or caught in a spider's web. Some animals can even shed a body part spontaneously, perhaps to distract a predator. But some echinoderms can autotomize part of their digestive tract whilst some mammals can slough off some skin, which are not so much appendages as organs, yet with the same effects." ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/elements/1.1/creator",
+          "val" : "https://orcid.org/0000-0002-4277-2151"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/date",
+          "val" : "2023-04-23"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "behavior_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#source",
+          "val" : "Tara Lynne Maginnis, The costs of autotomy and regeneration in animals: a review and framework for future research, Behavioral Ecology, Volume 17, Issue 5, September/October 2006, Pages 857–872"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NBO_0070001",
+      "lbl" : "migration",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Rhythmic behavior that involves cue-initiated, persistent, direct, focused movement between habitats.",
+          "xrefs" : [ "ISBN:0199640394" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Movement ecology"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0002-4277-2151"
+        }, {
+          "pred" : "http://purl.org/dc/terms/date",
+          "val" : "2023-04-22T14:17:43Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "behavior_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#source",
+          "val" : "Dingle H. Migration: the biology of life on the move. Oxford University Press, USA; 2014."
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NBO_0070002",
+      "lbl" : "diel vertical migration",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Migration that involves regular movement up and down in the water column.",
+          "xrefs" : [ "DOI:10.1111/brv.12715" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0002-2908-3327"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0002-4277-2151"
+        }, {
+          "pred" : "http://purl.org/dc/terms/date",
+          "val" : "2023-04-22T14:41:53Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "behavior_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#source",
+          "val" : "Bandara K, Varpe Ø, Wijewardene L, Tverberg V, Eiane K. Two hundred years of zooplankton vertical migration research. Biological Reviews. 2021 Aug;96(4):1547-89."
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NBO_0070003",
+      "lbl" : "geographical migration",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Migration that involves regular movement laterally between distant ranges in seasonal cycles.",
+          "xrefs" : [ "DOI:10.1146/annurev-ecolsys-012021-031035" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/elements/1.1/creator",
+          "val" : "https://orcid.org/0000-0002-4277-2151"
+        }, {
+          "pred" : "http://purl.org/dc/elements/1.1/date",
+          "val" : "2023-05-01T14:41:27Z"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0002-2908-3327"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "behavior_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NBO_0070004",
+      "lbl" : "stotting",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Display that involves taking all four legs off the ground simultaneously and holding the legs stiff and straight.",
+          "xrefs" : [ "DOI:10.1016/S0003-3472(86)80051-3" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "pronking"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0002-2908-332"
+        }, {
+          "pred" : "http://purl.org/dc/terms/contributor",
+          "val" : "https://orcid.org/0000-0002-4277-2151"
+        }, {
+          "pred" : "http://purl.org/dc/terms/date",
+          "val" : "2023-04-24T19:52:42Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "behavior_ontology"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#source",
+          "val" : "Caro TM. The functions of stotting: a review of the hypotheses. Animal Behaviour. 1986 Jun 1;34(3):649-62."
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/nbo#by_means",
       "lbl" : "by_means",
       "type" : "PROPERTY"
@@ -18564,10 +18719,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000035"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NBO_0000038",
-      "pred" : "http://purl.obolibrary.org/obo/nbo#is_about",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0007588"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000039",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000038"
@@ -18579,10 +18730,6 @@
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000040",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000038"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/NBO_0000040",
-      "pred" : "http://purl.obolibrary.org/obo/nbo#by_means",
-      "obj" : "http://purl.obolibrary.org/obo/UBERON_0001256"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000040",
       "pred" : "http://purl.obolibrary.org/obo/nbo#is_about",
@@ -18622,7 +18769,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000047",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NBO_0000079"
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000044"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000048",
       "pred" : "is_a",
@@ -20466,7 +20613,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000446",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NBO_0000001"
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000314"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NBO_0000447",
       "pred" : "is_a",
@@ -22651,15 +22798,28 @@
       "sub" : "http://purl.obolibrary.org/obo/NBO_0050002",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NBO_0000013"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NBO_0070000",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000636"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NBO_0070001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000008"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NBO_0070002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0070001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NBO_0070003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0070001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NBO_0070004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0020077"
     } ],
     "logicalDefinitionAxioms" : [ {
-      "definedClassId" : "http://purl.obolibrary.org/obo/NBO_0000038",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/NBO_0000035" ],
-      "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/nbo#is_about",
-        "fillerId" : "http://purl.obolibrary.org/obo/GO_0007588"
-      } ]
-    }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/NBO_0000039",
       "genusIds" : [ "http://purl.obolibrary.org/obo/NBO_0000038" ],
       "restrictions" : [ {
@@ -22670,9 +22830,6 @@
       "definedClassId" : "http://purl.obolibrary.org/obo/NBO_0000040",
       "genusIds" : [ "http://purl.obolibrary.org/obo/NBO_0000038" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/nbo#by_means",
-        "fillerId" : "http://purl.obolibrary.org/obo/UBERON_0001256"
-      }, {
         "propertyId" : "http://purl.obolibrary.org/obo/nbo#is_about",
         "fillerId" : "http://purl.obolibrary.org/obo/GO_0060073"
       } ]

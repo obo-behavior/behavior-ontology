@@ -3255,7 +3255,7 @@ SubClassOf(obo:NBO_0000219 obo:NBO_0000210)
 # Class: obo:NBO_0000220 (social learning)
 
 AnnotationAssertion(obo:IAO_0000115 obo:NBO_0000220 "Associative learning behavior that arises from observing or interacting with another individual.")
-AnnotationAssertion(dc:contributor obo:NBO_0000220 <https://orcid.org/ 0000-0002-4277-2151>)
+AnnotationAssertion(dc:contributor obo:NBO_0000220 <https://orcid.org/0000-0002-4277-2151>)
 AnnotationAssertion(dc:date obo:NBO_0000220 "2011-04-04T03:34:46Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000220 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000220 "behavior_ontology")

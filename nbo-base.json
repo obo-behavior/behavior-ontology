@@ -19,9 +19,9 @@
         "val" : "GO"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-05-02"
+        "val" : "2023-07-04"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/nbo/releases/2023-05-02/nbo-base.json"
+      "version" : "http://purl.obolibrary.org/obo/nbo/releases/2023-07-04/nbo-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/GO_0007625",
@@ -4596,7 +4596,7 @@
         "comments" : [ "Original definition: \"The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society.\" [wikipedia:Social_conditioning]" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.org/dc/elements/1.1/contributor",
-          "val" : "https://orcid.org/%200000-0002-4277-2151"
+          "val" : "https://orcid.org/0000-0002-4277-2151"
         }, {
           "pred" : "http://purl.org/dc/elements/1.1/date",
           "val" : "2011-04-04T03:34:46Z"

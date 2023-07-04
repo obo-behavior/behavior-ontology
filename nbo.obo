@@ -1,11 +1,11 @@
 format-version: 1.2
-data-version: releases/2023-05-02
+data-version: releases/2023-07-04
 treat-xrefs-as-equivalent: GO
 ontology: nbo
 property_value: http://purl.org/dc/terms/description "An ontology of human and animal behaviours." xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/by/3.0/
 property_value: http://purl.org/dc/terms/title "Neuro Behaviour Ontology" xsd:string
-property_value: owl:versionInfo "2023-05-02" xsd:string
+property_value: owl:versionInfo "2023-07-04" xsd:string
 
 [Term]
 id: BFO:0000001
@@ -11132,7 +11132,7 @@ namespace: behavior_ontology
 def: "Associative learning behavior that arises from observing or interacting with another individual." []
 comment: Original definition: "The sociological process of training individuals in a society to act or respond in a manner generally approved by the society in general and peer groups within society." [wikipedia:Social_conditioning]
 is_a: NBO:0000171 ! associative learning behavior
-property_value: http://purl.org/dc/elements/1.1/contributor https://orcid.org/%200000-0002-4277-2151
+property_value: http://purl.org/dc/elements/1.1/contributor https://orcid.org/0000-0002-4277-2151
 property_value: http://purl.org/dc/elements/1.1/date "2011-04-04T03:34:46Z" xsd:string
 property_value: source https://en.wikipedia.org/wiki/Social_learning_in_animals
 created_by: George Gkoutos

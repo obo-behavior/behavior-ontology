@@ -1,8 +1,9 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/nbo.owl#"
-     xml:base="http://purl.obolibrary.org/obo/nbo.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/nbo/nbo-base.owl#"
+     xml:base="http://purl.obolibrary.org/obo/nbo/nbo-base.owl"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:go="http://purl.obolibrary.org/obo/go#"
+     xmlns:nbo="http://purl.obolibrary.org/obo/nbo.owl#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -23,13 +24,13 @@
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/nbo/nbo-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/nbo/releases/2023-05-02/nbo-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/nbo/releases/2023-07-04/nbo-base.owl"/>
         <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:description>An ontology of human and animal behaviours.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <terms:title>Neuro Behaviour Ontology</terms:title>
         <oboInOwl:treat-xrefs-as-equivalent>GO</oboInOwl:treat-xrefs-as-equivalent>
-        <owl:versionInfo>2023-05-02</owl:versionInfo>
+        <owl:versionInfo>2023-07-04</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -4938,7 +4939,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000220">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NBO_0000171"/>
         <obo:IAO_0000115>Associative learning behavior that arises from observing or interacting with another individual.</obo:IAO_0000115>
-        <dc:contributor rdf:resource="https://orcid.org/ 0000-0002-4277-2151"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-4277-2151"/>
         <dc:date>2011-04-04T03:34:46Z</dc:date>
         <oboInOwl:created_by>George Gkoutos</oboInOwl:created_by>
         <oboInOwl:hasOBONamespace>behavior_ontology</oboInOwl:hasOBONamespace>

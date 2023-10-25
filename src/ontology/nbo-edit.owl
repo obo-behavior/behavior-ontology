@@ -1136,7 +1136,7 @@ AnnotationAssertion(oboInOwl:created_by obo:NBO_0000001 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000001 "stationary movement")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000001 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000001 "body part movement")
-SubClassOf(obo:NBO_0000001 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000001 obo:NBO_0000338)
 
 # Class: obo:NBO_0000002 (whole body movement)
 
@@ -1144,7 +1144,7 @@ AnnotationAssertion(dc:date obo:NBO_0000002 "2011-04-14T01:03:39Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000002 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000002 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000002 "whole body movement")
-SubClassOf(obo:NBO_0000002 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000002 obo:NBO_0000338)
 
 # Class: obo:NBO_0000003 (emotional behavior)
 
@@ -1272,7 +1272,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000014 "mating behaviour")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000014 "behavior_ontology")
 AnnotationAssertion(oboInOwl:xref obo:NBO_0000014 "GO:0007617")
 AnnotationAssertion(rdfs:label obo:NBO_0000014 "mating behavior")
-SubClassOf(obo:NBO_0000014 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000014 obo:NBO_0000010)
 
 # Class: obo:NBO_0000015 (aggressive behavior)
 
@@ -1476,7 +1476,7 @@ AnnotationAssertion(oboInOwl:created_by obo:NBO_0000034 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000034 "behavior_ontology")
 AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0000034 "sexual actions")
 AnnotationAssertion(rdfs:label obo:NBO_0000034 "sexual activity")
-SubClassOf(obo:NBO_0000034 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000034 obo:NBO_0000010)
 
 # Class: obo:NBO_0000035 (emission behavior)
 
@@ -1586,7 +1586,7 @@ AnnotationAssertion(oboInOwl:created_by obo:NBO_0000044 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000044 "behavior_ontology")
 AnnotationAssertion(oboInOwl:xref obo:NBO_0000044 "GO:0060746")
 AnnotationAssertion(rdfs:label obo:NBO_0000044 "parental behavior")
-SubClassOf(obo:NBO_0000044 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000044 obo:NBO_0000011)
 
 # Class: obo:NBO_0000045 (brooding behavior)
 
@@ -1631,7 +1631,8 @@ AnnotationAssertion(oboInOwl:hasAlternativeId obo:NBO_0000049 "NBO:0000625")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000049 "social playing behaviour")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000049 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000049 "social play")
-SubClassOf(obo:NBO_0000049 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000049 obo:NBO_0000011)
+SubClassOf(obo:NBO_0000049 obo:NBO_0000075)
 
 # Class: obo:NBO_0000051 (thermoregulation behavior)
 
@@ -1881,7 +1882,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000076 "motor play"@en)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000076 "behavior_ontology")
 AnnotationAssertion(rdfs:comment obo:NBO_0000076 "Many different actions are included in locomotor play. Some of the actions include a vertical leap, running in circles, chasing an animals own tail, lolloping, bouncing, bucking, rolling, whirling, dangling, spinning, back flips, hand stands, somersaults, and hanging upside down. The vertical leap is seen in mammals like in primates, hares, and mice. Along with running and bouncing, the vertical leap is important for strengthening leg muscles for self defense, escaping, or chasing. Activities like dangling and hanging upside down are important for improving climbing ability. These many different examples of locomotor play are important in strengthening muscles and improving motor skills. By participating in locomotor play, individuals will be able to improve skills like fighting, hunting, fleeing, and climbing.")
 AnnotationAssertion(rdfs:label obo:NBO_0000076 "locomotor play")
-SubClassOf(obo:NBO_0000076 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000076 obo:NBO_0000075)
 
 # Class: obo:NBO_0000077 (courtship behavior)
 
@@ -1907,7 +1908,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000078 "post-mating behavi
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000078 "behavior_ontology")
 AnnotationAssertion(oboInOwl:xref obo:NBO_0000078 "GO:0045297")
 AnnotationAssertion(rdfs:label obo:NBO_0000078 "post-mating behavior")
-SubClassOf(obo:NBO_0000078 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000078 obo:NBO_0000010)
 
 # Class: obo:NBO_0000079 (feeding behavior)
 
@@ -2029,7 +2030,7 @@ SubClassOf(obo:NBO_0000090 obo:NBO_0000087)
 
 # Class: obo:NBO_0000091 (fear-related behavior)
 
-AnnotationAssertion(Annotation(obo:IAO_0000119 "Mobbs, D., Adolphs, R., Fanselow, M. S., Barrett, L. F., LeDoux, J. E., Ressler, K., & Tye, K. M. (2019). Viewpoints: Approaches to defining and investigating fear. Nature Neuroscience, 22(8), 1205–1216.") Annotation(oboInOwl:hasDbXref "doi:10.1038/s41593-019-0456-6") obo:IAO_0000115 obo:NBO_0000091 "A survival behavior that is cued by a negatively affective external threat.")
+AnnotationAssertion(Annotation(obo:IAO_0000119 "Mobbs, D., Adolphs, R., Fanselow, M. S., Barrett, L. F., LeDoux, J. E., Ressler, K., & Tye, K. M. (2019). Viewpoints: Approaches to defining and investigating fear. Nature Neuroscience, 22(8), 1205–1216.") Annotation(oboInOwl:hasDbXref "doi:10.1038/s41593-019-0456-6") obo:IAO_0000115 obo:NBO_0000091 "A survival behavior that is cued by a negatively affective external threat.jhsdjhbgdsiugdisu")
 AnnotationAssertion(obo:IAO_0000116 obo:NBO_0000091 "There may need to be a future ontology transfer or obsoletion of NBO:0000018 fear/anxiety related behavior.")
 AnnotationAssertion(terms:contributor obo:NBO_0000091 <https://orcid.org/0000-0002-2061-091X>)
 AnnotationAssertion(terms:date obo:NBO_0000091 "2011-03-31T10:00:42Z"^^xsd:date)
@@ -2062,7 +2063,7 @@ AnnotationAssertion(dc:date obo:NBO_0000093 "2011-03-31T10:16:48Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000093 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000093 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000093 "fear behavior towards objects")
-SubClassOf(obo:NBO_0000093 obo:NBO_0000018)
+SubClassOf(obo:NBO_0000093 obo:NBO_0000091)
 
 # Class: obo:NBO_0000094 (fear behavior towards situation/environment)
 
@@ -2071,7 +2072,7 @@ AnnotationAssertion(dc:date obo:NBO_0000094 "2011-03-31T10:18:11Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000094 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000094 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000094 "fear behavior towards situation/environment")
-SubClassOf(obo:NBO_0000094 obo:NBO_0000018)
+SubClassOf(obo:NBO_0000094 obo:NBO_0000091)
 SubClassOf(obo:NBO_0000094 obo:NBO_0000100)
 
 # Class: obo:NBO_0000095 (fear behavior towards living things)
@@ -2081,7 +2082,7 @@ AnnotationAssertion(dc:date obo:NBO_0000095 "2011-03-31T10:18:25Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000095 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000095 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000095 "fear behavior towards living things")
-SubClassOf(obo:NBO_0000095 obo:NBO_0000018)
+SubClassOf(obo:NBO_0000095 obo:NBO_0000091)
 
 # Class: obo:NBO_0000096 (agoraphobia behavior)
 
@@ -2145,7 +2146,7 @@ AnnotationAssertion(dc:date obo:NBO_0000102 "2011-03-31T10:36:56Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000102 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000102 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000102 "fear-related retropulsion")
-SubClassOf(obo:NBO_0000102 obo:NBO_0000018)
+SubClassOf(obo:NBO_0000102 obo:NBO_0000091)
 SubClassOf(obo:NBO_0000102 obo:NBO_0000100)
 SubClassOf(obo:NBO_0000102 obo:NBO_0000101)
 
@@ -2339,7 +2340,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000121 "agonism"@en)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000121 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000121 "agonistic behavior")
 SubClassOf(obo:NBO_0000121 obo:NBO_0000003)
-SubClassOf(obo:NBO_0000121 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000121 obo:NBO_0000011)
 
 # Class: obo:NBO_0000122 (submissive behavior)
 
@@ -2600,7 +2601,7 @@ AnnotationAssertion(dc:date obo:NBO_0000148 "2011-03-31T02:24:12Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000148 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000148 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000148 "social investigation")
-SubClassOf(obo:NBO_0000148 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000148 obo:NBO_0000011)
 
 # Class: obo:NBO_0000149 (reclusive behavior)
 
@@ -2608,7 +2609,7 @@ AnnotationAssertion(dc:date obo:NBO_0000149 "2011-03-31T02:25:12Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000149 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000149 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000149 "reclusive behavior")
-SubClassOf(obo:NBO_0000149 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000149 obo:NBO_0000011)
 
 # Class: obo:NBO_0000150 (maternal behavior)
 
@@ -2672,7 +2673,7 @@ AnnotationAssertion(dc:date obo:NBO_0000156 "2011-03-31T02:53:42Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000156 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000156 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000156 "nesting behavior")
-SubClassOf(obo:NBO_0000156 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000156 obo:NBO_0000011)
 
 # Class: obo:NBO_0000157 (nest building behavior)
 
@@ -2823,8 +2824,8 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000171 "behavior_ontology"
 AnnotationAssertion(oboInOwl:xref obo:NBO_0000171 "GO:0008306")
 AnnotationAssertion(rdfs:comment obo:NBO_0000171 "The formation of associations among stimuli and responses.")
 AnnotationAssertion(rdfs:label obo:NBO_0000171 "associative learning behavior")
+SubClassOf(obo:NBO_0000171 obo:NBO_0000011)
 SubClassOf(obo:NBO_0000171 obo:NBO_0000022)
-SubClassOf(obo:NBO_0000171 obo:NBO_0000313)
 
 # Class: obo:NBO_0000172 (olfactory learning behavior)
 
@@ -3758,7 +3759,7 @@ AnnotationAssertion(oboInOwl:created_by obo:NBO_0000271 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000271 "group actions"@en)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000271 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000271 "group behavior")
-SubClassOf(obo:NBO_0000271 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000271 obo:NBO_0000011)
 
 # Class: obo:NBO_0000272 (social facilitation)
 
@@ -3814,7 +3815,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000277 "discrimination")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000277 "prejudice")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000277 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000277 "discriminatory behavior")
-SubClassOf(obo:NBO_0000277 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000277 obo:NBO_0000011)
 
 # Class: obo:NBO_0000278 (gender specific discriminatory behavior)
 
@@ -3841,7 +3842,7 @@ AnnotationAssertion(dc:date obo:NBO_0000280 "2011-04-04T09:16:35Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000280 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000280 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000280 "attraction-related behavior")
-SubClassOf(obo:NBO_0000280 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000280 obo:NBO_0000011)
 
 # Class: obo:NBO_0000281 (affiliation)
 
@@ -3893,7 +3894,7 @@ AnnotationAssertion(dc:date obo:NBO_0000286 "2011-04-04T09:22:04Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000286 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000286 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000286 "prosocial behavior")
-SubClassOf(obo:NBO_0000286 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000286 obo:NBO_0000011)
 
 # Class: obo:NBO_0000287 (helping behavior)
 
@@ -3919,7 +3920,7 @@ AnnotationAssertion(dc:date obo:NBO_0000289 "2011-04-04T09:26:44Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000289 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000289 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000289 "social influence related behavior")
-SubClassOf(obo:NBO_0000289 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000289 obo:NBO_0000011)
 
 # Class: obo:NBO_0000290 (conformity)
 
@@ -5483,7 +5484,7 @@ AnnotationAssertion(dc:date obo:NBO_0000447 "2011-04-08T12:27:51Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000447 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000447 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000447 "locomotor activation behavior")
-SubClassOf(obo:NBO_0000447 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000447 obo:NBO_0000338)
 SubClassOf(obo:NBO_0000447 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000013))
 
 # Class: obo:NBO_0000448 (vertical activity)
@@ -5501,7 +5502,7 @@ AnnotationAssertion(dc:date obo:NBO_0000449 "2011-04-08T12:28:25Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000449 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000449 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000449 "spontaneous movement behavior")
-SubClassOf(obo:NBO_0000449 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000449 obo:NBO_0000338)
 
 # Class: obo:NBO_0000450 (social grooming)
 
@@ -5513,8 +5514,8 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000450 "allogrooming")
 AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000450 "allohygiene"@en)
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000450 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000450 "social grooming")
+SubClassOf(obo:NBO_0000450 obo:NBO_0000011)
 SubClassOf(obo:NBO_0000450 obo:NBO_0000027)
-SubClassOf(obo:NBO_0000450 obo:NBO_0000313)
 
 # Class: obo:NBO_0000451 (personal grooming)
 
@@ -7026,7 +7027,7 @@ AnnotationAssertion(dc:date obo:NBO_0000604 "2011-04-14T03:33:25Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000604 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000604 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000604 "social inhibition")
-SubClassOf(obo:NBO_0000604 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000604 obo:NBO_0000011)
 
 # Class: obo:NBO_0000605 (sexual inhibition)
 
@@ -7035,7 +7036,7 @@ AnnotationAssertion(dc:date obo:NBO_0000605 "2011-04-14T03:34:29Z")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0000605 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000605 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000605 "sexual inhibition")
-SubClassOf(obo:NBO_0000605 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000605 obo:NBO_0000011)
 
 # Class: obo:NBO_0000606 (forgetfulness)
 
@@ -7115,7 +7116,7 @@ AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000612 "communicating")
 AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0000612 "signal exchange")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000612 "behavior_ontology")
 AnnotationAssertion(rdfs:label obo:NBO_0000612 "communication behavior")
-SubClassOf(obo:NBO_0000612 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000612 obo:NBO_0000011)
 
 # Class: obo:NBO_0000613 (nonverbal communication behavior)
 
@@ -7230,7 +7231,7 @@ AnnotationAssertion(oboInOwl:created_by obo:NBO_0000624 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000624 "behavior_ontology")
 AnnotationAssertion(rdfs:comment obo:NBO_0000624 "Object play is important in developing skills important in adulthood, especially hunting.")
 AnnotationAssertion(rdfs:label obo:NBO_0000624 "object play")
-SubClassOf(obo:NBO_0000624 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000624 obo:NBO_0000075)
 
 # Class: obo:NBO_0000626 (sexual play)
 
@@ -7278,7 +7279,7 @@ AnnotationAssertion(oboInOwl:created_by obo:NBO_0000630 "George Gkoutos")
 AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000630 "behavior_ontology")
 AnnotationAssertion(rdfs:comment obo:NBO_0000630 "Imitative play is an excellent means of learning how to perform a task that an adult has perfected. Therefore, imitative play is one of the best ways for animals to learn from the adults in the group.")
 AnnotationAssertion(rdfs:label obo:NBO_0000630 "imitative play")
-SubClassOf(obo:NBO_0000630 obo:NBO_0000313)
+SubClassOf(obo:NBO_0000630 obo:NBO_0000075)
 
 # Class: obo:NBO_0000631 (mobbing behavior)
 
@@ -9120,7 +9121,7 @@ SubClassOf(obo:NBO_0009001 obo:NBO_0000002)
 
 AnnotationAssertion(obo:IAO_0000115 obo:NBO_0009002 "Deactiviation of locomotory behavior.")
 AnnotationAssertion(rdfs:label obo:NBO_0009002 "locomotor inactivation behavior"@en)
-SubClassOf(obo:NBO_0009002 obo:NBO_0000313)
+SubClassOf(obo:NBO_0009002 obo:NBO_0000338)
 
 # Class: obo:NBO_0009003 (hunting behavior)
 
@@ -9379,7 +9380,7 @@ SubClassOf(obo:NBO_0020079 obo:NBO_0000636)
 AnnotationAssertion(obo:IAO_0000115 obo:NBO_0020084 "Active search for possible mates."@en)
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0020084 "Luke Slater")
 AnnotationAssertion(rdfs:label obo:NBO_0020084 "mate finding behavior"@en)
-SubClassOf(obo:NBO_0020084 obo:NBO_0000313)
+SubClassOf(obo:NBO_0020084 obo:NBO_0000010)
 
 # Class: obo:NBO_0020088 (resource advertisement)
 
@@ -9683,7 +9684,7 @@ SubClassOf(obo:NBO_0020253 obo:NBO_0000077)
 AnnotationAssertion(obo:IAO_0000115 obo:NBO_0020254 "Any of several behaviors directed towards one animal unwilling to mate by another eager to do so."@en)
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0020254 "Luke Slater")
 AnnotationAssertion(rdfs:label obo:NBO_0020254 "sexual harassment"@en)
-SubClassOf(obo:NBO_0020254 obo:NBO_0000313)
+SubClassOf(obo:NBO_0020254 obo:NBO_0000010)
 
 # Class: obo:NBO_0020255 (displacement behavior)
 
@@ -9823,21 +9824,21 @@ SubClassOf(obo:NBO_0020297 obo:NBO_0020177)
 AnnotationAssertion(obo:IAO_0000115 obo:NBO_0020298 "Usually interference by members of one sex in the completion of courtship or mating activities by one or more members of the same sex."@en)
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0020298 "Luke Slater")
 AnnotationAssertion(rdfs:label obo:NBO_0020298 "sexual interference"@en)
-SubClassOf(obo:NBO_0020298 obo:NBO_0000313)
+SubClassOf(obo:NBO_0020298 obo:NBO_0000010)
 
 # Class: obo:NBO_0020299 (mate rejection)
 
 AnnotationAssertion(obo:IAO_0000115 obo:NBO_0020299 "Behavior associated with refusing courtship or solicitation behaviors by avoidance, retreat, or other active repulsion of suitor."@en)
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0020299 "Luke Slater")
 AnnotationAssertion(rdfs:label obo:NBO_0020299 "mate rejection"@en)
-SubClassOf(obo:NBO_0020299 obo:NBO_0000313)
+SubClassOf(obo:NBO_0020299 obo:NBO_0000010)
 
 # Class: obo:NBO_0040000 (aggregation behavior)
 
 AnnotationAssertion(obo:IAO_0000115 obo:NBO_0040000 "A behavior associated with the gathering of organisms together in some locality. [Wikipedia:Aggregation_(ethology)]")
 AnnotationAssertion(oboInOwl:created_by obo:NBO_0040000 "https://orcid.org/0000-0002-9611-1279")
 AnnotationAssertion(rdfs:label obo:NBO_0040000 "aggregation behavior"@en)
-SubClassOf(obo:NBO_0040000 obo:NBO_0000313)
+SubClassOf(obo:NBO_0040000 obo:NBO_0000011)
 
 # Class: obo:NBO_0040001 (shoaling behavior)
 

@@ -10,3 +10,27 @@ reports/phenotypes.tsv: nbo.owl
 .PHONY: reports
 reports:
 	$(MAKE_FAST) reports/phenotypes.tsv
+
+MERGE_TEMPLATE_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vRsAXkG-gL6DTCcV6hMZDuBzEiI7C2YqgcwxQn-6lFqnGPBP4egyU2njvErjuTU81p_rmfM7lwMmV-G/pub?gid=1360418429&single=true&output=tsv"
+tmp/merge.tsv:
+	wget $(MERGE_TEMPLATE_URL) -O $@
+
+merge_template: tmp/merge.tsv
+	$(ROBOT) --prefix "dcterms: http://purl.org/dc/terms/" template --merge-before --input $(SRC) \
+ 	--template $< --output $(SRC).ofn && mv $(SRC).ofn $(SRC)
+
+tmp/remove.txt: tmp/merge.tsv
+	cut -f1 $< > $@
+
+rm_merge:
+	$(MAKE) tmp/remove.txt
+	$(ROBOT) filter -i $(SRC) -T tmp/remove.txt --select children --axioms subclass --trim false \
+		filter -T tmp/remove.txt --trim false \
+		convert -f ofn -o tmp/children.ofn
+	$(ROBOT) remove -i $(SRC) -T tmp/remove.txt --preserve-structure false merge -i tmp/children.ofn --collapse-import-closure false convert -f ofn -o tmp/src.ofn
+	mv tmp/src.ofn  $(SRC)
+
+template_merge_pipeline:
+	git checkout master -- nbo-edit.owl 
+	$(MAKE) rm_merge -B
+	$(MAKE) merge_template -B

@@ -8858,7 +8858,7 @@ namespace: behavior_ontology
 def: "Display that involves taking all four legs off the ground simultaneously and holding the legs stiff and straight." [DOI:10.1016/S0003-3472(86)80051-3]
 synonym: "pronking" EXACT []
 is_a: NBO:0020077 ! display condition (to predator)
-property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-2908-332
+property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-2908-3327
 property_value: http://purl.org/dc/terms/contributor https://orcid.org/0000-0002-4277-2151
 property_value: http://purl.org/dc/terms/date "2023-04-24T19:52:42Z" xsd:dateTime
 property_value: source "Caro TM. The functions of stotting: a review of the hypotheses. Animal Behaviour. 1986 Jun 1;34(3):649-62." xsd:string

@@ -28,7 +28,6 @@ Import(<http://purl.obolibrary.org/obo/nbo/imports/merged_import.owl>)
 Annotation(terms:description "An ontology of human and animal behaviours.")
 Annotation(terms:license <https://creativecommons.org/licenses/by/3.0/>)
 Annotation(terms:title "Neuro Behaviour Ontology")
-Annotation(oboInOwl:treat-xrefs-as-equivalent "GO")
 
 Declaration(Class(obo:CHEBI_15377))
 Declaration(Class(obo:CHEBI_16236))

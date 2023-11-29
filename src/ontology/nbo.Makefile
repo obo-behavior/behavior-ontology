@@ -11,7 +11,7 @@ reports/phenotypes.tsv: nbo.owl
 reports:
 	$(MAKE_FAST) reports/phenotypes.tsv
 
-MERGE_TEMPLATE_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vSscBNXMDeuEn0o_sWZqg9-ZGiEJ4jLFiAqyt7moDvfgh32GYMDmIBpdZFVGziC34w2z5xXwlaV-M-P/pub?gid=1120204179&single=true&output=tsv"
+MERGE_TEMPLATE_URL="https://docs.google.com/spreadsheets/d/e/2PACX-1vSscBNXMDeuEn0o_sWZqg9-ZGiEJ4jLFiAqyt7moDvfgh32GYMDmIBpdZFVGziC34w2z5xXwlaV-M-P/pub?gid=62604274&single=true&output=tsv"
 tmp/merge.tsv:
 	wget $(MERGE_TEMPLATE_URL) -O $@
 

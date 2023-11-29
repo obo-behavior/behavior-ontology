@@ -38,6 +38,9 @@ Declaration(Class(obo:CHEBI_27958))
 Declaration(Class(obo:CHEBI_32111))
 Declaration(Class(obo:CHEBI_33290))
 Declaration(Class(obo:CHEBI_35703))
+Declaration(Class(obo:ENVO_00002006))
+Declaration(Class(obo:ENVO_01001684))
+Declaration(Class(obo:ENVO_01001813))
 Declaration(Class(obo:GO_0002118))
 Declaration(Class(obo:GO_0002120))
 Declaration(Class(obo:GO_0007588))
@@ -1066,10 +1069,14 @@ Declaration(Class(obo:PATO_0002361))
 Declaration(Class(obo:UBERON_0000309))
 Declaration(Class(obo:UBERON_0001256))
 Declaration(Class(obo:UBERON_0001817))
+Declaration(Class(obo:UBERON_0001968))
 Declaration(Class(obo:UBERON_0002101))
 Declaration(Class(obo:UBERON_0002104))
 Declaration(Class(obo:UBERON_0002105))
+Declaration(Class(obo:UBERON_0003135))
 Declaration(Class(obo:UBERON_0005725))
+Declaration(Class(obo:UBERON_0008811))
+Declaration(Class(obo:UBERON_0014402))
 Declaration(ObjectProperty(obo:BFO_0000056))
 Declaration(ObjectProperty(obo:RO_0000086))
 Declaration(ObjectProperty(obo:RO_0002211))
@@ -1080,7 +1087,6 @@ Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/nbo#has_participant>)
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/nbo#in_response_to>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/nbo#is_about>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/nbo#qualifier>))
-Declaration(DataProperty(obo:RO_0000057))
 Declaration(AnnotationProperty(obo:IAO_0000115))
 Declaration(AnnotationProperty(obo:IAO_0100001))
 Declaration(AnnotationProperty(:synonymtype))
@@ -1108,16 +1114,6 @@ Declaration(AnnotationProperty(oboInOwl:treat-xrefs-as-equivalent))
 Declaration(AnnotationProperty(rdfs:comment))
 Declaration(AnnotationProperty(owl:deprecated))
 Declaration(AnnotationProperty(<http://www.w3.org/2004/02/skos/core#exactMatch>))
-Declaration(Datatype(obo:ENVO_00002006))
-Declaration(Datatype(obo:ENVO_01001684))
-Declaration(Datatype(obo:ENVO_01001813))
-Declaration(Datatype(obo:UBERON_0000026))
-Declaration(Datatype(obo:UBERON_0001968))
-Declaration(Datatype(obo:UBERON_0003133))
-Declaration(Datatype(obo:UBERON_0003134))
-Declaration(Datatype(obo:UBERON_0003135))
-Declaration(Datatype(obo:UBERON_0008811))
-Declaration(Datatype(obo:UBERON_0014402))
 Declaration(Datatype(xsd:date))
 
 ############################
@@ -1655,8 +1651,8 @@ SubClassOf(obo:NBO_0000033 obo:NBO_0000032)
 # Class: obo:NBO_0000034 (mating behavior)
 
 SubClassOf(obo:NBO_0000034 obo:NBO_0000338)
+SubClassOf(obo:NBO_0000034 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003133))
 SubClassOf(obo:NBO_0000034 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000010))
-SubClassOf(obo:NBO_0000034 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003133))
 
 # Class: obo:NBO_0000035 (emission behavior)
 
@@ -1907,9 +1903,9 @@ AnnotationAssertion(rdfs:label obo:NBO_0000060 "copulation")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> obo:NBO_0000060 "GO:0007620")
 SubClassOf(obo:NBO_0000060 obo:NBO_0000034)
 SubClassOf(obo:NBO_0000060 obo:NBO_0070014)
+SubClassOf(obo:NBO_0000060 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003134))
+SubClassOf(obo:NBO_0000060 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003135))
 SubClassOf(obo:NBO_0000060 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000034))
-SubClassOf(obo:NBO_0000060 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003134))
-SubClassOf(obo:NBO_0000060 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003135))
 
 # Class: obo:NBO_0000061 (forelimb paralysis)
 
@@ -6671,7 +6667,7 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000548 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0000548 "PRIOR DEFINITION: Behaviour related to the male activity which primary purpose is the sexual reproduction.")
 AnnotationAssertion(rdfs:label obo:NBO_0000548 "male mating behavior")
 SubClassOf(obo:NBO_0000548 obo:NBO_0000034)
-SubClassOf(obo:NBO_0000548 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003135))
+SubClassOf(obo:NBO_0000548 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003135))
 DisjointClasses(obo:NBO_0000548 obo:NBO_0000549)
 
 # Class: obo:NBO_0000549 (female mating behavior)
@@ -6687,7 +6683,7 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000549 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0000549 "PRIOR DEFINITION: Behaviour related to the female activity which primary purpose is the sexual reproduction.")
 AnnotationAssertion(rdfs:label obo:NBO_0000549 "female mating behavior")
 SubClassOf(obo:NBO_0000549 obo:NBO_0000034)
-SubClassOf(obo:NBO_0000549 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003134))
+SubClassOf(obo:NBO_0000549 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003134))
 
 # Class: obo:NBO_0000550 (recognition memory)
 
@@ -9646,8 +9642,8 @@ AnnotationAssertion(rdfs:comment obo:NBO_0020098 "1) This is often causally rela
 AnnotationAssertion(rdfs:label obo:NBO_0020098 "courtship begging")
 SubClassOf(obo:NBO_0020098 obo:NBO_0000077)
 SubClassOf(obo:NBO_0020098 obo:NBO_0020034)
+SubClassOf(obo:NBO_0020098 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:CHEBI_33290))
 SubClassOf(obo:NBO_0020098 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000077))
-SubClassOf(obo:NBO_0020098 DataSomeValuesFrom(obo:RO_0000057 obo:CHEBI_33290))
 
 # Class: obo:NBO_0020101 (sexual cannibalism)
 
@@ -9699,10 +9695,10 @@ AnnotationAssertion(rdfs:comment obo:NBO_0020109 "PRIOR DEFINITION: Use of speci
 AnnotationAssertion(rdfs:label obo:NBO_0020109 "sperm scraping")
 SubClassOf(obo:NBO_0020109 obo:NBO_0000548)
 SubClassOf(obo:NBO_0020109 obo:NBO_0020298)
+SubClassOf(obo:NBO_0020109 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0001968))
+SubClassOf(obo:NBO_0020109 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003134))
+SubClassOf(obo:NBO_0020109 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003135))
 SubClassOf(obo:NBO_0020109 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0020298))
-SubClassOf(obo:NBO_0020109 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0001968))
-SubClassOf(obo:NBO_0020109 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003134))
-SubClassOf(obo:NBO_0020109 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003135))
 
 # Class: obo:NBO_0020111 (injure)
 
@@ -9932,8 +9928,8 @@ AnnotationAssertion(rdfs:comment obo:NBO_0020242 "PRIOR DEFINITION: Creation of 
 AnnotationAssertion(rdfs:label obo:NBO_0020242 "build display structure")
 SubClassOf(obo:NBO_0020242 obo:NBO_0000147)
 SubClassOf(obo:NBO_0020242 obo:NBO_0000338)
+SubClassOf(obo:NBO_0020242 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:ENVO_01001813))
 SubClassOf(obo:NBO_0020242 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000147))
-SubClassOf(obo:NBO_0020242 DataSomeValuesFrom(obo:RO_0000057 obo:ENVO_01001813))
 
 # Class: obo:NBO_0020245 (mimicry enhancement)
 
@@ -9997,8 +9993,8 @@ AnnotationAssertion(rdfs:comment obo:NBO_0020264 "1) This is often causally rela
 AnnotationAssertion(rdfs:label obo:NBO_0020264 "courtship feeding")
 SubClassOf(obo:NBO_0020264 obo:NBO_0000077)
 SubClassOf(obo:NBO_0020264 obo:NBO_0020173)
+SubClassOf(obo:NBO_0020264 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:CHEBI_33290))
 SubClassOf(obo:NBO_0020264 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000077))
-SubClassOf(obo:NBO_0020264 DataSomeValuesFrom(obo:RO_0000057 obo:CHEBI_33290))
 
 # Class: obo:NBO_0020266 (spermatophore deposition)
 
@@ -10416,8 +10412,8 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070009 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0070009 "This only includes water if it is treated as a surface through which a terrestrial animal (e.g. an adult mosquito) can deposit fertilised eggs.")
 AnnotationAssertion(rdfs:label obo:NBO_0070009 "oviposition")
 SubClassOf(obo:NBO_0070009 obo:NBO_0000549)
-SubClassOf(obo:NBO_0070009 DataSomeValuesFrom(obo:RO_0000057 obo:ENVO_01001684))
-SubClassOf(obo:NBO_0070009 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003134))
+SubClassOf(obo:NBO_0070009 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:ENVO_01001684))
+SubClassOf(obo:NBO_0070009 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003134))
 DisjointClasses(obo:NBO_0070009 obo:NBO_0070010)
 
 # Class: obo:NBO_0070010 (egg broadcasting)
@@ -10437,8 +10433,8 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070010 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0070010 "1) This only occurs in water but does not include oviposition where a terrestrial animal (e.g. an adult insect) treats water as a substrate to deposit fertilised eggs. 2) Some species broadcast internally fertilised eggs.")
 AnnotationAssertion(rdfs:label obo:NBO_0070010 "egg broadcasting")
 SubClassOf(obo:NBO_0070010 obo:NBO_0000549)
-SubClassOf(obo:NBO_0070010 DataSomeValuesFrom(obo:RO_0000057 obo:ENVO_00002006))
-SubClassOf(obo:NBO_0070010 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003134))
+SubClassOf(obo:NBO_0070010 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:ENVO_00002006))
+SubClassOf(obo:NBO_0070010 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003134))
 
 # Class: obo:NBO_0070011 (sperm delivery)
 
@@ -10453,8 +10449,8 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070011 "http://purl.obolibrary.or
 AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070011 "http://purl.obolibrary.org/obo/nbo#ethology_module")
 AnnotationAssertion(rdfs:label obo:NBO_0070011 "sperm delivery")
 SubClassOf(obo:NBO_0070011 obo:NBO_0000548)
-SubClassOf(obo:NBO_0070011 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0001968))
-SubClassOf(obo:NBO_0070011 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003135))
+SubClassOf(obo:NBO_0070011 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0001968))
+SubClassOf(obo:NBO_0070011 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003135))
 
 # Class: obo:NBO_0070012 (sperm broadcasting)
 
@@ -10474,9 +10470,9 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070012 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0070012 "Most broadcast sperm is produced for external fertilising species but some (‘spermcasting’) is released for take-up for internally fertilising species (sometimes involving cryptic female choice).")
 AnnotationAssertion(rdfs:label obo:NBO_0070012 "sperm broadcasting")
 SubClassOf(obo:NBO_0070012 obo:NBO_0070011)
-SubClassOf(obo:NBO_0070012 DataSomeValuesFrom(obo:RO_0000057 obo:ENVO_00002006))
-SubClassOf(obo:NBO_0070012 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0001968))
-SubClassOf(obo:NBO_0070012 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003135))
+SubClassOf(obo:NBO_0070012 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:ENVO_00002006))
+SubClassOf(obo:NBO_0070012 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0001968))
+SubClassOf(obo:NBO_0070012 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003135))
 
 # Class: obo:NBO_0070013 (direct insemination)
 
@@ -10493,15 +10489,15 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070013 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0070013 "No subclasses are yet defined for traumatic insemination and cloacal kissing.")
 AnnotationAssertion(rdfs:label obo:NBO_0070013 "direct insemination")
 SubClassOf(obo:NBO_0070013 obo:NBO_0070011)
-SubClassOf(obo:NBO_0070013 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0001968))
-SubClassOf(obo:NBO_0070013 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003135))
+SubClassOf(obo:NBO_0070013 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0001968))
+SubClassOf(obo:NBO_0070013 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003135))
 DisjointClasses(obo:NBO_0070013 obo:NBO_0070021)
 
 # Class: obo:NBO_0070014 (sexual postural behavior)
 
 SubClassOf(obo:NBO_0070014 obo:NBO_0000355)
+SubClassOf(obo:NBO_0070014 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0014402))
 SubClassOf(obo:NBO_0070014 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000014))
-SubClassOf(obo:NBO_0070014 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0014402))
 
 # Class: obo:NBO_0070015 (sexual coercion)
 
@@ -10523,8 +10519,8 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070016 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0070016 "1) This may involve pairing embraces and group spawning rushes in fishes (see https://www.dcbd.nl/sites/default/files/documents/2013_aaus_esdp_diving_for_science-2.pdf#page=187). 2) Also aggregations of motile invertebrates, and synchrony of sessile invertebrates (see doi:10.1080/07924259.1992.9672274) 3) Disrupted interactions can also take distinctive forms.")
 AnnotationAssertion(rdfs:label obo:NBO_0070016 "spawning interaction")
 SubClassOf(obo:NBO_0070016 obo:NBO_0070014)
+SubClassOf(obo:NBO_0070016 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:ENVO_00002006))
 SubClassOf(obo:NBO_0070016 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000034))
-SubClassOf(obo:NBO_0070016 DataSomeValuesFrom(obo:RO_0000057 obo:ENVO_00002006))
 
 # Class: obo:NBO_0070017 (amplectant post-mate guarding)
 
@@ -10574,9 +10570,9 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070020 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0070020 "GO uses very similar terms but defined more narrowly than in the wider literature, in which a gelatinous plug is only one type, and formation may precede deposition.")
 AnnotationAssertion(rdfs:label obo:NBO_0070020 "copulatory plugging")
 SubClassOf(obo:NBO_0070020 obo:NBO_0000548)
+SubClassOf(obo:NBO_0070020 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003134))
+SubClassOf(obo:NBO_0070020 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003135))
 SubClassOf(obo:NBO_0070020 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070024))
-SubClassOf(obo:NBO_0070020 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003134))
-SubClassOf(obo:NBO_0070020 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003135))
 
 # Class: obo:NBO_0070021 (sperm deposition)
 
@@ -10592,9 +10588,9 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070021 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0070021 "Spermatophores are only the most encapsulated form of sperm aggregation.")
 AnnotationAssertion(rdfs:label obo:NBO_0070021 "sperm deposition")
 SubClassOf(obo:NBO_0070021 obo:NBO_0070011)
-SubClassOf(obo:NBO_0070021 DataSomeValuesFrom(obo:RO_0000057 obo:ENVO_01001684))
-SubClassOf(obo:NBO_0070021 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0001968))
-SubClassOf(obo:NBO_0070021 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003135))
+SubClassOf(obo:NBO_0070021 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:ENVO_01001684))
+SubClassOf(obo:NBO_0070021 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0001968))
+SubClassOf(obo:NBO_0070021 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003135))
 
 # Class: obo:NBO_0070022 (intromission)
 
@@ -10609,9 +10605,9 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0070022 "internal fertili
 AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070022 "http://purl.obolibrary.org/obo/nbo#ethology_module")
 AnnotationAssertion(rdfs:label obo:NBO_0070022 "intromission")
 SubClassOf(obo:NBO_0070022 obo:NBO_0070013)
-SubClassOf(obo:NBO_0070022 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0001968))
-SubClassOf(obo:NBO_0070022 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0003134))
-SubClassOf(obo:NBO_0070022 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0008811))
+SubClassOf(obo:NBO_0070022 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0001968))
+SubClassOf(obo:NBO_0070022 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003134))
+SubClassOf(obo:NBO_0070022 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0008811))
 
 # Class: obo:NBO_0070023 (amplexus)
 
@@ -10623,7 +10619,7 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070023 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0070023 "1) The term is most commonly used for amphibians, but is also used sometimes with arthropods. Amphibian forms include inguinal, axillary, dorsal, and ventral. 2) It can involve pre-, intra-, and post-mating phases. 3) It excludes effectively irreversible or parasitic attachments (such as male Angler fish) but can be long-lasting.")
 AnnotationAssertion(rdfs:label obo:NBO_0070023 "amplexus")
 SubClassOf(obo:NBO_0070023 obo:NBO_0070014)
-SubClassOf(obo:NBO_0070023 DataSomeValuesFrom(obo:RO_0000057 obo:UBERON_0000026))
+SubClassOf(obo:NBO_0070023 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0000026))
 
 # Class: obo:NBO_0070024 (sexual defense)
 

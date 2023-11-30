@@ -1146,181 +1146,6 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/nbo#qualifier> "q
 
 
 ############################
-#   Datatypes
-############################
-
-# Datatype: obo:NBO_0000010 (reproductive behavior)
-
-AnnotationAssertion(Annotation(obo:IAO_0000119 "Immelmann, K., & Beer, C. (1989). A dictionary of ethology. Harvard University Press.") Annotation(oboInOwl:hasDbXref "ISBN:0674205065") obo:IAO_0000115 obo:NBO_0000010 "A behavior process that tends to increase, “the propagation of new individuals”.")
-AnnotationAssertion(obo:IAO_0000116 obo:NBO_0000010 "Disjointing parental behavior follows original NBO structural intent despite many experts.")
-AnnotationAssertion(terms:contributor obo:NBO_0000010 <https://orcid.org/0000-0002-2061-091X>)
-AnnotationAssertion(terms:contributor obo:NBO_0000010 <https://orcid.org/0000-0002-4277-2151>)
-AnnotationAssertion(terms:date obo:NBO_0000010 "2011-04-14T01:03:39Z"^^xsd:date)
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000010 "reproduction")
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000010 "reproductive behaviour")
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000010 "behavior_ontology")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000010 <http://purl.obolibrary.org/obo/nbo#do_not_annotate>)
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000010 <http://purl.obolibrary.org/obo/nbo#ethology_module>)
-AnnotationAssertion(rdfs:comment obo:NBO_0000010 "PRIOR DEFINITION: Behavior directly related to the production of offspring.")
-AnnotationAssertion(rdfs:label obo:NBO_0000010 "reproductive behavior")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> obo:NBO_0000010 obo:GO_0019098)
-
-# Datatype: obo:NBO_0000014 (sexual activity)
-
-AnnotationAssertion(Annotation(obo:IAO_0000119 "Ganswindt, A., Rasmussen, H. B., Heistermann, M., & Hodges, J. K. (2005). The sexually active states of free-ranging male African elephants (Loxodonta africana): Defining musth and non-musth using endocrinology, physical signals, and behavior. Hormones and Behavior, 47(1), 83–91.") Annotation(oboInOwl:hasDbXref "doi:10.1016/j.yhbeh.2004.09.002") obo:IAO_0000115 obo:NBO_0000014 "A movement behavior that implements a reproductive behavior strategy to enable mating behavior.")
-AnnotationAssertion(obo:IAO_0000116 obo:NBO_0000014 "The source effectively transposes the NBO’s original meanings of ‘sexual activity’ and ‘mating behavior’ as do others (e.g. https://doi.org/10.1006/gcen.1993.1129).The original NBO labels have therefore been swapped.")
-AnnotationAssertion(terms:contributor obo:NBO_0000014 <https://orcid.org/0000-0002-2061-091X>)
-AnnotationAssertion(terms:contributor obo:NBO_0000014 <https://orcid.org/0000-0002-4277-2151>)
-AnnotationAssertion(terms:date obo:NBO_0000014 "2011-04-14T01:03:39Z"^^xsd:date)
-AnnotationAssertion(oboInOwl:hasBroadSynonym obo:NBO_0000014 "sexual behavior")
-AnnotationAssertion(oboInOwl:hasBroadSynonym obo:NBO_0000014 "sexual behaviour")
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003008) oboInOwl:hasExactSynonym obo:NBO_0000014 "mating behavior")
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000014 "sexual actions")
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000014 "behavior_ontology")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0000014 "estrus behavior")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0000014 "oestrus behaviour")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000014 "http://purl.obolibrary.org/obo/nbo#do_not_annotate")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000014 "http://purl.obolibrary.org/obo/nbo#ethology_module")
-AnnotationAssertion(rdfs:comment obo:NBO_0000014 "Estrus (oestrus) behavior is sometimes partnered with sexual activity as the components of mammalian sexual behavior.  PRIOR DEFINITION: Behavior related to the interactions between organisms for the purpose of mating.")
-AnnotationAssertion(rdfs:label obo:NBO_0000014 "sexual activity")
-
-# Datatype: obo:NBO_0000034 (mating behavior)
-
-AnnotationAssertion(Annotation(obo:IAO_0000119 "Puniamoorthy, N., Ismail, M. R. B., Tan, D. S. H., & Meier, R. (2009). From kissing to belly stridulation: Comparative analysis reveals surprising diversity, rapid evolution, and much homoplasy in the mating behaviour of 27 species of sepsid flies (Diptera: Sepsidae). Journal of Evolutionary Biology, 22(11), 2146–2156.") Annotation(oboInOwl:hasDbXref "doi:10.1111/j.1420-9101.2009.01826.x") obo:IAO_0000115 obo:NBO_0000034 "A movement behavior that stimulates, uses, or suppresses a reproductive organ in reproductive behavior.")
-AnnotationAssertion(obo:IAO_0000116 obo:NBO_0000034 "GO defines ‘mating behavior’ as what appears to actually be an Exact Xref to our old ‘sexual activity’ so the link has been switched alongside labels.")
-AnnotationAssertion(terms:contributor obo:NBO_0000034 <https://orcid.org/0000-0002-2061-091X>)
-AnnotationAssertion(terms:contributor obo:NBO_0000034 <https://orcid.org/0000-0002-4277-2151>)
-AnnotationAssertion(terms:date obo:NBO_0000034 "2011-04-14T01:03:39Z"^^xsd:date)
-AnnotationAssertion(oboInOwl:hasDbXref obo:NBO_0000034 obo:IDOMAL_0002000)
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000034 "mating")
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003008) oboInOwl:hasExactSynonym obo:NBO_0000034 "sexual activity")
-AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0000034 "copulatory activity")
-AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0000034 "copulatory behavior")
-AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0000034 "copulatory behaviour")
-AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0000034 "having sex")
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000034 "behavior_ontology")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0000034 "mounting behavior")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0000034 "mounting behaviour")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000034 "http://purl.obolibrary.org/obo/nbo#do_not_annotate")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000034 "http://purl.obolibrary.org/obo/nbo#ethology_module")
-AnnotationAssertion(rdfs:comment obo:NBO_0000034 "PRIOR DEFINITION: Behaviour related to the activity which primary purpose is the sexual reproduction.")
-AnnotationAssertion(rdfs:label obo:NBO_0000034 "mating behavior")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> obo:NBO_0000034 "GO:0007617")
-
-# Datatype: obo:NBO_0000049 (social play)
-
-AnnotationAssertion(obo:IAO_0000115 obo:NBO_0000049 "\"Play behavior that is associated with the socialization of an individual into the group.\" [web:http\\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Play%20Fighting.html]")
-AnnotationAssertion(dc:date obo:NBO_0000049 "2011-04-14T01:03:39Z")
-AnnotationAssertion(oboInOwl:created_by obo:NBO_0000049 "George Gkoutos")
-AnnotationAssertion(oboInOwl:hasAlternativeId obo:NBO_0000049 "NBO:0000625")
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000049 "social playing behaviour")
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000049 "behavior_ontology")
-AnnotationAssertion(rdfs:label obo:NBO_0000049 "social play")
-
-# Datatype: obo:NBO_0000077 (courtship behavior)
-
-AnnotationAssertion(Annotation(obo:IAO_0000119 "Mitoyen, C., Quigley, C., & Fusani, L. (2019). Evolution and function of multimodal courtship displays. Ethology, 125(8), 503–515.") Annotation(oboInOwl:hasDbXref "doi:10.1111/eth.12882") obo:IAO_0000115 obo:NBO_0000077 "Sexual activity that attractively communicates with a potential mate.")
-AnnotationAssertion(terms:contributor obo:NBO_0000077 <https://orcid.org/0000-0002-2061-091X>)
-AnnotationAssertion(terms:contributor obo:NBO_0000077 <https://orcid.org/0000-0002-4277-2151>)
-AnnotationAssertion(terms:date obo:NBO_0000077 "2011-04-14T01:20:02Z"^^xsd:date)
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000077 "courtship")
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000077 "courtship behaviour")
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000077 "behavior_ontology")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000077 "http://purl.obolibrary.org/obo/nbo#do_not_annotate")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000077 "http://purl.obolibrary.org/obo/nbo#ethology_module")
-AnnotationAssertion(rdfs:comment obo:NBO_0000077 "PRIOR DEFINITION: The behavioral interactions between organisms for the purpose of attracting sexual partners.")
-AnnotationAssertion(rdfs:label obo:NBO_0000077 "courtship behavior")
-AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> obo:NBO_0000077 "GO:0007619")
-
-# Datatype: obo:NBO_0000147 (sexual display behavior)
-
-AnnotationAssertion(Annotation(obo:IAO_0000119 "West-Eberhard, M. J. (1979). Sexual selection, social competition, and evolution. Proceedings of the American Philosophical Society, 123(4), 222–234.") Annotation(oboInOwl:hasDbXref "https://www.jstor.org/stable/986582") obo:IAO_0000115 obo:NBO_0000147 "Mating behavior that competitively signals potential disposition, ability, or quality.")
-AnnotationAssertion(obo:IAO_0000116 obo:NBO_0000147 "In due course a new parent class (signalling) should be inserted between this class and NBO:0000612.")
-AnnotationAssertion(terms:contributor obo:NBO_0000147 <https://orcid.org/0000-0002-2061-091X>)
-AnnotationAssertion(terms:contributor obo:NBO_0000147 <https://orcid.org/0000-0002-4277-2151>)
-AnnotationAssertion(terms:date obo:NBO_0000147 "2011-03-31T02:21:53Z"^^xsd:date)
-AnnotationAssertion(oboInOwl:hasBroadSynonym obo:NBO_0000147 "competitive display")
-AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0000147 "mate attraction behavior")
-AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0000147 "mate attraction behaviour")
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000147 "behavior_ontology")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0000147 "social competition")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000147 "http://purl.obolibrary.org/obo/nbo#do_not_annotate")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000147 "http://purl.obolibrary.org/obo/nbo#ethology_module")
-AnnotationAssertion(rdfs:comment obo:NBO_0000147 "This is not simply about morphology, but it may be about amplifying or activating a morphological feature.  PRIOR DEFINITION: (None) ")
-AnnotationAssertion(rdfs:label obo:NBO_0000147 "sexual display behavior")
-
-# Datatype: obo:NBO_0020054 (post-mate guarding)
-
-AnnotationAssertion(Annotation(obo:IAO_0000119 "Parker, D. J., & Vahed, K. (2010). The intensity of pre- and post-copulatory mate guarding in relation to spermatophore transfer in the cricket Gryllus bimaculatus. Journal of Ethology, 28(2), 245–249.") Annotation(oboInOwl:hasDbXref "doi:10.1007/s10164-009-0176-6") obo:IAO_0000115 obo:NBO_0020054 "A sexual activity that provides sexual defense by increasing fertilisation rate, reducing search effort for renewed mating, or excluding a competitor.")
-AnnotationAssertion(obo:IAO_0000116 obo:NBO_0020054 "1) Original label includes pre-mate guarding but the definition excludes it. 2) NBO:0000078 post-mating behavior probably needs obsoleting for the same reasons (imprecise definition) as GO:0045297 post-mating behavior was obsoleted.")
-AnnotationAssertion(terms:contributor obo:NBO_0020054 <https://orcid.org/0000-0001-9227-0670>)
-AnnotationAssertion(terms:contributor obo:NBO_0020054 <https://orcid.org/0000-0002-4277-2151>)
-AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003008) oboInOwl:hasExactSynonym obo:NBO_0020054 "mate guarding")
-AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0020054 "postcopulatory monopoly")
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0020054 "behavior_ontology")
-AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0020054 "postinsemination association")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0020054 "http://purl.obolibrary.org/obo/nbo#ethology_module")
-AnnotationAssertion(rdfs:comment obo:NBO_0020054 "1) One reference notes tandem (contact) and no-contact forms (doi:10.1016/S0003-3472(87)80036-2). 2) Another source gives prolonged copulation as a form (doi:10.22271/j.ento.2016.v4.i2d.908). 3) The female Canid  ‘copulatory lock’ needs defining and positioning in NBO. 4) Extensive use of the term ‘precopulatory mate guarding’ suggests ‘pre-mate guarding’ could find a useful place in the NBO (see doi:10.1016/0022-5193(83)90390-9), in which case a more generic ‘mate guarding’ parent class may be useful (see doi:10.1016/j.anbehav.2021.12.003), possibly incorporating copulatory locking (‘intra-mate guarding’?) and ‘consorting’ (mixed mate guarding) as subclasses.  PRIOR DEFINITION: One member of a recently mating pair prevents the other from subsequent matings with other individuals.")
-AnnotationAssertion(rdfs:label obo:NBO_0020054 "post-mate guarding")
-
-# Datatype: obo:NBO_0020298 (sexual interference)
-
-AnnotationAssertion(Annotation(obo:IAO_0000119 "Arnold, S. J. (1976). Sexual behavior, sexual interference and sexual defense in the salamanders Ambystoma maculatum, Ambystoma tigrinum and Plethodon jordani. Zeitschrift Für Tierpsychologie, 42(3), 247–300.") Annotation(oboInOwl:hasDbXref "doi:10.1111/j.1439-0310.1976.tb00970.x") obo:IAO_0000115 obo:NBO_0020298 "Agonistic behavior that, “may advance its own (reproductive) success by detracting from the sexual success of others of the same sex”.")
-AnnotationAssertion(terms:contributor obo:NBO_0020298 <https://orcid.org/0000-0001-9227-0670>)
-AnnotationAssertion(terms:contributor obo:NBO_0020298 <https://orcid.org/0000-0002-4277-2151>)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0020298 "behavior_ontology")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0020298 "http://purl.obolibrary.org/obo/nbo#do_not_annotate")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0020298 "http://purl.obolibrary.org/obo/nbo#ethology_module")
-AnnotationAssertion(rdfs:comment obo:NBO_0020298 "1) The source reports several observations including: diluting competitors sperm with their own (females have a finite spermathecal volume); covering a rival’s spermatophore with their own; nudging, biting, and chasing competitors to interrupt mating; mimicry of females to distract competitors and then deplete their sperm; mate abduction. 2) Sneaking mimicry (a kind of unobtrusive mating) is posited as a form of sexual interference, although more recent sources say it is actually a form of ‘scramble competition’ (ISBN 0521347904). 3) Wider literature referred to adds: spermatophore destruction and egg eating. 4) Destruction of non-bodily constructions like bowers and nests is another type mentioned (see also doi:10.1080/01584197.2018.1442228). 5) Conspecific fertilised egg cuckolding and infanticide are incidental in our context as parenthood is excluded from our version of reproductive behavior.  PRIOR DEFINITION: Usually interference by members of one sex in the completion of courtship or mating activities by one or more members of the same sex.")
-AnnotationAssertion(rdfs:label obo:NBO_0020298 "sexual interference")
-
-# Datatype: obo:NBO_0070014 (sexual postural behavior)
-
-AnnotationAssertion(Annotation(obo:IAO_0000119 "Huber, B. A., Sinclair, B. J., & Schmitt, M. (2007). The evolution of asymmetric genitalia in spiders and insects. Biological Reviews, 82(4), 647–698.") Annotation(oboInOwl:hasDbXref "doi:10.1111/j.1469-185X.2007.00029.x") obo:IAO_0000115 obo:NBO_0070014 "Postural behavior that enables, “greater control,” of mating behavior.")
-AnnotationAssertion(terms:contributor obo:NBO_0070014 <https://orcid.org/0000-0002-4277-2151>)
-AnnotationAssertion(terms:date obo:NBO_0070014 "2023-09-05T12:00:00Z"^^xsd:date)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0070014 "behavior_ontology")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070014 "http://purl.obolibrary.org/obo/nbo#do_not_annotate")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070014 "http://purl.obolibrary.org/obo/nbo#ethology_module")
-AnnotationAssertion(rdfs:comment obo:NBO_0070014 "Spawning sub-categories include approach, alignment, run, and clasp; crinoids have been described as arching.")
-AnnotationAssertion(rdfs:label obo:NBO_0070014 "sexual postural behavior")
-
-# Datatype: obo:NBO_0070015 (sexual coercion)
-
-AnnotationAssertion(Annotation(obo:IAO_0000119 "Clutton-Brock, T. H., & Parker, G. A. (1995). Sexual coercion in animal societies. Animal Behaviour, 49(5), 1345–1365.") Annotation(oboInOwl:hasDbXref "doi:10.1006/anbe.1995.0166") obo:IAO_0000115 obo:NBO_0070015 "Mate choice behavior that is compelled.")
-AnnotationAssertion(terms:contributor obo:NBO_0070015 <https://orcid.org/0000-0002-4277-2151>)
-AnnotationAssertion(terms:date obo:NBO_0070015 "2023-09-27T12:00:00Z"^^xsd:date)
-AnnotationAssertion(oboInOwl:hasDbXref obo:NBO_0070015 obo:GSSO_006839)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0070015 "behavior_ontology")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070015 "http://purl.obolibrary.org/obo/nbo#ethology_module")
-AnnotationAssertion(rdfs:comment obo:NBO_0070015 "1) The definition reference notes that harassment, force and intimidation are different forms of sexual coercion. 2) The definition combines its parent classes with a referenced description.")
-AnnotationAssertion(rdfs:label obo:NBO_0070015 "sexual coercion")
-
-# Datatype: obo:NBO_0070018 (mate choice behavior)
-
-AnnotationAssertion(Annotation(obo:IAO_0000119 "Edward, D. A. (2015). The description of mate choice. Behavioral Ecology, 26(2), 301–310.") Annotation(oboInOwl:hasDbXref "doi:10.1093/beheco/aru142") obo:IAO_0000115 obo:NBO_0070018 "Information processing, “that occurs whenever the effects of traits expressed in one sex leads to non-random allocation of reproductive investment with members of the opposite sex”.")
-AnnotationAssertion(obo:IAO_0000116 obo:NBO_0070018 "1) The label would be ‘mate choice’ except that that is given as hasExactSynonym of the trait NBO:0000145 ‘mating preference’ in the phenotype branch. In due course, the latter needs modifying to become hasRelatedSynonym ‘choosiness’. 2) This class should have simply been a relabelled NBO:0020084 mate finding behavior, were the latter not defined almost identically to its own subclass NBO:0020272 hunt for mate which is itself retained (but relabelled). NBO:0020084 needs obsoleting in due course.")
-AnnotationAssertion(terms:contributor obo:NBO_0070018 <https://orcid.org/0000-0002-4277-2151>)
-AnnotationAssertion(terms:date obo:NBO_0070018 "2023-10-10T12:00:00Z"^^xsd:date)
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0070018 "behavior_ontology")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070018 "http://purl.obolibrary.org/obo/nbo#do_not_annotate")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070018 "http://purl.obolibrary.org/obo/nbo#ethology_module")
-AnnotationAssertion(rdfs:comment obo:NBO_0070018 "According to the reference, traits best describing this behavior are preference and choosiness.")
-AnnotationAssertion(rdfs:label obo:NBO_0070018 "mate choice behavior")
-
-# Datatype: obo:NBO_0070024 (sexual defense)
-
-AnnotationAssertion(Annotation(obo:IAO_0000119 "Arnold, S. J. (1976). Sexual behavior, sexual interference and sexual defense in the salamanders Ambystoma maculatum, Ambystoma tigrinum and Plethodon jordani. Zeitschrift Für Tierpsychologie, 42(3), 247–300.") Annotation(oboInOwl:hasDbXref "doi:10.1111/j.1439-0310.1976.tb00970.x") obo:IAO_0000115 obo:NBO_0070024 "Agonistic behavior that prevents, “the debilitating effects of sexual interference,” on reproductive behavior.")
-AnnotationAssertion(terms:contributor obo:NBO_0070024 <https://orcid.org/0000-0002-4277-2151>)
-AnnotationAssertion(terms:date obo:NBO_0070024 "2023-11-23T12:00:00Z"^^xsd:date)
-AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0070024 "sexual defence")
-AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0070024 "behavior_ontology")
-AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070024 "http://purl.obolibrary.org/obo/nbo#ethology_module")
-AnnotationAssertion(rdfs:comment obo:NBO_0070024 "The source suggests hasty mating, prolonged mating, mate transportation, biting interlopers, precopulatory and postcopulatory monopoly, territoriality, copulatory plugs, insemination reactions, and group exclusion.")
-AnnotationAssertion(rdfs:label obo:NBO_0070024 "sexual defense")
-
-
-############################
 #   Classes
 ############################
 
@@ -1407,6 +1232,19 @@ SubClassOf(obo:NBO_0000009 obo:NBO_0000644)
 
 # Class: obo:NBO_0000010 (reproductive behavior)
 
+AnnotationAssertion(Annotation(obo:IAO_0000119 "Immelmann, K., & Beer, C. (1989). A dictionary of ethology. Harvard University Press.") Annotation(oboInOwl:hasDbXref "ISBN:0674205065") obo:IAO_0000115 obo:NBO_0000010 "A behavior process that tends to increase, “the propagation of new individuals”.")
+AnnotationAssertion(obo:IAO_0000116 obo:NBO_0000010 "Disjointing parental behavior follows original NBO structural intent despite many experts.")
+AnnotationAssertion(terms:contributor obo:NBO_0000010 <https://orcid.org/0000-0002-2061-091X>)
+AnnotationAssertion(terms:contributor obo:NBO_0000010 <https://orcid.org/0000-0002-4277-2151>)
+AnnotationAssertion(terms:date obo:NBO_0000010 "2011-04-14T01:03:39Z"^^xsd:date)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000010 "reproduction")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000010 "reproductive behaviour")
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000010 "behavior_ontology")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000010 <http://purl.obolibrary.org/obo/nbo#do_not_annotate>)
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000010 <http://purl.obolibrary.org/obo/nbo#ethology_module>)
+AnnotationAssertion(rdfs:comment obo:NBO_0000010 "PRIOR DEFINITION: Behavior directly related to the production of offspring.")
+AnnotationAssertion(rdfs:label obo:NBO_0000010 "reproductive behavior")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> obo:NBO_0000010 obo:GO_0019098)
 SubClassOf(obo:NBO_0000010 obo:NBO_0000313)
 DisjointClasses(obo:NBO_0000010 obo:NBO_0000044)
 
@@ -1449,8 +1287,24 @@ SubClassOf(obo:NBO_0000013 obo:NBO_0000002)
 
 # Class: obo:NBO_0000014 (sexual activity)
 
+AnnotationAssertion(Annotation(obo:IAO_0000119 "Ganswindt, A., Rasmussen, H. B., Heistermann, M., & Hodges, J. K. (2005). The sexually active states of free-ranging male African elephants (Loxodonta africana): Defining musth and non-musth using endocrinology, physical signals, and behavior. Hormones and Behavior, 47(1), 83–91.") Annotation(oboInOwl:hasDbXref "doi:10.1016/j.yhbeh.2004.09.002") obo:IAO_0000115 obo:NBO_0000014 "A movement behavior that implements a reproductive behavior strategy to enable mating behavior.")
+AnnotationAssertion(obo:IAO_0000116 obo:NBO_0000014 "The source effectively transposes the NBO’s original meanings of ‘sexual activity’ and ‘mating behavior’ as do others (e.g. https://doi.org/10.1006/gcen.1993.1129).The original NBO labels have therefore been swapped.")
+AnnotationAssertion(terms:contributor obo:NBO_0000014 <https://orcid.org/0000-0002-2061-091X>)
+AnnotationAssertion(terms:contributor obo:NBO_0000014 <https://orcid.org/0000-0002-4277-2151>)
+AnnotationAssertion(terms:date obo:NBO_0000014 "2011-04-14T01:03:39Z"^^xsd:date)
+AnnotationAssertion(oboInOwl:hasBroadSynonym obo:NBO_0000014 "sexual behavior")
+AnnotationAssertion(oboInOwl:hasBroadSynonym obo:NBO_0000014 "sexual behaviour")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003008) oboInOwl:hasExactSynonym obo:NBO_0000014 "mating behavior")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000014 "sexual actions")
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000014 "behavior_ontology")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0000014 "estrus behavior")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0000014 "oestrus behaviour")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000014 "http://purl.obolibrary.org/obo/nbo#do_not_annotate")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000014 "http://purl.obolibrary.org/obo/nbo#ethology_module")
+AnnotationAssertion(rdfs:comment obo:NBO_0000014 "Estrus (oestrus) behavior is sometimes partnered with sexual activity as the components of mammalian sexual behavior.  PRIOR DEFINITION: Behavior related to the interactions between organisms for the purpose of mating.")
+AnnotationAssertion(rdfs:label obo:NBO_0000014 "sexual activity")
 SubClassOf(obo:NBO_0000014 obo:NBO_0000338)
-SubClassOf(obo:NBO_0000014 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000010))
+SubClassOf(obo:NBO_0000014 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000010))
 DisjointClasses(obo:NBO_0000014 obo:NBO_0000034)
 
 # Class: obo:NBO_0000015 (aggressive behavior)
@@ -1649,9 +1503,29 @@ SubClassOf(obo:NBO_0000033 obo:NBO_0000032)
 
 # Class: obo:NBO_0000034 (mating behavior)
 
+AnnotationAssertion(Annotation(obo:IAO_0000119 "Puniamoorthy, N., Ismail, M. R. B., Tan, D. S. H., & Meier, R. (2009). From kissing to belly stridulation: Comparative analysis reveals surprising diversity, rapid evolution, and much homoplasy in the mating behaviour of 27 species of sepsid flies (Diptera: Sepsidae). Journal of Evolutionary Biology, 22(11), 2146–2156.") Annotation(oboInOwl:hasDbXref "doi:10.1111/j.1420-9101.2009.01826.x") obo:IAO_0000115 obo:NBO_0000034 "A movement behavior that stimulates, uses, or suppresses a reproductive organ in reproductive behavior.")
+AnnotationAssertion(obo:IAO_0000116 obo:NBO_0000034 "GO defines ‘mating behavior’ as what appears to actually be an Exact Xref to our old ‘sexual activity’ so the link has been switched alongside labels.")
+AnnotationAssertion(terms:contributor obo:NBO_0000034 <https://orcid.org/0000-0002-2061-091X>)
+AnnotationAssertion(terms:contributor obo:NBO_0000034 <https://orcid.org/0000-0002-4277-2151>)
+AnnotationAssertion(terms:date obo:NBO_0000034 "2011-04-14T01:03:39Z"^^xsd:date)
+AnnotationAssertion(oboInOwl:hasDbXref obo:NBO_0000034 obo:IDOMAL_0002000)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000034 "mating")
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003008) oboInOwl:hasExactSynonym obo:NBO_0000034 "sexual activity")
+AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0000034 "copulatory activity")
+AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0000034 "copulatory behavior")
+AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0000034 "copulatory behaviour")
+AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0000034 "having sex")
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000034 "behavior_ontology")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0000034 "mounting behavior")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0000034 "mounting behaviour")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000034 "http://purl.obolibrary.org/obo/nbo#do_not_annotate")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000034 "http://purl.obolibrary.org/obo/nbo#ethology_module")
+AnnotationAssertion(rdfs:comment obo:NBO_0000034 "PRIOR DEFINITION: Behaviour related to the activity which primary purpose is the sexual reproduction.")
+AnnotationAssertion(rdfs:label obo:NBO_0000034 "mating behavior")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> obo:NBO_0000034 "GO:0007617")
 SubClassOf(obo:NBO_0000034 obo:NBO_0000338)
+SubClassOf(obo:NBO_0000034 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000010))
 SubClassOf(obo:NBO_0000034 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003133))
-SubClassOf(obo:NBO_0000034 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000010))
 
 # Class: obo:NBO_0000035 (emission behavior)
 
@@ -1799,6 +1673,13 @@ SubClassOf(obo:NBO_0000048 obo:NBO_0000636)
 
 # Class: obo:NBO_0000049 (social play)
 
+AnnotationAssertion(obo:IAO_0000115 obo:NBO_0000049 "\"Play behavior that is associated with the socialization of an individual into the group.\" [web:http\\://www.bio.davidson.edu/people/vecase/behavior/Spring2009/Sacco/Pages/Play%20Fighting.html]")
+AnnotationAssertion(dc:date obo:NBO_0000049 "2011-04-14T01:03:39Z")
+AnnotationAssertion(oboInOwl:created_by obo:NBO_0000049 "George Gkoutos")
+AnnotationAssertion(oboInOwl:hasAlternativeId obo:NBO_0000049 "NBO:0000625")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000049 "social playing behaviour")
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000049 "behavior_ontology")
+AnnotationAssertion(rdfs:label obo:NBO_0000049 "social play")
 SubClassOf(obo:NBO_0000049 obo:NBO_0000011)
 SubClassOf(obo:NBO_0000049 obo:NBO_0000075)
 
@@ -1902,9 +1783,9 @@ AnnotationAssertion(rdfs:label obo:NBO_0000060 "copulation")
 AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> obo:NBO_0000060 "GO:0007620")
 SubClassOf(obo:NBO_0000060 obo:NBO_0000034)
 SubClassOf(obo:NBO_0000060 obo:NBO_0070014)
+SubClassOf(obo:NBO_0000060 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000034))
 SubClassOf(obo:NBO_0000060 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003134))
 SubClassOf(obo:NBO_0000060 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003135))
-SubClassOf(obo:NBO_0000060 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000034))
 
 # Class: obo:NBO_0000061 (forelimb paralysis)
 
@@ -2065,9 +1946,21 @@ SubClassOf(obo:NBO_0000076 obo:NBO_0000075)
 
 # Class: obo:NBO_0000077 (courtship behavior)
 
+AnnotationAssertion(Annotation(obo:IAO_0000119 "Mitoyen, C., Quigley, C., & Fusani, L. (2019). Evolution and function of multimodal courtship displays. Ethology, 125(8), 503–515.") Annotation(oboInOwl:hasDbXref "doi:10.1111/eth.12882") obo:IAO_0000115 obo:NBO_0000077 "Sexual activity that attractively communicates with a potential mate.")
+AnnotationAssertion(terms:contributor obo:NBO_0000077 <https://orcid.org/0000-0002-2061-091X>)
+AnnotationAssertion(terms:contributor obo:NBO_0000077 <https://orcid.org/0000-0002-4277-2151>)
+AnnotationAssertion(terms:date obo:NBO_0000077 "2011-04-14T01:20:02Z"^^xsd:date)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000077 "courtship")
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0000077 "courtship behaviour")
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000077 "behavior_ontology")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000077 "http://purl.obolibrary.org/obo/nbo#do_not_annotate")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000077 "http://purl.obolibrary.org/obo/nbo#ethology_module")
+AnnotationAssertion(rdfs:comment obo:NBO_0000077 "PRIOR DEFINITION: The behavioral interactions between organisms for the purpose of attracting sexual partners.")
+AnnotationAssertion(rdfs:label obo:NBO_0000077 "courtship behavior")
+AnnotationAssertion(<http://www.w3.org/2004/02/skos/core#exactMatch> obo:NBO_0000077 "GO:0007619")
 SubClassOf(obo:NBO_0000077 obo:NBO_0000014)
 SubClassOf(obo:NBO_0000077 obo:NBO_0000612)
-SubClassOf(obo:NBO_0000077 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000014))
+SubClassOf(obo:NBO_0000077 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000014))
 DisjointClasses(obo:NBO_0000077 obo:NBO_0000147)
 
 # Class: obo:NBO_0000078 (post-mating behavior)
@@ -2768,13 +2661,27 @@ AnnotationAssertion(rdfs:comment obo:NBO_0000146 "Most often this refers to fema
 AnnotationAssertion(rdfs:label obo:NBO_0000146 "mating receptivity behavior")
 SubClassOf(obo:NBO_0000146 obo:NBO_0000014)
 SubClassOf(obo:NBO_0000146 obo:NBO_0000612)
-SubClassOf(obo:NBO_0000146 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000014))
+SubClassOf(obo:NBO_0000146 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000014))
 
 # Class: obo:NBO_0000147 (sexual display behavior)
 
+AnnotationAssertion(Annotation(obo:IAO_0000119 "West-Eberhard, M. J. (1979). Sexual selection, social competition, and evolution. Proceedings of the American Philosophical Society, 123(4), 222–234.") Annotation(oboInOwl:hasDbXref "https://www.jstor.org/stable/986582") obo:IAO_0000115 obo:NBO_0000147 "Mating behavior that competitively signals potential disposition, ability, or quality.")
+AnnotationAssertion(obo:IAO_0000116 obo:NBO_0000147 "In due course a new parent class (signalling) should be inserted between this class and NBO:0000612.")
+AnnotationAssertion(terms:contributor obo:NBO_0000147 <https://orcid.org/0000-0002-2061-091X>)
+AnnotationAssertion(terms:contributor obo:NBO_0000147 <https://orcid.org/0000-0002-4277-2151>)
+AnnotationAssertion(terms:date obo:NBO_0000147 "2011-03-31T02:21:53Z"^^xsd:date)
+AnnotationAssertion(oboInOwl:hasBroadSynonym obo:NBO_0000147 "competitive display")
+AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0000147 "mate attraction behavior")
+AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0000147 "mate attraction behaviour")
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0000147 "behavior_ontology")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0000147 "social competition")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000147 "http://purl.obolibrary.org/obo/nbo#do_not_annotate")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000147 "http://purl.obolibrary.org/obo/nbo#ethology_module")
+AnnotationAssertion(rdfs:comment obo:NBO_0000147 "This is not simply about morphology, but it may be about amplifying or activating a morphological feature.  PRIOR DEFINITION: (None) ")
+AnnotationAssertion(rdfs:label obo:NBO_0000147 "sexual display behavior")
 SubClassOf(obo:NBO_0000147 obo:NBO_0000014)
 SubClassOf(obo:NBO_0000147 obo:NBO_0000612)
-SubClassOf(obo:NBO_0000147 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000014))
+SubClassOf(obo:NBO_0000147 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000014))
 
 # Class: obo:NBO_0000148 (social investigation)
 
@@ -7441,7 +7348,7 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0000626 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0000626 "Please use other ontologies for human-related subtypes or annotation.  PRIOR DEFINITION: \"Behavior associated with interactions which resemble sexual behavior but do not lead to copulation.")
 AnnotationAssertion(rdfs:label obo:NBO_0000626 "sexual play")
 SubClassOf(obo:NBO_0000626 obo:NBO_0000034)
-SubClassOf(obo:NBO_0000626 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000049))
+SubClassOf(obo:NBO_0000626 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000049))
 
 # Class: obo:NBO_0000627 (play fight)
 
@@ -9440,7 +9347,7 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0020010 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0020010 "PRIOR DEFINITION: Assessment of cues and signals from encountered individual to determine reproductive condition.")
 AnnotationAssertion(rdfs:label obo:NBO_0020010 "reproductive status assessment")
 SubClassOf(obo:NBO_0020010 obo:NBO_0070007)
-SubClassOf(obo:NBO_0020010 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070018))
+SubClassOf(obo:NBO_0020010 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070018))
 
 # Class: obo:NBO_0020015 (warn other prey)
 
@@ -9470,7 +9377,7 @@ AnnotationAssertion(rdfs:comment obo:NBO_0020023 "PRIOR DEFINITION: Signal or be
 AnnotationAssertion(rdfs:label obo:NBO_0020023 "sexual advertisement")
 SubClassOf(obo:NBO_0020023 obo:NBO_0000147)
 SubClassOf(obo:NBO_0020023 obo:NBO_0000612)
-SubClassOf(obo:NBO_0020023 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000147))
+SubClassOf(obo:NBO_0020023 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000147))
 DisjointClasses(obo:NBO_0020023 obo:NBO_0020242)
 
 # Class: obo:NBO_0020031 (bluff)
@@ -9531,8 +9438,19 @@ SubClassOf(obo:NBO_0020048 obo:NBO_0000034)
 
 # Class: obo:NBO_0020054 (post-mate guarding)
 
+AnnotationAssertion(Annotation(obo:IAO_0000119 "Parker, D. J., & Vahed, K. (2010). The intensity of pre- and post-copulatory mate guarding in relation to spermatophore transfer in the cricket Gryllus bimaculatus. Journal of Ethology, 28(2), 245–249.") Annotation(oboInOwl:hasDbXref "doi:10.1007/s10164-009-0176-6") obo:IAO_0000115 obo:NBO_0020054 "A sexual activity that provides sexual defense by increasing fertilisation rate, reducing search effort for renewed mating, or excluding a competitor.")
+AnnotationAssertion(obo:IAO_0000116 obo:NBO_0020054 "1) Original label includes pre-mate guarding but the definition excludes it. 2) NBO:0000078 post-mating behavior probably needs obsoleting for the same reasons (imprecise definition) as GO:0045297 post-mating behavior was obsoleted.")
+AnnotationAssertion(terms:contributor obo:NBO_0020054 <https://orcid.org/0000-0001-9227-0670>)
+AnnotationAssertion(terms:contributor obo:NBO_0020054 <https://orcid.org/0000-0002-4277-2151>)
+AnnotationAssertion(Annotation(oboInOwl:hasSynonymType obo:OMO_0003008) oboInOwl:hasExactSynonym obo:NBO_0020054 "mate guarding")
+AnnotationAssertion(oboInOwl:hasNarrowSynonym obo:NBO_0020054 "postcopulatory monopoly")
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0020054 "behavior_ontology")
+AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0020054 "postinsemination association")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0020054 "http://purl.obolibrary.org/obo/nbo#ethology_module")
+AnnotationAssertion(rdfs:comment obo:NBO_0020054 "1) One reference notes tandem (contact) and no-contact forms (doi:10.1016/S0003-3472(87)80036-2). 2) Another source gives prolonged copulation as a form (doi:10.22271/j.ento.2016.v4.i2d.908). 3) The female Canid  ‘copulatory lock’ needs defining and positioning in NBO. 4) Extensive use of the term ‘precopulatory mate guarding’ suggests ‘pre-mate guarding’ could find a useful place in the NBO (see doi:10.1016/0022-5193(83)90390-9), in which case a more generic ‘mate guarding’ parent class may be useful (see doi:10.1016/j.anbehav.2021.12.003), possibly incorporating copulatory locking (‘intra-mate guarding’?) and ‘consorting’ (mixed mate guarding) as subclasses.  PRIOR DEFINITION: One member of a recently mating pair prevents the other from subsequent matings with other individuals.")
+AnnotationAssertion(rdfs:label obo:NBO_0020054 "post-mate guarding")
 SubClassOf(obo:NBO_0020054 obo:NBO_0000014)
-SubClassOf(obo:NBO_0020054 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070024))
+SubClassOf(obo:NBO_0020054 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070024))
 
 # Class: obo:NBO_0020059 (occupy refuge)
 
@@ -9577,7 +9495,7 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0020071 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0020071 "PRIOR DEFINITION: Displays or other behaviors performed by pairs in longer term pair bonds to advertise relationship to each other and to other animals nearby.")
 AnnotationAssertion(rdfs:label obo:NBO_0020071 "pair bonding behavior")
 SubClassOf(obo:NBO_0020071 obo:NBO_0000043)
-SubClassOf(obo:NBO_0020071 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070018))
+SubClassOf(obo:NBO_0020071 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070018))
 
 # Class: obo:NBO_0020077 (display condition (to predator))
 
@@ -9641,8 +9559,8 @@ AnnotationAssertion(rdfs:comment obo:NBO_0020098 "1) This is often causally rela
 AnnotationAssertion(rdfs:label obo:NBO_0020098 "courtship begging")
 SubClassOf(obo:NBO_0020098 obo:NBO_0000077)
 SubClassOf(obo:NBO_0020098 obo:NBO_0020034)
+SubClassOf(obo:NBO_0020098 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000077))
 SubClassOf(obo:NBO_0020098 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:CHEBI_33290))
-SubClassOf(obo:NBO_0020098 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000077))
 
 # Class: obo:NBO_0020101 (sexual cannibalism)
 
@@ -9657,7 +9575,7 @@ AnnotationAssertion(rdfs:comment obo:NBO_0020101 "1) The reference notes several
 AnnotationAssertion(rdfs:label obo:NBO_0020101 "sexual cannibalism")
 SubClassOf(obo:NBO_0020101 obo:NBO_0000077)
 SubClassOf(obo:NBO_0020101 obo:NBO_0000079)
-SubClassOf(obo:NBO_0020101 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070014))
+SubClassOf(obo:NBO_0020101 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070014))
 
 # Class: obo:NBO_0020102 (mouth brooding)
 
@@ -9694,10 +9612,10 @@ AnnotationAssertion(rdfs:comment obo:NBO_0020109 "PRIOR DEFINITION: Use of speci
 AnnotationAssertion(rdfs:label obo:NBO_0020109 "sperm scraping")
 SubClassOf(obo:NBO_0020109 obo:NBO_0000548)
 SubClassOf(obo:NBO_0020109 obo:NBO_0020298)
+SubClassOf(obo:NBO_0020109 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0020298))
 SubClassOf(obo:NBO_0020109 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0001968))
 SubClassOf(obo:NBO_0020109 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003134))
 SubClassOf(obo:NBO_0020109 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003135))
-SubClassOf(obo:NBO_0020109 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0020298))
 
 # Class: obo:NBO_0020111 (injure)
 
@@ -9865,7 +9783,7 @@ AnnotationAssertion(rdfs:label obo:NBO_0020204 "mating amplexus")
 SubClassOf(obo:NBO_0020204 obo:NBO_0000034)
 SubClassOf(obo:NBO_0020204 obo:NBO_0020066)
 SubClassOf(obo:NBO_0020204 obo:NBO_0070023)
-SubClassOf(obo:NBO_0020204 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000034))
+SubClassOf(obo:NBO_0020204 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000034))
 
 # Class: obo:NBO_0020219 (misdirect predator)
 
@@ -9927,8 +9845,8 @@ AnnotationAssertion(rdfs:comment obo:NBO_0020242 "PRIOR DEFINITION: Creation of 
 AnnotationAssertion(rdfs:label obo:NBO_0020242 "build display structure")
 SubClassOf(obo:NBO_0020242 obo:NBO_0000147)
 SubClassOf(obo:NBO_0020242 obo:NBO_0000338)
+SubClassOf(obo:NBO_0020242 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000147))
 SubClassOf(obo:NBO_0020242 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:ENVO_01001813))
-SubClassOf(obo:NBO_0020242 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000147))
 
 # Class: obo:NBO_0020245 (mimicry enhancement)
 
@@ -9958,7 +9876,7 @@ AnnotationAssertion(rdfs:comment obo:NBO_0020253 "No class yet exists for deterr
 AnnotationAssertion(rdfs:label obo:NBO_0020253 "intentional courtship appeasement")
 SubClassOf(obo:NBO_0020253 obo:NBO_0000077)
 SubClassOf(obo:NBO_0020253 obo:NBO_0020279)
-SubClassOf(obo:NBO_0020253 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000077))
+SubClassOf(obo:NBO_0020253 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000077))
 
 # Class: obo:NBO_0020254 (sexual harassment)
 
@@ -9971,7 +9889,7 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0020254 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0020254 "PRIOR DEFINITION: Any of several behaviors directed towards one animal unwilling to mate by another eager to do so.")
 AnnotationAssertion(rdfs:label obo:NBO_0020254 "sexual harassment")
 SubClassOf(obo:NBO_0020254 obo:NBO_0020241)
-SubClassOf(obo:NBO_0020254 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070015))
+SubClassOf(obo:NBO_0020254 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070015))
 
 # Class: obo:NBO_0020255 (displacement behavior)
 
@@ -9992,8 +9910,8 @@ AnnotationAssertion(rdfs:comment obo:NBO_0020264 "1) This is often causally rela
 AnnotationAssertion(rdfs:label obo:NBO_0020264 "courtship feeding")
 SubClassOf(obo:NBO_0020264 obo:NBO_0000077)
 SubClassOf(obo:NBO_0020264 obo:NBO_0020173)
+SubClassOf(obo:NBO_0020264 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000077))
 SubClassOf(obo:NBO_0020264 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:CHEBI_33290))
-SubClassOf(obo:NBO_0020264 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000077))
 
 # Class: obo:NBO_0020266 (spermatophore deposition)
 
@@ -10022,7 +9940,7 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0020272 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0020272 "Not only single-mindedness, but speed can affect efficiency if it disables simultaneous activity such as foraging.  PRIOR DEFINITION: Active searching of potential mate.")
 AnnotationAssertion(rdfs:label obo:NBO_0020272 "mate search behavior")
 SubClassOf(obo:NBO_0020272 obo:NBO_0009003)
-SubClassOf(obo:NBO_0020272 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070018))
+SubClassOf(obo:NBO_0020272 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070018))
 
 # Class: obo:NBO_0020273 (breeding site selection)
 
@@ -10035,7 +9953,7 @@ AnnotationAssertion(rdfs:comment obo:NBO_0020273 "PRIOR DEFINITION: Actions resu
 AnnotationAssertion(rdfs:label obo:NBO_0020273 "breeding site selection")
 SubClassOf(obo:NBO_0020273 obo:NBO_0000014)
 SubClassOf(obo:NBO_0020273 obo:NBO_0070006)
-SubClassOf(obo:NBO_0020273 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000014))
+SubClassOf(obo:NBO_0020273 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000014))
 
 # Class: obo:NBO_0020279 (appeasement)
 
@@ -10130,8 +10048,16 @@ SubClassOf(obo:NBO_0020297 obo:NBO_0020177)
 
 # Class: obo:NBO_0020298 (sexual interference)
 
+AnnotationAssertion(Annotation(obo:IAO_0000119 "Arnold, S. J. (1976). Sexual behavior, sexual interference and sexual defense in the salamanders Ambystoma maculatum, Ambystoma tigrinum and Plethodon jordani. Zeitschrift Für Tierpsychologie, 42(3), 247–300.") Annotation(oboInOwl:hasDbXref "doi:10.1111/j.1439-0310.1976.tb00970.x") obo:IAO_0000115 obo:NBO_0020298 "Agonistic behavior that, “may advance its own (reproductive) success by detracting from the sexual success of others of the same sex”.")
+AnnotationAssertion(terms:contributor obo:NBO_0020298 <https://orcid.org/0000-0001-9227-0670>)
+AnnotationAssertion(terms:contributor obo:NBO_0020298 <https://orcid.org/0000-0002-4277-2151>)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0020298 "behavior_ontology")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0020298 "http://purl.obolibrary.org/obo/nbo#do_not_annotate")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0020298 "http://purl.obolibrary.org/obo/nbo#ethology_module")
+AnnotationAssertion(rdfs:comment obo:NBO_0020298 "1) The source reports several observations including: diluting competitors sperm with their own (females have a finite spermathecal volume); covering a rival’s spermatophore with their own; nudging, biting, and chasing competitors to interrupt mating; mimicry of females to distract competitors and then deplete their sperm; mate abduction. 2) Sneaking mimicry (a kind of unobtrusive mating) is posited as a form of sexual interference, although more recent sources say it is actually a form of ‘scramble competition’ (ISBN 0521347904). 3) Wider literature referred to adds: spermatophore destruction and egg eating. 4) Destruction of non-bodily constructions like bowers and nests is another type mentioned (see also doi:10.1080/01584197.2018.1442228). 5) Conspecific fertilised egg cuckolding and infanticide are incidental in our context as parenthood is excluded from our version of reproductive behavior.  PRIOR DEFINITION: Usually interference by members of one sex in the completion of courtship or mating activities by one or more members of the same sex.")
+AnnotationAssertion(rdfs:label obo:NBO_0020298 "sexual interference")
 SubClassOf(obo:NBO_0020298 obo:NBO_0000636)
-SubClassOf(obo:NBO_0020298 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000010))
+SubClassOf(obo:NBO_0020298 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000010))
 
 # Class: obo:NBO_0020299 (mating rejection)
 
@@ -10494,14 +10420,30 @@ DisjointClasses(obo:NBO_0070013 obo:NBO_0070021)
 
 # Class: obo:NBO_0070014 (sexual postural behavior)
 
+AnnotationAssertion(Annotation(obo:IAO_0000119 "Huber, B. A., Sinclair, B. J., & Schmitt, M. (2007). The evolution of asymmetric genitalia in spiders and insects. Biological Reviews, 82(4), 647–698.") Annotation(oboInOwl:hasDbXref "doi:10.1111/j.1469-185X.2007.00029.x") obo:IAO_0000115 obo:NBO_0070014 "Postural behavior that enables, “greater control,” of mating behavior.")
+AnnotationAssertion(terms:contributor obo:NBO_0070014 <https://orcid.org/0000-0002-4277-2151>)
+AnnotationAssertion(terms:date obo:NBO_0070014 "2023-09-05T12:00:00Z"^^xsd:date)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0070014 "behavior_ontology")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070014 "http://purl.obolibrary.org/obo/nbo#do_not_annotate")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070014 "http://purl.obolibrary.org/obo/nbo#ethology_module")
+AnnotationAssertion(rdfs:comment obo:NBO_0070014 "Spawning sub-categories include approach, alignment, run, and clasp; crinoids have been described as arching.")
+AnnotationAssertion(rdfs:label obo:NBO_0070014 "sexual postural behavior")
 SubClassOf(obo:NBO_0070014 obo:NBO_0000355)
+SubClassOf(obo:NBO_0070014 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000014))
 SubClassOf(obo:NBO_0070014 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0014402))
-SubClassOf(obo:NBO_0070014 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000014))
 
 # Class: obo:NBO_0070015 (sexual coercion)
 
+AnnotationAssertion(Annotation(obo:IAO_0000119 "Clutton-Brock, T. H., & Parker, G. A. (1995). Sexual coercion in animal societies. Animal Behaviour, 49(5), 1345–1365.") Annotation(oboInOwl:hasDbXref "doi:10.1006/anbe.1995.0166") obo:IAO_0000115 obo:NBO_0070015 "Mate choice behavior that is compelled.")
+AnnotationAssertion(terms:contributor obo:NBO_0070015 <https://orcid.org/0000-0002-4277-2151>)
+AnnotationAssertion(terms:date obo:NBO_0070015 "2023-09-27T12:00:00Z"^^xsd:date)
+AnnotationAssertion(oboInOwl:hasDbXref obo:NBO_0070015 obo:GSSO_006839)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0070015 "behavior_ontology")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070015 "http://purl.obolibrary.org/obo/nbo#ethology_module")
+AnnotationAssertion(rdfs:comment obo:NBO_0070015 "1) The definition reference notes that harassment, force and intimidation are different forms of sexual coercion. 2) The definition combines its parent classes with a referenced description.")
+AnnotationAssertion(rdfs:label obo:NBO_0070015 "sexual coercion")
 SubClassOf(obo:NBO_0070015 obo:NBO_0020063)
-SubClassOf(obo:NBO_0070015 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070018))
+SubClassOf(obo:NBO_0070015 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070018))
 
 # Class: obo:NBO_0070016 (spawning interaction)
 
@@ -10518,8 +10460,8 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070016 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0070016 "1) This may involve pairing embraces and group spawning rushes in fishes (see https://www.dcbd.nl/sites/default/files/documents/2013_aaus_esdp_diving_for_science-2.pdf#page=187). 2) Also aggregations of motile invertebrates, and synchrony of sessile invertebrates (see doi:10.1080/07924259.1992.9672274) 3) Disrupted interactions can also take distinctive forms.")
 AnnotationAssertion(rdfs:label obo:NBO_0070016 "spawning interaction")
 SubClassOf(obo:NBO_0070016 obo:NBO_0070014)
+SubClassOf(obo:NBO_0070016 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000034))
 SubClassOf(obo:NBO_0070016 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:ENVO_00002006))
-SubClassOf(obo:NBO_0070016 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000034))
 
 # Class: obo:NBO_0070017 (amplectant post-mate guarding)
 
@@ -10531,12 +10473,21 @@ AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0070017 "behavior_ontology"
 AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070017 "http://purl.obolibrary.org/obo/nbo#ethology_module")
 AnnotationAssertion(rdfs:label obo:NBO_0070017 "amplectant post-mate guarding")
 SubClassOf(obo:NBO_0070017 obo:NBO_0070023)
-SubClassOf(obo:NBO_0070017 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0020054))
+SubClassOf(obo:NBO_0070017 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0020054))
 
 # Class: obo:NBO_0070018 (mate choice behavior)
 
+AnnotationAssertion(Annotation(obo:IAO_0000119 "Edward, D. A. (2015). The description of mate choice. Behavioral Ecology, 26(2), 301–310.") Annotation(oboInOwl:hasDbXref "doi:10.1093/beheco/aru142") obo:IAO_0000115 obo:NBO_0070018 "Information processing, “that occurs whenever the effects of traits expressed in one sex leads to non-random allocation of reproductive investment with members of the opposite sex”.")
+AnnotationAssertion(obo:IAO_0000116 obo:NBO_0070018 "1) The label would be ‘mate choice’ except that that is given as hasExactSynonym of the trait NBO:0000145 ‘mating preference’ in the phenotype branch. In due course, the latter needs modifying to become hasRelatedSynonym ‘choosiness’. 2) This class should have simply been a relabelled NBO:0020084 mate finding behavior, were the latter not defined almost identically to its own subclass NBO:0020272 hunt for mate which is itself retained (but relabelled). NBO:0020084 needs obsoleting in due course.")
+AnnotationAssertion(terms:contributor obo:NBO_0070018 <https://orcid.org/0000-0002-4277-2151>)
+AnnotationAssertion(terms:date obo:NBO_0070018 "2023-10-10T12:00:00Z"^^xsd:date)
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0070018 "behavior_ontology")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070018 "http://purl.obolibrary.org/obo/nbo#do_not_annotate")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070018 "http://purl.obolibrary.org/obo/nbo#ethology_module")
+AnnotationAssertion(rdfs:comment obo:NBO_0070018 "According to the reference, traits best describing this behavior are preference and choosiness.")
+AnnotationAssertion(rdfs:label obo:NBO_0070018 "mate choice behavior")
 SubClassOf(obo:NBO_0070018 obo:NBO_0070007)
-SubClassOf(obo:NBO_0070018 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000010))
+SubClassOf(obo:NBO_0070018 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000010))
 
 # Class: obo:NBO_0070019 (mate scanning)
 
@@ -10549,7 +10500,7 @@ AnnotationAssertion(oboInOwl:hasRelatedSynonym obo:NBO_0070019 "mate sampling")
 AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070019 "http://purl.obolibrary.org/obo/nbo#ethology_module")
 AnnotationAssertion(rdfs:label obo:NBO_0070019 "mate scanning")
 SubClassOf(obo:NBO_0070019 obo:NBO_0070007)
-SubClassOf(obo:NBO_0070019 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070018))
+SubClassOf(obo:NBO_0070019 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070018))
 
 # Class: obo:NBO_0070020 (copulatory plugging)
 
@@ -10569,9 +10520,9 @@ AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070020 "http://purl.obolibrary.or
 AnnotationAssertion(rdfs:comment obo:NBO_0070020 "GO uses very similar terms but defined more narrowly than in the wider literature, in which a gelatinous plug is only one type, and formation may precede deposition.")
 AnnotationAssertion(rdfs:label obo:NBO_0070020 "copulatory plugging")
 SubClassOf(obo:NBO_0070020 obo:NBO_0000548)
+SubClassOf(obo:NBO_0070020 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070024))
 SubClassOf(obo:NBO_0070020 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003134))
 SubClassOf(obo:NBO_0070020 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/nbo#has_participant> obo:UBERON_0003135))
-SubClassOf(obo:NBO_0070020 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0070024))
 
 # Class: obo:NBO_0070021 (sperm deposition)
 
@@ -10622,8 +10573,16 @@ SubClassOf(obo:NBO_0070023 ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/
 
 # Class: obo:NBO_0070024 (sexual defense)
 
+AnnotationAssertion(Annotation(obo:IAO_0000119 "Arnold, S. J. (1976). Sexual behavior, sexual interference and sexual defense in the salamanders Ambystoma maculatum, Ambystoma tigrinum and Plethodon jordani. Zeitschrift Für Tierpsychologie, 42(3), 247–300.") Annotation(oboInOwl:hasDbXref "doi:10.1111/j.1439-0310.1976.tb00970.x") obo:IAO_0000115 obo:NBO_0070024 "Agonistic behavior that prevents, “the debilitating effects of sexual interference,” on reproductive behavior.")
+AnnotationAssertion(terms:contributor obo:NBO_0070024 <https://orcid.org/0000-0002-4277-2151>)
+AnnotationAssertion(terms:date obo:NBO_0070024 "2023-11-23T12:00:00Z"^^xsd:date)
+AnnotationAssertion(oboInOwl:hasExactSynonym obo:NBO_0070024 "sexual defence")
+AnnotationAssertion(oboInOwl:hasOBONamespace obo:NBO_0070024 "behavior_ontology")
+AnnotationAssertion(oboInOwl:inSubset obo:NBO_0070024 "http://purl.obolibrary.org/obo/nbo#ethology_module")
+AnnotationAssertion(rdfs:comment obo:NBO_0070024 "The source suggests hasty mating, prolonged mating, mate transportation, biting interlopers, precopulatory and postcopulatory monopoly, territoriality, copulatory plugs, insemination reactions, and group exclusion.")
+AnnotationAssertion(rdfs:label obo:NBO_0070024 "sexual defense")
 SubClassOf(obo:NBO_0070024 obo:NBO_0000636)
-SubClassOf(obo:NBO_0070024 DataSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000010))
+SubClassOf(obo:NBO_0070024 ObjectSomeValuesFrom(obo:BFO_0000050 obo:NBO_0000010))
 
 
 DisjointClasses(obo:NBO_0000048 obo:NBO_0000087 obo:NBO_0020015 obo:NBO_0020031 obo:NBO_0020037 obo:NBO_0020059 obo:NBO_0020077 obo:NBO_0020079 obo:NBO_0020105 obo:NBO_0020117 obo:NBO_0020139 obo:NBO_0020149 obo:NBO_0020175 obo:NBO_0020199 obo:NBO_0020223 obo:NBO_0020230 obo:NBO_0020245 obo:NBO_0020251 obo:NBO_0020268 obo:NBO_0020287 obo:NBO_0020289)
